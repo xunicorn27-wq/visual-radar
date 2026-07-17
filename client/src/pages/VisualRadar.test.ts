@@ -32,7 +32,7 @@ describe("loadVisualRadarPageData", () => {
     expect(getAnalysis).not.toHaveBeenCalled();
   });
 
-  it("starts independent server reads without delaying the latest issue detail", async () => {
+  it("waits for all server reads before loading the latest issue detail", async () => {
     const registry = {
       coverage: {},
       generatedAt: "2026-07-17T00:00:00.000Z",
@@ -56,12 +56,15 @@ describe("loadVisualRadarPageData", () => {
       getItems,
       getSources,
     });
-    await vi.waitFor(() => expect(getIssue).toHaveBeenCalledWith("2026-07-17"));
-    expect(getSources).toHaveBeenCalledOnce();
-    expect(getItems).toHaveBeenCalledOnce();
-    expect(getAnalysis).toHaveBeenCalledOnce();
+    await vi.waitFor(() => {
+      expect(getSources).toHaveBeenCalledOnce();
+      expect(getItems).toHaveBeenCalledOnce();
+      expect(getAnalysis).toHaveBeenCalledOnce();
+    });
+    expect(getIssue).not.toHaveBeenCalled();
 
     resolveSources?.(registry);
     await loading;
+    expect(getIssue).toHaveBeenCalledWith("2026-07-17");
   });
 });

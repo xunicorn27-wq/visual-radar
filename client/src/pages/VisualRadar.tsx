@@ -44,26 +44,23 @@ export async function loadVisualRadarPageData(
   staticMode: boolean,
   loaders: VisualRadarPageLoaders = visualRadarPageLoaders
 ) {
-  const issuesPromise = loaders.getIssues();
-  const issueDetailPromise = issuesPromise.then((issues) =>
-    issues[0] ? loaders.getIssue(issues[0].id) : null
-  );
-
   if (staticMode) {
+    const issues = await loaders.getIssues();
     return {
       analysis: null,
-      issueDetail: await issueDetailPromise,
+      issueDetail: issues[0] ? await loaders.getIssue(issues[0].id) : null,
       items: null,
       registry: null,
     };
   }
 
-  const [issueDetail, registry, items, analysis] = await Promise.all([
-    issueDetailPromise,
+  const [issues, registry, items, analysis] = await Promise.all([
+    loaders.getIssues(),
     loaders.getSources(),
     loaders.getItems(),
     loaders.getAnalysis(),
   ]);
+  const issueDetail = issues[0] ? await loaders.getIssue(issues[0].id) : null;
   return { analysis, issueDetail, items, registry };
 }
 
