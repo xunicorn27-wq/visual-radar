@@ -72,12 +72,93 @@ describe("writeVisualRadarStaticSite", () => {
     const olderDetail = readJson(
       path.join(outputDir, "issues", "2026-07-15.json")
     ) as IssueDetail;
-    expect(newerDetail).toMatchObject({
+    expect(newerDetail).toEqual({
       issue: {
+        featuredStoryIds: ["newer"],
         generatedAt: "2026-07-16T08:00:00.000Z",
         id: "2026-07-16",
         issueDate: "2026-07-16",
-        stats: { storyCount: 1 },
+        metadata: {
+          models: ["gpt-test"],
+          promptVersion: "visual-daily-v1",
+        },
+        skipped: [],
+        stats: {
+          bySource: { "Source newer": 1 },
+          byTopic: { photography: 1 },
+          storyCount: 1,
+        },
+        stories: [
+          {
+            analysis: {
+              analyzedAt: "2026-07-16T07:30:00.000Z",
+              chineseSummary: "Summary newer",
+              chineseTitle: "Chinese title newer",
+              contentHash: "sha1:newer",
+              itemId: "newer",
+              model: "gpt-test",
+              primaryTopic: "photography",
+              promptVersion: "visual-daily-v1",
+              score: 80,
+              scoreBreakdown: {
+                informationSpecificity: 12,
+                novelty: 16,
+                professionalRelevance: 16,
+                sourceQuality: 8,
+                timeliness: 4,
+                visualInspiration: 24,
+              },
+              selectionRationale: "Worth watching",
+              status: "success",
+              trendKeywords: ["photography"],
+            },
+            item: {
+              capturedAt: "2026-07-16T07:00:00.000Z",
+              contentHash: "sha1:newer",
+              dedupKey: "example.com/newer",
+              hashtags: [],
+              id: "newer",
+              interpretation: null,
+              keywords: ["photography"],
+              lang: "en",
+              market: "EU",
+              mediaUrls: [],
+              metrics: {
+                comments: null,
+                growthPct: null,
+                inStock: null,
+                isNew: null,
+                likes: null,
+                postCount: null,
+                previousPrice: null,
+                price: null,
+                rankChange: null,
+                saves: null,
+                searchIndex: null,
+                shares: null,
+              },
+              postedAt: "2026-07-16T06:00:00.000Z",
+              provenance: {
+                authenticity: "live",
+                collector: "visual-radar-rss",
+                evidenceUrl: "https://example.com/newer/feed",
+                label: "real collection",
+              },
+              schemaVersion: "1",
+              signalType: "inspiration_signal",
+              source: "website",
+              sourceAccount: "Source newer",
+              sourceType: "inspiration",
+              sourceUrl: "https://example.com/newer",
+              text: "Summary newer",
+              thumbnailUrl: null,
+              tier: null,
+              title: "Title newer",
+              viviaScore: null,
+            },
+            window: "24h",
+          },
+        ],
         title: "Visual Radar Daily — 2026.07.16",
       },
       navigation: { nextId: null, previousId: "2026-07-15" },
@@ -134,6 +215,89 @@ describe("writeVisualRadarStaticSite", () => {
     ).toThrow('Invalid Visual Radar issue id: "../../escape"');
     expect(fs.existsSync(path.join(root, "escape.json"))).toBe(false);
     expect(fs.existsSync(outputDir)).toBe(false);
+  });
+
+  it.each(["2026-99-99", "2026-02-30"])(
+    "rejects invalid calendar issue id %s",
+    (issueId) => {
+      const root = tempDir("visual-radar-static-date-");
+      const outputDir = path.join(root, "public-data");
+      const invalid = {
+        ...buildIssue("invalid", "2026-07-16T08:00:00.000Z"),
+        id: issueId,
+      };
+
+      expect(() =>
+        writeVisualRadarStaticSite({
+          issueStore: { listIssues: () => [invalid] },
+          outputDir,
+        })
+      ).toThrow(`Invalid Visual Radar issue id: ${JSON.stringify(issueId)}`);
+      expect(fs.existsSync(outputDir)).toBe(false);
+    }
+  );
+
+  it("removes only stale directories with the output-specific temp prefix", () => {
+    const root = tempDir("visual-radar-static-stale-");
+    const outputDir = path.join(root, "public-data");
+    const staleDir = path.join(root, ".public-data-tmp-abandoned");
+    const similarDir = path.join(root, ".public-data-tmp");
+    const otherDir = path.join(root, ".other-output-tmp-abandoned");
+    const matchingFile = path.join(root, ".public-data-tmp-file");
+    fs.mkdirSync(staleDir);
+    fs.mkdirSync(similarDir);
+    fs.mkdirSync(otherDir);
+    fs.writeFileSync(matchingFile, "not a directory\n", "utf-8");
+
+    expect(() =>
+      writeVisualRadarStaticSite({
+        issueStore: {
+          listIssues: () => {
+            throw new Error("stop after stale cleanup");
+          },
+        },
+        outputDir,
+      })
+    ).toThrow("stop after stale cleanup");
+    expect(fs.existsSync(staleDir)).toBe(false);
+    expect(fs.existsSync(similarDir)).toBe(true);
+    expect(fs.existsSync(otherDir)).toBe(true);
+    expect(fs.existsSync(matchingFile)).toBe(true);
+  });
+
+  it("fails clearly before publishing when stale temp cleanup fails", () => {
+    const root = tempDir("visual-radar-static-stale-error-");
+    const outputDir = path.join(root, "public-data");
+    const backupDir = path.join(root, ".public-data.backup");
+    const staleDir = path.join(root, ".public-data-tmp-abandoned");
+    fs.mkdirSync(backupDir);
+    fs.mkdirSync(staleDir);
+    fs.writeFileSync(path.join(backupDir, "existing.txt"), "old\n", "utf-8");
+    let listCalls = 0;
+    const fileSystem = createFileSystem({
+      rmSync(target, options) {
+        if (path.resolve(String(target)) === staleDir) {
+          throw new Error("permission denied");
+        }
+        fs.rmSync(target, options);
+      },
+    });
+
+    expect(() =>
+      writeVisualRadarStaticSite({
+        fileSystem,
+        issueStore: {
+          listIssues: () => {
+            listCalls += 1;
+            return [];
+          },
+        },
+        outputDir,
+      })
+    ).toThrow(`Failed to clean stale Visual Radar temp directory: ${staleDir}`);
+    expect(listCalls).toBe(0);
+    expect(fs.readFileSync(path.join(outputDir, "existing.txt"), "utf-8")).toBe("old\n");
+    expect(fs.existsSync(backupDir)).toBe(false);
   });
 
   it("keeps existing output and removes temporary files when snapshot creation fails", () => {
@@ -260,6 +424,7 @@ function createFileSystem(
     existsSync: fs.existsSync,
     mkdirSync: fs.mkdirSync,
     mkdtempSync: fs.mkdtempSync,
+    readdirSync: fs.readdirSync,
     renameSync: fs.renameSync,
     rmSync: fs.rmSync,
     writeFileSync: fs.writeFileSync,

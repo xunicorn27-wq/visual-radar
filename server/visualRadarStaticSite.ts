@@ -11,6 +11,7 @@ export type VisualRadarStaticSiteFileSystem = Pick<
   | "existsSync"
   | "mkdirSync"
   | "mkdtempSync"
+  | "readdirSync"
   | "renameSync"
   | "rmSync"
   | "writeFileSync"
@@ -31,8 +32,10 @@ export function writeVisualRadarStaticSite(options: {
   const parentDir = path.dirname(outputDir);
   const outputName = path.basename(outputDir);
   const backupDir = path.join(parentDir, `.${outputName}.backup`);
+  const temporaryPrefix = `.${outputName}-tmp-`;
   fileSystem.mkdirSync(parentDir, { recursive: true });
   recoverPreviousPublish(fileSystem, outputDir, backupDir);
+  cleanupStaleTemporaryDirectories(fileSystem, parentDir, temporaryPrefix);
 
   const issues = [...structuredClone(options.issueStore.listIssues())].sort(
     (left, right) => right.generatedAt.localeCompare(left.generatedAt)
@@ -40,14 +43,35 @@ export function writeVisualRadarStaticSite(options: {
   validateIssueIds(issues);
 
   const temporaryDir = fileSystem.mkdtempSync(
-    path.join(parentDir, `.${outputName}-tmp-`)
+    path.join(parentDir, temporaryPrefix)
   );
   try {
     writeSnapshot(fileSystem, temporaryDir, issues, options.now);
-    publishSnapshot(fileSystem, temporaryDir, outputDir, backupDir);
+    replaceOutputRecoverably(fileSystem, temporaryDir, outputDir, backupDir);
     return { issues: issues.length, latestIssueId: issues[0]?.id || null };
   } finally {
     tryRemove(fileSystem, temporaryDir);
+  }
+}
+
+function cleanupStaleTemporaryDirectories(
+  fileSystem: VisualRadarStaticSiteFileSystem,
+  parentDir: string,
+  temporaryPrefix: string
+) {
+  const entries = fileSystem.readdirSync(parentDir, { withFileTypes: true });
+  for (const entry of entries) {
+    if (!entry.isDirectory() || !entry.name.startsWith(temporaryPrefix)) continue;
+    const staleDirectory = path.resolve(parentDir, entry.name);
+    if (path.dirname(staleDirectory) !== parentDir) continue;
+    try {
+      fileSystem.rmSync(staleDirectory, { force: true, recursive: true });
+    } catch (cause) {
+      throw new Error(
+        `Failed to clean stale Visual Radar temp directory: ${staleDirectory}`,
+        { cause }
+      );
+    }
   }
 }
 
@@ -92,7 +116,8 @@ function writeSnapshot(
   });
 }
 
-function publishSnapshot(
+// This build-time replacement is recoverable, but it is not an OS-level atomic directory exchange.
+function replaceOutputRecoverably(
   fileSystem: VisualRadarStaticSiteFileSystem,
   temporaryDir: string,
   outputDir: string,
@@ -118,11 +143,17 @@ function publishSnapshot(
 function validateIssueIds(issues: readonly VisualRadarIssue[]) {
   const seen = new Set<string>();
   for (const issue of issues) {
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(issue.id) || seen.has(issue.id)) {
+    if (!isCalendarDateId(issue.id) || seen.has(issue.id)) {
       throw new Error(`Invalid Visual Radar issue id: ${JSON.stringify(issue.id)}`);
     }
     seen.add(issue.id);
   }
+}
+
+function isCalendarDateId(issueId: string) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(issueId)) return false;
+  const parsed = new Date(`${issueId}T00:00:00.000Z`);
+  return !Number.isNaN(parsed.getTime()) && parsed.toISOString().slice(0, 10) === issueId;
 }
 
 function resolveIssueFilePath(issuesDir: string, issueId: string) {
@@ -142,7 +173,7 @@ function tryRemove(fileSystem: VisualRadarStaticSiteFileSystem, target: string) 
   try {
     fileSystem.rmSync(target, { force: true, recursive: true });
   } catch {
-    // Cleanup is retried at the start of the next publish when the target is a backup.
+    // The next run reports stale temp cleanup failures and retries backup recovery.
   }
 }
 
