@@ -32,10 +32,10 @@ import {
   getVisualRadarIssueDetail,
 } from "./visualRadarWorkflow";
 import {
-  deliverVisualRadarIssue,
   getWeComStatus,
   sendVisualRadarIssueToWeCom,
 } from "./weComPublisher";
+import { createSendVisualRadarIssueHandler } from "./weComRoute";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(__dirname, "..");
@@ -130,17 +130,14 @@ app.get("/api/visual-radar/wecom/status", (_req, res) => {
   res.json(getWeComStatus());
 });
 
-app.post("/api/visual-radar/issues/:issueId/send-wecom", requireCronSecret, async (req, res) => {
-  try {
-    const issue = createVisualRadarIssueStore(files.issues).getIssue(String(req.params.issueId));
-    if (!issue) return res.status(404).json({ error: "日报不存在" });
-    res.json(await deliverVisualRadarIssue(issue, {
-      dryRun: req.query.dryRun === "1",
-    }));
-  } catch (error) {
-    res.status(502).json({ error: "企业微信发送失败", detail: readError(error) });
-  }
-});
+app.post(
+  "/api/visual-radar/issues/:issueId/send-wecom",
+  requireCronSecret,
+  createSendVisualRadarIssueHandler({
+    getIssue: (issueId) =>
+      createVisualRadarIssueStore(files.issues).getIssue(issueId),
+  })
+);
 
 app.post("/api/automation/daily", requireCronSecret, async (req, res) => {
   try {

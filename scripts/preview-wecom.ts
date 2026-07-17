@@ -2,66 +2,55 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { loadProjectEnv } from "../server/env";
+import { resolveProjectPaths } from "../server/paths";
+import {
+  createVisualRadarIssueStore,
+  type VisualRadarIssue,
+} from "../server/visualRadarIssue";
+import { buildWeComMarkdownContent } from "../server/weComPublisher";
 
-export interface PreviewRequestOptions {
-  automationUrl?: string | null;
-  cronSecret: string | null | undefined;
+export function previewWeComIssue({
+  getIssue,
+  issueId,
+  publicUrl,
+}: {
+  getIssue: (issueId: string) => VisualRadarIssue | null;
   issueId: string;
-}
-
-export function buildPreviewRequest(options: PreviewRequestOptions) {
-  const issueId = options.issueId.trim();
-  if (!isRealIssueDate(issueId)) {
+  publicUrl: string | null | undefined;
+}) {
+  const normalizedIssueId = issueId.trim();
+  if (!isRealIssueDate(normalizedIssueId)) {
     throw new Error("Issue ID must be a real YYYY-MM-DD date");
   }
-
-  const cronSecret = options.cronSecret?.trim();
-  if (!cronSecret) throw new Error("CRON_SECRET is required");
-
-  const configuredBase = options.automationUrl?.trim() || "http://localhost:3099";
-  const base = new URL(configuredBase);
-  if (base.protocol !== "http:" && base.protocol !== "https:") {
-    throw new Error("VISUAL_RADAR_AUTOMATION_URL must use HTTP or HTTPS");
+  const normalizedPublicUrl = normalizePublicUrl(publicUrl);
+  const issue = getIssue(normalizedIssueId);
+  if (!issue) {
+    throw new Error(`Visual Radar issue not found: ${normalizedIssueId}`);
   }
-
-  const url = new URL(
-    `/api/visual-radar/issues/${encodeURIComponent(issueId)}/send-wecom?dryRun=1`,
-    base
-  );
   return {
-    init: {
-      headers: { "x-cron-secret": cronSecret },
-      method: "POST" as const,
-    },
-    url: url.toString(),
+    markdown: buildWeComMarkdownContent(issue, normalizedPublicUrl),
+    sent: false as const,
   };
 }
 
-export async function previewWeComIssue({
-  env = process.env,
-  fetchImpl = fetch,
-  issueId,
-}: {
-  env?: NodeJS.ProcessEnv;
-  fetchImpl?: typeof fetch;
-  issueId: string;
-}) {
-  const request = buildPreviewRequest({
-    automationUrl: env.VISUAL_RADAR_AUTOMATION_URL,
-    cronSecret: env.CRON_SECRET,
-    issueId,
-  });
-  const response = await fetchImpl(request.url, request.init);
-  if (!response.ok) {
-    const detail = await response.text().catch(() => "");
-    throw new Error(`WeCom preview failed: HTTP ${response.status} ${detail}`.trim());
+function normalizePublicUrl(value: string | null | undefined) {
+  let url: URL;
+  try {
+    url = new URL(value?.trim() || "");
+  } catch {
+    throw new Error("VISUAL_RADAR_PUBLIC_URL must be a valid HTTP or HTTPS URL");
   }
-
-  const payload = await response.json() as { markdown?: unknown; sent?: unknown };
-  if (typeof payload.markdown !== "string" || payload.sent !== false) {
-    throw new Error("WeCom preview returned an invalid dry-run response");
+  if (
+    (url.protocol !== "http:" && url.protocol !== "https:") ||
+    url.username ||
+    url.password ||
+    url.search ||
+    url.hash
+  ) {
+    throw new Error("VISUAL_RADAR_PUBLIC_URL must be a valid HTTP or HTTPS URL");
   }
-  return { markdown: payload.markdown, sent: false as const };
+  const pathname = url.pathname.replace(/\/+$/, "");
+  return `${url.origin}${pathname}`;
 }
 
 function isRealIssueDate(value: string) {
@@ -77,16 +66,24 @@ function isRealIssueDate(value: string) {
   );
 }
 
-async function main() {
+function main() {
   const projectRoot = path.resolve(import.meta.dirname, "..");
   loadProjectEnv(projectRoot);
-  const result = await previewWeComIssue({ issueId: process.argv[2] || "" });
+  const files = resolveProjectPaths(projectRoot);
+  const issueStore = createVisualRadarIssueStore(files.issues);
+  const result = previewWeComIssue({
+    getIssue: (issueId) => issueStore.getIssue(issueId),
+    issueId: process.argv[2] || "",
+    publicUrl: process.env.VISUAL_RADAR_PUBLIC_URL,
+  });
   console.log(JSON.stringify(result, null, 2));
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  main().catch((error) => {
+  try {
+    main();
+  } catch (error) {
     console.error(error instanceof Error ? error.message : String(error));
     process.exitCode = 1;
-  });
+  }
 }

@@ -43,7 +43,7 @@ pnpm dev
 
 7. 检查 diff 和密钥扫描结果，只提交本期需要的 `data/visual_radar_analysis.json`、`data/visual_radar_issues.json` 及其他明确确认的改动，然后 push 到 `main`。
 8. GitHub Actions 会自动构建并发布 GitHub Pages；等待 Actions 成功后，从手机打开公网详情页验证内容、图片和链接。
-9. 运行 `pnpm wecom:preview -- 2026-07-16` 预览当期企业微信 Markdown。该命令固定使用单期 `dryRun=1`，不会发送；只有用户明确确认后，才能从本地管理区正式发送。
+9. 运行 `pnpm wecom:preview -- 2026-07-16`，直接从本地 issue 离线生成当期企业微信 Markdown。该命令不启动 Express、不读取 `CRON_SECRET` 或 Webhook、没有网络路径，因此不会发送；只有用户明确确认后，才能从本地管理区或明确的正式接口发送。
 
 不要使用已删除的 daily workflow，也不要把 `pnpm daily` 作为当前 Codex + Pages 流程。Pages 只发布静态站点，不采集、不分析、不生成日报，也不发送企业微信。
 
@@ -85,7 +85,6 @@ docker compose up --build -d
 | `OPENAI_MODEL` | 默认 `gpt-5.4-mini`，仅 OpenAI API 模式使用 |
 | `WECOM_BOT_WEBHOOK` | 企业微信群机器人 Webhook，只放在本地 `.env.local` |
 | `VISUAL_RADAR_PUBLIC_URL` | 从 Actions deployment 输出复制的 Pages 项目地址，不带结尾斜杠 |
-| `VISUAL_RADAR_AUTOMATION_URL` | 可选预览 API base；默认 `http://localhost:3099` |
 | `CRON_SECRET` | 本地管理接口鉴权密钥，只放在 `.env.local` |
 | `VISUAL_RADAR_DATA_DIR` | 持久化数据目录 |
 | `PORT` | Express 服务端口，默认 3099 |
