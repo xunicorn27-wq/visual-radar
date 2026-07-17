@@ -9,6 +9,67 @@ const pagesWorkflow = fs.existsSync(pagesWorkflowPath)
   ? fs.readFileSync(pagesWorkflowPath, "utf-8")
   : "";
 const jobs = yamlBlock(pagesWorkflow, "jobs", 0);
+const reviewedPagesWorkflow = `
+name: Deploy Visual Radar Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: visual-radar-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.ref == 'refs/heads/main'
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 11.9.0
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Run tests
+        run: pnpm test
+      - name: Check types
+        run: pnpm check
+      - name: Build GitHub Pages site
+        run: pnpm build:pages
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist/public
+
+  deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: \${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+`;
 
 describe("GitHub automation boundary", () => {
   it("removes the API-dependent daily workflow", () => {
@@ -25,6 +86,13 @@ describe("GitHub automation boundary", () => {
     expect(pagesWorkflow).toContain("name: Deploy Visual Radar Pages");
     expect(pagesWorkflow).toContain("actions/upload-pages-artifact@");
     expect(pagesWorkflow).toContain("actions/deploy-pages@");
+  });
+
+  it("matches the full workflow snapshot; updates require security review", () => {
+    expect(
+      normalizeWorkflow(pagesWorkflow),
+      "Changing the Pages workflow snapshot requires a new security review."
+    ).toBe(normalizeWorkflow(reviewedPagesWorkflow));
   });
 
   it("allows only the static Pages build and deploy jobs", () => {
@@ -102,4 +170,13 @@ function yamlKeys(contents: string, indent: number) {
 function yamlValues(contents: string, key: string) {
   const pattern = new RegExp(`^\\s+${key}:\\s+([^#\\n]+?)\\s*$`, "gm");
   return Array.from(contents.matchAll(pattern), (match) => match[1].trim());
+}
+
+function normalizeWorkflow(contents: string) {
+  return contents
+    .replace(/\\r\\n?/g, "\n")
+    .split("\n")
+    .map((line) => line.trimEnd())
+    .join("\n")
+    .trim();
 }
