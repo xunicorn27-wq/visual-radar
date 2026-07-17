@@ -4,14 +4,14 @@ import { loadProjectEnv } from "../server/env";
 import { resolveProjectPaths } from "../server/paths";
 import { createVisualRadarIssueStore } from "../server/visualRadarIssue";
 import { writeVisualRadarStaticSite } from "../server/visualRadarStaticSite";
-import { copyPublicAssets } from "./public-assets";
+import { stagePagesPublicAssets } from "./public-assets";
 
 const projectRoot = path.resolve(import.meta.dirname, "..");
 loadProjectEnv(projectRoot);
 
 const files = resolveProjectPaths(projectRoot);
 const pagesPublicDir = path.join(projectRoot, ".pages-public");
-copyPublicAssets({
+stagePagesPublicAssets({
   sourceDir: path.join(projectRoot, "client", "public"),
   outputDir: pagesPublicDir,
 });

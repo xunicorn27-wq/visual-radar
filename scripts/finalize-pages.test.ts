@@ -47,6 +47,44 @@ describe("finalizePagesBuild", () => {
     ).toThrow('Duplicate Visual Radar issue id: "2026-07-16"');
     expect(fs.existsSync(path.join(distDir, "issues"))).toBe(false);
   });
+
+  it("removes stale route entries when the issue set shrinks", () => {
+    const distDir = tempDir("visual-radar-pages-stale-");
+    fs.mkdirSync(path.join(distDir, "issues/2026-07-15"), { recursive: true });
+    fs.writeFileSync(path.join(distDir, "index.html"), "current entry", "utf-8");
+    fs.writeFileSync(
+      path.join(distDir, "issues/2026-07-15/index.html"),
+      "stale entry",
+      "utf-8"
+    );
+    fs.writeFileSync(path.join(distDir, "issues/unexpected.txt"), "stale", "utf-8");
+
+    finalizePagesBuild({ distDir, issueIds: ["2026-07-16"] });
+
+    expect(fs.existsSync(path.join(distDir, "issues/2026-07-15"))).toBe(false);
+    expect(fs.existsSync(path.join(distDir, "issues/unexpected.txt"))).toBe(false);
+    expect(read(path.join(distDir, "issues/2026-07-16/index.html"))).toBe(
+      "current entry"
+    );
+  });
+
+  it("replaces an issues symlink without writing through it", () => {
+    const root = tempDir("visual-radar-pages-symlink-");
+    const distDir = path.join(root, "dist");
+    const externalDir = path.join(root, "external");
+    fs.mkdirSync(distDir);
+    fs.mkdirSync(externalDir);
+    fs.writeFileSync(path.join(distDir, "index.html"), "entry", "utf-8");
+    fs.writeFileSync(path.join(externalDir, "keep.txt"), "keep", "utf-8");
+    fs.symlinkSync(externalDir, path.join(distDir, "issues"), "dir");
+
+    finalizePagesBuild({ distDir, issueIds: ["2026-07-16"] });
+
+    expect(fs.lstatSync(path.join(distDir, "issues")).isSymbolicLink()).toBe(false);
+    expect(read(path.join(distDir, "issues/2026-07-16/index.html"))).toBe("entry");
+    expect(fs.readdirSync(externalDir)).toEqual(["keep.txt"]);
+    expect(read(path.join(externalDir, "keep.txt"))).toBe("keep");
+  });
 });
 
 function read(filePath: string) {

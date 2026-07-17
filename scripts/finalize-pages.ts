@@ -9,7 +9,6 @@ export function finalizePagesBuild({
   issueIds: string[];
 }) {
   const resolvedDistDir = path.resolve(distDir);
-  const routes = ["issues"];
   const seen = new Set<string>();
 
   for (const issueId of issueIds) {
@@ -20,13 +19,16 @@ export function finalizePagesBuild({
       throw new Error(`Duplicate Visual Radar issue id: ${JSON.stringify(issueId)}`);
     }
     seen.add(issueId);
-    routes.push(path.join("issues", issueId));
   }
 
-  const routeDirs = routes.map((route) => resolveWithin(resolvedDistDir, route));
   const html = fs.readFileSync(resolveWithin(resolvedDistDir, "index.html"), "utf-8");
+  const issuesDir = resolveWithin(resolvedDistDir, "issues");
+  fs.rmSync(issuesDir, { force: true, recursive: true });
+  fs.mkdirSync(issuesDir, { recursive: true });
+  fs.writeFileSync(resolveWithin(issuesDir, "index.html"), html, "utf-8");
 
-  for (const routeDir of routeDirs) {
+  for (const issueId of issueIds) {
+    const routeDir = resolveWithin(issuesDir, issueId);
     fs.mkdirSync(routeDir, { recursive: true });
     fs.writeFileSync(resolveWithin(routeDir, "index.html"), html, "utf-8");
   }

@@ -1,6 +1,8 @@
 import { Link } from "wouter";
 import { Settings2 } from "lucide-react";
 
+import { buildBaseHashHref } from "../../lib/routerBase";
+
 export function VisualRadarMasthead({
   issueLabel,
   onToggleAdmin,
@@ -15,7 +17,7 @@ export function VisualRadarMasthead({
         <nav aria-label="Visual Radar 主导航">
           <Link href="/">今日日报</Link>
           <Link href="/issues">往期日报</Link>
-          <a href="/#sources">信源</a>
+          <a href={buildBaseHashHref(import.meta.env.BASE_URL, "#sources")}>信源</a>
           {onToggleAdmin ? (
             <button
               type="button"

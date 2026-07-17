@@ -15,7 +15,7 @@ createRoot(document.getElementById("root")!).render(
       <Route path="/" component={VisualRadar} />
       <Route path="/issues" component={VisualRadarArchive} />
       <Route path="/issues/:issueId" component={VisualRadarIssue} />
-      <Route>
+      <Route path="*">
         <main>
           <h1>404</h1>
         </main>
