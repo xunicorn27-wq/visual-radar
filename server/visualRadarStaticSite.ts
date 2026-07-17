@@ -58,7 +58,7 @@ export function writeVisualRadarStaticSite(options: {
       fs.rmSync(backupDir, { force: true, recursive: true });
       backupDir = null;
     }
-    return { issueCount: issues.length, latestIssueId };
+    return { issues: issues.length, latestIssueId };
   } finally {
     fs.rmSync(temporaryDir, { force: true, recursive: true });
     if (backupDir && fs.existsSync(backupDir) && !fs.existsSync(outputDir)) {

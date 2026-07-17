@@ -38,7 +38,7 @@ describe("writeVisualRadarStaticSite", () => {
       outputDir,
     });
 
-    expect(result).toEqual({ issueCount: 2, latestIssueId: newer.id });
+    expect(result).toEqual({ issues: 2, latestIssueId: newer.id });
     expect(readJson(path.join(outputDir, "issues", "index.json"))).toEqual(
       issueStore.listIssues().map(summarizeVisualRadarIssue)
     );
@@ -74,7 +74,7 @@ describe("writeVisualRadarStaticSite", () => {
         now: "2026-07-17T01:02:03.000Z",
         outputDir,
       })
-    ).toEqual({ issueCount: 0, latestIssueId: null });
+    ).toEqual({ issues: 0, latestIssueId: null });
     expect(readJson(path.join(outputDir, "issues", "index.json"))).toEqual([]);
     expect(readJson(path.join(outputDir, "site.json"))).toEqual({
       generatedAt: "2026-07-17T01:02:03.000Z",
