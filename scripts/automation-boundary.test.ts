@@ -31,13 +31,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
       - name: Set up pnpm
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@b906affcce14559ad1aafd4ab0e942779e9f58b1 # v4
         with:
           version: 11.9.0
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: 22
           cache: pnpm
@@ -50,9 +50,9 @@ jobs:
       - name: Build GitHub Pages site
         run: pnpm build:pages
       - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
       - name: Upload GitHub Pages artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:
           path: dist/public
 
@@ -68,7 +68,7 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
 `;
 
 describe("GitHub automation boundary", () => {
@@ -101,12 +101,12 @@ describe("GitHub automation boundary", () => {
 
   it("allows only the reviewed Pages actions", () => {
     expect(yamlValues(pagesWorkflow, "uses")).toEqual([
-      "actions/checkout@v6",
-      "pnpm/action-setup@v4",
-      "actions/setup-node@v4",
-      "actions/configure-pages@v5",
-      "actions/upload-pages-artifact@v4",
-      "actions/deploy-pages@v4",
+      "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "pnpm/action-setup@b906affcce14559ad1aafd4ab0e942779e9f58b1",
+      "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b",
+      "actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b",
+      "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
     ]);
   });
 
@@ -168,7 +168,10 @@ function yamlKeys(contents: string, indent: number) {
 }
 
 function yamlValues(contents: string, key: string) {
-  const pattern = new RegExp(`^\\s+${key}:\\s+([^#\\n]+?)\\s*$`, "gm");
+  const pattern = new RegExp(
+    `^\\s+${key}:\\s+([^#\\n]+?)(?:\\s+#.*)?$`,
+    "gm"
+  );
   return Array.from(contents.matchAll(pattern), (match) => match[1].trim());
 }
 

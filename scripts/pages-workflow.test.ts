@@ -33,18 +33,18 @@ describe("GitHub Pages workflow", () => {
     expect(buildJob).toContain("    runs-on: ubuntu-latest");
 
     expectInOrder(buildJob, [
-      "uses: actions/checkout@v6",
-      "uses: pnpm/action-setup@v4",
+      "uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "uses: pnpm/action-setup@b906affcce14559ad1aafd4ab0e942779e9f58b1",
       "version: 11.9.0",
-      "uses: actions/setup-node@v4",
+      "uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
       "node-version: 22",
       "cache: pnpm",
       "run: pnpm install --frozen-lockfile",
       "run: pnpm test",
       "run: pnpm check",
       "run: pnpm build:pages",
-      "uses: actions/configure-pages@v5",
-      "uses: actions/upload-pages-artifact@v4",
+      "uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b",
+      "uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b",
       "path: dist/public",
     ]);
   });
@@ -61,7 +61,7 @@ describe("GitHub Pages workflow", () => {
     expectInOrder(deployJob, [
       "- name: Deploy to GitHub Pages",
       "id: deployment",
-      "uses: actions/deploy-pages@v4",
+      "uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
     ]);
   });
 
@@ -73,6 +73,18 @@ describe("GitHub Pages workflow", () => {
     /\/api\/[^\s"']*daily|daily[^\n]*api/i,
   ])("does not contain forbidden secret or external trigger %s", (forbidden) => {
     expect(workflow).not.toMatch(forbidden);
+  });
+
+  it("pins every third-party action to a full commit SHA", () => {
+    const actionReferences = Array.from(
+      workflow.matchAll(/^\s+uses:\s+([^#\s]+)(?:\s+#.*)?$/gm),
+      (match) => match[1]
+    );
+
+    expect(actionReferences).not.toHaveLength(0);
+    expect(actionReferences.every((reference) => /@[0-9a-f]{40}$/.test(reference))).toBe(
+      true
+    );
   });
 });
 

@@ -233,6 +233,71 @@ describe("importVisualRadarAgentOutput", () => {
     ).toThrow("Agent output analysis at index 0 has an invalid contentHash");
   });
 
+  it.each([
+    ["chineseTitle", { chineseTitle: " " }],
+    ["chineseSummary", { chineseSummary: null }],
+    ["selectionRationale", { selectionRationale: undefined }],
+  ])("rejects an invalid required text field: %s", (field, override) => {
+    expect(() =>
+      importVisualRadarAgentOutput({
+        batch,
+        current,
+        output: {
+          ...output,
+          analyses: [{ ...output.analyses[0], ...override }],
+        },
+      })
+    ).toThrow(`Agent output analysis at index 0 has an invalid ${field}`);
+  });
+
+  it("rejects an unsupported primary topic", () => {
+    expect(() =>
+      importVisualRadarAgentOutput({
+        batch,
+        current,
+        output: {
+          ...output,
+          analyses: [{ ...output.analyses[0], primaryTopic: "architecture" }],
+        },
+      })
+    ).toThrow("Agent output analysis at index 0 has an invalid primaryTopic");
+  });
+
+  it.each([
+    ["missing breakdown", undefined],
+    ["missing score", { ...output.analyses[0].scoreBreakdown, novelty: undefined }],
+    ["non-numeric score", { ...output.analyses[0].scoreBreakdown, novelty: "high" }],
+    ["out-of-range score", { ...output.analyses[0].scoreBreakdown, novelty: 21 }],
+  ])("rejects an invalid score breakdown: %s", (_case, scoreBreakdown) => {
+    expect(() =>
+      importVisualRadarAgentOutput({
+        batch,
+        current,
+        output: {
+          ...output,
+          analyses: [{ ...output.analyses[0], scoreBreakdown }],
+        },
+      })
+    ).toThrow("Agent output analysis at index 0 has an invalid scoreBreakdown");
+  });
+
+  it.each([
+    ["non-array", "photography"],
+    ["empty", []],
+    ["blank entry", ["photography", " "]],
+  ])("rejects invalid trend keywords: %s", (_case, trendKeywords) => {
+    expect(() =>
+      importVisualRadarAgentOutput({
+        batch,
+        current,
+        output: {
+          ...output,
+          analyses: [{ ...output.analyses[0], trendKeywords }],
+        },
+      })
+    ).toThrow("Agent output analysis at index 0 has invalid trendKeywords");
+  });
+
   it("rejects a non-object batch with a domain error", () => {
     expect(() =>
       importVisualRadarAgentOutput({ batch: null, current, output })

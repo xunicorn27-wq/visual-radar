@@ -1,10 +1,23 @@
 import {
   VISUAL_ANALYSIS_PROMPT_VERSION,
+  VISUAL_SCORE_LIMITS,
   normalizeVisualRadarAnalysis,
   type RawVisualRadarAnalysis,
   type VisualRadarAnalysisArtifact,
+  type VisualRadarScoreBreakdown,
 } from "./visualRadarAnalysis";
 import { mergeVisualRadarAnalysisArtifact } from "./visualRadarAnalysisStore";
+
+const VISUAL_TOPICS = new Set([
+  "creator",
+  "exhibition",
+  "fashion_culture",
+  "magazine",
+  "outfit",
+  "photography",
+  "styling",
+  "tool",
+]);
 
 export interface VisualRadarAgentOutput {
   analyses: Array<
@@ -103,10 +116,44 @@ function parseAgentOutput(value: unknown): VisualRadarAgentOutput {
         `Agent output analysis at index ${index} has an invalid contentHash`
       );
     }
+    for (const field of [
+      "chineseTitle",
+      "chineseSummary",
+      "selectionRationale",
+    ] as const) {
+      if (!isNonEmptyString(analysis[field])) {
+        throw new Error(
+          `Agent output analysis at index ${index} has an invalid ${field}`
+        );
+      }
+    }
+    if (
+      !isNonEmptyString(analysis.primaryTopic) ||
+      !VISUAL_TOPICS.has(analysis.primaryTopic)
+    ) {
+      throw new Error(
+        `Agent output analysis at index ${index} has an invalid primaryTopic`
+      );
+    }
+    if (!isValidScoreBreakdown(analysis.scoreBreakdown)) {
+      throw new Error(
+        `Agent output analysis at index ${index} has an invalid scoreBreakdown`
+      );
+    }
+    if (!isValidTrendKeywords(analysis.trendKeywords)) {
+      throw new Error(
+        `Agent output analysis at index ${index} has invalid trendKeywords`
+      );
+    }
     return {
-      ...analysis,
+      chineseSummary: analysis.chineseSummary,
+      chineseTitle: analysis.chineseTitle,
       contentHash: analysis.contentHash,
       itemId: analysis.itemId,
+      primaryTopic: analysis.primaryTopic,
+      scoreBreakdown: analysis.scoreBreakdown,
+      selectionRationale: analysis.selectionRationale,
+      trendKeywords: analysis.trendKeywords,
     };
   });
 
@@ -157,6 +204,30 @@ function isRecord(value: unknown): value is Record<string, unknown> {
 
 function isNonEmptyString(value: unknown): value is string {
   return typeof value === "string" && value.trim().length > 0;
+}
+
+function isValidScoreBreakdown(
+  value: unknown
+): value is VisualRadarScoreBreakdown {
+  if (!isRecord(value)) return false;
+
+  return Object.entries(VISUAL_SCORE_LIMITS).every(([key, maximum]) => {
+    const score = value[key];
+    return (
+      typeof score === "number" &&
+      Number.isFinite(score) &&
+      score >= 0 &&
+      score <= maximum
+    );
+  });
+}
+
+function isValidTrendKeywords(value: unknown): value is string[] {
+  return (
+    Array.isArray(value) &&
+    value.length > 0 &&
+    value.every(isNonEmptyString)
+  );
 }
 
 function isValidIsoTimestamp(value: unknown): value is string {

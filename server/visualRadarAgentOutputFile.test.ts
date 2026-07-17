@@ -22,10 +22,21 @@ const batch = {
 const output = {
   analyses: [
     {
+      chineseSummary: "这是一条摄影文化摘要。",
+      chineseTitle: "摄影文化标题",
       contentHash: candidate.contentHash,
       itemId: candidate.id,
       primaryTopic: "photography",
-      scoreBreakdown: { visualInspiration: 20 },
+      scoreBreakdown: {
+        informationSpecificity: 0,
+        novelty: 0,
+        professionalRelevance: 0,
+        sourceQuality: 0,
+        timeliness: 0,
+        visualInspiration: 20,
+      },
+      selectionRationale: "具有明确的视觉参考价值。",
+      trendKeywords: ["摄影", "视觉文化"],
     },
   ],
   generatedAt: "2026-07-17T02:00:00.000Z",
