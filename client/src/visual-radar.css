@@ -291,12 +291,15 @@
 
 .vr-story-lead {
   display: grid;
-  grid-template-columns: minmax(0, 1.45fr) minmax(320px, 0.55fr);
+  grid-template-columns: minmax(0, 1fr) minmax(360px, 480px);
   gap: 32px;
+  align-items: start;
 }
 
 .vr-story-media {
   display: block;
+  min-width: 0;
+  max-width: 100%;
   overflow: hidden;
   background: #ededed;
   color: inherit;
@@ -348,7 +351,7 @@
 }
 
 .vr-story-lead h2 {
-  font-size: 46px;
+  font-size: 40px;
 }
 
 .vr-story-copy > p:not(.vr-rationale) {
