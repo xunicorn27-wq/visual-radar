@@ -3,7 +3,12 @@ import path from "node:path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
+  base: process.env.VITE_VISUAL_RADAR_BASE_PATH || "/",
   plugins: [react()],
+  publicDir:
+    process.env.VISUAL_RADAR_STATIC === "1"
+      ? path.resolve(import.meta.dirname, ".pages-public")
+      : "public",
   root: path.resolve(import.meta.dirname, "client"),
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),

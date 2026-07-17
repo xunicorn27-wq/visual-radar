@@ -12,6 +12,7 @@
     "agent:import": "tsx scripts/import-agent-output.ts",
     "pages:data": "tsx scripts/generate-static-site.ts",
     "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
+    "build:pages": "npm run pages:data && VISUAL_RADAR_STATIC=1 VITE_VISUAL_RADAR_DATA_MODE=static VITE_VISUAL_RADAR_BASE_PATH=/visual-radar/ vite build && tsx scripts/finalize-pages.ts",
     "start": "NODE_ENV=production node dist/index.js",
     "test": "vitest run",
     "check": "tsc --noEmit"
