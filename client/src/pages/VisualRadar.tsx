@@ -1,5 +1,5 @@
 import { Loader2 } from "lucide-react";
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useLocation } from "wouter";
 
 import { VisualRadarAdmin } from "../components/visual-radar/VisualRadarAdmin";
@@ -32,6 +32,20 @@ interface VisualRadarPageLoaders {
   getSources: () => Promise<IntelSourceRegistrySnapshot>;
 }
 
+interface VisualRadarBaseData {
+  analysis: VisualRadarAnalysisArtifact;
+  items: VisualRadarArtifact;
+  registry: IntelSourceRegistrySnapshot;
+}
+
+interface VisualRadarPageLoadCallbacks {
+  isActive?: () => boolean;
+  onBaseData?: (data: VisualRadarBaseData) => void;
+  onError?: (error: Error) => void;
+  onIssueDetail?: (detail: VisualRadarIssueDetail | null) => void;
+  onSettled?: () => void;
+}
+
 const visualRadarPageLoaders: VisualRadarPageLoaders = {
   getAnalysis: getVisualRadarAnalysis,
   getIssue: getVisualRadarIssue,
@@ -42,26 +56,48 @@ const visualRadarPageLoaders: VisualRadarPageLoaders = {
 
 export async function loadVisualRadarPageData(
   staticMode: boolean,
-  loaders: VisualRadarPageLoaders = visualRadarPageLoaders
+  loaders: VisualRadarPageLoaders = visualRadarPageLoaders,
+  callbacks: VisualRadarPageLoadCallbacks = {}
 ) {
-  if (staticMode) {
-    const issues = await loaders.getIssues();
-    return {
-      analysis: null,
-      issueDetail: issues[0] ? await loaders.getIssue(issues[0].id) : null,
-      items: null,
-      registry: null,
-    };
+  const isActive = callbacks.isActive || (() => true);
+  let baseData: VisualRadarBaseData | null = null;
+  let issueDetail: VisualRadarIssueDetail | null = null;
+  let error: Error | null = null;
+
+  try {
+    if (staticMode) {
+      const issues = await loaders.getIssues();
+      issueDetail = issues[0] ? await loaders.getIssue(issues[0].id) : null;
+      if (isActive()) callbacks.onIssueDetail?.(issueDetail);
+      return { baseData, error, issueDetail };
+    }
+
+    const issuesPromise = loaders.getIssues();
+    const detailPromise = issuesPromise.then((issues) =>
+      issues[0] ? loaders.getIssue(issues[0].id) : null
+    );
+    void detailPromise.catch(() => undefined);
+    const [, registry, items, analysis] = await Promise.all([
+      issuesPromise,
+      loaders.getSources(),
+      loaders.getItems(),
+      loaders.getAnalysis(),
+    ]);
+    baseData = { analysis, items, registry };
+    if (isActive()) callbacks.onBaseData?.(baseData);
+
+    issueDetail = await detailPromise;
+    if (isActive()) callbacks.onIssueDetail?.(issueDetail);
+  } catch (loadError) {
+    error = loadError instanceof Error
+      ? loadError
+      : new Error("Visual Radar 加载失败");
+    if (isActive()) callbacks.onError?.(error);
+  } finally {
+    if (isActive()) callbacks.onSettled?.();
   }
 
-  const [issues, registry, items, analysis] = await Promise.all([
-    loaders.getIssues(),
-    loaders.getSources(),
-    loaders.getItems(),
-    loaders.getAnalysis(),
-  ]);
-  const issueDetail = issues[0] ? await loaders.getIssue(issues[0].id) : null;
-  return { analysis, issueDetail, items, registry };
+  return { baseData, error, issueDetail };
 }
 
 export default function VisualRadar() {
@@ -77,25 +113,29 @@ export default function VisualRadar() {
   const [registry, setRegistry] = useState<IntelSourceRegistrySnapshot | null>(null);
   const [status, setStatus] = useState<string | null>(null);
 
-  const loadPage = useCallback(async () => {
+  useEffect(() => {
+    let active = true;
     setLoading(true);
     setError(null);
-    try {
-      const data = await loadVisualRadarPageData(visualRadarStaticMode);
-      setRegistry(data.registry);
-      setItems(data.items);
-      setAnalysis(data.analysis);
-      setIssueDetail(data.issueDetail);
-    } catch (loadError) {
-      setError(loadError instanceof Error ? loadError.message : "Visual Radar 加载失败");
-    } finally {
-      setLoading(false);
-    }
+    void loadVisualRadarPageData(
+      visualRadarStaticMode,
+      visualRadarPageLoaders,
+      {
+        isActive: () => active,
+        onBaseData: (data) => {
+          setRegistry(data.registry);
+          setItems(data.items);
+          setAnalysis(data.analysis);
+        },
+        onError: (loadError) => setError(loadError.message),
+        onIssueDetail: setIssueDetail,
+        onSettled: () => setLoading(false),
+      }
+    );
+    return () => {
+      active = false;
+    };
   }, []);
-
-  useEffect(() => {
-    void loadPage();
-  }, [loadPage]);
 
   async function runAction(action: "agent" | "analyze" | "collect" | "generate" | "publish") {
     setBusyAction(action);
