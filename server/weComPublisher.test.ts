@@ -17,6 +17,22 @@ describe("weComPublisher", () => {
     expect(markdown).toContain("https://visual.example.com/issues/2026-07-16");
   });
 
+  it("links a report below the GitHub Pages project path", () => {
+    const markdown = buildWeComMarkdownContent(
+      issue(),
+      "https://visual-radar-owner.github.io/visual-radar/"
+    );
+
+    expect(markdown).toContain(
+      "https://visual-radar-owner.github.io/visual-radar/issues/2026-07-16"
+    );
+    expect(markdown).not.toContain(
+      "https://visual-radar-owner.github.io/visual-radar//issues/2026-07-16"
+    );
+    expect(markdown).toContain("精选标题 10");
+    expect(markdown).not.toContain("精选标题 11");
+  });
+
   it("returns status without exposing the webhook", () => {
     expect(getWeComStatus({
       publicUrl: "https://visual.example.com",
