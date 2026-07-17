@@ -41,18 +41,20 @@ git commit -m "Initial standalone Visual Radar"
 gh repo create visual-radar --private --source=. --remote=origin --push
 ```
 
-## 4. 配置 GitHub Actions Secrets
+## 4. GitHub Actions Secrets（当前不需要）
 
-进入仓库：`Settings` → `Secrets and variables` → `Actions` → `New repository secret`。
+当前采用 Pages-only/Codex 模式。GitHub Actions 只测试、构建并发布仓库中的静态内容，不调用公网 Express 服务，也不运行 daily automation。
 
-只需要添加：
+因此，当前 **不需要任何 GitHub Actions Secrets**。不要添加：
 
-| 名称 | 值 |
-| --- | --- |
-| `DEPLOYED_URL` | 已部署的公网地址，不要带结尾斜杠 |
-| `CRON_SECRET` | 与部署服务环境变量完全一致的随机长字符串 |
+- `DEPLOYED_URL`
+- `CRON_SECRET`
+- `OPENAI_API_KEY`
+- `WECOM_BOT_WEBHOOK`
 
-OpenAI API Key 和企业微信 Webhook 建议只放在部署平台环境变量里，不必交给 GitHub Actions。GitHub 官方建议敏感值使用 Secrets，并使用最小权限：[GitHub Actions Secrets](https://docs.github.com/en/actions/reference/security/secrets)、[安全使用 Actions](https://docs.github.com/en/actions/reference/security/secure-use)。
+只有未来恢复公网 Express daily automation，并完成新的安全评审、权限设计和 contract test 后，触发工作流才可能需要 `DEPLOYED_URL` 和 `CRON_SECRET`。OpenAI API Key 和企业微信 Webhook 仍应只保存在 Express 部署平台，不应交给 Pages 工作流。
+
+GitHub 官方参考：[GitHub Actions Secrets](https://docs.github.com/en/actions/reference/security/secrets)、[安全使用 Actions](https://docs.github.com/en/actions/reference/security/secure-use)。
 
 ## 5. 后续更新
 
@@ -67,5 +69,5 @@ git push
 ```bash
 pnpm test
 pnpm check
-pnpm build
+pnpm build:pages
 ```
