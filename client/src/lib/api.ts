@@ -116,6 +116,31 @@ export interface VisualRadarAnalyzeResponse {
   summary: { analyzed: number; cached: number; failed: number; totalEligible: number };
 }
 
+export const visualRadarStaticMode =
+  import.meta.env.VITE_VISUAL_RADAR_DATA_MODE === "static";
+
+type VisualRadarReadResource = "analysis" | "items" | "issue" | "issues" | "sources";
+
+export function buildVisualRadarReadUrl(
+  resource: VisualRadarReadResource,
+  options: { baseUrl: string; issueId?: string; staticMode: boolean }
+) {
+  if (!options.staticMode) {
+    return resource === "issue"
+      ? `/api/visual-radar/issues/${encodeURIComponent(options.issueId || "")}`
+      : `/api/visual-radar/${resource}`;
+  }
+
+  const baseUrl = options.baseUrl.endsWith("/")
+    ? options.baseUrl
+    : `${options.baseUrl}/`;
+  if (resource === "issues") return `${baseUrl}public-data/issues/index.json`;
+  if (resource === "issue") {
+    return `${baseUrl}public-data/issues/${encodeURIComponent(options.issueId || "")}.json`;
+  }
+  throw new Error(`静态站点不提供 ${resource} 数据`);
+}
+
 async function req<T>(url: string, options: RequestInit = {}, secret?: string): Promise<T> {
   const headers = new Headers(options.headers);
   if (options.body) headers.set("Content-Type", "application/json");
@@ -131,8 +156,22 @@ async function req<T>(url: string, options: RequestInit = {}, secret?: string): 
 export const getVisualRadarSources = () => req<IntelSourceRegistrySnapshot>("/api/visual-radar/sources");
 export const getVisualRadarItems = () => req<VisualRadarArtifact>("/api/visual-radar/items");
 export const getVisualRadarAnalysis = () => req<VisualRadarAnalysisArtifact>("/api/visual-radar/analysis");
-export const getVisualRadarIssues = () => req<VisualRadarIssueSummary[]>("/api/visual-radar/issues");
-export const getVisualRadarIssue = (id: string) => req<VisualRadarIssueDetail>(`/api/visual-radar/issues/${encodeURIComponent(id)}`);
+const visualRadarReadOptions = {
+  baseUrl: import.meta.env.BASE_URL,
+  staticMode: visualRadarStaticMode,
+};
+
+export const getVisualRadarIssues = () =>
+  req<VisualRadarIssueSummary[]>(
+    buildVisualRadarReadUrl("issues", visualRadarReadOptions)
+  );
+export const getVisualRadarIssue = (id: string) =>
+  req<VisualRadarIssueDetail>(
+    buildVisualRadarReadUrl("issue", {
+      ...visualRadarReadOptions,
+      issueId: id,
+    })
+  );
 export const refreshVisualRadarItems = (secret: string) => req<VisualRadarArtifact>("/api/visual-radar/refresh", { method: "POST" }, secret);
 export const analyzeVisualRadarItems = (secret: string) => req<VisualRadarAnalyzeResponse>("/api/visual-radar/analyze", { method: "POST" }, secret);
 export const prepareVisualRadarAgentBatch = (secret: string) => req<VisualRadarAgentBatch>("/api/visual-radar/agent/prepare", { method: "POST" }, secret);

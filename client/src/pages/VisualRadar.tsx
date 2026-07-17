@@ -1,5 +1,5 @@
 import { Loader2 } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { useLocation } from "wouter";
 
 import { VisualRadarAdmin } from "../components/visual-radar/VisualRadarAdmin";
@@ -19,8 +19,53 @@ import {
   type VisualRadarAnalysisArtifact,
   type VisualRadarArtifact,
   type VisualRadarIssueDetail,
+  type VisualRadarIssueSummary,
+  visualRadarStaticMode,
 } from "../lib/api";
 import { VisualRadarIssueContent } from "./VisualRadarIssue";
+
+interface VisualRadarPageLoaders {
+  getAnalysis: () => Promise<VisualRadarAnalysisArtifact>;
+  getIssue: (id: string) => Promise<VisualRadarIssueDetail>;
+  getIssues: () => Promise<VisualRadarIssueSummary[]>;
+  getItems: () => Promise<VisualRadarArtifact>;
+  getSources: () => Promise<IntelSourceRegistrySnapshot>;
+}
+
+const visualRadarPageLoaders: VisualRadarPageLoaders = {
+  getAnalysis: getVisualRadarAnalysis,
+  getIssue: getVisualRadarIssue,
+  getIssues: getVisualRadarIssues,
+  getItems: getVisualRadarItems,
+  getSources: getVisualRadarSources,
+};
+
+export async function loadVisualRadarPageData(
+  staticMode: boolean,
+  loaders: VisualRadarPageLoaders = visualRadarPageLoaders
+) {
+  const issuesPromise = loaders.getIssues();
+  const issueDetailPromise = issuesPromise.then((issues) =>
+    issues[0] ? loaders.getIssue(issues[0].id) : null
+  );
+
+  if (staticMode) {
+    return {
+      analysis: null,
+      issueDetail: await issueDetailPromise,
+      items: null,
+      registry: null,
+    };
+  }
+
+  const [issueDetail, registry, items, analysis] = await Promise.all([
+    issueDetailPromise,
+    loaders.getSources(),
+    loaders.getItems(),
+    loaders.getAnalysis(),
+  ]);
+  return { analysis, issueDetail, items, registry };
+}
 
 export default function VisualRadar() {
   const [, navigate] = useLocation();
@@ -35,30 +80,25 @@ export default function VisualRadar() {
   const [registry, setRegistry] = useState<IntelSourceRegistrySnapshot | null>(null);
   const [status, setStatus] = useState<string | null>(null);
 
-  useEffect(() => {
-    void loadPage();
-  }, []);
-
-  async function loadPage() {
+  const loadPage = useCallback(async () => {
     setLoading(true);
     setError(null);
     try {
-      const [issues, nextRegistry, nextItems, nextAnalysis] = await Promise.all([
-        getVisualRadarIssues(),
-        getVisualRadarSources(),
-        getVisualRadarItems(),
-        getVisualRadarAnalysis(),
-      ]);
-      setRegistry(nextRegistry);
-      setItems(nextItems);
-      setAnalysis(nextAnalysis);
-      setIssueDetail(issues[0] ? await getVisualRadarIssue(issues[0].id) : null);
+      const data = await loadVisualRadarPageData(visualRadarStaticMode);
+      setRegistry(data.registry);
+      setItems(data.items);
+      setAnalysis(data.analysis);
+      setIssueDetail(data.issueDetail);
     } catch (loadError) {
       setError(loadError instanceof Error ? loadError.message : "Visual Radar 加载失败");
     } finally {
       setLoading(false);
     }
-  }
+  }, []);
+
+  useEffect(() => {
+    void loadPage();
+  }, [loadPage]);
 
   async function runAction(action: "agent" | "analyze" | "collect" | "generate" | "publish") {
     setBusyAction(action);
@@ -111,9 +151,13 @@ export default function VisualRadar() {
     <main className="vr-root">
       <VisualRadarMasthead
         issueLabel={issueDetail ? `VOL.${issueDetail.issue.id}` : "FIRST EDITION"}
-        onToggleAdmin={() => setAdminOpen((open) => !open)}
+        onToggleAdmin={
+          visualRadarStaticMode
+            ? undefined
+            : () => setAdminOpen((open) => !open)
+        }
       />
-      {adminOpen ? (
+      {!visualRadarStaticMode && adminOpen ? (
         <VisualRadarAdmin
           adminSecret={adminSecret}
           busyAction={busyAction}
@@ -139,24 +183,41 @@ export default function VisualRadar() {
       {loading ? (
         <div className="vr-message"><Loader2 className="vr-spin" /> 正在加载 Visual Radar</div>
       ) : null}
+      {!loading && visualRadarStaticMode && error ? (
+        <div className="vr-message">{error}</div>
+      ) : null}
       {!loading && issueDetail ? (
         <VisualRadarIssueContent issue={issueDetail.issue} />
       ) : null}
-      {!loading && !issueDetail ? (
+      {!loading && !issueDetail && (!visualRadarStaticMode || !error) ? (
         <section className="vr-empty">
-          <span>VOL.001</span>
-          <h1>第一期<br />等待生成</h1>
-          <p>先完成 AI 解读，再生成今日日报。</p>
-          <button type="button" onClick={() => setAdminOpen(true)}>打开管理区</button>
+          <span>{visualRadarStaticMode ? "READ ONLY" : "VOL.001"}</span>
+          <h1>
+            {visualRadarStaticMode ? (
+              <>暂无<br />日报</>
+            ) : (
+              <>第一期<br />等待生成</>
+            )}
+          </h1>
+          <p>
+            {visualRadarStaticMode
+              ? "暂时还没有可供阅读的日报。"
+              : "先完成 AI 解读，再生成今日日报。"}
+          </p>
+          {visualRadarStaticMode ? null : (
+            <button type="button" onClick={() => setAdminOpen(true)}>打开管理区</button>
+          )}
         </section>
       ) : null}
 
-      <section id="sources" className="vr-source-strip">
-        <span>{registry?.summary.live || 0} LIVE SOURCES</span>
-        <span>{registry?.summary.planned || 0} IN QUEUE</span>
-        <span>{items?.items.length || 0} RAW SIGNALS</span>
-        <span>{analysis?.analyses.length || 0} ANALYZED</span>
-      </section>
+      {visualRadarStaticMode ? null : (
+        <section id="sources" className="vr-source-strip">
+          <span>{registry?.summary.live || 0} LIVE SOURCES</span>
+          <span>{registry?.summary.planned || 0} IN QUEUE</span>
+          <span>{items?.items.length || 0} RAW SIGNALS</span>
+          <span>{analysis?.analyses.length || 0} ANALYZED</span>
+        </section>
+      )}
     </main>
   );
 }
