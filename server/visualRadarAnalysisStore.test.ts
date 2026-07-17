@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 
 import type {
   VisualRadarAnalysis,
@@ -11,6 +11,7 @@ import {
   mergeVisualRadarAnalysisArtifact,
   readVisualRadarAnalysisArtifact,
   writeVisualRadarAnalysisArtifact,
+  writeVisualRadarAnalysisArtifactAtomic,
 } from "./visualRadarAnalysisStore";
 
 const analysis: VisualRadarAnalysis = {
@@ -81,6 +82,56 @@ describe("visualRadarAnalysisStore", () => {
 
     expect(merged.analyses).toEqual([analysis]);
     expect(merged.failures).toEqual([]);
+  });
+
+  it("atomically replaces an existing analysis artifact", () => {
+    const filePath = tempFile();
+    writeVisualRadarAnalysisArtifact(filePath, {
+      analyses: [],
+      failures: [],
+      generatedAt: "2026-07-16T01:00:00.000Z",
+      promptVersion: "visual-daily-v1",
+    });
+
+    writeVisualRadarAnalysisArtifactAtomic(filePath, {
+      analyses: [analysis],
+      failures: [],
+      generatedAt: analysis.analyzedAt,
+      promptVersion: analysis.promptVersion,
+    });
+
+    expect(readVisualRadarAnalysisArtifact(filePath).analyses).toEqual([analysis]);
+    expect(fs.readdirSync(path.dirname(filePath))).toEqual(["analysis.json"]);
+  });
+
+  it("preserves the old artifact and cleans up when atomic replacement fails", () => {
+    const filePath = tempFile();
+    const original = {
+      analyses: [],
+      failures: [],
+      generatedAt: "2026-07-16T01:00:00.000Z",
+      promptVersion: "visual-daily-v1",
+    };
+    writeVisualRadarAnalysisArtifact(filePath, original);
+    const rename = vi
+      .spyOn(fs, "renameSync")
+      .mockImplementationOnce(() => {
+        throw new Error("rename failed");
+      });
+
+    try {
+      expect(() =>
+        writeVisualRadarAnalysisArtifactAtomic(filePath, {
+          ...original,
+          analyses: [analysis],
+        })
+      ).toThrow("rename failed");
+    } finally {
+      rename.mockRestore();
+    }
+
+    expect(readVisualRadarAnalysisArtifact(filePath)).toEqual(original);
+    expect(fs.readdirSync(path.dirname(filePath))).toEqual(["analysis.json"]);
   });
 });
 

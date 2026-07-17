@@ -4,7 +4,6 @@ import {
   type RawVisualRadarAnalysis,
   type VisualRadarAnalysisArtifact,
 } from "./visualRadarAnalysis";
-import type { VisualRadarAgentBatch } from "./visualRadarAgentBatch";
 import { mergeVisualRadarAnalysisArtifact } from "./visualRadarAnalysisStore";
 
 export interface VisualRadarAgentOutput {
@@ -25,23 +24,18 @@ export function importVisualRadarAgentOutput({
   current,
   output,
 }: {
-  batch: VisualRadarAgentBatch;
+  batch: unknown;
   current: VisualRadarAnalysisArtifact;
-  output: VisualRadarAgentOutput;
+  output: unknown;
 }) {
-  if (output.schemaVersion !== "1") {
-    throw new Error("Agent output schema is unsupported");
-  }
-  if (output.promptVersion !== VISUAL_ANALYSIS_PROMPT_VERSION) {
-    throw new Error("Agent output prompt version mismatch");
-  }
-  if (output.model !== "codex-agent") {
-    throw new Error("Agent output model is unsupported");
-  }
+  const parsedBatch = parseAgentBatch(batch);
+  const parsedOutput = parseAgentOutput(output);
 
-  const candidates = new Map(batch.candidates.map((item) => [item.id, item]));
+  const candidates = new Map(
+    parsedBatch.candidates.map((item) => [item.id, item])
+  );
   const seenItemIds = new Set<string>();
-  const analyses = output.analyses.map((raw) => {
+  const analyses = parsedOutput.analyses.map((raw) => {
     const item = candidates.get(raw.itemId);
     if (!item) {
       throw new Error(`Agent output contains unknown candidate: ${raw.itemId}`);
@@ -55,11 +49,11 @@ export function importVisualRadarAgentOutput({
     seenItemIds.add(raw.itemId);
 
     return normalizeVisualRadarAnalysis(raw, {
-      analyzedAt: output.generatedAt,
+      analyzedAt: parsedOutput.generatedAt,
       contentHash: item.contentHash,
       itemId: item.id,
-      model: output.model,
-      promptVersion: output.promptVersion,
+      model: parsedOutput.model,
+      promptVersion: parsedOutput.promptVersion,
     });
   });
 
@@ -67,9 +61,128 @@ export function importVisualRadarAgentOutput({
     artifact: mergeVisualRadarAnalysisArtifact(current, {
       analyses,
       failures: [],
-      generatedAt: output.generatedAt,
-      promptVersion: output.promptVersion,
+      generatedAt: parsedOutput.generatedAt,
+      promptVersion: parsedOutput.promptVersion,
     }),
-    summary: { imported: analyses.length, submitted: output.analyses.length },
+    summary: {
+      imported: analyses.length,
+      submitted: parsedOutput.analyses.length,
+    },
   };
+}
+
+function parseAgentOutput(value: unknown): VisualRadarAgentOutput {
+  if (!isRecord(value)) {
+    throw new Error("Agent output must be an object");
+  }
+  if (value.schemaVersion !== "1") {
+    throw new Error("Agent output schema is unsupported");
+  }
+  if (value.promptVersion !== VISUAL_ANALYSIS_PROMPT_VERSION) {
+    throw new Error("Agent output prompt version mismatch");
+  }
+  if (value.model !== "codex-agent") {
+    throw new Error("Agent output model is unsupported");
+  }
+  if (!isValidIsoTimestamp(value.generatedAt)) {
+    throw new Error("Agent output generatedAt must be a valid ISO timestamp");
+  }
+  if (!Array.isArray(value.analyses)) {
+    throw new Error("Agent output analyses must be an array");
+  }
+
+  const analyses = value.analyses.map((analysis, index) => {
+    if (!isRecord(analysis)) {
+      throw new Error(`Agent output analysis at index ${index} must be an object`);
+    }
+    if (!isNonEmptyString(analysis.itemId)) {
+      throw new Error(`Agent output analysis at index ${index} has an invalid itemId`);
+    }
+    if (!isNonEmptyString(analysis.contentHash)) {
+      throw new Error(
+        `Agent output analysis at index ${index} has an invalid contentHash`
+      );
+    }
+    return {
+      ...analysis,
+      contentHash: analysis.contentHash,
+      itemId: analysis.itemId,
+    };
+  });
+
+  return {
+    analyses,
+    generatedAt: value.generatedAt,
+    model: "codex-agent",
+    promptVersion: VISUAL_ANALYSIS_PROMPT_VERSION,
+    schemaVersion: "1",
+  };
+}
+
+function parseAgentBatch(value: unknown) {
+  if (!isRecord(value)) {
+    throw new Error("Agent batch must be an object");
+  }
+  if (value.status !== "prepared") {
+    throw new Error("Agent batch is not prepared");
+  }
+  if (value.stage !== "value_screening") {
+    throw new Error("Agent batch stage is unsupported");
+  }
+  if (!Array.isArray(value.candidates)) {
+    throw new Error("Agent batch candidates must be an array");
+  }
+
+  const candidates = value.candidates.map((candidate, index) => {
+    if (!isRecord(candidate)) {
+      throw new Error(`Agent batch candidate at index ${index} must be an object`);
+    }
+    if (!isNonEmptyString(candidate.id)) {
+      throw new Error(`Agent batch candidate at index ${index} has an invalid id`);
+    }
+    if (!isNonEmptyString(candidate.contentHash)) {
+      throw new Error(
+        `Agent batch candidate at index ${index} has an invalid contentHash`
+      );
+    }
+    return { contentHash: candidate.contentHash, id: candidate.id };
+  });
+
+  return { candidates };
+}
+
+function isRecord(value: unknown): value is Record<string, unknown> {
+  return typeof value === "object" && value !== null && !Array.isArray(value);
+}
+
+function isNonEmptyString(value: unknown): value is string {
+  return typeof value === "string" && value.trim().length > 0;
+}
+
+function isValidIsoTimestamp(value: unknown): value is string {
+  if (typeof value !== "string") return false;
+  const match = value.match(
+    /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})(?:\.\d+)?(?:Z|([+-])(\d{2}):(\d{2}))$/
+  );
+  if (!match) return false;
+
+  const [, year, month, day, hour, minute, second, , offsetHour, offsetMinute] =
+    match;
+  const numericYear = Number(year);
+  const numericMonth = Number(month);
+  const numericDay = Number(day);
+  const daysInMonth = new Date(Date.UTC(numericYear, numericMonth, 0)).getUTCDate();
+
+  return (
+    numericMonth >= 1 &&
+    numericMonth <= 12 &&
+    numericDay >= 1 &&
+    numericDay <= daysInMonth &&
+    Number(hour) <= 23 &&
+    Number(minute) <= 59 &&
+    Number(second) <= 59 &&
+    (offsetHour === undefined ||
+      (Number(offsetHour) <= 23 && Number(offsetMinute) <= 59)) &&
+    !Number.isNaN(Date.parse(value))
+  );
 }

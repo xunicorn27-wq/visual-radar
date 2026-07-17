@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { randomUUID } from "node:crypto";
 
 import {
   VISUAL_ANALYSIS_PROMPT_VERSION,
@@ -35,6 +36,34 @@ export function writeVisualRadarAnalysisArtifact(
 ) {
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
   fs.writeFileSync(filePath, `${JSON.stringify(artifact, null, 2)}\n`, "utf-8");
+}
+
+export function writeVisualRadarAnalysisArtifactAtomic(
+  filePath: string,
+  artifact: VisualRadarAnalysisArtifact
+) {
+  const directory = path.dirname(filePath);
+  const temporaryPath = path.join(
+    directory,
+    `.${path.basename(filePath)}.${process.pid}.${randomUUID()}.tmp`
+  );
+  fs.mkdirSync(directory, { recursive: true });
+
+  try {
+    fs.writeFileSync(
+      temporaryPath,
+      `${JSON.stringify(artifact, null, 2)}\n`,
+      "utf-8"
+    );
+    fs.renameSync(temporaryPath, filePath);
+  } catch (error) {
+    try {
+      if (fs.existsSync(temporaryPath)) fs.unlinkSync(temporaryPath);
+    } catch {
+      // Preserve the original write error if cleanup also fails.
+    }
+    throw error;
+  }
 }
 
 export function mergeVisualRadarAnalysisArtifact(

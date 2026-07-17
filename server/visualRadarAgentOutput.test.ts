@@ -169,4 +169,144 @@ describe("importVisualRadarAgentOutput", () => {
       })
     ).toThrow(message);
   });
+
+  it("rejects a non-object output with a domain error", () => {
+    expect(() =>
+      importVisualRadarAgentOutput({ batch, current, output: null })
+    ).toThrow("Agent output must be an object");
+  });
+
+  it.each([
+    ["missing", undefined],
+    ["invalid", "not-a-date"],
+  ])("rejects a %s generatedAt", (_case, generatedAt) => {
+    expect(() =>
+      importVisualRadarAgentOutput({
+        batch,
+        current,
+        output: { ...output, generatedAt },
+      })
+    ).toThrow("Agent output generatedAt must be a valid ISO timestamp");
+  });
+
+  it("rejects a non-array analyses value", () => {
+    expect(() =>
+      importVisualRadarAgentOutput({
+        batch,
+        current,
+        output: { ...output, analyses: {} },
+      })
+    ).toThrow("Agent output analyses must be an array");
+  });
+
+  it("rejects a null analysis entry with a domain error", () => {
+    expect(() =>
+      importVisualRadarAgentOutput({
+        batch,
+        current,
+        output: { ...output, analyses: [null] },
+      })
+    ).toThrow("Agent output analysis at index 0 must be an object");
+  });
+
+  it("rejects analysis entries without non-empty identity fields", () => {
+    expect(() =>
+      importVisualRadarAgentOutput({
+        batch,
+        current,
+        output: {
+          ...output,
+          analyses: [{ ...output.analyses[0], itemId: " " }],
+        },
+      })
+    ).toThrow("Agent output analysis at index 0 has an invalid itemId");
+
+    expect(() =>
+      importVisualRadarAgentOutput({
+        batch,
+        current,
+        output: {
+          ...output,
+          analyses: [{ ...output.analyses[0], contentHash: "" }],
+        },
+      })
+    ).toThrow("Agent output analysis at index 0 has an invalid contentHash");
+  });
+
+  it("rejects a non-object batch with a domain error", () => {
+    expect(() =>
+      importVisualRadarAgentOutput({ batch: null, current, output })
+    ).toThrow("Agent batch must be an object");
+  });
+
+  it("rejects a batch that is not prepared for value screening", () => {
+    expect(() =>
+      importVisualRadarAgentOutput({
+        batch: { ...batch, status: "complete" },
+        current,
+        output,
+      })
+    ).toThrow("Agent batch is not prepared");
+
+    expect(() =>
+      importVisualRadarAgentOutput({
+        batch: { ...batch, stage: "translation" },
+        current,
+        output,
+      })
+    ).toThrow("Agent batch stage is unsupported");
+  });
+
+  it("rejects malformed batch candidates with domain errors", () => {
+    expect(() =>
+      importVisualRadarAgentOutput({
+        batch: { ...batch, candidates: null },
+        current,
+        output,
+      })
+    ).toThrow("Agent batch candidates must be an array");
+
+    expect(() =>
+      importVisualRadarAgentOutput({
+        batch: { ...batch, candidates: [null] },
+        current,
+        output,
+      })
+    ).toThrow("Agent batch candidate at index 0 must be an object");
+
+    expect(() =>
+      importVisualRadarAgentOutput({
+        batch: { ...batch, candidates: [{ id: "", contentHash: "sha1:x" }] },
+        current,
+        output,
+      })
+    ).toThrow("Agent batch candidate at index 0 has an invalid id");
+
+    expect(() =>
+      importVisualRadarAgentOutput({
+        batch: { ...batch, candidates: [{ id: "candidate-1", contentHash: "" }] },
+        current,
+        output,
+      })
+    ).toThrow("Agent batch candidate at index 0 has an invalid contentHash");
+  });
+
+  it("leaves current unchanged when a later analysis is invalid", () => {
+    const before = structuredClone(current);
+
+    expect(() =>
+      importVisualRadarAgentOutput({
+        batch,
+        current,
+        output: {
+          ...output,
+          analyses: [
+            output.analyses[0],
+            { ...output.analyses[0], itemId: "unknown" },
+          ],
+        },
+      })
+    ).toThrow("Agent output contains unknown candidate: unknown");
+    expect(current).toEqual(before);
+  });
 });
