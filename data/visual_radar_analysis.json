@@ -839,9 +839,2089 @@
         "性别表演",
         "时尚档案"
       ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "V&A 以近期馆藏新增为线索，把金属工艺从装饰品重新放回材料实验、手工技术与当代设计语言的交叉位置。对造型、配饰和产品视觉研究者来说，它提供了观察金属表面、结构和工艺叙事的参考。",
+      "chineseTitle": "当代金属工艺如何进入视觉文化现场",
+      "contentHash": "sha1:ee3d6f4cc1e8d80c3bf750e0e639f359c38b2d01",
+      "itemId": "visual-vam-fashion-nkxvzs",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "机构馆藏新增具有可追溯性，材料和工艺维度明确，适合补充视觉材质研究。",
+      "status": "success",
+      "trendKeywords": [
+        "金属工艺",
+        "当代馆藏",
+        "材料语言"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "V&A 的线上课程以英国刺绣史为主线，把图像、手工劳动和装饰传统连接起来。它不算即时新闻，但对理解服装细节、纺织图案和历史视觉叙事仍有参考价值。",
+      "chineseTitle": "从贝叶挂毯到莫里斯：刺绣作为千年视觉叙事",
+      "contentHash": "sha1:e954c4f27f63f2ff8a03d5b760a3c9232471867f",
+      "itemId": "visual-vam-fashion-zgtmcz",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 61,
+      "scoreBreakdown": {
+        "informationSpecificity": 9,
+        "novelty": 11,
+        "professionalRelevance": 12,
+        "sourceQuality": 7,
+        "timeliness": 4,
+        "visualInspiration": 18
+      },
+      "selectionRationale": "内容偏课程信息，时效和新鲜度有限，但历史跨度和工艺线索对服装文化有用。",
+      "status": "success",
+      "trendKeywords": [
+        "刺绣史",
+        "纺织图案",
+        "装饰传统"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "“Dispersal” 以东伦敦城市变化为对象，关注影像如何记录社区、空间和迁移。它把城市更新议题转化为可观看的视觉材料，适合作为摄影与空间叙事案例。",
+      "chineseTitle": "东伦敦城市变迁被放进 V&A East 的图像档案",
+      "contentHash": "sha1:72bf49e9d62d669670b06e17cab2d98b2eac8511",
+      "itemId": "visual-vam-fashion-1h81bsb",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "主题具有城市影像和档案价值，虽然简介短，但机构来源和议题清晰。",
+      "status": "success",
+      "trendKeywords": [
+        "城市影像",
+        "东伦敦",
+        "空间变迁"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "这门课程强调图像解读、符号和观看路径，适合把艺术史训练转译到摄影、时装大片和展览观看中。作为日报素材，它更偏基础方法论而非新鲜事件。",
+      "chineseTitle": "如何读懂一幅画：V&A 把观看方法做成公共课程",
+      "contentHash": "sha1:3abedc4cebbaef713d74691155c5f7f3e8634a98",
+      "itemId": "visual-vam-fashion-1y82t2v",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 61,
+      "scoreBreakdown": {
+        "informationSpecificity": 9,
+        "novelty": 11,
+        "professionalRelevance": 12,
+        "sourceQuality": 7,
+        "timeliness": 4,
+        "visualInspiration": 18
+      },
+      "selectionRationale": "方法论有价值，但新闻性和具体视觉案例不足，适合低优先级保留。",
+      "status": "success",
+      "trendKeywords": [
+        "观看方法",
+        "图像解读",
+        "艺术教育"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "V&A 用最新馆藏呈现全球当代摄影的发展方向，能看到机构如何判断当代摄影的主题、媒介和收藏价值。它对摄影编辑、策展和视觉研究都有直接参考意义。",
+      "chineseTitle": "V&A “Photography Now” 展示全球当代摄影新增馆藏",
+      "contentHash": "sha1:100be007f5ec5898c83436d4b6759d9518eec330",
+      "itemId": "visual-vam-fashion-c238c3",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 85,
+      "scoreBreakdown": {
+        "informationSpecificity": 12,
+        "novelty": 16,
+        "professionalRelevance": 17,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 26
+      },
+      "selectionRationale": "摄影主题直接、机构权威、与当代馆藏判断相关，适合进入日报候选。",
+      "status": "success",
+      "trendKeywords": [
+        "当代摄影",
+        "馆藏新增",
+        "摄影策展"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "“Pieces of Space” 以 Julieta Gil 的新 display 为核心，提示空间、图像和装置之间的关系。虽然资料简短，但艺术家项目适合观察空间影像如何被拆解与重组。",
+      "chineseTitle": "Julieta Gil 在 V&A 展示“空间碎片”的新观看方式",
+      "contentHash": "sha1:7fc28f70b66573b923a5bdd6c2e4f7815fcc80da",
+      "itemId": "visual-vam-fashion-1xj64he",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "具体艺术家和空间主题明确，但信息量偏少，分数略低于大型展览。",
+      "status": "success",
+      "trendKeywords": [
+        "空间叙事",
+        "Julieta Gil",
+        "装置观看"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Family Festival 更偏公共教育和亲子活动，包含舞蹈、音乐、工作坊与自然主题。它能反映博物馆如何设计参与式体验，但专业视觉价值有限。",
+      "chineseTitle": "V&A 家庭节把自然、舞蹈与手作变成公共视觉体验",
+      "contentHash": "sha1:18ef1438a013616217b27535d51931db3741f651",
+      "itemId": "visual-vam-fashion-17ju5ua",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 44,
+      "scoreBreakdown": {
+        "informationSpecificity": 7,
+        "novelty": 8,
+        "professionalRelevance": 8,
+        "sourceQuality": 6,
+        "timeliness": 3,
+        "visualInspiration": 12
+      },
+      "selectionRationale": "活动属性强、专业线索少，适合记录但不优先推荐。",
+      "status": "success",
+      "trendKeywords": [
+        "公共教育",
+        "参与式体验",
+        "博物馆活动"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "V&A Fashion in Motion 邀请 Sinéad O’Dwyer 以连续 runway 呈现作品，她的设计长期关注身体差异、贴身结构和表演性。该项目适合观察包容性时装如何从秀场转入博物馆现场。",
+      "chineseTitle": "Sinéad O’Dwyer 在 V&A 用 runway 重新激活身体与服装",
+      "contentHash": "sha1:0845ff8115bb6cf0161c6308284e3b2ef942e115",
+      "itemId": "visual-vam-fashion-oln77s",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 91,
+      "scoreBreakdown": {
+        "informationSpecificity": 13,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "设计师、机构和现场形式都很强，兼具身体政治和服装结构参考。",
+      "status": "success",
+      "trendKeywords": [
+        "包容性时装",
+        "身体结构",
+        "博物馆秀场"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Palais Galliera 聚焦 Stephen Jones 自 1980 年代以来的帽饰创作，展示帽子如何作为轮廓、表演和身份表达的核心部件。对造型师和时尚影像来说，这是高密度的头部造型参考。",
+      "chineseTitle": "Stephen Jones 帽饰回顾：把头部造型变成时装雕塑",
+      "contentHash": "sha1:884242b85d188abe314e29316bfb03ad2e916266",
+      "itemId": "visual-palais-galliera-1pi10sy",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 85,
+      "scoreBreakdown": {
+        "informationSpecificity": 12,
+        "novelty": 16,
+        "professionalRelevance": 17,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 26
+      },
+      "selectionRationale": "重要设计师回顾展，帽饰和身体比例关系明确，视觉启发度高。",
+      "status": "success",
+      "trendKeywords": [
+        "帽饰设计",
+        "头部造型",
+        "时装雕塑"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Palais Galliera 的 Paolo Roversi 展览梳理其五十年摄影实践，尤其是柔光、慢速曝光和时装肖像的独特语法。它是理解高级时装影像气质的重要案例。",
+      "chineseTitle": "Paolo Roversi 五十年摄影回顾：柔光、时间与高级时装影像",
+      "contentHash": "sha1:3bdc6e20a086cd2f4a7038be2f178248e7fccb37",
+      "itemId": "visual-palais-galliera-wulbnw",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 91,
+      "scoreBreakdown": {
+        "informationSpecificity": 13,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "摄影大师回顾展，专业相关度和视觉方法都非常强。",
+      "status": "success",
+      "trendKeywords": [
+        "Paolo Roversi",
+        "时装摄影",
+        "柔光肖像"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Palais Galliera 与 Petit Palais 联合呈现 House of Worth，讨论高级定制如何被制度化、品牌化和视觉化。它能为今天的 couture、档案展示和品牌叙事提供历史坐标。",
+      "chineseTitle": "Worth 展览回到高级定制的发明现场",
+      "contentHash": "sha1:76c6f99e7e4d74737c7f33df693ded98d52671af",
+      "itemId": "visual-palais-galliera-c68ljp",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 85,
+      "scoreBreakdown": {
+        "informationSpecificity": 12,
+        "novelty": 16,
+        "professionalRelevance": 17,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 26
+      },
+      "selectionRationale": "高级定制源头议题清楚，机构合作规格高，适合时尚文化日报。",
+      "status": "success",
+      "trendKeywords": [
+        "高级定制",
+        "Worth",
+        "时装档案"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Martin Margiela 1989-2009 女装展以 130 多套造型和秀场影像梳理其二十年实践。它把解构、匿名性、再制和身体比例放在一起，仍是当代造型语言的硬参考。",
+      "chineseTitle": "Margiela 女装展亚洲首个综合回顾：解构不再只是风格标签",
+      "contentHash": "sha1:9770ffd5061b47fb314e3f6ce1970e158b11cc4c",
+      "itemId": "visual-palais-galliera-nsswhw",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 91,
+      "scoreBreakdown": {
+        "informationSpecificity": 13,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "Margiela 综合展对时装史和当代造型影响极大，视觉与专业价值都高。",
+      "status": "success",
+      "trendKeywords": [
+        "Margiela",
+        "解构主义",
+        "女装档案"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Palais Galliera 的 18 世纪时装展关注历史服饰如何被后世想象、复制和消费。它能帮助读者理解宫廷轮廓、装饰语汇和现代时装之间的互文关系。",
+      "chineseTitle": "18 世纪时装遗产如何被幻想和再造",
+      "contentHash": "sha1:edf1d301dd53986b99d6b5f7fe64c6cc4f3fc757",
+      "itemId": "visual-palais-galliera-19s48u9",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "历史主题有文化价值，但简介较少，优先级略低于大型专题展。",
+      "status": "success",
+      "trendKeywords": [
+        "18世纪时装",
+        "历史想象",
+        "服装遗产"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "TOP Collection “明日の食卓”把餐桌作为观看社会、家庭和未来生活的摄影入口。它提示日常物如何成为影像叙事中心，适合摄影专题和生活视觉研究。",
+      "chineseTitle": "东京都写真美术馆以“明日餐桌”重看日常图像",
+      "contentHash": "sha1:0e168dae1e7492b0195cfd0796d6378b6210a239",
+      "itemId": "visual-tokyo-photo-museum-mwdks4",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "摄影馆藏主题明确，日常叙事可延展，但当前资料较短。",
+      "status": "success",
+      "trendKeywords": [
+        "日常摄影",
+        "餐桌叙事",
+        "TOP Collection"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Sony World Photography Awards 展览提供年度摄影奖项的全球样本，可以观察新闻、纪实、商业和艺术摄影的当年趋势。它对摄影行业判断有用，但奖项展本身较常规。",
+      "chineseTitle": "Sony World Photography Awards 2026 登陆东京写真美术馆",
+      "contentHash": "sha1:e88b0ee378142f536f32b12fc4e5b67142d11d58",
+      "itemId": "visual-tokyo-photo-museum-mwdkx5",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "年度摄影奖有行业参考价值，信息明确但新颖性中等。",
+      "status": "success",
+      "trendKeywords": [
+        "摄影奖项",
+        "全球摄影",
+        "年度趋势"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "“Asian Contemporary” 指向亚洲当代影像的区域性整理，可能涉及身份、城市和媒介实验。虽然目前是预告状态，但主题方向对亚洲视觉文化观察值得保留。",
+      "chineseTitle": "东京写真美术馆预告“亚洲当代”摄影展",
+      "contentHash": "sha1:7700cc9b1f2b41d471bf61f6aae1fee6194859fd",
+      "itemId": "visual-tokyo-photo-museum-mwdksr",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 61,
+      "scoreBreakdown": {
+        "informationSpecificity": 9,
+        "novelty": 11,
+        "professionalRelevance": 12,
+        "sourceQuality": 7,
+        "timeliness": 4,
+        "visualInspiration": 18
+      },
+      "selectionRationale": "区域主题有潜力，但信息不足且展期较远，暂作中等优先级。",
+      "status": "success",
+      "trendKeywords": [
+        "亚洲当代",
+        "摄影展",
+        "区域影像"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Nikon Small World 与 JOICO AWARD 展将显微摄影和科学视觉带入美术馆语境。它的价值在于跨越科学成像、抽象图案和摄影美学。",
+      "chineseTitle": "显微影像展把科学图像推向摄影观看",
+      "contentHash": "sha1:80613abc9095d84890ac8debbb3ffa52140b2527",
+      "itemId": "visual-tokyo-photo-museum-mwdkx7",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "科学影像具有独特视觉性，但与时尚文化关联稍弱。",
+      "status": "success",
+      "trendKeywords": [
+        "显微摄影",
+        "科学影像",
+        "抽象图案"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Adobe 财报说明创意软件市场仍保持增长，但这条主要是企业财务信息。除非结合产品路线，否则对摄影和视觉文化日报的直接启发有限。",
+      "chineseTitle": "Adobe Q2 业绩刷新纪录，但视觉方法信息有限",
+      "contentHash": "sha1:6d50414f6a502dab5869d6900ee0f079582aeea7",
+      "itemId": "visual-adobe-news-1jyjoai",
+      "model": "codex-agent",
+      "primaryTopic": "tool",
+      "promptVersion": "visual-daily-v1",
+      "score": 30,
+      "scoreBreakdown": {
+        "informationSpecificity": 5,
+        "novelty": 5,
+        "professionalRelevance": 5,
+        "sourceQuality": 5,
+        "timeliness": 2,
+        "visualInspiration": 8
+      },
+      "selectionRationale": "财务结果不等于创作工具更新，专业读者可略过。",
+      "status": "success",
+      "trendKeywords": [
+        "Adobe",
+        "创意软件",
+        "财报"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "DaVinci Resolve 的新功能页强调剪辑、调色、VFX 与音频后期一体化，对影像创作者仍是核心工具信息。它适合作为工具类补充，但具体新增点需要进一步展开。",
+      "chineseTitle": "DaVinci Resolve 更新继续整合剪辑、调色与后期工作流",
+      "contentHash": "sha1:37653d16a6ded622f721945c6686ebc964c06bc0",
+      "itemId": "visual-blackmagic-resolve-9aycvr",
+      "model": "codex-agent",
+      "primaryTopic": "tool",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "工具相关度强，信息偏概览，适合中高分保留。",
+      "status": "success",
+      "trendKeywords": [
+        "DaVinci Resolve",
+        "调色",
+        "后期工作流"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Runway 的长期研究方向把重点放在“理解视觉世界及其动态”，意味着 AI 影像工具不只是生成镜头，而是走向可预测、可模拟的世界模型。这对视频创作、预演和视觉叙事工具链影响很大。",
+      "chineseTitle": "Runway 提出 General World Models：AI 影像从生成画面转向理解世界",
+      "contentHash": "sha1:7ec4d92155232767d071bd879b1709173e6a2326",
+      "itemId": "visual-runway-1endmth",
+      "model": "codex-agent",
+      "primaryTopic": "tool",
+      "promptVersion": "visual-daily-v1",
+      "score": 91,
+      "scoreBreakdown": {
+        "informationSpecificity": 13,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "AI 影像研究方向明确且前沿，对视觉创作工具和电影工作流高度相关。",
+      "status": "success",
+      "trendKeywords": [
+        "世界模型",
+        "AI视频",
+        "Runway Research"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Topaz Labs 的 SIGGRAPH 信息说明影像增强、放大和视频修复工具继续向专业图形会议靠拢。它有工具行业信号，但内容更像参展预告。",
+      "chineseTitle": "Topaz Labs 将在 SIGGRAPH 展示影像增强工具",
+      "contentHash": "sha1:acd80f02fb2d467ead0bd14b547a497bc82a057a",
+      "itemId": "visual-topaz-labs-buala0",
+      "model": "codex-agent",
+      "primaryTopic": "tool",
+      "promptVersion": "visual-daily-v1",
+      "score": 61,
+      "scoreBreakdown": {
+        "informationSpecificity": 9,
+        "novelty": 11,
+        "professionalRelevance": 12,
+        "sourceQuality": 7,
+        "timeliness": 4,
+        "visualInspiration": 18
+      },
+      "selectionRationale": "与专业影像工具有关，但信息量有限，优先级中等。",
+      "status": "success",
+      "trendKeywords": [
+        "Topaz Labs",
+        "SIGGRAPH",
+        "影像增强"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Sarofsky 的案例把传统设计工作室、生成式 AI 和 Topaz 后期增强放在同一条制作链上，显示专业 motion/影像团队如何实际落地 AI，而不是只停留在概念演示。",
+      "chineseTitle": "Sarofsky 案例展示传统工艺、生成 AI 与 Topaz 的混合流程",
+      "contentHash": "sha1:f83c5f1a8d10d7b0a246bf9ff553729baeb41cd5",
+      "itemId": "visual-topaz-labs-113q1wr",
+      "model": "codex-agent",
+      "primaryTopic": "tool",
+      "promptVersion": "visual-daily-v1",
+      "score": 91,
+      "scoreBreakdown": {
+        "informationSpecificity": 13,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "真实工作室案例有高参考价值，能解释 AI 后期如何进入商业创作。",
+      "status": "success",
+      "trendKeywords": [
+        "生成AI工作流",
+        "Topaz",
+        "设计工作室"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Topaz 宣称 Mac 端处理速度提升，反映影像增强工具正在争夺本地高性能工作流。它对重度修图和视频增强用户有用，但视觉文化信息较少。",
+      "chineseTitle": "Topaz Mac 速度更新强化本地影像处理效率",
+      "contentHash": "sha1:63bf5d2ebef47dbc29ce5c812b112922f493979a",
+      "itemId": "visual-topaz-labs-17dv6oi",
+      "model": "codex-agent",
+      "primaryTopic": "tool",
+      "promptVersion": "visual-daily-v1",
+      "score": 61,
+      "scoreBreakdown": {
+        "informationSpecificity": 9,
+        "novelty": 11,
+        "professionalRelevance": 12,
+        "sourceQuality": 7,
+        "timeliness": 4,
+        "visualInspiration": 18
+      },
+      "selectionRationale": "工具效率信息明确，但偏产品更新，视觉启发有限。",
+      "status": "success",
+      "trendKeywords": [
+        "Mac工作流",
+        "影像加速",
+        "本地处理"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Topaz 的 Speed Update 强调更快的视频/图像增强模型和处理管线。对需要批量修复、升格、降噪的创作者有实用价值，但缺少案例语境。",
+      "chineseTitle": "Topaz 速度更新把 NeuroStream 作为核心卖点",
+      "contentHash": "sha1:72c8e072c6b5640ca718152baa446a61ebfee2bd",
+      "itemId": "visual-topaz-labs-1dzoc2c",
+      "model": "codex-agent",
+      "primaryTopic": "tool",
+      "promptVersion": "visual-daily-v1",
+      "score": 61,
+      "scoreBreakdown": {
+        "informationSpecificity": 9,
+        "novelty": 11,
+        "professionalRelevance": 12,
+        "sourceQuality": 7,
+        "timeliness": 4,
+        "visualInspiration": 18
+      },
+      "selectionRationale": "实用性高于文化性，适合作为工具边栏而非主故事。",
+      "status": "success",
+      "trendKeywords": [
+        "NeuroStream",
+        "视频增强",
+        "处理速度"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Expansion Release 增加视频增强模型、功能和访问方式，说明 AI 后期软件正在从单点工具变成更完整的平台。内容偏产品新闻，案例不足。",
+      "chineseTitle": "Topaz 扩展版本继续把视频增强模型产品化",
+      "contentHash": "sha1:dfb115752b6fbfad50ba6014425643fae318395a",
+      "itemId": "visual-topaz-labs-1727hsf",
+      "model": "codex-agent",
+      "primaryTopic": "tool",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "平台化趋势值得记录，但具体创作方法不够充分。",
+      "status": "success",
+      "trendKeywords": [
+        "视频增强模型",
+        "AI后期",
+        "工具平台化"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Topaz 的下一代版本延续其 AI 放大、降噪和视频增强路线。它对工具生态有参考，但当前条目缺少足够细节。",
+      "chineseTitle": "Topaz Next-Gen Release 指向下一代影像增强模型",
+      "contentHash": "sha1:0001be225663635c5518170eea6e40738ab044b4",
+      "itemId": "visual-topaz-labs-wq5v8c",
+      "model": "codex-agent",
+      "primaryTopic": "tool",
+      "promptVersion": "visual-daily-v1",
+      "score": 61,
+      "scoreBreakdown": {
+        "informationSpecificity": 9,
+        "novelty": 11,
+        "professionalRelevance": 12,
+        "sourceQuality": 7,
+        "timeliness": 4,
+        "visualInspiration": 18
+      },
+      "selectionRationale": "标题有方向但摘要不足，分数保持中档。",
+      "status": "success",
+      "trendKeywords": [
+        "AI增强",
+        "Topaz更新",
+        "后期工具"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Aputure 的 Sidus Link Pro 2.2 引入 Layout View，让灯具布局贴近真实片场位置并提供实时预览。它把灯光控制从参数列表转为可视化空间界面，对拍摄现场效率很有价值。",
+      "chineseTitle": "Sidus Link Pro 2.2 用 Layout View 把灯光控制变成视觉网格",
+      "contentHash": "sha1:109ff98bb966d398ad27eb6735e650a31b3b199b",
+      "itemId": "visual-aputure-9aw6ku",
+      "model": "codex-agent",
+      "primaryTopic": "tool",
+      "promptVersion": "visual-daily-v1",
+      "score": 91,
+      "scoreBreakdown": {
+        "informationSpecificity": 13,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "具体功能明确，直接影响摄影/影视灯光工作流，专业价值高。",
+      "status": "success",
+      "trendKeywords": [
+        "灯光控制",
+        "Sidus Link",
+        "片场可视化"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Aputure 采访 Uwe Greiner，讨论如何为剧集塑造不可见但可感的视觉世界。它适合理解影视灯光如何服务心理、空间和叙事氛围。",
+      "chineseTitle": "《Nine Perfect Strangers》第二季灯光案例展示不可见氛围的塑造",
+      "contentHash": "sha1:1a84be343bcb00f86e18e0b326ff039ef1b8f2f0",
+      "itemId": "visual-aputure-1km90m5",
+      "model": "codex-agent",
+      "primaryTopic": "tool",
+      "promptVersion": "visual-daily-v1",
+      "score": 85,
+      "scoreBreakdown": {
+        "informationSpecificity": 12,
+        "novelty": 16,
+        "professionalRelevance": 17,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 26
+      },
+      "selectionRationale": "有具体影视案例和灯光方法，适合专业读者。",
+      "status": "success",
+      "trendKeywords": [
+        "影视灯光",
+        "氛围塑造",
+        "Aputure案例"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Aputure 讨论 aspiring programmer 的早期概念，把创意需求翻译成灯光指令和数据管理。它揭示片场角色正在被数字控制系统重塑。",
+      "chineseTitle": "灯光编程员从“按按钮”转向数据管理",
+      "contentHash": "sha1:2b19cdad502bb97122cdb32a004ab7b829562d84",
+      "itemId": "visual-aputure-38wjo0",
+      "model": "codex-agent",
+      "primaryTopic": "tool",
+      "promptVersion": "visual-daily-v1",
+      "score": 85,
+      "scoreBreakdown": {
+        "informationSpecificity": 12,
+        "novelty": 16,
+        "professionalRelevance": 17,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 26
+      },
+      "selectionRationale": "角色转型和工作流变化明确，对新型影像职业有观察价值。",
+      "status": "success",
+      "trendKeywords": [
+        "灯光编程",
+        "数据化片场",
+        "创意控制"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Profoto 案例强调 A1 的便携性和外景控光能力，适合入门读者理解移动布光。专业启发存在，但更接近品牌教学内容。",
+      "chineseTitle": "Meg Loeks 用便携闪光灯在任何地点塑造可控光线",
+      "contentHash": "sha1:e7fdc2806f883b2704d9d4a53f12af6083d4b18f",
+      "itemId": "visual-profoto-1o97isc",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 61,
+      "scoreBreakdown": {
+        "informationSpecificity": 9,
+        "novelty": 11,
+        "professionalRelevance": 12,
+        "sourceQuality": 7,
+        "timeliness": 4,
+        "visualInspiration": 18
+      },
+      "selectionRationale": "摄影方法清楚但品牌营销感强，分数中等。",
+      "status": "success",
+      "trendKeywords": [
+        "便携闪光灯",
+        "外景控光",
+        "Profoto"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "这条内容以基础灯光训练为主，说明如何用灯具制造更有冲击力的图像。适合教学参考，但与当日趋势相比新鲜度有限。",
+      "chineseTitle": "David Bicho 用 Profoto 讲解基础布光原则",
+      "contentHash": "sha1:0da4d85ab819fec30c42cb0f2c65102f704ccebe",
+      "itemId": "visual-profoto-l611o7",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 61,
+      "scoreBreakdown": {
+        "informationSpecificity": 9,
+        "novelty": 11,
+        "professionalRelevance": 12,
+        "sourceQuality": 7,
+        "timeliness": 4,
+        "visualInspiration": 18
+      },
+      "selectionRationale": "基础方法有用但重复度高，保留中等优先级。",
+      "status": "success",
+      "trendKeywords": [
+        "布光基础",
+        "摄影教学",
+        "Profoto"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "这条与另一条 David Bicho 基础布光内容高度接近，主要强调 Profoto 产品辅助专业影像。可作为缓存补充，但不应优先进入日报。",
+      "chineseTitle": "David Bicho 灯光基础案例重复出现，价值被稀释",
+      "contentHash": "sha1:c3579bc5d2dd5b21f97ba947544a78f7ca9bfa6e",
+      "itemId": "visual-profoto-1w34m2u",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 44,
+      "scoreBreakdown": {
+        "informationSpecificity": 7,
+        "novelty": 8,
+        "professionalRelevance": 8,
+        "sourceQuality": 6,
+        "timeliness": 3,
+        "visualInspiration": 12
+      },
+      "selectionRationale": "疑似重复主题，专业价值被稀释。",
+      "status": "success",
+      "trendKeywords": [
+        "重复内容",
+        "基础布光",
+        "产品教学"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Profoto 案例展示 maternity 与 newborn 肖像中柔光、亲密感和纪念性图像的处理。它对商业人像摄影有参考，但文化外延有限。",
+      "chineseTitle": "Ana Brandt 用柔光保存孕期与新生儿肖像记忆",
+      "contentHash": "sha1:d7c123f8399fa52a552b8f388ac1f7e75a296bc4",
+      "itemId": "visual-profoto-djwnob",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 61,
+      "scoreBreakdown": {
+        "informationSpecificity": 9,
+        "novelty": 11,
+        "professionalRelevance": 12,
+        "sourceQuality": 7,
+        "timeliness": 4,
+        "visualInspiration": 18
+      },
+      "selectionRationale": "商业肖像方法明确，新闻性一般。",
+      "status": "success",
+      "trendKeywords": [
+        "新生儿摄影",
+        "柔光人像",
+        "家庭纪念"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "该案例围绕姐妹关系和 Valencia 暖光环境，展示外景人像中情感和自然光/补光的配合。适合人像摄影参考，趋势性一般。",
+      "chineseTitle": "Mara Saiz 在瓦伦西亚拍摄姐妹肖像的温暖光线",
+      "contentHash": "sha1:135cc671b2808db8fa20032deab0321332f59d54",
+      "itemId": "visual-profoto-1y5cgq2",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 61,
+      "scoreBreakdown": {
+        "informationSpecificity": 9,
+        "novelty": 11,
+        "professionalRelevance": 12,
+        "sourceQuality": 7,
+        "timeliness": 4,
+        "visualInspiration": 18
+      },
+      "selectionRationale": "画面方法可借鉴，但更像品牌案例库内容。",
+      "status": "success",
+      "trendKeywords": [
+        "姐妹肖像",
+        "暖光人像",
+        "外景摄影"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Profoto 以 B10X 和 OCF Softbox 讲解秋季时装摄影布光，适合看服装质感、轮廓和柔光控制。它有实操价值，但品牌属性明显。",
+      "chineseTitle": "Paula Watts 秋季时装拍摄展示柔箱与便携灯组合",
+      "contentHash": "sha1:2eb1731143dab948815e33a1114db03604b5c8fc",
+      "itemId": "visual-profoto-g9744d",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "时装摄影和具体布光工具明确，适合专业参考。",
+      "status": "success",
+      "trendKeywords": [
+        "时装摄影",
+        "柔箱布光",
+        "秋季大片"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "案例强调在复杂环境中用 B10X 与八角柔箱制造自然、柔和的人像光。它能作为外景肖像的布光参考，新闻价值中等。",
+      "chineseTitle": "Drew Forsyth 用柔光处理挑战环境中的女性肖像",
+      "contentHash": "sha1:7c31273fb9e321c72b458dec007a35fcae7e7d0d",
+      "itemId": "visual-profoto-bp8uzn",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 61,
+      "scoreBreakdown": {
+        "informationSpecificity": 9,
+        "novelty": 11,
+        "professionalRelevance": 12,
+        "sourceQuality": 7,
+        "timeliness": 4,
+        "visualInspiration": 18
+      },
+      "selectionRationale": "方法明确但主题常规，适合候补。",
+      "status": "success",
+      "trendKeywords": [
+        "外景肖像",
+        "自然柔光",
+        "女性人像"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Profoto 讲述瘫痪摄影师 John Geven 的肖像实践，重点不只在器材，也在创作者如何重组工作方式。它有强人物故事，但视觉方法需要更多展开。",
+      "chineseTitle": "John Geven 的摄影实践把身体限制转化为创作意志",
+      "contentHash": "sha1:291224c08c62a9a7a81576aaebd871b434fb7069",
+      "itemId": "visual-profoto-1g2bnfi",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "创作者故事有启发性，专业方法信息略少。",
+      "status": "success",
+      "trendKeywords": [
+        "摄影师故事",
+        "创作韧性",
+        "肖像实践"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "这条内容讨论电解质中的钠含量，属于营养和健康消费提示。它几乎不涉及摄影、造型或视觉文化，不适合作为 Visual Radar 主内容。",
+      "chineseTitle": "电解质选择建议偏健康消费，视觉价值不足",
+      "contentHash": "sha1:b9639409f865c5f8d70b7ad9c32c32eac456aedf",
+      "itemId": "visual-british-vogue-tjua4i",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 30,
+      "scoreBreakdown": {
+        "informationSpecificity": 5,
+        "novelty": 5,
+        "professionalRelevance": 5,
+        "sourceQuality": 5,
+        "timeliness": 2,
+        "visualInspiration": 8
+      },
+      "selectionRationale": "主题偏健康，不符合日报核心方向。",
+      "status": "success",
+      "trendKeywords": [
+        "健康消费",
+        "营养建议",
+        "低视觉相关"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "KAPTAIN SUNSHINE 展示 2027 春夏系列，重点包括重新处理的 tailoring、皮夹克和与 Brady 的首次联名包。它能反映日系男装如何在功能、经典和协作中更新。",
+      "chineseTitle": "KAPTAIN SUNSHINE 2027 春夏用剪裁和联名包刷新男装日常",
+      "contentHash": "sha1:aa963d13fa81d8ca626e1655901d66640d0eab64",
+      "itemId": "visual-fashionsnap-jbhiy5",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 85,
+      "scoreBreakdown": {
+        "informationSpecificity": 12,
+        "novelty": 16,
+        "professionalRelevance": 17,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 26
+      },
+      "selectionRationale": "系列信息具体，剪裁和协作亮点明确，对造型趋势有参考。",
+      "status": "success",
+      "trendKeywords": [
+        "日系男装",
+        "剪裁更新",
+        "联名包袋"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "W Korea 以 Zendaya 红毯造型切入，讨论跳过眼妆、突出健康晒感和光泽肌的夏季妆容。它对美妆造型有参考，但明星驱动较强。",
+      "chineseTitle": "Zendaya 的无眼妆夏日妆容强调皮肤光泽和造型整体性",
+      "contentHash": "sha1:2a14b3a104c35342b7852c7c5df4cbea5f5a8f1e",
+      "itemId": "visual-w-korea-18ik7fd",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "造型细节明确，能转化为夏季妆容趋势。",
+      "status": "success",
+      "trendKeywords": [
+        "无眼妆",
+        "光泽肌",
+        "Zendaya造型"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "FASHIONSNAP 转述 Adobe 对生成 AI 的安全使用建议，并提到多国创作者中 AI 使用率已经很高。它适合讨论创意行业如何在版权、效率和责任之间建立新流程。",
+      "chineseTitle": "Adobe 解释生成 AI 安全使用，创作者比例已进入主流阶段",
+      "contentHash": "sha1:6894e139dcfac98cce5ac3624823b9ed560f77ea",
+      "itemId": "visual-fashionsnap-5i3rhs",
+      "model": "codex-agent",
+      "primaryTopic": "tool",
+      "promptVersion": "visual-daily-v1",
+      "score": 85,
+      "scoreBreakdown": {
+        "informationSpecificity": 12,
+        "novelty": 16,
+        "professionalRelevance": 17,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 26
+      },
+      "selectionRationale": "生成 AI 安全和创作者工作流直接相关，数据背景清楚。",
+      "status": "success",
+      "trendKeywords": [
+        "生成AI安全",
+        "创作者工作流",
+        "Adobe Firefly"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Vogue 的夏季婚礼 guest dress 推荐能反映度假婚礼和轻礼服需求，但本质是购物清单。除非结合造型趋势，否则日报价值有限。",
+      "chineseTitle": "夏季婚礼宾客服装清单偏购物导购",
+      "contentHash": "sha1:ad2cff0c331edfb460831acf7168a592f7e8d2d7",
+      "itemId": "visual-british-vogue-qqzipg",
+      "model": "codex-agent",
+      "primaryTopic": "outfit",
+      "promptVersion": "visual-daily-v1",
+      "score": 44,
+      "scoreBreakdown": {
+        "informationSpecificity": 7,
+        "novelty": 8,
+        "professionalRelevance": 8,
+        "sourceQuality": 6,
+        "timeliness": 3,
+        "visualInspiration": 12
+      },
+      "selectionRationale": "导购属性强、视觉方法弱，不优先。",
+      "status": "success",
+      "trendKeywords": [
+        "婚礼宾客裙",
+        "夏季礼服",
+        "购物导购"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Dazed 介绍 Karim Aïnouz 的新片，以明星阵容和“eat-the-rich”讽刺构成视觉文化话题。它适合电影气质和当代阶级叙事观察，但与摄影/时装关联间接。",
+      "chineseTitle": "《Rosebush Pruning》把富人讽刺推进更失控的影像叙事",
+      "contentHash": "sha1:1980122e53b3e9672217f0307c9f9d23d88ff3a7",
+      "itemId": "visual-dazed-1eiuzvn",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "电影文化议题鲜明，视觉信息有潜力但摘要偏剧情。",
+      "status": "success",
+      "trendKeywords": [
+        "电影讽刺",
+        "阶级叙事",
+        "Dazed"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "这条内容介绍让头发看起来刚洗过的喷雾产品，更多是美发消费指南。它能补充生活方式趋势，但视觉文化密度不高。",
+      "chineseTitle": "Hair refresh mist 反映“免洗感”发型护理消费",
+      "contentHash": "sha1:02151db9b0ee99369c3d153f2b20345fe4a87990",
+      "itemId": "visual-british-vogue-1a2l82n",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 44,
+      "scoreBreakdown": {
+        "informationSpecificity": 7,
+        "novelty": 8,
+        "professionalRelevance": 8,
+        "sourceQuality": 6,
+        "timeliness": 3,
+        "visualInspiration": 12
+      },
+      "selectionRationale": "造型相关但导购性强，专业价值有限。",
+      "status": "success",
+      "trendKeywords": [
+        "发型护理",
+        "免洗造型",
+        "美发导购"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Lucy Charters 把祖母礼服与自己制作的六套伴娘裙放进婚礼现场，形成私人档案、手作和仪式造型的混合叙事。它比普通婚礼报道更有服装记忆价值。",
+      "chineseTitle": "设计师新娘用祖母婚纱和自制伴娘裙重写婚礼造型",
+      "contentHash": "sha1:03ce5e3cb0d5ba912bcf7f350e3aea6e6c8545f0",
+      "itemId": "visual-british-vogue-tj08ib",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 85,
+      "scoreBreakdown": {
+        "informationSpecificity": 12,
+        "novelty": 16,
+        "professionalRelevance": 17,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 26
+      },
+      "selectionRationale": "家族服装档案和手作礼服结合，具有明确视觉叙事。",
+      "status": "success",
+      "trendKeywords": [
+        "婚礼造型",
+        "家族档案",
+        "手作礼服"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "OUAT 015 collection 是一条直接的系列发布信息，适合观察日本独立品牌如何处理轮廓、材质和日常服装系统。当前摘要较短，需要图像支持才能判断更深价值。",
+      "chineseTitle": "OUAT 015 系列延续日系独立品牌的实验衣橱",
+      "contentHash": "sha1:20438b9ae41014e37750935d02dd0359448db5ed",
+      "itemId": "visual-fashionsnap-1p3jgy",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "系列发布对造型有用，但文本信息不足。",
+      "status": "success",
+      "trendKeywords": [
+        "OUAT",
+        "日系独立品牌",
+        "系列发布"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "APFR 推出带有 citrus 与 wood 气质的新香调，说明香氛品牌继续用命名、气味和视觉包装塑造生活方式。对服装视觉日报来说关联较弱。",
+      "chineseTitle": "APFR 新香调把气味作为生活方式造型延伸",
+      "contentHash": "sha1:f809cacdb0d3c65fd957414a5b9b3fd112e7ca70",
+      "itemId": "visual-fashionsnap-1255ch1",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 44,
+      "scoreBreakdown": {
+        "informationSpecificity": 7,
+        "novelty": 8,
+        "professionalRelevance": 8,
+        "sourceQuality": 6,
+        "timeliness": 3,
+        "visualInspiration": 12
+      },
+      "selectionRationale": "香氛新品信息明确，但视觉启发有限。",
+      "status": "success",
+      "trendKeywords": [
+        "香氛新品",
+        "生活方式",
+        "APFR"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Vogue Japan 报道花滑选手 Alysa Liu 以授奖礼造型首次展示有个人意义的腰部纹身。它涉及身体装饰和公众形象，但专业视觉价值中等。",
+      "chineseTitle": "Alysa Liu 首次展示腰部纹身，把身体标记变成红毯叙事",
+      "contentHash": "sha1:3588281b86e7d11eac31635c4ed7ba2a1ddedd12",
+      "itemId": "visual-vogue-japan-94ntlh",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 61,
+      "scoreBreakdown": {
+        "informationSpecificity": 9,
+        "novelty": 11,
+        "professionalRelevance": 12,
+        "sourceQuality": 7,
+        "timeliness": 4,
+        "visualInspiration": 18
+      },
+      "selectionRationale": "身体标记和红毯造型有话题性，但偏明星报道。",
+      "status": "success",
+      "trendKeywords": [
+        "身体标记",
+        "红毯造型",
+        "纹身"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Vogue 汇总当代包袋品牌，反映中高端包袋市场从传统奢侈品牌转向 Ganni、DeMellier、Dragon Diffusion 等新名字。它适合趋势扫描，但导购性明显。",
+      "chineseTitle": "当代包袋品牌清单映射 2026 新一轮 it-bag 生态",
+      "contentHash": "sha1:30b6b3241473fe1122ec9c01fe37d3255577ee0c",
+      "itemId": "visual-british-vogue-164hjk9",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 61,
+      "scoreBreakdown": {
+        "informationSpecificity": 9,
+        "novelty": 11,
+        "professionalRelevance": 12,
+        "sourceQuality": 7,
+        "timeliness": 4,
+        "visualInspiration": 18
+      },
+      "selectionRationale": "品牌生态有参考，但以清单为主。",
+      "status": "success",
+      "trendKeywords": [
+        "当代包袋",
+        "it-bag",
+        "品牌生态"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Vogue 对 AW2026 鞋履趋势的整理显示舒适、装饰和低跟之间的新平衡。它对造型师有用，但仍是导购式趋势稿。",
+      "chineseTitle": "2026 秋冬鞋履趋势从拖鞋到 kitten heel 重回低高度装饰",
+      "contentHash": "sha1:5cbcce684c4160cbedf98ab3e59884632edc7c96",
+      "itemId": "visual-british-vogue-166fkqs",
+      "model": "codex-agent",
+      "primaryTopic": "outfit",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "趋势指向清楚，适合造型参考但非主故事。",
+      "status": "success",
+      "trendKeywords": [
+        "秋冬鞋履",
+        "kitten heel",
+        "装饰低跟"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "“Coyote Urbanism” 以一只郊狼的生活经验分析洛杉矶城市空间，把动画短片、城市研究和建筑批判合并。它是今天最有概念密度的视觉叙事实验之一。",
+      "chineseTitle": "NOWNESS 用郊狼视角批判洛杉矶的建筑商品化",
+      "contentHash": "sha1:de1c45bd05e92d357d4d0488a3644757bb1d4fbf",
+      "itemId": "visual-nowness-14zugbj",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 91,
+      "scoreBreakdown": {
+        "informationSpecificity": 13,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "跨动画、城市研究和建筑批评，视觉叙事新鲜且专业价值高。",
+      "status": "success",
+      "trendKeywords": [
+        "城市寓言",
+        "动画短片",
+        "建筑商品化"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Vogue Korea 介绍瑞典 lagom 哲学，延续北欧设计、节制生活与幸福感叙事。视觉文化关联存在，但更偏生活方式文章。",
+      "chineseTitle": "“Lagom” 重新包装北欧克制生活方式美学",
+      "contentHash": "sha1:e365390b34a0302074db77d8617af69ae5ce645c",
+      "itemId": "visual-vogue-korea-1yjz7w8",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 44,
+      "scoreBreakdown": {
+        "informationSpecificity": 7,
+        "novelty": 8,
+        "professionalRelevance": 8,
+        "sourceQuality": 6,
+        "timeliness": 3,
+        "visualInspiration": 12
+      },
+      "selectionRationale": "概念熟悉，专业视觉新意有限。",
+      "status": "success",
+      "trendKeywords": [
+        "北欧生活",
+        "Lagom",
+        "克制美学"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "W Korea 把 1990s/2000s 粗手镯作为夏季配饰重点，强调厚度、颜色和存在感。它是可直接转化为造型的微趋势。",
+      "chineseTitle": "90 年代粗手镯回潮，用配饰重新放大夏日造型",
+      "contentHash": "sha1:620acba8882ee3474bfd6db0fda240ee69f16f8b",
+      "itemId": "visual-w-korea-7qji10",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "趋势具体、造型可执行，但深度有限。",
+      "status": "success",
+      "trendKeywords": [
+        "粗手镯",
+        "90年代回潮",
+        "夏季配饰"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Tiffany 与 Julien Royer 合作，把品牌 heritage、餐饮空间和东南亚语境结合。它不是传统时装新闻，但体现奢侈品牌如何通过空间体验延展视觉识别。",
+      "chineseTitle": "Tiffany Blue Box Cafe 在新加坡用东南亚视角重塑品牌体验",
+      "contentHash": "sha1:48ff3cf88697644b8e2733b2b0a80f1c097fb106",
+      "itemId": "visual-vogue-singapore-1u1wcol",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "品牌空间和区域化叙事明确，适合观察奢侈体验设计。",
+      "status": "success",
+      "trendKeywords": [
+        "品牌体验",
+        "Tiffany",
+        "东南亚奢侈"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "adidas 在原宿以 Stan Smith City Series 做短期展示，并呈现非卖品东京限定款。它把经典鞋款、城市身份和展览化营销结合起来。",
+      "chineseTitle": "adidas 用 Stan Smith 城市展把球鞋档案变成东京限定体验",
+      "contentHash": "sha1:088014f43a4e108264c515d91ffc6cecc3b8324d",
+      "itemId": "visual-fashionsnap-1nznr26",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "球鞋档案和城市限定体验明确，视觉传播价值较高。",
+      "status": "success",
+      "trendKeywords": [
+        "Stan Smith",
+        "球鞋档案",
+        "原宿展览"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "FASHIONSNAP 汇总 20 款最新发梳，从梳理头发扩展到头皮按摩、刮痧、沐浴使用和饰品感设计。它反映美容工具正在产品化“数字疲劳”解决方案。",
+      "chineseTitle": "进化型发梳把头皮护理、按摩和设计感揉进日常美容工具",
+      "contentHash": "sha1:ca5ed2eb3bddfdc12b5e12054117e63f6ca22ff0",
+      "itemId": "visual-fashionsnap-1oqhlr3",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 61,
+      "scoreBreakdown": {
+        "informationSpecificity": 9,
+        "novelty": 11,
+        "professionalRelevance": 12,
+        "sourceQuality": 7,
+        "timeliness": 4,
+        "visualInspiration": 18
+      },
+      "selectionRationale": "工具趋势有观察价值，但清单属性较强。",
+      "status": "success",
+      "trendKeywords": [
+        "头皮护理",
+        "美容工具",
+        "数字疲劳"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "It’s Nice That 跟随 Lava La Rue 的创作生活，从艺术恐怖片到 hardcore punk 节日，呈现多栖创作者如何把亚文化转化为输出燃料。它适合今天的创作者文化观察。",
+      "chineseTitle": "Lava La Rue 的周末灵感把朋克、恐怖片和多重身份混在一起",
+      "contentHash": "sha1:824fa9d4542258c72825b7968710eb9c51e79d4c",
+      "itemId": "visual-its-nice-that-117gdww",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 85,
+      "scoreBreakdown": {
+        "informationSpecificity": 12,
+        "novelty": 16,
+        "professionalRelevance": 17,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 26
+      },
+      "selectionRationale": "创作者线索鲜明，亚文化和音乐视觉有关联。",
+      "status": "success",
+      "trendKeywords": [
+        "Lava La Rue",
+        "亚文化灵感",
+        "多栖创作者"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Hailey Bieber x Gap 的 limited capsule 把 relaxed denim 和个人风格叙事绑定，是名人、基础款和大众品牌复兴的典型案例。对造型趋势有一定参考。",
+      "chineseTitle": "Hailey Bieber 与 Gap 用个人牛仔裤重塑大众品牌怀旧感",
+      "contentHash": "sha1:3ef4be130991e60ceaa6003a2b4e842f0ad0a41d",
+      "itemId": "visual-british-vogue-lde86l",
+      "model": "codex-agent",
+      "primaryTopic": "outfit",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "商业合作清楚，牛仔裤轮廓和名人效应可观察。",
+      "status": "success",
+      "trendKeywords": [
+        "牛仔裤合作",
+        "Gap",
+        "Hailey Bieber"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Vogue Korea 介绍 Julian Opie 在蔚山的个展，强调他把人和城市景观还原为线条、色块和类似 pictogram 的图像系统。它对平面视觉、公共图像和身份匿名化很有参考价值。",
+      "chineseTitle": "Julian Opie 个展把城市人群压缩成图标化视觉语言",
+      "contentHash": "sha1:ecae2e4f84c0d3f4706b34fe38663342f0501b39",
+      "itemId": "visual-vogue-korea-18flwq5",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 91,
+      "scoreBreakdown": {
+        "informationSpecificity": 13,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "艺术家视觉语言清晰，和图像系统、城市观看直接相关。",
+      "status": "success",
+      "trendKeywords": [
+        "Julian Opie",
+        "图标化人物",
+        "城市视觉语言"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "这条围绕 salt stomping 的健康/睡眠趋势，更多是社交平台 wellness 现象。它与视觉文化关系较弱，不应优先进入日报。",
+      "chineseTitle": "“踩盐助眠”是社交媒体式 wellness，视觉日报价值较低",
+      "contentHash": "sha1:bbb581b35797a8feb6dd0b3fb8f4a56a9b0a474a",
+      "itemId": "visual-vogue-korea-1t8jmx8",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 30,
+      "scoreBreakdown": {
+        "informationSpecificity": 5,
+        "novelty": 5,
+        "professionalRelevance": 5,
+        "sourceQuality": 5,
+        "timeliness": 2,
+        "visualInspiration": 8
+      },
+      "selectionRationale": "健康趋势为主，缺少视觉或造型方法。",
+      "status": "success",
+      "trendKeywords": [
+        "wellness趋势",
+        "社交媒体健康",
+        "低视觉相关"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "W Korea 以 Rihanna 近期轮廓为例，讨论产后身体、plus-size styling 与自信穿着。它有身体包容和明星造型价值，但文本角度略偏励志。",
+      "chineseTitle": "Rihanna 用 plus-size 造型证明身体变化不必退出时尚表达",
+      "contentHash": "sha1:e70bbcf4ff825e78331caf212821fbf58d3e10c9",
+      "itemId": "visual-w-korea-6ciqpu",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "身体包容和造型方法相关，适合趋势补充。",
+      "status": "success",
+      "trendKeywords": [
+        "plus-size造型",
+        "Rihanna",
+        "身体包容"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Vogue Japan 的酒店旅行记聚焦老牌奢华酒店、spa 与家庭旅行体验。它有空间和生活方式视觉，但不够贴近日报核心。",
+      "chineseTitle": "曼谷文华东方旅行记更偏奢华酒店体验",
+      "contentHash": "sha1:1bfaaac0f7e6edd460f4ec7cede89ea91e28c9f2",
+      "itemId": "visual-vogue-japan-1mscqfg",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 44,
+      "scoreBreakdown": {
+        "informationSpecificity": 7,
+        "novelty": 8,
+        "professionalRelevance": 8,
+        "sourceQuality": 6,
+        "timeliness": 3,
+        "visualInspiration": 12
+      },
+      "selectionRationale": "旅行生活方式强，专业视觉议题弱。",
+      "status": "success",
+      "trendKeywords": [
+        "奢华酒店",
+        "旅行体验",
+        "曼谷"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "EDWIN 全面更新 503，并以“ニッポンの青”推出四个型号，说明日本丹宁品牌继续围绕本土色彩、版型和经典资产做再定位。",
+      "chineseTitle": "EDWIN 503 以“日本之青”重启经典丹宁",
+      "contentHash": "sha1:f5e2e08f9c23b0efbd16610344d62ba2573352be",
+      "itemId": "visual-fashionsnap-cxcmqx",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "丹宁经典更新和色彩叙事明确，适合服装趋势。",
+      "status": "success",
+      "trendKeywords": [
+        "日本丹宁",
+        "EDWIN503",
+        "蓝色叙事"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "TUDOR 在大阪首次以大相扑为主题做 pop-up，并在视觉中使用幕内力士。它把腕表、地方文化和强身体图像连接起来，传播识别度较高。",
+      "chineseTitle": "TUDOR 大阪快闪用相扑视觉重塑腕表场景",
+      "contentHash": "sha1:a5ef5144bbd9953cf99614f85f32ac258bab8661",
+      "itemId": "visual-fashionsnap-6g95u2",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "奢侈腕表与相扑视觉结合新鲜，适合文化营销观察。",
+      "status": "success",
+      "trendKeywords": [
+        "腕表快闪",
+        "相扑视觉",
+        "大阪零售"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Vogue 把 leopard-print heels 定义为 grandma sandals 的反命题，说明鞋履趋势在舒适复古和野性装饰之间摆动。它是轻量但明确的造型信号。",
+      "chineseTitle": "豹纹高跟鞋成为 2026 对“奶奶凉鞋”的反向选择",
+      "contentHash": "sha1:318300911e57cb83b9633e0637617717ee37489a",
+      "itemId": "visual-british-vogue-xq2ex1",
+      "model": "codex-agent",
+      "primaryTopic": "outfit",
+      "promptVersion": "visual-daily-v1",
+      "score": 61,
+      "scoreBreakdown": {
+        "informationSpecificity": 9,
+        "novelty": 11,
+        "professionalRelevance": 12,
+        "sourceQuality": 7,
+        "timeliness": 4,
+        "visualInspiration": 18
+      },
+      "selectionRationale": "趋势点清楚但导购属性强。",
+      "status": "success",
+      "trendKeywords": [
+        "豹纹高跟",
+        "鞋履趋势",
+        "反奶奶鞋"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Brochu Walker 在首尔开出首个全球旗舰，把 Luxury to Live In 理念转化为 664 平方米、五层楼的空间体验。它显示生活方式品牌如何用建筑和零售场景建立全球叙事。",
+      "chineseTitle": "Brochu Walker 首尔旗舰店把 LA 松弛感和韩国工艺做成五层空间",
+      "contentHash": "sha1:101403ff0d57ea43613cdde343ca6c0cd3b5f4d4",
+      "itemId": "visual-vogue-korea-14pmcnh",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 85,
+      "scoreBreakdown": {
+        "informationSpecificity": 12,
+        "novelty": 16,
+        "professionalRelevance": 17,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 26
+      },
+      "selectionRationale": "品牌空间、韩国工艺和全球旗舰信息具体，适合零售视觉观察。",
+      "status": "success",
+      "trendKeywords": [
+        "旗舰店设计",
+        "生活方式品牌",
+        "首尔零售"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "M+ 的 Lee Ufan 对谈从数十年实践出发，讨论作品背后的驱动力和宇宙性想象。它适合艺术思想栏目，但即时视觉信息不多。",
+      "chineseTitle": "李禹焕对谈把宇宙想象带回艺术实践的长期尺度",
+      "contentHash": "sha1:60d4636dcab01cac38e2b33ad4422f952f01363e",
+      "itemId": "visual-mplus-yuv26f",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "重要艺术家和机构来源强，内容偏思想性。",
+      "status": "success",
+      "trendKeywords": [
+        "李禹焕",
+        "M+",
+        "宇宙想象"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "61 岁前超模 Paulina Porizkova 的婚礼报道强调成熟年龄的亲密仪式和个人叙事。它有婚礼造型和身体年龄议题，但更偏名人故事。",
+      "chineseTitle": "Paulina Porizkova 的大人婚礼强调年龄、自我与仪式造型",
+      "contentHash": "sha1:b7376d1a5e8c44604f68bcf9ee39ae300aa2a825",
+      "itemId": "visual-vogue-japan-1sdhe7w",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 61,
+      "scoreBreakdown": {
+        "informationSpecificity": 9,
+        "novelty": 11,
+        "professionalRelevance": 12,
+        "sourceQuality": 7,
+        "timeliness": 4,
+        "visualInspiration": 18
+      },
+      "selectionRationale": "年龄与仪式造型有话题性，专业深度一般。",
+      "status": "success",
+      "trendKeywords": [
+        "大人婚礼",
+        "超模故事",
+        "仪式造型"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Wallpaper* 介绍 Olaver Architecture 的 Hanslope House，以罕见双转角地块和砖亭结构重塑未来郊区住宅。它对空间摄影、建筑叙事和居住视觉都很有启发。",
+      "chineseTitle": "澳大利亚砖亭住宅用双转角地块重写郊区居住",
+      "contentHash": "sha1:0f5334f212322f37d28f97cc61775cdc9fe83241",
+      "itemId": "visual-wallpaper-q99xix",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 85,
+      "scoreBreakdown": {
+        "informationSpecificity": 12,
+        "novelty": 16,
+        "professionalRelevance": 17,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 26
+      },
+      "selectionRationale": "建筑案例具体，空间结构和视觉呈现价值高。",
+      "status": "success",
+      "trendKeywords": [
+        "砖亭住宅",
+        "郊区生活",
+        "建筑摄影"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Vogue Singapore 介绍新加坡首位女性 F4 车手，强调纪律、速度和自我路径。它有人物价值，但与 Visual Radar 核心视觉议题间接。",
+      "chineseTitle": "Kareen Kaur 的赛车故事代表女性进入高强度视觉运动舞台",
+      "contentHash": "sha1:5abd7cbc133778d748b7dd5a632b46a3f263d83d",
+      "itemId": "visual-vogue-singapore-14tlbza",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 61,
+      "scoreBreakdown": {
+        "informationSpecificity": 9,
+        "novelty": 11,
+        "professionalRelevance": 12,
+        "sourceQuality": 7,
+        "timeliness": 4,
+        "visualInspiration": 18
+      },
+      "selectionRationale": "人物故事积极，但摄影/造型线索不够强。",
+      "status": "success",
+      "trendKeywords": [
+        "女性车手",
+        "运动视觉",
+        "新加坡人物"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Wallpaper* 报道 Snøhetta 重新设计 Svalbard 的 Huset，用红色 linoleum、染色橡木和织物屏风回应极夜与午夜太阳。空间材料与环境叙事都很清晰。",
+      "chineseTitle": "Snøhetta 为世界最北 fine dining 餐厅引入极地昼夜对比",
+      "contentHash": "sha1:9653b99ba615df378e0a264a1a26f4fe8440b1c6",
+      "itemId": "visual-wallpaper-1on134g",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 91,
+      "scoreBreakdown": {
+        "informationSpecificity": 13,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "顶级建筑事务所、极地语境和材料细节完整，视觉启发强。",
+      "status": "success",
+      "trendKeywords": [
+        "Snøhetta",
+        "极地空间",
+        "餐厅设计"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Vogue Korea 观察夏季长袖 T 的回归，从七分袖到遮手长袖，强调室内空调、日晒和通勤场景之间的适应性。它是实用且明确的 outfit 趋势。",
+      "chineseTitle": "长袖白 T 成为 2026 夏季从办公室到假日的反背心选择",
+      "contentHash": "sha1:7ebfc1e21341e486164e8883489df9bc46664976",
+      "itemId": "visual-vogue-korea-4ovoq5",
+      "model": "codex-agent",
+      "primaryTopic": "outfit",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "穿搭场景清楚，趋势可执行。",
+      "status": "success",
+      "trendKeywords": [
+        "夏季长袖",
+        "白T趋势",
+        "通勤穿搭"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Vogue Korea 讨论如何不为每次度假重新买衣服，而是用衣橱现有单品组合出 vacation style。它把造型、可持续和现实衣橱连接起来。",
+      "chineseTitle": "模型们用衣橱旧单品完成 vacation look，反消费式度假造型",
+      "contentHash": "sha1:d65c634055c7f6305354971293161f54d51a235c",
+      "itemId": "visual-vogue-korea-1p82sgr",
+      "model": "codex-agent",
+      "primaryTopic": "outfit",
+      "promptVersion": "visual-daily-v1",
+      "score": 85,
+      "scoreBreakdown": {
+        "informationSpecificity": 12,
+        "novelty": 16,
+        "professionalRelevance": 17,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 26
+      },
+      "selectionRationale": "反过度消费角度明确，对日常造型有实用和文化价值。",
+      "status": "success",
+      "trendKeywords": [
+        "度假造型",
+        "旧衣橱",
+        "反消费穿搭"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Gucci 新作 high jewellery 和 high watchmaking 预览借 T.O.P 到场强化名人传播，强调自然灵感与品牌 heritage。视觉华丽但信息偏发布和明星露出。",
+      "chineseTitle": "Gucci 高级珠宝与腕表预览用 T.O.P 扩大亚洲传播声量",
+      "contentHash": "sha1:28e6129d27658fbba33d598daff2df37c7aa6006",
+      "itemId": "visual-vogue-japan-s2ruq1",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "高级珠宝视觉有价值，文本偏品牌公关。",
+      "status": "success",
+      "trendKeywords": [
+        "Gucci珠宝",
+        "高级腕表",
+        "T.O.P"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "W Korea 给出夏季 denim 的穿法，强调 medium blue 和更轻的搭配方式。它是实用型造型指南，适合补充夏季衣橱趋势。",
+      "chineseTitle": "酷暑也穿牛仔：用颜色和搭配降低丹宁的视觉重量",
+      "contentHash": "sha1:0547db3b9376d78392c4576d63c367a6d237cf62",
+      "itemId": "visual-w-korea-18vi6kv",
+      "model": "codex-agent",
+      "primaryTopic": "outfit",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "场景明确、可执行，但深度中等。",
+      "status": "success",
+      "trendKeywords": [
+        "夏季丹宁",
+        "中蓝牛仔",
+        "清凉穿搭"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Fendi 2026-27 秋冬 launch event 让多位日本明星穿着新作和 Baguette 包到场，形成品牌发布后的社交场景传播。它对名人造型和商业秀后扩散有参考。",
+      "chineseTitle": "Fendi 秋冬发布活动用日本明星 SNAP 展示新季真实穿法",
+      "contentHash": "sha1:09296ed0c8d54f649f23beae509ead0818b0a513",
+      "itemId": "visual-vogue-japan-1ue6yzg",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "新季造型和明星穿着具体，适合观察品牌传播。",
+      "status": "success",
+      "trendKeywords": [
+        "Fendi秋冬",
+        "明星SNAP",
+        "Baguette包"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Vogue Korea 用 Jennifer Lawrence 的发色变化讨论夏季 brown 染发，尤其是 milk brown 和亮金挑染。它是轻量但清晰的美发造型趋势。",
+      "chineseTitle": "Jennifer Lawrence 的 milk brown 发色提示夏季黑发转暖趋势",
+      "contentHash": "sha1:024bc93e0c2379982c53bdd16846885e125990fa",
+      "itemId": "visual-vogue-korea-ls3obx",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 61,
+      "scoreBreakdown": {
+        "informationSpecificity": 9,
+        "novelty": 11,
+        "professionalRelevance": 12,
+        "sourceQuality": 7,
+        "timeliness": 4,
+        "visualInspiration": 18
+      },
+      "selectionRationale": "趋势明确但偏明星美发，专业深度有限。",
+      "status": "success",
+      "trendKeywords": [
+        "夏季棕发",
+        "milk brown",
+        "发色趋势"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "W Korea 从 vacation photo 的角度梳理泳装选择，说明泳装越来越被当作影像记忆和社交发布的关键造型道具。内容偏趋势清单，但贴近视觉呈现。",
+      "chineseTitle": "2026 泳装趋势服务于“人生照片”的度假视觉需求",
+      "contentHash": "sha1:bab5402a89abf3a4b16864b251204450f65a3815",
+      "itemId": "visual-w-korea-1wz98uv",
+      "model": "codex-agent",
+      "primaryTopic": "outfit",
+      "promptVersion": "visual-daily-v1",
+      "score": 76,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 15,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 23
+      },
+      "selectionRationale": "泳装与照片表现直接相关，适合夏季造型栏目。",
+      "status": "success",
+      "trendKeywords": [
+        "泳装趋势",
+        "度假照片",
+        "夏季造型"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "这条围绕三峰挑战和 workout routine，主要是名人健身与体能故事。它与摄影、造型和视觉文化关系较弱。",
+      "chineseTitle": "凯瑟琳王妃体能报道偏名人健康，不适合主视觉日报",
+      "contentHash": "sha1:365336da9c8ce05c1d6f0517ce63c1d7fd564ad0",
+      "itemId": "visual-vogue-japan-ouay5o",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 30,
+      "scoreBreakdown": {
+        "informationSpecificity": 5,
+        "novelty": 5,
+        "professionalRelevance": 5,
+        "sourceQuality": 5,
+        "timeliness": 2,
+        "visualInspiration": 8
+      },
+      "selectionRationale": "健康/王室话题为主，视觉价值不足。",
+      "status": "success",
+      "trendKeywords": [
+        "名人健身",
+        "王室话题",
+        "低视觉相关"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-17T10:16:38.988Z",
+      "chineseSummary": "Vogue Korea 从编辑实际穿着经验讨论全天可穿的高跟鞋，反映鞋履趋势从极端造型转向舒适、通勤和真实身体感受。",
+      "chineseTitle": "编辑们寻找能穿一整天的高跟鞋，说明舒适性继续重塑鞋履审美",
+      "contentHash": "sha1:c1f1f2002fb28709db2b03284e2ef3ba6037bb7b",
+      "itemId": "visual-vogue-korea-1nm9pld",
+      "model": "codex-agent",
+      "primaryTopic": "outfit",
+      "promptVersion": "visual-daily-v1",
+      "score": 61,
+      "scoreBreakdown": {
+        "informationSpecificity": 9,
+        "novelty": 11,
+        "professionalRelevance": 12,
+        "sourceQuality": 7,
+        "timeliness": 4,
+        "visualInspiration": 18
+      },
+      "selectionRationale": "有实用趋势价值，但仍偏购物建议。",
+      "status": "success",
+      "trendKeywords": [
+        "舒适高跟",
+        "编辑推荐",
+        "通勤鞋履"
+      ]
     }
   ],
   "failures": [],
-  "generatedAt": "2026-07-16T11:04:35.299Z",
+  "generatedAt": "2026-07-17T10:16:38.988Z",
   "promptVersion": "visual-daily-v1"
 }
