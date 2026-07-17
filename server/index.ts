@@ -32,7 +32,7 @@ import {
   getVisualRadarIssueDetail,
 } from "./visualRadarWorkflow";
 import {
-  buildWeComMarkdownContent,
+  deliverVisualRadarIssue,
   getWeComStatus,
   sendVisualRadarIssueToWeCom,
 } from "./weComPublisher";
@@ -134,13 +134,9 @@ app.post("/api/visual-radar/issues/:issueId/send-wecom", requireCronSecret, asyn
   try {
     const issue = createVisualRadarIssueStore(files.issues).getIssue(String(req.params.issueId));
     if (!issue) return res.status(404).json({ error: "日报不存在" });
-    if (req.query.dryRun === "1") {
-      return res.json({
-        markdown: buildWeComMarkdownContent(issue),
-        sent: false,
-      });
-    }
-    res.json(await sendVisualRadarIssueToWeCom(issue));
+    res.json(await deliverVisualRadarIssue(issue, {
+      dryRun: req.query.dryRun === "1",
+    }));
   } catch (error) {
     res.status(502).json({ error: "企业微信发送失败", detail: readError(error) });
   }

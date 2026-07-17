@@ -3,6 +3,7 @@ import { describe, expect, it, vi } from "vitest";
 import type { VisualRadarIssue } from "./visualRadarIssue";
 import {
   buildWeComMarkdownContent,
+  deliverVisualRadarIssue,
   getWeComStatus,
   sendVisualRadarIssueToWeCom,
 } from "./weComPublisher";
@@ -57,6 +58,30 @@ describe("weComPublisher", () => {
       expect.stringContaining("qyapi.weixin.qq.com"),
       expect.objectContaining({ method: "POST" })
     );
+  });
+
+  it("returns a dry-run preview without calling the sender", async () => {
+    const sendImpl = vi.fn().mockResolvedValue({ markdown: "sent", sent: true });
+
+    const result = await deliverVisualRadarIssue(issue(), {
+      dryRun: true,
+      sendImpl,
+    });
+
+    expect(result.sent).toBe(false);
+    expect(result.markdown).toContain("精选标题 10");
+    expect(sendImpl).not.toHaveBeenCalled();
+  });
+
+  it("delegates a confirmed delivery to the injected sender", async () => {
+    const issueToSend = issue();
+    const sendImpl = vi.fn().mockResolvedValue({ markdown: "sent", sent: true });
+
+    await expect(
+      deliverVisualRadarIssue(issueToSend, { dryRun: false, sendImpl })
+    ).resolves.toEqual({ markdown: "sent", sent: true });
+    expect(sendImpl).toHaveBeenCalledOnce();
+    expect(sendImpl).toHaveBeenCalledWith(issueToSend);
   });
 });
 

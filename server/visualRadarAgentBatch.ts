@@ -68,7 +68,9 @@ export function prepareVisualRadarAgentBatch({
     instructions: [
       "第一阶段只做内容价值评分与淘汰，不进行完整中文翻译。",
       "第二阶段仅对高价值候选生成中文标题、摘要、关键词和编辑观察。",
-      "完成后将标准化分析结果合并写回 visual_radar_analysis.json。",
+      "将标准化结果写入 data/visual_radar_agent_output.json。",
+      "禁止直接修改 data/visual_radar_analysis.json。",
+      "完成 output 文件后运行 pnpm agent:import 导入分析结果。",
     ],
     stage: "value_screening",
     status: "prepared",

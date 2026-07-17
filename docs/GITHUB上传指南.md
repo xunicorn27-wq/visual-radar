@@ -7,21 +7,18 @@
 3. 选择 **Public**。GitHub Pages 公网访问和本指南都以 Public 仓库为准。
 4. 不要勾选自动创建 README、`.gitignore` 或许可证，保持仓库为空。
 
-Public 仓库会公开所有已提交内容，包括 `data/` 中的来源、分析和日报。上传前必须确认数据适合公开。
+Public 仓库会公开所有已提交内容。`data/visual_radar_issues.json` 和 Pages 的 `public-data/issues/*.json` 包含完整 issue 数据，包括来源 URL、原始 text、content hash、分析总分与 score breakdown、selection rationale、trend keywords，以及 skipped item IDs/原因，不只是页面当前显示的字段。上传前必须逐项确认这些数据适合公开。
 
 ## 2. 上传前检查
 
-确认项目中没有 `.env`、`.env.local`、API Key、企业微信 Webhook、真实 `CRON_SECRET`、Cookie 或会话文件：
+先执行 [安全检查清单](安全检查清单.md) 中完整的 `.env*` 查找和 secret pattern 扫描，再检查 Git 状态与 diff：
 
 ```bash
 git status --ignored
-find . -maxdepth 2 \( -name '.env' -o -name '.env.local' \) -print
-rg -n "OPENAI_API_KEY=.+|WECOM_BOT_WEBHOOK=.+|CRON_SECRET=.+" . \
-  -g '!node_modules/**' -g '!dist/**' -g '!.env.example'
 git diff --check
 ```
 
-密钥扫描出现示例占位文本时要逐条人工确认；任何真实秘密都必须先删除并轮换，不能上传后再处理。
+扫描是辅助检查，不是绝对证明。所有命中和暂存内容都要人工确认；任何真实秘密都必须先删除并轮换，不能上传后再处理。
 
 ## 3. 首次 push
 
@@ -32,7 +29,7 @@ git init
 git branch -M main
 git add .
 git commit -m "Initial standalone Visual Radar"
-git remote add origin https://github.com/visual-radar-owner/visual-radar.git
+git remote add origin https://github.com/YOUR-GITHUB-USER/visual-radar.git
 git push -u origin main
 ```
 
@@ -52,17 +49,19 @@ gh repo create visual-radar --public --source=. --remote=origin --push
 3. 打开仓库 `Actions`，等待 `Deploy Visual Radar Pages` 成功。
 4. 从 Actions 部署结果或 `Settings` -> `Pages` 打开 Pages URL。
 
-当前示例地址：
+Pages 地址格式示例：
 
 ```text
-https://visual-radar-owner.github.io/visual-radar/
+https://YOUR-GITHUB-USER.github.io/visual-radar/
 ```
 
-Actions 成功后还要实际打开首页和当期详情页，例如：
+必须替换所有占位符，并以 GitHub Actions deployment 输出的 URL 为准。Actions 成功后还要实际打开首页和当期详情页，例如：
 
 ```text
-https://visual-radar-owner.github.io/visual-radar/issues/2026-07-16
+https://YOUR-GITHUB-USER.github.io/visual-radar/issues/2026-07-16
 ```
+
+未从 Actions 获得实际 URL、未替换占位符或未从手机验证时，不得发送企业微信。
 
 ## 5. GitHub Actions Secrets
 
@@ -72,7 +71,7 @@ https://visual-radar-owner.github.io/visual-radar/issues/2026-07-16
 
 ## 6. 后续日报发布
 
-本地完成 Codex 分析、`npm run agent:import`、日报生成和检查后，先运行：
+本地完成 Codex 分析、`pnpm agent:import`、日报生成和检查后，先运行：
 
 ```bash
 pnpm test

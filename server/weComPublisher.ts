@@ -11,6 +11,13 @@ export interface WeComOptions {
   webhook?: string | null;
 }
 
+export interface WeComDeliveryOptions {
+  dryRun: boolean;
+  sendImpl?: (
+    issue: VisualRadarIssue
+  ) => Promise<{ markdown: string; sent: boolean }>;
+}
+
 export function getWeComStatus(options: WeComOptions = {}): WeComStatus {
   const webhook = options.webhook ?? process.env.WECOM_BOT_WEBHOOK ?? "";
   const publicUrl = options.publicUrl ?? process.env.VISUAL_RADAR_PUBLIC_URL ?? null;
@@ -45,6 +52,19 @@ export function buildWeComMarkdownContent(
     `[阅读全文 →](${reportUrl})`,
   ];
   return lines.join("\n").trim();
+}
+
+export async function deliverVisualRadarIssue(
+  issue: VisualRadarIssue,
+  options: WeComDeliveryOptions
+) {
+  if (options.dryRun) {
+    return {
+      markdown: buildWeComMarkdownContent(issue),
+      sent: false as const,
+    };
+  }
+  return (options.sendImpl || sendVisualRadarIssueToWeCom)(issue);
 }
 
 export async function sendVisualRadarIssueToWeCom(

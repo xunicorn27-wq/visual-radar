@@ -34,6 +34,13 @@ describe("prepareVisualRadarAgentBatch", () => {
       excluded: 2,
       total: 4,
     });
+    expect(batch.instructions.join("\n")).toContain(
+      "data/visual_radar_agent_output.json"
+    );
+    expect(batch.instructions.join("\n")).toMatch(
+      /禁止直接修改.*visual_radar_analysis\.json/
+    );
+    expect(batch.instructions.join("\n")).toContain("pnpm agent:import");
   });
 });
 
