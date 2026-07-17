@@ -40,10 +40,10 @@ export function buildWeComMarkdownContent(
   const topicCount = Object.keys(issue.stats.byTopic).length;
   const reportUrl = `${publicUrl.trim().replace(/\/+$/, "")}/issues/${issue.id}`;
   const lines = [
-    `**摄影推送 | ${issue.issueDate}**`,
+    `**Visual Radar | ${issue.issueDate}**`,
     "",
     ...featured.flatMap((story, index) => [
-      `**${String(index + 1).padStart(2, "0")} | ${story.analysis.chineseTitle || story.item.title}**`,
+      `**${String(index + 1).padStart(2, "0")} | ${story.analysis.chineseTitle || story.item.title}**${story.item.sourceUrl ? ` [原文](${story.item.sourceUrl})` : ""}`,
       compactSummary(story.analysis.chineseSummary || story.item.text),
       "",
     ]),

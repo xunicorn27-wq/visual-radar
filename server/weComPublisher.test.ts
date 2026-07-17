@@ -12,9 +12,14 @@ describe("weComPublisher", () => {
   it("publishes only the ten featured stories and links the full report", () => {
     const markdown = buildWeComMarkdownContent(issue(), "https://visual.example.com");
 
+    expect(markdown).toContain("**Visual Radar | 2026-07-16**");
+    expect(markdown).not.toContain("摄影推送");
     expect(markdown).toContain("本期网页共 12 条");
     expect(markdown).toContain("精选标题 10");
     expect(markdown).not.toContain("精选标题 11");
+    expect(markdown).toContain("**01 | 精选标题 1** [原文](https://example.com/0)");
+    expect(markdown).toContain("**10 | 精选标题 10** [原文](https://example.com/9)");
+    expect(markdown).not.toContain("https://example.com/10");
     expect(markdown).toContain("https://visual.example.com/issues/2026-07-16");
   });
 
