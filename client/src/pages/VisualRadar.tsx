@@ -188,6 +188,7 @@ export default function VisualRadar() {
     <main className="vr-root">
       <VisualRadarMasthead
         issueLabel={issueDetail ? `VOL.${issueDetail.issue.id}` : "FIRST EDITION"}
+        showSources={!visualRadarStaticMode}
         onToggleAdmin={
           visualRadarStaticMode
             ? undefined

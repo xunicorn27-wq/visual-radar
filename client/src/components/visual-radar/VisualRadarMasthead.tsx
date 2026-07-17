@@ -3,21 +3,55 @@ import { Settings2 } from "lucide-react";
 
 import { buildBaseHashHref } from "../../lib/routerBase";
 
+interface VisualRadarMastheadNavigationItem {
+  href: string;
+  label: string;
+  type: "anchor" | "route";
+}
+
+export function buildVisualRadarMastheadNavigation(
+  showSources = true,
+  baseUrl = import.meta.env.BASE_URL
+): VisualRadarMastheadNavigationItem[] {
+  const navigation: VisualRadarMastheadNavigationItem[] = [
+    { href: "/", label: "今日日报", type: "route" },
+    { href: "/issues", label: "往期日报", type: "route" },
+  ];
+  if (showSources) {
+    navigation.push({
+      href: buildBaseHashHref(baseUrl, "#sources"),
+      label: "信源",
+      type: "anchor",
+    });
+  }
+  return navigation;
+}
+
 export function VisualRadarMasthead({
   issueLabel,
   onToggleAdmin,
+  showSources = true,
 }: {
   issueLabel?: string;
   onToggleAdmin?: () => void;
+  showSources?: boolean;
 }) {
   return (
     <header className="vr-masthead">
       <div className="vr-topline">
         <span>{issueLabel || "INDEPENDENT VISUAL CULTURE DAILY"}</span>
         <nav aria-label="Visual Radar 主导航">
-          <Link href="/">今日日报</Link>
-          <Link href="/issues">往期日报</Link>
-          <a href={buildBaseHashHref(import.meta.env.BASE_URL, "#sources")}>信源</a>
+          {buildVisualRadarMastheadNavigation(showSources).map((item) =>
+            item.type === "route" ? (
+              <Link href={item.href} key={item.href}>
+                {item.label}
+              </Link>
+            ) : (
+              <a href={item.href} key={item.href}>
+                {item.label}
+              </a>
+            )
+          )}
           {onToggleAdmin ? (
             <button
               type="button"

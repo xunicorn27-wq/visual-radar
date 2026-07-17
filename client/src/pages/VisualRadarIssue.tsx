@@ -8,6 +8,7 @@ import {
   getVisualRadarIssue,
   type VisualRadarIssue as VisualRadarIssueData,
   type VisualRadarIssueDetail,
+  visualRadarStaticMode,
 } from "../lib/api";
 import { buildVisualRadarIssueLayout } from "../lib/visualRadarIssueLayout";
 
@@ -30,7 +31,7 @@ export default function VisualRadarIssue() {
   if (error) {
     return (
       <main className="vr-root">
-        <VisualRadarMasthead />
+        <VisualRadarMasthead showSources={!visualRadarStaticMode} />
         <div className="vr-message">{error}</div>
       </main>
     );
@@ -38,7 +39,7 @@ export default function VisualRadarIssue() {
   if (!detail) {
     return (
       <main className="vr-root">
-        <VisualRadarMasthead />
+        <VisualRadarMasthead showSources={!visualRadarStaticMode} />
         <div className="vr-message"><Loader2 className="vr-spin" /> 正在加载日报</div>
       </main>
     );
@@ -46,7 +47,10 @@ export default function VisualRadarIssue() {
 
   return (
     <main className="vr-root">
-      <VisualRadarMasthead issueLabel={`VOL.${detail.issue.id}`} />
+      <VisualRadarMasthead
+        issueLabel={`VOL.${detail.issue.id}`}
+        showSources={!visualRadarStaticMode}
+      />
       <VisualRadarIssueContent issue={detail.issue} />
       <IssueNavigation detail={detail} />
     </main>

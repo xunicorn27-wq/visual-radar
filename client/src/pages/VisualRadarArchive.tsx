@@ -3,7 +3,11 @@ import { Link } from "wouter";
 import { useEffect, useState } from "react";
 
 import { VisualRadarMasthead } from "../components/visual-radar/VisualRadarMasthead";
-import { getVisualRadarIssues, type VisualRadarIssueSummary } from "../lib/api";
+import {
+  getVisualRadarIssues,
+  type VisualRadarIssueSummary,
+  visualRadarStaticMode,
+} from "../lib/api";
 
 export default function VisualRadarArchive() {
   const [issues, setIssues] = useState<VisualRadarIssueSummary[] | null>(null);
@@ -19,7 +23,10 @@ export default function VisualRadarArchive() {
 
   return (
     <main className="vr-root">
-      <VisualRadarMasthead issueLabel="ARCHIVE" />
+      <VisualRadarMasthead
+        issueLabel="ARCHIVE"
+        showSources={!visualRadarStaticMode}
+      />
       <section className="vr-archive">
         <header>
           <h1>往期日报</h1>
