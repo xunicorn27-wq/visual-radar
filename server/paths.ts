@@ -7,6 +7,7 @@ export function resolveProjectPaths(projectRoot: string) {
     : path.join(projectRoot, "data");
   return {
     agentBatch: path.join(dataDir, "visual_radar_agent_batch.json"),
+    agentOutput: path.join(dataDir, "visual_radar_agent_output.json"),
     analysis: path.join(dataDir, "visual_radar_analysis.json"),
     dataDir,
     issues: path.join(dataDir, "visual_radar_issues.json"),

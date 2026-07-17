@@ -14,5 +14,7 @@ coverage/
 data/*.backup
 data/*.tmp
 data/*.lock
+data/visual_radar_agent_output.json
+.pages-public/
 Visual-Radar-Standalone-*.zip
 *-visual-radar-standalone.md
