@@ -1,0 +1,13 @@
+services:
+  visual-radar:
+    build: .
+    restart: unless-stopped
+    env_file:
+      - .env.local
+    environment:
+      PORT: 3099
+      VISUAL_RADAR_DATA_DIR: /app/data
+    ports:
+      - "3099:3099"
+    volumes:
+      - ./data:/app/data

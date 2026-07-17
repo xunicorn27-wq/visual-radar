@@ -1,0 +1,40 @@
+name: Visual Radar Daily
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "只运行流程，不发送企业微信"
+        required: false
+        default: true
+        type: boolean
+  schedule:
+    # UTC 01:30 = 新加坡/北京时间 09:30，周一至周五。
+    - cron: "30 1 * * 1-5"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: visual-radar-daily
+  cancel-in-progress: false
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger deployed Visual Radar
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          DEPLOYED_URL: ${{ secrets.DEPLOYED_URL }}
+          MANUAL_DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          set -euo pipefail
+          suffix=""
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "$MANUAL_DRY_RUN" = "true" ]; then
+            suffix="?dryRun=1"
+          fi
+          curl --fail-with-body --silent --show-error \
+            --request POST \
+            --header "x-cron-secret: $CRON_SECRET" \
+            "$DEPLOYED_URL/api/automation/daily$suffix"
