@@ -6,26 +6,33 @@ const workflowPath = path.resolve(process.cwd(), ".github/workflows/pages.yml");
 const workflow = fs.existsSync(workflowPath)
   ? fs.readFileSync(workflowPath, "utf-8")
   : "";
+const jobs = yamlBlock(workflow, "jobs", 0);
+const buildJob = withoutYamlComments(yamlBlock(jobs, "build", 2));
+const deployJob = withoutYamlComments(yamlBlock(jobs, "deploy", 2));
 
 describe("GitHub Pages workflow", () => {
-  it("exists with the expected triggers, permissions, and concurrency", () => {
+  it("uses only the expected main branch triggers and production concurrency", () => {
     expect(workflow).not.toBe("");
     expect(workflow).toContain("name: Deploy Visual Radar Pages");
-    expect(topLevelBlock("on")).toBe(
+    expect(yamlBlock(workflow, "on", 0)).toBe(
       "  push:\n    branches: [main]\n  workflow_dispatch:"
     );
-    expect(topLevelBlock("permissions")).toBe(
-      "  contents: read\n  pages: write\n  id-token: write"
-    );
-    expect(workflow).toMatch(
-      /concurrency:\s*\n\s+group: visual-radar-pages\s*\n\s+cancel-in-progress: true/
+    expect(yamlBlock(workflow, "concurrency", 0)).toBe(
+      "  group: visual-radar-pages\n  cancel-in-progress: false"
     );
   });
 
-  it("builds and uploads the Pages artifact in the required order", () => {
-    expect(workflow).toMatch(/build:\s*\n\s+runs-on: ubuntu-latest/);
+  it("keeps elevated permissions out of the workflow scope", () => {
+    expect(workflow).toMatch(/^permissions: \{\}$/m);
+    expect(workflow).not.toMatch(/^permissions:\s*\n\s+(?:pages|id-token):/m);
+  });
 
-    expectInOrder(workflow, [
+  it("builds on main with read-only contents permission", () => {
+    expect(buildJob).toContain("    if: github.ref == 'refs/heads/main'");
+    expect(yamlBlock(buildJob, "permissions", 4).trim()).toBe("contents: read");
+    expect(buildJob).toContain("    runs-on: ubuntu-latest");
+
+    expectInOrder(buildJob, [
       "uses: actions/checkout@v6",
       "uses: pnpm/action-setup@v4",
       "version: 11.9.0",
@@ -42,26 +49,30 @@ describe("GitHub Pages workflow", () => {
     ]);
   });
 
-  it("deploys only after the build job completes", () => {
-    expect(workflow).toMatch(
-      /deploy:\s*\n\s+needs: build\s*\n\s+runs-on: ubuntu-latest\s*\n\s+environment:\s*\n\s+name: github-pages\s*\n\s+url: \$\{\{ steps\.deployment\.outputs\.page_url \}\}/
+  it("deploys after build with only Pages identity permissions", () => {
+    expect(deployJob).toContain("    needs: build");
+    expect(deployJob).toContain("    runs-on: ubuntu-latest");
+    expect(yamlBlock(deployJob, "permissions", 4).trim()).toBe(
+      "pages: write\n      id-token: write"
     );
-    expect(workflow).toMatch(
-      /- name: Deploy to GitHub Pages\s*\n\s+id: deployment\s*\n\s+uses: actions\/deploy-pages@v4/
+    expect(deployJob).toMatch(
+      /environment:\s*\n\s+name: github-pages\s*\n\s+url: \$\{\{ steps\.deployment\.outputs\.page_url \}\}/
     );
+    expectInOrder(deployJob, [
+      "- name: Deploy to GitHub Pages",
+      "id: deployment",
+      "uses: actions/deploy-pages@v4",
+    ]);
   });
 
   it.each([
-    "OPENAI_API_KEY",
-    "WECOM_BOT_WEBHOOK",
-    "CRON_SECRET",
-    "DEPLOYED_URL",
-    "wecom",
-    "/api/automation/daily",
-    "pnpm daily",
-    "curl ",
-  ])("does not reference forbidden deployment concern %s", (forbidden) => {
-    expect(workflow.toLowerCase()).not.toContain(forbidden.toLowerCase());
+    /\$\{\{\s*secrets\./i,
+    /github\.token|GITHUB_TOKEN/i,
+    /\b(?:curl|wget)\b/i,
+    /WECOM|OPENAI|CRON|DEPLOYED/i,
+    /\/api\/[^\s"']*daily|daily[^\n]*api/i,
+  ])("does not contain forbidden secret or external trigger %s", (forbidden) => {
+    expect(workflow).not.toMatch(forbidden);
   });
 });
 
@@ -77,7 +88,32 @@ function expectInOrder(contents: string, fragments: string[]) {
   }
 }
 
-function topLevelBlock(key: string) {
-  const match = workflow.match(new RegExp(`^${key}:\\n((?:  .*(?:\\n|$))*)`, "m"));
-  return match?.[1].trimEnd() ?? "";
+function yamlBlock(contents: string, key: string, indent: number) {
+  const lines = contents.split("\n");
+  const header = `${" ".repeat(indent)}${key}:`;
+  const start = lines.findIndex((line) => line === header);
+
+  if (start === -1) return "";
+
+  const body: string[] = [];
+  for (const line of lines.slice(start + 1)) {
+    if (line.trim() === "") {
+      body.push(line);
+      continue;
+    }
+
+    const lineIndent = line.length - line.trimStart().length;
+    if (lineIndent <= indent) break;
+    body.push(line);
+  }
+
+  return body.join("\n").trimEnd();
+}
+
+function withoutYamlComments(contents: string) {
+  return contents
+    .split("\n")
+    .filter((line) => !line.trimStart().startsWith("#"))
+    .map((line) => line.replace(/\s+#.*$/, ""))
+    .join("\n");
 }
