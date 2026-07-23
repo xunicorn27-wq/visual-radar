@@ -2,6 +2,3018 @@
   "issues": [
     {
       "featuredStoryIds": [
+        "visual-nowness-788eah",
+        "visual-dazed-1ld6n1y",
+        "visual-interview-magazine-185f1yv",
+        "visual-wallpaper-lggb2z",
+        "visual-dazed-1qnqz2u",
+        "visual-its-nice-that-tt7yhc",
+        "visual-wallpaper-mdwhww",
+        "visual-its-nice-that-1ubhmm9",
+        "visual-another-magazine-1cz2wf0",
+        "visual-fashionsnap-79c3g9"
+      ],
+      "generatedAt": "2026-07-23T01:37:47.053Z",
+      "id": "2026-07-23",
+      "issueDate": "2026-07-23",
+      "metadata": {
+        "models": [
+          "codex-agent"
+        ],
+        "promptVersion": "visual-daily-v1"
+      },
+      "skipped": [
+        {
+          "itemId": "visual-its-nice-that-1orqujn",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-topaz-labs-utw1gy",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-tokyo-photo-museum-mwdks2",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-id-magazine-avrjw8",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-aputure-1cfq4gu",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-topaz-labs-1n09alp",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-nowness-lms14m",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-palais-galliera-18peipw",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-aputure-1pbkrp0",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-aputure-9aw6ku",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-palais-galliera-nsswhw",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-palais-galliera-wulbnw",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-runway-1endmth",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-tokyo-photo-museum-mwdkst",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-topaz-labs-113q1wr",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-nowness-14zugbj",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-aputure-9aw6kv",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-its-nice-that-j4ws0g",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-aputure-1qqxao4",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-aputure-9aw6kw",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-profoto-y39th8",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-vam-fashion-c238c3",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-aputure-1km90m5",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-aputure-38wjo0",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-palais-galliera-1pi10sy",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-palais-galliera-c68ljp",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-vogue-singapore-kq94yj",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-vam-fashion-1dkunpp",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-vogue-singapore-13207b4",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-interview-magazine-st7fod",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-id-magazine-10owni3",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-vam-fashion-nkxvzs",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-vam-fashion-1xj64he",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-blackmagic-resolve-9aycvr",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-palais-galliera-19s48u9",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-profoto-theg11",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-tokyo-photo-museum-mwdks4",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-tokyo-photo-museum-mwdkx7",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-topaz-labs-1727hsf",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-mplus-yuv26f",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-profoto-vf1p3i",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-profoto-9ht5z",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-w-magazine-14hbxlo",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-dazed-pttf6l",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-profoto-tfog75",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-profoto-tce93q",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-profoto-y2ouev",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-vogue-singapore-1jlg6si",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-vogue-singapore-y0g2m2",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-vam-fashion-zgtmcz",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-vam-fashion-1y82t2v",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-profoto-76p3cr",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-tokyo-photo-museum-mwdksr",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-topaz-labs-17dv6oi",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-topaz-labs-1dzoc2c",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-topaz-labs-buala0",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-topaz-labs-wq5v8c",
+          "reason": "previous_issue"
+        },
+        {
+          "itemId": "visual-dazed-t4jmaj",
+          "reason": "score_below_60"
+        },
+        {
+          "itemId": "visual-adobe-news-1jyjoai",
+          "reason": "score_below_60"
+        },
+        {
+          "itemId": "visual-fashionsnap-1oxc3n1",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-japan-1d4apln",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-korea-5l9kbm",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-fashionsnap-h20vtl",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-japan-178ryac",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-w-magazine-5bzx8r",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-w-magazine-1a754a8",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-wallpaper-1vunqn3",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-id-magazine-de8sgc",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-w-magazine-d8klyh",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-w-magazine-1ao2b7i",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-w-magazine-1riis15",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-british-vogue-mnz8c8",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-wallpaper-2y4c2o",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-dazed-1e740g5",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-w-magazine-1dpv90v",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-wallpaper-11ia1dh",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-british-vogue-1q3ao5c",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-british-vogue-1mtnsav",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-british-vogue-lla4f3",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-id-magazine-qiu0j2",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-wallpaper-1beyrsg",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-british-vogue-lms5pl",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-japan-szdtzo",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-another-magazine-uthhfl",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-dazed-1ksqwjp",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-dazed-7swy9b",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-british-vogue-5di8bk",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-wallpaper-x6cpoo",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-japan-1fhfyx5",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-singapore-7qvi0r",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-singapore-o7m94l",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-fashionsnap-149moyu",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-korea-g1aeqs",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-fashionsnap-b38ee9",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-fashionsnap-1fjb1sp",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-korea-10v2c2e",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-japan-6s5d03",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-korea-2gcv2k",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-korea-1g9hmsm",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-korea-1ap0vbi",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-japan-2f82at",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-japan-15id1f3",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-its-nice-that-usg2pd",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-japan-1nh9y07",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-korea-1fqhbx0",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-dazed-n3vgca",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-singapore-l5egvi",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-bjp-1854-1swfj2t",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-interview-magazine-1t99fp9",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-id-magazine-7wi44j",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-runway-103pvy",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-another-magazine-eq4rlf",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-its-nice-that-2491z2",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-its-nice-that-e87uss",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-id-magazine-ohus7x",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-interview-magazine-3rytu3",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-its-nice-that-41qyfs",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-aperture-19dlnut",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-interview-magazine-gkpavi",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-interview-magazine-mw9w9r",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-id-magazine-1bjheeb",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-another-magazine-1oednd2",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-another-magazine-17akkcc",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-another-magazine-75prlq",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-interview-magazine-1dr9ylv",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-interview-magazine-1rj591s",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-aperture-1ajqxxt",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-runway-rlbkmy",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-bjp-1854-nkl93n",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-photovogue-1arvwbh",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-nowness-sc5z1f",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-runway-15e5yv6",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-runway-1d8lclo",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-nowness-1fs4tng",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-mplus-i6x40c",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-runway-kwnfc8",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-runway-19exvx7",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-runway-hyue2p",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-ginza-13emccb",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-ginza-slqjxd",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-aperture-u8x4r2",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-bjp-1854-vdyxf2",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-nowness-1tlqesp",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-icp-1ndosjs",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-lensculture-19qekuf",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-lensculture-1t195j2",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-photovogue-twoj0v",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-nowness-a2527",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-mplus-ywyep4",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-photovogue-1w4c2xk",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-bjp-1854-xb0yky",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-aperture-4oy4oq",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-bjp-1854-1lkp7s1",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-nowness-1536vsk",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-bjp-1854-wg1a1f",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-lensculture-1ftceyt",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-bjp-1854-1d4crxq",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-aperture-1w7p6dr",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-aperture-u2n59l",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-aperture-1fp3dtm",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-aperture-a8zy5b",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-photovogue-104yzfx",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-lensculture-1eewxk3",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-icp-edlg2r",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-photovogue-11e46fz",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-ginza-13embtd",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-ginza-slqjef",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-ginza-116vmvi",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-lensculture-1mi5mmb",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-lensculture-1wpxrn4",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-lensculture-10quzqz",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-momu-9ejkja",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-mplus-1p2ml90",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-mplus-h2kx4t",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-photovogue-1l0x6dj",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-photovogue-18by8jt",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-photovogue-19sy6oy",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-momu-d1krhr",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-mplus-1max0v6",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-ginza-13embsi",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-ginza-slqjdk",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-ginza-116uzvz",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-mplus-x0w0la",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-icp-18un0bc",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-mplus-14l8tu0",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-capture-one-j55qdy",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-icp-guhvtz",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-icp-14brjq1",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-capture-one-x58e4c",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-capture-one-1gfmz5y",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-capture-one-sm0w2l",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-capture-one-1xzcfz8",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-palais-galliera-yo6w40",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-capture-one-au8bk8",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-momu-10o5wcu",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-capture-one-1s4u774",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-capture-one-1oowhpf",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-momu-c4r8yx",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-momu-2zdio0",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-momu-9v72fo",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-momu-1kzwca3",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-momu-wcutdg",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-palais-galliera-f6j6fx",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-wallpaper-1f2cc3p",
+          "reason": "source_limit"
+        },
+        {
+          "itemId": "visual-another-magazine-k9ko3x",
+          "reason": "daily_limit"
+        },
+        {
+          "itemId": "visual-vam-fashion-1e6ylys",
+          "reason": "daily_limit"
+        },
+        {
+          "itemId": "visual-vogue-singapore-vih6wb",
+          "reason": "daily_limit"
+        },
+        {
+          "itemId": "visual-w-magazine-1w7gc51",
+          "reason": "daily_limit"
+        },
+        {
+          "itemId": "visual-fashionsnap-48ftv3",
+          "reason": "daily_limit"
+        },
+        {
+          "itemId": "visual-british-vogue-1p7ha34",
+          "reason": "daily_limit"
+        },
+        {
+          "itemId": "visual-vogue-korea-1vax9in",
+          "reason": "daily_limit"
+        },
+        {
+          "itemId": "visual-fashionsnap-xdmufo",
+          "reason": "daily_limit"
+        },
+        {
+          "itemId": "visual-british-vogue-fkzvm9",
+          "reason": "daily_limit"
+        },
+        {
+          "itemId": "visual-vam-fashion-te75a8",
+          "reason": "daily_limit"
+        }
+      ],
+      "stats": {
+        "bySource": {
+          "NOWNESS": 1,
+          "Dazed": 2,
+          "Interview": 1,
+          "It's Nice That": 2,
+          "British Journal of Photography": 1,
+          "AnOther": 3,
+          "Wallpaper*": 3,
+          "FASHIONSNAP": 3,
+          "i-D": 1,
+          "LensCulture": 1,
+          "V&A Fashion": 2,
+          "Vogue Singapore": 1,
+          "Vogue Runway": 1,
+          "W Magazine": 1,
+          "British Vogue": 2,
+          "Vogue Korea": 1
+        },
+        "byTopic": {
+          "photography": 7,
+          "fashion_culture": 4,
+          "creator": 5,
+          "styling": 5,
+          "exhibition": 3,
+          "outfit": 2
+        },
+        "storyCount": 26
+      },
+      "stories": [
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "Romain Gavras 与 Surkin 在拜科努尔航天发射场拍摄实验影像《Baikonur》，作为伦敦 180 Studios“GENER8ION: Visions of 2034”的首件作品。停滞的苏联基础设施、近距离火箭发射与近乎纪实的拍法，共同生成一种既诗意又受控制的末世未来感。",
+            "chineseTitle": "《Baikonur》在前苏联航天遗址拍摄失真的未来",
+            "contentHash": "sha1:f3867fc94683b58811f49380d0bd9c3447395043",
+            "itemId": "visual-nowness-788eah",
+            "model": "codex-agent",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 99,
+            "scoreBreakdown": {
+              "informationSpecificity": 15,
+              "novelty": 19,
+              "professionalRelevance": 20,
+              "sourceQuality": 10,
+              "timeliness": 5,
+              "visualInspiration": 30
+            },
+            "selectionRationale": "作品将建筑遗址、纪录影像与未来叙事融合，并有完整创作访谈和展览语境，是本轮最强的影像方法信号。",
+            "status": "success",
+            "trendKeywords": [
+              "后苏联未来感",
+              "实验影像",
+              "空间叙事"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-nowness-788eah",
+            "keywords": [
+              "photography",
+              "fashion_culture",
+              "creator"
+            ],
+            "lang": "en",
+            "market": "global",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-22T09:00:00.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.nowness.com/rss",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.nowness.com/series/video-art-visions/romain-gavras-surkin-baikonur-gener8ion"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "NOWNESS",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.nowness.com/series/video-art-visions/romain-gavras-surkin-baikonur-gener8ion",
+            "text": "​Video Art Visions: Romain Gavras & Surkin - Baikonur Imagining futures glimpsed from the margins, shaped less by collapse than by distortion, French filmmaker Romain Gavras and musician-producer Surkin build a multimedia world around peripheral dystopias for GENER8ION: Visions of 2034 – a major exhibition at London’s 180 Studios . The first of ten audiovisual works, observing familiar yet skewed environments, their experimental film Baikonur documents the world’s oldest space launch facility, the Baikonur Cosmodrome in Kazakhstan – a shadow of the Soviet era that remains under Russian control. Reflecting on how culture is consumed, processed, and forgotten, the video piece sits within a wider concept examining mutations between the reflexes of pleasure and the machinery of control – in response to cultural theorist Jean Baudrillard’s concept of simulation. Meditating on the spaceport’s unchanged infrastructure, and the moment a rocket launches into space, Gavras and Surkin consider the philosophy of freedom from a site that occupies a strange space in history – existing as a vision of what survives, and what doesn’t in an uncertain future. What first brought you to Kazakhstan? Romain Gavras: It’s the second time I went. I love the \"Stans\" – the layers of history, ancient and recent, in that part of the world are worn on the sleeves How did you land on the idea for the film? I was originally scouting for a secret project. We went with my line producer Guillaume Le François and my DOP André Chemetoff and when we got there we couldn’t stop shooting. What drew your attention to the Baikonur Cosmodrome? I’ve always been fascinated by it. It’s a Russian built enclave in the middle of the Kazakh desert, only made to support the Cosmodrome – like an ex-Soviet Truman Show for space exploration. At the time, it was the only place on Earth where they launched humans into space, so even our astronauts had to use the Russian infrastructures of Roscosmos to get up to space. It was also the only place in the world where you were allowed to film a rocket launched from only a kilometer away – Cape Canaveral, for example, is 8km. How did you go about creating a sense of dystopia? I didn’t really have to, it’s there. Built in the ‘50s , nothing has really moved, there is an amazing sense of purpose in the architecture of it, a sense that the future was going to be glorious – then time froze everything in that period. When I shot it, the only humans going to space were launched from there and every technological aspect is from the ‘70s – the bus the astronauts arrive at the rocket in, the train the rocket travels in. It’s fascinating. How did you guide the visual approach? It was really meant to be documentation for my own research, so it is very removed from a strong intention, very matter of fact and photo-like. How has your creative relationship with Surkin evolved? We’ve known each other since forever, and always liked to work together and talk about ideas about music and images. Can you talk us through some of the film’s themes, and how this relates to the exhibition as a whole? We open the exhibition with it. I feel it gives context about how history moves and the sentiment of the exhibit as a whole, which is constructed as a retrospective about a time in the future. Within this body of work, what message did you want the film to communicate? I’m not keen on straightforward messages, but I like the idea of creating a feeling, and the feelings I have about the future are dual. One take is that no matter what happens, there is still going to be poetry and beauty in the world, and kids will be kids doing silly things no matter the environment. My other take is that we all know that we’re dancing on the edge of a volcano. GENER8ION: Visions of 2034 will be on view at 180 Studios in London until 30 August 2026.",
+            "thumbnailUrl": "https://img.nowness.com/nowness-frontend/F8HHML6Q9qDDOv3QFJ8g_ROMAIN%20GAVRAS%20-%20BAIKONUR%20STILL%204.jpg",
+            "title": "​Video Art Visions: Romain Gavras & Surkin - Baikonur",
+            "contentHash": "sha1:f3867fc94683b58811f49380d0bd9c3447395043",
+            "dedupKey": "www.nowness.com/series/video-art-visions/romain-gavras-surkin-baikonur-gener8ion",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "导演 Barry Jenkins 首次参与时装秀与 Prada 新广告的影像创作，并以 Hunter Schafer 主演短片扩展品牌世界。电影作者的节奏、人物心理和世界观正被引入传统时装传播，使 campaign 从产品展示走向可独立观看的叙事作品。",
+            "chineseTitle": "Barry Jenkins 为 Prada 拍摄更深层的时装叙事",
+            "contentHash": "sha1:da77c18a26fc13ff613f720be1d5e44a58345ebc",
+            "itemId": "visual-dazed-1ld6n1y",
+            "model": "codex-agent",
+            "primaryTopic": "fashion_culture",
+            "promptVersion": "visual-daily-v1",
+            "score": 98,
+            "scoreBreakdown": {
+              "informationSpecificity": 15,
+              "novelty": 19,
+              "professionalRelevance": 20,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 30
+            },
+            "selectionRationale": "电影导演与奢侈品牌的深度协作最能体现时装影像的叙事化趋势，具备极高的行业与创作参考价值。",
+            "status": "success",
+            "trendKeywords": [
+              "时装短片",
+              "品牌叙事",
+              "电影作者性"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-dazed-1ld6n1y",
+            "keywords": [
+              "styling",
+              "fashion_culture",
+              "creator"
+            ],
+            "lang": "en",
+            "market": "EU",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-22T13:59:00.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.dazeddigital.com/rss",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.dazeddigital.com/fashion/article/70683/1/barry-jenkins-prada-aw26-fw26-campaign-director-hunter-schafer-troye-sivan?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=barry-jenkins-on-directing-prada-we-wanted-something-a-little-bit-deeper"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "Dazed",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.dazeddigital.com/fashion/article/70683/1/barry-jenkins-prada-aw26-fw26-campaign-director-hunter-schafer-troye-sivan?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=barry-jenkins-on-directing-prada-we-wanted-something-a-little-bit-deeper",
+            "text": "The Academy Award-winning director reflects on his first-ever fashion show and helming Prada’s new campaign. Plus, watch an exclusive premiere of Hunter Schafer’s new short film, directed by Jenkins",
+            "thumbnailUrl": null,
+            "title": "Barry Jenkins on directing Prada: ‘We wanted something a little bit deeper’",
+            "contentHash": "sha1:da77c18a26fc13ff613f720be1d5e44a58345ebc",
+            "dedupKey": "www.dazeddigital.com/fashion/article/70683/1/barry-jenkins-prada-aw26-fw26-campaign-director-hunter-schafer-troye-sivan",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "Interview 聚焦 Duran Lantink 的首个高级定制系列，以及他对 Marie Antoinette 等历史形象的再利用。设计师不以迎合为目标的公开姿态，与其擅长的拼接、夸张比例和时装角色化方法一起，强化了品牌的作者性。",
+            "chineseTitle": "Duran Lantink 的首个高定系列与反讨好姿态",
+            "contentHash": "sha1:93a4b2be08b4d781c0f9de1345879096e0093c17",
+            "itemId": "visual-interview-magazine-185f1yv",
+            "model": "codex-agent",
+            "primaryTopic": "creator",
+            "promptVersion": "visual-daily-v1",
+            "score": 94,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 18,
+              "professionalRelevance": 19,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 29
+            },
+            "selectionRationale": "新高定节点与鲜明作者立场结合，能观察当代设计师如何以历史引用和反讨好策略建立辨识度。",
+            "status": "success",
+            "trendKeywords": [
+              "高级定制",
+              "作者性时装",
+              "历史角色"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-interview-magazine-185f1yv",
+            "keywords": [
+              "creator",
+              "photography",
+              "fashion_culture"
+            ],
+            "lang": "en",
+            "market": "US",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-22T13:00:45.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.interviewmagazine.com/feed/",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.interviewmagazine.com/fashion/duran-lantink-jean-paul-gaultier-couture-spring-summer-runway-collection-debut"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "Interview",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.interviewmagazine.com/fashion/duran-lantink-jean-paul-gaultier-couture-spring-summer-runway-collection-debut",
+            "text": "The designer dishes on his first couture collection, Marie Antoinette, and accepting the haters. The post Duran Lantink Is Ignoring the Haters appeared first on Interview Magazine .",
+            "thumbnailUrl": "https://www.interviewmagazine.com/wp-content/uploads/2026/07/DURANSELFIE.jpeg",
+            "title": "Duran Lantink Is Ignoring the Haters",
+            "contentHash": "sha1:93a4b2be08b4d781c0f9de1345879096e0093c17",
+            "dedupKey": "www.interviewmagazine.com/fashion/duran-lantink-jean-paul-gaultier-couture-spring-summer-runway-collection-debut",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "Dazed 走入巴黎仍在生长的酷儿地下卡巴莱场景，从 La Bouche 到 Venus Noire，记录夜间表演如何保存并更新社群的身体、服装与舞台语言。它将俱乐部视为实时生产视觉文化的档案，而非单纯的娱乐空间。",
+            "chineseTitle": "巴黎酷儿地下卡巴莱：作为“活档案”的夜间舞台",
+            "contentHash": "sha1:919fe824bf5356890f877c97dcc830eb82b0f041",
+            "itemId": "visual-dazed-1qnqz2u",
+            "model": "codex-agent",
+            "primaryTopic": "fashion_culture",
+            "promptVersion": "visual-daily-v1",
+            "score": 93,
+            "scoreBreakdown": {
+              "informationSpecificity": 15,
+              "novelty": 18,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 4,
+              "visualInspiration": 29
+            },
+            "selectionRationale": "地下表演场景兼具造型、身体与社群叙事密度，是理解当代夜生活视觉语言的重要一手文化信号。",
+            "status": "success",
+            "trendKeywords": [
+              "酷儿卡巴莱",
+              "夜间文化",
+              "活档案"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-dazed-1qnqz2u",
+            "keywords": [
+              "styling",
+              "fashion_culture",
+              "creator"
+            ],
+            "lang": "en",
+            "market": "EU",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-22T16:43:00.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.dazeddigital.com/rss",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.dazeddigital.com/life-culture/article/70687/1/inside-paris-queer-lgbtq-carabet-scene-club-nights-la-bouche-venus-noir?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=we-are-a-living-archive-inside-paris-queer-underground-cabaret-scene"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "Dazed",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.dazeddigital.com/life-culture/article/70687/1/inside-paris-queer-lgbtq-carabet-scene-club-nights-la-bouche-venus-noir?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=we-are-a-living-archive-inside-paris-queer-underground-cabaret-scene",
+            "text": "From La Bouche to Venus Noire, the French capital’s LGBTQ+ cabaret scene is thriving",
+            "thumbnailUrl": null,
+            "title": "‘We are a living archive’: Inside Paris’ queer underground cabaret scene",
+            "contentHash": "sha1:919fe824bf5356890f877c97dcc830eb82b0f041",
+            "dedupKey": "www.dazeddigital.com/life-culture/article/70687/1/inside-paris-queer-lgbtq-carabet-scene-club-nights-la-bouche-venus-noir",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "奥地利摄影师 Kurt Bauer 不用完整地标讲述地方，而从被忽视的物件、局部与稍纵即逝的瞬间建立场景感。画面留下“框外还有什么”的悬念，使静物摄影从陈列转向带有叙事张力的地理观察。",
+            "chineseTitle": "Kurt Bauer 用静物碎片替代风景明信片",
+            "contentHash": "sha1:c6c663673a1555c266750a4d57d21d216cbda7df",
+            "itemId": "visual-its-nice-that-tt7yhc",
+            "model": "codex-agent",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 93,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 18,
+              "professionalRelevance": 19,
+              "sourceQuality": 9,
+              "timeliness": 4,
+              "visualInspiration": 29
+            },
+            "selectionRationale": "摄影方法具体且可复用：用边缘细节、局部取景和留白取代明信片式全景，适合编辑和品牌影像借鉴。",
+            "status": "success",
+            "trendKeywords": [
+              "静物摄影",
+              "地方叙事",
+              "框外想象"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-its-nice-that-tt7yhc",
+            "keywords": [
+              "creator",
+              "photography",
+              "fashion_culture"
+            ],
+            "lang": "en",
+            "market": "EU",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-22T08:00:00.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://feeds2.feedburner.com/itsnicethat/SlXC",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.itsnicethat.com/articles/kurt-bauer-photography-discover-220726"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "It's Nice That",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.itsnicethat.com/articles/kurt-bauer-photography-discover-220726",
+            "text": "The Austrian photographer captures overlooked details and fleeting moments, making you incredibly curious about what’s going on just out of frame.",
+            "thumbnailUrl": null,
+            "title": "Kurt Bauer’s still life photographs reveal more about a place than a “postcard view” ever could",
+            "contentHash": "sha1:c6c663673a1555c266750a4d57d21d216cbda7df",
+            "dedupKey": "www.itsnicethat.com/articles/kurt-bauer-photography-discover-220726",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "Sam Hutchinson 的新项目《Ethereal Serotonin Climax》从反文化出发，故意模糊纪实、介入与虚构之间的边界。作品提示摄影不必证明单一事实，也可以通过表演和结构性失真，让观者重新怀疑图像所承诺的现实。",
+            "chineseTitle": "Sam Hutchinson 在纪实与虚构之间制造不稳定现实",
+            "contentHash": "sha1:cb92703b9b5c125646d1cff7b46fc66cc04c6ffe",
+            "itemId": "visual-bjp-1854-1a3vmvo",
+            "model": "codex-agent",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 93,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 18,
+              "professionalRelevance": 19,
+              "sourceQuality": 9,
+              "timeliness": 4,
+              "visualInspiration": 29
+            },
+            "selectionRationale": "项目清晰讨论摄影的纪实性边界，为需要在真实感与虚构感之间切换的当代影像创作提供参考。",
+            "status": "success",
+            "trendKeywords": [
+              "摄影虚构",
+              "反文化",
+              "不稳定现实"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-bjp-1854-1a3vmvo",
+            "keywords": [
+              "photography",
+              "exhibition",
+              "creator"
+            ],
+            "lang": "en",
+            "market": "EU",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-20T17:00:20.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.1854.photography/feed/",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.1854.photography/2026/07/sam-hutchinson-explores-unstable-realities-with-his-latest-project/"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "British Journal of Photography",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.1854.photography/2026/07/sam-hutchinson-explores-unstable-realities-with-his-latest-project/",
+            "text": "Rooted in the counterculture, Sam Hutchinson blurs the boundaries between documentation, intervention and fiction in his series Ethereal Serotonin Climax The post Sam Hutchinson explores unstable realities with his latest project appeared first on 1854 Photography .",
+            "thumbnailUrl": "https://www.1854.photography/wp-content/uploads/2026/06/otw_free_mpu.png",
+            "title": "Sam Hutchinson explores unstable realities with his latest project",
+            "contentHash": "sha1:cb92703b9b5c125646d1cff7b46fc66cc04c6ffe",
+            "dedupKey": "www.1854.photography/2026/07/sam-hutchinson-explores-unstable-realities-with-his-latest-project",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "72h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "彩妆师 Fara Homidi 从母亲美容院的记忆、旧杂志和“sexy, lived-in”审美中发展自己的语言。她强调不完美的皮肤状态与有生活痕迹的色彩，让彩妆从产品展示回到人物气质、时间感和编辑叙事。",
+            "chineseTitle": "Fara Homidi 用档案杂志重构“生活过”的妆容",
+            "contentHash": "sha1:7fb8d0c1a86eb872bbed2695a39814ced356db1d",
+            "itemId": "visual-another-magazine-1qgmt3i",
+            "model": "codex-agent",
+            "primaryTopic": "styling",
+            "promptVersion": "visual-daily-v1",
+            "score": 93,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 18,
+              "professionalRelevance": 19,
+              "sourceQuality": 9,
+              "timeliness": 4,
+              "visualInspiration": 29
+            },
+            "selectionRationale": "彩妆师的档案引用和生活感美学具备明确视觉方法，对妆发、肖像和时装编辑都可直接转译。",
+            "status": "success",
+            "trendKeywords": [
+              "生活感妆容",
+              "美容档案",
+              "编辑彩妆"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-another-magazine-1qgmt3i",
+            "keywords": [
+              "styling",
+              "photography",
+              "magazine"
+            ],
+            "lang": "en",
+            "market": "EU",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-20T16:07:56.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.anothermag.com/feed",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.anothermag.com/fashion-beauty/17331/fara-homidi-makeup-artist-bronzer-blush-blonzer-new-interview?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=fara-homidi-the-make-up-artist-elevating-the-everyday"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "AnOther",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.anothermag.com/fashion-beauty/17331/fara-homidi-makeup-artist-bronzer-blush-blonzer-new-interview?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=fara-homidi-the-make-up-artist-elevating-the-everyday",
+            "text": "Fara Homidi takes inspiration from a childhood spent at her mum’s beauty salon, archival magazines and a “sexy, lived-in” aesthetic",
+            "thumbnailUrl": null,
+            "title": "Fara Homidi, the Make-up Artist Elevating the Everyday",
+            "contentHash": "sha1:7fb8d0c1a86eb872bbed2695a39814ced356db1d",
+            "dedupKey": "www.anothermag.com/fashion-beauty/17331/fara-homidi-makeup-artist-bronzer-blush-blonzer-new-interview",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "72h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "纽约设计工作室 Vy Voi 的创始人 Steffany Tran 从古老文化传统中提取细节，再以当代物件和图形系统重新组织。她的工作展示了新一代跨文化设计师如何不把传统当作装饰，而是把它作为持续生成视觉语言的研究材料。",
+            "chineseTitle": "Vy Voi 以文化碎片建立新纽约设计语言",
+            "contentHash": "sha1:b2bc60f129ef1b1d73ddefa3455aca161f0cbee1",
+            "itemId": "visual-wallpaper-mdwhww",
+            "model": "codex-agent",
+            "primaryTopic": "creator",
+            "promptVersion": "visual-daily-v1",
+            "score": 92,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 18,
+              "professionalRelevance": 19,
+              "sourceQuality": 9,
+              "timeliness": 4,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "案例具有明确的跨文化研究方法和作者视角，适合参考传统元素如何被转为非表面的当代设计系统。",
+            "status": "success",
+            "trendKeywords": [
+              "跨文化设计",
+              "研究型创作",
+              "文化再编码"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-wallpaper-mdwhww",
+            "keywords": [
+              "styling",
+              "exhibition",
+              "fashion_culture"
+            ],
+            "lang": "en",
+            "market": "EU",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-22T14:24:15.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.wallpaper.com/rss",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.wallpaper.com/design-interiors/vy-voi-steffany-tran-designer-profile"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "Wallpaper*",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.wallpaper.com/design-interiors/vy-voi-steffany-tran-designer-profile",
+            "text": "Ancient cultural traditions are reinterpreted in the work of designer Steffany Tran of Vy Voi, part of our ‘American Dreams’ series of five US studios whose founders embody a new generation of global creatives",
+            "thumbnailUrl": "https://cdn.mos.cms.futurecdn.net/fCzTJmEG3Tr2cDaqTtoWMN-1280-80.png",
+            "title": "‘Like using a metal detector and finding nuggets in history’: meet New York design studio Vy Voi",
+            "contentHash": "sha1:b2bc60f129ef1b1d73ddefa3455aca161f0cbee1",
+            "dedupKey": "www.wallpaper.com/design-interiors/vy-voi-steffany-tran-designer-profile",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "Benjamin Slinger 的“Empire”从日式灯笼与全球快餐品牌视觉中抽取材料，追问设计中价值如何被包装、复制和怀旧化。展览把商业标识、日常记忆与空间装置交织，为研究品牌图像的文化寿命提供了一个锋利样本。",
+            "chineseTitle": "“Empire”展览用快餐品牌重组千禧怀旧",
+            "contentHash": "sha1:b4e450404225e69c215b9f3756700f45c10164a2",
+            "itemId": "visual-wallpaper-lggb2z",
+            "model": "codex-agent",
+            "primaryTopic": "exhibition",
+            "promptVersion": "visual-daily-v1",
+            "score": 92,
+            "scoreBreakdown": {
+              "informationSpecificity": 15,
+              "novelty": 18,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 4,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "快餐品牌与灯笼的非常规并置具有明确策展观点，能启发关于商业图像、怀旧和空间叙事的再创作。",
+            "status": "success",
+            "trendKeywords": [
+              "千禧怀旧",
+              "品牌图像",
+              "空间装置"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-wallpaper-lggb2z",
+            "keywords": [
+              "styling",
+              "exhibition",
+              "fashion_culture"
+            ],
+            "lang": "en",
+            "market": "EU",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-22T14:06:45.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.wallpaper.com/rss",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.wallpaper.com/art/exhibitions-shows/empire-by-benjamin-slinger-london-exhibition"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "Wallpaper*",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.wallpaper.com/art/exhibitions-shows/empire-by-benjamin-slinger-london-exhibition",
+            "text": "Rooted in millennial nostalgia, ‘Empire’ by Benjamin Slinger shines a light on global fast-food branding over the decades and questions ideas of value in design",
+            "thumbnailUrl": "https://cdn.mos.cms.futurecdn.net/HWuyXJZcsypCeQWri6MKWg-1280-80.png",
+            "title": "Japanese lanterns and fast-food branding inspire a nostalgic exhibition",
+            "contentHash": "sha1:b4e450404225e69c215b9f3756700f45c10164a2",
+            "dedupKey": "www.wallpaper.com/art/exhibitions-shows/empire-by-benjamin-slinger-london-exhibition",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "Hannah Motzel Brown 用机械铅笔描绘手指、雀斑、皮肤褶皱、花朵与织物，让身体在写实和幻想之间游移。细密线条和低光阴影让触觉成为画面的主角，为时装图像、妆发与人体摄影提供了非数字化的质感参照。",
+            "chineseTitle": "Hannah Motzel Brown 以铅笔画连接皮肤、织物与阴影",
+            "contentHash": "sha1:daf892c2bacc94723ba0870d83350e548de65da3",
+            "itemId": "visual-its-nice-that-1ubhmm9",
+            "model": "codex-agent",
+            "primaryTopic": "creator",
+            "promptVersion": "visual-daily-v1",
+            "score": 92,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 18,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 4,
+              "visualInspiration": 29
+            },
+            "selectionRationale": "作品将身体细节和材质触感转化为高辨识度的绘画语言，适合提取皮肤、布料和阴影的视觉处理方法。",
+            "status": "success",
+            "trendKeywords": [
+              "机械铅笔",
+              "身体质感",
+              "阴影绘画"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-its-nice-that-1ubhmm9",
+            "keywords": [
+              "creator",
+              "photography",
+              "fashion_culture"
+            ],
+            "lang": "en",
+            "market": "EU",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-22T08:00:00.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://feeds2.feedburner.com/itsnicethat/SlXC",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.itsnicethat.com/articles/hannah-motzel-brown-art-discover-220726"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "It's Nice That",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.itsnicethat.com/articles/hannah-motzel-brown-art-discover-220726",
+            "text": "This artist builds detailed worlds where bodies, fabrics, flowers and shadows blur between fantasy and realism.",
+            "thumbnailUrl": null,
+            "title": "Hannah Motzel Brown’s shadowy mechanical pencil drawings expertly depict fingers, freckles and folds of skin",
+            "contentHash": "sha1:daf892c2bacc94723ba0870d83350e548de65da3",
+            "dedupKey": "www.itsnicethat.com/articles/hannah-motzel-brown-art-discover-220726",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "随着《乡愁》和《牺牲》以 4K 修复回到影院，AnOther 重看塔可夫斯基最具代表性的五部作品。水、雾、废墟与缓慢移动的镜头仍是影像创作者的重要素材库，也提醒我们媒介修复能够重新激活历史电影的材质感。",
+            "chineseTitle": "塔可夫斯基 4K 修复重启幽灵般的电影视觉",
+            "contentHash": "sha1:14a3e1a36b9b4a7030d220cedb6b48f2ff13a376",
+            "itemId": "visual-another-magazine-1cz2wf0",
+            "model": "codex-agent",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 90,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 16,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 4,
+              "visualInspiration": 29
+            },
+            "selectionRationale": "经典电影修复连接当代放映与持续影响力，其光线、空间和时间感可为影像、造型和美术提供高密度参考。",
+            "status": "success",
+            "trendKeywords": [
+              "电影修复",
+              "塔可夫斯基",
+              "材质影像"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-another-magazine-1cz2wf0",
+            "keywords": [
+              "styling",
+              "photography",
+              "magazine"
+            ],
+            "lang": "en",
+            "market": "EU",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-22T12:54:00.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.anothermag.com/feed",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.anothermag.com/design-living/17334/andrei-tarkovsky-films-nostalghia-the-sacrifice-4k-restorations?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=a-guide-to-the-spectral-films-of-andrei-tarkovsky"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "AnOther",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.anothermag.com/design-living/17334/andrei-tarkovsky-films-nostalghia-the-sacrifice-4k-restorations?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=a-guide-to-the-spectral-films-of-andrei-tarkovsky",
+            "text": "As Nostalghia and The Sacrifice return to cinemas in new 4K restorations, AnOther revisits five films that define Andrei Tarkovsky’s oeuvre",
+            "thumbnailUrl": null,
+            "title": "A Guide to the Spectral Films of Andrei Tarkovsky",
+            "contentHash": "sha1:14a3e1a36b9b4a7030d220cedb6b48f2ff13a376",
+            "dedupKey": "www.anothermag.com/design-living/17334/andrei-tarkovsky-films-nostalghia-the-sacrifice-4k-restorations",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "UNIQLO 在 2026 秋冬将原本分离的内衣与家居服合并为“Lounge & Innerwear”，由 Clare Waight Keller 参与监督。品类整合意味着贴身衣物不再只服务功能，而被当作可混搭、可外露并能表达个人状态的完整造型层。",
+            "chineseTitle": "UNIQLO 合并内衣与家居服，重塑日常层次",
+            "contentHash": "sha1:29f036e031eb208df8e71d49b7ff1880b1df860b",
+            "itemId": "visual-fashionsnap-79c3g9",
+            "model": "codex-agent",
+            "primaryTopic": "styling",
+            "promptVersion": "visual-daily-v1",
+            "score": 90,
+            "scoreBreakdown": {
+              "informationSpecificity": 15,
+              "novelty": 17,
+              "professionalRelevance": 19,
+              "sourceQuality": 8,
+              "timeliness": 5,
+              "visualInspiration": 26
+            },
+            "selectionRationale": "大规模品牌重新划分贴身衣物品类，清晰反映舒适性、混搭和内外界面模糊化的造型趋势。",
+            "status": "success",
+            "trendKeywords": [
+              "内衣外穿",
+              "家居服",
+              "日常层次"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-fashionsnap-79c3g9",
+            "keywords": [
+              "outfit",
+              "styling"
+            ],
+            "lang": "ja",
+            "market": "JP",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-22T10:24:00.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.fashionsnap.com/rss.xml",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.fashionsnap.com/article/2026-07-22/uniqlo-lounge-inner-26aw/"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "FASHIONSNAP",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.fashionsnap.com/article/2026-07-22/uniqlo-lounge-inner-26aw/",
+            "text": "「ユニクロ（UNIQLO）」が、2026年秋冬コレクションで、これまで別々だったインナーとラウンジウェアのカテゴリーを一つに統合し、「ラウンジ＆インナーウェア」コレクションとして打ち出す。 このコンテンツは FASHIONSNAP が配信しています。",
+            "thumbnailUrl": "https://fashionsnap-assets.com/asset/format=auto,fit=crop,width=300,height=300/article/images/2026/07/fbcee592-59dc-4e3d-bb7b-3dd3edb07dc8.jpg",
+            "title": "ユニクロがインナーとラウンジウェアを刷新 クレア・ワイト・ケラーが監修",
+            "contentHash": "sha1:29f036e031eb208df8e71d49b7ff1880b1df860b",
+            "dedupKey": "www.fashionsnap.com/article/2026-07-22/uniqlo-lounge-inner-26aw",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "摄影师 Tyrell Hampton 与 Frank Ocean 对谈《Last Call: Vol 1》，回看 2016 至 2018 年间的派对肖像。项目把亲密社群、夜间现场和摄影书编辑连接起来，说明非正式场景也能通过长期记录形成具有时代感的视觉档案。",
+            "chineseTitle": "Tyrell Hampton 的派对肖像摄影书回看",
+            "contentHash": "sha1:3aaee5788fad493e533fc063f0580b094450f72e",
+            "itemId": "visual-id-magazine-i5o43g",
+            "model": "codex-agent",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 90,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 17,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 4,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "摄影书以明确时间段和社群场景建立视觉档案，对派对摄影、人物关系和独立出版均有参考价值。",
+            "status": "success",
+            "trendKeywords": [
+              "派对肖像",
+              "摄影书",
+              "夜间档案"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-id-magazine-i5o43g",
+            "keywords": [
+              "styling",
+              "photography",
+              "fashion_culture"
+            ],
+            "lang": "en",
+            "market": "EU",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-20T14:01:46.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://i-d.co/feed/",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://i-d.co/article/tyrell-hampton-last-call-frank-ocean-interview/"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "i-D",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://i-d.co/article/tyrell-hampton-last-call-frank-ocean-interview/",
+            "text": "The musician and photographer link up to talk about Hampton’s “Last Call: Vol 1” book of party portraits from 2016-2018.",
+            "thumbnailUrl": "https://media.i-d.co/cdn-cgi/image/format=auto,quality=85/wp-content/uploads/2026/07/IMG_8097-scaled.jpg",
+            "title": "Frank Ocean Has Some Questions for Tyrell Hampton",
+            "contentHash": "sha1:3aaee5788fad493e533fc063f0580b094450f72e",
+            "dedupKey": "i-d.co/article/tyrell-hampton-last-call-frank-ocean-interview",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "72h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "水晶宫公园历经逾 170 年的维多利亚时代恐龙雕塑完成修复，湖泊、草坪与地标也被一并更新。这个案例把科学想象、园林叙事和修复设计连起来，说明公共空间中的旧式未来感仍能形成强烈的视觉记忆。",
+            "chineseTitle": "水晶宫公园恐龙雕塑修复：公共空间的史前想象",
+            "contentHash": "sha1:f37b3e1e2d018dfdc262a03a3a695503e6e12187",
+            "itemId": "visual-wallpaper-1f2cc3p",
+            "model": "codex-agent",
+            "primaryTopic": "exhibition",
+            "promptVersion": "visual-daily-v1",
+            "score": 89,
+            "scoreBreakdown": {
+              "informationSpecificity": 15,
+              "novelty": 16,
+              "professionalRelevance": 17,
+              "sourceQuality": 9,
+              "timeliness": 4,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "修复项目同时涉及雕塑、景观与公共叙事，提供以历史奇观重构场所体验的完整视觉参考。",
+            "status": "success",
+            "trendKeywords": [
+              "公共雕塑",
+              "修复设计",
+              "维多利亚未来感"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-wallpaper-1f2cc3p",
+            "keywords": [
+              "styling",
+              "exhibition",
+              "fashion_culture"
+            ],
+            "lang": "en",
+            "market": "EU",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-22T15:07:00.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.wallpaper.com/rss",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.wallpaper.com/architecture/public-buildings/crystal-palace-park-dinosaur-sculptures"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "Wallpaper*",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.wallpaper.com/architecture/public-buildings/crystal-palace-park-dinosaur-sculptures",
+            "text": "More than 170 years after they first thrilled Victorian visitors, Crystal Palace Park's prehistoric residents have been brought back from the brink – part of a sweeping restoration that has revived the park's lakes, lawns and landmarks",
+            "thumbnailUrl": "https://cdn.mos.cms.futurecdn.net/opksj6v5n3twHAh9pKDkjB-1280-80.jpg",
+            "title": "Crystal Palace Park’s dinosaur sculptures have been restored to their former glory",
+            "contentHash": "sha1:f37b3e1e2d018dfdc262a03a3a695503e6e12187",
+            "dedupKey": "www.wallpaper.com/architecture/public-buildings/crystal-palace-park-dinosaur-sculptures",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "AnOther 回访 2003 年的 Willem Dafoe 拍摄：他没有按既定方案穿造型，而是借穿现场工作人员的衣服完成肖像。这个小小的规则反转，让时装编辑拍摄从“展示服装”变成关于角色、关系和表演的即兴实验。",
+            "chineseTitle": "Willem Dafoe 让 2003 年杂志肖像变成换装表演",
+            "contentHash": "sha1:e219001e417ecf18a47d855b6e54f092c08a398a",
+            "itemId": "visual-another-magazine-k9ko3x",
+            "model": "codex-agent",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 89,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 17,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 3,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "档案拍摄以极低成本改变创作关系，展示了人物肖像、服装与现场即兴之间可复用的编辑方法。",
+            "status": "success",
+            "trendKeywords": [
+              "编辑肖像",
+              "即兴换装",
+              "杂志档案"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-another-magazine-k9ko3x",
+            "keywords": [
+              "styling",
+              "photography",
+              "magazine"
+            ],
+            "lang": "en",
+            "market": "EU",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-22T13:21:00.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.anothermag.com/feed",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.anothermag.com/design-living/15768/willem-dafoe-2003-another-magazine-marcelo-krasilcic?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=when-willem-dafoe-turned-a-photo-shoot-for-another-magazine-on-its-head"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "AnOther",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.anothermag.com/design-living/15768/willem-dafoe-2003-another-magazine-marcelo-krasilcic?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=when-willem-dafoe-turned-a-photo-shoot-for-another-magazine-on-its-head",
+            "text": "On Willem Dafoe’s birthday, we revisit our 2003 story for which he requested to wear the crew’s clothes instead, adopting each of their wardrobes as a means for performance",
+            "thumbnailUrl": null,
+            "title": "When Willem Dafoe Turned a Photo Shoot for AnOther Magazine on Its Head",
+            "contentHash": "sha1:e219001e417ecf18a47d855b6e54f092c08a398a",
+            "dedupKey": "www.anothermag.com/design-living/15768/willem-dafoe-2003-another-magazine-marcelo-krasilcic",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "LensCulture 汇集超过 70 个国际摄影书市集，从大型节展到独立出版聚会，呈现摄影师、出版社、收藏者与读者的线下网络。摄影书不只是一种成品，也仍是图像项目获得编辑反馈、交易和跨城传播的重要基础设施。",
+            "chineseTitle": "全球 70+ 摄影书市集地图，连接出版与社群",
+            "contentHash": "sha1:db97148f40bee58ea5859c2c428cf6557beaa5a9",
+            "itemId": "visual-lensculture-bzphst",
+            "model": "codex-agent",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 89,
+            "scoreBreakdown": {
+              "informationSpecificity": 15,
+              "novelty": 17,
+              "professionalRelevance": 19,
+              "sourceQuality": 9,
+              "timeliness": 4,
+              "visualInspiration": 25
+            },
+            "selectionRationale": "信息具有极强的行业可操作性，完整展现摄影书出版生态及其连接创作者、机构与藏家的现实场景。",
+            "status": "success",
+            "trendKeywords": [
+              "摄影书市集",
+              "独立出版",
+              "图像社群"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-lensculture-bzphst",
+            "keywords": [
+              "photography",
+              "creator"
+            ],
+            "lang": "en",
+            "market": "global",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-21T00:00:00.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.lensculture.com/feeds/flipboard.rss",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.lensculture.com/articles/lensculture-editors-the-global-guide-to-photobook-fairs-70-events-around-the-world"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "LensCulture",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.lensculture.com/articles/lensculture-editors-the-global-guide-to-photobook-fairs-70-events-around-the-world",
+            "text": "From major international festivals to independent publishing gatherings, discover more than 70 photobook fairs connecting photographers, publishers, collectors and book lovers worldwide.",
+            "thumbnailUrl": "https://images.lensculture.com/image/ee1f4a5d-71ec-4cfe-84f8-70d9592b4b00/large",
+            "title": "The Global Guide to Photobook Fairs: 70+ Events Around the World",
+            "contentHash": "sha1:db97148f40bee58ea5859c2c428cf6557beaa5a9",
+            "dedupKey": "www.lensculture.com/articles/lensculture-editors-the-global-guide-to-photobook-fairs-70-events-around-the-world",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "72h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "V&A 的公开讲座把纺织设计师阿尔西娅·麦克尼什的鲜明色彩与 Elsa Schiaparelli 的先锋实践并置，讨论时尚、艺术与跨文化交流如何共同塑造身份。它提供了一条从材料、图案到历史叙事重组时尚档案的研究线索。",
+            "chineseTitle": "V&A 以阿尔西娅·麦克尼什重读时尚与黑人创造力",
+            "contentHash": "sha1:f5c050dbd56bf862fed3e7ffb50edeb63caf0184",
+            "itemId": "visual-vam-fashion-1e6ylys",
+            "model": "codex-agent",
+            "primaryTopic": "exhibition",
+            "promptVersion": "visual-daily-v1",
+            "score": 88,
+            "scoreBreakdown": {
+              "informationSpecificity": 13,
+              "novelty": 16,
+              "professionalRelevance": 18,
+              "sourceQuality": 10,
+              "timeliness": 4,
+              "visualInspiration": 27
+            },
+            "selectionRationale": "机构项目有明确人物、历史脉络与视觉语言，适合从纺织色彩和档案再诠释中提炼创作方法。",
+            "status": "success",
+            "trendKeywords": [
+              "纺织档案",
+              "黑人创造力",
+              "跨文化时尚"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-vam-fashion-1e6ylys",
+            "keywords": [
+              "exhibition",
+              "fashion_culture"
+            ],
+            "lang": "en",
+            "market": "EU",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-29T16:00:00.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-html",
+              "evidenceUrl": "https://www.vam.ac.uk/whatson?type=exhibition",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.vam.ac.uk/event/vBQVXaqGk4/p26052-black-joy-day-althea-mcnish-schiaparelli"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "V&A Fashion",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.vam.ac.uk/event/vBQVXaqGk4/p26052-black-joy-day-althea-mcnish-schiaparelli",
+            "text": "Step into a radical space of fashion, art, and global cultural exchange, where Elsa Schiaparelli’s daring vision and Althea McNish’s vibrant legacy meet parallel histories of Black brilliance, reshaping style, identity, and modern creativity.",
+            "thumbnailUrl": "https://assets-cdn.vam.ac.uk/2026/06/20/17/55/33/14fa58ad-845b-40cc-959f-0c0335cea3de/black-joy-day-althea-mcnish-designing-for-schiaparelli-and-other-luminaries_640.jpg",
+            "title": "Black Joy Day: Althea McNish - Designing for Schiaparelli and Other Luminaries - V&A Academy Talk at V&A South Kensington &middot; V&A",
+            "contentHash": "sha1:f5c050dbd56bf862fed3e7ffb50edeb63caf0184",
+            "dedupKey": "www.vam.ac.uk/event/vBQVXaqGk4/p26052-black-joy-day-althea-mcnish-schiaparelli",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "Vogue Singapore 观察到酒店一次性拖鞋的轻软轮廓被 The Row、Chrome Hearts 等品牌转译为城市鞋履。原本属于套房与 spa 的私密物件，通过材质和搭配迁移，成为当代“松弛奢侈”审美的日常符号。",
+            "chineseTitle": "酒店拖鞋走上街头：舒适符号的奢侈化转译",
+            "contentHash": "sha1:ad83d31a688ce0d3c936bc4b4bef0648f3242b4b",
+            "itemId": "visual-vogue-singapore-vih6wb",
+            "model": "codex-agent",
+            "primaryTopic": "outfit",
+            "promptVersion": "visual-daily-v1",
+            "score": 88,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 17,
+              "professionalRelevance": 17,
+              "sourceQuality": 8,
+              "timeliness": 5,
+              "visualInspiration": 27
+            },
+            "selectionRationale": "以具体日常物件追踪奢侈化路径，能清楚捕捉居家感、舒适性和城市造型之间的符号转移。",
+            "status": "success",
+            "trendKeywords": [
+              "酒店拖鞋",
+              "松弛奢侈",
+              "日常物件转译"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-vogue-singapore-vih6wb",
+            "keywords": [
+              "styling",
+              "photography",
+              "fashion_culture"
+            ],
+            "lang": "en",
+            "market": "SG",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-22T15:34:15.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://vogue.sg/feed/",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://vogue.sg/hotel-slippers-streetwear/"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "Vogue Singapore",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://vogue.sg/hotel-slippers-streetwear/",
+            "text": "From The Row to Chrome Hearts, fashion's latest footwear obsession borrows from an unlikely source: the complimentary hotel slipper. Once reserved for suites and spa robes, the humble silhouette is stepping confidently onto city streets The post The hotel slipper has officially checked out into our shopping carts appeared first on Vogue Singapore .",
+            "thumbnailUrl": "https://voguesg.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2026/07/21142351/feature-hotel.jpg",
+            "title": "The hotel slipper has officially checked out into our shopping carts",
+            "contentHash": "sha1:ad83d31a688ce0d3c936bc4b4bef0648f3242b4b",
+            "dedupKey": "vogue.sg/hotel-slippers-streetwear",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "Vogue Runway 发布 Keisukeyoshida 2027 春夏系列的完整秀场入口，涵盖造型、妆发、模特与评论。对于追踪东京独立设计语言的从业者，最新季节图像可用来观察品牌如何继续推进身体比例、青春叙事与街头感之间的平衡。",
+            "chineseTitle": "Keisukeyoshida 2027 春夏东京秀场更新",
+            "contentHash": "sha1:dbfd19a349d1116255cacc4b618cb7aa8be5ec1d",
+            "itemId": "visual-vogue-runway-1gl10vp",
+            "model": "codex-agent",
+            "primaryTopic": "styling",
+            "promptVersion": "visual-daily-v1",
+            "score": 88,
+            "scoreBreakdown": {
+              "informationSpecificity": 12,
+              "novelty": 16,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "权威秀场资料提供完整的未来季视觉样本，适合关注东京新锐品牌在轮廓、妆发和叙事上的连续性。",
+            "status": "success",
+            "trendKeywords": [
+              "东京时装周",
+              "未来季秀场",
+              "独立品牌"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-vogue-runway-1gl10vp",
+            "keywords": [
+              "styling",
+              "outfit"
+            ],
+            "lang": "en",
+            "market": "global",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-20T15:11:50.902Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-html",
+              "evidenceUrl": "https://www.vogue.com/fashion-shows/latest-shows",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.vogue.com/fashion-shows/tokyo-spring-2027/keisukeyoshida"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "Vogue Runway",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.vogue.com/fashion-shows/tokyo-spring-2027/keisukeyoshida",
+            "text": "Keisukeyoshida Tokyo Spring 2027 collection, runway looks, beauty, models, and reviews.",
+            "thumbnailUrl": "https://assets.vogue.com/photos/6a5b1c84584ee6f3dd305259/16:9/pass/00001-keisukeyoshida-spring-2027-ready-to-wear-tokyo-credit-brand.jpg",
+            "title": "Keisukeyoshida Tokyo Spring 2027 Collection",
+            "contentHash": "sha1:dbfd19a349d1116255cacc4b618cb7aa8be5ec1d",
+            "dedupKey": "www.vogue.com/fashion-shows/tokyo-spring-2027/keisukeyoshida",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "72h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "Zendaya 在墨西哥城宣传活动中穿着一件近百年历史的蜘蛛主题礼服，将电影角色符号与 vintage 服装档案直接相连。案例显示红毯造型正从单纯借衣转向以服饰年代、图案母题和角色世界观共同构建视觉事件。",
+            "chineseTitle": "Zendaya 用 1940 年代蜘蛛礼服激活复古造型",
+            "contentHash": "sha1:ffe289b6c46c2ac2da22e867da01eceb9bbc01da",
+            "itemId": "visual-w-magazine-1w7gc51",
+            "model": "codex-agent",
+            "primaryTopic": "styling",
+            "promptVersion": "visual-daily-v1",
+            "score": 87,
+            "scoreBreakdown": {
+              "informationSpecificity": 13,
+              "novelty": 16,
+              "professionalRelevance": 17,
+              "sourceQuality": 8,
+              "timeliness": 5,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "年代服装与电影主题形成可读性很高的造型叙事，适合参考符号呼应、档案借用和媒体场景的协同设计。",
+            "status": "success",
+            "trendKeywords": [
+              "复古礼服",
+              "角色造型",
+              "蜘蛛母题"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-w-magazine-1w7gc51",
+            "keywords": [
+              "styling",
+              "photography",
+              "magazine"
+            ],
+            "lang": "en",
+            "market": "US",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-22T20:49:11.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.wmagazine.com/rss",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.wmagazine.com/fashion/zendaya-dress-1940s-spider-man-brand-new-day"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "W Magazine",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.wmagazine.com/fashion/zendaya-dress-1940s-spider-man-brand-new-day",
+            "text": "While doing press in Mexico City, the actor wore a nearly century-old spider-themed gown from a vintage boutique.",
+            "thumbnailUrl": "https://imgix.bustle.com/uploads/image/2026/7/22/d659f807/gettyimages-2281744571.jpg?w=1200&fit=max",
+            "title": "Zendaya Goes Back to the 1940s For Her Latest Spider Dress",
+            "contentHash": "sha1:ffe289b6c46c2ac2da22e867da01eceb9bbc01da",
+            "dedupKey": "www.wmagazine.com/fashion/zendaya-dress-1940s-spider-man-brand-new-day",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "巴黎珠宝品牌 Messika 发布 20.46 克拉天然蓝钻“奥卡万戈蓝”，被报道为全球第八大同类宝石。极稀缺彩钻既是珠宝设计的材质核心，也常通过深蓝色调、切割和光泽成为品牌叙事与影像传播的视觉锚点。",
+            "chineseTitle": "Messika 发布 20.46 克拉“奥卡万戈蓝”钻石",
+            "contentHash": "sha1:ba29e8bbf651c07a4f062af8000a3f8f2886c9fa",
+            "itemId": "visual-fashionsnap-48ftv3",
+            "model": "codex-agent",
+            "primaryTopic": "fashion_culture",
+            "promptVersion": "visual-daily-v1",
+            "score": 87,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 17,
+              "professionalRelevance": 16,
+              "sourceQuality": 8,
+              "timeliness": 5,
+              "visualInspiration": 27
+            },
+            "selectionRationale": "稀有材质与明确克拉信息形成强视觉事件，适合关注珠宝如何将地质稀缺性转换成颜色和叙事资产。",
+            "status": "success",
+            "trendKeywords": [
+              "天然蓝钻",
+              "珠宝叙事",
+              "稀缺材质"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-fashionsnap-48ftv3",
+            "keywords": [
+              "outfit",
+              "styling"
+            ],
+            "lang": "ja",
+            "market": "JP",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-22T10:24:39.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.fashionsnap.com/rss.xml",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.fashionsnap.com/article/2026-07-22/messika-okavango-blue/"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "FASHIONSNAP",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.fashionsnap.com/article/2026-07-22/messika-okavango-blue/",
+            "text": "パリ発のラグジュアリージュエリーブランド「メシカ（MESSIKA）」が、20.46カラットのナチュラルブルーダイヤモンド「オカバンゴ・ブルー」を発表した。 このコンテンツは FASHIONSNAP が配信しています。",
+            "thumbnailUrl": "https://fashionsnap-assets.com/asset/format=auto,fit=crop,width=300,height=300/article/images/2026/07/46fa703e-dcaa-44f8-9112-cc5f6e631456.jpg",
+            "title": "世界で8番目の大きさの希少なブルーダイヤ「オカバンゴ・ブルー」をメシカが発表",
+            "contentHash": "sha1:ba29e8bbf651c07a4f062af8000a3f8f2886c9fa",
+            "dedupKey": "www.fashionsnap.com/article/2026-07-22/messika-okavango-blue",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "British Vogue 采访从南非小镇走向伦敦 Soho 的 drag 表演者与街头采访者 Tiara Skye。其走红路径说明短视频中的街头访问、夸张造型和人格化主持，正在共同形成新的城市酷儿公共形象。",
+            "chineseTitle": "Tiara Skye：Soho 街头采访的酷儿形象生产",
+            "contentHash": "sha1:132cefb0bc90be367a97fdc34f4ef973b1b97c27",
+            "itemId": "visual-british-vogue-1p7ha34",
+            "model": "codex-agent",
+            "primaryTopic": "creator",
+            "promptVersion": "visual-daily-v1",
+            "score": 86,
+            "scoreBreakdown": {
+              "informationSpecificity": 13,
+              "novelty": 17,
+              "professionalRelevance": 16,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 26
+            },
+            "selectionRationale": "创作者以人物造型和街头媒介建立识别度，适合观察社交视频时代的自我造型与城市亚文化传播。",
+            "status": "success",
+            "trendKeywords": [
+              "Drag 文化",
+              "Soho 街头",
+              "人格化媒体"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-british-vogue-1p7ha34",
+            "keywords": [
+              "styling",
+              "outfit",
+              "photography"
+            ],
+            "lang": "en",
+            "market": "EU",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-22T15:54:22.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.vogue.co.uk/feed/rss",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.vogue.co.uk/article/tiara-skye-interview"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "British Vogue",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.vogue.co.uk/article/tiara-skye-interview",
+            "text": "Viral drag queen and Soho street interviewer Tiara Skye opens up about her journey from small-town South Africa to becoming one of London’s most recognisable queer personalities.",
+            "thumbnailUrl": "https://media.vogue.co.uk/photos/6a61090de8b4dd3ad6189e14/master/pass/DSC09962.jpg",
+            "title": "“I Just Kept Going Viral, Darling”: How Tiara Skye Became The Queen Of Soho",
+            "contentHash": "sha1:132cefb0bc90be367a97fdc34f4ef973b1b97c27",
+            "dedupKey": "www.vogue.co.uk/article/tiara-skye-interview",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "Vogue Korea 借时尚圈对“神秘设计师”和戏剧性回归的持续迷恋，回顾克里斯托夫·德卡尔南的再度出现，并关联 Margiela、Galliano 与 Marc Jacobs 等案例。人物叙事本身成为品牌视觉记忆和再定位的驱动力。",
+            "chineseTitle": "神秘设计师克里斯托夫·德卡尔南回归讨论",
+            "contentHash": "sha1:7215c74b7fb03f14016c323a04666ea6fb8cfa59",
+            "itemId": "visual-vogue-korea-1vax9in",
+            "model": "codex-agent",
+            "primaryTopic": "fashion_culture",
+            "promptVersion": "visual-daily-v1",
+            "score": 85,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 17,
+              "professionalRelevance": 17,
+              "sourceQuality": 9,
+              "timeliness": 4,
+              "visualInspiration": 24
+            },
+            "selectionRationale": "设计师身份、缺席与回归构成时尚传播的强叙事框架，可观察个人神话如何转化为当代品牌资产。",
+            "status": "success",
+            "trendKeywords": [
+              "设计师回归",
+              "时尚神话",
+              "身份叙事"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-vogue-korea-1vax9in",
+            "keywords": [
+              "styling",
+              "photography",
+              "magazine"
+            ],
+            "lang": "ko",
+            "market": "global",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-23T00:00:00.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.vogue.co.kr/feed/",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.vogue.co.kr/2026/07/23/%ea%b0%80%ec%9e%a5-%eb%af%b8%ec%8a%a4%ed%84%b0%eb%a6%ac%ed%95%9c-%eb%94%94%ec%9e%90%ec%9d%b4%eb%84%88-%ed%81%ac%eb%a6%ac%ec%8a%a4%ed%86%a0%ed%94%84-%eb%8d%b0%ec%b9%b4%eb%a5%b4%eb%84%b9%ec%9d%b4/"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "Vogue Korea",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.vogue.co.kr/2026/07/23/%ea%b0%80%ec%9e%a5-%eb%af%b8%ec%8a%a4%ed%84%b0%eb%a6%ac%ed%95%9c-%eb%94%94%ec%9e%90%ec%9d%b4%eb%84%88-%ed%81%ac%eb%a6%ac%ec%8a%a4%ed%86%a0%ed%94%84-%eb%8d%b0%ec%b9%b4%eb%a5%b4%eb%84%b9%ec%9d%b4/",
+            "text": "패션계는 ‘베일에 싸인’ 디자이너를 사랑해왔습니다. 공개적으로 얼굴을 드러낸 적이 한 번도 없는 마르탱 마르지엘라가 지금까지도 전설로 회자되는 것만 봐도 알 수 있죠. 패션계가 미스터리 못지않게 사랑하는 것이 바로 극적인 ‘컴백 스토리’입니다. 인종차별 논란 이후 재기에 성공한 존 갈리아노, 그리고 페리 엘리스에서 해고당한 뒤 루이 비통 최초의 크리에이티브 디렉터로 선임된 마크 제이콥스를 떠올려보세요. 2011년 발망을 떠난 […]",
+            "thumbnailUrl": "https://img.vogue.co.kr/vogue/2026/07/style_6a607d9a380a3-1920x1080.jpg",
+            "title": "가장 미스터리한 디자이너, 크리스토프 데카르넹이 돌아왔다",
+            "contentHash": "sha1:7215c74b7fb03f14016c323a04666ea6fb8cfa59",
+            "dedupKey": "www.vogue.co.kr/2026/07/23/%ea%b0%80%ec%9e%a5-%eb%af%b8%ec%8a%a4%ed%84%b0%eb%a6%ac%ed%95%9c-%eb%94%94%ec%9e%90%ec%9d%b4%eb%84%88-%ed%81%ac%eb%a6%ac%ec%8a%a4%ed%86%a0%ed%94%84-%eb%8d%b0%ec%b9%b4%eb%a5%b4%eb%84%b9%ec%9d%b4",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "JULIUS 发布 2027 春夏系列，为持续关注暗黑结构、非对称剪裁与实验性男装语言的从业者提供最新秀场图像入口。此类系列的价值在于观察品牌如何在未来季节中延续材质、比例与身体轮廓的长期系统。",
+            "chineseTitle": "JULIUS 2027 春夏系列释出",
+            "contentHash": "sha1:6ff6e58b5c8114f7c14e376b5e0116639924a6a2",
+            "itemId": "visual-fashionsnap-xdmufo",
+            "model": "codex-agent",
+            "primaryTopic": "styling",
+            "promptVersion": "visual-daily-v1",
+            "score": 84,
+            "scoreBreakdown": {
+              "informationSpecificity": 11,
+              "novelty": 16,
+              "professionalRelevance": 17,
+              "sourceQuality": 8,
+              "timeliness": 5,
+              "visualInspiration": 27
+            },
+            "selectionRationale": "新季系列具有直接的造型和版型参考价值，适合追踪 JULIUS 一贯的暗黑廓形在未来季的延续与变化。",
+            "status": "success",
+            "trendKeywords": [
+              "暗黑时装",
+              "非对称剪裁",
+              "未来季秀场"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-fashionsnap-xdmufo",
+            "keywords": [
+              "outfit",
+              "styling"
+            ],
+            "lang": "ja",
+            "market": "JP",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-22T09:45:05.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.fashionsnap.com/rss.xml",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.fashionsnap.com/collection/julius/2027ss/"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "FASHIONSNAP",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.fashionsnap.com/collection/julius/2027ss/",
+            "text": "「ユリウス（JULIUS）」が発表した2027年春夏コレクション。 このコンテンツは FASHIONSNAP が配信しています。",
+            "thumbnailUrl": "https://fashionsnap-assets.com/asset/format=auto,fit=crop,width=300,height=300/collection/images/2026/07/a53841b8-6af3-4704-8292-0bac6f72254f.jpg",
+            "title": "JULIUS 2027SS コレクション",
+            "contentHash": "sha1:6ff6e58b5c8114f7c14e376b5e0116639924a6a2",
+            "dedupKey": "www.fashionsnap.com/collection/julius/2027ss",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "British Vogue 将复古包头鞋、夸张鞋型与当下夏季常见芭蕾鞋、夹脚拖和奶奶凉鞋对照，指出“反极简”正在回潮。鞋履成为最快能改变轮廓重心的单品，也让八十年代的戏剧性比例回到日常造型。",
+            "chineseTitle": "1980 年代反极简鞋履重新进入夏季街头",
+            "contentHash": "sha1:571989cdf70aeefe219ea46fe2fea13ab8971fe7",
+            "itemId": "visual-british-vogue-fkzvm9",
+            "model": "codex-agent",
+            "primaryTopic": "outfit",
+            "promptVersion": "visual-daily-v1",
+            "score": 83,
+            "scoreBreakdown": {
+              "informationSpecificity": 12,
+              "novelty": 15,
+              "professionalRelevance": 16,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 26
+            },
+            "selectionRationale": "清晰指向鞋履轮廓的反极简回潮，能为造型编辑提供可直接执行的比例与风格对照。",
+            "status": "success",
+            "trendKeywords": [
+              "反极简",
+              "八十年代鞋履",
+              "夸张轮廓"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-british-vogue-fkzvm9",
+            "keywords": [
+              "styling",
+              "outfit",
+              "photography"
+            ],
+            "lang": "en",
+            "market": "EU",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-22T15:42:18.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.vogue.co.uk/feed/rss",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.vogue.co.uk/article/retro-80s-summer-shoes"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "British Vogue",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.vogue.co.uk/article/retro-80s-summer-shoes",
+            "text": "Some statement alternatives to the summer trifecta of ballet flats, flip-flops and granny sandals.",
+            "thumbnailUrl": "https://media.vogue.co.uk/photos/6a60c7ef73c6e7961c7acd3b/master/pass/GettyImages-901990606.jpg",
+            "title": "6 Anti-Minimalist Shoe Styles To Steal From The ’80s",
+            "contentHash": "sha1:571989cdf70aeefe219ea46fe2fea13ab8971fe7",
+            "dedupKey": "www.vogue.co.uk/article/retro-80s-summer-shoes",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-07-23T01:37:00.000Z",
+            "chineseSummary": "V&A 邀请插画家 George Butler 分享人在数字时代仍不可替代的创造力。相较即时信息流，这一议题将观察、现场绘制与长期叙事重新放回视觉传播中心，对编辑摄影和插画工作都具有方法论意义。",
+            "chineseTitle": "在加速内容环境中重估慢新闻插画",
+            "contentHash": "sha1:d7acbef48f26a7f5d54dd72d7ca61bd2be7f2cf7",
+            "itemId": "visual-vam-fashion-te75a8",
+            "model": "codex-agent",
+            "primaryTopic": "creator",
+            "promptVersion": "visual-daily-v1",
+            "score": 82,
+            "scoreBreakdown": {
+              "informationSpecificity": 12,
+              "novelty": 15,
+              "professionalRelevance": 17,
+              "sourceQuality": 10,
+              "timeliness": 4,
+              "visualInspiration": 24
+            },
+            "selectionRationale": "来自 V&A 的专业分享直接回应 AI 与高速媒介语境下的手工观察价值，适合作为视觉叙事的反向信号。",
+            "status": "success",
+            "trendKeywords": [
+              "慢新闻",
+              "现场插画",
+              "人类创造力"
+            ]
+          },
+          "item": {
+            "capturedAt": "2026-07-23T01:33:04.983Z",
+            "hashtags": [],
+            "id": "visual-vam-fashion-te75a8",
+            "keywords": [
+              "exhibition",
+              "fashion_culture"
+            ],
+            "lang": "en",
+            "market": "EU",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-07-29T16:00:00.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-html",
+              "evidenceUrl": "https://www.vam.ac.uk/whatson?type=exhibition",
+              "fetchedAt": "2026-07-23T01:33:04.983Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.vam.ac.uk/event/WMwyzgZe6K/slow-journalism-in-an-accelerated-age-july-2026"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "V&A Fashion",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.vam.ac.uk/event/WMwyzgZe6K/slow-journalism-in-an-accelerated-age-july-2026",
+            "text": "Join V&A Illustration Awards 2013 winner George Butler for a talk on the value of human creativity in the digital age",
+            "thumbnailUrl": "https://assets-cdn.vam.ac.uk/2026/07/14/16/37/38/3def7c69-dc2b-4ec7-8d28-703c04480ba4/slow-journalism-in-an-accelerated-age_640.jpg",
+            "title": "Slow Journalism in an Accelerated Age - Talk at V&A South Kensington &middot; V&A",
+            "contentHash": "sha1:d7acbef48f26a7f5d54dd72d7ca61bd2be7f2cf7",
+            "dedupKey": "www.vam.ac.uk/event/WMwyzgZe6K/slow-journalism-in-an-accelerated-age-july-2026",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null
+          },
+          "window": "24h"
+        }
+      ],
+      "title": "Visual Radar Daily — 2026.07.23"
+    },
+    {
+      "featuredStoryIds": [
         "visual-dazed-19c4hgk",
         "visual-w-korea-1dn2h91",
         "visual-its-nice-that-j4ws0g",
