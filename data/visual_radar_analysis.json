@@ -5727,9 +5727,633 @@
         "摄影书",
         "夜间档案"
       ]
+    },
+    {
+      "analyzedAt": "2026-07-24T01:25:29.000Z",
+      "chineseSummary": "V&A East 以“建构东伦敦”为题委任 Lawrence Lek 创作新作，将当代影像与地方叙事带入馆藏之外的公共展示现场。",
+      "chineseTitle": "劳伦斯·莱克为 V&A East 创作《观音 II：守护者》",
+      "contentHash": "sha1:75d040bf61a792eaf2e942ca4389924e5efebb1b",
+      "itemId": "visual-vam-fashion-2bg1fr",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 91,
+      "scoreBreakdown": {
+        "informationSpecificity": 13,
+        "novelty": 17,
+        "professionalRelevance": 18,
+        "sourceQuality": 10,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "机构委任、明确场地与创作者构成可追溯的高价值视觉文化信号。",
+      "status": "success",
+      "trendKeywords": [
+        "机构委任",
+        "东伦敦叙事",
+        "沉浸影像"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-24T01:25:29.000Z",
+      "chineseSummary": "《Vogue Korea》迎来创刊 30 周年，汇集全球设计师与美妆领袖的祝贺，呈现亚洲版时尚媒体在品牌、人才与影像传播中的连接力。",
+      "chineseTitle": "《Vogue Korea》30 周年：时尚媒体的跨区域创意网络",
+      "contentHash": "sha1:5ba260fd8638b71e40df021ac35e8cc4af02d4e6",
+      "itemId": "visual-vogue-korea-ju3mw3",
+      "model": "codex-agent",
+      "primaryTopic": "magazine",
+      "promptVersion": "visual-daily-v1",
+      "score": 77,
+      "scoreBreakdown": {
+        "informationSpecificity": 11,
+        "novelty": 14,
+        "professionalRelevance": 16,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 22
+      },
+      "selectionRationale": "媒体周年事件可用于观察时尚编辑生态与跨文化创意网络。",
+      "status": "success",
+      "trendKeywords": [
+        "时尚媒体",
+        "亚洲创意网络",
+        "品牌周年"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-24T01:25:29.000Z",
+      "chineseSummary": "Instacart 收购图像识别 AI 公司，将实体货架状态与线上库存同步的难题转化为机器视觉场景；视觉技术开始直接影响零售界面的可信度。",
+      "chineseTitle": "图像识别 AI 进入零售货架的实时视野",
+      "contentHash": "sha1:8f409e1b3fe2af04734b69b18803008032a8d256",
+      "itemId": "visual-fashionsnap-se5j3i",
+      "model": "codex-agent",
+      "primaryTopic": "tool",
+      "promptVersion": "visual-daily-v1",
+      "score": 82,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 17,
+        "professionalRelevance": 18,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 20
+      },
+      "selectionRationale": "明确呈现机器视觉在实体空间、数字界面与消费体验之间的落地路径。",
+      "status": "success",
+      "trendKeywords": [
+        "机器视觉",
+        "零售界面",
+        "实时库存"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-24T01:25:29.000Z",
+      "chineseSummary": "Vibram FiveFingers 销量同比翻倍，曾被视作反时尚的赤足跑鞋，正因独特轮廓和机能感被重新编码为街头穿搭单品。",
+      "chineseTitle": "五趾鞋从功能跑步装备转为街头造型符号",
+      "contentHash": "sha1:3c040fde7cb899e667699835a0bcdb28527dc48c",
+      "itemId": "visual-fashionsnap-1l1idz0",
+      "model": "codex-agent",
+      "primaryTopic": "outfit",
+      "promptVersion": "visual-daily-v1",
+      "score": 85,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 16,
+        "professionalRelevance": 17,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 25
+      },
+      "selectionRationale": "兼具销售信号、产品形态和街头接受度，能说明机能鞋的审美转向。",
+      "status": "success",
+      "trendKeywords": [
+        "五趾鞋",
+        "机能时尚",
+        "赤足美学"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-24T01:25:29.000Z",
+      "chineseSummary": "从 White Cube 的 Sara Flores 到伦敦的 Yu Nishimura，W Magazine 汇集本年度重要展览，为当代绘画、原住民图案与机构策展提供观察入口。",
+      "chineseTitle": "2026 年值得关注的国际艺术展览图谱",
+      "contentHash": "sha1:fdf10403c96768772c0804867be5e643effadd9d",
+      "itemId": "visual-w-magazine-n6yv51",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 87,
+      "scoreBreakdown": {
+        "informationSpecificity": 13,
+        "novelty": 15,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "由专业文化媒体梳理的展览清单，适合作为年度视觉研究的索引。",
+      "status": "success",
+      "trendKeywords": [
+        "当代艺术",
+        "年度展览",
+        "策展图谱"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-24T01:25:29.000Z",
+      "chineseSummary": "Lilly Wachowski 与 Silas Howard、Harry Dodge 对谈修复与回望，让独立酷儿电影中不被规训的角色、手作感和社群叙事再次进入当下视野。",
+      "chineseTitle": "《By Hook or By Crook》重访酷儿电影的粗粝表达",
+      "contentHash": "sha1:c8d152424984dc30a87c227bf87cc92087f88275",
+      "itemId": "visual-interview-magazine-1splqc3",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 85,
+      "scoreBreakdown": {
+        "informationSpecificity": 13,
+        "novelty": 16,
+        "professionalRelevance": 17,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 25
+      },
+      "selectionRationale": "电影修复与创作者对谈能连接影像史、身份表达与独立文化语境。",
+      "status": "success",
+      "trendKeywords": [
+        "酷儿电影",
+        "独立影像",
+        "电影修复"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-24T01:25:29.000Z",
+      "chineseSummary": "五组摄影项目从裸体、青少年肖像到混乱日常，重新观看卧室这一既私密又高度可被布置的视觉场景。",
+      "chineseTitle": "卧室摄影：私密空间作为肖像与情绪剧场",
+      "contentHash": "sha1:7bf17d2d4cea1d51dc0d68b107ac7d3fc23925e5",
+      "itemId": "visual-dazed-1doc99m",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 90,
+      "scoreBreakdown": {
+        "informationSpecificity": 13,
+        "novelty": 16,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "主题集中且视觉方法明确，对摄影、造型与空间叙事均具参考价值。",
+      "status": "success",
+      "trendKeywords": [
+        "卧室摄影",
+        "私密空间",
+        "肖像叙事"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-24T01:25:29.000Z",
+      "chineseSummary": "Vogue Runway 收录 Attachment 2027 春夏系列的造型、妆发、模特与评论，提供东京时装周当季廓形与整体造型的第一手视觉记录。",
+      "chineseTitle": "Attachment 2027 春夏东京秀场发布",
+      "contentHash": "sha1:fa93a2bbf462b0fc7873255a34be953cbecc2584",
+      "itemId": "visual-vogue-runway-zjstt4",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 94,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 18,
+        "professionalRelevance": 19,
+        "sourceQuality": 10,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "权威秀场数据库的当季完整记录，适合追踪东京时装语言。",
+      "status": "success",
+      "trendKeywords": [
+        "东京时装周",
+        "2027春夏",
+        "秀场造型"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-24T01:25:29.000Z",
+      "chineseSummary": "Wallpaper* 将 2026 早秋时装置入洛杉矶 Sheats–Goldstein Residence，以雨天、混凝土和有机建筑线条共同塑造电影化的服装叙事。",
+      "chineseTitle": "在约翰·劳特纳建筑中拍摄的电影感早秋时装",
+      "contentHash": "sha1:145a90913710f9ccf10e82099a20e5a44231d6b0",
+      "itemId": "visual-wallpaper-1h9rghs",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 94,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 17,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 30
+      },
+      "selectionRationale": "建筑与时装摄影的深度协同，是可直接借鉴的场景化影像案例。",
+      "status": "success",
+      "trendKeywords": [
+        "建筑时装摄影",
+        "劳特纳",
+        "电影感造型"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-24T01:25:29.000Z",
+      "chineseSummary": "新书回看 Dafydd Jones 四十年间拍摄的剑桥毕业舞会：年轻、富裕与放纵被闪光灯凝结为具有时代质感的社会肖像。",
+      "chineseTitle": "Dafydd Jones 镜头下的剑桥舞会与阶层狂欢",
+      "contentHash": "sha1:ef0796e8352bb74e7600358b6ae2a728d1e2f94f",
+      "itemId": "visual-interview-magazine-vb68b9",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 87,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 15,
+        "professionalRelevance": 17,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "长期摄影档案通过明确场景揭示阶层、仪式与服饰的视觉关系。",
+      "status": "success",
+      "trendKeywords": [
+        "摄影档案",
+        "社会肖像",
+        "派对文化"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-24T01:25:29.000Z",
+      "chineseSummary": "Aman Alam 由照护患阿尔茨海默病祖母的经历出发，让最初用于自我安慰的照片逐渐成为关于感知、疾病与爱的深层影像研究。",
+      "chineseTitle": "Aman Alam 用摄影触及记忆、疾病与照护",
+      "contentHash": "sha1:d24ed5484dbdbd63137308bbc0f648460c9ba948",
+      "itemId": "visual-bjp-1854-1870d77",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 92,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 16,
+        "professionalRelevance": 18,
+        "sourceQuality": 10,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "创作背景、摄影方法与情感议题具体，具有强叙事与策展参考价值。",
+      "status": "success",
+      "trendKeywords": [
+        "照护摄影",
+        "记忆叙事",
+        "情感影像"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-24T01:25:29.000Z",
+      "chineseSummary": "Alessandro Isola Studio 为汽车收藏家打造可从多角度观看的城市空间，以全尺寸展柜逻辑组织旧新保时捷与建筑视线。",
+      "chineseTitle": "保时捷收藏车库：把展柜尺度放大成建筑",
+      "contentHash": "sha1:05910f60c06e21ae010c2d81ed892419a0223405",
+      "itemId": "visual-wallpaper-19n7jn8",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 92,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 17,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "以展示设计统领建筑、收藏与观看路径，是空间叙事的清晰案例。",
+      "status": "success",
+      "trendKeywords": [
+        "收藏展示",
+        "车库建筑",
+        "空间策展"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-24T01:25:29.000Z",
+      "chineseSummary": "出生于首尔、工作于纽约的设计师 Minjae Kim 将个人文化遗产以克制方式融入家具与空间实践，形成面向全球语境的当代语言。",
+      "chineseTitle": "Minjae Kim：把传统转译为当代设计语言",
+      "contentHash": "sha1:c94fe4d1908b397317dcce14200d11f307ed729d",
+      "itemId": "visual-wallpaper-1ubjq31",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 91,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 17,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "创作者画像清楚呈现跨文化设计如何从传统中提炼可持续的形式语言。",
+      "status": "success",
+      "trendKeywords": [
+        "跨文化设计",
+        "传统转译",
+        "当代家具"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-24T01:25:29.000Z",
+      "chineseSummary": "Ellen Gallagher 成为 TfL Art on the Underground 的最新艺术家，与 David Shrigley、Tracey Emin 等共同延展公共交通系统中的可携带艺术传播。",
+      "chineseTitle": "Ellen Gallagher 加入伦敦地铁公共艺术计划",
+      "contentHash": "sha1:21dc0d84cf8b123e01be4a289f6b7a10cb91d732",
+      "itemId": "visual-wallpaper-1uyxfgi",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 90,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 17,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "公共交通、艺术委任与日常传播渠道交汇，具备公共视觉系统参考价值。",
+      "status": "success",
+      "trendKeywords": [
+        "公共艺术",
+        "伦敦地铁",
+        "艺术委任"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-24T01:25:29.000Z",
+      "chineseSummary": "设计师八木玲音推出 ROI ORDERSON，以基础日常服为底，加入个人感性，强调能长期陪伴穿着者的服装价值。",
+      "chineseTitle": "ROI ORDERSON：从 MURRAL 出发的新日常服装品牌",
+      "contentHash": "sha1:e1f22cdb9e2148b56b24aa4f009dcce3852bd476",
+      "itemId": "visual-fashionsnap-1j9o2mo",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 85,
+      "scoreBreakdown": {
+        "informationSpecificity": 13,
+        "novelty": 17,
+        "professionalRelevance": 18,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 24
+      },
+      "selectionRationale": "新品牌的明确创立背景与日常服定位，可观察日本独立设计的延展方向。",
+      "status": "success",
+      "trendKeywords": [
+        "日本独立品牌",
+        "日常服",
+        "设计师品牌"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-24T01:25:29.000Z",
+      "chineseSummary": "Andrea Mastrovito 的巨型《Agnus Dei》在圣家堂揭幕，Studio Waldemeyer 以隐形照明技术让雕塑获得近乎魔法般的光感。",
+      "chineseTitle": "圣家堂终章雕塑以“不可见”技术点亮",
+      "contentHash": "sha1:f08b9bf629766e578ff10738801d8ae0134b5cde",
+      "itemId": "visual-wallpaper-1cpwby6",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 96,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 18,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 30
+      },
+      "selectionRationale": "历史建筑、巨型雕塑与照明技术的结合，呈现高完成度的沉浸式展示方法。",
+      "status": "success",
+      "trendKeywords": [
+        "圣家堂",
+        "光艺术",
+        "沉浸式雕塑"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-24T01:25:29.000Z",
+      "chineseSummary": "Kendrick Bangs Kellogg 改造的 Chapman Residence 以红杉木与有机线条重塑普通郊区住宅，重新激活 1970 年代建筑的感官性。",
+      "chineseTitle": "红杉木包裹的 1970 年代有机现代主义住宅",
+      "contentHash": "sha1:ee3a2b31dcc0bfc5f55c3bab5e31046bf79cbf32",
+      "itemId": "visual-wallpaper-1ewu4pg",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 91,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 16,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "住宅改造将材料、年代风格与居住叙事具体化，视觉可借鉴性强。",
+      "status": "success",
+      "trendKeywords": [
+        "有机现代主义",
+        "红杉木",
+        "住宅改造"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-24T01:25:29.000Z",
+      "chineseSummary": "Konstantin Chaykin 的 ThinKing Mystery 仅厚 1.65 毫米，以极薄机械结构和戏谑表情讨论钟表设计中的激进极简主义。",
+      "chineseTitle": "1.65 毫米机械表：极薄工艺的玩味表达",
+      "contentHash": "sha1:e46107e33da5a0e8cc66f20f92012f474772b6c6",
+      "itemId": "visual-wallpaper-19zs22l",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 92,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "精确技术参数与鲜明造型并存，是工艺极限转化为视觉语言的案例。",
+      "status": "success",
+      "trendKeywords": [
+        "超薄机械表",
+        "激进极简",
+        "精密工艺"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-24T01:25:29.000Z",
+      "chineseSummary": "摄影师 Lauren Corelli 记录柏林 WHOLE 2026 的 FLINTA 人群，以性感、滑稽和自我占据空间的穿着，呈现酷儿节庆中的街头风格。",
+      "chineseTitle": "WHOLE Festival 的野性社群造型现场",
+      "contentHash": "sha1:906a58ed08afe8c85c69fca3548a645031d6c331",
+      "itemId": "visual-dazed-1l3yz66",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 91,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 18,
+        "professionalRelevance": 17,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "明确的社群现场与摄影记录，能观察身份、身体和节庆造型如何共同形成风格。",
+      "status": "success",
+      "trendKeywords": [
+        "酷儿社群",
+        "节庆造型",
+        "街头摄影"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-24T01:25:29.000Z",
+      "chineseSummary": "W Korea 聚焦 2026 秋冬高定系列中的步行、长线条与礼服姿态，折射高定造型如何把运动感转为克制的戏剧性。",
+      "chineseTitle": "2026 秋冬高定的优雅步行叙事",
+      "contentHash": "sha1:cca49ef8eda8ef5584a7b5a33b7c7734d5c2fa81",
+      "itemId": "visual-w-korea-1la43kc",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 88,
+      "scoreBreakdown": {
+        "informationSpecificity": 12,
+        "novelty": 16,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "高定季的整体造型观察能为廓形、步态和礼服叙事提供即时参考。",
+      "status": "success",
+      "trendKeywords": [
+        "秋冬高定",
+        "礼服廓形",
+        "优雅运动感"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-24T01:25:29.000Z",
+      "chineseSummary": "Gabbriette 与 Matières Fécales 以非传统婚礼礼服拒绝标准化新娘想象，把前卫剪裁和个人身份置于婚礼视觉叙事的中心。",
+      "chineseTitle": "Gabbriette 的非传统婚礼造型：高定式反叛",
+      "contentHash": "sha1:f96cb7ba76231dda8b761fdb0aac60377868c442",
+      "itemId": "visual-vogue-singapore-1ph2kb2",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 93,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "婚礼这一成熟品类被前卫设计重新编码，具有强烈的造型与文化信号。",
+      "status": "success",
+      "trendKeywords": [
+        "非传统婚礼",
+        "前卫礼服",
+        "新娘造型"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-24T01:25:29.000Z",
+      "chineseSummary": "Joanna Blémont 从散步、照片与 Google Maps 取材，以缓慢连续的绘画过程，将水彩发展为漫画、zine 与 2,000 帧影像。",
+      "chineseTitle": "Joanna Blémont 为 Loewe 把水彩延展成漫画与 2,000 帧电影",
+      "contentHash": "sha1:9d9e30a8525436f43c25e1220615630608437c21",
+      "itemId": "visual-its-nice-that-jp4ejt",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 97,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 19,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 30
+      },
+      "selectionRationale": "媒介转换路径具体完整，兼具品牌合作、插画叙事与长时序影像方法。",
+      "status": "success",
+      "trendKeywords": [
+        "水彩动画",
+        "漫画叙事",
+        "Loewe创意合作"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-24T01:25:29.000Z",
+      "chineseSummary": "Anatomy 为 Horniman 博物馆打造新视觉系统，从馆藏和花园中提取形态，发展专属字体，让博物馆的发现感成为识别系统本身。",
+      "chineseTitle": "Horniman 博物馆以馆藏与花园“采集”字体",
+      "contentHash": "sha1:ded7aa6deb3375fd8c956d1ba06ef215deb09e74",
+      "itemId": "visual-its-nice-that-1jla1ga",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 98,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 19,
+        "professionalRelevance": 20,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 30
+      },
+      "selectionRationale": "将研究、字体与机构品牌系统连为一体，是高质量视觉识别设计案例。",
+      "status": "success",
+      "trendKeywords": [
+        "博物馆品牌",
+        "定制字体",
+        "视觉识别系统"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-24T01:25:29.000Z",
+      "chineseSummary": "珠宝品牌 Fred 迎来 90 周年，以“光”与 joie de vivre 为核心，回看其长期建立的明亮、自由且具有度假感的品牌气质。",
+      "chineseTitle": "Fred 90 周年：珠宝品牌的光感叙事",
+      "contentHash": "sha1:fe673d2291cc44ea6024d8a3bb376cda51399f84",
+      "itemId": "visual-vogue-singapore-it6v9p",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 82,
+      "scoreBreakdown": {
+        "informationSpecificity": 12,
+        "novelty": 15,
+        "professionalRelevance": 16,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 25
+      },
+      "selectionRationale": "品牌周年为观察珠宝视觉资产如何沉淀为长期叙事提供案例。",
+      "status": "success",
+      "trendKeywords": [
+        "珠宝品牌",
+        "品牌周年",
+        "光感叙事"
+      ]
     }
   ],
   "failures": [],
-  "generatedAt": "2026-07-23T01:37:00.000Z",
+  "generatedAt": "2026-07-24T01:25:29.000Z",
   "promptVersion": "visual-daily-v1"
 }
