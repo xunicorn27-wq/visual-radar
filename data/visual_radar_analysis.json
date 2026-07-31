@@ -6351,9 +6351,737 @@
         "品牌周年",
         "光感叙事"
       ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "Laura Wilson 受 V&A East 新作计划委任，以“建构东伦敦”为线索展开公共展示，把劳动者、地方记忆与当代视觉语言并置。",
+      "chineseTitle": "Laura Wilson 为 V&A East 呈现《Heads! Look To The Workers》",
+      "contentHash": "sha1:97964f2aca82f21c43620f06763e60109700fc84",
+      "itemId": "visual-vam-fashion-1ikux2k",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 91,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 17,
+        "professionalRelevance": 18,
+        "sourceQuality": 10,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "机构委任、创作者与明确场地均可追溯，是公共视觉文化的重要信号。",
+      "status": "success",
+      "trendKeywords": [
+        "公共艺术",
+        "东伦敦",
+        "机构委任"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "Rene Matić 在 V&A East 的新委任项目《HEARD》中延续对声音、身份与社群经验的视觉关注，为东伦敦主题带来当代青年文化视角。",
+      "chineseTitle": "Rene Matić 的《HEARD》进入 V&A East 新作计划",
+      "contentHash": "sha1:571bdc667cb1a52994384a7b395f833594a9c5d5",
+      "itemId": "visual-vam-fashion-1u3sfi1",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 93,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 10,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "重要机构与新生创作者的合作，适合追踪当代社群叙事进入博物馆的方式。",
+      "status": "success",
+      "trendKeywords": [
+        "青年文化",
+        "社群叙事",
+        "当代艺术"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "建筑师 Shahed Saleem 为 V&A East 创作《I Was Born Here》，围绕归属、城市记忆与东伦敦的多元历史，拓展建筑叙事的公共维度。",
+      "chineseTitle": "Shahed Saleem 在 V&A East 追问“我在这里出生”",
+      "contentHash": "sha1:d990a4b691ebe33aeeef2d601919ffb6c7f5da68",
+      "itemId": "visual-vam-fashion-qrz7n0",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 92,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 17,
+        "professionalRelevance": 19,
+        "sourceQuality": 10,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "建筑、身份与地方史在机构展示中交汇，具有空间叙事研究价值。",
+      "status": "success",
+      "trendKeywords": [
+        "建筑叙事",
+        "城市记忆",
+        "归属感"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "Es Devlin 受 V&A East 委任推出《The Everythingists》，从“建构东伦敦”出发，将剧场化空间、研究和集体叙事转化为公共视觉体验。",
+      "chineseTitle": "Es Devlin 以《The Everythingists》回应东伦敦的集体想象",
+      "contentHash": "sha1:ceac8f31b847cab45c3574423aa03b2b8966ffef",
+      "itemId": "visual-vam-fashion-z4f23z",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 99,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 19,
+        "professionalRelevance": 20,
+        "sourceQuality": 10,
+        "timeliness": 5,
+        "visualInspiration": 30
+      },
+      "selectionRationale": "Es Devlin 的跨媒介空间实践与机构委任高度相关，具备强视觉启发性。",
+      "status": "success",
+      "trendKeywords": [
+        "Es Devlin",
+        "沉浸式空间",
+        "公共叙事"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "东京都写真美术馆将于秋季推出“再次组装：日本新进作家 vol.23”，以新生代创作重新审视摄影与图像实践的构成方式。",
+      "chineseTitle": "东京都写真美术馆聚焦日本新进创作者的“再次组装”",
+      "contentHash": "sha1:29976eddb2fd0d43b3c58872869564353cf3b111",
+      "itemId": "visual-tokyo-photo-museum-mwdkst",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 93,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 17,
+        "professionalRelevance": 19,
+        "sourceQuality": 10,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "专业摄影机构的新进作家展，为亚洲当代图像创作提供一手观察点。",
+      "status": "success",
+      "trendKeywords": [
+        "日本摄影",
+        "新进作家",
+        "图像重组"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "奈良女子大学长谷研究室在东京都写真美术馆呈现“被复制的感性——森山大道”，从复制、传播与感知切入这位摄影大师的图像遗产。",
+      "chineseTitle": "森山大道的图像复制被置入东京智能文化计划",
+      "contentHash": "sha1:32422867a3c02c9a4535cb4f10e2f3676d21bd2a",
+      "itemId": "visual-tokyo-photo-museum-1yjg0ar",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 97,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 18,
+        "professionalRelevance": 20,
+        "sourceQuality": 10,
+        "timeliness": 5,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "围绕森山大道与复制媒介的学术展示，兼具摄影史和数字文化的研究价值。",
+      "status": "success",
+      "trendKeywords": [
+        "森山大道",
+        "复制媒介",
+        "摄影史"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "Runway Research 介绍通用世界模型研究：让 AI 学习物理动力、人与环境的行为关系，为生成影像从单帧美学迈向可控世界模拟提出新方向。",
+      "chineseTitle": "Runway 提出可模拟现实的通用世界模型",
+      "contentHash": "sha1:db446e0855030edd5d1a6539d16cf046349d456d",
+      "itemId": "visual-runway-1endmth",
+      "model": "codex-agent",
+      "primaryTopic": "tool",
+      "promptVersion": "visual-daily-v1",
+      "score": 99,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 20,
+        "professionalRelevance": 20,
+        "sourceQuality": 10,
+        "timeliness": 5,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "一手研究发布直接关联生成影像、空间模拟与创意工具的未来能力。",
+      "status": "success",
+      "trendKeywords": [
+        "世界模型",
+        "生成影像",
+        "Runway研究"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "Burberry 将在 V&A 举办创立 170 周年展，通过目录与档案回看风衣的设计演变，连接品牌遗产、功能服装和英国时尚史。",
+      "chineseTitle": "Burberry 在 V&A 以档案重述风衣 170 年",
+      "contentHash": "sha1:9239ad885a6b6d03299fde873a786f38c25fc83f",
+      "itemId": "visual-fashionsnap-1iqemn6",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 93,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 18,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "品牌档案进入博物馆语境，适合观察服装遗产如何被策展化。",
+      "status": "success",
+      "trendKeywords": [
+        "Burberry",
+        "风衣档案",
+        "品牌策展"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "伦敦新邦德街 166 号的爱马仕空间以工艺、艺术与英国城市气质重组门店体验，在奢侈品零售收缩期强化实体场所的文化密度。",
+      "chineseTitle": "伦敦爱马仕新空间：克制与城市活力的平衡",
+      "contentHash": "sha1:2af4e3cdc8c3d2d9ffdc78bc6ea0d31b4bca011e",
+      "itemId": "visual-vogue-korea-51r0nd",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 92,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 17,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "从品牌空间观察零售建筑、在地叙事和艺术陈设的协同方法。",
+      "status": "success",
+      "trendKeywords": [
+        "品牌空间",
+        "伦敦零售",
+        "奢侈品体验"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "JSFA 公开衣物回收点检索页面，汇集回收、修复与转售去向；75 家企业参与，让循环时尚从倡议进一步成为可被使用的公共基础设施。",
+      "chineseTitle": "日本时尚联盟上线衣物回收、修复与转售地图",
+      "contentHash": "sha1:c8e2b5c06b5acf5ea338278afff86e7a8b41cd71",
+      "itemId": "visual-fashionsnap-1h81u2a",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 85,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 17,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 20
+      },
+      "selectionRationale": "可操作的循环系统比泛泛可持续口号更具行业参考价值。",
+      "status": "success",
+      "trendKeywords": [
+        "循环时尚",
+        "衣物回收",
+        "服务设计"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "Vogue Runway 收录 16Arlington 2026 秋冬成衣系列的完整秀场造型、妆发与评论，为观察伦敦当季晚装与材质语言提供原始视觉档案。",
+      "chineseTitle": "16Arlington 2026 秋冬成衣系列发布",
+      "contentHash": "sha1:a6a06e24d92e5d5dbf59a934a2bf479dc9a42332",
+      "itemId": "visual-vogue-runway-1f0sz3o",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 94,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 18,
+        "professionalRelevance": 19,
+        "sourceQuality": 10,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "权威秀场数据库提供当季完整的造型与细节记录。",
+      "status": "success",
+      "trendKeywords": [
+        "伦敦时装",
+        "2026秋冬",
+        "秀场造型"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "Willo Perron 为 Knoll 推出数十年来首张新床，以夸张的柔软体积与低矮轮廓重写卧室家具的舒适感与舞台性。",
+      "chineseTitle": "Willo Perron 为 Knoll 设计柔软如云的床",
+      "contentHash": "sha1:03ae539a37c00494689dc1cb306914c7ddcd6f52",
+      "itemId": "visual-wallpaper-18oopa2",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 94,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 18,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "知名设计师与经典家具品牌合作，具备明确的产品语言与室内趋势价值。",
+      "status": "success",
+      "trendKeywords": [
+        "Willo Perron",
+        "卧室家具",
+        "柔软体积"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "Zendaya 在伦敦《蜘蛛侠》首映派对上身着 LaQuan Smith 定制礼服，重现已故设计师 Willi Smith 的标志性漫画草图，让设计档案进入红毯叙事。",
+      "chineseTitle": "Zendaya 以定制礼服致敬 Willi Smith 的漫画草图",
+      "contentHash": "sha1:ac2372380fdcaf0e87e3b98e8f5dc63f476bf5c8",
+      "itemId": "visual-w-magazine-4dkgqs",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 92,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "设计史、明星造型与手绘档案之间的引用关系清晰而具有传播力。",
+      "status": "success",
+      "trendKeywords": [
+        "Willi Smith",
+        "设计档案",
+        "红毯造型"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "Dazed 与 Escentric Molecules 在 Selfridges 影院举办活动，放映 C0DE WITHIN 影像并讨论香氛与身份，呈现美妆品牌以文化活动建立体验的方式。",
+      "chineseTitle": "Dazed Beauty Sessions 把香氛、影像与身份带入影院",
+      "contentHash": "sha1:7f60f99aaae742405bf1f4c7dccfe65899529163",
+      "itemId": "visual-dazed-153f4km",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 89,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 17,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 26
+      },
+      "selectionRationale": "电影放映和品牌对谈构成完整的多感官体验传播案例。",
+      "status": "success",
+      "trendKeywords": [
+        "香氛影像",
+        "品牌活动",
+        "身份叙事"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "Ralph Lauren 在“驻地艺术家”计划中与阿拉巴马 Gee’s Bend 拼布社群合作，将两幅原创被子转译为服装与家居作品，连接传统工艺和当代产品。",
+      "chineseTitle": "Ralph Lauren 与 Gee’s Bend 拼布艺术家合作",
+      "contentHash": "sha1:b4d65be8d6132f91c6ecf4cb86d8997d99c0971b",
+      "itemId": "visual-wallpaper-zzvw46",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 95,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 18,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "社群工艺的授权转译与品牌合作路径具体，具有文化伦理与设计参考价值。",
+      "status": "success",
+      "trendKeywords": [
+        "Gee’s Bend",
+        "拼布工艺",
+        "品牌合作"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "British Journal of Photography 回顾阿尔勒摄影节，认为丰富主展之外，更多对当下世界的直接回应发生在非主流活动与快闪项目之中。",
+      "chineseTitle": "阿尔勒摄影节：主展与边缘事件的现实张力",
+      "contentHash": "sha1:59f3eecab1c828592ff3ff8e14302255b69c48ce",
+      "itemId": "visual-bjp-1854-nttp9g",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 92,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 17,
+        "professionalRelevance": 19,
+        "sourceQuality": 10,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "来自专业摄影媒体的现场评论，能补充大型节展的官方叙事。",
+      "status": "success",
+      "trendKeywords": [
+        "阿尔勒摄影节",
+        "摄影策展",
+        "边缘活动"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "眼镜品牌 Cubitts 联合 Youth Studio 打造曼彻斯特新店，在保留建筑既有历史的同时引入面向未来的设计语言，让品牌空间成为城市叙事的一部分。",
+      "chineseTitle": "Cubitts 曼彻斯特门店以“有灵魂的精确”回应城市",
+      "contentHash": "sha1:3b9d1737ca12de1ed3084b735d80f8e6fe616c4a",
+      "itemId": "visual-wallpaper-ghwjks",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 92,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 17,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "店铺设计具备明确的建筑改造、在地性与品牌体验方法。",
+      "status": "success",
+      "trendKeywords": [
+        "零售空间",
+        "曼彻斯特设计",
+        "眼镜品牌"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "Galib Gassanoff 发起的 Institution 与高加索工匠协作，通过服装和文化交流保存濒危手工传统，将时尚项目发展为社会艺术实践。",
+      "chineseTitle": "Institution 以服装守护高加索濒危工艺",
+      "contentHash": "sha1:88d3cdf97eda3376d148a94999abc1852e18e745",
+      "itemId": "visual-another-magazine-171f42r",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 95,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 19,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "工艺保护、社群协作与时装实践结合紧密，具有鲜明的文化价值。",
+      "status": "success",
+      "trendKeywords": [
+        "高加索工艺",
+        "社会艺术",
+        "手工传统"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "ASICS 在新宿开设旗舰店，以预约制个人接待和服装设计定制提升消费体验，显示运动品牌正把门店从陈列场转为高参与度服务空间。",
+      "chineseTitle": "ASICS 新宿旗舰店将预约服务与服装定制纳入体验",
+      "contentHash": "sha1:92811df912af1a3ffb370f6eda6542345d445ee6",
+      "itemId": "visual-fashionsnap-lj5u3e",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 88,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 17,
+        "professionalRelevance": 19,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 24
+      },
+      "selectionRationale": "零售服务数据与定制机制明确，适合关注品牌体验设计的读者。",
+      "status": "success",
+      "trendKeywords": [
+        "旗舰店",
+        "运动零售",
+        "服装定制"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "Wallpaper* 汇集本月受关注的十个住宅项目，横跨代尔夫特花园工作室与 Frank Lloyd Wright 在田纳西州的唯一委任，呈现居住建筑的多种尺度。",
+      "chineseTitle": "七月住宅建筑观察：从花园工作室到赖特遗作",
+      "contentHash": "sha1:28904b904a81ad399b92436badcc7cae7d334edd",
+      "itemId": "visual-wallpaper-sgiifc",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 90,
+      "scoreBreakdown": {
+        "informationSpecificity": 13,
+        "novelty": 16,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "月度住宅项目合集便于快速对比材料、尺度和地域化居住语言。",
+      "status": "success",
+      "trendKeywords": [
+        "住宅建筑",
+        "花园工作室",
+        "赖特"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "AnOther 从那不勒斯湾到夏威夷日落选出五组摄影系列，借假日、热度和观看节奏构成具有感官密度的夏日图像档案。",
+      "chineseTitle": "五组摄影项目捕捉盛夏的漫长欲望",
+      "contentHash": "sha1:ff89757a65c7718aad824857b53da562e60f9c00",
+      "itemId": "visual-another-magazine-1e92gk0",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 89,
+      "scoreBreakdown": {
+        "informationSpecificity": 13,
+        "novelty": 16,
+        "professionalRelevance": 17,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "主题鲜明的摄影策选能为季节性影像叙事提供直接参考。",
+      "status": "success",
+      "trendKeywords": [
+        "夏日摄影",
+        "假日图像",
+        "感官叙事"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "VCUarts Qatar 在威尼斯双年展期间举办延伸活动，以机器人、极客文化和阿拉伯字体为线索，集中呈现六个突破常规的艺术与设计项目。",
+      "chineseTitle": "VCUarts Qatar 在威尼斯展示机器人与阿拉伯字体实验",
+      "contentHash": "sha1:efe0d1daf86a6924d7ebaa9493635822d33fd343",
+      "itemId": "visual-dazed-udmfm2",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 96,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 19,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "技术、地区文字与设计教育在国际双年展语境中交叉，议题具备独特性。",
+      "status": "success",
+      "trendKeywords": [
+        "阿拉伯字体",
+        "威尼斯双年展",
+        "设计教育"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "New Irish Works 迎来第五届，项目强调摄影师并非只记录瞬间或接受委托，而是在以图像主动创建和塑造文化。",
+      "chineseTitle": "New Irish Works 第五届回归：摄影师也是文化塑造者",
+      "contentHash": "sha1:9d8644dd149a639bcc8d7cce15a6dfa0045a040e",
+      "itemId": "visual-bjp-1854-jqg8hl",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 92,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 17,
+        "professionalRelevance": 19,
+        "sourceQuality": 10,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "摄影平台的明确创作立场与持续机制，对新生代影像生态具有参考价值。",
+      "status": "success",
+      "trendKeywords": [
+        "爱尔兰摄影",
+        "新生代创作",
+        "摄影生态"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "伦敦设计博物馆宣布“Nue Black Aesthetic”展览，将汇集 16 位当代黑人设计师，通过身份、离散与设计经典由谁书写的问题重新组织设计史。",
+      "chineseTitle": "“Nue Black Aesthetic”绘制塑造当代设计的离散声音",
+      "contentHash": "sha1:d7fd487d7673f9587aeb59cf8819e26cfbba39fa",
+      "itemId": "visual-wallpaper-1i7pfxc",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 97,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 19,
+        "professionalRelevance": 20,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "大型设计机构的策展议题清晰，直接关涉设计史、身份与话语权。",
+      "status": "success",
+      "trendKeywords": [
+        "黑人设计",
+        "离散文化",
+        "设计博物馆"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "Nick Varnier 以曼谷古着店 GLAM Archive 收藏 2010 年代 Chanel、Gucci、Margiela 等稀有时装，建立介于零售、研究和个人风格之间的档案实践。",
+      "chineseTitle": "曼谷时装档案商 Nick Varnier 的 GLAM Archive",
+      "contentHash": "sha1:0cd98eab2d9af757b4a145b437f0edd29374443c",
+      "itemId": "visual-dazed-ilu8ez",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 92,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "非西方城市中的私人时装档案案例，具有收藏与再流通观察价值。",
+      "status": "success",
+      "trendKeywords": [
+        "时装档案",
+        "曼谷古着",
+        "2010年代时尚"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "TAG Heuer 与 Team Ikuzawa、Bamford Watch Department 再度合作，从复古 Roadster 秒表汲取线索，将日本赛车文化转化为 Carrera Chronograph 的细节语言。",
+      "chineseTitle": "TAG Heuer 以日本赛车记忆重构 Carrera 计时表",
+      "contentHash": "sha1:c8db2a40a22a3c0f82559ec97c398db4e673694d",
+      "itemId": "visual-wallpaper-1rfd4ah",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 91,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "跨品牌协作将交通文化、收藏与产品叙事整合得具体而清晰。",
+      "status": "success",
+      "trendKeywords": [
+        "日本赛车",
+        "联名腕表",
+        "复古计时"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "Present & Correct 联合创始人 Neal Whittington 回顾这家以印刷短品和文具闻名的店铺，并以首本出版物延展其长期积累的编辑与收藏实践。",
+      "chineseTitle": "Present & Correct：把文具店经营成平面设计档案",
+      "contentHash": "sha1:9a84d6fee8d4b26d3d63c8ed99f0594c935e57f1",
+      "itemId": "visual-its-nice-that-t36ask",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 92,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 17,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "零售、收藏与出版三者的连接，为平面设计品牌提供可借鉴的长期路径。",
+      "status": "success",
+      "trendKeywords": [
+        "平面设计",
+        "文具档案",
+        "独立出版"
+      ]
+    },
+    {
+      "analyzedAt": "2026-07-31T02:09:32.959Z",
+      "chineseSummary": "Vogue Japan 讨论 OpenAI、Palantir 与 Anthropic 等科技公司推出官方周边的现象：企业价值观正通过服装、徽章和社群符号被重新包装为可穿着的身份表达。",
+      "chineseTitle": "科技公司为何开始把 T 恤当作生活方式媒介",
+      "contentHash": "sha1:e0870c0917aeae79000758887c4c5bd05929dbdb",
+      "itemId": "visual-vogue-japan-1g59j3m",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 92,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 19,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 26
+      },
+      "selectionRationale": "技术品牌的服装化直接关联企业身份、文化传播和视觉符号系统。",
+      "status": "success",
+      "trendKeywords": [
+        "科技周边",
+        "企业品牌",
+        "可穿着身份"
+      ]
     }
   ],
   "failures": [],
-  "generatedAt": "2026-07-24T01:25:29.000Z",
+  "generatedAt": "2026-07-31T02:09:32.959Z",
   "promptVersion": "visual-daily-v1"
 }
