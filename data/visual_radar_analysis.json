@@ -7079,9 +7079,425 @@
         "企业品牌",
         "可穿着身份"
       ]
+    },
+    {
+      "analyzedAt": "2026-08-06T02:10:00.529Z",
+      "chineseSummary": "V&A 在摄影与书籍展厅呈现艺术摄影出版物《Sun Artists》，以连续出版物为入口观看影像、编辑与艺术社群的关系。",
+      "chineseTitle": "V&A 聚焦摄影出版物《Sun Artists》",
+      "contentHash": "sha1:334db2ac72dc0025e7e023e10a9f0d3ec9bb131a",
+      "itemId": "visual-vam-fashion-qmjx8v",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 92,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 17,
+        "professionalRelevance": 19,
+        "sourceQuality": 10,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "权威摄影机构对出版物的专题展示，适合追踪摄影书文化。",
+      "status": "success",
+      "trendKeywords": [
+        "摄影出版",
+        "V&A",
+        "艺术书"
+      ]
+    },
+    {
+      "analyzedAt": "2026-08-06T02:10:00.529Z",
+      "chineseSummary": "Vogue Singapore 聚焦东南亚品牌的大胆单品，呈现区域创作者如何通过醒目廓形和本地语境进入国际时尚视野。",
+      "chineseTitle": "东南亚品牌以大胆造型建立区域时尚声量",
+      "contentHash": "sha1:1d229db71a2b3eca9f00ad78a93b0509b8a7f8ba",
+      "itemId": "visual-vogue-singapore-1rh9mxu",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 89,
+      "scoreBreakdown": {
+        "informationSpecificity": 13,
+        "novelty": 17,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "区域品牌的编辑选择可反映东南亚当代风格力量。",
+      "status": "success",
+      "trendKeywords": [
+        "东南亚设计",
+        "区域时尚",
+        "大胆造型"
+      ]
+    },
+    {
+      "analyzedAt": "2026-08-06T02:10:00.529Z",
+      "chineseSummary": "设计师岛田顺子讲述 1970 年代巴黎经历，以及与高田贤三、三宅一生相识的片段，为日本设计师在巴黎的跨文化网络留下口述档案。",
+      "chineseTitle": "岛田顺子回望巴黎与高田贤三、三宅一生的友谊",
+      "contentHash": "sha1:a61175c0f0ab890e423706cdfe0b648fd1738c81",
+      "itemId": "visual-fashionsnap-4uxwp5",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 89,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 17,
+        "professionalRelevance": 19,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 25
+      },
+      "selectionRationale": "一手设计师回忆串联日本时装史、巴黎与创作社群。",
+      "status": "success",
+      "trendKeywords": [
+        "岛田顺子",
+        "巴黎时装史",
+        "日本设计"
+      ]
+    },
+    {
+      "analyzedAt": "2026-08-06T02:10:00.529Z",
+      "chineseSummary": "首尔市立摄影美术馆展出 Martin Parr 半世纪以来的摄影世界，以纪录、艺术、黑白与彩色之间的游移呈现其独特观看方式。",
+      "chineseTitle": "马丁·帕：半世纪收集而来的世界场景",
+      "contentHash": "sha1:70ec67cd1422dc3996f7027ecdac828bc47f2efb",
+      "itemId": "visual-w-korea-11bg7de",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 92,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 17,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "重要摄影师在亚洲机构的展览，具有摄影史与城市观看参考价值。",
+      "status": "success",
+      "trendKeywords": [
+        "马丁·帕",
+        "摄影展览",
+        "首尔"
+      ]
+    },
+    {
+      "analyzedAt": "2026-08-06T02:10:00.529Z",
+      "chineseSummary": "Norton Motorcycles 联手 Foster + Partners 以当代展示语言呈现高端摩托新产品，显示交通品牌正把产品发布转化为建筑化体验。",
+      "chineseTitle": "Norton 与 Foster + Partners 共同打造摩托展示",
+      "contentHash": "sha1:31491e2e39e9f730f18d453192c25915080fea3c",
+      "itemId": "visual-wallpaper-1jd81o0",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 94,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 18,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "产品、建筑事务所与展示设计结合紧密，空间叙事明确。",
+      "status": "success",
+      "trendKeywords": [
+        "Foster + Partners",
+        "产品展示",
+        "摩托设计"
+      ]
+    },
+    {
+      "analyzedAt": "2026-08-06T02:10:00.529Z",
+      "chineseSummary": "曾代表未来想象的柏林 ICC 会议中心在长期失效后酝酿复兴，建筑更新有望将其转化为开放社会的新象征。",
+      "chineseTitle": "柏林 ICC：沉睡的未来主义巨构即将苏醒",
+      "contentHash": "sha1:e13aa7b737e7ae9db28f232696b8626076a7793b",
+      "itemId": "visual-wallpaper-1fpn408",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 94,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 18,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "大型公共建筑的再生议题连接未来主义遗产与社会空间。",
+      "status": "success",
+      "trendKeywords": [
+        "柏林ICC",
+        "建筑再生",
+        "未来主义"
+      ]
+    },
+    {
+      "analyzedAt": "2026-08-06T02:10:00.529Z",
+      "chineseSummary": "Vogue Runway 收录 Baum und Pferdgarten 2027 春夏系列的造型、妆发与评论，提供哥本哈根时装周的完整视觉样本。",
+      "chineseTitle": "Baum und Pferdgarten 2027 春夏哥本哈根秀场",
+      "contentHash": "sha1:c8b050360470beda49c05b967a4d03c38081ebd3",
+      "itemId": "visual-vogue-runway-18l3r57",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 94,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 18,
+        "professionalRelevance": 19,
+        "sourceQuality": 10,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "权威秀场记录适合追踪北欧当季造型和色彩语言。",
+      "status": "success",
+      "trendKeywords": [
+        "哥本哈根时装周",
+        "2027春夏",
+        "北欧造型"
+      ]
+    },
+    {
+      "analyzedAt": "2026-08-06T02:10:00.529Z",
+      "chineseSummary": "W Magazine 汇集哥本哈根时装周春夏 2027 的重要秀场，并以 20 周年节点回看从 By Malene Birger 到 Paolina Russo 的风格分化。",
+      "chineseTitle": "哥本哈根时装周 20 周年秀场的关键造型",
+      "contentHash": "sha1:07b9b6bce1ae90a487786ba6eb8a12b060571100",
+      "itemId": "visual-w-magazine-1trzkv9",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 93,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 18,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "周年节点与多品牌并置，适合观察哥本哈根时尚生态。",
+      "status": "success",
+      "trendKeywords": [
+        "哥本哈根时装周",
+        "秀场精选",
+        "北欧时尚"
+      ]
+    },
+    {
+      "analyzedAt": "2026-08-06T02:10:00.529Z",
+      "chineseSummary": "设计师 Justin Miller 从线上二手交易平台收集物件，并参与“Still Available”线下驻留，让数字淘物、古着发现和空间策展相互转译。",
+      "chineseTitle": "Justin Miller 把 Facebook Marketplace 变成线下策展现场",
+      "contentHash": "sha1:9a063ed56e2b7198138e3b56c6408b5caa6d622b",
+      "itemId": "visual-dazed-19b0oow",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 93,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 19,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "平台购物被转化为收藏与线下展示，媒介路径新颖。",
+      "status": "success",
+      "trendKeywords": [
+        "二手策展",
+        "数字收藏",
+        "线下驻留"
+      ]
+    },
+    {
+      "analyzedAt": "2026-08-06T02:10:00.529Z",
+      "chineseSummary": "柏林艺术大学学生 Lenni Bubi 将低音扬声器嵌入裙装，以浩室音乐、身体和不合常理的物件为灵感，扩展服装的感官边界。",
+      "chineseTitle": "Lenni Bubi 的低音炮裙：让服装真正产生震动",
+      "contentHash": "sha1:e66053495fc44a079db336925d07e2828fdc7bdc",
+      "itemId": "visual-dazed-1pwz99i",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 97,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 20,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 30
+      },
+      "selectionRationale": "新锐设计把声音装置直接嵌入服装，具有强实验性和视觉传播力。",
+      "status": "success",
+      "trendKeywords": [
+        "可穿戴声音",
+        "实验服装",
+        "柏林设计"
+      ]
+    },
+    {
+      "analyzedAt": "2026-08-06T02:10:00.529Z",
+      "chineseSummary": "安特卫普时尚博物馆通过 Alaïa 的设计、工作过程和私人收藏，呈现这位大师如何把服装、工艺与收藏热情发展成完整实践。",
+      "chineseTitle": "MoMu 以收藏者之眼回看 Azzedine Alaïa",
+      "contentHash": "sha1:f412dbbca1b87ddb933b7264c9f426f11f51144f",
+      "itemId": "visual-momu-4wk4kk",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 98,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 18,
+        "professionalRelevance": 20,
+        "sourceQuality": 10,
+        "timeliness": 5,
+        "visualInspiration": 30
+      },
+      "selectionRationale": "时尚博物馆对大师创作过程与收藏体系的系统展示，价值突出。",
+      "status": "success",
+      "trendKeywords": [
+        "Azzedine Alaïa",
+        "MoMu",
+        "时尚档案"
+      ]
+    },
+    {
+      "analyzedAt": "2026-08-06T02:10:00.529Z",
+      "chineseSummary": "Naafia Naahemaa 的短片在阿克拉未完成的粗野主义建筑取景，以自由身体运动、声音与社区访谈回应土地流失、迁徙和公共设施搁置。",
+      "chineseTitle": "《Liminal》：在阿克拉未完成粗野建筑中起舞",
+      "contentHash": "sha1:cfece9088072914f5dab4c82e88eb02b06204e93",
+      "itemId": "visual-nowness-1488rg6",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 97,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 19,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 30
+      },
+      "selectionRationale": "影像把身体、建筑与社会议题合为一体，具备强空间叙事价值。",
+      "status": "success",
+      "trendKeywords": [
+        "阿克拉",
+        "粗野主义",
+        "舞蹈影像"
+      ]
+    },
+    {
+      "analyzedAt": "2026-08-06T02:10:00.529Z",
+      "chineseSummary": "Vogue Runway 收录 Institution by Galib Gassanoff 的哥本哈根 2027 春夏秀场，为该品牌将工艺传承转为当代服装的实践提供视觉档案。",
+      "chineseTitle": "Institution by Galib Gassanoff 2027 春夏系列",
+      "contentHash": "sha1:d352e6f6fe052298fd4702659bdabc3dd316c739",
+      "itemId": "visual-vogue-runway-1t3kpuq",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 94,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 18,
+        "professionalRelevance": 19,
+        "sourceQuality": 10,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "与此前工艺保护项目相互印证，呈现文化实践进入秀场的结果。",
+      "status": "success",
+      "trendKeywords": [
+        "Institution",
+        "工艺传承",
+        "哥本哈根秀场"
+      ]
+    },
+    {
+      "analyzedAt": "2026-08-06T02:10:00.529Z",
+      "chineseSummary": "Polaroid 创意总监 Patricia Varella 讨论品牌在 AI 时代的长期策略，以及以不完美、物质性和逆潮流的广告回应生成图像泛滥。",
+      "chineseTitle": "Polaroid 用“不完美”与反 AI 策略守住模拟影像",
+      "contentHash": "sha1:b8afbbddc0949bcbcbdbd6649f72ccd122831fe6",
+      "itemId": "visual-its-nice-that-tde774",
+      "model": "codex-agent",
+      "primaryTopic": "tool",
+      "promptVersion": "visual-daily-v1",
+      "score": 97,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 19,
+        "professionalRelevance": 20,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "模拟摄影品牌面对 AI 图像的策略具有鲜明的视觉文化意义。",
+      "status": "success",
+      "trendKeywords": [
+        "Polaroid",
+        "反AI视觉",
+        "模拟摄影"
+      ]
+    },
+    {
+      "analyzedAt": "2026-08-06T02:10:00.529Z",
+      "chineseSummary": "Daniel Greenfeld 把日常纸张边角料转化为建筑构图，以循环材料和细密拼接替代传统拼贴，形成有秩序的纸上空间。",
+      "chineseTitle": "Daniel Greenfeld 用纸屑拼成建筑马赛克",
+      "contentHash": "sha1:39752fb7702bca9964af6b9c8d7cce653d8ea9a7",
+      "itemId": "visual-its-nice-that-8k146r",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 93,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "材料循环与建筑图像结合，手工方法清晰且易于借鉴。",
+      "status": "success",
+      "trendKeywords": [
+        "纸艺马赛克",
+        "材料循环",
+        "建筑图像"
+      ]
+    },
+    {
+      "analyzedAt": "2026-08-06T02:10:00.529Z",
+      "chineseSummary": "贝宁新锐工作室 Atelier Ko 通过修复 Afro-Brazilian 住宅 Maison Itan，呈现建筑遗产如何在当代改造中保留地方材料、历史与生活感。",
+      "chineseTitle": "Atelier Ko 修复贝宁 Afro-Brazilian 住宅",
+      "contentHash": "sha1:65c9e400cb90f482006b53bd066ff55dbfbc796a",
+      "itemId": "visual-wallpaper-1ib7s19",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 95,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 18,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "非洲本地工作室的遗产修复案例，丰富全球建筑叙事的地域视角。",
+      "status": "success",
+      "trendKeywords": [
+        "贝宁建筑",
+        "遗产修复",
+        "Afro-Brazilian"
+      ]
     }
   ],
   "failures": [],
-  "generatedAt": "2026-07-31T02:09:32.959Z",
+  "generatedAt": "2026-08-06T02:10:00.529Z",
   "promptVersion": "visual-daily-v1"
 }
