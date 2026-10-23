@@ -7963,9 +7963,581 @@
         "东京时装周",
         "实验造型"
       ]
+    },
+    {
+      "analyzedAt": "2026-10-23T07:50:28.371Z",
+      "chineseSummary": "V&A 邀请 Roland Mouret 分享个人创作历程，为理解当代设计师如何在剪裁、身份与品牌之间建立语言提供一手入口。",
+      "chineseTitle": "V&A 对谈《I Am Roland Mouret》：设计师自述与品牌叙事",
+      "contentHash": "sha1:ac866e9f5e98fe734ad9aad418476b394f49c367",
+      "itemId": "visual-vam-fashion-1h2rfar",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 88,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 16,
+        "professionalRelevance": 18,
+        "sourceQuality": 10,
+        "timeliness": 5,
+        "visualInspiration": 25
+      },
+      "selectionRationale": "机构对谈可补足设计师品牌背后的方法与职业脉络。",
+      "status": "success",
+      "trendKeywords": [
+        "Roland Mouret",
+        "设计师对谈",
+        "品牌叙事"
+      ]
+    },
+    {
+      "analyzedAt": "2026-10-23T07:50:28.371Z",
+      "chineseSummary": "Aputure 更新 Sidus Link Pro 2.4.2，以增强像素控制工具支持更精细的动态灯光编程和片场协作。",
+      "chineseTitle": "Sidus Link Pro 2.4.2 强化像素级灯光工具",
+      "contentHash": "sha1:ad9f4956bd48c479aee1b29dd9d4a1bb36b58dd9",
+      "itemId": "visual-aputure-1oy0tth",
+      "model": "codex-agent",
+      "primaryTopic": "tool",
+      "promptVersion": "visual-daily-v1",
+      "score": 88,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 17,
+        "professionalRelevance": 19,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 24
+      },
+      "selectionRationale": "直接影响影像制作的灯光控制流程，专业可用性强。",
+      "status": "success",
+      "trendKeywords": [
+        "灯光控制",
+        "像素编程",
+        "Aputure"
+      ]
+    },
+    {
+      "analyzedAt": "2026-10-23T07:50:28.371Z",
+      "chineseSummary": "Pinkbox Studios 使用 NOVA II 1x1 灯具改造预布光环幕影棚，在提升光线灵活性的同时节省制作成本。",
+      "chineseTitle": "Pinkbox Studios 以 NOVA II 升级环幕影棚",
+      "contentHash": "sha1:f3dae27d3f559f74440fb4d2ed04cd2643d7be21",
+      "itemId": "visual-aputure-1liiqwi",
+      "model": "codex-agent",
+      "primaryTopic": "tool",
+      "promptVersion": "visual-daily-v1",
+      "score": 87,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 16,
+        "professionalRelevance": 19,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 24
+      },
+      "selectionRationale": "展示影棚灯光工具对预算、流程与画面控制的实际影响。",
+      "status": "success",
+      "trendKeywords": [
+        "影棚灯光",
+        "环幕影棚",
+        "制作效率"
+      ]
+    },
+    {
+      "analyzedAt": "2026-10-23T07:50:28.371Z",
+      "chineseSummary": "Lacoste 推出与哥斯拉的第三次合作，并采用导演山崎贵的图形设计，把电影视觉资产转化为日常服装图案。",
+      "chineseTitle": "Lacoste × 哥斯拉：电影导演图形进入服装联名",
+      "contentHash": "sha1:9ce7ae1cc3902b64ab8af4ae20f53f4e8e774f37",
+      "itemId": "visual-fashionsnap-r58ked",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 89,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 18,
+        "professionalRelevance": 17,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "影视 IP、导演图形与运动服品牌的跨媒介转译路径明确。",
+      "status": "success",
+      "trendKeywords": [
+        "哥斯拉",
+        "IP联名",
+        "图形设计"
+      ]
+    },
+    {
+      "analyzedAt": "2026-10-23T07:50:28.371Z",
+      "chineseSummary": "Stella McCartney 发布由 Kylie Jenner 主演的短片，以时装影像而非单张广告延展品牌的叙事和人物气质。",
+      "chineseTitle": "Stella McCartney 短片以 Kylie Jenner 作为视觉主角",
+      "contentHash": "sha1:66880c54bf885cce76a00b55325e6b2994debaee",
+      "itemId": "visual-vogue-korea-a37197",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 88,
+      "scoreBreakdown": {
+        "informationSpecificity": 13,
+        "novelty": 17,
+        "professionalRelevance": 17,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "短片作为时装传播载体，适合观察品牌的动态视觉策略。",
+      "status": "success",
+      "trendKeywords": [
+        "时装短片",
+        "Stella McCartney",
+        "品牌影像"
+      ]
+    },
+    {
+      "analyzedAt": "2026-10-23T07:50:28.371Z",
+      "chineseSummary": "tao 在 Comme des Garçons 总部建筑中呈现 48 套 2027 春夏造型，让秀场、品牌空间和系列解读形成紧密联系。",
+      "chineseTitle": "tao 在 Comme des Garçons 总部举办 2027 春夏迷你秀",
+      "contentHash": "sha1:c09c942dc9ce67b0a16b01c6dd40fa62c28a2208",
+      "itemId": "visual-vogue-japan-a7j821",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 95,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 18,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "品牌总部作为秀场场景，兼具空间语境和完整造型资料。",
+      "status": "success",
+      "trendKeywords": [
+        "tao",
+        "Comme des Garçons",
+        "东京秀场"
+      ]
+    },
+    {
+      "analyzedAt": "2026-10-23T07:50:28.371Z",
+      "chineseSummary": "这座德国住宅通过可逐步调整的空间策略适应屋主的长期变化，提出一种不以一次性完成为目标的居住建筑思路。",
+      "chineseTitle": "德国住宅以缓慢演化回应居住者需求",
+      "contentHash": "sha1:9984cc1e40d28eef4aa2235a524f95763da07e80",
+      "itemId": "visual-wallpaper-is9n3t",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 92,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "“持续演化”的住宅逻辑对适应性设计具有直接参考价值。",
+      "status": "success",
+      "trendKeywords": [
+        "适应性建筑",
+        "德国住宅",
+        "长期居住"
+      ]
+    },
+    {
+      "analyzedAt": "2026-10-23T07:50:28.371Z",
+      "chineseSummary": "Vogue Korea 以城市文化、时装和国际影响力为线索，讨论上海如何形成可与纽约并置的当代创意能量。",
+      "chineseTitle": "上海如何成为与纽约并肩的创意城市",
+      "contentHash": "sha1:97396ebae76e11a89ad166c7243a0dc45d9c2f5b",
+      "itemId": "visual-vogue-korea-1m97l5h",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 88,
+      "scoreBreakdown": {
+        "informationSpecificity": 13,
+        "novelty": 17,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 26
+      },
+      "selectionRationale": "关于城市创意生态的讨论适合观察区域时尚与文化生产。",
+      "status": "success",
+      "trendKeywords": [
+        "上海创意",
+        "城市文化",
+        "亚洲时尚"
+      ]
+    },
+    {
+      "analyzedAt": "2026-10-23T07:50:28.371Z",
+      "chineseSummary": "Prune Nourry 在巴黎 Petit Palais 展出石膏铸像人物，以身体、记忆和群体形象构建具有仪式感的雕塑现场。",
+      "chineseTitle": "Prune Nourry 的石膏人物进入巴黎小皇宫",
+      "contentHash": "sha1:1c28ebbb3032c118e2174ba9434b52957d92ce32",
+      "itemId": "visual-wallpaper-1gyvp92",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 94,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 18,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "当代雕塑与历史博物馆空间的对话具备强烈的观看价值。",
+      "status": "success",
+      "trendKeywords": [
+        "Prune Nourry",
+        "Petit Palais",
+        "当代雕塑"
+      ]
+    },
+    {
+      "analyzedAt": "2026-10-23T07:50:28.371Z",
+      "chineseSummary": "日本品牌 T.T 在京都御所南开设新空间并引入女装系列，以实体据点扩展品牌的收藏、社区和服装叙事。",
+      "chineseTitle": "T.T 在京都御所南建立新据点",
+      "contentHash": "sha1:35c86814199a80b02f0bc4788a2e949a123feb11",
+      "itemId": "visual-fashionsnap-yxe7ku",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 88,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 17,
+        "professionalRelevance": 18,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 26
+      },
+      "selectionRationale": "独立品牌的空间拓展可观察零售、社群与系列语言如何联动。",
+      "status": "success",
+      "trendKeywords": [
+        "京都零售",
+        "独立品牌",
+        "品牌空间"
+      ]
+    },
+    {
+      "analyzedAt": "2026-10-23T07:50:28.371Z",
+      "chineseSummary": "Almostblack 在东京虎之门举办限时店，混合品牌档案和古着销售，把过去系列转化为具研究性的实体零售体验。",
+      "chineseTitle": "Almostblack 在虎之门开设档案与古着限定店",
+      "contentHash": "sha1:1904fada64ab8b8eb36ecfbd12a66e869b5ce8e9",
+      "itemId": "visual-fashionsnap-ykvzxr",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 90,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "档案时装进入零售现场，能体现品牌历史的再流通方式。",
+      "status": "success",
+      "trendKeywords": [
+        "时装档案",
+        "东京限定店",
+        "古着零售"
+      ]
+    },
+    {
+      "analyzedAt": "2026-10-23T07:50:28.371Z",
+      "chineseSummary": "Sharanpoi 的安部真理子与诧间宝石雕刻在京都举办展览，结合独件销售与定制活动，凸显小规模工艺品牌的跨媒介协作。",
+      "chineseTitle": "京都展览把珠宝雕刻与纺织创作并置",
+      "contentHash": "sha1:773c64de43a46d37baa7d7e60eb2179417345b50",
+      "itemId": "visual-vogue-japan-xxzklg",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 93,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "纺织、宝石雕刻和定制机制结合，工艺叙事具体。",
+      "status": "success",
+      "trendKeywords": [
+        "京都展览",
+        "珠宝雕刻",
+        "纺织工艺"
+      ]
+    },
+    {
+      "analyzedAt": "2026-10-23T07:50:28.371Z",
+      "chineseSummary": "Dolce & Gabbana 以 2027 春夏系列更新西西里魅力的叙事，在地域符号、华丽造型和品牌戏剧性之间寻找新平衡。",
+      "chineseTitle": "Dolce & Gabbana 开启西西里魅力的新视觉世界",
+      "contentHash": "sha1:a8de7d1809c323f1b0ed87db20172532871b7e07",
+      "itemId": "visual-vogue-singapore-1nu9ms0",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 90,
+      "scoreBreakdown": {
+        "informationSpecificity": 13,
+        "novelty": 17,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "品牌持续重写地域视觉资产，适合观察奢侈品牌的风格迭代。",
+      "status": "success",
+      "trendKeywords": [
+        "Dolce & Gabbana",
+        "西西里美学",
+        "2027春夏"
+      ]
+    },
+    {
+      "analyzedAt": "2026-10-23T07:50:28.371Z",
+      "chineseSummary": "ZAIIE 以巴勒斯坦之美为核心建立品牌表达，把文化身份、身体和视觉语言转译为当代美妆与时尚叙事。",
+      "chineseTitle": "ZAIIE：献给巴勒斯坦美的品牌情书",
+      "contentHash": "sha1:c696f2d083ccaf032d2858753a8d3d0beedaeed8",
+      "itemId": "visual-id-magazine-1h4jhe8",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 93,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 19,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "以文化身份为核心的独立品牌视觉实践具备鲜明立场。",
+      "status": "success",
+      "trendKeywords": [
+        "巴勒斯坦美学",
+        "独立品牌",
+        "身份叙事"
+      ]
+    },
+    {
+      "analyzedAt": "2026-10-23T07:50:28.371Z",
+      "chineseSummary": "古根海姆馆长 Melissa Chiu 讨论 Taryn Simon 的《American Epic》，从机构视角梳理这位艺术家如何处理档案、国家叙事与影像证据。",
+      "chineseTitle": "古根海姆馆长解读 Taryn Simon 的《American Epic》",
+      "contentHash": "sha1:5e37e121e742c59e63725cecb7505dcc0c04865e",
+      "itemId": "visual-interview-magazine-w828gn",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 95,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 18,
+        "professionalRelevance": 20,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "重要机构与艺术家项目的对谈，对研究当代档案实践有价值。",
+      "status": "success",
+      "trendKeywords": [
+        "Taryn Simon",
+        "古根海姆",
+        "档案艺术"
+      ]
+    },
+    {
+      "analyzedAt": "2026-10-23T07:50:28.371Z",
+      "chineseSummary": "i-D 关注将杂志与商店结合的项目，探索编辑内容、实体零售与独立出版如何在同一平台中相互支持。",
+      "chineseTitle": "一家“实际上是商店”的杂志",
+      "contentHash": "sha1:3e944ed73345c855558717e3fb83dec7c4159676",
+      "itemId": "visual-id-magazine-1lbis",
+      "model": "codex-agent",
+      "primaryTopic": "magazine",
+      "promptVersion": "visual-daily-v1",
+      "score": 92,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 18,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "出版物以实体交易和社群空间延长生命周期，模式值得关注。",
+      "status": "success",
+      "trendKeywords": [
+        "独立出版",
+        "杂志商店",
+        "编辑零售"
+      ]
+    },
+    {
+      "analyzedAt": "2026-10-23T07:50:28.371Z",
+      "chineseSummary": "MUBI FEST London 呈现《Marie Antoinette》制作幕后内容，让电影节从放映进一步延伸至美术、造型与电影生产方法的公开讨论。",
+      "chineseTitle": "MUBI FEST 走进《绝代艳后》的制作幕后",
+      "contentHash": "sha1:a27d8db287e03f5fbc29d2fb33ee9af1a39d21d2",
+      "itemId": "visual-dazed-7blpz7",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 89,
+      "scoreBreakdown": {
+        "informationSpecificity": 13,
+        "novelty": 17,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "电影美术与制作过程的公开活动具有跨学科视觉参考价值。",
+      "status": "success",
+      "trendKeywords": [
+        "MUBI FEST",
+        "电影美术",
+        "Marie Antoinette"
+      ]
+    },
+    {
+      "analyzedAt": "2026-10-23T07:50:28.371Z",
+      "chineseSummary": "Cabinet Couture 以时装评论与社交媒体档案揭示印尼政治精英的权力形象，让服装成为观察腐败、阶层和公共话语的切口。",
+      "chineseTitle": "Cabinet Couture：用 Instagram 揭露印尼政治精英",
+      "contentHash": "sha1:2147c27ba326b3058a87e461899dff0ff506295f",
+      "itemId": "visual-dazed-a5u93u",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 92,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 19,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 26
+      },
+      "selectionRationale": "时尚图像被用于公共监督，展示视觉文化的社会批评能力。",
+      "status": "success",
+      "trendKeywords": [
+        "政治时尚",
+        "Instagram档案",
+        "印尼文化"
+      ]
+    },
+    {
+      "analyzedAt": "2026-10-23T07:50:28.371Z",
+      "chineseSummary": "Lego 与 Daft Punk 建立长期创意合作关系，让音乐视觉、玩具系统和收藏文化交叉生成新的产品与叙事可能。",
+      "chineseTitle": "Lego 与 Daft Punk 展开长期创意合作",
+      "contentHash": "sha1:51979b9e6af54d75fb2ac1608f4536749ee3d0e4",
+      "itemId": "visual-wallpaper-x1lejz",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 93,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 19,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "音乐 IP 与模块化玩具的长期合作具有强跨媒介设计潜力。",
+      "status": "success",
+      "trendKeywords": [
+        "Lego",
+        "Daft Punk",
+        "创意合作"
+      ]
+    },
+    {
+      "analyzedAt": "2026-10-23T07:50:28.371Z",
+      "chineseSummary": "OKA 的 Mori 以机器人和 AI 为基础，为家庭陪伴设备赋予带有“性格”的交互体验，重新设想智能硬件的情感设计。",
+      "chineseTitle": "OKA Mori：由机器人与 AI 塑造性格的家居伙伴",
+      "contentHash": "sha1:9a103461f08572a1a406d5eee216c8fb4face86f",
+      "itemId": "visual-wallpaper-17ng13q",
+      "model": "codex-agent",
+      "primaryTopic": "tool",
+      "promptVersion": "visual-daily-v1",
+      "score": 94,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 19,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "AI、机器人与家居产品结合，呈现交互设计和角色化硬件趋势。",
+      "status": "success",
+      "trendKeywords": [
+        "陪伴机器人",
+        "AI家居",
+        "情感化设计"
+      ]
+    },
+    {
+      "analyzedAt": "2026-10-23T07:50:28.371Z",
+      "chineseSummary": "Foto Foto 以设计导向品牌重新推广实体照片相册，在数字影像过量的语境中强调可触摸的编辑、保存与回看体验。",
+      "chineseTitle": "Foto Foto 让实体相册重新回到设计视野",
+      "contentHash": "sha1:8841cbf8a06219579eeb09655cc0a605ea853d38",
+      "itemId": "visual-its-nice-that-leb13s",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 91,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "从数字照片回到物理相册，兼具产品设计和影像文化观察价值。",
+      "status": "success",
+      "trendKeywords": [
+        "实体相册",
+        "摄影出版",
+        "记忆设计"
+      ]
+    },
+    {
+      "analyzedAt": "2026-10-23T07:50:28.371Z",
+      "chineseSummary": "信息设计师 Mona Chalabi 分享如何把难以量化的社会经验转化为可读的视觉叙事，在数据、主观性和公众理解之间建立桥梁。",
+      "chineseTitle": "Mona Chalabi：如何让不可量化之物变得可理解",
+      "contentHash": "sha1:161030c0925799e2481437cb15dd5dffb49fae86",
+      "itemId": "visual-its-nice-that-1uvjuae",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 95,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 18,
+        "professionalRelevance": 20,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "数据叙事与社会议题的结合，对信息设计实践具备直接启发。",
+      "status": "success",
+      "trendKeywords": [
+        "Mona Chalabi",
+        "信息设计",
+        "数据叙事"
+      ]
     }
   ],
   "failures": [],
-  "generatedAt": "2026-10-21T09:49:07.318Z",
+  "generatedAt": "2026-10-23T07:50:28.371Z",
   "promptVersion": "visual-daily-v1"
 }
