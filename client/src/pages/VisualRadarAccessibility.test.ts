@@ -12,6 +12,15 @@ import { VisualRadarMasthead } from "../components/visual-radar/VisualRadarMasth
 const render = (children: ReactNode, path = "/") => renderToStaticMarkup(createElement(Router, { ssrPath: path, ssrSearch: "", children }));
 
 describe("keyboard navigation entry", () => {
+  it("exposes labeled quality filters and explicit preview-before-restore controls", () => {
+    const html = render(createElement(VisualRadarSaved), "/saved");
+    expect(html).toContain('aria-label="视觉方法"');
+    expect(html).toContain("只看有原文证据");
+    expect(html).toContain("只看精选");
+    expect(html).toContain("备份全部收藏与备注");
+    expect(html).toContain("恢复预览");
+    expect(html).toContain("确认合并恢复");
+  });
   it.each([
     ["home loading", VisualRadar], ["archive loading", VisualRadarArchive],
     ["empty saved", VisualRadarSaved], ["not found", VisualRadarNotFound],

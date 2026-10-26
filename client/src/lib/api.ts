@@ -179,7 +179,7 @@ export const getVisualRadarIssues = () =>
     buildVisualRadarReadUrl("issues", visualRadarReadOptions)
   );
 export const getVisualRadarArchive = () =>
-  req<VisualRadarArchive>(buildVisualRadarReadUrl("archive", visualRadarReadOptions));
+  req<VisualRadarArchive>(buildVisualRadarReadUrl("archive", visualRadarReadOptions), { cache: "no-cache" });
 export const getVisualRadarIssue = (id: string) =>
   req<VisualRadarIssueDetail>(
     buildVisualRadarReadUrl("issue", {

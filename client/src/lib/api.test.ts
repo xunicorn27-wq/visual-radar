@@ -1,8 +1,16 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 
-import { buildVisualRadarReadUrl } from "./api";
+import { buildVisualRadarReadUrl, getVisualRadarArchive } from "./api";
 
 describe("buildVisualRadarReadUrl", () => {
+  it("revalidates the archive before applying corrections to browser collections", async () => {
+    const request = vi.fn().mockResolvedValue({ ok: true, json: async () => ({ issues: [], stories: [] }) });
+    vi.stubGlobal("fetch", request);
+    try {
+      expect(await getVisualRadarArchive()).toEqual({ issues: [], stories: [] });
+      expect(request).toHaveBeenCalledWith(expect.any(String), expect.objectContaining({ cache: "no-cache" }));
+    } finally { vi.unstubAllGlobals(); }
+  });
   it("uses API paths for issue reads in server mode", () => {
     expect(
       buildVisualRadarReadUrl("issues", {

@@ -1,4 +1,20 @@
 import type { VisualCultureTopic, VisualRadarArchiveStory, VisualRadarSelectedStory } from "./api";
+import { VISUAL_METHODS, type VisualMethod } from "../../../shared/visualRadarQuality";
+
+export { VISUAL_METHODS };
+export function normalizeVisualMethod(value: string | null): VisualMethod | "all" {
+  return VISUAL_METHODS.includes(value as VisualMethod) ? value as VisualMethod : "all";
+}
+export function filterArchiveFacets(stories: readonly VisualRadarArchiveStory[], method: VisualMethod | "all", verifiedOnly: boolean, featuredOnly: boolean) {
+  return stories.filter((story) => (method === "all" || (story.verified === true && story.visualMethods?.includes(method)))
+    && (!verifiedOnly || story.verified === true) && (!featuredOnly || story.featured === true));
+}
+
+export function creativeHint(application?: string) {
+  const text = (application || "").replace(/^(创作建议|编辑建议)[：:]\s*/, "").trim();
+  const sentence = text.match(/^.*?[。！？]/)?.[0] || text;
+  return sentence.length > 84 ? `${sentence.slice(0, 82)}…` : sentence;
+}
 
 export const ARCHIVE_TOPICS: Record<VisualCultureTopic, string> = {
   photography: "摄影", styling: "造型", outfit: "搭配", exhibition: "展览",
@@ -17,7 +33,7 @@ export function filterArchiveStories(
   return stories.filter((story) => {
     if (topic !== "all" && topic !== story.topic) return false;
     const text = [story.title, story.originalTitle, story.summary, story.source,
-      story.issueDate, ARCHIVE_TOPICS[story.topic], ...story.keywords, extraText(story)]
+      story.issueDate, ARCHIVE_TOPICS[story.topic], ...story.keywords, story.application || "", extraText(story)]
       .join(" ").normalize("NFKC").toLocaleLowerCase();
     return terms.every((term) => text.includes(term));
   });
@@ -39,11 +55,15 @@ export function sortArchiveStories<T extends VisualRadarArchiveStory>(stories: r
     return sort === "oldest" ? left.localeCompare(right) : right.localeCompare(left);
   });
 }
-export function archiveStoryFromSelection({ item, analysis }: VisualRadarSelectedStory, issueId: string): VisualRadarArchiveStory {
+export function archiveStoryFromSelection({ item, analysis }: VisualRadarSelectedStory, issueId: string, featured = false): VisualRadarArchiveStory {
   return {
     id: item.id, issueId, issueDate: issueId,
     title: analysis.chineseTitle || item.title, summary: analysis.chineseSummary || item.text,
     originalTitle: item.title, source: item.sourceAccount || "Visual Radar",
     topic: analysis.primaryTopic, keywords: [...new Set([...(analysis.editorial?.visualTags || []), ...analysis.trendKeywords])], thumbnailUrl: item.thumbnailUrl || null,
+    visualMethods: analysis.editorial?.status === "verified" ? analysis.editorial.visualTags : [],
+    verified: analysis.editorial?.status === "verified", featured,
+    application: analysis.editorial?.status === "verified" ? analysis.editorial.application : "",
+    revisionAt: analysis.analyzedAt,
   };
 }

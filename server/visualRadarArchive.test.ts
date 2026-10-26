@@ -14,9 +14,22 @@ describe("archive index", () => {
     expect(result.issues.map((issue) => issue.issueDate)).toEqual(issues.map((issue) => issue.issueDate).sort().reverse());
     for (const story of result.stories) {
       expect(issues.find((issue) => issue.id === story.issueId)?.stories.some((entry) => entry.item.id === story.id)).toBe(true);
-      expect(Object.keys(story).sort()).toEqual(["id", "issueId", "issueDate", "title", "summary", "originalTitle", "source", "topic", "keywords", "thumbnailUrl"].sort());
+      expect(Object.keys(story).sort()).toEqual(["id", "issueId", "issueDate", "title", "summary", "originalTitle", "source", "topic", "keywords", "thumbnailUrl", "visualMethods", "verified", "featured", "application", "revisionAt"].sort());
     }
     expect(JSON.stringify(issues)).toBe(before);
+  });
+
+  it("publishes evidence-only methods and suggestions with exact featured membership", () => {
+    const archive = buildVisualRadarArchive(issues);
+    for (const story of archive.stories) {
+      const issue = issues.find((i) => i.id === story.issueId)!;
+      const analysis = issue.stories.find((s) => s.item.id === story.id)!.analysis;
+      expect(story.featured).toBe(issue.featuredStoryIds.includes(story.id));
+      expect(story.verified).toBe(analysis.editorial?.status === "verified");
+      expect(story.revisionAt).toBe(analysis.analyzedAt);
+      if (!story.verified) { expect(story.visualMethods).toEqual([]); expect(story.application).toBe(""); }
+      else { expect(story.visualMethods).toEqual(analysis.editorial!.visualTags); expect(story.application).toBe(analysis.editorial!.application); }
+    }
   });
 
   it("uses the highest-ranked available image and its own title for the cover", () => {

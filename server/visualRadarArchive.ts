@@ -1,5 +1,6 @@
 import type { VisualCultureTopic } from "./visualCultureSources";
 import type { VisualRadarIssue } from "./visualRadarIssue";
+import type { VisualMethod } from "../shared/visualRadarQuality";
 
 export interface VisualRadarArchiveStory {
   id: string;
@@ -12,6 +13,12 @@ export interface VisualRadarArchiveStory {
   topic: VisualCultureTopic;
   keywords: string[];
   thumbnailUrl: string | null;
+  // Optional for compatibility with existing browser collections and backups.
+  visualMethods?: VisualMethod[];
+  verified?: boolean;
+  featured?: boolean;
+  application?: string;
+  revisionAt?: string;
 }
 
 export interface VisualRadarArchiveEdition {
@@ -58,6 +65,11 @@ export function buildVisualRadarArchive(issues: readonly VisualRadarIssue[]): Vi
       topic: analysis.primaryTopic,
       keywords: [...new Set([...(analysis.editorial?.visualTags || []), ...analysis.trendKeywords])],
       thumbnailUrl: item.thumbnailUrl || null,
+      visualMethods: analysis.editorial?.status === "verified" ? analysis.editorial.visualTags : [],
+      verified: analysis.editorial?.status === "verified",
+      featured: issue.featuredStoryIds.includes(item.id),
+      application: analysis.editorial?.status === "verified" ? analysis.editorial.application : "",
+      revisionAt: analysis.analyzedAt,
     }))),
   };
 }

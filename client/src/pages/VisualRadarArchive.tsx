@@ -9,7 +9,8 @@ import {
   type VisualRadarArchive as ArchiveData,
   visualRadarStaticMode,
 } from "../lib/api";
-import { ARCHIVE_TOPICS, filterArchiveStories, normalizeArchiveTopic, normalizeArchiveMonth, normalizeArchiveSort, sortArchiveStories } from "../lib/visualRadarArchive";
+import { ARCHIVE_TOPICS, filterArchiveStories, normalizeArchiveTopic, normalizeArchiveMonth, normalizeArchiveSort, sortArchiveStories, VISUAL_METHODS, normalizeVisualMethod, filterArchiveFacets, creativeHint } from "../lib/visualRadarArchive";
+import { LibraryBackup } from "../components/visual-radar/LibraryBackup";
 import { visualStoryAnchor } from "../components/visual-radar/VisualStory";
 import { StoryActions } from "../components/visual-radar/StoryActions";
 import { libraryMarkdown, libraryStoryKey, libraryStore, useVisualRadarLibrary } from "../lib/visualRadarLibrary";
@@ -34,7 +35,10 @@ function ArchiveBrowser({ savedOnly = false }: { savedOnly?: boolean }) {
   const topic = normalizeArchiveTopic(params.get("topic"));
   const month = normalizeArchiveMonth(params.get("month"));
   const sort = normalizeArchiveSort(params.get("sort"), savedOnly);
-  const hasFilters = Boolean(query.trim() || topic !== "all" || month !== "all");
+  const method = normalizeVisualMethod(params.get("method"));
+  const verifiedOnly = params.get("verified") === "1";
+  const featuredOnly = params.get("featured") === "1";
+  const hasFilters = Boolean(query.trim() || topic !== "all" || month !== "all" || method !== "all" || verifiedOnly || featuredOnly);
   const storyView = savedOnly || hasFilters || params.get("view") === "stories";
   const library = useVisualRadarLibrary();
   const [exportError, setExportError] = useState("");
@@ -45,10 +49,10 @@ function ArchiveBrowser({ savedOnly = false }: { savedOnly?: boolean }) {
   usePageMeta(savedOnly ? "我的收藏" : "往期日报", savedOnly ? "保存在本机的 Visual Radar 收藏与个人备注。" : "按主题、月份和关键词探索 Visual Radar 往期摄影推送。");
   const months = useMemo(() => [...new Set(sourceStories.map((story) => story.issueDate.slice(0, 7)))].sort().reverse(), [sourceStories]);
   const matches = useMemo(() => sortArchiveStories(
-    filterArchiveStories(sourceStories, query, topic, (story) => savedOnly ? entryByKey.get(libraryStoryKey(story))?.note || "" : "")
+    filterArchiveFacets(filterArchiveStories(sourceStories, query, topic, (story) => savedOnly ? entryByKey.get(libraryStoryKey(story))?.note || "" : ""), method, verifiedOnly, featuredOnly)
       .filter((story) => month === "all" || story.issueDate.startsWith(month)), sort,
     new Map(savedEntries.map((entry) => [libraryStoryKey(entry.story), entry.savedAt])),
-  ), [sourceStories, query, topic, month, sort, savedOnly, entryByKey, savedEntries]);
+  ), [sourceStories, query, topic, month, sort, savedOnly, entryByKey, savedEntries, method, verifiedOnly, featuredOnly]);
   const editions = useMemo(() => [...(archive?.issues || [])].sort((a, b) => sort === "oldest" ? a.issueDate.localeCompare(b.issueDate) : b.issueDate.localeCompare(a.issueDate)), [archive, sort]);
   const topicCounts = useMemo(() => {
     const counts: Record<string, number> = {};
@@ -57,7 +61,6 @@ function ArchiveBrowser({ savedOnly = false }: { savedOnly?: boolean }) {
   }, [sourceStories]);
 
   useEffect(() => {
-    if (savedOnly) return;
     let active = true;
     setError(null);
     void getVisualRadarArchive()
@@ -65,6 +68,10 @@ function ArchiveBrowser({ savedOnly = false }: { savedOnly?: boolean }) {
       .catch((loadError) => { if (active) setError(loadError instanceof Error ? loadError.message : "往期日报加载失败"); });
     return () => { active = false; };
   }, [retry, savedOnly]);
+
+  useEffect(() => {
+    if (archive && !library.error) libraryStore.syncStories(archive.stories);
+  }, [archive, library.entries, library.error]);
 
   useEffect(() => { setShown(restored?.href === browserHref ? restored.shown : PAGE_SIZE); }, [browserHref, restored]);
   useEffect(() => {
@@ -129,6 +136,10 @@ function ArchiveBrowser({ savedOnly = false }: { savedOnly?: boolean }) {
         {savedOnly && <div className="vr-library-notice"><p>收藏与备注仅保存在当前浏览器，不会上传。清理网站数据后会丢失；本地预览与正式网站独立保存，暂不跨设备同步。</p>
           <button type="button" onClick={exportSaved} disabled={!matches.length}><Download aria-hidden="true" />导出当前结果（含备注）</button>
         </div>}
+        {savedOnly && <LibraryBackup entries={library.entries} />}
+        {savedOnly && <p className="vr-sync-status" role="status">{error ? "暂时无法检查文章更新，仍可查看本机收藏和导出备份。" : archive ? "已检查文章更新；个人备注和收藏时间保留。" : "正在检查文章更新，本机收藏仍可使用。"}
+          {error && <button type="button" onClick={() => setRetry((value) => value + 1)}>重试检查</button>}
+        </p>}
         {library.error && <div className="vr-storage-error" role="alert"><p>{library.error}</p><button type="button" onClick={() => libraryStore.refresh()}>重试读取</button></div>}
         {exportError && <p role="alert" className="vr-action-error">{exportError}</p>}
         <div className="vr-archive-controls">
@@ -146,6 +157,9 @@ function ArchiveBrowser({ savedOnly = false }: { savedOnly?: boolean }) {
             ))}
           </div>
           <div className="vr-archive-options">
+            <label>视觉方法<select aria-label="视觉方法" value={method} onChange={(event) => updateParams({ method: event.target.value === "all" ? "" : event.target.value })}>
+              <option value="all">全部方法</option>{VISUAL_METHODS.map((value) => <option value={value} key={value}>{value}</option>)}
+            </select></label>
             <label>日报月份<select aria-label="日报月份" value={month} onChange={(event) => updateParams({ month: event.target.value === "all" ? "" : event.target.value })}>
               <option value="all">全部月份</option>
               {month !== "all" && !months.includes(month) && <option value={month}>{month}（暂无内容）</option>}
@@ -158,6 +172,11 @@ function ArchiveBrowser({ savedOnly = false }: { savedOnly?: boolean }) {
               <button type="button" aria-pressed={!storyView} onClick={() => { clearFilters(); }}>按期浏览</button>
               <button type="button" aria-pressed={storyView} onClick={() => updateParams({ view: "stories" })}>按内容浏览</button>
             </div>}
+          </div>
+          <div className="vr-quality-filters" role="group" aria-label="内容质量筛选">
+            <label><input type="checkbox" checked={verifiedOnly} onChange={(event) => updateParams({ verified: event.target.checked ? "1" : "" })} />只看有原文证据</label>
+            <label><input type="checkbox" checked={featuredOnly} onChange={(event) => updateParams({ featured: event.target.checked ? "1" : "" })} />只看精选</label>
+            <span>视觉方法标签仅来自已核验解读，未标注不代表没有参考价值。</span>
           </div>
         </div>
         {!savedOnly && error && <div className="vr-archive-empty" role="alert"><p>{error}</p><button type="button" onClick={() => setRetry((value) => value + 1)}>重新加载</button></div>}
@@ -179,8 +198,11 @@ function ArchiveBrowser({ savedOnly = false }: { savedOnly?: boolean }) {
                       <div className="vr-archive-card-meta"><span>{story.issueDate}</span><span>{ARCHIVE_TOPICS[story.topic]}</span></div>
                       <h2>{story.title}</h2>
                       <p className="vr-archive-excerpt">{story.summary}</p>
+                      <div className="vr-archive-quality"><span>{story.verified ? "有原文证据" : "解读待核验"}</span>{story.featured && <span>编辑精选</span>}</div>
+                      {story.verified && story.application && <div className="vr-creative-hint"><strong>可以借鉴 · 编辑建议</strong><p>{creativeHint(story.application)}</p></div>}
                       <div className="vr-archive-card-footer"><span>{story.source}</span><ArrowUpRight aria-hidden="true" /></div>
                     </Link>
+                    {savedOnly && entryByKey.get(libraryStoryKey(story))?.contentUpdatedAt && <p className="vr-revision-notice">文章信息已更新 · 个人备注保留</p>}
                     <div className="vr-archive-keywords">{story.keywords.slice(0, 3).map((keyword) => (
                       <button type="button" key={keyword} onClick={() => updateSearch(keyword, "all")}>#{keyword}</button>
                     ))}</div>

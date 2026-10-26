@@ -50,4 +50,15 @@ describe("editorial issue navigation", () => {
     expect(card).toContain('loading="lazy"');
     expect(card).toContain("关闭图片");
   });
+
+  it("surfaces a short creative suggestion only when backed by verified editorial content", () => {
+    const story = structuredClone(issues.flatMap((issue) => issue.stories).find((entry) => entry.analysis.editorial?.status === "verified")!);
+    story.analysis.editorial!.application = "创作建议：试试侧光。随后比较两种材质。";
+    const html = render(createElement(VisualStory, { story }));
+    expect(html).toContain("可以借鉴 · 编辑建议");
+    expect(html).toContain("<p>试试侧光。</p>");
+    expect(html.indexOf("可以借鉴")).toBeLessThan(html.indexOf("原文事实与创作参考"));
+    story.analysis.editorial!.status = "insufficient";
+    expect(render(createElement(VisualStory, { story }))).not.toContain("可以借鉴");
+  });
 });

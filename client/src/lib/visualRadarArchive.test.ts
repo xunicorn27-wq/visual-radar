@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import type { VisualRadarArchiveStory } from "./api";
 import { buildVisualRadarReadUrl } from "./api";
-import { filterArchiveStories, normalizeArchiveTopic, normalizeArchiveMonth, normalizeArchiveSort, sortArchiveStories } from "./visualRadarArchive";
+import { filterArchiveStories, normalizeArchiveTopic, normalizeArchiveMonth, normalizeArchiveSort, sortArchiveStories, filterArchiveFacets, normalizeVisualMethod, creativeHint } from "./visualRadarArchive";
 
 const stories: VisualRadarArchiveStory[] = [
   { id: "a", issueId: "2026-10-23", issueDate: "2026-10-23", title: "创意肖像", originalTitle: "Portrait light", summary: "柔和光线", source: "Profoto", topic: "photography", keywords: ["布光"], thumbnailUrl: null },
@@ -9,6 +9,23 @@ const stories: VisualRadarArchiveStory[] = [
 ];
 
 describe("archive search", () => {
+  it("combines methods, evidence and featured filters without treating keyword matches as methods", () => {
+    const enriched: VisualRadarArchiveStory[] = [
+      { ...stories[0], verified: true, featured: true, visualMethods: ["布光"], application: "创作建议：试试逆光。继续比较材质。" },
+      { ...stories[1], verified: true, featured: false, visualMethods: ["材质"] },
+      { ...stories[0], id: "legacy", visualMethods: ["布光"] },
+    ];
+    expect(filterArchiveFacets(enriched, "all", false, false)).toHaveLength(3);
+    expect(filterArchiveFacets(enriched, "布光", true, true)).toEqual([enriched[0]]);
+    expect(filterArchiveFacets(enriched, "材质", true, true)).toEqual([]);
+    expect(filterArchiveFacets(enriched, "all", true, false)).toHaveLength(2);
+    expect(filterArchiveStories(enriched, "逆光", "all")).toEqual([enriched[0]]);
+    expect(normalizeVisualMethod("布光")).toBe("布光");
+    expect(normalizeVisualMethod("fake")).toBe("all");
+    expect(creativeHint(enriched[0].application)).toBe("试试逆光。");
+    expect(creativeHint()).toBe("");
+    expect(creativeHint("长".repeat(100))).toHaveLength(83);
+  });
   it("matches Chinese, original titles, sources, tags, dates and normalized case", () => {
     for (const query of ["肖像", "portrait", "ＰＲＯＦＯＴＯ", "摄影", "2026-10-23"]) {
       expect(filterArchiveStories(stories, query, "all").map((story) => story.id)).toEqual(["a"]);

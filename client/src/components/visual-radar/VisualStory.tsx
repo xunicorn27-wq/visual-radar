@@ -3,7 +3,7 @@ import { useRef, useState } from "react";
 
 import type { VisualRadarSelectedStory } from "../../lib/api";
 import { Link } from "wouter";
-import { archiveStoryFromSelection } from "../../lib/visualRadarArchive";
+import { archiveStoryFromSelection, creativeHint } from "../../lib/visualRadarArchive";
 import { StoryActions } from "./StoryActions";
 import { classifyFreshness } from "../../../../shared/visualRadarQuality";
 
@@ -61,6 +61,7 @@ export function VisualStory({
           <summary><span className="vr-details-closed">展开解读</span><span className="vr-details-open">收起解读</span></summary>
           <p>{summary}</p>
         </details>}
+        {evidence?.status === "verified" && evidence.application && <div className="vr-creative-hint"><strong>可以借鉴 · 编辑建议</strong><p>{creativeHint(evidence.application)}</p></div>}
         {evidence?.status === "verified" && <details className="vr-evidence-details">
           <summary>原文事实与创作参考</summary>
           <h4>原文事实</h4>
@@ -94,7 +95,7 @@ export function VisualStory({
             {story.analysis.selectionRationale}
           </p>
         ) : null}
-        {issueId && <StoryActions story={archiveStoryFromSelection(story, issueId)} />}
+        {issueId && <StoryActions story={archiveStoryFromSelection(story, issueId, featured)} />}
       </div>
       {hasImage && <dialog ref={dialog} className="vr-image-dialog" aria-label={`完整图片：${title}`}
         onClick={(event) => { if (event.target === event.currentTarget) dialog.current?.close(); }}>

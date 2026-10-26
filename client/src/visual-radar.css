@@ -825,6 +825,30 @@ body:has(.vr-image-dialog[open], .vr-note-dialog[open]) { overflow: hidden; }
 .vr-saved-note { margin-top: 16px; padding: 14px; background: #f4f5ec; }
 .vr-saved-note strong { font-size: 11px; color: #626752; font-weight: 500; }
 .vr-saved-note p { margin-top: 6px; white-space: pre-wrap; overflow-wrap: anywhere; font-size: 14px; line-height: 1.8; color: #333; }
+.vr-creative-hint { margin: 14px 0; padding: 12px 14px; border-left: 2px solid #72833d; background: #f3f5ed; color: #39402b; }
+.vr-creative-hint strong { display: block; font-size: 11px; font-weight: 500; letter-spacing: .04em; }
+.vr-creative-hint p { margin: 6px 0 0; font-size: 14px; line-height: 1.8; overflow-wrap: anywhere; }
+.vr-archive-quality { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; font-size: 11px; color: #56633a; }
+.vr-quality-filters { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; padding-top: 16px; }
+.vr-quality-filters label { display: inline-flex; align-items: center; gap: 7px; min-height: 44px; font-size: 13px; }
+.vr-quality-filters input { width: 17px; height: 17px; accent-color: #53662a; }
+.vr-quality-filters > span { font-size: 11px; line-height: 1.7; color: var(--vr-muted); }
+.vr-revision-notice, .vr-sync-status { font-size: 12px; color: #596244; line-height: 1.8; margin: 12px 0; }
+.vr-backup-tools { padding: 0 0 16px; border-bottom: 1px solid var(--vr-rule); }
+.vr-backup-buttons { display: flex; flex-wrap: wrap; gap: 10px; }
+.vr-backup-tools button, .vr-sync-status button { min-height: 44px; border: 1px solid #b5b5ad; background: #fff; color: #333; padding: 8px 12px; font: inherit; font-size: 12px; }
+.vr-backup-tools button:disabled { opacity: .45; cursor: default; }
+.vr-backup-tools > p { margin-top: 10px; font-size: 12px; line-height: 1.8; }
+.vr-restore-dialog { max-height: calc(100dvh - 40px); overflow-y: auto; }
+.vr-restore-dialog > p { margin: 12px 0; font-size: 13px; line-height: 1.8; }
+.vr-conflict-choice { display: grid; gap: 8px; margin: 16px 0; font-size: 13px; }
+.vr-conflict-choice select { width: 100%; min-height: 44px; background: #fff; color: #222; border: 1px solid #b5b5ad; font: inherit; padding: 8px; }
+.vr-restore-conflicts { border-top: 1px solid var(--vr-rule); max-height: 35dvh; overflow-y: auto; }
+.vr-restore-conflicts details { border-bottom: 1px solid var(--vr-rule); padding: 10px 0; font-size: 13px; }
+.vr-restore-conflicts summary { cursor: pointer; padding: 8px 0; }
+.vr-restore-conflicts strong { display: block; margin: 10px 0 4px; font-size: 11px; }
+.vr-restore-conflicts p { white-space: pre-wrap; overflow-wrap: anywhere; line-height: 1.8; }
+.vr-restore-dialog .vr-note-footer { flex-wrap: wrap; }
 .vr-empty-link { display: inline-flex; align-items: center; min-height: 44px; margin-top: 24px; border-bottom: 1px solid #080808; color: #080808; text-decoration: none; font-size: 14px; }
 
 @media (max-width: 1100px) {
