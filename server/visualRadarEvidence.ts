@@ -6,7 +6,7 @@ import type { EditorialEvidence, SourceEvidence } from "../shared/visualRadarQua
 import { QUALITY_VERSION, VISUAL_METHODS } from "../shared/visualRadarQuality";
 import { parseVisualArticleMetadata } from "./visualRadarCollector";
 
-export interface EvidenceSnapshot { url: string; itemId: string; contentHash: string; text: string; fetchedAt: string; hash: string }
+export interface EvidenceSnapshot { url: string; itemId: string; contentHash: string; text: string; fetchedAt: string; hash: string; retrievedFrom?: string }
 export function normalizeEvidenceText(text: string) { return text.normalize("NFKC").replace(/\s+/g, " ").trim(); }
 export function evidenceHash(url: string, text: string) {
   return createHash("sha256").update(`${url}\n${normalizeEvidenceText(text)}`).digest("hex");
@@ -17,6 +17,20 @@ export function isGenericImage(url?: string | null) {
 }
 function clean(html: string) {
   return normalizeEvidenceText(html.replace(/<[^>]+>/g, " ").replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Math.min(Number(n), 0x10ffff))));
+}
+function divContents(html: string, className: string) {
+  const entry = [...html.matchAll(/<div\b[^>]*\bclass=["']([^"']*)["'][^>]*>/gi)]
+    .find((m) => m[1].split(/\s+/).includes(className));
+  if (!entry) return "";
+  const start = entry.index! + entry[0].length;
+  let depth = 1;
+  const tags = /<\/?div(?:\s[^>]*)?>/gi; tags.lastIndex = start;
+  let tag: RegExpExecArray | null;
+  while ((tag = tags.exec(html))) {
+    depth += tag[0].startsWith("</") ? -1 : 1;
+    if (!depth) return html.slice(start, tag.index);
+  }
+  return "";
 }
 export function extractArticleText(html: string) {
   const bodies: string[] = [];
@@ -33,6 +47,13 @@ export function extractArticleText(html: string) {
   }
   if (bodies.length) return bodies.sort((a, b) => b.length - a.length)[0].slice(0, 60000);
   const stripped = html.replace(/<(script|style|nav|footer|header|aside)\b[^>]*>[\s\S]*?<\/\1>/gi, " ");
+  // V&A events use nested divs, not paragraphs. Restrict to the event description,
+  // excluding ticket details, related promos, membership and shop copy.
+  const eventDescription = divContents(stripped, "introblock__description-container");
+  if (eventDescription) {
+    const richText = divContents(eventDescription, "trix-content");
+    if (richText) return clean(richText).slice(0, 60000);
+  }
   // Known body containers only: WordPress article text and TOP Museum exhibition description.
   const entry = /<div\s[^>]*class=["'][^"']*\b(?:entry-content|exhibition_box5)\b[^"']*["'][^>]*>/i.exec(stripped);
   let entryBody = "";
@@ -50,6 +71,35 @@ export function extractArticleText(html: string) {
     || stripped.match(/<main(?:\s[^>]*)?>([\s\S]*?)<\/main>/i)?.[1];
   if (!region) return ""; // A headline or meta description alone is not a body snapshot.
   return normalizeEvidenceText([...region.matchAll(/<(p|h[1-4])\b[^>]*>([\s\S]*?)<\/\1>/gi)].map((m) => clean(m[2])).filter((t) => t.length > 8).join(" ")).slice(0, 60000);
+}
+
+export function mplusArticleEndpoint(rawUrl: string, html: string) {
+  const url = new URL(rawUrl);
+  if (url.origin !== "https://www.mplus.org.hk" || !/^\/en\/magazine\/[^/]+\/?$/.test(url.pathname) || url.search || url.username || url.password) return null;
+  // Read only the literal page identity from the site's Nuxt payload; never eval it.
+  const payload = html.match(/<script\b[^>]*>\s*window\.__NUXT__=([\s\S]*?)<\/script>/)?.[1];
+  const id = payload?.match(/page:\{name:"PagesMagazineArticle",data:\{id:(\d+),meta:\{/)?.[1];
+  if (!id) return null;
+  const endpoint = `https://www.mplus.org.hk/api/v2/pages/${id}/`;
+  const detail = payload?.match(/detail_url:("(?:[^"\\]|\\.)*")/)?.[1];
+  try { return detail && JSON.parse(detail) === endpoint ? endpoint : null; } catch { return null; }
+}
+
+export function parseMplusArticle(raw: string, originalUrl: string, endpoint: string) {
+  const value = JSON.parse(raw);
+  const original = new URL(originalUrl);
+  const canonical = new URL(value.meta?.html_url || "", original.origin);
+  if (value.meta?.type !== "magazines.MagazineArticlePage" || value.meta.detail_url !== endpoint
+    || endpoint !== `https://www.mplus.org.hk/api/v2/pages/${value.id}/`
+    || canonical.origin !== original.origin || canonical.pathname.replace(/\/$/, "") !== original.pathname.replace(/\/$/, "")
+    || canonical.search || !Array.isArray(value.body)) throw new Error("M+ 正文接口与原文身份不一致");
+  const parts: string[] = [];
+  for (const block of value.body) {
+    const html = block?.type === "paragraph" || block?.type === "heading" ? block.value
+      : block?.type === "custom_paragraph" ? block.value?.paragraph : null;
+    if (typeof html === "string") parts.push(clean(html.replace(/<(script|style|nav|footer|aside)\b[^>]*>[\s\S]*?<\/\1>/gi, " ")));
+  }
+  return { text: normalizeEvidenceText(parts.join(" ")).slice(0, 60000), retrievedFrom: endpoint };
 }
 
 export async function fetchEvidenceHtml(rawUrl: string) {
@@ -98,15 +148,31 @@ export async function prepareCandidateEvidence(candidates: readonly IntelItem[],
       const item = result[next++];
       try {
         const html = await fetchHtml(item.sourceUrl);
-        const text = extractArticleText(html);
+        let text = extractArticleText(html);
+        let retrievedFrom: string | undefined;
+        if (text.length < 160) {
+          const endpoint = mplusArticleEndpoint(item.sourceUrl, html);
+          if (endpoint) {
+            const article = parseMplusArticle(await fetchHtml(endpoint), item.sourceUrl, endpoint);
+            text = article.text; retrievedFrom = article.retrievedFrom;
+          }
+        }
+        if (text.length < 160 && new URL(item.sourceUrl).hostname.replace(/^www\./, "") === "nowness.com" && html.includes("data-ui-view")) {
+          throw new Error("原文仅返回动态页面框架，未取得文章正文；不能以 RSS 摘要替代");
+        }
         if (text.length < 160) throw new Error("正文不足，不能以标题或摘要代替正文");
         const hash = evidenceHash(item.sourceUrl, text);
-        const snapshot: EvidenceSnapshot = { url: item.sourceUrl, itemId: item.id, contentHash: item.contentHash, text, fetchedAt: now, hash };
+        const snapshot: EvidenceSnapshot = { url: item.sourceUrl, itemId: item.id, contentHash: item.contentHash, text, fetchedAt: now, hash, ...(retrievedFrom ? { retrievedFrom } : {}) };
         fs.writeFileSync(path.join(directory, `${hash}.json`), `${JSON.stringify(snapshot, null, 2)}\n`);
         item.sourceEvidence = { status: "ready", url: item.sourceUrl, fetchedAt: now, snapshotHash: hash, characters: text.length };
         const metadata = parseVisualArticleMetadata(html);
         if (isGenericImage(item.thumbnailUrl) && metadata.thumbnailUrl && !isGenericImage(metadata.thumbnailUrl)) item.thumbnailUrl = metadata.thumbnailUrl;
         if (metadata.publishedAt && Number.isFinite(Date.parse(metadata.publishedAt))) item.postedAt = new Date(metadata.publishedAt).toISOString();
+        else if (new URL(item.sourceUrl).hostname === "www.vam.ac.uk" && new URL(item.sourceUrl).pathname.startsWith("/event/") && metadata.eventStartsAt) {
+          // Old V&A imports treated event dates as publication. An event page with
+          // no publication metadata cannot substantiate that inherited date.
+          item.postedAt = null;
+        }
         if (metadata.eventStartsAt) item.eventStartsAt = metadata.eventStartsAt;
         if (metadata.eventEndsAt) item.eventEndsAt = metadata.eventEndsAt;
       } catch (error) {

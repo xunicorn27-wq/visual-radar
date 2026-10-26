@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T09:10:41.959Z",
+  "generatedAt": "2026-10-26T10:42:40.802Z",
   "sources": [
     {
       "sourceId": "bjp-1854",
@@ -7,8 +7,8 @@
       "core": true,
       "status": "failed",
       "itemCount": 0,
-      "consecutiveFailures": 3,
-      "lastCheckedAt": "2026-10-26T09:10:41.959Z",
+      "consecutiveFailures": 4,
+      "lastCheckedAt": "2026-10-26T10:42:40.802Z",
       "lastSuccessAt": null,
       "error": "HTTP 403 Forbidden"
     },
@@ -18,8 +18,8 @@
       "core": true,
       "status": "failed",
       "itemCount": 0,
-      "consecutiveFailures": 3,
-      "lastCheckedAt": "2026-10-26T09:10:41.959Z",
+      "consecutiveFailures": 4,
+      "lastCheckedAt": "2026-10-26T10:42:40.802Z",
       "lastSuccessAt": null,
       "error": "HTTP 403 Forbidden"
     },
@@ -29,8 +29,8 @@
       "core": true,
       "status": "failed",
       "itemCount": 0,
-      "consecutiveFailures": 3,
-      "lastCheckedAt": "2026-10-26T09:10:41.959Z",
+      "consecutiveFailures": 4,
+      "lastCheckedAt": "2026-10-26T10:42:40.802Z",
       "lastSuccessAt": null,
       "error": "HTTP 503 Service Unavailable"
     },
@@ -366,16 +366,16 @@
     }
   ],
   "summary": {
-    "attempted": 5,
-    "healthy": 2,
+    "attempted": 3,
+    "healthy": 0,
     "failed": 3,
     "empty": 0,
-    "coreHealthy": 2,
-    "coreTotal": 5,
+    "coreHealthy": 0,
+    "coreTotal": 3,
     "alerts": [
-      "British Journal of Photography：HTTP 403 Forbidden，连续 3 次",
-      "LensCulture：HTTP 403 Forbidden，连续 3 次",
-      "Palais Galliera：HTTP 503 Service Unavailable，连续 3 次"
+      "British Journal of Photography：HTTP 403 Forbidden，连续 4 次",
+      "LensCulture：HTTP 403 Forbidden，连续 4 次",
+      "Palais Galliera：HTTP 503 Service Unavailable，连续 4 次"
     ]
   }
 }

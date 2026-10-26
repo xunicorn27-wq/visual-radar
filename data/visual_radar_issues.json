@@ -4300,30 +4300,53 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-10-21T09:49:07.318Z",
-            "chineseSummary": "M+ 推出 Pioneering Visions Initiative，以研究、收藏和公共项目支持新的亚洲视觉文化视角，并为博物馆未来议程建立长期框架。",
-            "chineseTitle": "M+ 启动“先锋愿景”计划塑造明日",
+            "analyzedAt": "2026-10-26T10:48:20.322Z",
+            "chineseSummary": "M+推出由CHANEL支持的Pioneering Visions计划，围绕影响艺术与视觉文化的创作者组织展览、放映、对谈、工作坊和原创纪录内容，同时结合写作、公共档案及研究。官方文章介绍的是一个内容与公共项目框架，而不是已经完成并经独立评估的单一展览。",
+            "chineseTitle": "M+ Pioneering Visions：连接展览、影像与研究的跨媒介计划",
             "contentHash": "sha1:de4abba19039774b1463993b0be640c1138ed7e8",
             "itemId": "visual-mplus-187hfwh",
             "model": "codex-agent",
             "primaryTopic": "exhibition",
             "promptVersion": "visual-daily-v1",
-            "score": 94,
+            "score": 67,
             "scoreBreakdown": {
-              "informationSpecificity": 14,
-              "novelty": 18,
-              "professionalRelevance": 20,
+              "informationSpecificity": 12,
+              "novelty": 11,
+              "professionalRelevance": 16,
               "sourceQuality": 10,
-              "timeliness": 5,
-              "visualInspiration": 27
+              "timeliness": 0,
+              "visualInspiration": 18
             },
-            "selectionRationale": "亚洲重要博物馆的长期计划，直接影响策展、收藏与公共文化议程。",
+            "selectionRationale": "跨媒介内容组织方式可作项目策划参考；具体视觉案例有限，推荐强度低于已有明确作品方法的条目。",
             "status": "success",
             "trendKeywords": [
-              "M+",
-              "亚洲视觉文化",
-              "博物馆计划"
-            ]
+              "跨媒介策划",
+              "创作者研究",
+              "公共档案"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.mplus.org.hk/en/magazine/introducing-pioneering-visions",
+              "snapshotHash": "fd4d70a5ef0064ef64dea2318b045e3db7cdc37e3b7cc159c96f035da5ae3088",
+              "facts": [
+                {
+                  "statement": "Pioneering Visions是一项由CHANEL支持的M+新计划。",
+                  "quote": "new major initiative supported by CHANEL"
+                },
+                {
+                  "statement": "计划包含展览、放映、对谈、工作坊和原创纪录内容。",
+                  "quote": "exhibitions, film screenings, talks, workshops, and original documentary content"
+                }
+              ],
+              "visualMethod": "编辑分析：围绕同一创作者把作品展示、影像讲述和档案研究串联，让不同媒介回答不同问题，而非重复同一份宣传摘要。",
+              "application": "创作建议：选择一个已获授权的案例，分别准备作品图、过程短片和资料卡，标明每种媒介补充了什么信息；缺少证据的部分列为待研究。",
+              "visualTags": [
+                "动态影像",
+                "叙事"
+              ],
+              "limitation": "正文来自原文页明确指向的M+公开内容接口，已核对文章身份；属于机构与支持方的项目介绍，不能据此证明文化影响或商业效果。未核验全部参与作品和后续活动。"
+            }
           },
           "item": {
             "capturedAt": "2026-10-21T09:48:44.889Z",
@@ -8589,30 +8612,55 @@
       "stories": [
         {
           "analysis": {
-            "analyzedAt": "2026-07-31T02:09:32.959Z",
-            "chineseSummary": "Es Devlin 受 V&A East 委任推出《The Everythingists》，从“建构东伦敦”出发，将剧场化空间、研究和集体叙事转化为公共视觉体验。",
-            "chineseTitle": "Es Devlin 以《The Everythingists》回应东伦敦的集体想象",
+            "analyzedAt": "2026-10-26T10:48:20.322Z",
+            "chineseSummary": "Es Devlin为回应Natalia Goncharova的《火鸟》舞台背幕创作装置，将舞者Joshua Shanny-Wynter的动作转成绘画与影子形态，置于放大的iPhone盒子之间。作品每90秒通过灯光被激活，配合朗读和Polyphonia创作的声音，将历史舞台语言与当代技术意象并置。",
+            "chineseTitle": "Es Devlin《The Everythingists》：以周期灯光连接舞蹈、布景与声音",
             "contentHash": "sha1:ceac8f31b847cab45c3574423aa03b2b8966ffef",
             "itemId": "visual-vam-fashion-z4f23z",
             "model": "codex-agent",
             "primaryTopic": "exhibition",
             "promptVersion": "visual-daily-v1",
-            "score": 99,
+            "score": 87,
             "scoreBreakdown": {
-              "informationSpecificity": 15,
-              "novelty": 19,
-              "professionalRelevance": 20,
+              "informationSpecificity": 14,
+              "novelty": 17,
+              "professionalRelevance": 19,
               "sourceQuality": 10,
-              "timeliness": 5,
-              "visualInspiration": 30
+              "timeliness": 0,
+              "visualInspiration": 27
             },
-            "selectionRationale": "Es Devlin 的跨媒介空间实践与机构委任高度相关，具备强视觉启发性。",
+            "selectionRationale": "官方说明给出了周期灯光、动作转译与声音组织等具体方法，适合空间影像和舞台构思参考。",
             "status": "success",
             "trendKeywords": [
-              "Es Devlin",
-              "沉浸式空间",
-              "公共叙事"
-            ]
+              "周期灯光",
+              "舞台档案",
+              "动作转译"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.vam.ac.uk/event/Lw3G7Vr8AO/the-everythingists-es-devlin",
+              "snapshotHash": "09f11e7c71751da84d3f76723258e437950f1af4ec820669d44e6de5dec257a5",
+              "facts": [
+                {
+                  "statement": "作品每90秒由灯光激活一次。",
+                  "quote": "Every 90 seconds the artwork is animated by illumination"
+                },
+                {
+                  "statement": "作品使用绘制与印刷的胶合板及声音。",
+                  "quote": "Painted and printed plywood, sound"
+                }
+              ],
+              "visualMethod": "编辑分析：把舞者动作转译为静态图形，再由周期灯光、朗读和配乐恢复观看节奏，让档案图像成为时间性的空间体验。",
+              "application": "创作建议：用自有动作照片制作三块剪影板，设定一次明暗循环并配上原创声音；分别拍摄静止与亮起时刻，比较平面构图如何形成空间层次。",
+              "visualTags": [
+                "布光",
+                "空间",
+                "动态影像",
+                "叙事"
+              ],
+              "limitation": "依据当前官方说明，未现场观看或测量灯光程序；声音和动作效果没有独立实测。原文未注明发布日期，展期单独记录，不从2025—26制作信息推断发布日。"
+            }
           },
           "item": {
             "capturedAt": "2026-07-31T02:08:41.049Z",
@@ -8639,7 +8687,7 @@
               "searchIndex": null,
               "shares": null
             },
-            "postedAt": "2026-10-17T16:00:00.000Z",
+            "postedAt": null,
             "provenance": {
               "authenticity": "live",
               "collector": "visual-radar-html",
@@ -8663,7 +8711,9 @@
             "interpretation": null,
             "schemaVersion": "1",
             "tier": null,
-            "viviaScore": null
+            "viviaScore": null,
+            "eventStartsAt": "2026-04-18 11:00:00 +0100",
+            "eventEndsAt": "2026-10-18 18:30:00 +0100"
           },
           "window": "24h"
         },
@@ -9381,30 +9431,54 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-07-31T02:09:32.959Z",
-            "chineseSummary": "Rene Matić 在 V&A East 的新委任项目《HEARD》中延续对声音、身份与社群经验的视觉关注，为东伦敦主题带来当代青年文化视角。",
-            "chineseTitle": "Rene Matić 的《HEARD》进入 V&A East 新作计划",
+            "analyzedAt": "2026-10-26T10:48:20.322Z",
+            "chineseSummary": "《HEARD》汇集Rene Matić在伦敦、普利茅斯和彼得伯勒拍摄的照片，以亲友间的音乐与身体活动呈现社群联系。艺术家把照片组装成音响系统的形状，联系牙买加音响文化及Windrush一代移民带到英国的文化经验；这里的“听见图像”首先是一种图像组织方式。",
+            "chineseTitle": "Rene Matić《HEARD》：把社群照片组装成音响系统的形状",
             "contentHash": "sha1:571bdc667cb1a52994384a7b395f833594a9c5d5",
             "itemId": "visual-vam-fashion-1u3sfi1",
             "model": "codex-agent",
-            "primaryTopic": "exhibition",
+            "primaryTopic": "photography",
             "promptVersion": "visual-daily-v1",
-            "score": 93,
+            "score": 84,
             "scoreBreakdown": {
-              "informationSpecificity": 14,
-              "novelty": 18,
-              "professionalRelevance": 18,
+              "informationSpecificity": 13,
+              "novelty": 16,
+              "professionalRelevance": 20,
               "sourceQuality": 10,
-              "timeliness": 5,
-              "visualInspiration": 28
+              "timeliness": 0,
+              "visualInspiration": 25
             },
-            "selectionRationale": "重要机构与新生创作者的合作，适合追踪当代社群叙事进入博物馆的方式。",
+            "selectionRationale": "摄影从平面叙事进入具有文化指向的立体结构，方法明确，同时需要保留作品的历史语境。",
             "status": "success",
             "trendKeywords": [
-              "青年文化",
-              "社群叙事",
-              "当代艺术"
-            ]
+              "摄影装置",
+              "音响文化",
+              "社群记忆"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.vam.ac.uk/event/DR2J32QlRb/heard-rene-matic",
+              "snapshotHash": "25110126b00a9c921aaa53ee089d9a4541b8221488b71a627b2dd6e102123d71",
+              "facts": [
+                {
+                  "statement": "作品使用在东伦敦、伦敦其他区域、普利茅斯和彼得伯勒拍摄的照片。",
+                  "quote": "photographs taken across east London, the wider city, Plymouth and Peterborough"
+                },
+                {
+                  "statement": "照片被组装成音响系统的形状。",
+                  "quote": "shape of a sound system"
+                }
+              ],
+              "visualMethod": "编辑分析：用具文化记忆的物体结构组织照片，使照片之间的关系从单张内容延伸到整体轮廓与社群叙事。",
+              "application": "创作建议：围绕一个获受访者同意的社群主题选取六张照片，先做平面编排，再做与该社群经验有关的立体陈列模型；说明结构与图像的关系，不直接套用牙买加文化符号。",
+              "visualTags": [
+                "构图",
+                "空间",
+                "叙事"
+              ],
+              "limitation": "官方短文未确认装置实际播放声音，因此不将“音响形状”写成已验证的声音交互。未核验全部照片内容或现场效果；现存展期不等于发布日期。"
+            }
           },
           "item": {
             "capturedAt": "2026-07-31T02:08:41.049Z",
@@ -9431,7 +9505,7 @@
               "searchIndex": null,
               "shares": null
             },
-            "postedAt": "2026-10-17T16:00:00.000Z",
+            "postedAt": null,
             "provenance": {
               "authenticity": "live",
               "collector": "visual-radar-html",
@@ -9455,7 +9529,9 @@
             "interpretation": null,
             "schemaVersion": "1",
             "tier": null,
-            "viviaScore": null
+            "viviaScore": null,
+            "eventStartsAt": "2026-04-18 11:00:00 +0100",
+            "eventEndsAt": "2026-10-18 18:30:00 +0100"
           },
           "window": "24h"
         },
@@ -12572,30 +12648,54 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-07-24T01:25:29.000Z",
-            "chineseSummary": "V&A East 以“建构东伦敦”为题委任 Lawrence Lek 创作新作，将当代影像与地方叙事带入馆藏之外的公共展示现场。",
-            "chineseTitle": "劳伦斯·莱克为 V&A East 创作《观音 II：守护者》",
+            "analyzedAt": "2026-10-26T10:48:20.322Z",
+            "chineseSummary": "Lawrence Lek的游戏将V&A East Storehouse的修复工作室重建为虚拟场景。玩家扮演名为Guanyin的照护机器人，寻找ArcelorMittal Orbit雕塑模型的碎片，并在了解工作任务的过程中思考劳动、游戏与文物保存的关系。文中的员工区域访问发生在游戏世界里。",
+            "chineseTitle": "Lawrence Lek《Guanyin II》：在虚拟修复工作室中扮演照护机器人",
             "contentHash": "sha1:75d040bf61a792eaf2e942ca4389924e5efebb1b",
             "itemId": "visual-vam-fashion-2bg1fr",
             "model": "codex-agent",
             "primaryTopic": "exhibition",
             "promptVersion": "visual-daily-v1",
-            "score": 91,
+            "score": 82,
             "scoreBreakdown": {
               "informationSpecificity": 13,
               "novelty": 17,
               "professionalRelevance": 18,
               "sourceQuality": 10,
-              "timeliness": 5,
-              "visualInspiration": 28
+              "timeliness": 0,
+              "visualInspiration": 24
             },
-            "selectionRationale": "机构委任、明确场地与创作者构成可追溯的高价值视觉文化信号。",
+            "selectionRationale": "真实场所的虚拟重建与角色任务结合，可参考其通过行动而非说明牌展开空间叙事的方式。",
             "status": "success",
             "trendKeywords": [
-              "机构委任",
-              "东伦敦叙事",
-              "沉浸影像"
-            ]
+              "虚拟修复室",
+              "角色任务",
+              "游戏叙事"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.vam.ac.uk/event/qRp55MmBWq/guanyin-ii-the-caretaker-lawrence-le",
+              "snapshotHash": "58bfe20d612cfff336267fe3da1ba430c3b8fc0d2f410df2549c71da1a36a927",
+              "facts": [
+                {
+                  "statement": "游戏场景是V&A East Storehouse修复工作室的重建版本。",
+                  "quote": "set within a reconstruction of V&A East Storehouse’s conservation studio"
+                },
+                {
+                  "statement": "玩家扮演名为Guanyin的照护机器人。",
+                  "quote": "Playing as a ‘carebot’ called Guanyin"
+                }
+              ],
+              "visualMethod": "编辑分析：用一个角色和寻找碎片的任务，引导观众逐步理解工作空间，让环境叙事与行动线索共同解释主题。",
+              "application": "创作建议：为一个自有场所画三张分镜，依次呈现角色进入、发现线索、完成一个修复动作；标清真实空间资料与虚构任务，不把虚拟体验包装为现场权限。",
+              "visualTags": [
+                "空间",
+                "动态影像",
+                "叙事"
+              ],
+              "limitation": "依据官方项目介绍，未试玩游戏，也未验证其文物保存技术。此处不能推断真实照护机器人或实体修复系统已经投入使用。"
+            }
           },
           "item": {
             "capturedAt": "2026-07-24T01:24:05.693Z",
@@ -12622,7 +12722,7 @@
               "searchIndex": null,
               "shares": null
             },
-            "postedAt": "2026-10-17T16:00:00.000Z",
+            "postedAt": null,
             "provenance": {
               "authenticity": "live",
               "collector": "visual-radar-html",
@@ -12646,7 +12746,9 @@
             "interpretation": null,
             "schemaVersion": "1",
             "tier": null,
-            "viviaScore": null
+            "viviaScore": null,
+            "eventStartsAt": "2026-04-18 11:00:00 +0100",
+            "eventEndsAt": "2026-10-29 17:30:00 +0000"
           },
           "window": "24h"
         },
@@ -23499,30 +23601,54 @@
       "stories": [
         {
           "analysis": {
-            "analyzedAt": "2026-07-17T10:16:38.988Z",
-            "chineseSummary": "V&A Fashion in Motion 邀请 Sinéad O’Dwyer 以连续 runway 呈现作品，她的设计长期关注身体差异、贴身结构和表演性。该项目适合观察包容性时装如何从秀场转入博物馆现场。",
-            "chineseTitle": "Sinéad O’Dwyer 在 V&A 用 runway 重新激活身体与服装",
+            "analyzedAt": "2026-10-26T10:48:20.322Z",
+            "chineseSummary": "V&A的Fashion in Motion介绍Sinéad O’Dwyer围绕不同体型开展的设计实践，包括身体翻模、硅胶成型和实验性纸样剪裁，而非只围绕常规样衣尺码工作。官方说明她为此次展示创作了15件服装，并将多样化选角、尺码与雕塑感造型联系起来。",
+            "chineseTitle": "Sinéad O’Dwyer的V&A秀场：从身体翻模到多体型服装",
             "contentHash": "sha1:0845ff8115bb6cf0161c6308284e3b2ef942e115",
             "itemId": "visual-vam-fashion-oln77s",
             "model": "codex-agent",
-            "primaryTopic": "fashion_culture",
+            "primaryTopic": "styling",
             "promptVersion": "visual-daily-v1",
-            "score": 91,
+            "score": 83,
             "scoreBreakdown": {
-              "informationSpecificity": 13,
-              "novelty": 18,
-              "professionalRelevance": 18,
-              "sourceQuality": 9,
-              "timeliness": 5,
-              "visualInspiration": 28
+              "informationSpecificity": 14,
+              "novelty": 15,
+              "professionalRelevance": 19,
+              "sourceQuality": 10,
+              "timeliness": 0,
+              "visualInspiration": 25
             },
-            "selectionRationale": "设计师、机构和现场形式都很强，兼具身体政治和服装结构参考。",
+            "selectionRationale": "工艺、体型与造型之间的联系有具体描述，可作为多体型试装与拍摄策划的参考。",
             "status": "success",
             "trendKeywords": [
-              "包容性时装",
-              "身体结构",
-              "博物馆秀场"
-            ]
+              "身体翻模",
+              "多体型设计",
+              "雕塑造型"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.vam.ac.uk/event/6nZWVedoxx/fashion-in-motion-sinead-o-dwyer",
+              "snapshotHash": "7c693b16b952bfe6d71bdf8fc204343de9f8c83ff531e96bccfa0a2ca07fba7f",
+              "facts": [
+                {
+                  "statement": "其设计实践包含身体翻模、硅胶成型和实验性纸样剪裁。",
+                  "quote": "life-casting, silicone moulding, and experimental pattern cutting"
+                },
+                {
+                  "statement": "官方说明她为这场Fashion in Motion创作了15件服装。",
+                  "quote": "Sinead has created 15 garments"
+                }
+              ],
+              "visualMethod": "编辑分析：从实际身体形态出发发展纸样与立体轮廓，把多样化选角与服装结构一起考虑，而不是最后只更换模特。",
+              "application": "创作建议：为同一造型安排不同体型的试装，记录轮廓、活动余量与材质受力；用一致机位拍摄对照，并在发布前取得参与者同意。",
+              "visualTags": [
+                "材质",
+                "工艺",
+                "构图"
+              ],
+              "limitation": "官方介绍说明设计方向，不能证明全部服装适用于所有身体或无障碍需求。未观看现场，也不根据正文与结构化数据存在差异的场次时间提供到场建议。"
+            }
           },
           "item": {
             "capturedAt": "2026-07-17T10:09:01.924Z",
@@ -23549,7 +23675,7 @@
               "searchIndex": null,
               "shares": null
             },
-            "postedAt": "2026-07-23T16:00:00.000Z",
+            "postedAt": null,
             "provenance": {
               "authenticity": "live",
               "collector": "visual-radar-html",
@@ -23573,7 +23699,9 @@
             "interpretation": null,
             "schemaVersion": "1",
             "tier": null,
-            "viviaScore": null
+            "viviaScore": null,
+            "eventStartsAt": "2026-07-24 14:00:00 +0100",
+            "eventEndsAt": "2026-07-24 21:30:00 +0100"
           },
           "window": "24h"
         },
@@ -24222,30 +24350,54 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-07-17T10:16:38.988Z",
-            "chineseSummary": "V&A 用最新馆藏呈现全球当代摄影的发展方向，能看到机构如何判断当代摄影的主题、媒介和收藏价值。它对摄影编辑、策展和视觉研究都有直接参考意义。",
-            "chineseTitle": "V&A “Photography Now” 展示全球当代摄影新增馆藏",
+            "analyzedAt": "2026-10-26T10:48:20.322Z",
+            "chineseSummary": "V&A对《Photography Now》的说明将工艺与生态列为重点，并介绍Jonathas de Andrade和Mari Katayama的两项新委托作品，以及多位艺术家的当代影像实践。页面提供主题和参展名单，但没有详细解释每件作品的制作方式，适合用作进一步研究的入口。",
+            "chineseTitle": "V&A《Photography Now》：从工艺与生态观察当代影像",
             "contentHash": "sha1:100be007f5ec5898c83436d4b6759d9518eec330",
             "itemId": "visual-vam-fashion-c238c3",
             "model": "codex-agent",
             "primaryTopic": "photography",
             "promptVersion": "visual-daily-v1",
-            "score": 85,
+            "score": 71,
             "scoreBreakdown": {
               "informationSpecificity": 12,
-              "novelty": 16,
-              "professionalRelevance": 17,
-              "sourceQuality": 9,
-              "timeliness": 5,
-              "visualInspiration": 26
+              "novelty": 11,
+              "professionalRelevance": 19,
+              "sourceQuality": 10,
+              "timeliness": 0,
+              "visualInspiration": 19
             },
-            "selectionRationale": "摄影主题直接、机构权威、与当代馆藏判断相关，适合进入日报候选。",
+            "selectionRationale": "摄影与工艺、生态的交叉主题明确，但正文较简短，应作为研究线索而非已经掌握的技术案例。",
             "status": "success",
             "trendKeywords": [
               "当代摄影",
-              "馆藏新增",
-              "摄影策展"
-            ]
+              "工艺与生态",
+              "摄影委托"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.vam.ac.uk/event/mB8ZxX30Rwg/photography-now-2025-2027",
+              "snapshotHash": "0ac0427cf1a66ed21eb4641a89303a71c6086d49d5b0389262c5c8b2d2feb876",
+              "facts": [
+                {
+                  "statement": "展览重点讨论工艺与生态。",
+                  "quote": "themes of craft and ecology"
+                },
+                {
+                  "statement": "展览包括Jonathas de Andrade和Mari Katayama的两项新委托作品。",
+                  "quote": "two major new commissions by Jonathas de Andrade and Mari Katayama"
+                }
+              ],
+              "visualMethod": "编辑分析：用工艺与生态两个问题组织摄影研究，可以把观看从画面风格推进到材料来源、制作过程及图像所处的环境关系。",
+              "application": "创作建议：建立“作品图像—制作材料—生态议题”三栏参考表；先补查具体作品原文再填写，不根据艺术家名单猜测其工艺。",
+              "visualTags": [
+                "材质",
+                "工艺",
+                "叙事"
+              ],
+              "limitation": "仅核验到官方主题与名单，未核验单件作品的制作细节。网址含2025—2027，但当前页面结构化展期结束于2026年9月12日，保留该差异，不按网址年份断定仍在展出。"
+            }
           },
           "item": {
             "capturedAt": "2026-07-17T10:09:01.924Z",
@@ -24272,7 +24424,7 @@
               "searchIndex": null,
               "shares": null
             },
-            "postedAt": "2026-09-11T16:00:00.000Z",
+            "postedAt": null,
             "provenance": {
               "authenticity": "live",
               "collector": "visual-radar-html",
@@ -24296,7 +24448,9 @@
             "interpretation": null,
             "schemaVersion": "1",
             "tier": null,
-            "viviaScore": null
+            "viviaScore": null,
+            "eventStartsAt": "2025-11-15 10:00:00 +0000",
+            "eventEndsAt": "2026-09-12 18:30:00 +0100"
           },
           "window": "24h"
         },

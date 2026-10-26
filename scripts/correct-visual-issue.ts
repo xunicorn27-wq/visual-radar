@@ -9,6 +9,7 @@ import { readEvidenceSnapshot } from "../server/visualRadarEvidence";
 import { readVisualRadarAnalysisArtifact } from "../server/visualRadarAnalysisStore";
 import type { VisualRadarIssue } from "../server/visualRadarIssue";
 import { recordSourceHealth } from "../server/visualRadarSourceHealth";
+import { verifiedDateCorrections } from "../server/visualRadarCorrectionDates";
 
 const root = path.resolve(import.meta.dirname, "..");
 loadProjectEnv(root);
@@ -47,12 +48,10 @@ if (mode === "prepare") {
       if (!analysis?.editorial || analysis.editorial.status !== "verified") throw new Error("勘误必须有完整证据");
       if (JSON.stringify(story.analysis) !== JSON.stringify(analysis)) changes.push({ itemId: story.item.id, previous: story.analysis, corrected: analysis, correctedAt: output.generatedAt });
       story.analysis = analysis;
-      for (const field of ["eventStartsAt", "eventEndsAt"] as const) {
-        const date = candidate[field];
-        if (date && Number.isFinite(Date.parse(date)) && story.item[field] !== date) {
-          changes.push({ itemId: story.item.id, field, previous: story.item[field] || null, corrected: date, correctedAt: output.generatedAt });
-          story.item[field] = date;
-        }
+      for (const correction of verifiedDateCorrections(story.item, candidate)) {
+        changes.push({ itemId: story.item.id, ...correction, correctedAt: output.generatedAt });
+        if (correction.field === "postedAt") story.item.postedAt = correction.corrected;
+        else if (correction.corrected) story.item[correction.field] = correction.corrected;
       }
     }
     if (isGenericImage(story.item.thumbnailUrl) && candidate.thumbnailUrl && !isGenericImage(candidate.thumbnailUrl)) {
