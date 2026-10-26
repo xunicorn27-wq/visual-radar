@@ -47,7 +47,10 @@ export function VisualRadarMasthead({
   const current = location.replace(/\/$/, "") || "/";
   return (
     <header className="vr-masthead">
-      <a className="vr-skip-link" href="#main-content">跳到主要内容</a>
+      <a className="vr-skip-link" href="#main-content" onClick={(event) => {
+        const target = document.getElementById("main-content");
+        if (target) { event.preventDefault(); target.focus({ preventScroll: true }); target.scrollIntoView({ block: "start" }); }
+      }}>跳到主要内容</a>
       <div className="vr-topline">
         <span>{issueLabel || "INDEPENDENT VISUAL CULTURE DAILY"}</span>
         <nav aria-label="Visual Radar 主导航">

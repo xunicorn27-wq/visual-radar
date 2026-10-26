@@ -39,6 +39,10 @@
 .vr-masthead {
   padding: 18px 40px 0;
 }
+.vr-skip-link { position: fixed; top: 8px; left: 16px; z-index: 30; transform: translateY(-200%); padding: 12px 18px; background: #080808; color: #fff; font-size: 14px; text-decoration: none; }
+.vr-skip-link:focus { transform: translateY(0); }
+#main-content { scroll-margin-top: 80px; }
+#main-content:focus-visible { outline: 2px solid #587000; outline-offset: 6px; }
 
 .vr-topline {
   display: flex;
@@ -864,4 +868,15 @@ body:has(.vr-image-dialog[open], .vr-note-dialog[open]) { overflow: hidden; }
 
 @media (prefers-reduced-motion: reduce) {
   .vr-spin { animation: none; }
+}
+
+@media (max-width: 620px) {
+  .vr-root { padding-bottom: calc(76px + env(safe-area-inset-bottom)); }
+  .vr-topline nav { position: fixed; bottom: 0; left: 0; right: 0; z-index: 10; display: flex; flex-wrap: nowrap; justify-content: space-around; align-items: center; gap: 4px; width: 100%; min-height: 60px; padding: 8px 12px calc(8px + env(safe-area-inset-bottom)); border-top: 1px solid #ccc; background: #fff; }
+  .vr-topline nav a { justify-content: center; flex: 1 1 auto; min-height: 44px; padding: 8px 4px; white-space: nowrap; }
+  .vr-topline nav a[aria-current="page"] { box-shadow: none; background: #eef3d8; color: #2b3a0c; }
+  .vr-topline nav button { flex-shrink: 0; width: 44px; height: 44px; }
+  .vr-back-top { bottom: calc(84px + env(safe-area-inset-bottom)); }
+  .vr-archive-card, .vr-story, .vr-root :is(button, a, input, textarea, select, summary) { scroll-margin-bottom: calc(84px + env(safe-area-inset-bottom)); }
+  body:has(dialog[open]) .vr-topline nav { display: none; }
 }

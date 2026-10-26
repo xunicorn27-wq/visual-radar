@@ -39,9 +39,9 @@ export default function VisualRadarIssue() {
 
   if (error) {
     return (
-      <main className="vr-root" id="main-content">
+      <main className="vr-root">
         <VisualRadarMasthead showSources={!visualRadarStaticMode} />
-        <div className="vr-load-error" role="alert"><h1>这期暂时没有打开</h1><p>{error}</p>
+        <div className="vr-load-error" role="alert"><h1 id="main-content" tabIndex={-1}>这期暂时没有打开</h1><p>{error}</p>
           <div><button type="button" onClick={() => setRetry((value) => value + 1)}>重新加载</button><Link href="/issues">浏览往期日报</Link></div>
         </div>
       </main>
@@ -49,15 +49,15 @@ export default function VisualRadarIssue() {
   }
   if (!detail || detail.issue.id !== params?.issueId) {
     return (
-      <main className="vr-root" id="main-content" aria-busy="true">
+      <main className="vr-root">
         <VisualRadarMasthead showSources={!visualRadarStaticMode} />
-        <div className="vr-message" role="status" aria-live="polite"><Loader2 className="vr-spin" aria-hidden="true" /> 正在加载日报</div>
+        <div id="main-content" tabIndex={-1} className="vr-message" role="status" aria-live="polite"><Loader2 className="vr-spin" aria-hidden="true" /> 正在加载日报</div>
       </main>
     );
   }
 
   return (
-    <main className="vr-root" id="main-content">
+    <main className="vr-root">
       <VisualRadarMasthead
         issueLabel={`VOL.${detail.issue.id}`}
         showSources={!visualRadarStaticMode}
@@ -89,7 +89,7 @@ export function VisualRadarIssueContent({ issue }: { issue: VisualRadarIssueData
     });
     return () => cancelAnimationFrame(frame);
   }, [issue.id]);
-  if (!layout.lead) return null;
+  if (!layout.lead) return <section className="vr-empty"><h1 id="main-content" tabIndex={-1}>本期暂无内容</h1><p>可以到往期日报继续浏览。</p><Link href="/issues">往期日报</Link></section>;
   const highlights = layout.featuredStories
     .filter((story) => story.item.id !== layout.lead?.item.id).slice(0, 3);
   const featuredIds = new Set(layout.featuredStories.map((story) => story.item.id));
@@ -100,7 +100,7 @@ export function VisualRadarIssueContent({ issue }: { issue: VisualRadarIssueData
       <section className="vr-issue-intro">
         <div>
           <p className="vr-date">{formatChineseDate(issue.issueDate)}</p>
-          <h1 tabIndex={-1}>摄影推送</h1>
+          <h1 id="main-content" tabIndex={-1}>摄影推送</h1>
         </div>
         <div className="vr-edition-actions"><p className="vr-edition-note">摄影、造型与创作的每日观察。<br />
           <span>{issue.stats.storyCount} 篇报道 · 约 {layout.readingMinutes} 分钟</span>

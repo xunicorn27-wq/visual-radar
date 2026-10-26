@@ -189,7 +189,7 @@ export default function VisualRadar() {
   }
 
   return (
-    <main className="vr-root" id="main-content" aria-busy={loading}>
+    <main className="vr-root">
       <VisualRadarMasthead
         issueLabel={issueDetail ? `VOL.${issueDetail.issue.id}` : "FIRST EDITION"}
         showSources={!visualRadarStaticMode}
@@ -223,10 +223,10 @@ export default function VisualRadar() {
       ) : null}
 
       {loading ? (
-        <div className="vr-message" role="status" aria-live="polite"><Loader2 className="vr-spin" aria-hidden="true" /> 正在加载 Visual Radar</div>
+        <div id="main-content" tabIndex={-1} className="vr-message" role="status" aria-live="polite"><Loader2 className="vr-spin" aria-hidden="true" /> 正在加载 Visual Radar</div>
       ) : null}
       {!loading && visualRadarStaticMode && error ? (
-        <div className="vr-load-error" role="alert"><h2>日报暂时没有打开</h2><p>{error}</p><button type="button" onClick={() => setRetry((value) => value + 1)}>重新加载</button></div>
+        <div className="vr-load-error" role="alert"><h1 id="main-content" tabIndex={-1}>日报暂时没有打开</h1><p>{error}</p><button type="button" onClick={() => setRetry((value) => value + 1)}>重新加载</button></div>
       ) : null}
       {!loading && issueDetail ? (
         <VisualRadarIssueContent issue={issueDetail.issue} />
@@ -234,7 +234,7 @@ export default function VisualRadar() {
       {!loading && !issueDetail && (!visualRadarStaticMode || !error) ? (
         <section className="vr-empty">
           <span>{visualRadarStaticMode ? "READ ONLY" : "VOL.001"}</span>
-          <h1>
+          <h1 id="main-content" tabIndex={-1}>
             {visualRadarStaticMode ? (
               <>暂无<br />日报</>
             ) : (

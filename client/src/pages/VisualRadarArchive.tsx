@@ -114,14 +114,14 @@ function ArchiveBrowser({ savedOnly = false }: { savedOnly?: boolean }) {
   }
 
   return (
-    <main className="vr-root" id="main-content" aria-busy={!savedOnly && !archive && !error}>
+    <main className="vr-root">
       <VisualRadarMasthead
         issueLabel={savedOnly ? "MY COLLECTION" : "ARCHIVE"}
         showSources={!visualRadarStaticMode}
       />
       <section className="vr-archive">
         <header className="vr-archive-heading">
-          <div><p>{savedOnly ? "MY COLLECTION" : "THE ARCHIVE"}</p><h1>{savedOnly ? "我的收藏" : "往期日报"}</h1></div>
+          <div><p>{savedOnly ? "MY COLLECTION" : "THE ARCHIVE"}</p><h1 id="main-content" tabIndex={-1}>{savedOnly ? "我的收藏" : "往期日报"}</h1></div>
           <p>{savedOnly ? "留下值得回看的作品，写下自己的想法。" : "从每天的发现中，找到下一次创作的线索。"}<br />
             {savedOnly ? <span>{savedEntries.length} 条收藏 · {savedEntries.filter((entry) => entry.note.trim()).length} 条备注</span> : archive && <span>{archive.issues.length} 期日报 · {archive.stories.length} 条内容</span>}
           </p>
