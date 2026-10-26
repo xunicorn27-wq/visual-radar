@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-26T13:19:04.879Z",
+  "generatedAt": "2026-10-26T14:35:41.456Z",
   "summary": {
     "published": 288,
-    "pending": 238,
-    "verified": 50,
-    "featuredPending": 40
+    "pending": 229,
+    "verified": 59,
+    "featuredPending": 31
   },
   "instruction": "清单不等于已核验。按 issue:correct prepare/apply 流程逐条读取正文；无法获取时保留待核验，不删除历史。",
   "entries": [
@@ -111,74 +111,6 @@
       "status": "pending"
     },
     {
-      "issueId": "2026-07-23",
-      "itemId": "visual-another-magazine-1cz2wf0",
-      "contentHash": "sha1:14a3e1a36b9b4a7030d220cedb6b48f2ff13a376",
-      "title": "塔可夫斯基 4K 修复重启幽灵般的电影视觉",
-      "source": "AnOther",
-      "sourceUrl": "https://www.anothermag.com/design-living/17334/andrei-tarkovsky-films-nostalghia-the-sacrifice-4k-restorations?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=a-guide-to-the-spectral-films-of-andrei-tarkovsky",
-      "featured": true,
-      "priority": 125,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短",
-        "缺少配图"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-23",
-      "itemId": "visual-dazed-1qnqz2u",
-      "contentHash": "sha1:919fe824bf5356890f877c97dcc830eb82b0f041",
-      "title": "巴黎酷儿地下卡巴莱：作为“活档案”的夜间舞台",
-      "source": "Dazed",
-      "sourceUrl": "https://www.dazeddigital.com/life-culture/article/70687/1/inside-paris-queer-lgbtq-carabet-scene-club-nights-la-bouche-venus-noir?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=we-are-a-living-archive-inside-paris-queer-underground-cabaret-scene",
-      "featured": true,
-      "priority": 125,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短",
-        "缺少配图"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-23",
-      "itemId": "visual-its-nice-that-1ubhmm9",
-      "contentHash": "sha1:daf892c2bacc94723ba0870d83350e548de65da3",
-      "title": "Hannah Motzel Brown 以铅笔画连接皮肤、织物与阴影",
-      "source": "It's Nice That",
-      "sourceUrl": "https://www.itsnicethat.com/articles/hannah-motzel-brown-art-discover-220726",
-      "featured": true,
-      "priority": 125,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短",
-        "缺少配图"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-23",
-      "itemId": "visual-its-nice-that-tt7yhc",
-      "contentHash": "sha1:c6c663673a1555c266750a4d57d21d216cbda7df",
-      "title": "Kurt Bauer 用静物碎片替代风景明信片",
-      "source": "It's Nice That",
-      "sourceUrl": "https://www.itsnicethat.com/articles/kurt-bauer-photography-discover-220726",
-      "featured": true,
-      "priority": 125,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短",
-        "缺少配图"
-      ],
-      "status": "pending"
-    },
-    {
       "issueId": "2026-07-22",
       "itemId": "visual-dazed-19c4hgk",
       "contentHash": "sha1:abc2178244a1e5241f71c5e9194b056ee32b39c7",
@@ -226,38 +158,6 @@
         "本期精选",
         "采集摘要较短",
         "缺少配图"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-23",
-      "itemId": "visual-fashionsnap-79c3g9",
-      "contentHash": "sha1:29f036e031eb208df8e71d49b7ff1880b1df860b",
-      "title": "UNIQLO 合并内衣与家居服，重塑日常层次",
-      "source": "FASHIONSNAP",
-      "sourceUrl": "https://www.fashionsnap.com/article/2026-07-22/uniqlo-lounge-inner-26aw/",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-23",
-      "itemId": "visual-wallpaper-lggb2z",
-      "contentHash": "sha1:b4e450404225e69c215b9f3756700f45c10164a2",
-      "title": "“Empire”展览用快餐品牌重组千禧怀旧",
-      "source": "Wallpaper*",
-      "sourceUrl": "https://www.wallpaper.com/art/exhibitions-shows/empire-by-benjamin-slinger-london-exhibition",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
       ],
       "status": "pending"
     },
@@ -338,22 +238,6 @@
         "历史摘要未通过正文证据核验",
         "本期精选",
         "日期缺失或异常"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-23",
-      "itemId": "visual-dazed-1ld6n1y",
-      "contentHash": "sha1:da77c18a26fc13ff613f720be1d5e44a58345ebc",
-      "title": "Barry Jenkins 为 Prada 拍摄更深层的时装叙事",
-      "source": "Dazed",
-      "sourceUrl": "https://www.dazeddigital.com/fashion/article/70683/1/barry-jenkins-prada-aw26-fw26-campaign-director-hunter-schafer-troye-sivan?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=barry-jenkins-on-directing-prada-we-wanted-something-a-little-bit-deeper",
-      "featured": true,
-      "priority": 105,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "缺少配图"
       ],
       "status": "pending"
     },
@@ -453,41 +337,11 @@
     },
     {
       "issueId": "2026-07-23",
-      "itemId": "visual-interview-magazine-185f1yv",
-      "contentHash": "sha1:93a4b2be08b4d781c0f9de1345879096e0093c17",
-      "title": "Duran Lantink 的首个高定系列与反讨好姿态",
-      "source": "Interview",
-      "sourceUrl": "https://www.interviewmagazine.com/fashion/duran-lantink-jean-paul-gaultier-couture-spring-summer-runway-collection-debut",
-      "featured": true,
-      "priority": 100,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-23",
       "itemId": "visual-nowness-788eah",
       "contentHash": "sha1:f3867fc94683b58811f49380d0bd9c3447395043",
       "title": "《Baikonur》在前苏联航天遗址拍摄失真的未来",
       "source": "NOWNESS",
       "sourceUrl": "https://www.nowness.com/series/video-art-visions/romain-gavras-surkin-baikonur-gener8ion",
-      "featured": true,
-      "priority": 100,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-23",
-      "itemId": "visual-wallpaper-mdwhww",
-      "contentHash": "sha1:b2bc60f129ef1b1d73ddefa3455aca161f0cbee1",
-      "title": "Vy Voi 以文化碎片建立新纽约设计语言",
-      "source": "Wallpaper*",
-      "sourceUrl": "https://www.wallpaper.com/design-interiors/vy-voi-steffany-tran-designer-profile",
       "featured": true,
       "priority": 100,
       "reasons": [
