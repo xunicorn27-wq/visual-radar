@@ -9,6 +9,7 @@ describe("VisualRadarMasthead", () => {
     expect(buildVisualRadarMastheadNavigation(false, "/visual-radar/")).toEqual([
       { href: "/", label: "今日日报", type: "route" },
       { href: "/issues", label: "往期日报", type: "route" },
+      { href: "/saved", label: "我的收藏", type: "route" },
     ]);
   });
 
@@ -16,6 +17,7 @@ describe("VisualRadarMasthead", () => {
     expect(buildVisualRadarMastheadNavigation(true, "/visual-radar/")).toEqual([
       { href: "/", label: "今日日报", type: "route" },
       { href: "/issues", label: "往期日报", type: "route" },
+      { href: "/saved", label: "我的收藏", type: "route" },
       { href: "/visual-radar/#sources", label: "信源", type: "anchor" },
     ]);
   });

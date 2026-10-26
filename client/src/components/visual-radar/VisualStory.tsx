@@ -2,6 +2,9 @@ import { ArrowUpRight, Expand, X } from "lucide-react";
 import { useRef, useState } from "react";
 
 import type { VisualRadarSelectedStory } from "../../lib/api";
+import { Link } from "wouter";
+import { archiveStoryFromSelection } from "../../lib/visualRadarArchive";
+import { StoryActions } from "./StoryActions";
 
 export function visualStoryAnchor(id: string) {
   return `story-${encodeURIComponent(id)}`;
@@ -11,10 +14,12 @@ export function VisualStory({
   story,
   variant = "grid",
   featured = false,
+  issueId,
 }: {
   story: VisualRadarSelectedStory;
   variant?: "grid" | "lead";
   featured?: boolean;
+  issueId?: string;
 }) {
   const title = story.analysis.chineseTitle || story.item.title;
   const summary = story.analysis.chineseSummary || story.item.text;
@@ -53,7 +58,7 @@ export function VisualStory({
         <div className="vr-story-footer">
           <div className="vr-keywords">
             {story.analysis.trendKeywords.slice(0, 3).map((keyword) => (
-              <span key={keyword}>{keyword}</span>
+              <Link href={`/issues?q=${encodeURIComponent(keyword)}&view=stories`} key={keyword}>{keyword}</Link>
             ))}
           </div>
           <a
@@ -73,6 +78,7 @@ export function VisualStory({
             {story.analysis.selectionRationale}
           </p>
         ) : null}
+        {issueId && <StoryActions story={archiveStoryFromSelection(story, issueId)} />}
       </div>
       {hasImage && <dialog ref={dialog} className="vr-image-dialog" aria-label={`完整图片：${title}`}
         onClick={(event) => { if (event.target === event.currentTarget) dialog.current?.close(); }}>

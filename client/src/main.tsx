@@ -3,7 +3,7 @@ import { Route, Router, Switch } from "wouter";
 
 import { normalizeRouterBase } from "./lib/routerBase";
 import VisualRadar from "./pages/VisualRadar";
-import VisualRadarArchive from "./pages/VisualRadarArchive";
+import VisualRadarArchive, { VisualRadarSaved } from "./pages/VisualRadarArchive";
 import VisualRadarIssue from "./pages/VisualRadarIssue";
 import "./visual-radar.css";
 
@@ -14,6 +14,7 @@ createRoot(document.getElementById("root")!).render(
     <Switch>
       <Route path="/" component={VisualRadar} />
       <Route path="/issues" component={VisualRadarArchive} />
+      <Route path="/saved" component={VisualRadarSaved} />
       <Route path="/issues/:issueId" component={VisualRadarIssue} />
       <Route path="*">
         <main>

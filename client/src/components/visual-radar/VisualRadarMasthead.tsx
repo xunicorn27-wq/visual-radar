@@ -1,4 +1,4 @@
-import { Link } from "wouter";
+import { Link, useLocation } from "wouter";
 import { Settings2 } from "lucide-react";
 
 import { buildBaseHashHref } from "../../lib/routerBase";
@@ -16,6 +16,7 @@ export function buildVisualRadarMastheadNavigation(
   const navigation: VisualRadarMastheadNavigationItem[] = [
     { href: "/", label: "今日日报", type: "route" },
     { href: "/issues", label: "往期日报", type: "route" },
+    { href: "/saved", label: "我的收藏", type: "route" },
   ];
   if (showSources) {
     navigation.push({
@@ -36,6 +37,8 @@ export function VisualRadarMasthead({
   onToggleAdmin?: () => void;
   showSources?: boolean;
 }) {
+  const [location] = useLocation();
+  const current = location.replace(/\/$/, "") || "/";
   return (
     <header className="vr-masthead">
       <div className="vr-topline">
@@ -43,7 +46,7 @@ export function VisualRadarMasthead({
         <nav aria-label="Visual Radar 主导航">
           {buildVisualRadarMastheadNavigation(showSources).map((item) =>
             item.type === "route" ? (
-              <Link href={item.href} key={item.href}>
+              <Link href={item.href} key={item.href} aria-current={current === item.href ? "page" : undefined}>
                 {item.label}
               </Link>
             ) : (

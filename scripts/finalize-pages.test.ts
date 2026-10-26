@@ -16,6 +16,7 @@ describe("finalizePagesBuild", () => {
     finalizePagesBuild({ distDir, issueIds: ["2026-07-16", "2026-07-15"] });
 
     expect(read(path.join(distDir, "issues/index.html"))).toBe(html);
+    expect(read(path.join(distDir, "saved/index.html"))).toBe(html);
     expect(read(path.join(distDir, "issues/2026-07-16/index.html"))).toBe(html);
     expect(read(path.join(distDir, "issues/2026-07-15/index.html"))).toBe(html);
     expect(read(path.join(distDir, "assets/app.js"))).toBe("app");

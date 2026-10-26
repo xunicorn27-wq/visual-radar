@@ -1,6 +1,7 @@
 import fs from "node:fs";
-import { createElement } from "react";
+import { createElement, type ReactNode } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
+import { Router } from "wouter";
 import { describe, expect, it } from "vitest";
 
 import type { VisualRadarIssue } from "../lib/api";
@@ -11,10 +12,12 @@ const issues = JSON.parse(fs.readFileSync(
   new URL("../../../data/visual_radar_issues.json", import.meta.url), "utf8"
 )).issues as VisualRadarIssue[];
 
+const render = (element: ReactNode) => renderToStaticMarkup(createElement(Router, { ssrPath: "/", children: element }));
+
 describe("editorial issue navigation", () => {
   it.each(issues.map((issue) => [issue.id, issue] as const))(
     "preserves every story and resolves every contents link in %s", (_id, issue) => {
-      const html = renderToStaticMarkup(createElement(VisualRadarIssueContent, { issue }));
+      const html = render(createElement(VisualRadarIssueContent, { issue }));
       const articleIds = [...html.matchAll(/<article id="([^"]+)"/g)].map((match) => match[1]);
       expect(articleIds).toHaveLength(issue.stories.length);
       expect(new Set(articleIds).size).toBe(articleIds.length);
@@ -29,7 +32,7 @@ describe("editorial issue navigation", () => {
     const story = structuredClone(issues[0].stories[0]);
     story.item.thumbnailUrl = null;
     story.item.postedAt = null;
-    const html = renderToStaticMarkup(createElement(VisualStory, { story }));
+    const html = render(createElement(VisualStory, { story }));
     expect(html).toContain("发布日期未注明");
     expect(html).toContain("VISUAL NOTE");
     expect(html).toContain("展开解读");
@@ -39,8 +42,8 @@ describe("editorial issue navigation", () => {
 
   it("prioritizes the cover image and defers supporting images", () => {
     const story = issues[0].stories.find((entry) => entry.item.thumbnailUrl)!;
-    const cover = renderToStaticMarkup(createElement(VisualStory, { story, variant: "lead" }));
-    const card = renderToStaticMarkup(createElement(VisualStory, { story }));
+    const cover = render(createElement(VisualStory, { story, variant: "lead" }));
+    const card = render(createElement(VisualStory, { story }));
     expect(cover).toContain('loading="eager"');
     expect(cover).toContain('fetchPriority="high"');
     expect(card).not.toContain('loading="eager"');

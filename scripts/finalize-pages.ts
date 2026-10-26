@@ -26,6 +26,10 @@ export function finalizePagesBuild({
   fs.rmSync(issuesDir, { force: true, recursive: true });
   fs.mkdirSync(issuesDir, { recursive: true });
   fs.writeFileSync(resolveWithin(issuesDir, "index.html"), html, "utf-8");
+  const savedDir = resolveWithin(resolvedDistDir, "saved");
+  fs.rmSync(savedDir, { force: true, recursive: true });
+  fs.mkdirSync(savedDir, { recursive: true });
+  fs.writeFileSync(resolveWithin(savedDir, "index.html"), html, "utf-8");
 
   for (const issueId of issueIds) {
     const routeDir = resolveWithin(issuesDir, issueId);
