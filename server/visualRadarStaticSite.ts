@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { buildVisualRadarArchive } from "./visualRadarArchive";
 
 import {
   summarizeVisualRadarIssue,
@@ -95,6 +96,7 @@ function writeSnapshot(
   now: string | undefined
 ) {
   const issuesDir = path.resolve(temporaryDir, "issues");
+  writeJson(fileSystem, path.join(temporaryDir, "archive.json"), buildVisualRadarArchive(issues));
   fileSystem.mkdirSync(issuesDir, { recursive: true });
   writeJson(
     fileSystem,

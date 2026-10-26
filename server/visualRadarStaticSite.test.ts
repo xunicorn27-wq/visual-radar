@@ -43,6 +43,11 @@ describe("writeVisualRadarStaticSite", () => {
 
     expect(listCalls).toBe(1);
     expect(result).toEqual({ issues: 2, latestIssueId: "2026-07-16" });
+    const archive = readJson(path.join(outputDir, "archive.json")) as {
+      issues: Array<{ id: string }>; stories: Array<{ id: string; issueId: string }>;
+    };
+    expect(archive.issues.map((issue) => issue.id)).toEqual(["2026-07-16", "2026-07-15"]);
+    expect(archive.stories.map((story) => [story.id, story.issueId])).toEqual([["newer", "2026-07-16"], ["older", "2026-07-15"]]);
     const index = readJson(path.join(outputDir, "issues", "index.json")) as Array<{
       id: string;
       storyCount: number;

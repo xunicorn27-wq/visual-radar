@@ -36,6 +36,7 @@ import {
   sendVisualRadarIssueToWeCom,
 } from "./weComPublisher";
 import { createSendVisualRadarIssueHandler } from "./weComRoute";
+import { buildVisualRadarArchive } from "./visualRadarArchive";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(__dirname, "..");
@@ -107,6 +108,10 @@ app.post("/api/visual-radar/agent/prepare", requireCronSecret, (_req, res) => {
 
 app.get("/api/visual-radar/issues", (_req, res) => {
   res.json(createVisualRadarIssueStore(files.issues).listIssues().map(summarizeVisualRadarIssue));
+});
+
+app.get("/api/visual-radar/archive", (_req, res) => {
+  res.json(buildVisualRadarArchive(createVisualRadarIssueStore(files.issues).listIssues()));
 });
 
 app.post("/api/visual-radar/issues/generate", requireCronSecret, (_req, res) => {

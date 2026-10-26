@@ -1,3 +1,6 @@
+import type { VisualRadarArchive } from "../../../server/visualRadarArchive";
+export type { VisualRadarArchive, VisualRadarArchiveStory, VisualRadarArchiveEdition } from "../../../server/visualRadarArchive";
+
 export type VisualCultureTopic =
   | "creator" | "exhibition" | "fashion_culture" | "magazine"
   | "outfit" | "photography" | "styling" | "tool";
@@ -119,7 +122,7 @@ export interface VisualRadarAnalyzeResponse {
 export const visualRadarStaticMode =
   import.meta.env.VITE_VISUAL_RADAR_DATA_MODE === "static";
 
-type VisualRadarReadResource = "analysis" | "items" | "issue" | "issues" | "sources";
+type VisualRadarReadResource = "analysis" | "items" | "issue" | "issues" | "sources" | "archive";
 
 export function buildVisualRadarReadUrl(
   resource: VisualRadarReadResource,
@@ -135,6 +138,7 @@ export function buildVisualRadarReadUrl(
     ? options.baseUrl
     : `${options.baseUrl}/`;
   if (resource === "issues") return `${baseUrl}public-data/issues/index.json`;
+  if (resource === "archive") return `${baseUrl}public-data/archive.json`;
   if (resource === "issue") {
     return `${baseUrl}public-data/issues/${encodeURIComponent(options.issueId || "")}.json`;
   }
@@ -165,6 +169,8 @@ export const getVisualRadarIssues = () =>
   req<VisualRadarIssueSummary[]>(
     buildVisualRadarReadUrl("issues", visualRadarReadOptions)
   );
+export const getVisualRadarArchive = () =>
+  req<VisualRadarArchive>(buildVisualRadarReadUrl("archive", visualRadarReadOptions));
 export const getVisualRadarIssue = (id: string) =>
   req<VisualRadarIssueDetail>(
     buildVisualRadarReadUrl("issue", {

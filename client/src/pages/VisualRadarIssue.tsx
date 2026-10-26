@@ -59,6 +59,21 @@ export default function VisualRadarIssue() {
 
 export function VisualRadarIssueContent({ issue }: { issue: VisualRadarIssueData }) {
   const layout = useMemo(() => buildVisualRadarIssueLayout(issue), [issue]);
+  useEffect(() => {
+    // Deep links from archive search arrive before the async issue has rendered.
+    const frame = requestAnimationFrame(() => {
+      const hash = window.location.hash.slice(1);
+      if (!hash) return;
+      let id: string;
+      try { id = decodeURIComponent(hash); } catch { return; }
+      const target = document.getElementById(id);
+      if (target) {
+        target.scrollIntoView({ block: "start" });
+        if (target.matches("article")) target.focus({ preventScroll: true });
+      }
+    });
+    return () => cancelAnimationFrame(frame);
+  }, [issue.id]);
   if (!layout.lead) return null;
   const highlights = layout.featuredStories
     .filter((story) => story.item.id !== layout.lead?.item.id).slice(0, 3);
