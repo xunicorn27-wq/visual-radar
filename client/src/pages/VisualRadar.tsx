@@ -189,7 +189,7 @@ export default function VisualRadar() {
   }
 
   return (
-    <main className="vr-root">
+    <main className="vr-root" id="main-content" aria-busy={loading}>
       <VisualRadarMasthead
         issueLabel={issueDetail ? `VOL.${issueDetail.issue.id}` : "FIRST EDITION"}
         showSources={!visualRadarStaticMode}
@@ -223,7 +223,7 @@ export default function VisualRadar() {
       ) : null}
 
       {loading ? (
-        <div className="vr-message" role="status"><Loader2 className="vr-spin" aria-hidden="true" /> 正在加载 Visual Radar</div>
+        <div className="vr-message" role="status" aria-live="polite"><Loader2 className="vr-spin" aria-hidden="true" /> 正在加载 Visual Radar</div>
       ) : null}
       {!loading && visualRadarStaticMode && error ? (
         <div className="vr-load-error" role="alert"><h2>日报暂时没有打开</h2><p>{error}</p><button type="button" onClick={() => setRetry((value) => value + 1)}>重新加载</button></div>

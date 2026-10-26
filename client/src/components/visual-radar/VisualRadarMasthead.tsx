@@ -28,6 +28,12 @@ export function buildVisualRadarMastheadNavigation(
   return navigation;
 }
 
+export function isVisualRadarNavigationCurrent(location: string, href: string) {
+  const current = location.replace(/\/$/, "") || "/";
+  const normalized = href.replace(/\/$/, "") || "/";
+  return normalized === "/" ? current === "/" : current === normalized || current.startsWith(`${normalized}/`);
+}
+
 export function VisualRadarMasthead({
   issueLabel,
   onToggleAdmin,
@@ -41,12 +47,13 @@ export function VisualRadarMasthead({
   const current = location.replace(/\/$/, "") || "/";
   return (
     <header className="vr-masthead">
+      <a className="vr-skip-link" href="#main-content">跳到主要内容</a>
       <div className="vr-topline">
         <span>{issueLabel || "INDEPENDENT VISUAL CULTURE DAILY"}</span>
         <nav aria-label="Visual Radar 主导航">
           {buildVisualRadarMastheadNavigation(showSources).map((item) =>
             item.type === "route" ? (
-              <Link href={item.href} key={item.href} aria-current={current === item.href ? "page" : undefined}>
+              <Link href={item.href} key={item.href} aria-current={isVisualRadarNavigationCurrent(current, item.href) ? "page" : undefined}>
                 {item.label}
               </Link>
             ) : (

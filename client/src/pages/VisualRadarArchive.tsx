@@ -114,7 +114,7 @@ function ArchiveBrowser({ savedOnly = false }: { savedOnly?: boolean }) {
   }
 
   return (
-    <main className="vr-root">
+    <main className="vr-root" id="main-content" aria-busy={!savedOnly && !archive && !error}>
       <VisualRadarMasthead
         issueLabel={savedOnly ? "MY COLLECTION" : "ARCHIVE"}
         showSources={!visualRadarStaticMode}
@@ -161,7 +161,7 @@ function ArchiveBrowser({ savedOnly = false }: { savedOnly?: boolean }) {
           </div>
         </div>
         {!savedOnly && error && <div className="vr-archive-empty" role="alert"><p>{error}</p><button type="button" onClick={() => setRetry((value) => value + 1)}>重新加载</button></div>}
-        {!savedOnly && !error && !archive && <div className="vr-message"><Loader2 className="vr-spin" /> 正在加载档案</div>}
+        {!savedOnly && !error && !archive && <div className="vr-message" role="status" aria-live="polite"><Loader2 className="vr-spin" aria-hidden="true" /> 正在加载档案</div>}
         {(savedOnly || (!error && archive)) && <>
           <div className="vr-archive-results-heading">
             <p role="status">{storyView ? `找到 ${matches.length} 条${savedOnly ? "收藏" : "内容"}` : `全部 ${editions.length} 期 · 按日期排列`}</p>

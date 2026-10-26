@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
 
-import { buildVisualRadarMastheadNavigation } from "./VisualRadarMasthead";
+import { buildVisualRadarMastheadNavigation, isVisualRadarNavigationCurrent } from "./VisualRadarMasthead";
 
 describe("VisualRadarMasthead", () => {
   it("omits the sources item from the navigation model when disabled", () => {
@@ -30,6 +30,13 @@ describe("VisualRadarMasthead", () => {
       label: "信源",
       type: "anchor",
     });
+  });
+
+  it("marks nested issue and saved routes as active navigation", () => {
+    expect(isVisualRadarNavigationCurrent("/issues/2026-10-23", "/issues")).toBe(true);
+    expect(isVisualRadarNavigationCurrent("/saved", "/saved")).toBe(true);
+    expect(isVisualRadarNavigationCurrent("/issues", "/saved")).toBe(false);
+    expect(isVisualRadarNavigationCurrent("/issues", "/")).toBe(false);
   });
 
   it.each([

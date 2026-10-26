@@ -39,7 +39,7 @@ export default function VisualRadarIssue() {
 
   if (error) {
     return (
-      <main className="vr-root">
+      <main className="vr-root" id="main-content">
         <VisualRadarMasthead showSources={!visualRadarStaticMode} />
         <div className="vr-load-error" role="alert"><h1>这期暂时没有打开</h1><p>{error}</p>
           <div><button type="button" onClick={() => setRetry((value) => value + 1)}>重新加载</button><Link href="/issues">浏览往期日报</Link></div>
@@ -49,15 +49,15 @@ export default function VisualRadarIssue() {
   }
   if (!detail || detail.issue.id !== params?.issueId) {
     return (
-      <main className="vr-root">
+      <main className="vr-root" id="main-content" aria-busy="true">
         <VisualRadarMasthead showSources={!visualRadarStaticMode} />
-        <div className="vr-message" role="status"><Loader2 className="vr-spin" aria-hidden="true" /> 正在加载日报</div>
+        <div className="vr-message" role="status" aria-live="polite"><Loader2 className="vr-spin" aria-hidden="true" /> 正在加载日报</div>
       </main>
     );
   }
 
   return (
-    <main className="vr-root">
+    <main className="vr-root" id="main-content">
       <VisualRadarMasthead
         issueLabel={`VOL.${detail.issue.id}`}
         showSources={!visualRadarStaticMode}
