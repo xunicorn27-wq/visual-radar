@@ -33,7 +33,8 @@ export function extractArticleText(html: string) {
   }
   if (bodies.length) return bodies.sort((a, b) => b.length - a.length)[0].slice(0, 60000);
   const stripped = html.replace(/<(script|style|nav|footer|header|aside)\b[^>]*>[\s\S]*?<\/\1>/gi, " ");
-  const entry = /<div\s[^>]*class=["'][^"']*\bentry-content\b[^"']*["'][^>]*>/i.exec(stripped);
+  // Known body containers only: WordPress article text and TOP Museum exhibition description.
+  const entry = /<div\s[^>]*class=["'][^"']*\b(?:entry-content|exhibition_box5)\b[^"']*["'][^>]*>/i.exec(stripped);
   let entryBody = "";
   if (entry) {
     const start = entry.index + entry[0].length;

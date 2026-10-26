@@ -47,6 +47,13 @@ if (mode === "prepare") {
       if (!analysis?.editorial || analysis.editorial.status !== "verified") throw new Error("勘误必须有完整证据");
       if (JSON.stringify(story.analysis) !== JSON.stringify(analysis)) changes.push({ itemId: story.item.id, previous: story.analysis, corrected: analysis, correctedAt: output.generatedAt });
       story.analysis = analysis;
+      for (const field of ["eventStartsAt", "eventEndsAt"] as const) {
+        const date = candidate[field];
+        if (date && Number.isFinite(Date.parse(date)) && story.item[field] !== date) {
+          changes.push({ itemId: story.item.id, field, previous: story.item[field] || null, corrected: date, correctedAt: output.generatedAt });
+          story.item[field] = date;
+        }
+      }
     }
     if (isGenericImage(story.item.thumbnailUrl) && candidate.thumbnailUrl && !isGenericImage(candidate.thumbnailUrl)) {
       changes.push({ itemId: story.item.id, imageAdded: candidate.thumbnailUrl, correctedAt: output.generatedAt });

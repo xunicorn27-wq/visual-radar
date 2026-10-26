@@ -1,47 +1,13 @@
 {
-  "generatedAt": "2026-10-26T09:14:28.746Z",
+  "generatedAt": "2026-10-26T09:31:39.888Z",
   "summary": {
     "published": 288,
-    "pending": 271,
-    "verified": 17,
-    "featuredPending": 73
+    "pending": 260,
+    "verified": 28,
+    "featuredPending": 62
   },
   "instruction": "清单不等于已核验。按 issue:correct prepare/apply 流程逐条读取正文；无法获取时保留待核验，不删除历史。",
   "entries": [
-    {
-      "issueId": "2026-10-21",
-      "itemId": "visual-tokyo-photo-museum-mwdksv",
-      "contentHash": "sha1:ecdb922d0b1315a2b2e6627fb9adf752ff7c3ded",
-      "title": "惠比寿映像祭 2027 预告释放",
-      "source": "Tokyo Photographic Art Museum",
-      "sourceUrl": "https://topmuseum.jp/exhibition/5425",
-      "featured": true,
-      "priority": 135,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短",
-        "日期缺失或异常"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-10-21",
-      "itemId": "visual-tokyo-photo-museum-mwdkx9",
-      "contentHash": "sha1:70bfdc0b4a113080481599bae0e97eefc5af1fab",
-      "title": "木村伊兵卫摄影奖五十周年纪念展",
-      "source": "Tokyo Photographic Art Museum",
-      "sourceUrl": "https://topmuseum.jp/exhibition/5478",
-      "featured": true,
-      "priority": 135,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短",
-        "日期缺失或异常"
-      ],
-      "status": "pending"
-    },
     {
       "issueId": "2026-07-31",
       "itemId": "visual-tokyo-photo-museum-1yjg0ar",
@@ -467,102 +433,6 @@
       "status": "pending"
     },
     {
-      "issueId": "2026-08-06",
-      "itemId": "visual-momu-4wk4kk",
-      "contentHash": "sha1:f412dbbca1b87ddb933b7264c9f426f11f51144f",
-      "title": "MoMu 以收藏者之眼回看 Azzedine Alaïa",
-      "source": "MoMu Antwerp",
-      "sourceUrl": "https://www.momu.be/en/exhibitions/azzedine-alaia",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-08-06",
-      "itemId": "visual-vogue-runway-18l3r57",
-      "contentHash": "sha1:c8b050360470beda49c05b967a4d03c38081ebd3",
-      "title": "Baum und Pferdgarten 2027 春夏哥本哈根秀场",
-      "source": "Vogue Runway",
-      "sourceUrl": "https://www.vogue.com/fashion-shows/copenhagen-spring-2027/baum-und-pferdgarten",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-08-06",
-      "itemId": "visual-vogue-runway-1t3kpuq",
-      "contentHash": "sha1:d352e6f6fe052298fd4702659bdabc3dd316c739",
-      "title": "Institution by Galib Gassanoff 2027 春夏系列",
-      "source": "Vogue Runway",
-      "sourceUrl": "https://www.vogue.com/fashion-shows/copenhagen-spring-2027/institution-by-galib-gassanoff",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-08-06",
-      "itemId": "visual-w-magazine-1trzkv9",
-      "contentHash": "sha1:07b9b6bce1ae90a487786ba6eb8a12b060571100",
-      "title": "哥本哈根时装周 20 周年秀场的关键造型",
-      "source": "W Magazine",
-      "sourceUrl": "https://www.wmagazine.com/fashion/copenhagen-fashion-week-spring-summer-2027-best-looks-runway-photos",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-08-06",
-      "itemId": "visual-wallpaper-1ib7s19",
-      "contentHash": "sha1:65c9e400cb90f482006b53bd066ff55dbfbc796a",
-      "title": "Atelier Ko 修复贝宁 Afro-Brazilian 住宅",
-      "source": "Wallpaper*",
-      "sourceUrl": "https://www.wallpaper.com/architecture/architects-directory/atelier-ko-benin",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-08-06",
-      "itemId": "visual-wallpaper-1jd81o0",
-      "contentHash": "sha1:31491e2e39e9f730f18d453192c25915080fea3c",
-      "title": "Norton 与 Foster + Partners 共同打造摩托展示",
-      "source": "Wallpaper*",
-      "sourceUrl": "https://www.wallpaper.com/transportation/norton-motorcycles-team-up-with-foster-partners-to-showcase-their-new-products",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
-      ],
-      "status": "pending"
-    },
-    {
       "issueId": "2026-07-31",
       "itemId": "visual-fashionsnap-1iqemn6",
       "contentHash": "sha1:9239ad885a6b6d03299fde873a786f38c25fc83f",
@@ -767,54 +637,6 @@
         "历史摘要未通过正文证据核验",
         "本期精选",
         "日期缺失或异常"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-08-06",
-      "itemId": "visual-dazed-19b0oow",
-      "contentHash": "sha1:9a063ed56e2b7198138e3b56c6408b5caa6d622b",
-      "title": "Justin Miller 把 Facebook Marketplace 变成线下策展现场",
-      "source": "Dazed",
-      "sourceUrl": "https://www.dazeddigital.com/life-culture/article/70756/1/inside-justin-miller-s-facebook-marketplace-sanctuary?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=inside-justin-miller-s-facebook-marketplace-sanctuary",
-      "featured": true,
-      "priority": 105,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "缺少配图"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-08-06",
-      "itemId": "visual-dazed-1pwz99i",
-      "contentHash": "sha1:e66053495fc44a079db336925d07e2828fdc7bdc",
-      "title": "Lenni Bubi 的低音炮裙：让服装真正产生震动",
-      "source": "Dazed",
-      "sourceUrl": "https://www.dazeddigital.com/fashion/article/70755/1/lenni-bubi-subwoofer-skirt-berlin-fashion-student-emerging-designer?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=lenni-bubi-s-subwoofer-skirt-will-give-you-good-vibrations",
-      "featured": true,
-      "priority": 105,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "缺少配图"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-08-06",
-      "itemId": "visual-its-nice-that-tde774",
-      "contentHash": "sha1:b8afbbddc0949bcbcbdbd6649f72ccd122831fe6",
-      "title": "Polaroid 用“不完美”与反 AI 策略守住模拟影像",
-      "source": "It's Nice That",
-      "sourceUrl": "https://www.itsnicethat.com/features/in-house-polaroid-patricia-varella-creative-industry-050826",
-      "featured": true,
-      "priority": 105,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "缺少配图"
       ],
       "status": "pending"
     },

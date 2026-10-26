@@ -1620,6 +1620,937 @@
           "correctedAt": "2026-10-26T09:12:00.000Z"
         }
       ]
+    },
+    {
+      "issueId": "2026-08-06",
+      "changes": [
+        {
+          "itemId": "visual-momu-4wk4kk",
+          "previous": {
+            "analyzedAt": "2026-08-06T02:10:00.529Z",
+            "chineseSummary": "安特卫普时尚博物馆通过 Alaïa 的设计、工作过程和私人收藏，呈现这位大师如何把服装、工艺与收藏热情发展成完整实践。",
+            "chineseTitle": "MoMu 以收藏者之眼回看 Azzedine Alaïa",
+            "contentHash": "sha1:f412dbbca1b87ddb933b7264c9f426f11f51144f",
+            "itemId": "visual-momu-4wk4kk",
+            "model": "codex-agent",
+            "primaryTopic": "exhibition",
+            "promptVersion": "visual-daily-v1",
+            "score": 98,
+            "scoreBreakdown": {
+              "informationSpecificity": 15,
+              "novelty": 18,
+              "professionalRelevance": 20,
+              "sourceQuality": 10,
+              "timeliness": 5,
+              "visualInspiration": 30
+            },
+            "selectionRationale": "时尚博物馆对大师创作过程与收藏体系的系统展示，价值突出。",
+            "status": "success",
+            "trendKeywords": [
+              "Azzedine Alaïa",
+              "MoMu",
+              "时尚档案"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-26T09:23:00.000Z",
+            "chineseSummary": "MoMu 的《Azzedine Alaïa. The Eye of the Collector》将 Alaïa 自己的作品、工作过程与其收藏的大师服装并置。机构介绍强调，他通过研究纸样、结构坯样和剪裁技巧理解前辈，而不是只按服装外观收藏。",
+            "chineseTitle": "MoMu 从纸样、剪裁与收藏重访 Azzedine Alaïa",
+            "contentHash": "sha1:f412dbbca1b87ddb933b7264c9f426f11f51144f",
+            "itemId": "visual-momu-4wk4kk",
+            "model": "codex-agent",
+            "primaryTopic": "exhibition",
+            "promptVersion": "visual-daily-v1",
+            "score": 83,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 14,
+              "professionalRelevance": 19,
+              "sourceQuality": 10,
+              "timeliness": 0,
+              "visualInspiration": 26
+            },
+            "selectionRationale": "具体参考是把成衣与制作过程一起观看，从轮廓回溯到纸样和剪裁。",
+            "status": "success",
+            "trendKeywords": [
+              "Azzedine Alaïa",
+              "纸样研究",
+              "MoMu"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.momu.be/en/exhibitions/azzedine-alaia",
+              "snapshotHash": "266cb4ae0651e523c001a02e5a2a21b7c4b4511f4a83315be4cca74dde06e914",
+              "facts": [
+                {
+                  "statement": "收藏与创作涉及剪裁、纸样制作和创造力。",
+                  "quote": "the art of cutting, patternmaking and creativity"
+                },
+                {
+                  "statement": "展览包含其工作过程的不同阶段。",
+                  "quote": "stages in his work process"
+                }
+              ],
+              "visualMethod": "编辑分析：通过成衣、过程材料与历史收藏的并置，建立从表面效果到结构方法的阅读路径。",
+              "application": "可给一件服装制作成衣照、局部结构照和纸样草图三联版，用相同尺度或标记突出剪裁关系。",
+              "visualTags": [
+                "工艺",
+                "构图",
+                "叙事"
+              ],
+              "limitation": "依据博物馆展览说明，未现场观看或核验全部展品；页面没有足够明确的发布时间，不当作当日新展发布。"
+            }
+          },
+          "correctedAt": "2026-10-26T09:23:00.000Z"
+        },
+        {
+          "itemId": "visual-dazed-1pwz99i",
+          "previous": {
+            "analyzedAt": "2026-08-06T02:10:00.529Z",
+            "chineseSummary": "柏林艺术大学学生 Lenni Bubi 将低音扬声器嵌入裙装，以浩室音乐、身体和不合常理的物件为灵感，扩展服装的感官边界。",
+            "chineseTitle": "Lenni Bubi 的低音炮裙：让服装真正产生震动",
+            "contentHash": "sha1:e66053495fc44a079db336925d07e2828fdc7bdc",
+            "itemId": "visual-dazed-1pwz99i",
+            "model": "codex-agent",
+            "primaryTopic": "creator",
+            "promptVersion": "visual-daily-v1",
+            "score": 97,
+            "scoreBreakdown": {
+              "informationSpecificity": 15,
+              "novelty": 20,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 30
+            },
+            "selectionRationale": "新锐设计把声音装置直接嵌入服装，具有强实验性和视觉传播力。",
+            "status": "success",
+            "trendKeywords": [
+              "可穿戴声音",
+              "实验服装",
+              "柏林设计"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-26T09:23:00.000Z",
+            "chineseSummary": "Dazed 采访 Lenni Bubi 时，他尚未完成毕业考试。其低音炮裙以棕色乳胶包裹嵌入式扬声器；设计师称，为获得凹陷贴合效果制作了大量原型，尝试至少五种面料，并研究声音装置如何进入服装。",
+            "chineseTitle": "Lenni Bubi 将可发声扬声器嵌入乳胶裙",
+            "contentHash": "sha1:e66053495fc44a079db336925d07e2828fdc7bdc",
+            "itemId": "visual-dazed-1pwz99i",
+            "model": "codex-agent",
+            "primaryTopic": "creator",
+            "promptVersion": "visual-daily-v1",
+            "score": 84,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 17,
+              "professionalRelevance": 18,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 27
+            },
+            "selectionRationale": "可借鉴的是可穿戴装置的材料试验与原型过程，而不只把它理解为话题性造型。",
+            "status": "success",
+            "trendKeywords": [
+              "Lenni Bubi",
+              "可穿戴声音",
+              "乳胶原型"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.dazeddigital.com/fashion/article/70755/1/lenni-bubi-subwoofer-skirt-berlin-fashion-student-emerging-designer?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=lenni-bubi-s-subwoofer-skirt-will-give-you-good-vibrations",
+              "snapshotHash": "5002b36922079b12e2ab793e8ee77be7f89b73548f1784701cf43916b8854253",
+              "facts": [
+                {
+                  "statement": "裙装内嵌可工作的扬声器。",
+                  "quote": "functioning speakers embedded into the fabric"
+                },
+                {
+                  "statement": "设计师称至少试了五种面料。",
+                  "quote": "I tried at least five different fabrics"
+                }
+              ],
+              "visualMethod": "编辑分析：以材料包覆和凹陷轮廓把声音装置变成服装表面的一部分，原型迭代比装饰拼接更关键。",
+              "application": "可先用无通电的轻质模型测试装置轮廓与面料伸缩，再拍摄不同材料的同角度对照，实际电气结构交由专业人员验证。",
+              "visualTags": [
+                "材质",
+                "工艺",
+                "动态影像"
+              ],
+              "limitation": "依据创作者访谈，未检验装置音质、电气安全或长期穿着性能；并未观看全部视频演示。"
+            }
+          },
+          "correctedAt": "2026-10-26T09:23:00.000Z"
+        },
+        {
+          "itemId": "visual-dazed-1pwz99i",
+          "imageAdded": "https://images-prod.dazeddigital.com/1200/0-435-2153-1435/azure/dazed-prod/1450/0/1450801.jpeg",
+          "correctedAt": "2026-10-26T09:23:00.000Z"
+        },
+        {
+          "itemId": "visual-its-nice-that-tde774",
+          "previous": {
+            "analyzedAt": "2026-08-06T02:10:00.529Z",
+            "chineseSummary": "Polaroid 创意总监 Patricia Varella 讨论品牌在 AI 时代的长期策略，以及以不完美、物质性和逆潮流的广告回应生成图像泛滥。",
+            "chineseTitle": "Polaroid 用“不完美”与反 AI 策略守住模拟影像",
+            "contentHash": "sha1:b8afbbddc0949bcbcbdbd6649f72ccd122831fe6",
+            "itemId": "visual-its-nice-that-tde774",
+            "model": "codex-agent",
+            "primaryTopic": "tool",
+            "promptVersion": "visual-daily-v1",
+            "score": 97,
+            "scoreBreakdown": {
+              "informationSpecificity": 15,
+              "novelty": 19,
+              "professionalRelevance": 20,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 29
+            },
+            "selectionRationale": "模拟摄影品牌面对 AI 图像的策略具有鲜明的视觉文化意义。",
+            "status": "success",
+            "trendKeywords": [
+              "Polaroid",
+              "反AI视觉",
+              "模拟摄影"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-26T09:23:00.000Z",
+            "chineseSummary": "创意总监 Patricia Varella 在访谈中解释，Polaroid 围绕感光化学的不完美与真实生活持续建立品牌叙事。团队把广告放到海滩等与文案呼应的场景；传播效果来自品牌方自述，并非本项目独立验证。",
+            "chineseTitle": "Polaroid 把即时摄影的不完美变成长期品牌语言",
+            "contentHash": "sha1:b8afbbddc0949bcbcbdbd6649f72ccd122831fe6",
+            "itemId": "visual-its-nice-that-tde774",
+            "model": "codex-agent",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 82,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 15,
+              "professionalRelevance": 19,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 26
+            },
+            "selectionRationale": "重点是产品特征、文案和投放场景的一致性，可用于品牌影像的长期编辑研究。",
+            "status": "success",
+            "trendKeywords": [
+              "Polaroid",
+              "模拟摄影",
+              "场景传播"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.itsnicethat.com/features/in-house-polaroid-patricia-varella-creative-industry-050826",
+              "snapshotHash": "7d63c551cbfd4d1641dfcb096e3292db1c2714972905879f41cdbd29e91934ea",
+              "facts": [
+                {
+                  "statement": "创意讨论明确围绕化学成像的不完美。",
+                  "quote": "the imperfections of the chemistry"
+                },
+                {
+                  "statement": "团队将部分信息投放到海滩现场。",
+                  "quote": "put the message actually on the beach"
+                }
+              ],
+              "visualMethod": "编辑分析：让不可预测的成像质感成为品牌理由，再把文字放在能直接体验其主张的场所。",
+              "application": "可为一个产品列出三项真实的材料特征，分别配一句文案和一个具体场景，检查图像、语言与体验是否一致。",
+              "visualTags": [
+                "材质",
+                "空间",
+                "叙事"
+              ],
+              "limitation": "品牌创意负责人访谈，未独立核验病毒传播或商业效果；关于 AI 的表述属于广告立场，不是能力评测。"
+            }
+          },
+          "correctedAt": "2026-10-26T09:23:00.000Z"
+        },
+        {
+          "itemId": "visual-its-nice-that-tde774",
+          "imageAdded": "https://m.itsnicethat.com/original_images/KEY_ART_16X9_LjD4sTR.png?class=w1440",
+          "correctedAt": "2026-10-26T09:23:00.000Z"
+        },
+        {
+          "itemId": "visual-wallpaper-1ib7s19",
+          "previous": {
+            "analyzedAt": "2026-08-06T02:10:00.529Z",
+            "chineseSummary": "贝宁新锐工作室 Atelier Ko 通过修复 Afro-Brazilian 住宅 Maison Itan，呈现建筑遗产如何在当代改造中保留地方材料、历史与生活感。",
+            "chineseTitle": "Atelier Ko 修复贝宁 Afro-Brazilian 住宅",
+            "contentHash": "sha1:65c9e400cb90f482006b53bd066ff55dbfbc796a",
+            "itemId": "visual-wallpaper-1ib7s19",
+            "model": "codex-agent",
+            "primaryTopic": "creator",
+            "promptVersion": "visual-daily-v1",
+            "score": 95,
+            "scoreBreakdown": {
+              "informationSpecificity": 15,
+              "novelty": 18,
+              "professionalRelevance": 19,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 29
+            },
+            "selectionRationale": "非洲本地工作室的遗产修复案例，丰富全球建筑叙事的地域视角。",
+            "status": "success",
+            "trendKeywords": [
+              "贝宁建筑",
+              "遗产修复",
+              "Afro-Brazilian"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-26T09:23:00.000Z",
+            "chineseSummary": "Wallpaper* 介绍 Atelier Kọ 在贝宁修复的 Maison Itan：正立面保留原有结构并采用粉色土质涂层，后部新增朝北露台连接共用花园，木作构件与陶瓦共同组织新旧部分。",
+            "chineseTitle": "Maison Itan：保留历史正立面，新增花园露台",
+            "contentHash": "sha1:65c9e400cb90f482006b53bd066ff55dbfbc796a",
+            "itemId": "visual-wallpaper-1ib7s19",
+            "model": "codex-agent",
+            "primaryTopic": "creator",
+            "promptVersion": "visual-daily-v1",
+            "score": 83,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 15,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 0,
+              "visualInspiration": 27
+            },
+            "selectionRationale": "具体方法是正立面保护与后部新增空间的分工，能够用于比较遗产修复中的新旧关系。",
+            "status": "success",
+            "trendKeywords": [
+              "Atelier Kọ",
+              "Maison Itan",
+              "遗产修复"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.wallpaper.com/architecture/architects-directory/atelier-ko-benin",
+              "snapshotHash": "08e207d0311c49626844295a40af68c18d68b397288c2e91f68bca100b918140",
+              "facts": [
+                {
+                  "statement": "正立面修复未改变原有构成。",
+                  "quote": "without altering its original configuration"
+                },
+                {
+                  "statement": "新增朝北露台连接主楼与共用花园。",
+                  "quote": "the new north-facing terrace creates a connection between the main building and the shared garden"
+                }
+              ],
+              "visualMethod": "编辑分析：用保留的装饰立面与新增的简洁线条形成可辨认的新旧对照，并把连接空间留给花园。",
+              "application": "可在建筑拍摄中安排正立面、连接节点和花园反向视角三组图，帮助读者理解保留与新增的边界。",
+              "visualTags": [
+                "空间",
+                "材质",
+                "构图"
+              ],
+              "limitation": "根据建筑报道核验，未现场考察、测量或评估建筑性能；具体施工信息需查项目原始资料。"
+            }
+          },
+          "correctedAt": "2026-10-26T09:23:00.000Z"
+        },
+        {
+          "itemId": "visual-wallpaper-1jd81o0",
+          "previous": {
+            "analyzedAt": "2026-08-06T02:10:00.529Z",
+            "chineseSummary": "Norton Motorcycles 联手 Foster + Partners 以当代展示语言呈现高端摩托新产品，显示交通品牌正把产品发布转化为建筑化体验。",
+            "chineseTitle": "Norton 与 Foster + Partners 共同打造摩托展示",
+            "contentHash": "sha1:31491e2e39e9f730f18d453192c25915080fea3c",
+            "itemId": "visual-wallpaper-1jd81o0",
+            "model": "codex-agent",
+            "primaryTopic": "exhibition",
+            "promptVersion": "visual-daily-v1",
+            "score": 94,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 18,
+              "professionalRelevance": 19,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 29
+            },
+            "selectionRationale": "产品、建筑事务所与展示设计结合紧密，空间叙事明确。",
+            "status": "success",
+            "trendKeywords": [
+              "Foster + Partners",
+              "产品展示",
+              "摩托设计"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-26T09:23:00.000Z",
+            "chineseSummary": "报道介绍 Norton 与 Foster + Partners 的零售展示方案：摩托置于抬高展台，以顶部照明突出线条，配件陈列与互动配置界面相邻。方案可按门店规模组合；文中扩张网点数量是品牌目标，不是已经落成的结果。",
+            "chineseTitle": "Norton × Foster + Partners：模块化展台与顶部照明",
+            "contentHash": "sha1:31491e2e39e9f730f18d453192c25915080fea3c",
+            "itemId": "visual-wallpaper-1jd81o0",
+            "model": "codex-agent",
+            "primaryTopic": "exhibition",
+            "promptVersion": "visual-daily-v1",
+            "score": 83,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 15,
+              "professionalRelevance": 19,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 27
+            },
+            "selectionRationale": "展台高度、光线与相邻配件柜形成明确展示机制，适合产品空间叙事参考。",
+            "status": "success",
+            "trendKeywords": [
+              "Norton",
+              "模块化展台",
+              "产品照明"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.wallpaper.com/transportation/norton-motorcycles-team-up-with-foster-partners-to-showcase-their-new-products",
+              "snapshotHash": "aba2edc1aa85265b5f8296d68c920fd8fd8e387a53cab926da609710323f2318",
+              "facts": [
+                {
+                  "statement": "产品以顶部照明呈现流线轮廓。",
+                  "quote": "top-lit to better showcase their fluid lines"
+                },
+                {
+                  "statement": "方案按模块设计，可随门店尺寸调整。",
+                  "quote": "Designed as a modular proposal"
+                }
+              ],
+              "visualMethod": "编辑分析：将产品作为雕塑式对象抬高并控制顶光，展示单元可按空间尺度扩展。",
+              "application": "可用小比例展台模型测试顶光的反射与阴影，再设计主产品、配件和说明屏的相邻关系，避免视觉争抢。",
+              "visualTags": [
+                "布光",
+                "空间",
+                "构图"
+              ],
+              "limitation": "这是零售方案报道，未实地验证落地数量或销售效果；光照参数并未公开。"
+            }
+          },
+          "correctedAt": "2026-10-26T09:23:00.000Z"
+        },
+        {
+          "itemId": "visual-vogue-runway-18l3r57",
+          "previous": {
+            "analyzedAt": "2026-08-06T02:10:00.529Z",
+            "chineseSummary": "Vogue Runway 收录 Baum und Pferdgarten 2027 春夏系列的造型、妆发与评论，提供哥本哈根时装周的完整视觉样本。",
+            "chineseTitle": "Baum und Pferdgarten 2027 春夏哥本哈根秀场",
+            "contentHash": "sha1:c8b050360470beda49c05b967a4d03c38081ebd3",
+            "itemId": "visual-vogue-runway-18l3r57",
+            "model": "codex-agent",
+            "primaryTopic": "styling",
+            "promptVersion": "visual-daily-v1",
+            "score": 94,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 18,
+              "professionalRelevance": 19,
+              "sourceQuality": 10,
+              "timeliness": 5,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "权威秀场记录适合追踪北欧当季造型和色彩语言。",
+            "status": "success",
+            "trendKeywords": [
+              "哥本哈根时装周",
+              "2027春夏",
+              "北欧造型"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-26T09:23:00.000Z",
+            "chineseSummary": "Vogue Runway 的评论称，设计师观察舞者离开排练后的随意混搭，并将其转成 2027 春夏系列。迷你芭蕾裙被当作腰带，堆叠腿套反复出现，形成舞蹈元素与日常服装的交叉。",
+            "chineseTitle": "Baum und Pferdgarten 从芭蕾排练后的街头穿搭取材",
+            "contentHash": "sha1:c8b050360470beda49c05b967a4d03c38081ebd3",
+            "itemId": "visual-vogue-runway-18l3r57",
+            "model": "codex-agent",
+            "primaryTopic": "styling",
+            "promptVersion": "visual-daily-v1",
+            "score": 82,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 15,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 0,
+              "visualInspiration": 26
+            },
+            "selectionRationale": "参考点是表演服元素如何转为日常搭配，而非笼统的北欧色彩或廓形。",
+            "status": "success",
+            "trendKeywords": [
+              "Baum und Pferdgarten",
+              "芭蕾混搭",
+              "日常造型"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.vogue.com/fashion-shows/copenhagen-spring-2027/baum-und-pferdgarten",
+              "snapshotHash": "e704a633fe3f3e9864030fc56bf2eca39503f4ffe690d7e7186b2900e4d4fcc2",
+              "facts": [
+                {
+                  "statement": "系列灵感来自这种随意混搭。",
+                  "quote": "This haphazard styling was the inspiration"
+                },
+                {
+                  "statement": "迷你芭蕾裙被用作腰带。",
+                  "quote": "miniature tutus worn as belts"
+                }
+              ],
+              "visualMethod": "编辑分析：改变舞蹈服配件的使用位置，与普通上装和外套叠搭，让主题通过重复细节而非全套戏服呈现。",
+              "application": "可用同一舞蹈元素做三种不同位置的造型试验，以同机位对照主题识别度和日常感。",
+              "visualTags": [
+                "构图",
+                "材质",
+                "叙事"
+              ],
+              "limitation": "仅核验评论文本，未逐套复核全部秀场图片；创作练习是编辑建议。"
+            }
+          },
+          "correctedAt": "2026-10-26T09:23:00.000Z"
+        },
+        {
+          "itemId": "visual-vogue-runway-1t3kpuq",
+          "previous": {
+            "analyzedAt": "2026-08-06T02:10:00.529Z",
+            "chineseSummary": "Vogue Runway 收录 Institution by Galib Gassanoff 的哥本哈根 2027 春夏秀场，为该品牌将工艺传承转为当代服装的实践提供视觉档案。",
+            "chineseTitle": "Institution by Galib Gassanoff 2027 春夏系列",
+            "contentHash": "sha1:d352e6f6fe052298fd4702659bdabc3dd316c739",
+            "itemId": "visual-vogue-runway-1t3kpuq",
+            "model": "codex-agent",
+            "primaryTopic": "styling",
+            "promptVersion": "visual-daily-v1",
+            "score": 94,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 18,
+              "professionalRelevance": 19,
+              "sourceQuality": 10,
+              "timeliness": 5,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "与此前工艺保护项目相互印证，呈现文化实践进入秀场的结果。",
+            "status": "success",
+            "trendKeywords": [
+              "Institution",
+              "工艺传承",
+              "哥本哈根秀场"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-26T09:23:00.000Z",
+            "chineseSummary": "Vogue Runway 介绍 Galib Gassanoff 在哥本哈根的发布：跑道两侧铺设来自多个地区的织毯，模特穿两位阿塞拜疆工匠手织的 jorab 袜。服装以较浅色调、包裹式轮廓和手工细节连接家庭记忆与当代造型。",
+            "chineseTitle": "Institution 用地毯与手织袜把工艺记忆带进秀场",
+            "contentHash": "sha1:d352e6f6fe052298fd4702659bdabc3dd316c739",
+            "itemId": "visual-vogue-runway-1t3kpuq",
+            "model": "codex-agent",
+            "primaryTopic": "styling",
+            "promptVersion": "visual-daily-v1",
+            "score": 85,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 16,
+              "professionalRelevance": 19,
+              "sourceQuality": 9,
+              "timeliness": 0,
+              "visualInspiration": 27
+            },
+            "selectionRationale": "工匠、材料与秀场布置有具体关联，可以研究文化叙事如何落到身体和行走路径。",
+            "status": "success",
+            "trendKeywords": [
+              "Institution",
+              "jorab手织袜",
+              "工艺记忆"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.vogue.com/fashion-shows/copenhagen-spring-2027/institution-by-galib-gassanoff",
+              "snapshotHash": "c616e08ca3501b5525eec6cd1f39c7bf117dcc824e2841cda547c2f9bc010a2a",
+              "facts": [
+                {
+                  "statement": "秀场以多地来源的织毯布置跑道。",
+                  "quote": "the runway, which was lined with rich woven carpets"
+                },
+                {
+                  "statement": "袜子由两名阿塞拜疆工匠手织。",
+                  "quote": "hand-knitted by two Azerbaijani artisans"
+                }
+              ],
+              "visualMethod": "编辑分析：用穿着物和地面织物共同构建场景，使工艺既被看见也参与模特的行走体验。",
+              "application": "可把一件工艺配饰与一个环境材料共同纳入造型板，注明各自来源，再用全身照和细节照交代联系。",
+              "visualTags": [
+                "工艺",
+                "材质",
+                "空间"
+              ],
+              "limitation": "依据秀场评论，未独立核对采购与工匠合同；不把个别工艺概括为整个地区的统一风格。"
+            }
+          },
+          "correctedAt": "2026-10-26T09:23:00.000Z"
+        },
+        {
+          "itemId": "visual-w-magazine-1trzkv9",
+          "previous": {
+            "analyzedAt": "2026-08-06T02:10:00.529Z",
+            "chineseSummary": "W Magazine 汇集哥本哈根时装周春夏 2027 的重要秀场，并以 20 周年节点回看从 By Malene Birger 到 Paolina Russo 的风格分化。",
+            "chineseTitle": "哥本哈根时装周 20 周年秀场的关键造型",
+            "contentHash": "sha1:07b9b6bce1ae90a487786ba6eb8a12b060571100",
+            "itemId": "visual-w-magazine-1trzkv9",
+            "model": "codex-agent",
+            "primaryTopic": "styling",
+            "promptVersion": "visual-daily-v1",
+            "score": 93,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 18,
+              "professionalRelevance": 19,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "周年节点与多品牌并置，适合观察哥本哈根时尚生态。",
+            "status": "success",
+            "trendKeywords": [
+              "哥本哈根时装周",
+              "秀场精选",
+              "北欧时尚"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-26T09:23:00.000Z",
+            "chineseSummary": "W Magazine 的动态更新图集汇集哥本哈根 2027 春夏秀场，正文给出 8 月 3 日至 7 日的日程，并列出新秀及客座品牌。它适合作为各品牌原始图像的索引，不能仅凭图集标题得出统一趋势结论。",
+            "chineseTitle": "哥本哈根 2027 春夏秀场图集：跨品牌比较入口",
+            "contentHash": "sha1:07b9b6bce1ae90a487786ba6eb8a12b060571100",
+            "itemId": "visual-w-magazine-1trzkv9",
+            "model": "codex-agent",
+            "primaryTopic": "styling",
+            "promptVersion": "visual-daily-v1",
+            "score": 69,
+            "scoreBreakdown": {
+              "informationSpecificity": 11,
+              "novelty": 11,
+              "professionalRelevance": 16,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 23
+            },
+            "selectionRationale": "保留为对比研究资料，降低原先仅凭图集标题给出的高创新性评分。",
+            "status": "success",
+            "trendKeywords": [
+              "哥本哈根时装周",
+              "秀场图集",
+              "跨品牌比较"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.wmagazine.com/fashion/copenhagen-fashion-week-spring-summer-2027-best-looks-runway-photos",
+              "snapshotHash": "6af23602e6a79db8e0bcfca01b0f64217a4c82e34b6515bb22e17a1c66aa40ca",
+              "facts": [
+                {
+                  "statement": "正文列出的时装周日程为 8 月 3 日至 7 日。",
+                  "quote": "runs from August 3 to August 7"
+                },
+                {
+                  "statement": "文章初次发布于 2026 年 8 月 3 日。",
+                  "quote": "originally published on Aug. 3, 2026"
+                }
+              ],
+              "visualMethod": "编辑分析：图集按品牌归组，可作为横向比较入口；趋势需在逐图编码后再判断。",
+              "application": "可选三个品牌各五套造型，用一致字段记录颜色、廓形和材质，再判断哪些共性确实跨品牌出现。",
+              "visualTags": [
+                "色彩",
+                "构图"
+              ],
+              "limitation": "只核验网页日程与图集结构，未逐张分析整套图片；内容会随编辑更新，不能还原当日全部版本。"
+            }
+          },
+          "correctedAt": "2026-10-26T09:23:00.000Z"
+        },
+        {
+          "itemId": "visual-dazed-19b0oow",
+          "previous": {
+            "analyzedAt": "2026-08-06T02:10:00.529Z",
+            "chineseSummary": "设计师 Justin Miller 从线上二手交易平台收集物件，并参与“Still Available”线下驻留，让数字淘物、古着发现和空间策展相互转译。",
+            "chineseTitle": "Justin Miller 把 Facebook Marketplace 变成线下策展现场",
+            "contentHash": "sha1:9a063ed56e2b7198138e3b56c6408b5caa6d622b",
+            "itemId": "visual-dazed-19b0oow",
+            "model": "codex-agent",
+            "primaryTopic": "creator",
+            "promptVersion": "visual-daily-v1",
+            "score": 93,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 19,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "平台购物被转化为收藏与线下展示，媒介路径新颖。",
+            "status": "success",
+            "trendKeywords": [
+              "二手策展",
+              "数字收藏",
+              "线下驻留"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-26T09:23:00.000Z",
+            "chineseSummary": "Dazed 采访 Justin Miller，回看 7 月 23 至 25 日举办的 Facebook Marketplace“Still Available”线下活动。他负责家具、艺术与整体氛围，先确定大件家具，再让平台上实际可找到的物件影响空间方向；并不是长期开放的场所。",
+            "chineseTitle": "Justin Miller 的三天二手策展：先找大件，再生成空间",
+            "contentHash": "sha1:9a063ed56e2b7198138e3b56c6408b5caa6d622b",
+            "itemId": "visual-dazed-19b0oow",
+            "model": "codex-agent",
+            "primaryTopic": "creator",
+            "promptVersion": "visual-daily-v1",
+            "score": 81,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 15,
+              "professionalRelevance": 18,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 26
+            },
+            "selectionRationale": "可借鉴的是限时项目的选物顺序和对现有资源的适应，不照搬其对平台效果的宣传性评价。",
+            "status": "success",
+            "trendKeywords": [
+              "Justin Miller",
+              "二手策展",
+              "限时空间"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.dazeddigital.com/life-culture/article/70756/1/inside-justin-miller-s-facebook-marketplace-sanctuary?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=inside-justin-miller-s-facebook-marketplace-sanctuary",
+              "snapshotHash": "2759d20e1c3de52a388701808ef104937f2cb656851c25fce7b3db789e6280ef",
+              "facts": [
+                {
+                  "statement": "活动持续三天。",
+                  "quote": "a three-day IRL activation"
+                },
+                {
+                  "statement": "选物从大件家具开始。",
+                  "quote": "I started with the bigger furniture pieces"
+                }
+              ],
+              "visualMethod": "编辑分析：以少量大体量物件确定色彩与尺度，再用实际可得的小件补全，使资源约束参与设计。",
+              "application": "可先选两件可取得的大型道具，搭出三种布局草图，再添加小件；分别记录视觉效果与实际舒适、安全需求。",
+              "visualTags": [
+                "空间",
+                "色彩",
+                "构图"
+              ],
+              "limitation": "品牌线下活动采访，未核实平台商业效果或采访者提及的交易收益；三天展陈思路不能直接替代长期居住设计。"
+            }
+          },
+          "correctedAt": "2026-10-26T09:23:00.000Z"
+        },
+        {
+          "itemId": "visual-dazed-19b0oow",
+          "imageAdded": "https://images-prod.dazeddigital.com/1200/0-428-1995-1330/azure/dazed-prod/1450/0/1450791.jpg",
+          "correctedAt": "2026-10-26T09:23:00.000Z"
+        }
+      ]
+    },
+    {
+      "issueId": "2026-10-21",
+      "changes": [
+        {
+          "itemId": "visual-tokyo-photo-museum-mwdkx9",
+          "previous": {
+            "analyzedAt": "2026-10-21T09:49:07.318Z",
+            "chineseSummary": "东京都写真美术馆举办木村伊兵卫摄影奖第 50 回纪念展，回顾这一奖项如何持续塑造日本摄影的新生代谱系。",
+            "chineseTitle": "木村伊兵卫摄影奖五十周年纪念展",
+            "contentHash": "sha1:70bfdc0b4a113080481599bae0e97eefc5af1fab",
+            "itemId": "visual-tokyo-photo-museum-mwdkx9",
+            "model": "codex-agent",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 95,
+            "scoreBreakdown": {
+              "informationSpecificity": 15,
+              "novelty": 17,
+              "professionalRelevance": 20,
+              "sourceQuality": 10,
+              "timeliness": 5,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "奖项周年展具有清晰的摄影史和人才生态观察价值。",
+            "status": "success",
+            "trendKeywords": [
+              "木村伊兵卫",
+              "日本摄影奖",
+              "摄影史"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-26T09:32:00.000Z",
+            "chineseSummary": "官方说明以摄影奖第 50 回为节点回看获奖创作者的实践，涉及纪实、肖像、私摄影及拓展媒介等方向。主办方同时注明部分获奖者作品未展出，部分展出作品也不同于获奖作，因此不能将其描述为完整获奖作品全集。",
+            "chineseTitle": "木村伊兵卫摄影奖第 50 回纪念展：从创作起点回看摄影表达",
+            "contentHash": "sha1:70bfdc0b4a113080481599bae0e97eefc5af1fab",
+            "itemId": "visual-tokyo-photo-museum-mwdkx9",
+            "model": "codex-agent",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 81,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 13,
+              "professionalRelevance": 18,
+              "sourceQuality": 10,
+              "timeliness": 2,
+              "visualInspiration": 24
+            },
+            "selectionRationale": "可参考奖项史如何串联多种摄影表达，同时保留官方对展品完整性的限制。",
+            "status": "success",
+            "trendKeywords": [
+              "木村伊兵卫摄影奖",
+              "摄影展览",
+              "创作脉络"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://topmuseum.jp/exhibition/5478",
+              "snapshotHash": "337e4cb66f52945e8aa5e30d5363db34bf82e9490d8399eaf43772e7f0f0210f",
+              "facts": [
+                {
+                  "statement": "2026 年该奖迎来第 50 回。",
+                  "quote": "「木村伊兵衛写真賞」は第50回を迎えました"
+                },
+                {
+                  "statement": "部分获奖者的作品不在本次展出范围内。",
+                  "quote": "一部の受賞作家の作品の展示はございません"
+                }
+              ],
+              "visualMethod": "编辑分析：以创作者的起点与后续表达作为阅读线索，比单纯按年份排作品更适合比较摄影方法。",
+              "application": "可为几个创作者各选一件早期与一件后期作品，标明出处和时间，比较主题与媒介如何变化；不推断未展出的作品。",
+              "visualTags": [
+                "叙事",
+                "构图"
+              ],
+              "limitation": "核验依据官方展览说明，未现场观看；展期独立记录为活动日期，不冒充文章发布时间。"
+            }
+          },
+          "correctedAt": "2026-10-26T09:32:00.000Z"
+        },
+        {
+          "itemId": "visual-tokyo-photo-museum-mwdkx9",
+          "field": "eventStartsAt",
+          "previous": null,
+          "corrected": "2026-10-31",
+          "correctedAt": "2026-10-26T09:32:00.000Z"
+        },
+        {
+          "itemId": "visual-tokyo-photo-museum-mwdkx9",
+          "field": "eventEndsAt",
+          "previous": null,
+          "corrected": "2026-11-23",
+          "correctedAt": "2026-10-26T09:32:00.000Z"
+        },
+        {
+          "itemId": "visual-tokyo-photo-museum-mwdksv",
+          "previous": {
+            "analyzedAt": "2026-10-21T09:49:07.318Z",
+            "chineseSummary": "东京都写真美术馆公布惠比寿映像祭 2027 的前瞻信息，持续把影像、装置与新媒体实践置于公共讨论中心。",
+            "chineseTitle": "惠比寿映像祭 2027 预告释放",
+            "contentHash": "sha1:ecdb922d0b1315a2b2e6627fb9adf752ff7c3ded",
+            "itemId": "visual-tokyo-photo-museum-mwdksv",
+            "model": "codex-agent",
+            "primaryTopic": "exhibition",
+            "promptVersion": "visual-daily-v1",
+            "score": 92,
+            "scoreBreakdown": {
+              "informationSpecificity": 13,
+              "novelty": 18,
+              "professionalRelevance": 19,
+              "sourceQuality": 10,
+              "timeliness": 5,
+              "visualInspiration": 27
+            },
+            "selectionRationale": "重要影像节展的前瞻信号，适合追踪新媒体艺术生态。",
+            "status": "success",
+            "trendKeywords": [
+              "惠比寿映像祭",
+              "新媒体艺术",
+              "影像节"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-26T09:32:00.000Z",
+            "chineseSummary": "官方预告页介绍惠比寿映像祭作为年度影像与艺术节，以展览、放映、现场表演和对谈等形式共同展开，并提及新进创作者支持及社区联系。当前正文未给出足以概括 2027 策展主题的详细材料。",
+            "chineseTitle": "惠比寿映像祭 2027 预告：展览、放映与现场活动并置",
+            "contentHash": "sha1:ecdb922d0b1315a2b2e6627fb9adf752ff7c3ded",
+            "itemId": "visual-tokyo-photo-museum-mwdksv",
+            "model": "codex-agent",
+            "primaryTopic": "exhibition",
+            "promptVersion": "visual-daily-v1",
+            "score": 67,
+            "scoreBreakdown": {
+              "informationSpecificity": 10,
+              "novelty": 10,
+              "professionalRelevance": 15,
+              "sourceQuality": 10,
+              "timeliness": 2,
+              "visualInspiration": 20
+            },
+            "selectionRationale": "保留为节展形式与后续观察入口，降低对尚未披露策展内容的推断。",
+            "status": "success",
+            "trendKeywords": [
+              "惠比寿映像祭",
+              "影像节",
+              "公共活动"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://topmuseum.jp/exhibition/5425",
+              "snapshotHash": "3ce68217fa46cf9f0ae762bf0cbf62f14b9c7ad6c64a51c35857a4ed263e49cd",
+              "facts": [
+                {
+                  "statement": "节展结合展示、放映、现场表演和对谈。",
+                  "quote": "展示、上映、ライヴ・パフォーマンス、トーク・セッション"
+                },
+                {
+                  "statement": "说明中提到支持新进创作者。",
+                  "quote": "新進作家の発掘・支援"
+                }
+              ],
+              "visualMethod": "编辑分析：同一影像议题可以通过展陈、放映和讨论等不同参与方式形成多层入口。",
+              "application": "可把一个影像选题拆成观看、参与和讨论三个环节，先比较每个环节的必要性；这不是对该届实际策展的复述。",
+              "visualTags": [
+                "动态影像",
+                "空间",
+                "叙事"
+              ],
+              "limitation": "官方页面主要是通用介绍与预告，未核验 2027 完整节目单、艺术家或主题；不视为详细展评。"
+            }
+          },
+          "correctedAt": "2026-10-26T09:32:00.000Z"
+        },
+        {
+          "itemId": "visual-tokyo-photo-museum-mwdksv",
+          "field": "eventStartsAt",
+          "previous": null,
+          "corrected": "2027-02-05",
+          "correctedAt": "2026-10-26T09:32:00.000Z"
+        },
+        {
+          "itemId": "visual-tokyo-photo-museum-mwdksv",
+          "field": "eventEndsAt",
+          "previous": null,
+          "corrected": "2027-02-21",
+          "correctedAt": "2026-10-26T09:32:00.000Z"
+        }
+      ]
     }
   ]
 }

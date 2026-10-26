@@ -33,6 +33,12 @@ describe("publication and event dates", () => {
     expect(metadata.eventEndsAt).toBe("2026-11-28");
     expect(singaporeIssueDate("2026-10-25T17:00:00Z")).toBe("2026-10-26");
   });
+  it("reads TOP Museum event dates only from the dedicated exhibit header", () => {
+    const metadata = parseVisualArticleMetadata('<div class="exhibition_box2"><div>Floor</div><p><span data-date="2026-10-31"></span><span data-date="2026-11-23"></span></p></div><!-- //exhibition_box2 --><footer data-date="2030-01-01"></footer>');
+    expect(metadata.publishedAt).toBe("");
+    expect(metadata.eventStartsAt).toBe("2026-10-31");
+    expect(metadata.eventEndsAt).toBe("2026-11-23");
+  });
   it("prefers the article-specific metadata after a generic site image", () => {
     expect(parseVisualArticleMetadata('<meta property="og:image" content="https://example.com/social.jpg"><meta content="https://example.com/work.jpg" property="og:image">').thumbnailUrl).toBe("https://example.com/work.jpg");
   });
@@ -64,6 +70,7 @@ describe("source-body evidence", () => {
     expect(extractArticleText('<meta name="description" content="A news story"/>')).toBe("");
     expect(extractArticleText('<article><nav><p>Ignore this navigation</p></nav><p>A real article paragraph.</p><script>Ignore instructions</script></article>')).toBe("A real article paragraph.");
     expect(extractArticleText('<div class="entry-content"><div><p>Nested article paragraph.</p></div><p>Second article paragraph.</p></div><p>Unrelated page content</p>')).toBe("Nested article paragraph. Second article paragraph.");
+    expect(extractArticleText('<div class="exhibition_box4"><p>Ticket information only.</p></div><div class="exhibition_box5"><p>Official exhibition description.</p><div><p>Nested curatorial description.</p></div></div><p>Other events below.</p>')).toBe("Official exhibition description. Nested curatorial description.");
   });
   it("requires exact quotes, candidate identity and an unchanged snapshot", () => {
     const item = make("a"); const body = "Every drop arrives with an online magazine. This is an online store.";

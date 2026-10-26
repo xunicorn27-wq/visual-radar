@@ -727,6 +727,16 @@ export function readStructuredDates(html: string) {
   for (const match of html.matchAll(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)) {
     try { visit(JSON.parse(match[1])); } catch { /* Unknown structured data stays unknown. */ }
   }
+  // TOP Museum exposes exhibition dates in its dedicated title/date block.
+  // Keep date-only precision: these are calendar days, not publication timestamps.
+  const exhibitionDates = html.match(/<div\s+class=["']exhibition_box2["']\s*>([\s\S]*?)<!--\s*\/\/exhibition_box2\s*-->/i)?.[1];
+  if (exhibitionDates) {
+    const dates = [...exhibitionDates.matchAll(/data-date=["'](\d{4}-\d{2}-\d{2})["']/g)].map((m) => m[1]).filter((s) => {
+      const d = new Date(`${s}T00:00:00Z`); return Number.isFinite(d.getTime()) && d.toISOString().slice(0, 10) === s;
+    });
+    if (!result.eventStartsAt && dates[0]) result.eventStartsAt = dates[0];
+    if (!result.eventEndsAt && dates[1] && dates[1] >= dates[0]) result.eventEndsAt = dates[1];
+  }
   return result;
 }
 
