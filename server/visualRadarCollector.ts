@@ -195,7 +195,7 @@ export const DEFAULT_VISUAL_RADAR_FEEDS: readonly VisualRadarFeedConfig[] =
     }),
     Object.freeze({
       feedUrl:
-        "https://collectionapi.metmuseum.org/public/collection/v1/search?departmentId=8&hasImages=true&q=*",
+        "https://collectionapi.metmuseum.org/public/collection/v1.1/search?departmentId=8&hasImages=true&q=*&offset=0&limit=32",
       format: "met-api" as const,
       sourceId: "met-costume-institute",
     }),
@@ -590,8 +590,9 @@ function buildVisualRadarItem({
   });
 }
 
-async function fetchUrlText(url: string): Promise<string> {
-  const response = await fetch(url, {
+export async function fetchUrlText(url: string, fetchImpl: typeof fetch = fetch, pause = (ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms))): Promise<string> {
+  for (let attempt = 0; attempt < 3; attempt++) {
+  const response = await fetchImpl(url, {
     headers: {
       accept: "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
       "user-agent": "Mozilla/5.0 VisualRadarBot/0.1",
@@ -600,10 +601,17 @@ async function fetchUrlText(url: string): Promise<string> {
   });
 
   if (!response.ok) {
+    if ([502, 503, 504].includes(response.status) && attempt < 2) {
+      await response.body?.cancel();
+      await pause(500 * (attempt + 1));
+      continue;
+    }
     throw new Error(`HTTP ${response.status} ${response.statusText}`.trim());
   }
 
   return response.text();
+  }
+  throw new Error("采集重试次数耗尽");
 }
 
 function readTag(block: string, tagName: string) {
@@ -764,12 +772,18 @@ async function enrichVisualHtmlItem(
       eventStartsAt: metadata.eventStartsAt || item.eventStartsAt,
       eventEndsAt: metadata.eventEndsAt || item.eventEndsAt,
       summary: metadata.summary || item.summary,
-      thumbnailUrl: metadata.thumbnailUrl || item.thumbnailUrl,
+      thumbnailUrl: usableArticleImage(metadata.thumbnailUrl) || usableArticleImage(item.thumbnailUrl),
       title: metadata.title || item.title,
     };
   } catch {
     return item;
   }
+}
+
+function usableArticleImage(value: string | null | undefined) {
+  if (!value) return null;
+  try { return /\/(social|default|placeholder|logo)(?:[-_.\/]|$)/i.test(new URL(value).pathname) ? null : value; }
+  catch { return null; }
 }
 
 async function collectMetCostumeItems(
@@ -800,7 +814,7 @@ async function collectMetCostumeItems(
         primaryImageSmall?: string;
         title?: string;
       };
-      if (object.department !== "The Costume Institute" || !object.objectURL) continue;
+      if (!["The Costume Institute", "Costume Institute"].includes(object.department || "") || !object.objectURL) continue;
       const title = decodeXml(object.title || object.objectName || "Costume Institute object");
       items.push({
         link: object.objectURL,

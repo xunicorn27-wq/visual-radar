@@ -1,0 +1,113 @@
+{
+  "generatedAt": "2026-10-26T09:10:41.959Z",
+  "targetedProbe": true,
+  "primaryItemsUnchanged": true,
+  "sources": [
+    {
+      "sourceId": "bjp-1854",
+      "label": "British Journal of Photography",
+      "core": true,
+      "status": "failed",
+      "itemCount": 0,
+      "consecutiveFailures": 3,
+      "lastCheckedAt": "2026-10-26T09:10:41.959Z",
+      "lastSuccessAt": null,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "sourceId": "lensculture",
+      "label": "LensCulture",
+      "core": true,
+      "status": "failed",
+      "itemCount": 0,
+      "consecutiveFailures": 3,
+      "lastCheckedAt": "2026-10-26T09:10:41.959Z",
+      "lastSuccessAt": null,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "sourceId": "palais-galliera",
+      "label": "Palais Galliera",
+      "core": true,
+      "status": "failed",
+      "itemCount": 0,
+      "consecutiveFailures": 3,
+      "lastCheckedAt": "2026-10-26T09:10:41.959Z",
+      "lastSuccessAt": null,
+      "error": "HTTP 503 Service Unavailable"
+    },
+    {
+      "sourceId": "tokyo-photo-museum",
+      "label": "Tokyo Photographic Art Museum",
+      "core": true,
+      "status": "ok",
+      "itemCount": 3,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-26T09:10:41.959Z",
+      "lastSuccessAt": "2026-10-26T09:10:41.959Z",
+      "error": null
+    },
+    {
+      "sourceId": "met-costume-institute",
+      "label": "The Met Costume Institute",
+      "core": true,
+      "status": "ok",
+      "itemCount": 3,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-26T09:10:41.959Z",
+      "lastSuccessAt": "2026-10-26T09:10:41.959Z",
+      "error": null
+    }
+  ],
+  "summary": {
+    "attempted": 5,
+    "healthy": 2,
+    "failed": 3,
+    "empty": 0,
+    "coreHealthy": 2,
+    "coreTotal": 5,
+    "alerts": [
+      "British Journal of Photography：HTTP 403 Forbidden，连续 3 次",
+      "LensCulture：HTTP 403 Forbidden，连续 3 次",
+      "Palais Galliera：HTTP 503 Service Unavailable，连续 3 次"
+    ]
+  },
+  "samples": [
+    {
+      "source": "Tokyo Photographic Art Museum",
+      "title": "展覧会：ふたたびくみたてる 日本の新進作家 vol.23 | 東京都写真美術館",
+      "url": "https://topmuseum.jp/exhibition/5423",
+      "publishedAt": null
+    },
+    {
+      "source": "Tokyo Photographic Art Museum",
+      "title": "展覧会：デュエット――アジアン・コンテンポラリー | 東京都写真美術館",
+      "url": "https://topmuseum.jp/exhibition/5421",
+      "publishedAt": null
+    },
+    {
+      "source": "Tokyo Photographic Art Museum",
+      "title": "展覧会：恵比寿映像祭2027（仮） | 東京都写真美術館",
+      "url": "https://topmuseum.jp/exhibition/5425",
+      "publishedAt": null
+    },
+    {
+      "source": "The Met Costume Institute",
+      "title": "Scarf",
+      "url": "https://www.metmuseum.org/art/collection/search/100063",
+      "publishedAt": null
+    },
+    {
+      "source": "The Met Costume Institute",
+      "title": "Vest",
+      "url": "https://www.metmuseum.org/art/collection/search/100060",
+      "publishedAt": null
+    },
+    {
+      "source": "The Met Costume Institute",
+      "title": "Vest",
+      "url": "https://www.metmuseum.org/art/collection/search/100059",
+      "publishedAt": null
+    }
+  ]
+}

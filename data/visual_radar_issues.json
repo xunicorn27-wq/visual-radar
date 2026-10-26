@@ -3673,30 +3673,54 @@
       "stories": [
         {
           "analysis": {
-            "analyzedAt": "2026-10-21T09:49:07.318Z",
-            "chineseSummary": "Runway Research 发布 GWM Worlds 2，继续探索可模拟环境、行为和镜头逻辑的世界模型，为生成影像走向连续可控的场景提供方向。",
-            "chineseTitle": "Runway 推出 GWM Worlds 2 世界模型研究",
+            "analyzedAt": "2026-10-26T09:12:00.000Z",
+            "chineseSummary": "Runway 在研究预览中介绍 WorldPrompt，将环境持续状态与随时间发生的动作分层，供相机、角色和场景交互使用。官方页面标注 2026 年 9 月 3 日，不能作为 10 月 21 日的新发布；实时画质与长期记忆仍有限制。",
+            "chineseTitle": "Runway GWM Worlds 2：以持续状态与事件提示控制交互影像",
             "contentHash": "sha1:94f501f7f96d121d5f56ad1dafd3bbb6525493a9",
             "itemId": "visual-runway-hrfmq9",
             "model": "codex-agent",
             "primaryTopic": "tool",
             "promptVersion": "visual-daily-v1",
-            "score": 99,
+            "score": 81,
             "scoreBreakdown": {
-              "informationSpecificity": 15,
-              "novelty": 20,
-              "professionalRelevance": 20,
-              "sourceQuality": 10,
-              "timeliness": 5,
-              "visualInspiration": 29
+              "informationSpecificity": 14,
+              "novelty": 16,
+              "professionalRelevance": 18,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 25
             },
-            "selectionRationale": "一手 AI 影像研究直接影响创意工具和动态世界构建。",
+            "selectionRationale": "可借鉴状态与事件分层的提示设计，但把供应商演示与实际可用性、产品开放范围分开。",
             "status": "success",
             "trendKeywords": [
-              "世界模型",
-              "生成影像",
-              "Runway"
-            ]
+              "Runway",
+              "WorldPrompt",
+              "交互影像"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://runwayml.com/research/introducing-gwm-worlds-2",
+              "snapshotHash": "0b579c8e90e3ac92c82305e799cb1d641c6692512cafe47fd74c4867f6d16267",
+              "facts": [
+                {
+                  "statement": "页面自称研究预览。",
+                  "quote": "GWM Worlds 2 is a research preview"
+                },
+                {
+                  "statement": "提示格式区分持续状态与随时间变化的部分。",
+                  "quote": "what persists and what changes over time"
+                }
+              ],
+              "visualMethod": "编辑分析：把场景设定、角色约束和逐时动作分层，有助于讨论连续镜头中的一致性与变化。",
+              "application": "可为同一场景分别写一份持续设定和三条动作事件，再比较镜头运动后的空间一致性；这只是实验方案。",
+              "visualTags": [
+                "动态影像",
+                "空间",
+                "叙事"
+              ],
+              "limitation": "仅核验供应商研究页，未运行模型或验证性能；原地址明确跳转到 runway.com，保留原来源链接和快照。"
+            }
           },
           "item": {
             "capturedAt": "2026-10-21T09:48:44.889Z",
@@ -3753,30 +3777,54 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-10-21T09:49:07.318Z",
-            "chineseSummary": "Alice Diop 在 Art Basel Paris 为 Miu Miu 策划项目，以黑人女性创作者为中心，把时装品牌的文化平台转化为影像与艺术的公共对话。",
-            "chineseTitle": "Alice Diop 为 Miu Miu 在巴黎巴塞尔策划黑人女性创造力",
+            "analyzedAt": "2026-10-26T09:12:00.000Z",
+            "chineseSummary": "Wallpaper* 介绍 Alice Diop 为 Miu Miu 与 Art Basel Paris 合作项目策划的《Geste de Consolation》。展览将多位黑人女性艺术家的作品安排于四个相连空间，并包含 Diop 以历史档案构成的双屏影像。",
+            "chineseTitle": "Alice Diop 用四个相连空间与双屏影像组织《Geste de Consolation》",
             "contentHash": "sha1:4b5e55506683d50fb8e95845754a1cd53f4cce1e",
             "itemId": "visual-wallpaper-1oogo2w",
             "model": "codex-agent",
             "primaryTopic": "exhibition",
             "promptVersion": "visual-daily-v1",
-            "score": 97,
+            "score": 83,
             "scoreBreakdown": {
-              "informationSpecificity": 15,
-              "novelty": 19,
-              "professionalRelevance": 20,
-              "sourceQuality": 9,
-              "timeliness": 5,
-              "visualInspiration": 29
+              "informationSpecificity": 14,
+              "novelty": 16,
+              "professionalRelevance": 18,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 27
             },
-            "selectionRationale": "策展人、时装品牌与艺术博览会的合作具备鲜明文化议题。",
+            "selectionRationale": "把观看动线、跨媒介作品和个人影像档案结合，提供具体的空间叙事参考。",
             "status": "success",
             "trendKeywords": [
-              "Miu Miu",
-              "Art Basel Paris",
-              "黑人女性创造力"
-            ]
+              "Alice Diop",
+              "双屏影像",
+              "策展动线"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.wallpaper.com/art/exhibitions-shows/alice-diop-miu-miu-art-basel-paris-2026-interview",
+              "snapshotHash": "2d8471937c3950e16eff7ca61a15d0dc88ab35515ccb5222b9ac40b5241517f8",
+              "facts": [
+                {
+                  "statement": "作品沿四个相连空间展开。",
+                  "quote": "across four connecting spaces"
+                },
+                {
+                  "statement": "双屏装置汇集历史影像。",
+                  "quote": "The resulting two-screen video installation unites archival footage"
+                }
+              ],
+              "visualMethod": "编辑分析：通过连续空间建立章节，再以双屏把不同来源的图像关系交给观众比较。",
+              "application": "可先做四区动线草图和双屏时间表，测试两路素材在何时呼应或冲突，并给档案素材保留来源注释。",
+              "visualTags": [
+                "空间",
+                "动态影像",
+                "叙事"
+              ],
+              "limitation": "依据报道，未现场观看；项目具有时装品牌合作背景，未独立验证观众体验。"
+            }
           },
           "item": {
             "capturedAt": "2026-10-21T09:48:44.889Z",
@@ -3834,30 +3882,54 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-10-21T09:49:07.318Z",
-            "chineseSummary": "Vogue Runway 收录 Mikio Sakabe 东京 2027 春夏系列，为观察日本独立时装的造型实验、角色感和秀场表达提供原始视觉资料。",
-            "chineseTitle": "Mikio Sakabe 2027 春夏东京系列",
+            "analyzedAt": "2026-10-26T09:12:00.000Z",
+            "chineseSummary": "Vogue Runway 报道这场秀设于原宿 La Foret 商场，以泳装、解构宽大剪裁、遮眼假发和泡泡底鞋制造幻想感；跑道上刻意散置咖啡杯与饮料罐，将鲜艳表面与商场日常并置。",
+            "chineseTitle": "Mikio Sakabe 2027 春夏：商场日常与幻想造型的反差",
             "contentHash": "sha1:e044dcebb3a04383cf56d0215ecc45f516d451ba",
             "itemId": "visual-vogue-runway-1d6wnwk",
             "model": "codex-agent",
             "primaryTopic": "styling",
             "promptVersion": "visual-daily-v1",
-            "score": 97,
+            "score": 84,
             "scoreBreakdown": {
               "informationSpecificity": 14,
-              "novelty": 19,
-              "professionalRelevance": 19,
-              "sourceQuality": 10,
-              "timeliness": 5,
-              "visualInspiration": 30
+              "novelty": 16,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 0,
+              "visualInspiration": 27
             },
-            "selectionRationale": "东京独立品牌的秀场实验性强，具备高视觉灵感价值。",
+            "selectionRationale": "具体参考来自场所与造型的反差、重复配件的系列统一，而不只是笼统的实验性评价。",
             "status": "success",
             "trendKeywords": [
               "Mikio Sakabe",
-              "东京时装周",
-              "实验造型"
-            ]
+              "商场秀场",
+              "角色造型"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.vogue.com/fashion-shows/tokyo-spring-2027/mikio-sakabe",
+              "snapshotHash": "e1356e20eaff334cb91f1ccea73c65998971d66e232f4c388956ed6e1be226e8",
+              "facts": [
+                {
+                  "statement": "跑道刻意放置废弃饮料容器。",
+                  "quote": "intentionally littered with discarded coffee cups and drink cans"
+                },
+                {
+                  "statement": "全体造型使用遮眼的头盔式假发。",
+                  "quote": "eye-obscuring, helmet-like wigs"
+                }
+              ],
+              "visualMethod": "编辑分析：场地与道具保留日常感，服装和重复头部造型提供超现实反差。",
+              "application": "可在普通场景中为一组造型固定一个重复配件，再测试少量日常道具如何改变图像叙事，避免堆叠无关元素。",
+              "visualTags": [
+                "空间",
+                "构图",
+                "叙事"
+              ],
+              "limitation": "依据秀场评论，未独立核对所有造型或现场布置；应用建议不代表设计师意图。"
+            }
           },
           "item": {
             "capturedAt": "2026-10-21T09:48:44.889Z",
@@ -3994,30 +4066,54 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-10-21T09:49:07.318Z",
-            "chineseSummary": "A-POC ABLE Issey Miyake 与 JAXA 合作，将南极的环境、科学与服装制造转化为设计主题，延展服装与极端环境之间的想象。",
-            "chineseTitle": "A-POC ABLE Issey Miyake 与 JAXA 以南极为灵感协作",
+            "analyzedAt": "2026-10-26T09:12:00.000Z",
+            "chineseSummary": "FASHIONSNAP 报道 TYPE-XVII JAXA project 将气候观测卫星“しきさい”的南极图像用于提花牛仔设计，以白色冰层与深蓝海水的对比构成纹样。具体成果是图像数据向纺织表面的转译，并非航天防护服。",
+            "chineseTitle": "A-POC ABLE × JAXA：把南极观测图像转成提花牛仔",
             "contentHash": "sha1:d819a826fbe4cab1deaf87a7e69284edc7627473",
             "itemId": "visual-fashionsnap-1biyfne",
             "model": "codex-agent",
             "primaryTopic": "fashion_culture",
             "promptVersion": "visual-daily-v1",
-            "score": 95,
+            "score": 85,
             "scoreBreakdown": {
-              "informationSpecificity": 15,
-              "novelty": 19,
+              "informationSpecificity": 14,
+              "novelty": 17,
               "professionalRelevance": 19,
               "sourceQuality": 8,
-              "timeliness": 5,
-              "visualInspiration": 29
+              "timeliness": 0,
+              "visualInspiration": 27
             },
-            "selectionRationale": "时装品牌与航天机构的跨域协作，具备鲜明概念和材料研究潜力。",
+            "selectionRationale": "图像来源、材料加工和色彩关系具体，能把跨界合作转为可研究的设计路径。",
             "status": "success",
             "trendKeywords": [
-              "三宅一生",
               "JAXA",
-              "南极设计"
-            ]
+              "卫星影像",
+              "提花牛仔"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.fashionsnap.com/article/2026-10-21/a-poc-able-issey-miyake-jaxa/",
+              "snapshotHash": "72f4f487da545288705b4e378c731307cf0295e84d723a2062d0abf439e3a831",
+              "facts": [
+                {
+                  "statement": "图案采用南极大陆观测图像。",
+                  "quote": "デザインには南極大陸の観測画像を採用"
+                },
+                {
+                  "statement": "设计强调白冰与裂隙中深蓝海水的对比。",
+                  "quote": "広大な白い氷と、その割れ目からのぞく濃紺の海のコントラスト"
+                }
+              ],
+              "visualMethod": "编辑分析：以真实地貌影像提取明暗和纹理，再通过提花结构把视觉关系转入织物。",
+              "application": "可先用允许使用的地貌照片做双色分色样张，再对比平面图案与织物微距的差异，保留图像来源说明。",
+              "visualTags": [
+                "材质",
+                "色彩",
+                "工艺"
+              ],
+              "limitation": "依据产品报道，未检视面料或核对生产工艺参数；不推断服装具备极端环境功能。"
+            }
           },
           "item": {
             "capturedAt": "2026-10-21T09:48:44.889Z",
@@ -4074,30 +4170,54 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-10-21T09:49:07.318Z",
-            "chineseSummary": "Day Job 为导演 Lance Oppenheim 的制作公司建立视觉身份，把不可预测的混乱转化为可扩展的图形规则和影像气质。",
-            "chineseTitle": "Lance Oppenheim 制作公司的品牌把混乱写进系统",
+            "analyzedAt": "2026-10-26T09:12:00.000Z",
+            "chineseSummary": "Day Job 为 Lance Oppenheim 联合创立的制作公司 To Be Formed 设计品牌。正文介绍了主字标之外约 20 个可替换字标，以及以电影中的纪念物件作为网站导航的方式。",
+            "chineseTitle": "Day Job 为 To Be Formed 建立可变字标与电影物件导航",
             "contentHash": "sha1:1b6eeb47ea6c58ea287ffb3e9b8dde2c5b1ee3ec",
             "itemId": "visual-its-nice-that-14uxyku",
             "model": "codex-agent",
             "primaryTopic": "creator",
             "promptVersion": "visual-daily-v1",
-            "score": 95,
+            "score": 84,
             "scoreBreakdown": {
               "informationSpecificity": 14,
-              "novelty": 19,
+              "novelty": 16,
               "professionalRelevance": 19,
-              "sourceQuality": 9,
-              "timeliness": 5,
-              "visualInspiration": 29
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 27
             },
-            "selectionRationale": "制作公司品牌系统兼顾作者性与可复制性，是出色的视觉识别案例。",
+            "selectionRationale": "可变字标与物件导航是清晰的设计机制，能说明品牌实验性如何落实为系统。",
             "status": "success",
             "trendKeywords": [
-              "视觉识别",
-              "制作公司",
-              "动态图形"
-            ]
+              "Day Job",
+              "可变字标",
+              "物件导航"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.itsnicethat.com/articles/tbf-day-job-graphic-design-project-211026",
+              "snapshotHash": "6c052cbd5cfa63306ee546873aed369a731c6a2a16134b34aa32ae3801e2552c",
+              "facts": [
+                {
+                  "statement": "团队制作了约 20 个额外字标供替换使用。",
+                  "quote": "about 20 additional wordmarks"
+                },
+                {
+                  "statement": "电影物件被用作导航。",
+                  "quote": "the mementos from each movie as the navigation"
+                }
+              ],
+              "visualMethod": "编辑分析：用多个字标共享品牌语气，并让作品物件承担导航，使网站结构成为作者世界的一部分。",
+              "application": "可先设计一个主字标和三种受控变体，再用三个作品物件测试导航可理解性；同时保留清晰的文字入口。",
+              "visualTags": [
+                "字体",
+                "叙事",
+                "构图"
+              ],
+              "limitation": "仅依据设计团队访谈，未测试网站可用性、转化或无障碍表现。"
+            }
           },
           "item": {
             "capturedAt": "2026-10-21T09:48:44.889Z",
@@ -4142,7 +4262,7 @@
             "sourceType": "inspiration",
             "sourceUrl": "https://www.itsnicethat.com/articles/tbf-day-job-graphic-design-project-211026",
             "text": "Far from being one singular idea, Day Job’s brand for To Be Formed is the culmination of experimentation and playing with Oppenheim’s irreverent cinematic world.",
-            "thumbnailUrl": null,
+            "thumbnailUrl": "https://m.itsnicethat.com/original_images/tbf-graphic-design-itsnicethat-1.png?class=w1440",
             "title": "The brand for Lance Oppenheim’s production company has chaos built in",
             "contentHash": "sha1:1b6eeb47ea6c58ea287ffb3e9b8dde2c5b1ee3ec",
             "dedupKey": "www.itsnicethat.com/articles/tbf-day-job-graphic-design-project-211026",
@@ -4236,30 +4356,54 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-10-21T09:49:07.318Z",
-            "chineseSummary": "Vogue Runway 收录 Francisco Cancino 2027 春夏系列，为观察墨西哥时装周的当代轮廓、色彩和地域叙事提供完整视觉记录。",
-            "chineseTitle": "Francisco Cancino 2027 春夏墨西哥系列",
+            "analyzedAt": "2026-10-26T09:12:00.000Z",
+            "chineseSummary": "Vogue Runway 介绍 Cancino 的 2027 春夏系列以图谱为起点，将墨西哥日常的植物、围裙、辫子等线索转为剪裁、褶裥、体积与色彩，并与纺织艺术家 Alejandro Rincón 合作手工头饰和立体贴花。",
+            "chineseTitle": "Francisco Cancino 用日常物件图谱转译墨西哥当下",
             "contentHash": "sha1:00778514f06f234d2d7ec9b094ee1b53e95b8d7a",
             "itemId": "visual-vogue-runway-moqjko",
             "model": "codex-agent",
             "primaryTopic": "styling",
             "promptVersion": "visual-daily-v1",
-            "score": 94,
+            "score": 84,
             "scoreBreakdown": {
               "informationSpecificity": 14,
-              "novelty": 18,
-              "professionalRelevance": 19,
-              "sourceQuality": 10,
-              "timeliness": 5,
-              "visualInspiration": 28
+              "novelty": 16,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 0,
+              "visualInspiration": 27
             },
-            "selectionRationale": "权威秀场档案补充拉丁美洲时尚生态的现场视角。",
+            "selectionRationale": "从日常图谱到结构和配件的转译路径，比泛称地域叙事更具有可操作性。",
             "status": "success",
             "trendKeywords": [
-              "墨西哥时装周",
-              "2027春夏",
-              "拉丁美洲时尚"
-            ]
+              "Francisco Cancino",
+              "日常图谱",
+              "手工头饰"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.vogue.com/fashion-shows/mexico-spring-2027/francisco-cancino",
+              "snapshotHash": "5010f21fb75641237e219378ee041e6f949bccdeaa7ba5eacc3533d6b70afe38",
+              "facts": [
+                {
+                  "statement": "创作以图谱为起点。",
+                  "quote": "His starting point was the atlas"
+                },
+                {
+                  "statement": "系列包括手工头饰和立体贴花。",
+                  "quote": "handmade headpieces and three-dimensional appliqués"
+                }
+              ],
+              "visualMethod": "编辑分析：先整理日常对象，再提取其形态关系用于剪裁与配件，避免直接把符号贴在服装表面。",
+              "application": "可从一个地点选十件日常物，建立形态、色彩、动作三列参考，再做三套不同程度抽象的造型草案。",
+              "visualTags": [
+                "构图",
+                "色彩",
+                "工艺"
+              ],
+              "limitation": "依据秀场评论，未核验所有实物；编辑建议应避免把单一设计师作品概括为整个地区的风格。"
+            }
           },
           "item": {
             "capturedAt": "2026-10-21T09:48:44.889Z",
@@ -4316,30 +4460,54 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-10-21T09:49:07.318Z",
-            "chineseSummary": "Somesuch Editions 以电影预告片式影像推广小说，重新定义出版物的传播语法，让文字、视觉与声音形成统一的营销叙事。",
-            "chineseTitle": "小说预告片时代：把出版像电影一样推广",
+            "analyzedAt": "2026-10-26T09:12:00.000Z",
+            "chineseSummary": "Somesuch Editions 将小说推广与影像制作结合。《Now Burns Blue》的预告片由 Frankie Spence 执导，以伦敦地点与人物的碎片蒙太奇建立世界，再将城市环境声铺在小说朗读之下。",
+            "chineseTitle": "Somesuch Editions 用城市蒙太奇为小说制作影像简介",
             "contentHash": "sha1:3da88b7c0ae244e055b8c148ff8a63425bef76af",
             "itemId": "visual-its-nice-that-1unzu0k",
             "model": "codex-agent",
             "primaryTopic": "magazine",
             "promptVersion": "visual-daily-v1",
-            "score": 93,
+            "score": 83,
             "scoreBreakdown": {
               "informationSpecificity": 14,
-              "novelty": 19,
+              "novelty": 16,
               "professionalRelevance": 18,
-              "sourceQuality": 9,
-              "timeliness": 5,
-              "visualInspiration": 28
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 27
             },
-            "selectionRationale": "出版和影像营销的跨媒介实践，方法新颖且可迁移。",
+            "selectionRationale": "从概括的书籍预告片概念推进到剪辑和声音方法，便于形成短片创作练习。",
             "status": "success",
             "trendKeywords": [
-              "书籍预告片",
-              "出版营销",
-              "跨媒介叙事"
-            ]
+              "Somesuch Editions",
+              "小说预告片",
+              "声音设计"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.itsnicethat.com/articles/somesuch-editions-book-trailers-film-publication-project-201026",
+              "snapshotHash": "9f94fc1c9de30e43274bfdf4e2ab13dbceb05ef707edee31a658bbd115fc4ef9",
+              "facts": [
+                {
+                  "statement": "预告片使用地点与人物的碎片蒙太奇。",
+                  "quote": "a fragmented montage of images of place and people"
+                },
+                {
+                  "statement": "城市声音铺在小说文字的朗读之下。",
+                  "quote": "lie beneath spoken lines taken from the novel"
+                }
+              ],
+              "visualMethod": "编辑分析：用环境片段建立小说世界，再把文字朗读作为声音线索，保留故事悬念而不是复述完整情节。",
+              "application": "可为一段获准使用的文字制作 30 秒分镜：三个环境镜头、一个人物动作、两层声音；先测试氛围是否服务文字。",
+              "visualTags": [
+                "动态影像",
+                "叙事",
+                "构图"
+              ],
+              "limitation": "核验依据网页正文，未完整观看或逐帧分析视频，也未验证推广效果。"
+            }
           },
           "item": {
             "capturedAt": "2026-10-21T09:48:44.889Z",
@@ -4384,7 +4552,7 @@
             "sourceType": "inspiration",
             "sourceUrl": "https://www.itsnicethat.com/articles/somesuch-editions-book-trailers-film-publication-project-201026",
             "text": "This production studio slash publishing house is all about cross-pollination. Tapping into its network of filmmakers, it makes “visual blurbs” to bring the pages of its novels to life for a more digitally native world.",
-            "thumbnailUrl": null,
+            "thumbnailUrl": "https://m.itsnicethat.com/original_images/MARLOESHAARMANS_SOMESUCH_NOWBURNSBLUE_2_sggwhlY.jpeg?class=w1440",
             "title": "The era of the book trailer: why Somesuch Editions are promoting novels like films",
             "contentHash": "sha1:3da88b7c0ae244e055b8c148ff8a63425bef76af",
             "dedupKey": "www.itsnicethat.com/articles/somesuch-editions-book-trailers-film-publication-project-201026",

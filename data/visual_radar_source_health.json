@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T07:50:11.243Z",
+  "generatedAt": "2026-10-26T09:10:41.959Z",
   "sources": [
     {
       "sourceId": "bjp-1854",
@@ -7,8 +7,8 @@
       "core": true,
       "status": "failed",
       "itemCount": 0,
-      "consecutiveFailures": 1,
-      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "consecutiveFailures": 3,
+      "lastCheckedAt": "2026-10-26T09:10:41.959Z",
       "lastSuccessAt": null,
       "error": "HTTP 403 Forbidden"
     },
@@ -18,8 +18,8 @@
       "core": true,
       "status": "failed",
       "itemCount": 0,
-      "consecutiveFailures": 1,
-      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "consecutiveFailures": 3,
+      "lastCheckedAt": "2026-10-26T09:10:41.959Z",
       "lastSuccessAt": null,
       "error": "HTTP 403 Forbidden"
     },
@@ -29,8 +29,8 @@
       "core": true,
       "status": "failed",
       "itemCount": 0,
-      "consecutiveFailures": 1,
-      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "consecutiveFailures": 3,
+      "lastCheckedAt": "2026-10-26T09:10:41.959Z",
       "lastSuccessAt": null,
       "error": "HTTP 503 Service Unavailable"
     },
@@ -38,23 +38,23 @@
       "sourceId": "tokyo-photo-museum",
       "label": "Tokyo Photographic Art Museum",
       "core": true,
-      "status": "failed",
-      "itemCount": 0,
-      "consecutiveFailures": 1,
-      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
-      "lastSuccessAt": null,
-      "error": "HTTP 503 Service Unavailable"
+      "status": "ok",
+      "itemCount": 3,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-26T09:10:41.959Z",
+      "lastSuccessAt": "2026-10-26T09:10:41.959Z",
+      "error": null
     },
     {
       "sourceId": "met-costume-institute",
       "label": "The Met Costume Institute",
       "core": true,
-      "status": "failed",
-      "itemCount": 0,
-      "consecutiveFailures": 1,
-      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
-      "lastSuccessAt": null,
-      "error": "HTTP 410 Gone"
+      "status": "ok",
+      "itemCount": 3,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-26T09:10:41.959Z",
+      "lastSuccessAt": "2026-10-26T09:10:41.959Z",
+      "error": null
     },
     {
       "sourceId": "vogue-runway",
@@ -366,18 +366,16 @@
     }
   ],
   "summary": {
-    "attempted": 33,
-    "healthy": 28,
-    "failed": 5,
+    "attempted": 5,
+    "healthy": 2,
+    "failed": 3,
     "empty": 0,
-    "coreHealthy": 6,
-    "coreTotal": 11,
+    "coreHealthy": 2,
+    "coreTotal": 5,
     "alerts": [
-      "British Journal of Photography：HTTP 403 Forbidden，连续 1 次",
-      "LensCulture：HTTP 403 Forbidden，连续 1 次",
-      "Palais Galliera：HTTP 503 Service Unavailable，连续 1 次",
-      "Tokyo Photographic Art Museum：HTTP 503 Service Unavailable，连续 1 次",
-      "The Met Costume Institute：HTTP 410 Gone，连续 1 次"
+      "British Journal of Photography：HTTP 403 Forbidden，连续 3 次",
+      "LensCulture：HTTP 403 Forbidden，连续 3 次",
+      "Palais Galliera：HTTP 503 Service Unavailable，连续 3 次"
     ]
   }
 }

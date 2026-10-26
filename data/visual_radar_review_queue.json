@@ -1,30 +1,13 @@
 {
-  "generatedAt": "2026-10-26T08:10:13.573Z",
+  "generatedAt": "2026-10-26T09:14:28.746Z",
   "summary": {
     "published": 288,
-    "pending": 278,
-    "verified": 10,
-    "featuredPending": 80
+    "pending": 271,
+    "verified": 17,
+    "featuredPending": 73
   },
   "instruction": "清单不等于已核验。按 issue:correct prepare/apply 流程逐条读取正文；无法获取时保留待核验，不删除历史。",
   "entries": [
-    {
-      "issueId": "2026-10-21",
-      "itemId": "visual-runway-hrfmq9",
-      "contentHash": "sha1:94f501f7f96d121d5f56ad1dafd3bbb6525493a9",
-      "title": "Runway 推出 GWM Worlds 2 世界模型研究",
-      "source": "Runway Research",
-      "sourceUrl": "https://runwayml.com/research/introducing-gwm-worlds-2",
-      "featured": true,
-      "priority": 135,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短",
-        "日期缺失或异常"
-      ],
-      "status": "pending"
-    },
     {
       "issueId": "2026-10-21",
       "itemId": "visual-tokyo-photo-museum-mwdksv",
@@ -264,23 +247,6 @@
       "status": "pending"
     },
     {
-      "issueId": "2026-10-21",
-      "itemId": "visual-its-nice-that-14uxyku",
-      "contentHash": "sha1:1b6eeb47ea6c58ea287ffb3e9b8dde2c5b1ee3ec",
-      "title": "Lance Oppenheim 制作公司的品牌把混乱写进系统",
-      "source": "It's Nice That",
-      "sourceUrl": "https://www.itsnicethat.com/articles/tbf-day-job-graphic-design-project-211026",
-      "featured": true,
-      "priority": 125,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短",
-        "缺少配图"
-      ],
-      "status": "pending"
-    },
-    {
       "issueId": "2026-07-31",
       "itemId": "visual-dazed-udmfm2",
       "contentHash": "sha1:efe0d1daf86a6924d7ebaa9493635822d33fd343",
@@ -491,54 +457,6 @@
       "title": "M+ 启动“先锋愿景”计划塑造明日",
       "source": "M+",
       "sourceUrl": "https://www.mplus.org.hk/en/magazine/introducing-pioneering-visions",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-10-21",
-      "itemId": "visual-vogue-runway-1d6wnwk",
-      "contentHash": "sha1:e044dcebb3a04383cf56d0215ecc45f516d451ba",
-      "title": "Mikio Sakabe 2027 春夏东京系列",
-      "source": "Vogue Runway",
-      "sourceUrl": "https://www.vogue.com/fashion-shows/tokyo-spring-2027/mikio-sakabe",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-10-21",
-      "itemId": "visual-vogue-runway-moqjko",
-      "contentHash": "sha1:00778514f06f234d2d7ec9b094ee1b53e95b8d7a",
-      "title": "Francisco Cancino 2027 春夏墨西哥系列",
-      "source": "Vogue Runway",
-      "sourceUrl": "https://www.vogue.com/fashion-shows/mexico-spring-2027/francisco-cancino",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-10-21",
-      "itemId": "visual-wallpaper-1oogo2w",
-      "contentHash": "sha1:4b5e55506683d50fb8e95845754a1cd53f4cce1e",
-      "title": "Alice Diop 为 Miu Miu 在巴黎巴塞尔策划黑人女性创造力",
-      "source": "Wallpaper*",
-      "sourceUrl": "https://www.wallpaper.com/art/exhibitions-shows/alice-diop-miu-miu-art-basel-paris-2026-interview",
       "featured": true,
       "priority": 120,
       "reasons": [
@@ -853,22 +771,6 @@
       "status": "pending"
     },
     {
-      "issueId": "2026-10-21",
-      "itemId": "visual-its-nice-that-1unzu0k",
-      "contentHash": "sha1:3da88b7c0ae244e055b8c148ff8a63425bef76af",
-      "title": "小说预告片时代：把出版像电影一样推广",
-      "source": "It's Nice That",
-      "sourceUrl": "https://www.itsnicethat.com/articles/somesuch-editions-book-trailers-film-publication-project-201026",
-      "featured": true,
-      "priority": 105,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "缺少配图"
-      ],
-      "status": "pending"
-    },
-    {
       "issueId": "2026-08-06",
       "itemId": "visual-dazed-19b0oow",
       "contentHash": "sha1:9a063ed56e2b7198138e3b56c6408b5caa6d622b",
@@ -1009,21 +911,6 @@
         "历史摘要未通过正文证据核验",
         "本期精选",
         "缺少配图"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-10-21",
-      "itemId": "visual-fashionsnap-1biyfne",
-      "contentHash": "sha1:d819a826fbe4cab1deaf87a7e69284edc7627473",
-      "title": "A-POC ABLE Issey Miyake 与 JAXA 以南极为灵感协作",
-      "source": "FASHIONSNAP",
-      "sourceUrl": "https://www.fashionsnap.com/article/2026-10-21/a-poc-able-issey-miyake-jaxa/",
-      "featured": true,
-      "priority": 100,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选"
       ],
       "status": "pending"
     },

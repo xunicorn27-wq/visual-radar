@@ -11,6 +11,8 @@ export interface SourceHealth {
 }
 export interface HealthArtifact { generatedAt: string; sources: SourceHealth[]; summary: { attempted: number; healthy: number; failed: number; empty: number; coreHealthy: number; coreTotal: number; alerts: string[] } }
 export function updateSourceHealth(previous: HealthArtifact | null, artifact: VisualRadarArtifact): HealthArtifact {
+  // Historical corrections/report replays must never overwrite a newer live probe.
+  if (previous && Date.parse(artifact.generatedAt) < Date.parse(previous.generatedAt)) return previous;
   const registry = new Map(VISUAL_CULTURE_SOURCES.map((s) => [s.id, s]));
   const ids = artifact.attemptedSourceIds || [...new Set([
     ...artifact.failures.map((f) => f.sourceId),

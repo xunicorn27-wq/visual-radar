@@ -63,7 +63,7 @@ export async function fetchEvidenceHtml(rawUrl: string) {
       const location = response.headers.get("location");
       if (!location) throw new Error("原文跳转缺少地址");
       const next = new URL(location, url);
-      if (next.protocol !== "https:" || next.port || next.username || next.password || next.hostname.replace(/^www\./, "") !== original.hostname.replace(/^www\./, "")) throw new Error("原文跨站跳转，需人工核验");
+      if (!isAllowedEvidenceRedirect(original, next)) throw new Error("原文跨站跳转，需人工核验");
       url = next; continue;
     }
     if (!response.ok) throw new Error(`原文 HTTP ${response.status}`);
@@ -79,6 +79,13 @@ export async function fetchEvidenceHtml(rawUrl: string) {
     return Buffer.concat(chunks).toString("utf8");
   }
   throw new Error("原文跳转过多");
+}
+
+export function isAllowedEvidenceRedirect(original: URL, next: URL) {
+  if (next.protocol !== "https:" || next.port || next.username || next.password) return false;
+  if (next.hostname.replace(/^www\./, "") === original.hostname.replace(/^www\./, "")) return true;
+  // Confirmed first-party migration: original Runway URL returns 308 to this exact host/path.
+  return original.hostname === "runwayml.com" && next.hostname === "runway.com" && next.pathname === original.pathname && next.search === original.search;
 }
 
 export async function prepareCandidateEvidence(candidates: readonly IntelItem[], directory: string, fetchHtml = fetchEvidenceHtml, now = new Date().toISOString()) {
