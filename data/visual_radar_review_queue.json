@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-26T10:50:53.375Z",
+  "generatedAt": "2026-10-26T13:19:04.879Z",
   "summary": {
     "published": 288,
-    "pending": 246,
-    "verified": 42,
-    "featuredPending": 48
+    "pending": 238,
+    "verified": 50,
+    "featuredPending": 40
   },
   "instruction": "清单不等于已核验。按 issue:correct prepare/apply 流程逐条读取正文；无法获取时保留待核验，不删除历史。",
   "entries": [
@@ -107,74 +107,6 @@
         "本期精选",
         "采集摘要较短",
         "日期缺失或异常"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-24",
-      "itemId": "visual-dazed-1doc99m",
-      "contentHash": "sha1:7bf17d2d4cea1d51dc0d68b107ac7d3fc23925e5",
-      "title": "卧室摄影：私密空间作为肖像与情绪剧场",
-      "source": "Dazed",
-      "sourceUrl": "https://www.dazeddigital.com/art-photography/article/70694/1/bedrooms-photography-teenagers-portraits-nudes-photographers?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=5-photo-projects-exploring-the-intimate-world-of-bedrooms",
-      "featured": true,
-      "priority": 125,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短",
-        "缺少配图"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-24",
-      "itemId": "visual-dazed-1l3yz66",
-      "contentHash": "sha1:906a58ed08afe8c85c69fca3548a645031d6c331",
-      "title": "WHOLE Festival 的野性社群造型现场",
-      "source": "Dazed",
-      "sourceUrl": "https://www.dazeddigital.com/fashion/article/70689/1/whole-festival-2026-berlin-photos-feral-fashion-uhaul-dyke-rescue-street-style?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=photos-of-the-feral-fashion-at-whole-festival-s-uhaul-dyke-bar",
-      "featured": true,
-      "priority": 125,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短",
-        "缺少配图"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-24",
-      "itemId": "visual-its-nice-that-1jla1ga",
-      "contentHash": "sha1:ded7aa6deb3375fd8c956d1ba06ef215deb09e74",
-      "title": "Horniman 博物馆以馆藏与花园“采集”字体",
-      "source": "It's Nice That",
-      "sourceUrl": "https://www.itsnicethat.com/articles/anatomy-horniman-museum-graphic-design-project-230726",
-      "featured": true,
-      "priority": 125,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短",
-        "缺少配图"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-24",
-      "itemId": "visual-its-nice-that-jp4ejt",
-      "contentHash": "sha1:9d9e30a8525436f43c25e1220615630608437c21",
-      "title": "Joanna Blémont 为 Loewe 把水彩延展成漫画与 2,000 帧电影",
-      "source": "It's Nice That",
-      "sourceUrl": "https://www.itsnicethat.com/articles/joanna-blemont-illustration-discover-230726",
-      "featured": true,
-      "priority": 125,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短",
-        "缺少配图"
       ],
       "status": "pending"
     },
@@ -294,54 +226,6 @@
         "本期精选",
         "采集摘要较短",
         "缺少配图"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-24",
-      "itemId": "visual-vogue-runway-zjstt4",
-      "contentHash": "sha1:fa93a2bbf462b0fc7873255a34be953cbecc2584",
-      "title": "Attachment 2027 春夏东京秀场发布",
-      "source": "Vogue Runway",
-      "sourceUrl": "https://www.vogue.com/fashion-shows/tokyo-spring-2027/attachment",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-24",
-      "itemId": "visual-wallpaper-1cpwby6",
-      "contentHash": "sha1:f08b9bf629766e578ff10738801d8ae0134b5cde",
-      "title": "圣家堂终章雕塑以“不可见”技术点亮",
-      "source": "Wallpaper*",
-      "sourceUrl": "https://www.wallpaper.com/design-interiors/sagrada-familia-agnus-dei-lamb-sculpture-andrea-mastrovito-moritz-waldemeyer",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-24",
-      "itemId": "visual-wallpaper-1h9rghs",
-      "contentHash": "sha1:145a90913710f9ccf10e82099a20e5a44231d6b0",
-      "title": "在约翰·劳特纳建筑中拍摄的电影感早秋时装",
-      "source": "Wallpaper*",
-      "sourceUrl": "https://www.wallpaper.com/fashion-beauty/pre-fall-2026-fashion-john-lautner-los-angeles",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
       ],
       "status": "pending"
     },
@@ -559,21 +443,6 @@
       "title": "Aman Alam 用摄影触及记忆、疾病与照护",
       "source": "British Journal of Photography",
       "sourceUrl": "https://www.1854.photography/2026/07/aman-alam/",
-      "featured": true,
-      "priority": 100,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-24",
-      "itemId": "visual-vogue-singapore-1ph2kb2",
-      "contentHash": "sha1:f96cb7ba76231dda8b761fdb0aac60377868c442",
-      "title": "Gabbriette 的非传统婚礼造型：高定式反叛",
-      "source": "Vogue Singapore",
-      "sourceUrl": "https://vogue.sg/gabbriette-bridal-matieres-fecales-gown/",
       "featured": true,
       "priority": 100,
       "reasons": [
