@@ -8669,30 +8669,54 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-07-31T02:09:32.959Z",
-            "chineseSummary": "奈良女子大学长谷研究室在东京都写真美术馆呈现“被复制的感性——森山大道”，从复制、传播与感知切入这位摄影大师的图像遗产。",
-            "chineseTitle": "森山大道的图像复制被置入东京智能文化计划",
+            "analyzedAt": "2026-10-26T09:50:43.881Z",
+            "chineseSummary": "东京写真美术馆将巡展作品与馆藏结合，重新组织约140件森山大道作品，并让学生参与选作、主题和展示构思。相关数字展览利用三维城市模型，把照片与拍摄地点及当下景观联系起来；这不意味着所有作品都由AI生成。",
+            "chineseTitle": "重组森山大道的摄影档案：学生策展与城市数字展览",
             "contentHash": "sha1:32422867a3c02c9a4535cb4f10e2f3676d21bd2a",
             "itemId": "visual-tokyo-photo-museum-1yjg0ar",
             "model": "codex-agent",
             "primaryTopic": "photography",
             "promptVersion": "visual-daily-v1",
-            "score": 97,
+            "score": 86,
             "scoreBreakdown": {
-              "informationSpecificity": 15,
-              "novelty": 18,
+              "informationSpecificity": 14,
+              "novelty": 16,
               "professionalRelevance": 20,
               "sourceQuality": 10,
-              "timeliness": 5,
-              "visualInspiration": 29
+              "timeliness": 0,
+              "visualInspiration": 26
             },
-            "selectionRationale": "围绕森山大道与复制媒介的学术展示，兼具摄影史和数字文化的研究价值。",
+            "selectionRationale": "官方正文同时提供档案重组和摄影地点再呈现两种具体方法，适合研究摄影展陈与档案叙事。",
             "status": "success",
             "trendKeywords": [
-              "森山大道",
-              "复制媒介",
-              "摄影史"
-            ]
+              "摄影档案",
+              "学生策展",
+              "城市影像"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://topmuseum.jp/exhibition/12474",
+              "snapshotHash": "6881bcddc8444061d1af3c7979f25a5ecc25c3dd78c119a8de0fef6ad0ee0fd5",
+              "facts": [
+                {
+                  "statement": "展览重新组织约140件作品。",
+                  "quote": "約140点を再構成して展示しています"
+                },
+                {
+                  "statement": "数字展览使用三维城市模型。",
+                  "quote": "3D都市モデルを活用したデジタル展覧会"
+                }
+              ],
+              "visualMethod": "编辑分析：以新一代策展人的选作重读摄影档案，再用地点关系把二维照片接回城市空间。",
+              "application": "创作建议：选3至5张有授权的档案照片，制作地点、拍摄时间与当下景观对照；将原始资料与后期重建明确分层。",
+              "visualTags": [
+                "构图",
+                "空间",
+                "叙事"
+              ],
+              "limitation": "依据核验时的官方正文；未实际体验数字展览，也未核验每件作品的AI使用方式。网页展期为2026年9月5日至10月18日，不能当作今天的新展。"
+            }
           },
           "item": {
             "capturedAt": "2026-07-31T02:08:41.049Z",
@@ -8743,36 +8767,62 @@
             "interpretation": null,
             "schemaVersion": "1",
             "tier": null,
-            "viviaScore": null
+            "viviaScore": null,
+            "eventStartsAt": "2026-09-05",
+            "eventEndsAt": "2026-10-18"
           },
           "window": "24h"
         },
         {
           "analysis": {
-            "analyzedAt": "2026-07-31T02:09:32.959Z",
-            "chineseSummary": "伦敦设计博物馆宣布“Nue Black Aesthetic”展览，将汇集 16 位当代黑人设计师，通过身份、离散与设计经典由谁书写的问题重新组织设计史。",
-            "chineseTitle": "“Nue Black Aesthetic”绘制塑造当代设计的离散声音",
+            "analyzedAt": "2026-10-26T09:50:43.881Z",
+            "chineseSummary": "Wallpaper介绍伦敦设计博物馆的The Nue Black Aesthetic展览计划：16位当代设计师的100余件作品，涵盖家具、建筑、服装及雕塑，并以六个章节讨论历史、身份、社群等关系。策展重点不是归纳一种统一的“黑人美学”，而是保留不同创作者的经历与方法。",
+            "chineseTitle": "The Nue Black Aesthetic：以多种设计实践呈现离散经验",
             "contentHash": "sha1:d7fd487d7673f9587aeb59cf8819e26cfbba39fa",
             "itemId": "visual-wallpaper-1i7pfxc",
             "model": "codex-agent",
             "primaryTopic": "exhibition",
             "promptVersion": "visual-daily-v1",
-            "score": 97,
+            "score": 80,
             "scoreBreakdown": {
-              "informationSpecificity": 15,
-              "novelty": 19,
-              "professionalRelevance": 20,
-              "sourceQuality": 9,
-              "timeliness": 5,
-              "visualInspiration": 29
+              "informationSpecificity": 14,
+              "novelty": 15,
+              "professionalRelevance": 18,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 25
             },
-            "selectionRationale": "大型设计机构的策展议题清晰，直接关涉设计史、身份与话语权。",
+            "selectionRationale": "章节组织与跨媒介作品比较有具体依据，能够帮助策展与资料整理避免把身份简化为单一视觉风格。",
             "status": "success",
             "trendKeywords": [
-              "黑人设计",
-              "离散文化",
-              "设计博物馆"
-            ]
+              "离散叙事",
+              "主题策展",
+              "跨媒介设计"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.wallpaper.com/design-interiors/design-events/the-nue-black-aesthetic-maps-the-diasporic-voices-shaping-design-today",
+              "snapshotHash": "65034a916c6aec73a4d4a24cbf24393ea1f087f2cfb1df7998e787a46fb11a5d",
+              "facts": [
+                {
+                  "statement": "报道列出16位当代设计师的100余件作品。",
+                  "quote": "more than 100 objects by 16 contemporary designers"
+                },
+                {
+                  "statement": "展览分为六个章节。",
+                  "quote": "The exhibition unfolds across six sections"
+                }
+              ],
+              "visualMethod": "编辑分析：以问题和主题组织跨媒介案例，让材料、个人经历与社会背景形成对照，而不是用身份标签概括所有作品。",
+              "application": "创作建议：建立一个按主题而非国籍排序的小型参考板；每例附作者、材料、地点与原始语境，并写出它与相邻案例的差异。",
+              "visualTags": [
+                "空间",
+                "材质",
+                "叙事"
+              ],
+              "limitation": "依据现存媒体报道，无法还原7月31日的网页版本；文中展期为2026年11月6日至2027年8月8日，属于展览计划，并非已核验的现场体验。"
+            }
           },
           "item": {
             "capturedAt": "2026-07-31T02:08:41.049Z",
@@ -8830,30 +8880,54 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-07-31T02:09:32.959Z",
-            "chineseSummary": "VCUarts Qatar 在威尼斯双年展期间举办延伸活动，以机器人、极客文化和阿拉伯字体为线索，集中呈现六个突破常规的艺术与设计项目。",
-            "chineseTitle": "VCUarts Qatar 在威尼斯展示机器人与阿拉伯字体实验",
+            "analyzedAt": "2026-10-26T09:50:43.881Z",
+            "chineseSummary": "Dazed介绍VCUarts Qatar在威尼斯呈现的多个集体研究项目，包括探讨数字字体偏向的灯光装置、面向观众的机器人影像，以及将阿拉伯文字转入Bandhani扎染工艺的协作。项目把文字、地方经验与技术媒介放在一起研究，而不是单纯展示技术效果。",
+            "chineseTitle": "VCUarts Qatar：让阿拉伯文字进入扎染、灯光与交互实验",
             "contentHash": "sha1:efe0d1daf86a6924d7ebaa9493635822d33fd343",
             "itemId": "visual-dazed-udmfm2",
             "model": "codex-agent",
-            "primaryTopic": "creator",
+            "primaryTopic": "exhibition",
             "promptVersion": "visual-daily-v1",
-            "score": 96,
+            "score": 84,
             "scoreBreakdown": {
-              "informationSpecificity": 15,
-              "novelty": 19,
-              "professionalRelevance": 19,
-              "sourceQuality": 9,
-              "timeliness": 5,
-              "visualInspiration": 29
+              "informationSpecificity": 14,
+              "novelty": 17,
+              "professionalRelevance": 18,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 27
             },
-            "selectionRationale": "技术、地区文字与设计教育在国际双年展语境中交叉，议题具备独特性。",
+            "selectionRationale": "文字跨材料转译和集体研究方式均有正文依据，可转化为小规模的设计实验。",
             "status": "success",
             "trendKeywords": [
               "阿拉伯字体",
-              "威尼斯双年展",
-              "设计教育"
-            ]
+              "材料转译",
+              "集体研究"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.dazeddigital.com/art-photography/article/70710/1/robots-geeks-arabic-type-outside-box-projects-vcuarts-qatar-venice-aghrab-idrak?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=robots-geeks-and-arabic-type-6-outside-the-box-projects-at-vcuarts-qatar",
+              "snapshotHash": "2a3eecfa44b09eabf895ebdf3c01b1da6cdbc7229816e8b61333ec91aac8f9d7",
+              "facts": [
+                {
+                  "statement": "参展实践来自多个集体、小组与实验室。",
+                  "quote": "It’s made up of collectives, of groups, of labs."
+                },
+                {
+                  "statement": "其中一个项目用Bandhani扎染技法呈现文字。",
+                  "quote": "rendering text using Bandhani tie dye techniques"
+                }
+              ],
+              "visualMethod": "编辑分析：让同一种文字在数字、织物与动态装置之间转换，利用材料差异显露文字的结构和文化语境。",
+              "application": "创作建议：与熟悉相关文字及工艺的创作者合作，选一个获准使用的字形制作纸面、织物、动态三种样本，并标注参与者和转译损失。",
+              "visualTags": [
+                "字体",
+                "工艺",
+                "动态影像"
+              ],
+              "limitation": "依据媒体项目介绍，未测试机器人或空气净化装置；AI生成独白不构成机器具有意识的证据，工艺合作也不等于可以无署名挪用。"
+            }
           },
           "item": {
             "capturedAt": "2026-07-31T02:08:41.049Z",
@@ -8898,7 +8972,7 @@
             "sourceType": "inspiration",
             "sourceUrl": "https://www.dazeddigital.com/art-photography/article/70710/1/robots-geeks-arabic-type-outside-box-projects-vcuarts-qatar-venice-aghrab-idrak?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=robots-geeks-and-arabic-type-6-outside-the-box-projects-at-vcuarts-qatar",
             "text": "The Doha-based art and design school staged a boundary-pushing collateral event at this year’s Venice Biennale – here are the projects you need to see",
-            "thumbnailUrl": null,
+            "thumbnailUrl": "https://images-prod.dazeddigital.com/1200/0-0-1572-1048/azure/dazed-prod/1450/0/1450285.jpg",
             "title": "Robots, geeks, and Arabic type: 6 outside-the-box projects at VCUarts Qatar",
             "contentHash": "sha1:efe0d1daf86a6924d7ebaa9493635822d33fd343",
             "dedupKey": "www.dazeddigital.com/art-photography/article/70710/1/robots-geeks-arabic-type-outside-box-projects-vcuarts-qatar-venice-aghrab-idrak",
@@ -8911,30 +8985,55 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-07-31T02:09:32.959Z",
-            "chineseSummary": "Ralph Lauren 在“驻地艺术家”计划中与阿拉巴马 Gee’s Bend 拼布社群合作，将两幅原创被子转译为服装与家居作品，连接传统工艺和当代产品。",
-            "chineseTitle": "Ralph Lauren 与 Gee’s Bend 拼布艺术家合作",
+            "analyzedAt": "2026-10-26T09:50:43.881Z",
+            "chineseSummary": "Ralph Lauren与Gee’s Bend纺织艺术家Loretta Pettway Bennett、Claudia Pettway Charley合作，将两床原创拼布的图形转入夹克、包袋、靠垫和陶瓷等物件。报道说明拼布使用再利用的品牌面料，部分形状承载艺术家的家庭记忆；图案并非脱离作者的通用装饰。",
+            "chineseTitle": "Ralph Lauren × Gee’s Bend：从两床拼布延展出服装与家居图案",
             "contentHash": "sha1:b4d65be8d6132f91c6ecf4cb86d8997d99c0971b",
             "itemId": "visual-wallpaper-zzvw46",
             "model": "codex-agent",
             "primaryTopic": "fashion_culture",
             "promptVersion": "visual-daily-v1",
-            "score": 95,
+            "score": 79,
             "scoreBreakdown": {
-              "informationSpecificity": 15,
-              "novelty": 18,
-              "professionalRelevance": 19,
-              "sourceQuality": 9,
-              "timeliness": 5,
-              "visualInspiration": 29
+              "informationSpecificity": 14,
+              "novelty": 14,
+              "professionalRelevance": 18,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 25
             },
-            "selectionRationale": "社群工艺的授权转译与品牌合作路径具体，具有文化伦理与设计参考价值。",
+            "selectionRationale": "可以具体观察同一原作如何跨材质延展，并保留作者和图形的个人语境。",
             "status": "success",
             "trendKeywords": [
-              "Gee’s Bend",
-              "拼布工艺",
-              "品牌合作"
-            ]
+              "拼布",
+              "跨材质图案",
+              "艺术家合作"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.wallpaper.com/fashion-beauty/ralph-lauren-gees-bend-quilt-collaboration",
+              "snapshotHash": "3499ed084b5918b7ad863adf20d9ada6f1d900e017ee9e848762bd4e06df8517",
+              "facts": [
+                {
+                  "statement": "系列从两位纺织艺术家创作的两床原创拼布发展而来。",
+                  "quote": "two original quilts created by the textile artists"
+                },
+                {
+                  "statement": "拼布使用了再利用的Ralph Lauren面料。",
+                  "quote": "utilises upcycled Ralph Lauren fabrics"
+                }
+              ],
+              "visualMethod": "编辑分析：以可追溯的原作为母题，在服装、软装和硬质器物上调整图形比例与制作方式，同时保留作者叙事。",
+              "application": "创作建议：从自有或获授权的拼布中选一个图形，测试织物和器物两个版本，并拍摄原作、细节与转译成品的并置图。",
+              "visualTags": [
+                "色彩",
+                "材质",
+                "工艺",
+                "叙事"
+              ],
+              "limitation": "合作与材料信息来自媒体报道；未独立核验报酬安排、公益效果或全系列的环境影响，不能据此认定合作已实现公平或可持续。"
+            }
           },
           "item": {
             "capturedAt": "2026-07-31T02:08:41.049Z",
@@ -8992,30 +9091,54 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-07-31T02:09:32.959Z",
-            "chineseSummary": "Galib Gassanoff 发起的 Institution 与高加索工匠协作，通过服装和文化交流保存濒危手工传统，将时尚项目发展为社会艺术实践。",
-            "chineseTitle": "Institution 以服装守护高加索濒危工艺",
+            "analyzedAt": "2026-10-26T09:50:43.881Z",
+            "chineseSummary": "AnOther采访Galib Gassanoff的Institution项目：设计师在格鲁吉亚、阿塞拜疆的村落研究地毯编织与羊毛染色，并把工艺转入当代服装。正文描述了像篮子一样编织的香蒲长裙，以及塑造成建筑感外套的双面羊毛；重点在材料与结构，而不只是挪用传统纹样。",
+            "chineseTitle": "Institution：把高加索编织工艺转成服装体积",
             "contentHash": "sha1:88d3cdf97eda3376d148a94999abc1852e18e745",
             "itemId": "visual-another-magazine-171f42r",
             "model": "codex-agent",
-            "primaryTopic": "creator",
+            "primaryTopic": "fashion_culture",
             "promptVersion": "visual-daily-v1",
-            "score": 95,
+            "score": 84,
             "scoreBreakdown": {
-              "informationSpecificity": 15,
-              "novelty": 19,
+              "informationSpecificity": 14,
+              "novelty": 16,
               "professionalRelevance": 19,
-              "sourceQuality": 9,
-              "timeliness": 5,
-              "visualInspiration": 28
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 27
             },
-            "selectionRationale": "工艺保护、社群协作与时装实践结合紧密，具有鲜明的文化价值。",
+            "selectionRationale": "提供编织逻辑到服装轮廓的具体转译案例，适合材质与造型研究。",
             "status": "success",
             "trendKeywords": [
               "高加索工艺",
-              "社会艺术",
-              "手工传统"
-            ]
+              "编织结构",
+              "雕塑轮廓"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.anothermag.com/fashion-beauty/17346/institution-fashion-interview-galib-gassonoff?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=institution-the-fashion-project-preserving-the-crafts-of-the-caucasus",
+              "snapshotHash": "76b854038627bce72a3cf9077e2e9ac6e47261ec4806ad1f953e705d82954fb5",
+              "facts": [
+                {
+                  "statement": "香蒲长裙采用类似篮子的编织方式。",
+                  "quote": "Full skirts made of bulrush are woven like baskets"
+                },
+                {
+                  "statement": "双面羊毛被塑造成建筑感外套。",
+                  "quote": "double-faced wool is sculpted into architectural outerwear"
+                }
+              ],
+              "visualMethod": "编辑分析：从工艺的受力与编织方式发展轮廓，让材料结构直接产生服装的体积，而非仅将纹样印到表面。",
+              "application": "创作建议：与工艺制作者共同做一个缩尺编织模型，再发展一个服装轮廓；用侧光和侧面视角对比结构与体积，并完整署名。",
+              "visualTags": [
+                "材质",
+                "工艺",
+                "构图"
+              ],
+              "limitation": "依据设计师采访；项目支持村落工坊、保护工艺的成效尚未独立核验，不能把其目标写成已经完成的社会成果。"
+            }
           },
           "item": {
             "capturedAt": "2026-07-31T02:08:41.049Z",
@@ -9060,7 +9183,7 @@
             "sourceType": "inspiration",
             "sourceUrl": "https://www.anothermag.com/fashion-beauty/17346/institution-fashion-interview-galib-gassonoff?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=institution-the-fashion-project-preserving-the-crafts-of-the-caucasus",
             "text": "Founded by Galib Gassanoff, the fashion and socio-artistic project works with artisans across the Caucasus to preserve endangered craft traditions through clothing and cultural exchange",
-            "thumbnailUrl": null,
+            "thumbnailUrl": "https://images-prod.anothermag.com/1200/0-180-2250-1500/azure/another-prod/470/6/476186.jpeg",
             "title": "Institution, the Fashion Project Preserving the Crafts of the Caucasus",
             "contentHash": "sha1:88d3cdf97eda3376d148a94999abc1852e18e745",
             "dedupKey": "www.anothermag.com/fashion-beauty/17346/institution-fashion-interview-galib-gassonoff",
@@ -9073,30 +9196,54 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-07-31T02:09:32.959Z",
-            "chineseSummary": "Vogue Runway 收录 16Arlington 2026 秋冬成衣系列的完整秀场造型、妆发与评论，为观察伦敦当季晚装与材质语言提供原始视觉档案。",
-            "chineseTitle": "16Arlington 2026 秋冬成衣系列发布",
+            "analyzedAt": "2026-10-26T09:50:43.881Z",
+            "chineseSummary": "Vogue的16Arlington系列评论提到可拆卸的服装元素，以及用纽扣或挂钩连接的披裹和围巾。羊毛流苏、丝绒烂花、管珠和泪滴状亮片则提供不同的表面与动态效果，使华丽感与穿着方式的变化同时进入设计。",
+            "chineseTitle": "16Arlington 2026秋冬：可拆造型与随动作变化的表面",
             "contentHash": "sha1:a6a06e24d92e5d5dbf59a934a2bf479dc9a42332",
             "itemId": "visual-vogue-runway-1f0sz3o",
             "model": "codex-agent",
             "primaryTopic": "styling",
             "promptVersion": "visual-daily-v1",
-            "score": 94,
+            "score": 79,
             "scoreBreakdown": {
               "informationSpecificity": 14,
-              "novelty": 18,
+              "novelty": 13,
               "professionalRelevance": 19,
-              "sourceQuality": 10,
-              "timeliness": 5,
-              "visualInspiration": 28
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 25
             },
-            "selectionRationale": "权威秀场数据库提供当季完整的造型与细节记录。",
+            "selectionRationale": "可拆结构和动态材质的描述可落实为同一件服装的多状态拍摄测试。",
             "status": "success",
             "trendKeywords": [
-              "伦敦时装",
-              "2026秋冬",
-              "秀场造型"
-            ]
+              "可拆造型",
+              "动态材质",
+              "模块化穿着"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/16arlington",
+              "snapshotHash": "325a88be3c77824812c8cd91ef49d07c18c787d68696d53a7220fba24d680bcb",
+              "facts": [
+                {
+                  "statement": "系列包含带可拆卸元素的服装。",
+                  "quote": "garments with detachable elements"
+                },
+                {
+                  "statement": "披裹和围巾通过纽扣或挂钩结合。",
+                  "quote": "wraps and scarves integrated with buttons or hooks"
+                }
+              ],
+              "visualMethod": "编辑分析：通过配件连接改变同一套服装的轮廓，再利用流苏与反光表面对动作的响应制造画面差异。",
+              "application": "创作建议：选一件可调整服装拍摄两种连接状态；固定机位和光线，各录静止与转身片段，比较轮廓、反光和动作幅度。",
+              "visualTags": [
+                "材质",
+                "布光",
+                "动态影像"
+              ],
+              "limitation": "依据秀场文字评论，未实物验证材质、连接强度和穿着效果；这里的应用是拍摄建议，不是品牌已执行的项目。"
+            }
           },
           "item": {
             "capturedAt": "2026-07-31T02:08:41.049Z",
@@ -9314,30 +9461,54 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-07-31T02:09:32.959Z",
-            "chineseSummary": "Burberry 将在 V&A 举办创立 170 周年展，通过目录与档案回看风衣的设计演变，连接品牌遗产、功能服装和英国时尚史。",
-            "chineseTitle": "Burberry 在 V&A 以档案重述风衣 170 年",
+            "analyzedAt": "2026-10-26T09:50:43.881Z",
+            "chineseSummary": "FASHIONSNAP报道V&A与Burberry策划以风衣为主题的展览，在品牌创立170周年之际结合品牌档案和博物馆藏品。展览按“发明、工艺、创意”组织内容，并从过去25年的秀场中选择19套造型，将历史技术与当代演变串联起来。",
+            "chineseTitle": "V&A × Burberry：从发明、工艺与创意三线讲述风衣",
             "contentHash": "sha1:9239ad885a6b6d03299fde873a786f38c25fc83f",
             "itemId": "visual-fashionsnap-1iqemn6",
             "model": "codex-agent",
             "primaryTopic": "exhibition",
             "promptVersion": "visual-daily-v1",
-            "score": 93,
+            "score": 77,
             "scoreBreakdown": {
-              "informationSpecificity": 15,
-              "novelty": 18,
-              "professionalRelevance": 19,
-              "sourceQuality": 9,
-              "timeliness": 5,
-              "visualInspiration": 27
+              "informationSpecificity": 14,
+              "novelty": 13,
+              "professionalRelevance": 18,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 24
             },
-            "selectionRationale": "品牌档案进入博物馆语境，适合观察服装遗产如何被策展化。",
+            "selectionRationale": "三章节框架与19套造型提供明确策展线索，可用于单品历史的视觉组织。",
             "status": "success",
             "trendKeywords": [
-              "Burberry",
               "风衣档案",
-              "品牌策展"
-            ]
+              "单品策展",
+              "工艺叙事"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.fashionsnap.com/article/2026-07-31/v-and-a-burberry/",
+              "snapshotHash": "c081bbf85fd439df5db247eddb56c5cb47f6280d5bc83aaed51b645f697881b4",
+              "facts": [
+                {
+                  "statement": "该展览以风衣为主题。",
+                  "quote": "トレンチコートをテーマに開催"
+                },
+                {
+                  "statement": "策展从过去25年的秀场中挑选19套造型。",
+                  "quote": "過去25年のランウェイから19ルックをピックアップする"
+                }
+              ],
+              "visualMethod": "编辑分析：用发明背景、制造细节、后续变体三个层次解释一个经典单品，避免只用年代堆叠档案图片。",
+              "application": "创作建议：给一个自有单品做三页参考板，分别放设计问题、关键工艺特写和当代造型变体；每张档案图标明出处和时间。",
+              "visualTags": [
+                "工艺",
+                "叙事",
+                "空间"
+              ],
+              "limitation": "依据媒体展览预告，不是现场核验。170周年指品牌创立，并非风衣已经诞生170年；报道中的2028年新展厅计划不能写成已开放。"
+            }
           },
           "item": {
             "capturedAt": "2026-07-31T02:08:41.049Z",
@@ -9474,30 +9645,54 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-07-31T02:09:32.959Z",
-            "chineseSummary": "伦敦新邦德街 166 号的爱马仕空间以工艺、艺术与英国城市气质重组门店体验，在奢侈品零售收缩期强化实体场所的文化密度。",
-            "chineseTitle": "伦敦爱马仕新空间：克制与城市活力的平衡",
+            "analyzedAt": "2026-10-26T09:50:43.881Z",
+            "chineseSummary": "Vogue Korea介绍爱马仕伦敦New Bond Street空间：项目连接六栋18世纪历史建筑，并将艺术品与档案物件分布到55个独立空间。楼梯承担连接作用，摄影、花卉墙纸和雕塑等则在不同区域提供局部线索，让整体动线与细节观看相互配合。",
+            "chineseTitle": "伦敦爱马仕之家：用连接动线串起55处艺术与档案节点",
             "contentHash": "sha1:2af4e3cdc8c3d2d9ffdc78bc6ea0d31b4bca011e",
             "itemId": "visual-vogue-korea-51r0nd",
             "model": "codex-agent",
-            "primaryTopic": "exhibition",
+            "primaryTopic": "fashion_culture",
             "promptVersion": "visual-daily-v1",
-            "score": 92,
+            "score": 79,
             "scoreBreakdown": {
               "informationSpecificity": 14,
-              "novelty": 17,
-              "professionalRelevance": 19,
-              "sourceQuality": 9,
-              "timeliness": 5,
-              "visualInspiration": 28
+              "novelty": 14,
+              "professionalRelevance": 18,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 25
             },
-            "selectionRationale": "从品牌空间观察零售建筑、在地叙事和艺术陈设的协同方法。",
+            "selectionRationale": "建筑连接与分散式陈列都有具体依据，适合参考多区域空间的节奏组织。",
             "status": "success",
             "trendKeywords": [
-              "品牌空间",
-              "伦敦零售",
-              "奢侈品体验"
-            ]
+              "空间动线",
+              "档案陈列",
+              "艺术节点"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.vogue.co.kr/2026/07/31/%eb%9f%b0%eb%8d%98-%ec%86%8d-%ec%97%90%eb%a5%b4%eb%a9%94%ec%8a%a4-%ea%b7%b8-%ec%a0%88%ec%a0%9c%ec%99%80-%ed%99%9c%ea%b8%b0%ec%9d%98-%ea%b7%a0%ed%98%95%ea%b0%90%ec%97%90-%eb%8c%80%ed%95%98%ec%97%ac/",
+              "snapshotHash": "fdbf76b7ffd9cfeeb6a57b908765516bc04034ca07b3a5bbc5a1f002cb64bd8c",
+              "facts": [
+                {
+                  "statement": "项目连接了六栋18世纪历史建筑。",
+                  "quote": "총 여섯 채의 역사적인 18세기 건물을 연결해"
+                },
+                {
+                  "statement": "艺术品和档案物件被安排在55个独立空间中。",
+                  "quote": "55개 개별 공간 곳곳에 세심하게 배치했다"
+                }
+              ],
+              "visualMethod": "编辑分析：以连续动线统一多个空间，再让摄影、图案和雕塑成为分散的观看节点，形成整体秩序与局部变化。",
+              "application": "创作建议：为一个三分区空间各选一组获授权档案或委托作品，画出连接路线与停留视点，并说明每组内容与所在位置的关系。",
+              "visualTags": [
+                "空间",
+                "构图",
+                "叙事"
+              ],
+              "limitation": "依据现存媒体介绍，未实地测量空间或验证顾客体验；无法据此推断陈列带来的商业效果，也不能还原历史刊发时的完整网页版本。"
+            }
           },
           "item": {
             "capturedAt": "2026-07-31T02:08:41.049Z",

@@ -1,30 +1,13 @@
 {
-  "generatedAt": "2026-10-26T09:31:39.888Z",
+  "generatedAt": "2026-10-26T09:53:47.208Z",
   "summary": {
     "published": 288,
-    "pending": 260,
-    "verified": 28,
-    "featuredPending": 62
+    "pending": 252,
+    "verified": 36,
+    "featuredPending": 54
   },
   "instruction": "清单不等于已核验。按 issue:correct prepare/apply 流程逐条读取正文；无法获取时保留待核验，不删除历史。",
   "entries": [
-    {
-      "issueId": "2026-07-31",
-      "itemId": "visual-tokyo-photo-museum-1yjg0ar",
-      "contentHash": "sha1:32422867a3c02c9a4535cb4f10e2f3676d21bd2a",
-      "title": "森山大道的图像复制被置入东京智能文化计划",
-      "source": "Tokyo Photographic Art Museum",
-      "sourceUrl": "https://topmuseum.jp/exhibition/12474",
-      "featured": true,
-      "priority": 135,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短",
-        "日期缺失或异常"
-      ],
-      "status": "pending"
-    },
     {
       "issueId": "2026-07-31",
       "itemId": "visual-vam-fashion-1u3sfi1",
@@ -209,23 +192,6 @@
         "本期精选",
         "采集摘要较短",
         "日期缺失或异常"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-31",
-      "itemId": "visual-dazed-udmfm2",
-      "contentHash": "sha1:efe0d1daf86a6924d7ebaa9493635822d33fd343",
-      "title": "VCUarts Qatar 在威尼斯展示机器人与阿拉伯字体实验",
-      "source": "Dazed",
-      "sourceUrl": "https://www.dazeddigital.com/art-photography/article/70710/1/robots-geeks-arabic-type-outside-box-projects-vcuarts-qatar-venice-aghrab-idrak?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=robots-geeks-and-arabic-type-6-outside-the-box-projects-at-vcuarts-qatar",
-      "featured": true,
-      "priority": 125,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短",
-        "缺少配图"
       ],
       "status": "pending"
     },
@@ -433,54 +399,6 @@
       "status": "pending"
     },
     {
-      "issueId": "2026-07-31",
-      "itemId": "visual-fashionsnap-1iqemn6",
-      "contentHash": "sha1:9239ad885a6b6d03299fde873a786f38c25fc83f",
-      "title": "Burberry 在 V&A 以档案重述风衣 170 年",
-      "source": "FASHIONSNAP",
-      "sourceUrl": "https://www.fashionsnap.com/article/2026-07-31/v-and-a-burberry/",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-31",
-      "itemId": "visual-vogue-runway-1f0sz3o",
-      "contentHash": "sha1:a6a06e24d92e5d5dbf59a934a2bf479dc9a42332",
-      "title": "16Arlington 2026 秋冬成衣系列发布",
-      "source": "Vogue Runway",
-      "sourceUrl": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/16arlington",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-31",
-      "itemId": "visual-wallpaper-zzvw46",
-      "contentHash": "sha1:b4d65be8d6132f91c6ecf4cb86d8997d99c0971b",
-      "title": "Ralph Lauren 与 Gee’s Bend 拼布艺术家合作",
-      "source": "Wallpaper*",
-      "sourceUrl": "https://www.wallpaper.com/fashion-beauty/ralph-lauren-gees-bend-quilt-collaboration",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
-      ],
-      "status": "pending"
-    },
-    {
       "issueId": "2026-07-24",
       "itemId": "visual-vogue-runway-zjstt4",
       "contentHash": "sha1:fa93a2bbf462b0fc7873255a34be953cbecc2584",
@@ -641,22 +559,6 @@
       "status": "pending"
     },
     {
-      "issueId": "2026-07-31",
-      "itemId": "visual-another-magazine-171f42r",
-      "contentHash": "sha1:88d3cdf97eda3376d148a94999abc1852e18e745",
-      "title": "Institution 以服装守护高加索濒危工艺",
-      "source": "AnOther",
-      "sourceUrl": "https://www.anothermag.com/fashion-beauty/17346/institution-fashion-interview-galib-gassonoff?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=institution-the-fashion-project-preserving-the-crafts-of-the-caucasus",
-      "featured": true,
-      "priority": 105,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "缺少配图"
-      ],
-      "status": "pending"
-    },
-    {
       "issueId": "2026-07-23",
       "itemId": "visual-dazed-1ld6n1y",
       "contentHash": "sha1:da77c18a26fc13ff613f720be1d5e44a58345ebc",
@@ -743,36 +645,6 @@
       "title": "《Liminal》：在阿克拉未完成粗野建筑中起舞",
       "source": "NOWNESS",
       "sourceUrl": "https://www.nowness.com/series/dancing-about-architecture/liminal-naafia-naahemaa",
-      "featured": true,
-      "priority": 100,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-31",
-      "itemId": "visual-vogue-korea-51r0nd",
-      "contentHash": "sha1:2af4e3cdc8c3d2d9ffdc78bc6ea0d31b4bca011e",
-      "title": "伦敦爱马仕新空间：克制与城市活力的平衡",
-      "source": "Vogue Korea",
-      "sourceUrl": "https://www.vogue.co.kr/2026/07/31/%eb%9f%b0%eb%8d%98-%ec%86%8d-%ec%97%90%eb%a5%b4%eb%a9%94%ec%8a%a4-%ea%b7%b8-%ec%a0%88%ec%a0%9c%ec%99%80-%ed%99%9c%ea%b8%b0%ec%9d%98-%ea%b7%a0%ed%98%95%ea%b0%90%ec%97%90-%eb%8c%80%ed%95%98%ec%97%ac/",
-      "featured": true,
-      "priority": 100,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-31",
-      "itemId": "visual-wallpaper-1i7pfxc",
-      "contentHash": "sha1:d7fd487d7673f9587aeb59cf8819e26cfbba39fa",
-      "title": "“Nue Black Aesthetic”绘制塑造当代设计的离散声音",
-      "source": "Wallpaper*",
-      "sourceUrl": "https://www.wallpaper.com/design-interiors/design-events/the-nue-black-aesthetic-maps-the-diasporic-voices-shaping-design-today",
       "featured": true,
       "priority": 100,
       "reasons": [
