@@ -5,6 +5,7 @@ import type { VisualRadarSelectedStory } from "../../lib/api";
 import { Link } from "wouter";
 import { archiveStoryFromSelection } from "../../lib/visualRadarArchive";
 import { StoryActions } from "./StoryActions";
+import { classifyFreshness } from "../../../../shared/visualRadarQuality";
 
 export function visualStoryAnchor(id: string) {
   return `story-${encodeURIComponent(id)}`;
@@ -15,11 +16,13 @@ export function VisualStory({
   variant = "grid",
   featured = false,
   issueId,
+  issueGeneratedAt,
 }: {
   story: VisualRadarSelectedStory;
   variant?: "grid" | "lead";
   featured?: boolean;
   issueId?: string;
+  issueGeneratedAt?: string;
 }) {
   const title = story.analysis.chineseTitle || story.item.title;
   const summary = story.analysis.chineseSummary || story.item.text;
@@ -28,6 +31,8 @@ export function VisualStory({
   const image = story.item.thumbnailUrl;
   const hasImage = Boolean(image && failedImage !== image);
   const isLead = variant === "lead";
+  const freshness = classifyFreshness(story.item, issueGeneratedAt || story.analysis.analyzedAt);
+  const evidence = story.analysis.editorial;
 
   return (
     <article id={visualStoryAnchor(story.item.id)} tabIndex={-1} className={`vr-story vr-story-${variant}${hasImage ? "" : " vr-story-text"}`}>
@@ -46,7 +51,8 @@ export function VisualStory({
       <div className="vr-story-copy">
         <div className="vr-story-meta">
           <span>{story.item.sourceAccount || "VISUAL RADAR"}</span>
-          <span>{story.item.postedAt ? formatDate(story.item.postedAt) : "发布日期未注明"}</span>
+          <span>{freshness.label}{freshness.kind === "latest" || freshness.kind === "reference" ? ` · ${formatDate(story.item.postedAt!)}` : freshness.kind === "upcoming" ? ` · ${formatDate(story.item.eventStartsAt!)}` : ""}</span>
+          <span className="vr-quality-label">{evidence?.status === "verified" ? "有原文证据" : "解读待核验"}</span>
           {featured && <span className="vr-featured-label">编辑精选</span>}
         </div>
         {isLead ? <h2>{title}</h2> : <h3>{title}</h3>}
@@ -55,9 +61,19 @@ export function VisualStory({
           <summary><span className="vr-details-closed">展开解读</span><span className="vr-details-open">收起解读</span></summary>
           <p>{summary}</p>
         </details>}
+        {evidence?.status === "verified" && <details className="vr-evidence-details">
+          <summary>原文事实与创作参考</summary>
+          <h4>原文事实</h4>
+          <ul>{evidence.facts.map((fact, index) => <li key={index}><p>{fact.statement}</p><blockquote>{fact.quote}</blockquote></li>)}</ul>
+          <a href={evidence.sourceUrl} target="_blank" rel="noreferrer">核对原文 ↗</a>
+          <p className="vr-evidence-limit">核验记录：{formatDate(story.analysis.analyzedAt)}。证据可追溯不等于编辑判断已被自动验证。</p>
+          <h4>视觉方法 · 编辑分析</h4><p>{evidence.visualMethod}</p>
+          <h4>可以尝试 · 编辑建议</h4><p>{evidence.application}</p>
+          {evidence.limitation && <p className="vr-evidence-limit">核验范围：{evidence.limitation}</p>}
+        </details>}
         <div className="vr-story-footer">
           <div className="vr-keywords">
-            {story.analysis.trendKeywords.slice(0, 3).map((keyword) => (
+            {[...new Set([...(evidence?.visualTags || []), ...story.analysis.trendKeywords])].slice(0, 5).map((keyword) => (
               <Link href={`/issues?q=${encodeURIComponent(keyword)}&view=stories`} key={keyword}>{keyword}</Link>
             ))}
           </div>

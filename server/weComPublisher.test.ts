@@ -9,6 +9,15 @@ import {
 } from "./weComPublisher";
 
 describe("weComPublisher", () => {
+  it.each([null, {}, { errcode: "0" }, { errcode: 1 }])("rejects ambiguous or unsuccessful receipt %j", async (payload) => {
+    await expect(sendVisualRadarIssueToWeCom(issue(), { publicUrl: "https://example.com", webhook: "https://example.com/webhook", fetchImpl: vi.fn(async () => ({ ok: true, json: async () => payload })) as unknown as typeof fetch })).rejects.toThrow("未明确确认成功");
+  });
+  it("expands only the first three stories", () => {
+    const markdown = buildWeComMarkdownContent(issue(), "https://example.com");
+    expect(markdown).toContain("这是精选摘要 3");
+    expect(markdown).not.toContain("这是精选摘要 4");
+    expect(markdown).toContain("精选标题 10");
+  });
   it("publishes only the ten featured stories and links the full report", () => {
     const markdown = buildWeComMarkdownContent(issue(), "https://visual.example.com");
 

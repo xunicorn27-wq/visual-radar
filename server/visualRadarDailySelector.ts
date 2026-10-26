@@ -1,7 +1,8 @@
 import type { IntelItem } from "./intelItem";
 import type { VisualRadarAnalysis } from "./visualRadarAnalysis";
+import { classifyFreshness, isCandidateInWindow, QUALITY_VERSION } from "../shared/visualRadarQuality";
 
-export type VisualRadarSelectionWindow = "24h" | "72h";
+export type VisualRadarSelectionWindow = "24h" | "72h" | "upcoming" | "reference" | "unknown";
 
 export interface VisualRadarSelectedStory {
   analysis: VisualRadarAnalysis;
@@ -15,11 +16,14 @@ export interface VisualRadarSkippedStory {
     | "daily_limit"
     | "duplicate_content"
     | "missing_analysis"
+    | "missing_evidence"
+    | "reference_limit"
     | "outside_72h"
     | "previous_issue"
     | "score_below_60"
     | "source_limit"
     | "source_not_live";
+// Legacy issues remain readable; newly generated issues must pass the quality gate.
 }
 
 export function selectVisualRadarDailyStories({
@@ -36,7 +40,14 @@ export function selectVisualRadarDailyStories({
   previouslySelectedItemIds: ReadonlySet<string>;
 }) {
   const skipped: VisualRadarSkippedStory[] = [];
-  const analysisByItemId = new Map(analyses.map((analysis) => [analysis.itemId, analysis]));
+  const itemsById = new Map(items.map((item) => [item.id, item]));
+  const analysisByItemId = new Map(analyses.map((analysis) => {
+    const item = itemsById.get(analysis.itemId);
+    if (!item || analysis.editorial?.status !== "verified") return [analysis.itemId, analysis];
+    const timeliness = classifyFreshness(item, now).timeliness;
+    return [analysis.itemId, { ...analysis, score: analysis.score - analysis.scoreBreakdown.timeliness + timeliness,
+      scoreBreakdown: { ...analysis.scoreBreakdown, timeliness } }];
+  }));
   const seenContentHashes = new Set<string>();
   const nowTime = new Date(now).getTime();
 
@@ -53,6 +64,10 @@ export function selectVisualRadarDailyStories({
       const analysis = analysisByItemId.get(item.id);
       if (!analysis || analysis.contentHash !== item.contentHash) {
         skipped.push({ itemId: item.id, reason: "missing_analysis" });
+        return [];
+      }
+      if (analysis.editorial?.version !== QUALITY_VERSION || analysis.editorial.status !== "verified") {
+        skipped.push({ itemId: item.id, reason: "missing_evidence" });
         return [];
       }
       if (item.provenance.authenticity !== "live") {
@@ -72,8 +87,9 @@ export function selectVisualRadarDailyStories({
         return [];
       }
 
-      const ageHours = Math.max(0, nowTime - getItemTime(item)) / 3_600_000;
-      if (ageHours > 72) {
+      const freshness = classifyFreshness(item, now);
+      const ageHours = (nowTime - getItemTime(item)) / 3_600_000;
+      if (!isCandidateInWindow(item, now)) {
         skipped.push({ itemId: item.id, reason: "outside_72h" });
         return [];
       }
@@ -83,19 +99,13 @@ export function selectVisualRadarDailyStories({
         {
           analysis,
           item,
-          window: ageHours <= 24 ? "24h" : "72h",
+          window: freshness.kind === "latest" ? (ageHours <= 24 ? "24h" : "72h") : freshness.kind,
         },
       ];
     });
 
   const recentCandidates = candidates.filter((entry) => entry.window === "24h");
-  const selectionPool =
-    recentCandidates.length >= limit
-      ? recentCandidates
-      : [
-          ...recentCandidates,
-          ...candidates.filter((entry) => entry.window === "72h"),
-        ];
+  const selectionPool = [...recentCandidates, ...candidates.filter((entry) => entry.window !== "24h")];
   const selected: VisualRadarSelectedStory[] = [];
   const selectedIds = new Set<string>();
   const sourceCounts = new Map<string, number>();
@@ -125,7 +135,7 @@ export function selectVisualRadarDailyStories({
     const sourceKey = getSourceKey(candidate.item);
     skipped.push({
       itemId: candidate.item.id,
-      reason: (sourceCounts.get(sourceKey) || 0) >= 2 ? "source_limit" : "daily_limit",
+      reason: (sourceCounts.get(sourceKey) || 0) >= 2 ? "source_limit" : !["24h", "72h"].includes(candidate.window) && selected.filter((entry) => !["24h", "72h"].includes(entry.window)).length >= 3 ? "reference_limit" : "daily_limit",
     });
   }
 
@@ -140,6 +150,7 @@ function trySelect(
   limit: number
 ) {
   if (selected.length >= limit || selectedIds.has(candidate.item.id)) return false;
+  if (!["24h", "72h"].includes(candidate.window) && selected.filter((entry) => !["24h", "72h"].includes(entry.window)).length >= 3) return false;
   const sourceKey = getSourceKey(candidate.item);
   const sourceCount = sourceCounts.get(sourceKey) || 0;
   if (sourceCount >= 2) return false;
@@ -155,6 +166,6 @@ function getSourceKey(item: IntelItem) {
 }
 
 function getItemTime(item: IntelItem) {
-  const date = new Date(item.postedAt || item.capturedAt);
+  const date = new Date(item.postedAt || "");
   return Number.isNaN(date.getTime()) ? 0 : date.getTime();
 }

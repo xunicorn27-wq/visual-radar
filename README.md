@@ -34,6 +34,12 @@ pnpm dev
 
 ## 当前半自动日报流程
 
+当前质量规则为 `evidence-v1`：正文快照在本地保存，证据不足不能生成新日报；历史内容保留并标注待核验。候选先做相关性初筛和方向配额，再读取正文。详情见 Codex Agent 解读指南。
+
+`pnpm quality:report` 检查最近采集的核心来源覆盖、连续失败和筛选分布；`GET /api/visual-radar/source-health` 为带管理鉴权的来源健康接口。恢复采集后健康记录会更新，历史回放不会重复增加失败次数。
+
+微信预览已改为前三条展开摘要、其余简列，所有精选保留原文链接。发送成功必须收到数字 `errcode: 0`；持久化防重发送及部署恢复状态机尚未在这一批实现，仍须遵循现有发布前校验顺序。
+
 1. 本地启动 Visual Radar，在管理区点击“采集最新”，检查采集结果。
 2. 点击“Agent 解读”，生成 `data/visual_radar_agent_batch.json`。
 3. 让 Codex 读取 Agent batch，并按 [Codex Agent 解读指南](docs/Codex-Agent解读指南.md) 将结果写入 `data/visual_radar_agent_output.json`。禁止直接修改 `data/visual_radar_analysis.json`。

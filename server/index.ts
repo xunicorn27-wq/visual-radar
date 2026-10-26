@@ -37,6 +37,8 @@ import {
 } from "./weComPublisher";
 import { createSendVisualRadarIssueHandler } from "./weComRoute";
 import { buildVisualRadarArchive } from "./visualRadarArchive";
+import { prepareCandidateEvidence } from "./visualRadarEvidence";
+import { recordSourceHealth } from "./visualRadarSourceHealth";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(__dirname, "..");
@@ -72,6 +74,10 @@ app.get("/api/visual-radar/items", (_req, res) => {
   res.json(readVisualRadarArtifact(files.items));
 });
 
+app.get("/api/visual-radar/source-health", requireCronSecret, (_req, res) => {
+  res.json(fs.existsSync(files.sourceHealth) ? JSON.parse(fs.readFileSync(files.sourceHealth, "utf8")) : { sources: [], summary: null });
+});
+
 app.post("/api/visual-radar/refresh", requireCronSecret, async (_req, res) => {
   try {
     res.json(await collectAndStore());
@@ -93,12 +99,16 @@ app.post("/api/visual-radar/analyze", requireCronSecret, async (_req, res) => {
   }
 });
 
-app.post("/api/visual-radar/agent/prepare", requireCronSecret, (_req, res) => {
+app.post("/api/visual-radar/agent/prepare", requireCronSecret, async (_req, res) => {
   try {
+    const itemsArtifact = readVisualRadarArtifact(files.items);
     const batch = prepareVisualRadarAgentBatch({
       analysisArtifact: readVisualRadarAnalysisArtifact(files.analysis),
-      itemsArtifact: readVisualRadarArtifact(files.items),
+      itemsArtifact,
     });
+    batch.candidates = await prepareCandidateEvidence(batch.candidates, files.evidence);
+    const enriched = new Map(batch.candidates.map((item) => [item.id, item]));
+    writeVisualRadarArtifact(files.items, { ...itemsArtifact, items: itemsArtifact.items.map((item) => enriched.get(item.id) || item) });
     writeVisualRadarAgentBatch(files.agentBatch, batch);
     res.json(batch);
   } catch (error) {
@@ -182,7 +192,8 @@ app.listen(port, "0.0.0.0", () => {
 async function collectAndStore() {
   const artifact = await collectVisualRadarItems();
   writeVisualRadarArtifact(files.items, artifact);
-  return artifact;
+  const health = recordSourceHealth(files.sourceHealth, artifact);
+  return { ...artifact, health: health.summary };
 }
 
 async function analyzeAndStore() {

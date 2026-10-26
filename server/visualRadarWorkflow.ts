@@ -7,6 +7,7 @@ import {
 } from "./visualRadarAnalysis";
 import { mergeVisualRadarAnalysisArtifact } from "./visualRadarAnalysisStore";
 import type { VisualRadarArtifact } from "./visualRadarCollector";
+import { isCandidateInWindow, singaporeIssueDate } from "../shared/visualRadarQuality";
 import { selectVisualRadarDailyStories } from "./visualRadarDailySelector";
 import {
   createVisualRadarIssue,
@@ -42,7 +43,7 @@ export async function analyzeVisualRadarArtifact({
   const eligibleItems = itemsArtifact.items.filter(
     (item) =>
       item.provenance.authenticity === "live" &&
-      getAgeHours(item.postedAt || item.capturedAt, now) <= 72
+      isCandidateInWindow(item, now)
   );
   const cachedKeys = new Set(
     analysisArtifact.analyses.map((analysis) =>
@@ -109,7 +110,7 @@ export function generateVisualRadarIssueFromArtifacts({
   now?: string;
 }) {
   const existingIssues = issueStore.listIssues();
-  const issueDate = now.slice(0, 10);
+  const issueDate = singaporeIssueDate(now);
   const existingToday = existingIssues.find((issue) => issue.issueDate === issueDate);
   const previouslySelectedItemIds = new Set(
     existingIssues
@@ -180,11 +181,4 @@ function buildFailure(
     promptVersion: VISUAL_ANALYSIS_PROMPT_VERSION,
     status: "failed",
   };
-}
-
-function getAgeHours(value: string, now: string) {
-  const itemTime = new Date(value).getTime();
-  const nowTime = new Date(now).getTime();
-  if (Number.isNaN(itemTime) || Number.isNaN(nowTime)) return Number.POSITIVE_INFINITY;
-  return Math.max(0, nowTime - itemTime) / 3_600_000;
 }

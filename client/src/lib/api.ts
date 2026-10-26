@@ -1,4 +1,5 @@
 import type { VisualRadarArchive } from "../../../server/visualRadarArchive";
+import type { EditorialEvidence } from "../../../shared/visualRadarQuality";
 export type { VisualRadarArchive, VisualRadarArchiveStory, VisualRadarArchiveEdition } from "../../../server/visualRadarArchive";
 
 export type VisualCultureTopic =
@@ -6,6 +7,8 @@ export type VisualCultureTopic =
   | "outfit" | "photography" | "styling" | "tool";
 
 export interface IntelItem {
+  eventStartsAt?: string | null;
+  eventEndsAt?: string | null;
   capturedAt: string;
   contentHash: string;
   dedupKey: string;
@@ -33,6 +36,7 @@ export interface IntelItem {
 }
 
 export interface VisualRadarArtifact {
+  health?: { healthy: number; attempted: number; coreHealthy: number; coreTotal: number; alerts: string[] };
   failures: Array<{ error: string; feedUrl: string; sourceId: string }>;
   generatedAt: string;
   items: IntelItem[];
@@ -40,6 +44,7 @@ export interface VisualRadarArtifact {
 }
 
 export interface VisualRadarAnalysis {
+  editorial?: EditorialEvidence;
   analyzedAt: string;
   chineseSummary: string | null;
   chineseTitle: string | null;
@@ -65,7 +70,7 @@ export interface VisualRadarAnalysisArtifact {
 export interface VisualRadarSelectedStory {
   analysis: VisualRadarAnalysis;
   item: IntelItem;
-  window: "24h" | "72h";
+  window: "24h" | "72h" | "upcoming" | "reference" | "unknown";
 }
 
 export interface VisualRadarIssue {

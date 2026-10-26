@@ -10,6 +10,8 @@
     "dev:server": "tsx server/index.ts",
     "daily": "tsx scripts/run-daily.ts",
     "agent:import": "tsx scripts/import-agent-output.ts",
+    "issue:correct": "tsx scripts/correct-visual-issue.ts",
+    "quality:report": "tsx scripts/quality-report.ts",
     "wecom:preview": "tsx scripts/preview-wecom.ts",
     "pages:data": "tsx scripts/generate-static-site.ts",
     "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",

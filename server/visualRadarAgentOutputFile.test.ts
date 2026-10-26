@@ -10,8 +10,9 @@ import {
   writeVisualRadarAnalysisArtifact,
 } from "./visualRadarAnalysisStore";
 
-const candidate = { contentHash: "sha1:candidate-1", id: "candidate-1" };
+const candidate = { contentHash: "sha1:candidate-1", id: "candidate-1", sourceUrl: "https://example.com/story" };
 const batch = {
+  qualityPolicy: "evidence-v1",
   candidates: [candidate],
   generatedAt: "2026-07-17T01:00:00.000Z",
   instructions: [],
@@ -22,6 +23,7 @@ const batch = {
 const output = {
   analyses: [
     {
+      editorial: { version: "evidence-v1", status: "insufficient", sourceUrl: candidate.sourceUrl, snapshotHash: null, facts: [], visualMethod: "", application: "", visualTags: [], limitation: "正文未取得" },
       chineseSummary: "这是一条摄影文化摘要。",
       chineseTitle: "摄影文化标题",
       contentHash: candidate.contentHash,
@@ -88,7 +90,7 @@ describe("importVisualRadarAgentOutputFiles", () => {
         contentHash: candidate.contentHash,
         itemId: candidate.id,
         model: "codex-agent",
-        score: 20,
+        score: 25,
       },
     ]);
     expect(fs.readdirSync(path.dirname(files.analysis)).sort()).toEqual([

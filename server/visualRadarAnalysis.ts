@@ -1,4 +1,5 @@
 import type { VisualCultureTopic } from "./visualCultureSources";
+import type { EditorialEvidence } from "../shared/visualRadarQuality";
 
 export const VISUAL_ANALYSIS_PROMPT_VERSION = "visual-daily-v1";
 
@@ -21,6 +22,7 @@ export interface VisualRadarScoreBreakdown {
 }
 
 export interface VisualRadarAnalysis {
+  editorial?: EditorialEvidence;
   analyzedAt: string;
   chineseSummary: string | null;
   chineseTitle: string | null;
@@ -54,6 +56,7 @@ export interface VisualRadarAnalysisArtifact {
 }
 
 export interface RawVisualRadarAnalysis {
+  editorial?: unknown;
   chineseSummary?: unknown;
   chineseTitle?: unknown;
   primaryTopic?: unknown;

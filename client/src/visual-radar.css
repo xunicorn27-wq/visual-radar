@@ -415,6 +415,15 @@ body:has(dialog[open]) .vr-back-top { display: none; }
   padding: 1px 6px;
   font-size: 10px;
 }
+.vr-quality-label { color: #66664d; font-size: 10px; }
+.vr-evidence-details { margin-top: 16px; border-top: 1px solid var(--vr-rule); padding-top: 12px; }
+.vr-evidence-details summary { cursor: pointer; font-size: 13px; line-height: 1.7; padding: 8px 0; }
+.vr-evidence-details h4 { margin: 16px 0 8px; font-size: 12px; font-weight: 600; }
+.vr-evidence-details p { font-size: 14px; line-height: 1.8; }
+.vr-evidence-details ul { padding-left: 18px; }
+.vr-evidence-details blockquote { margin: 8px 0 12px; border-left: 2px solid #cbd7a0; padding-left: 12px; font-size: 12px; color: var(--vr-muted); line-height: 1.7; }
+.vr-evidence-details a { color: inherit; font-size: 12px; }
+.vr-evidence-details .vr-evidence-limit { font-size: 12px; color: var(--vr-muted); margin-top: 12px; }
 
 .vr-story h2, .vr-story h3 {
   margin-top: 12px;

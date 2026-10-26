@@ -16,6 +16,8 @@ export interface VisualRadarFeedConfig {
 }
 
 export interface VisualFeedItem {
+  eventStartsAt?: string | null;
+  eventEndsAt?: string | null;
   link: string;
   publishedAt: string;
   summary: string;
@@ -30,6 +32,7 @@ export interface VisualRadarCollectionFailure {
 }
 
 export interface VisualRadarArtifact extends IntelArtifact {
+  attemptedSourceIds?: string[];
   failures: VisualRadarCollectionFailure[];
 }
 
@@ -323,6 +326,7 @@ export async function collectVisualRadarItems({
   return {
     ...buildIntelArtifact(dedupeItems(items), { generatedAt }),
     failures,
+    attemptedSourceIds: sources.map((source) => source.sourceId),
   };
 }
 
@@ -461,12 +465,14 @@ export function parseVisualHtmlItems(
 }
 
 export function parseVisualArticleMetadata(html: string) {
+  const structured = readStructuredDates(html);
   return {
     publishedAt:
       readMetaContent(html, "article:published_time") ||
       readMetaContent(html, "datePublished") ||
-      readEmbeddedFirstPublishedAt(html) ||
-      readVisiblePublishedDate(html),
+      structured.publishedAt || readEmbeddedFirstPublishedAt(html),
+    ...(structured.eventStartsAt ? { eventStartsAt: structured.eventStartsAt } : {}),
+    ...(structured.eventEndsAt ? { eventEndsAt: structured.eventEndsAt } : {}),
     summary:
       decodeXml(readMetaContent(html, "og:description")) ||
       decodeXml(readMetaContent(html, "description")),
@@ -480,6 +486,8 @@ export function parseVisualPageItem(html: string, pageUrl: string): VisualFeedIt
   if (!metadata.title) return [];
   return [{
     link: pageUrl,
+    ...(metadata.eventStartsAt ? { eventStartsAt: metadata.eventStartsAt } : {}),
+    ...(metadata.eventEndsAt ? { eventEndsAt: metadata.eventEndsAt } : {}),
     publishedAt: metadata.publishedAt,
     summary: metadata.summary || metadata.title,
     thumbnailUrl: metadata.thumbnailUrl,
@@ -548,6 +556,8 @@ function buildVisualRadarItem({
 }) {
   return createIntelItem({
     capturedAt,
+    ...(item.eventStartsAt ? { eventStartsAt: normalizeDate(item.eventStartsAt) } : {}),
+    ...(item.eventEndsAt ? { eventEndsAt: normalizeDate(item.eventEndsAt) } : {}),
     hashtags: [],
     id: `visual-${source.id}-${stableId(item.link)}`,
     keywords: [...source.topics],
@@ -623,7 +633,7 @@ function readAttribute(attrs: string, name: string) {
 
 function readMetaContent(html: string, key: string) {
   const normalizedKey = key.toLowerCase();
-  for (const match of Array.from(html.matchAll(/<meta\b[^>]*>/gi))) {
+  for (const match of Array.from(html.matchAll(/<meta\b[^>]*>/gi)).reverse()) {
     const tag = match[0];
     const metaKey = (readAttribute(tag, "property") || readAttribute(tag, "name"))
       .toLowerCase();
@@ -689,12 +699,27 @@ function readFirstSrcsetUrl(value: string) {
   return value.split(",")[0]?.trim().split(/\s+/)[0] || "";
 }
 
-function readVisiblePublishedDate(html: string) {
-  return (
-    html.match(
-      /\b\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+20\d{2}\b/i
-    )?.[0] || ""
-  );
+export function readStructuredDates(html: string) {
+  const result = { publishedAt: "", eventStartsAt: "", eventEndsAt: "" };
+  function visit(value: unknown) {
+    if (Array.isArray(value)) { value.forEach(visit); return; }
+    if (!value || typeof value !== "object") return;
+    const node = value as Record<string, unknown>;
+    const types = [node["@type"]].flat();
+    if (types.some((type) => typeof type === "string" && /^(NewsArticle|Article|BlogPosting|ReportageNewsArticle)$/.test(type))) {
+      if (typeof node.datePublished === "string" && !result.publishedAt) result.publishedAt = node.datePublished;
+    }
+    if (types.some((type) => typeof type === "string" && /Event$/.test(type))) {
+      if (typeof node.startDate === "string" && !result.eventStartsAt) result.eventStartsAt = node.startDate;
+      if (typeof node.endDate === "string" && !result.eventEndsAt) result.eventEndsAt = node.endDate;
+    }
+    if (node["@graph"]) visit(node["@graph"]);
+    if (node.mainEntity) visit(node.mainEntity);
+  }
+  for (const match of html.matchAll(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)) {
+    try { visit(JSON.parse(match[1])); } catch { /* Unknown structured data stays unknown. */ }
+  }
+  return result;
 }
 
 function readEmbeddedFirstPublishedAt(html: string) {
@@ -736,6 +761,8 @@ async function enrichVisualHtmlItem(
     return {
       ...item,
       publishedAt: metadata.publishedAt || item.publishedAt,
+      eventStartsAt: metadata.eventStartsAt || item.eventStartsAt,
+      eventEndsAt: metadata.eventEndsAt || item.eventEndsAt,
       summary: metadata.summary || item.summary,
       thumbnailUrl: metadata.thumbnailUrl || item.thumbnailUrl,
       title: metadata.title || item.title,

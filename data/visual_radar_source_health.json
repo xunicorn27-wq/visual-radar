@@ -1,0 +1,383 @@
+{
+  "generatedAt": "2026-10-23T07:50:11.243Z",
+  "sources": [
+    {
+      "sourceId": "bjp-1854",
+      "label": "British Journal of Photography",
+      "core": true,
+      "status": "failed",
+      "itemCount": 0,
+      "consecutiveFailures": 1,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": null,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "sourceId": "lensculture",
+      "label": "LensCulture",
+      "core": true,
+      "status": "failed",
+      "itemCount": 0,
+      "consecutiveFailures": 1,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": null,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "sourceId": "palais-galliera",
+      "label": "Palais Galliera",
+      "core": true,
+      "status": "failed",
+      "itemCount": 0,
+      "consecutiveFailures": 1,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": null,
+      "error": "HTTP 503 Service Unavailable"
+    },
+    {
+      "sourceId": "tokyo-photo-museum",
+      "label": "Tokyo Photographic Art Museum",
+      "core": true,
+      "status": "failed",
+      "itemCount": 0,
+      "consecutiveFailures": 1,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": null,
+      "error": "HTTP 503 Service Unavailable"
+    },
+    {
+      "sourceId": "met-costume-institute",
+      "label": "The Met Costume Institute",
+      "core": true,
+      "status": "failed",
+      "itemCount": 0,
+      "consecutiveFailures": 1,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": null,
+      "error": "HTTP 410 Gone"
+    },
+    {
+      "sourceId": "vogue-runway",
+      "label": "Vogue Runway",
+      "core": false,
+      "status": "ok",
+      "itemCount": 8,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "photovogue",
+      "label": "PhotoVogue",
+      "core": true,
+      "status": "ok",
+      "itemCount": 8,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "dazed",
+      "label": "Dazed",
+      "core": false,
+      "status": "ok",
+      "itemCount": 8,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "id-magazine",
+      "label": "i-D",
+      "core": false,
+      "status": "ok",
+      "itemCount": 8,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "another-magazine",
+      "label": "AnOther",
+      "core": false,
+      "status": "ok",
+      "itemCount": 8,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "interview-magazine",
+      "label": "Interview",
+      "core": false,
+      "status": "ok",
+      "itemCount": 8,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "w-magazine",
+      "label": "W Magazine",
+      "core": false,
+      "status": "ok",
+      "itemCount": 8,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "british-vogue",
+      "label": "British Vogue",
+      "core": false,
+      "status": "ok",
+      "itemCount": 8,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "wallpaper",
+      "label": "Wallpaper*",
+      "core": false,
+      "status": "ok",
+      "itemCount": 8,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "nowness",
+      "label": "NOWNESS",
+      "core": false,
+      "status": "ok",
+      "itemCount": 8,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "its-nice-that",
+      "label": "It's Nice That",
+      "core": false,
+      "status": "ok",
+      "itemCount": 8,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "aperture",
+      "label": "Aperture",
+      "core": true,
+      "status": "ok",
+      "itemCount": 8,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "icp",
+      "label": "International Center of Photography",
+      "core": true,
+      "status": "ok",
+      "itemCount": 4,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "vam-fashion",
+      "label": "V&A Fashion",
+      "core": true,
+      "status": "ok",
+      "itemCount": 8,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "momu",
+      "label": "MoMu Antwerp",
+      "core": true,
+      "status": "ok",
+      "itemCount": 8,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "fashionsnap",
+      "label": "FASHIONSNAP",
+      "core": false,
+      "status": "ok",
+      "itemCount": 8,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "ginza",
+      "label": "GINZA",
+      "core": false,
+      "status": "ok",
+      "itemCount": 8,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "vogue-japan",
+      "label": "Vogue Japan",
+      "core": false,
+      "status": "ok",
+      "itemCount": 8,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "vogue-korea",
+      "label": "Vogue Korea",
+      "core": false,
+      "status": "ok",
+      "itemCount": 8,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "w-korea",
+      "label": "W Korea",
+      "core": false,
+      "status": "ok",
+      "itemCount": 8,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "vogue-singapore",
+      "label": "Vogue Singapore",
+      "core": false,
+      "status": "ok",
+      "itemCount": 8,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "mplus",
+      "label": "M+",
+      "core": true,
+      "status": "ok",
+      "itemCount": 8,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "adobe-news",
+      "label": "Adobe Newsroom",
+      "core": false,
+      "status": "ok",
+      "itemCount": 1,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "capture-one",
+      "label": "Capture One",
+      "core": false,
+      "status": "ok",
+      "itemCount": 8,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "blackmagic-resolve",
+      "label": "DaVinci Resolve What's New",
+      "core": false,
+      "status": "ok",
+      "itemCount": 1,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "profoto",
+      "label": "Profoto Stories",
+      "core": false,
+      "status": "ok",
+      "itemCount": 8,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "aputure",
+      "label": "Aputure Blog",
+      "core": false,
+      "status": "ok",
+      "itemCount": 8,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    },
+    {
+      "sourceId": "runway",
+      "label": "Runway Research",
+      "core": false,
+      "status": "ok",
+      "itemCount": 1,
+      "consecutiveFailures": 0,
+      "lastCheckedAt": "2026-10-23T07:50:11.243Z",
+      "lastSuccessAt": "2026-10-23T07:50:11.243Z",
+      "error": null
+    }
+  ],
+  "summary": {
+    "attempted": 33,
+    "healthy": 28,
+    "failed": 5,
+    "empty": 0,
+    "coreHealthy": 6,
+    "coreTotal": 11,
+    "alerts": [
+      "British Journal of Photography：HTTP 403 Forbidden，连续 1 次",
+      "LensCulture：HTTP 403 Forbidden，连续 1 次",
+      "Palais Galliera：HTTP 503 Service Unavailable，连续 1 次",
+      "Tokyo Photographic Art Museum：HTTP 503 Service Unavailable，连续 1 次",
+      "The Met Costume Institute：HTTP 410 Gone，连续 1 次"
+    ]
+  }
+}

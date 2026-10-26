@@ -12,7 +12,7 @@ describe("prepareVisualRadarAgentBatch", () => {
 
     const batch = prepareVisualRadarAgentBatch({
       analysisArtifact: {
-        analyses: [{ contentHash: cached.contentHash } as never],
+        analyses: [{ contentHash: cached.contentHash, editorial: { version: "evidence-v1", status: "verified" } } as never],
         failures: [],
         generatedAt: "2026-07-16T11:00:00.000Z",
         promptVersion: "visual-daily-v1",

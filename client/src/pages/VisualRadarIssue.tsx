@@ -108,7 +108,7 @@ export function VisualRadarIssueContent({ issue }: { issue: VisualRadarIssueData
       </section>
 
       <section className="vr-cover" aria-label="本期重点">
-        <VisualStory story={layout.lead} issueId={issue.id} variant="lead" featured={featuredIds.has(layout.lead.item.id)} />
+        <VisualStory story={layout.lead} issueId={issue.id} issueGeneratedAt={issue.generatedAt} variant="lead" featured={featuredIds.has(layout.lead.item.id)} />
         <aside className="vr-highlights">
           <div className="vr-highlights-heading"><span>THE EDIT</span><h2>本期重点</h2></div>
           <ol className="vr-highlight-list">
@@ -157,7 +157,7 @@ export function VisualRadarIssueContent({ issue }: { issue: VisualRadarIssueData
           </header>
           <div className="vr-story-list">
             {section.stories.map((story) => (
-              <VisualStory story={story} issueId={issue.id} key={`${issue.id}-${story.item.id}`} featured={featuredIds.has(story.item.id)} />
+              <VisualStory story={story} issueId={issue.id} issueGeneratedAt={issue.generatedAt} key={`${issue.id}-${story.item.id}`} featured={featuredIds.has(story.item.id)} />
             ))}
           </div>
         </section>

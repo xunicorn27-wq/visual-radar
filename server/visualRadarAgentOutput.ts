@@ -7,6 +7,8 @@ import {
   type VisualRadarScoreBreakdown,
 } from "./visualRadarAnalysis";
 import { mergeVisualRadarAnalysisArtifact } from "./visualRadarAnalysisStore";
+import { validateEditorial, type EvidenceSnapshot } from "./visualRadarEvidence";
+import { classifyFreshness, QUALITY_VERSION, type SourceEvidence } from "../shared/visualRadarQuality";
 
 const VISUAL_TOPICS = new Set([
   "creator",
@@ -36,10 +38,12 @@ export function importVisualRadarAgentOutput({
   batch,
   current,
   output,
+  loadSnapshot,
 }: {
   batch: unknown;
   current: VisualRadarAnalysisArtifact;
   output: unknown;
+  loadSnapshot?: (hash: string) => EvidenceSnapshot;
 }) {
   const parsedBatch = parseAgentBatch(batch);
   const parsedOutput = parseAgentOutput(output);
@@ -61,13 +65,25 @@ export function importVisualRadarAgentOutput({
     }
     seenItemIds.add(raw.itemId);
 
-    return normalizeVisualRadarAnalysis(raw, {
+    const normalized = normalizeVisualRadarAnalysis(raw, {
       analyzedAt: parsedOutput.generatedAt,
       contentHash: item.contentHash,
       itemId: item.id,
       model: parsedOutput.model,
       promptVersion: parsedOutput.promptVersion,
     });
+    if (parsedBatch.qualityPolicy === QUALITY_VERSION) {
+      normalized.editorial = validateEditorial(raw.editorial, item, loadSnapshot);
+      normalized.scoreBreakdown.timeliness = classifyFreshness({ ...item, capturedAt: item.capturedAt || parsedOutput.generatedAt }, parsedOutput.generatedAt).timeliness;
+      if (normalized.editorial.status === "insufficient") {
+        normalized.scoreBreakdown = { informationSpecificity: 5, novelty: 5, professionalRelevance: 5, sourceQuality: 5, timeliness: 0, visualInspiration: 5 };
+      } else {
+        // Short evidence provides limited support for very high specificity/novelty ratings.
+        normalized.scoreBreakdown.informationSpecificity = Math.min(normalized.scoreBreakdown.informationSpecificity, normalized.editorial.facts.length > 1 ? 15 : 12);
+      }
+      normalized.score = Object.values(normalized.scoreBreakdown).reduce((sum, value) => sum + value, 0);
+    }
+    return normalized;
   });
 
   return {
@@ -146,6 +162,7 @@ function parseAgentOutput(value: unknown): VisualRadarAgentOutput {
       );
     }
     return {
+      editorial: analysis.editorial,
       chineseSummary: analysis.chineseSummary,
       chineseTitle: analysis.chineseTitle,
       contentHash: analysis.contentHash,
@@ -192,10 +209,17 @@ function parseAgentBatch(value: unknown) {
         `Agent batch candidate at index ${index} has an invalid contentHash`
       );
     }
-    return { contentHash: candidate.contentHash, id: candidate.id };
+    return { contentHash: candidate.contentHash, id: candidate.id,
+      sourceUrl: typeof candidate.sourceUrl === "string" ? candidate.sourceUrl : undefined,
+      sourceEvidence: candidate.sourceEvidence as SourceEvidence | undefined,
+      capturedAt: typeof candidate.capturedAt === "string" ? candidate.capturedAt : undefined,
+      postedAt: typeof candidate.postedAt === "string" ? candidate.postedAt : null,
+      eventStartsAt: typeof candidate.eventStartsAt === "string" ? candidate.eventStartsAt : null,
+    };
   });
 
-  return { candidates };
+  if (value.qualityPolicy !== undefined && value.qualityPolicy !== QUALITY_VERSION) throw new Error("未知质量契约");
+  return { candidates, qualityPolicy: value.qualityPolicy };
 }
 
 function isRecord(value: unknown): value is Record<string, unknown> {

@@ -24,6 +24,7 @@ export function readVisualRadarArtifact(filePath: string): VisualRadarArtifact {
     items: Array.isArray(payload.items) ? payload.items : [],
     schemaVersion: "1",
     failures: Array.isArray(payload.failures) ? payload.failures : [],
+    ...(Array.isArray(payload.attemptedSourceIds) ? { attemptedSourceIds: payload.attemptedSourceIds } : {}),
   };
 }
 

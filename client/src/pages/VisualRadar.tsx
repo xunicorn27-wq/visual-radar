@@ -150,7 +150,7 @@ export default function VisualRadar() {
       if (action === "collect") {
         const artifact = await refreshVisualRadarItems(adminSecret);
         setItems(artifact);
-        setStatus(`采集完成：${artifact.items.length} 条，失败 ${artifact.failures.length} 条。`);
+        setStatus(`采集完成：${artifact.items.length} 条，失败 ${artifact.failures.length} 个来源。${artifact.health ? ` 健康来源 ${artifact.health.healthy}/${artifact.health.attempted}，核心来源 ${artifact.health.coreHealthy}/${artifact.health.coreTotal}。${artifact.health.alerts.join("；")}` : ""}`);
         return;
       }
       if (action === "analyze") {

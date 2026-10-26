@@ -154,6 +154,7 @@ describe("generateVisualRadarIssueFromArtifacts", () => {
         model: "gpt-test",
       }
     );
+    analysis.editorial = testEditorial;
     const issue = generateVisualRadarIssueFromArtifacts({
       analysisArtifact: {
         ...emptyAnalysisArtifact,
@@ -200,6 +201,7 @@ describe("generateVisualRadarIssueFromArtifacts", () => {
         }
       )
     );
+    for (const analysis of analyses) analysis.editorial = testEditorial;
     const analysisArtifact = { ...emptyAnalysisArtifact, analyses };
 
     generateVisualRadarIssueFromArtifacts({
@@ -249,6 +251,8 @@ function buildItem(id: string, postedAt: string) {
     title: `Story ${id}`,
   });
 }
+
+const testEditorial = { version: "evidence-v1" as const, status: "verified" as const, sourceUrl: "https://example.com/story", snapshotHash: "test", facts: [{ statement: "测试事实", quote: "test evidence" }], visualMethod: "方法", application: "建议", visualTags: ["布光" as const], limitation: "测试" };
 
 function tempFile() {
   return path.join(

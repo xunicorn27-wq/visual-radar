@@ -1,4 +1,5 @@
 import type { VisualRadarIssue } from "./visualRadarIssue";
+import { classifyFreshness } from "../shared/visualRadarQuality";
 
 export interface WeComStatus {
   configured: boolean;
@@ -44,7 +45,8 @@ export function buildWeComMarkdownContent(
     "",
     ...featured.flatMap((story, index) => [
       `**${String(index + 1).padStart(2, "0")} | ${story.analysis.chineseTitle || story.item.title}**${story.item.sourceUrl ? ` [原文](${story.item.sourceUrl})` : ""}`,
-      compactSummary(story.analysis.chineseSummary || story.item.text),
+      ...(index < 3 ? [compactSummary(story.analysis.chineseSummary || story.item.text)] : []),
+      ...(["upcoming", "reference", "unknown"].includes(classifyFreshness(story.item, issue.generatedAt).kind) ? [`_${classifyFreshness(story.item, issue.generatedAt).label}_`] : []),
       "",
     ]),
     `> 本期网页共 ${issue.stats.storyCount} 条 | ${sourceCount} 个真实来源 | ${topicCount} 个主题`,
@@ -89,7 +91,7 @@ export async function sendVisualRadarIssueToWeCom(
     throw new Error(`企业微信发送失败：HTTP ${response.status} ${await response.text().catch(() => "")}`.trim());
   }
   const payload = await response.json().catch(() => null) as { errcode?: number; errmsg?: string } | null;
-  if (payload?.errcode) throw new Error(`企业微信发送失败：${payload.errmsg || payload.errcode}`);
+  if (payload?.errcode !== 0) throw new Error(`企业微信未明确确认成功：${typeof payload?.errcode === "number" ? payload.errcode : "响应缺少 errcode:0"}`);
   return { markdown, sent: true };
 }
 

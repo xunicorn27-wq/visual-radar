@@ -36,7 +36,7 @@ describe("selectVisualRadarDailyStories", () => {
       buildPair("source-2", { sourceAccount: "One Source" }, { score: 94 }),
       buildPair("source-3", { sourceAccount: "One Source" }, { score: 93 }),
       buildPair("previous", { sourceAccount: "Other" }, { score: 92 }),
-      buildPair("low", { sourceAccount: "Other 2" }, { score: 59 }),
+      buildPair("low", { sourceAccount: "Other 2" }, { score: 58 }),
       buildPair("duplicate-a", { sourceAccount: "Other 3" }, { score: 91 }),
       buildPair(
         "duplicate-b",
@@ -143,6 +143,7 @@ function buildPair(
     ...itemOverrides,
   });
   const analysis: VisualRadarAnalysis = {
+    editorial: { version: "evidence-v1", status: "verified", sourceUrl: item.sourceUrl, snapshotHash: "test", facts: [{ statement: "测试事实", quote: "test evidence" }], visualMethod: "测试方法", application: "测试建议", visualTags: ["布光"], limitation: "测试" },
     analyzedAt: "2026-07-16T11:00:00.000Z",
     chineseSummary: `摘要 ${id}`,
     chineseTitle: `标题 ${id}`,

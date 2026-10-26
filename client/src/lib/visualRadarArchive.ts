@@ -44,6 +44,6 @@ export function archiveStoryFromSelection({ item, analysis }: VisualRadarSelecte
     id: item.id, issueId, issueDate: issueId,
     title: analysis.chineseTitle || item.title, summary: analysis.chineseSummary || item.text,
     originalTitle: item.title, source: item.sourceAccount || "Visual Radar",
-    topic: analysis.primaryTopic, keywords: analysis.trendKeywords, thumbnailUrl: item.thumbnailUrl || null,
+    topic: analysis.primaryTopic, keywords: [...new Set([...(analysis.editorial?.visualTags || []), ...analysis.trendKeywords])], thumbnailUrl: item.thumbnailUrl || null,
   };
 }

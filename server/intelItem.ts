@@ -1,4 +1,5 @@
 import { createHash } from "node:crypto";
+import type { SourceEvidence } from "../shared/visualRadarQuality";
 
 export const INTEL_ITEM_SCHEMA_VERSION = "1" as const;
 
@@ -69,6 +70,9 @@ export interface IntelInterpretation {
 }
 
 export interface IntelItem {
+  eventStartsAt?: string | null;
+  eventEndsAt?: string | null;
+  sourceEvidence?: SourceEvidence;
   brand?: string | null;
   capturedAt: string;
   contentHash: string;

@@ -53,7 +53,7 @@ export function buildVisualRadarArchive(issues: readonly VisualRadarIssue[]): Vi
       originalTitle: item.title,
       source: item.sourceAccount || "Visual Radar",
       topic: analysis.primaryTopic,
-      keywords: analysis.trendKeywords,
+      keywords: [...new Set([...(analysis.editorial?.visualTags || []), ...analysis.trendKeywords])],
       thumbnailUrl: item.thumbnailUrl || null,
     }))),
   };

@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { singaporeIssueDate } from "../shared/visualRadarQuality";
 
 import type { VisualCultureTopic } from "./visualCultureSources";
 import type {
@@ -48,7 +49,7 @@ export function createVisualRadarIssue(
   options: { existingIds: string[]; now?: string }
 ): VisualRadarIssue {
   const generatedAt = options.now || new Date().toISOString();
-  const issueDate = generatedAt.slice(0, 10);
+  const issueDate = singaporeIssueDate(generatedAt);
   const stories = selection.eligible || selection.selected;
   const bySource: Record<string, number> = {};
   const byTopic: Partial<Record<VisualCultureTopic, number>> = {};
