@@ -8,6 +8,7 @@ export function StoryActions({ story }: { story: VisualRadarArchiveStory }) {
   const library = useVisualRadarLibrary();
   const entry = library.entries.find((item) => libraryStoryKey(item.story) === libraryStoryKey(story));
   const dialog = useRef<HTMLDialogElement>(null);
+  const noteInput = useRef<HTMLTextAreaElement>(null);
   const labelId = useId();
   const [draft, setDraft] = useState("");
   const [message, setMessage] = useState("");
@@ -18,6 +19,7 @@ export function StoryActions({ story }: { story: VisualRadarArchiveStory }) {
     const text = entry?.note || "";
     setDraft(text); setOriginal(text); setNoteError(""); setDiscardPrompt(false);
     dialog.current?.showModal();
+    noteInput.current?.focus();
   }
   function closeNote() {
     if (draft !== original) { setDiscardPrompt(true); return; }
@@ -45,7 +47,7 @@ export function StoryActions({ story }: { story: VisualRadarArchiveStory }) {
       <div className="vr-note-heading"><h2 id={labelId}>我的备注</h2><button type="button" onClick={closeNote} aria-label="关闭备注"><X aria-hidden="true" /></button></div>
       <p className="vr-note-story-title">{story.title}</p>
       <label className="vr-note-label">记下想借鉴的细节或下一步尝试
-        <textarea autoFocus value={draft} maxLength={NOTE_LIMIT} onChange={(event) => { setDraft(event.target.value); setDiscardPrompt(false); }} rows={7} placeholder="例如：侧光下的织物质感，下一次拍摄可以试试……" />
+        <textarea ref={noteInput} value={draft} maxLength={NOTE_LIMIT} onChange={(event) => { setDraft(event.target.value); setDiscardPrompt(false); }} rows={7} placeholder="例如：侧光下的织物质感，下一次拍摄可以试试……" />
       </label>
       <p className="vr-note-hint">仅保存在当前浏览器 · 保存备注会加入收藏 <span>{draft.length}/{NOTE_LIMIT}</span></p>
       {noteError && <p role="alert" className="vr-action-error">{noteError}</p>}

@@ -1,4 +1,5 @@
 import { Bot, BrainCircuit, FilePlus2, KeyRound, RefreshCw, Send, X } from "lucide-react";
+import { SourceHealthPanel } from "./SourceHealthPanel";
 
 export function VisualRadarAdmin({
   busyAction,
@@ -13,6 +14,7 @@ export function VisualRadarAdmin({
   onPublish,
   onSecretChange,
   status,
+  collectionVersion,
 }: {
   adminSecret: string;
   busyAction: "agent" | "analyze" | "collect" | "generate" | "publish" | null;
@@ -32,6 +34,7 @@ export function VisualRadarAdmin({
   onPublish: () => void;
   onSecretChange: (value: string) => void;
   status: string | null;
+  collectionVersion?: string;
 }) {
   return (
     <section className="vr-admin" aria-label="Visual Radar 管理区">
@@ -92,6 +95,7 @@ export function VisualRadarAdmin({
       </dl>
       {error ? <p className="vr-admin-error">{error}</p> : null}
       {!error && status ? <p className="vr-admin-status">{status}</p> : null}
+      <SourceHealthPanel secret={adminSecret} collectionVersion={collectionVersion} />
     </section>
   );
 }

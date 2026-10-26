@@ -4,6 +4,12 @@ import type { VisualRadarIssue, VisualRadarSelectedStory } from "./api";
 import { buildVisualRadarIssueLayout } from "./visualRadarIssueLayout";
 
 describe("buildVisualRadarIssueLayout", () => {
+  it("prefers a verified featured image over an unverified legacy high score", () => {
+    const legacy = buildStory("legacy", "photography", 99, "https://images.example.com/legacy.jpg");
+    const verified = buildStory("verified", "styling", 75, "https://images.example.com/verified.jpg");
+    verified.analysis.editorial = { version: "evidence-v1", status: "verified", sourceUrl: verified.item.sourceUrl, snapshotHash: "test", facts: [{ statement: "事实", quote: "source quote" }], visualMethod: "方法", application: "建议", visualTags: ["材质"], limitation: "测试" };
+    expect(buildVisualRadarIssueLayout(buildIssue([legacy, verified], [verified.item.id])).lead?.item.id).toBe("verified");
+  });
   it("chooses the highest-scoring story with an image as lead", () => {
     const issue = buildIssue([
       buildStory("highest-text", "photography", 98, null),

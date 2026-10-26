@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-26T07:43:52.641Z",
+  "generatedAt": "2026-10-26T08:10:13.573Z",
   "summary": {
     "published": 288,
-    "pending": 286,
-    "verified": 2,
-    "featuredPending": 88
+    "pending": 278,
+    "verified": 10,
+    "featuredPending": 80
   },
   "instruction": "清单不等于已核验。按 issue:correct prepare/apply 流程逐条读取正文；无法获取时保留待核验，不删除历史。",
   "entries": [
@@ -485,102 +485,6 @@
       "status": "pending"
     },
     {
-      "issueId": "2026-10-23",
-      "itemId": "visual-dazed-a5u93u",
-      "contentHash": "sha1:2147c27ba326b3058a87e461899dff0ff506295f",
-      "title": "Cabinet Couture：用 Instagram 揭露印尼政治精英",
-      "source": "Dazed",
-      "sourceUrl": "https://www.dazeddigital.com/fashion/article/71217/1/cabinet-couture-instagram-young-indonesians-fashion-expose-corrupt-government?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=cabinet-couture-the-instagram-account-exposing-indonesia-s-political-elite",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-10-23",
-      "itemId": "visual-id-magazine-1h4jhe8",
-      "contentHash": "sha1:c696f2d083ccaf032d2858753a8d3d0beedaeed8",
-      "title": "ZAIIE：献给巴勒斯坦美的品牌情书",
-      "source": "i-D",
-      "sourceUrl": "https://i-d.co/article/zaiie-palestinian-beauty-brand-interview/",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-10-23",
-      "itemId": "visual-its-nice-that-leb13s",
-      "contentHash": "sha1:8841cbf8a06219579eeb09655cc0a605ea853d38",
-      "title": "Foto Foto 让实体相册重新回到设计视野",
-      "source": "It's Nice That",
-      "sourceUrl": "https://www.itsnicethat.com/articles/foto-foto-photography-publication-sponsored-content-221026",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-10-23",
-      "itemId": "visual-vogue-japan-xxzklg",
-      "contentHash": "sha1:773c64de43a46d37baa7d7e60eb2179417345b50",
-      "title": "京都展览把珠宝雕刻与纺织创作并置",
-      "source": "Vogue Japan",
-      "sourceUrl": "https://www.vogue.co.jp/article/2026-10-23-sharanpoi",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-10-23",
-      "itemId": "visual-wallpaper-17ng13q",
-      "contentHash": "sha1:9a103461f08572a1a406d5eee216c8fb4face86f",
-      "title": "OKA Mori：由机器人与 AI 塑造性格的家居伙伴",
-      "source": "Wallpaper*",
-      "sourceUrl": "https://www.wallpaper.com/tech/oka-mori-companion-robot",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-10-23",
-      "itemId": "visual-wallpaper-1gyvp92",
-      "contentHash": "sha1:1c28ebbb3032c118e2174ba9434b52957d92ce32",
-      "title": "Prune Nourry 的石膏人物进入巴黎小皇宫",
-      "source": "Wallpaper*",
-      "sourceUrl": "https://www.wallpaper.com/art/exhibitions-shows/prune-nourry-visionaries-petit-palace-paris-review",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
-      ],
-      "status": "pending"
-    },
-    {
       "issueId": "2026-10-21",
       "itemId": "visual-mplus-187hfwh",
       "contentHash": "sha1:de4abba19039774b1463993b0be640c1138ed7e8",
@@ -949,22 +853,6 @@
       "status": "pending"
     },
     {
-      "issueId": "2026-10-23",
-      "itemId": "visual-its-nice-that-1uvjuae",
-      "contentHash": "sha1:161030c0925799e2481437cb15dd5dffb49fae86",
-      "title": "Mona Chalabi：如何让不可量化之物变得可理解",
-      "source": "It's Nice That",
-      "sourceUrl": "https://www.itsnicethat.com/articles/nicer-tuesdays-new-york-september-mona-chalabi-221026",
-      "featured": true,
-      "priority": 105,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "缺少配图"
-      ],
-      "status": "pending"
-    },
-    {
       "issueId": "2026-10-21",
       "itemId": "visual-its-nice-that-1unzu0k",
       "contentHash": "sha1:3da88b7c0ae244e055b8c148ff8a63425bef76af",
@@ -1121,21 +1009,6 @@
         "历史摘要未通过正文证据核验",
         "本期精选",
         "缺少配图"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-10-23",
-      "itemId": "visual-interview-magazine-w828gn",
-      "contentHash": "sha1:5e37e121e742c59e63725cecb7505dcc0c04865e",
-      "title": "古根海姆馆长解读 Taryn Simon 的《American Epic》",
-      "source": "Interview",
-      "sourceUrl": "https://www.interviewmagazine.com/art/guggenheim-melissa-chiu-taryn-simon-bottega-veneta",
-      "featured": true,
-      "priority": 100,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选"
       ],
       "status": "pending"
     },

@@ -12,6 +12,7 @@ dist/
 .DS_Store
 .playwright-cli/
 coverage/
+output/playwright/
 data/*.backup
 data/*.tmp
 data/*.lock

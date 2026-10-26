@@ -227,6 +227,32 @@
 
 .vr-admin-error { color: #ff7a7a; }
 .vr-admin-status { color: #d7ff3f; }
+.vr-health { margin-top: 24px; padding-top: 22px; border-top: 1px solid #5e5e5e; }
+.vr-health > header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; }
+.vr-health h2 { font-size: 20px; font-weight: 600; }
+.vr-health p { font-size: 12px; line-height: 1.8; margin-top: 8px; }
+.vr-health button { min-height: 44px; border: 1px solid #888; color: #fff; background: transparent; padding: 8px 14px; font: inherit; font-size: 12px; }
+.vr-health button:disabled { opacity: .5; cursor: default; }
+.vr-health :is(button, summary, [tabindex]):focus-visible { outline: 2px solid #d7ff3f; outline-offset: 3px; }
+.vr-health .vr-health-hint { color: #ccc; margin: 14px 0; }
+.vr-health-metrics { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 16px; margin: 20px 0; }
+.vr-health-metrics dt { font-size: 12px; color: #ccc; }
+.vr-health-metrics dd { margin: 6px 0 0; font-size: 24px; color: #d7ff3f; }
+.vr-health-alerts { font-size: 12px; line-height: 1.8; color: #f6d2a0; margin-bottom: 16px; }
+.vr-health-alerts summary { cursor: pointer; min-height: 32px; }
+.vr-health-filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0; }
+.vr-health-filters button[aria-pressed="true"] { color: #080808; background: #d7ff3f; border-color: #d7ff3f; }
+.vr-health-table-scroll { overflow-x: auto; max-width: 100%; }
+.vr-health-table { width: 100%; min-width: 720px; border-collapse: collapse; font-size: 12px; line-height: 1.7; text-align: left; }
+.vr-health-table caption { text-align: left; color: #ccc; padding: 8px 0; }
+.vr-health-table th, .vr-health-table td { padding: 12px 10px; border-bottom: 1px solid #444; vertical-align: top; }
+.vr-health-table th { font-weight: 500; }
+.vr-health-table small { display: block; color: #aaa; font-size: 10px; }
+.vr-health-table td p { overflow-wrap: anywhere; max-width: 280px; color: #f6d2a0; margin: 4px 0 0; }
+.vr-health-status { white-space: nowrap; }
+.vr-health-ok { color: #d7ff3f; }
+.vr-health-failed { color: #ffadad; }
+.vr-health-empty { color: #f6d2a0; }
 
 .vr-issue-shell {
   padding: 0 40px;

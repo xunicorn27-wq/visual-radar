@@ -913,30 +913,53 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-10-23T07:50:28.371Z",
-            "chineseSummary": "古根海姆馆长 Melissa Chiu 讨论 Taryn Simon 的《American Epic》，从机构视角梳理这位艺术家如何处理档案、国家叙事与影像证据。",
-            "chineseTitle": "古根海姆馆长解读 Taryn Simon 的《American Epic》",
+            "analyzedAt": "2026-10-26T08:07:15.000Z",
+            "chineseSummary": "Melissa Chiu 在访谈中介绍 Taryn Simon 的展览《FATHER COUNTRY I DO LOVE YOU》：艺术家将长期访谈转为文字、摄影、雕塑与装置，并为古根海姆圆厅组织成章节。原文标题中的 American Epic 是报道描述，不能当作正式展名。",
+            "chineseTitle": "Taryn Simon 为古根海姆圆厅创作《FATHER COUNTRY I DO LOVE YOU》",
             "contentHash": "sha1:5e37e121e742c59e63725cecb7505dcc0c04865e",
             "itemId": "visual-interview-magazine-w828gn",
             "model": "codex-agent",
             "primaryTopic": "exhibition",
             "promptVersion": "visual-daily-v1",
-            "score": 95,
+            "score": 82,
             "scoreBreakdown": {
-              "informationSpecificity": 15,
-              "novelty": 18,
-              "professionalRelevance": 20,
-              "sourceQuality": 9,
-              "timeliness": 5,
-              "visualInspiration": 28
+              "informationSpecificity": 14,
+              "novelty": 16,
+              "professionalRelevance": 18,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 26
             },
-            "selectionRationale": "重要机构与艺术家项目的对谈，对研究当代档案实践有价值。",
+            "selectionRationale": "可参考长期研究如何被转译为多媒介章节和场地专属叙事；已更正原日报对展名的误用。",
             "status": "success",
             "trendKeywords": [
               "Taryn Simon",
               "古根海姆",
-              "档案艺术"
-            ]
+              "场地叙事"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.interviewmagazine.com/art/guggenheim-melissa-chiu-taryn-simon-bottega-veneta",
+              "snapshotHash": "6400e2c22ea8f6f7b083addf0be0e3f2d3cce57d2f60e991c0014ffeeec6317d",
+              "facts": [
+                {
+                  "statement": "正文给出的正式展名是 FATHER COUNTRY I DO LOVE YOU。",
+                  "quote": "FATHER COUNTRY I DO LOVE YOU"
+                },
+                {
+                  "statement": "作品为古根海姆圆厅专门创作。",
+                  "quote": "she created it just for the rotunda"
+                }
+              ],
+              "visualMethod": "编辑分析：将访谈材料划分为章节，再让文字、照片和装置围绕同一建筑组织观看顺序。",
+              "application": "可先把研究材料整理成三至五个主题章节，再为每章安排一种主媒介，用场地动线串联；这是策展练习建议。",
+              "visualTags": [
+                "叙事",
+                "空间"
+              ],
+              "limitation": "依据馆长访谈核验，未现场观看展览；报道涉及 Bottega Veneta 赞助关系，不能据此推断独立评价或观众效果。"
+            }
           },
           "item": {
             "capturedAt": "2026-10-23T07:50:11.243Z",
@@ -994,30 +1017,53 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-10-23T07:50:28.371Z",
-            "chineseSummary": "信息设计师 Mona Chalabi 分享如何把难以量化的社会经验转化为可读的视觉叙事，在数据、主观性和公众理解之间建立桥梁。",
-            "chineseTitle": "Mona Chalabi：如何让不可量化之物变得可理解",
+            "analyzedAt": "2026-10-26T08:07:15.000Z",
+            "chineseSummary": "Nicer Tuesdays 的活动介绍提到，Mona Chalabi 讨论数据新闻中难以精确量化的经验，并介绍结合回忆录、报道与数据可视化的新书《Ten Lives: How What We Have Shapes Who We Are》。网页还注明其写作与设计历时六年。",
+            "chineseTitle": "Mona Chalabi 将回忆录、报道与数据可视化写进《Ten Lives》",
             "contentHash": "sha1:161030c0925799e2481437cb15dd5dffb49fae86",
             "itemId": "visual-its-nice-that-1uvjuae",
             "model": "codex-agent",
             "primaryTopic": "creator",
             "promptVersion": "visual-daily-v1",
-            "score": 95,
+            "score": 73,
             "scoreBreakdown": {
-              "informationSpecificity": 15,
-              "novelty": 18,
-              "professionalRelevance": 20,
-              "sourceQuality": 9,
-              "timeliness": 5,
-              "visualInspiration": 28
+              "informationSpecificity": 12,
+              "novelty": 13,
+              "professionalRelevance": 17,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 23
             },
-            "selectionRationale": "数据叙事与社会议题的结合，对信息设计实践具备直接启发。",
+            "selectionRationale": "值得研究的是叙事与数据的组合方式；本次只核验网页活动介绍，不把它当作完整演讲内容。",
             "status": "success",
             "trendKeywords": [
               "Mona Chalabi",
-              "信息设计",
-              "数据叙事"
-            ]
+              "数据叙事",
+              "Ten Lives"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.itsnicethat.com/articles/nicer-tuesdays-new-york-september-mona-chalabi-221026",
+              "snapshotHash": "4057464bc2444ac4f977f4895cbc36edb80a381de47f2f3d8bcaa5cffe92aedb",
+              "facts": [
+                {
+                  "statement": "书籍融合回忆录、报道与数据可视化。",
+                  "quote": "a unique blend of memoir, reportage and data visualisation"
+                },
+                {
+                  "statement": "网页称该书写作与设计用了六年。",
+                  "quote": "six years to write and design"
+                }
+              ],
+              "visualMethod": "编辑分析：将统计材料与个体经验并排呈现，使图表成为叙事的一部分，同时保留不可量化部分的说明。",
+              "application": "可用一张图表、一段个体叙述和一条数据限制说明做成同页样稿，检查是否夸大了数字的解释能力。",
+              "visualTags": [
+                "叙事",
+                "构图"
+              ],
+              "limitation": "只读取了网页介绍，未观看演讲视频或阅读全文书籍；未取得可靠的文章专属封面，继续保留缺图状态。"
+            }
           },
           "item": {
             "capturedAt": "2026-10-23T07:50:11.243Z",
@@ -1075,30 +1121,54 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-10-23T07:50:28.371Z",
-            "chineseSummary": "Prune Nourry 在巴黎 Petit Palais 展出石膏铸像人物，以身体、记忆和群体形象构建具有仪式感的雕塑现场。",
-            "chineseTitle": "Prune Nourry 的石膏人物进入巴黎小皇宫",
+            "analyzedAt": "2026-10-26T08:07:15.000Z",
+            "chineseSummary": "据 Wallpaper* 报道，Prune Nourry 的《Visionaries》在巴黎小皇宫呈现 18 尊女性石膏像。她与艺术史研究者整理女性雕塑家的文字和肖像，再以不同尺度的雕塑回应馆藏中的性别失衡。",
+            "chineseTitle": "Prune Nourry 用 18 尊石膏肖像让女性雕塑家进入小皇宫",
             "contentHash": "sha1:1c28ebbb3032c118e2174ba9434b52957d92ce32",
             "itemId": "visual-wallpaper-1gyvp92",
             "model": "codex-agent",
             "primaryTopic": "exhibition",
             "promptVersion": "visual-daily-v1",
-            "score": 94,
+            "score": 83,
             "scoreBreakdown": {
               "informationSpecificity": 14,
-              "novelty": 18,
-              "professionalRelevance": 19,
-              "sourceQuality": 9,
-              "timeliness": 5,
-              "visualInspiration": 29
+              "novelty": 16,
+              "professionalRelevance": 18,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 27
             },
-            "selectionRationale": "当代雕塑与历史博物馆空间的对话具备强烈的观看价值。",
+            "selectionRationale": "具体方法是档案肖像转为立体人物，并以尺度和历史馆藏形成对话；人物主题应明确为女性雕塑家。",
             "status": "success",
             "trendKeywords": [
               "Prune Nourry",
-              "Petit Palais",
-              "当代雕塑"
-            ]
+              "女性雕塑家",
+              "档案肖像"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.wallpaper.com/art/exhibitions-shows/prune-nourry-visionaries-petit-palace-paris-review",
+              "snapshotHash": "6fe94ab97407be6248d9e09583c52354ee54da990896b5f6bb3d6ea9a8c1d06b",
+              "facts": [
+                {
+                  "statement": "展览呈现 18 尊石膏人物。",
+                  "quote": "18 figures, visionary women cast in plaster"
+                },
+                {
+                  "statement": "人物来源是较少被认识的女性雕塑家。",
+                  "quote": "the figures of lesser-known female sculptors"
+                }
+              ],
+              "visualMethod": "编辑分析：档案研究支撑人物选择，再用石膏材质、不同尺寸和原有馆藏共同组织空间关系。",
+              "application": "可先建立人物档案板，注明证据缺口，再测试同一肖像在三种尺度中的观看距离；不要把艺术再现误当作精确复原。",
+              "visualTags": [
+                "材质",
+                "空间",
+                "叙事"
+              ],
+              "limitation": "未现场测量或核对馆藏统计；涉及数量与研究过程的事实依据本篇报道，人物重构含艺术家的解释。"
+            }
           },
           "item": {
             "capturedAt": "2026-10-23T07:50:11.243Z",
@@ -1156,30 +1226,54 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-10-23T07:50:28.371Z",
-            "chineseSummary": "OKA 的 Mori 以机器人和 AI 为基础，为家庭陪伴设备赋予带有“性格”的交互体验，重新设想智能硬件的情感设计。",
-            "chineseTitle": "OKA Mori：由机器人与 AI 塑造性格的家居伙伴",
+            "analyzedAt": "2026-10-26T08:07:15.000Z",
+            "chineseSummary": "Wallpaper* 介绍的 Mori 高约 30 厘米，以发光帽盖、织物机身和有限的流畅动作构成亲近的角色形象。报道描述触摸、声音与灯光响应；关于 AI 随时间学习的能力属于产品方介绍，尚未经本项目实测。",
+            "chineseTitle": "OKA Mori：以蘑菇形态、灯光与微动作表达陪伴",
             "contentHash": "sha1:9a103461f08572a1a406d5eee216c8fb4face86f",
             "itemId": "visual-wallpaper-17ng13q",
             "model": "codex-agent",
             "primaryTopic": "tool",
             "promptVersion": "visual-daily-v1",
-            "score": 94,
+            "score": 80,
             "scoreBreakdown": {
               "informationSpecificity": 14,
-              "novelty": 19,
-              "professionalRelevance": 19,
-              "sourceQuality": 9,
-              "timeliness": 5,
-              "visualInspiration": 28
+              "novelty": 16,
+              "professionalRelevance": 17,
+              "sourceQuality": 7,
+              "timeliness": 0,
+              "visualInspiration": 26
             },
-            "selectionRationale": "AI、机器人与家居产品结合，呈现交互设计和角色化硬件趋势。",
+            "selectionRationale": "可参考的是尺寸、软材质与微动作的角色设计，不据此承诺 AI 能力或情绪疗效。",
             "status": "success",
             "trendKeywords": [
-              "陪伴机器人",
-              "AI家居",
-              "情感化设计"
-            ]
+              "OKA Mori",
+              "陪伴设计",
+              "微动作"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.wallpaper.com/tech/oka-mori-companion-robot",
+              "snapshotHash": "593cf0f800783ef29fd19a7b7b3cfcbd14f975497a7f31d65bc38c63d591bea1",
+              "facts": [
+                {
+                  "statement": "报道给出的产品高度约为 30 厘米。",
+                  "quote": "At 30cm tall"
+                },
+                {
+                  "statement": "伺服机构驱动有限范围的流畅运动。",
+                  "quote": "Servos activate a discrete range of fluid movements"
+                }
+              ],
+              "visualMethod": "编辑分析：用小尺度、软织物、眼部变化与灯光共同建立角色感，避免仅依赖语音交互来表达状态。",
+              "application": "可制作三个状态的纸面分镜或低保真灯光样机，比较动作幅度、光色与停顿如何传达注意、休息和回应。",
+              "visualTags": [
+                "动态影像",
+                "材质",
+                "色彩"
+              ],
+              "limitation": "产品报道而非独立测试；未验证识别能力、隐私处理、续航或健康效果。"
+            }
           },
           "item": {
             "capturedAt": "2026-10-23T07:50:11.243Z",
@@ -1237,30 +1331,54 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-10-23T07:50:28.371Z",
-            "chineseSummary": "Sharanpoi 的安部真理子与诧间宝石雕刻在京都举办展览，结合独件销售与定制活动，凸显小规模工艺品牌的跨媒介协作。",
-            "chineseTitle": "京都展览把珠宝雕刻与纺织创作并置",
+            "analyzedAt": "2026-10-26T08:07:15.000Z",
+            "chineseSummary": "珠宝设计师安部真理子与 TAKUMA STUDIO 的诧间康二在 haku kyoto 举办展览，围绕园景水晶呈现珠宝与物件，并展示结合金属雕刻和宝石工艺的戒指。原日报提及的“纺织创作”不受正文支持，已更正。",
+            "chineseTitle": "京都“水は石、地と時の景”：园景水晶与宝石雕刻的相遇",
             "contentHash": "sha1:773c64de43a46d37baa7d7e60eb2179417345b50",
             "itemId": "visual-vogue-japan-xxzklg",
             "model": "codex-agent",
             "primaryTopic": "exhibition",
             "promptVersion": "visual-daily-v1",
-            "score": 93,
+            "score": 80,
             "scoreBreakdown": {
-              "informationSpecificity": 15,
-              "novelty": 18,
-              "professionalRelevance": 18,
-              "sourceQuality": 9,
-              "timeliness": 5,
-              "visualInspiration": 28
+              "informationSpecificity": 14,
+              "novelty": 15,
+              "professionalRelevance": 17,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 26
             },
-            "selectionRationale": "纺织、宝石雕刻和定制机制结合，工艺叙事具体。",
+            "selectionRationale": "重点是天然石内部景观与宝石、金属工艺的组合，不是纺织跨界。",
             "status": "success",
             "trendKeywords": [
-              "京都展览",
-              "珠宝雕刻",
-              "纺织工艺"
-            ]
+              "园景水晶",
+              "宝石雕刻",
+              "京都展览"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.vogue.co.jp/article/2026-10-23-sharanpoi",
+              "snapshotHash": "fa3fa03cdd601e96602d66a594bcc5a5b685bb322f9cc5f784e2be279f38248f",
+              "facts": [
+                {
+                  "statement": "展览主题是呈现草木般内部景观的园景水晶。",
+                  "quote": "ガーデンクォーツ"
+                },
+                {
+                  "statement": "作品包括结合金属雕刻与宝石工艺的凹雕戒指。",
+                  "quote": "彫金と貴石細工を組み合わせたインタリオリング"
+                }
+              ],
+              "visualMethod": "编辑分析：把天然石包裹体作为微型景观，利用透明材质与雕刻表面对比来建立视觉层次。",
+              "application": "可为透明石材做透射光与侧光两组静物试拍，分别观察内部包裹体和表面雕刻；这是编辑提出的拍摄练习。",
+              "visualTags": [
+                "工艺",
+                "材质",
+                "布光"
+              ],
+              "limitation": "未现场检视珠宝；本文为展览资讯。原摘要中的纺织创作表述已撤回。"
+            }
           },
           "item": {
             "capturedAt": "2026-10-23T07:50:11.243Z",
@@ -1318,30 +1436,54 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-10-23T07:50:28.371Z",
-            "chineseSummary": "ZAIIE 以巴勒斯坦之美为核心建立品牌表达，把文化身份、身体和视觉语言转译为当代美妆与时尚叙事。",
-            "chineseTitle": "ZAIIE：献给巴勒斯坦美的品牌情书",
+            "analyzedAt": "2026-10-26T08:07:15.000Z",
+            "chineseSummary": "在 i-D 访谈中，Reema Shihadeh 介绍 ZAIIE 的包装从巴勒斯坦 Tatreez 刺绣与乡野色彩取材，配方则使用家族橄榄园来源的橄榄油。可观察文化记忆如何同时连接原料、包装和产品故事。",
+            "chineseTitle": "ZAIIE 把巴勒斯坦刺绣与风景色彩引入美妆包装",
             "contentHash": "sha1:c696f2d083ccaf032d2858753a8d3d0beedaeed8",
             "itemId": "visual-id-magazine-1h4jhe8",
             "model": "codex-agent",
             "primaryTopic": "creator",
             "promptVersion": "visual-daily-v1",
-            "score": 93,
+            "score": 82,
             "scoreBreakdown": {
               "informationSpecificity": 14,
-              "novelty": 19,
+              "novelty": 16,
               "professionalRelevance": 18,
-              "sourceQuality": 9,
-              "timeliness": 5,
-              "visualInspiration": 28
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 26
             },
-            "selectionRationale": "以文化身份为核心的独立品牌视觉实践具备鲜明立场。",
+            "selectionRationale": "原文给出了具体的配色来源和原料故事，可用于研究文化身份如何转化为品牌设计。",
             "status": "success",
             "trendKeywords": [
-              "巴勒斯坦美学",
-              "独立品牌",
-              "身份叙事"
-            ]
+              "ZAIIE",
+              "Tatreez",
+              "包装设计"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://i-d.co/article/zaiie-palestinian-beauty-brand-interview/",
+              "snapshotHash": "4d28b7b4a2604ac38c4856fc1cf8c76a4716f88ad15edd517c251f40f732774d",
+              "facts": [
+                {
+                  "statement": "包装借鉴巴勒斯坦 Tatreez 刺绣和乡野色彩。",
+                  "quote": "the vibrant colors of Palestinian Tatreez and countryside"
+                },
+                {
+                  "statement": "创始人称橄榄油来自家族在巴勒斯坦的橄榄园。",
+                  "quote": "All of our olive oil comes from my family’s groves in Palestine."
+                }
+              ],
+              "visualMethod": "编辑分析：文化线索同时落到配色、纹理和原料叙事，形成可追溯的设计关系，而非只使用抽象的地域标签。",
+              "application": "可制作“文化参考—色彩/纹理—包装呈现”的对应板，并明确哪些线索来自创始人自述、哪些是设计团队的解释。",
+              "visualTags": [
+                "色彩",
+                "材质",
+                "叙事"
+              ],
+              "limitation": "依据创始人访谈，未独立审计供应链或验证产品功效；避免把个体表达泛化为整个文化的唯一代表。"
+            }
           },
           "item": {
             "capturedAt": "2026-10-23T07:50:11.243Z",
@@ -1666,30 +1808,49 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-10-23T07:50:28.371Z",
-            "chineseSummary": "Cabinet Couture 以时装评论与社交媒体档案揭示印尼政治精英的权力形象，让服装成为观察腐败、阶层和公共话语的切口。",
-            "chineseTitle": "Cabinet Couture：用 Instagram 揭露印尼政治精英",
+            "analyzedAt": "2026-10-26T08:07:15.000Z",
+            "chineseSummary": "Dazed 采访了 Cabinet Couture 的匿名成员。该账号识别印尼政治人物公开照片中的奢侈品，并将图片与价格并置，引发对收入、消费和社会不平等的讨论。商品辨识与价格比较本身不能证明违法。",
+            "chineseTitle": "Cabinet Couture 用公开照片与商品价格讨论权力形象",
             "contentHash": "sha1:2147c27ba326b3058a87e461899dff0ff506295f",
             "itemId": "visual-dazed-a5u93u",
             "model": "codex-agent",
             "primaryTopic": "fashion_culture",
             "promptVersion": "visual-daily-v1",
-            "score": 92,
+            "score": 76,
             "scoreBreakdown": {
-              "informationSpecificity": 15,
-              "novelty": 19,
-              "professionalRelevance": 18,
-              "sourceQuality": 9,
-              "timeliness": 5,
-              "visualInspiration": 26
+              "informationSpecificity": 12,
+              "novelty": 17,
+              "professionalRelevance": 16,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 23
             },
-            "selectionRationale": "时尚图像被用于公共监督，展示视觉文化的社会批评能力。",
+            "selectionRationale": "适合研究服装图像如何成为公共讨论的材料，同时必须区分公开观察、账号主张与已证实事实。",
             "status": "success",
             "trendKeywords": [
-              "政治时尚",
-              "Instagram档案",
-              "印尼文化"
-            ]
+              "Cabinet Couture",
+              "图像比较",
+              "公共讨论"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.dazeddigital.com/fashion/article/71217/1/cabinet-couture-instagram-young-indonesians-fashion-expose-corrupt-government?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=cabinet-couture-the-instagram-account-exposing-indonesia-s-political-elite",
+              "snapshotHash": "e25a98ea85c6b419ab46cf3998bcd671cc0453409fa50b2e1a98f028d59f8597",
+              "facts": [
+                {
+                  "statement": "报道描述账号将辨识出的商品与价格并置发布。",
+                  "quote": "identifies the products then reposts them alongside their hefty price tags"
+                }
+              ],
+              "visualMethod": "编辑分析：公开人物照片、商品辨识与价格文字构成对照式版面；版面呈现应保留来源和不确定性说明。",
+              "application": "可用许可范围内的公开案例练习对照式信息卡，分别标注照片出处、商品辨识置信度与价格日期，避免由穿着推断违法。",
+              "visualTags": [
+                "构图",
+                "叙事"
+              ],
+              "limitation": "仅核验报道对账号工作方式的描述，未独立核实个人财产、商品真伪或账号提出的政治指控；不应当作法律结论。"
+            }
           },
           "item": {
             "capturedAt": "2026-10-23T07:50:11.243Z",
@@ -1747,30 +1908,54 @@
         },
         {
           "analysis": {
-            "analyzedAt": "2026-10-23T07:50:28.371Z",
-            "chineseSummary": "Foto Foto 以设计导向品牌重新推广实体照片相册，在数字影像过量的语境中强调可触摸的编辑、保存与回看体验。",
-            "chineseTitle": "Foto Foto 让实体相册重新回到设计视野",
+            "analyzedAt": "2026-10-26T08:07:15.000Z",
+            "chineseSummary": "It's Nice That 的品牌赞助文章介绍 Foto Foto：平台依据照片的时间、日期和地点生成版面与顺序，用户再调整图片、文字及纸张装订选项。可借鉴的是自动初排与人工编辑的分工，不是未经实测的效率承诺。",
+            "chineseTitle": "Foto Foto 用照片元数据生成可调整的实体相册",
             "contentHash": "sha1:8841cbf8a06219579eeb09655cc0a605ea853d38",
             "itemId": "visual-its-nice-that-leb13s",
             "model": "codex-agent",
             "primaryTopic": "photography",
             "promptVersion": "visual-daily-v1",
-            "score": 91,
+            "score": 75,
             "scoreBreakdown": {
               "informationSpecificity": 14,
-              "novelty": 18,
-              "professionalRelevance": 18,
-              "sourceQuality": 9,
-              "timeliness": 5,
-              "visualInspiration": 27
+              "novelty": 14,
+              "professionalRelevance": 17,
+              "sourceQuality": 6,
+              "timeliness": 0,
+              "visualInspiration": 24
             },
-            "selectionRationale": "从数字照片回到物理相册，兼具产品设计和影像文化观察价值。",
+            "selectionRationale": "流程细节明确，适合作为相册编辑与纸面作品集的参考；保留赞助标记并降低来源独立性评分。",
             "status": "success",
             "trendKeywords": [
-              "实体相册",
-              "摄影出版",
-              "记忆设计"
-            ]
+              "Foto Foto",
+              "相册编辑",
+              "自动排版"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.itsnicethat.com/articles/foto-foto-photography-publication-sponsored-content-221026",
+              "snapshotHash": "ad76edb5c8c2e2f74ec0f7e342b85ec5335bb191ea26ad430f7e105a1eb8ac7e",
+              "facts": [
+                {
+                  "statement": "文章描述系统依据照片时间、日期和地点生成顺序。",
+                  "quote": "taking into account the times, dates and locations of the pics"
+                },
+                {
+                  "statement": "文章明确标注品牌赞助。",
+                  "quote": "Sponsored by Foto Foto"
+                }
+              ],
+              "visualMethod": "编辑分析：元数据先建立初始叙事顺序，再由人调整取舍、文字和材质，减少空白起稿的负担。",
+              "application": "可用一组已有照片分别按日期、地点和色彩排序，比较故事节奏，再制作少量纸面样张；是否节省时间需要自行验证。",
+              "visualTags": [
+                "构图",
+                "叙事",
+                "材质"
+              ],
+              "limitation": "品牌赞助内容，未测试平台、印刷质量、费用或交付时效。"
+            }
           },
           "item": {
             "capturedAt": "2026-10-23T07:50:11.243Z",

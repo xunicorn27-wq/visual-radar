@@ -201,6 +201,7 @@ export default function VisualRadar() {
       />
       {!visualRadarStaticMode && adminOpen ? (
         <VisualRadarAdmin
+          collectionVersion={items?.generatedAt}
           adminSecret={adminSecret}
           busyAction={busyAction}
           error={error}
@@ -225,13 +226,13 @@ export default function VisualRadar() {
       {loading ? (
         <div id="main-content" tabIndex={-1} className="vr-message" role="status" aria-live="polite"><Loader2 className="vr-spin" aria-hidden="true" /> 正在加载 Visual Radar</div>
       ) : null}
-      {!loading && visualRadarStaticMode && error ? (
+      {!loading && !issueDetail && error ? (
         <div className="vr-load-error" role="alert"><h1 id="main-content" tabIndex={-1}>日报暂时没有打开</h1><p>{error}</p><button type="button" onClick={() => setRetry((value) => value + 1)}>重新加载</button></div>
       ) : null}
       {!loading && issueDetail ? (
         <VisualRadarIssueContent issue={issueDetail.issue} />
       ) : null}
-      {!loading && !issueDetail && (!visualRadarStaticMode || !error) ? (
+      {!loading && !issueDetail && !error ? (
         <section className="vr-empty">
           <span>{visualRadarStaticMode ? "READ ONLY" : "VOL.001"}</span>
           <h1 id="main-content" tabIndex={-1}>

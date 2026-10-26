@@ -1,5 +1,7 @@
 import type { VisualRadarArchive } from "../../../server/visualRadarArchive";
 import type { EditorialEvidence } from "../../../shared/visualRadarQuality";
+import type { HealthArtifact } from "../../../server/visualRadarSourceHealth";
+export type { HealthArtifact, SourceHealth } from "../../../server/visualRadarSourceHealth";
 export type { VisualRadarArchive, VisualRadarArchiveStory, VisualRadarArchiveEdition } from "../../../server/visualRadarArchive";
 
 export type VisualCultureTopic =
@@ -163,6 +165,8 @@ async function req<T>(url: string, options: RequestInit = {}, secret?: string): 
 }
 
 export const getVisualRadarSources = () => req<IntelSourceRegistrySnapshot>("/api/visual-radar/sources");
+export const getVisualRadarSourceHealth = (secret: string, signal?: AbortSignal) =>
+  req<HealthArtifact | { sources: []; summary: null }>("/api/visual-radar/source-health", { signal }, secret);
 export const getVisualRadarItems = () => req<VisualRadarArtifact>("/api/visual-radar/items");
 export const getVisualRadarAnalysis = () => req<VisualRadarAnalysisArtifact>("/api/visual-radar/analysis");
 const visualRadarReadOptions = {

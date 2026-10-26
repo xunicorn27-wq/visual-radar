@@ -69,7 +69,9 @@ export function buildVisualRadarIssueLayout(issue: VisualRadarIssue | null) {
       featuredStories.push(story);
     }
   }
-  const lead = ranked.find((story) => Boolean(story.item.thumbnailUrl)) || ranked[0];
+  const lead = featuredStories.find((story) => story.analysis.editorial?.status === "verified" && story.item.thumbnailUrl)
+    || ranked.find((story) => story.analysis.editorial?.status === "verified" && story.item.thumbnailUrl)
+    || ranked.find((story) => Boolean(story.item.thumbnailUrl)) || ranked[0];
   const supporting = ranked.filter((story) => story.item.id !== lead.item.id);
   const sections = SECTION_DEFINITIONS.map(({ topics, ...section }) => ({
     ...section,

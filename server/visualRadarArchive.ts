@@ -34,7 +34,10 @@ export function buildVisualRadarArchive(issues: readonly VisualRadarIssue[]): Vi
   return {
     issues: sorted.map((issue) => {
       const ranked = [...issue.stories].sort((a, b) => b.analysis.score - a.analysis.score);
-      const cover = ranked.find((story) => story.item.thumbnailUrl) || ranked[0];
+      const cover = issue.featuredStoryIds.map((id) => ranked.find((story) => story.item.id === id))
+        .find((story) => story?.analysis.editorial?.status === "verified" && story.item.thumbnailUrl)
+        || ranked.find((story) => story.analysis.editorial?.status === "verified" && story.item.thumbnailUrl)
+        || ranked.find((story) => story.item.thumbnailUrl) || ranked[0];
       return {
         id: issue.id,
         issueDate: issue.issueDate,
