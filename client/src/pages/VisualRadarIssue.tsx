@@ -3,7 +3,7 @@ import { ArrowLeft, ArrowRight, Loader2 } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 
 import { VisualRadarMasthead } from "../components/visual-radar/VisualRadarMasthead";
-import { VisualStory } from "../components/visual-radar/VisualStory";
+import { VisualStory, visualStoryAnchor } from "../components/visual-radar/VisualStory";
 import {
   getVisualRadarIssue,
   type VisualRadarIssue as VisualRadarIssueData,
@@ -60,6 +60,9 @@ export default function VisualRadarIssue() {
 export function VisualRadarIssueContent({ issue }: { issue: VisualRadarIssueData }) {
   const layout = useMemo(() => buildVisualRadarIssueLayout(issue), [issue]);
   if (!layout.lead) return null;
+  const highlights = layout.featuredStories
+    .filter((story) => story.item.id !== layout.lead?.item.id).slice(0, 3);
+  const featuredIds = new Set(layout.featuredStories.map((story) => story.item.id));
 
   return (
     <div className="vr-issue-shell">
@@ -67,28 +70,52 @@ export function VisualRadarIssueContent({ issue }: { issue: VisualRadarIssueData
         <div>
           <p className="vr-date">{formatChineseDate(issue.issueDate)}</p>
           <h1>摄影推送</h1>
-          <p>{issue.stats.storyCount} 篇报道 · 约 {layout.readingMinutes} 分钟</p>
         </div>
-        <div className="vr-top-stories">
-          <h2>微信精选 {layout.featuredStories.length} 条</h2>
+        <p className="vr-edition-note">摄影、造型与创作的每日观察。<br />
+          <span>{issue.stats.storyCount} 篇报道 · 约 {layout.readingMinutes} 分钟</span>
+        </p>
+      </section>
+
+      <section className="vr-cover" aria-label="本期重点">
+        <VisualStory story={layout.lead} variant="lead" featured={featuredIds.has(layout.lead.item.id)} />
+        <aside className="vr-highlights">
+          <div className="vr-highlights-heading"><span>THE EDIT</span><h2>本期重点</h2></div>
+          <ol className="vr-highlight-list">
+            {highlights.map((story, index) => (
+              <li key={story.item.id}>
+                <a href={`#${visualStoryAnchor(story.item.id)}`}>
+                  <span className="vr-highlight-number">0{index + 1}</span>
+                  <div><small>{story.item.sourceAccount}</small>
+                    <h3>{story.analysis.chineseTitle || story.item.title}</h3>
+                    <p>{story.analysis.selectionRationale || story.analysis.chineseSummary}</p>
+                  </div>
+                </a>
+              </li>
+            ))}
+          </ol>
+          <details className="vr-top-stories">
+            <summary>完整精选目录 <span>{layout.featuredStories.length} 条 ＋</span></summary>
           <ol>
             {layout.featuredStories.map((story, index) => (
               <li key={story.item.id}>
                 <span>{String(index + 1).padStart(2, "0")}</span>
-                {story.analysis.chineseTitle || story.item.title}
-                <strong>{story.analysis.score}</strong>
+                <a href={`#${visualStoryAnchor(story.item.id)}`}>{story.analysis.chineseTitle || story.item.title}</a>
               </li>
             ))}
           </ol>
-        </div>
+          </details>
+        </aside>
       </section>
 
-      <section className="vr-lead">
-        <VisualStory story={layout.lead} variant="lead" />
-      </section>
+      {layout.sections.length > 0 && <nav className="vr-section-nav" aria-label="本期内容目录">
+        <span>浏览本期</span>
+        {layout.sections.map((section) => (
+          <a key={section.id} href={`#section-${section.id}`}>{section.title}<small>{section.stories.length}</small></a>
+        ))}
+      </nav>}
 
       {layout.sections.map((section) => (
-        <section className="vr-editorial-section" key={section.id}>
+        <section className="vr-editorial-section" key={section.id} id={`section-${section.id}`}>
           <header>
             <span>{section.index}</span>
             <div>
@@ -99,7 +126,7 @@ export function VisualRadarIssueContent({ issue }: { issue: VisualRadarIssueData
           </header>
           <div className="vr-story-list">
             {section.stories.map((story) => (
-              <VisualStory story={story} key={story.item.id} />
+              <VisualStory story={story} key={`${issue.id}-${story.item.id}`} featured={featuredIds.has(story.item.id)} />
             ))}
           </div>
         </section>
