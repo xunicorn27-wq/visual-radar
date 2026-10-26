@@ -187,4 +187,4 @@ export const refreshVisualRadarItems = (secret: string) => req<VisualRadarArtifa
 export const analyzeVisualRadarItems = (secret: string) => req<VisualRadarAnalyzeResponse>("/api/visual-radar/analyze", { method: "POST" }, secret);
 export const prepareVisualRadarAgentBatch = (secret: string) => req<VisualRadarAgentBatch>("/api/visual-radar/agent/prepare", { method: "POST" }, secret);
 export const generateVisualRadarIssue = (secret: string) => req<VisualRadarIssue>("/api/visual-radar/issues/generate", { method: "POST" }, secret);
-export const sendVisualRadarIssue = (id: string, secret: string) => req<{ markdown: string; sent: boolean }>(`/api/visual-radar/issues/${encodeURIComponent(id)}/send-wecom`, { method: "POST" }, secret);
+export const sendVisualRadarIssue = (id: string, secret: string) => req<{ markdown?: string; sent: boolean; alreadySent?: boolean }>(`/api/visual-radar/issues/${encodeURIComponent(id)}/send-wecom`, { method: "POST" }, secret);

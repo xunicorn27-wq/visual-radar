@@ -1,0 +1,4398 @@
+{
+  "generatedAt": "2026-10-26T07:43:52.641Z",
+  "summary": {
+    "published": 288,
+    "pending": 286,
+    "verified": 2,
+    "featuredPending": 88
+  },
+  "instruction": "清单不等于已核验。按 issue:correct prepare/apply 流程逐条读取正文；无法获取时保留待核验，不删除历史。",
+  "entries": [
+    {
+      "issueId": "2026-10-21",
+      "itemId": "visual-runway-hrfmq9",
+      "contentHash": "sha1:94f501f7f96d121d5f56ad1dafd3bbb6525493a9",
+      "title": "Runway 推出 GWM Worlds 2 世界模型研究",
+      "source": "Runway Research",
+      "sourceUrl": "https://runwayml.com/research/introducing-gwm-worlds-2",
+      "featured": true,
+      "priority": 135,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-21",
+      "itemId": "visual-tokyo-photo-museum-mwdksv",
+      "contentHash": "sha1:ecdb922d0b1315a2b2e6627fb9adf752ff7c3ded",
+      "title": "惠比寿映像祭 2027 预告释放",
+      "source": "Tokyo Photographic Art Museum",
+      "sourceUrl": "https://topmuseum.jp/exhibition/5425",
+      "featured": true,
+      "priority": 135,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-21",
+      "itemId": "visual-tokyo-photo-museum-mwdkx9",
+      "contentHash": "sha1:70bfdc0b4a113080481599bae0e97eefc5af1fab",
+      "title": "木村伊兵卫摄影奖五十周年纪念展",
+      "source": "Tokyo Photographic Art Museum",
+      "sourceUrl": "https://topmuseum.jp/exhibition/5478",
+      "featured": true,
+      "priority": 135,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-tokyo-photo-museum-1yjg0ar",
+      "contentHash": "sha1:32422867a3c02c9a4535cb4f10e2f3676d21bd2a",
+      "title": "森山大道的图像复制被置入东京智能文化计划",
+      "source": "Tokyo Photographic Art Museum",
+      "sourceUrl": "https://topmuseum.jp/exhibition/12474",
+      "featured": true,
+      "priority": 135,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-vam-fashion-1u3sfi1",
+      "contentHash": "sha1:571bdc667cb1a52994384a7b395f833594a9c5d5",
+      "title": "Rene Matić 的《HEARD》进入 V&A East 新作计划",
+      "source": "V&A Fashion",
+      "sourceUrl": "https://www.vam.ac.uk/event/DR2J32QlRb/heard-rene-matic",
+      "featured": true,
+      "priority": 135,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-vam-fashion-z4f23z",
+      "contentHash": "sha1:ceac8f31b847cab45c3574423aa03b2b8966ffef",
+      "title": "Es Devlin 以《The Everythingists》回应东伦敦的集体想象",
+      "source": "V&A Fashion",
+      "sourceUrl": "https://www.vam.ac.uk/event/Lw3G7Vr8AO/the-everythingists-es-devlin",
+      "featured": true,
+      "priority": 135,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-24",
+      "itemId": "visual-vam-fashion-2bg1fr",
+      "contentHash": "sha1:75d040bf61a792eaf2e942ca4389924e5efebb1b",
+      "title": "劳伦斯·莱克为 V&A East 创作《观音 II：守护者》",
+      "source": "V&A Fashion",
+      "sourceUrl": "https://www.vam.ac.uk/event/qRp55MmBWq/guanyin-ii-the-caretaker-lawrence-le",
+      "featured": true,
+      "priority": 135,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-palais-galliera-nsswhw",
+      "contentHash": "sha1:9770ffd5061b47fb314e3f6ce1970e158b11cc4c",
+      "title": "Margiela 女装展亚洲首个综合回顾：解构不再只是风格标签",
+      "source": "Palais Galliera",
+      "sourceUrl": "https://www.palaisgalliera.paris.fr/en/exhibitions/martin-margiela-1989-2009-womens-collections",
+      "featured": true,
+      "priority": 135,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-palais-galliera-wulbnw",
+      "contentHash": "sha1:3bdc6e20a086cd2f4a7038be2f178248e7fccb37",
+      "title": "Paolo Roversi 五十年摄影回顾：柔光、时间与高级时装影像",
+      "source": "Palais Galliera",
+      "sourceUrl": "https://www.palaisgalliera.paris.fr/en/exhibitions/paolo-roversi",
+      "featured": true,
+      "priority": 135,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-topaz-labs-113q1wr",
+      "contentHash": "sha1:f83c5f1a8d10d7b0a246bf9ff553729baeb41cd5",
+      "title": "Sarofsky 案例展示传统工艺、生成 AI 与 Topaz 的混合流程",
+      "source": "Topaz Labs Learn",
+      "sourceUrl": "https://www.topazlabs.com/news/design-studio-sarofsky-blends-traditional-craft-generative-ai-and-topaz",
+      "featured": true,
+      "priority": 135,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-vam-fashion-c238c3",
+      "contentHash": "sha1:100be007f5ec5898c83436d4b6759d9518eec330",
+      "title": "V&A “Photography Now” 展示全球当代摄影新增馆藏",
+      "source": "V&A Fashion",
+      "sourceUrl": "https://www.vam.ac.uk/event/mB8ZxX30Rwg/photography-now-2025-2027",
+      "featured": true,
+      "priority": 135,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-vam-fashion-oln77s",
+      "contentHash": "sha1:0845ff8115bb6cf0161c6308284e3b2ef942e115",
+      "title": "Sinéad O’Dwyer 在 V&A 用 runway 重新激活身体与服装",
+      "source": "V&A Fashion",
+      "sourceUrl": "https://www.vam.ac.uk/event/6nZWVedoxx/fashion-in-motion-sinead-o-dwyer",
+      "featured": true,
+      "priority": 135,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-tokyo-photo-museum-mwdks2",
+      "contentHash": "sha1:516cc1e187bb3b0375b6f68c0c23db09fe948d15",
+      "title": "出光真子大型回顾展：用录像拆解家庭、女性角色与媒介权力",
+      "source": "Tokyo Photographic Art Museum",
+      "sourceUrl": "https://topmuseum.jp/exhibition/5417",
+      "featured": true,
+      "priority": 135,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-topaz-labs-1n09alp",
+      "contentHash": "sha1:25f5252d180d51f2c02456bc7b8dad5788619a5c",
+      "title": "把标清纪录片修复成4K：AI增强不是造假，而是一门克制的后期工艺",
+      "source": "Topaz Labs Learn",
+      "sourceUrl": "https://www.topazlabs.com/news/restoring-guerrilla-bringing-a-landmark-documentary-into-the-4k-era",
+      "featured": true,
+      "priority": 135,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-topaz-labs-utw1gy",
+      "contentHash": "sha1:dfb4315a71bd733aeec120c932425b51a2092682",
+      "title": "一个人如何完成82分钟 AI 电影：从生成镜头到稳定的4K成片",
+      "source": "Topaz Labs Learn",
+      "sourceUrl": "https://www.topazlabs.com/news/from-ai-experiment-to-feature-length-film-dark-paradise-by-iaroslav-kononov",
+      "featured": true,
+      "priority": 135,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-21",
+      "itemId": "visual-its-nice-that-14uxyku",
+      "contentHash": "sha1:1b6eeb47ea6c58ea287ffb3e9b8dde2c5b1ee3ec",
+      "title": "Lance Oppenheim 制作公司的品牌把混乱写进系统",
+      "source": "It's Nice That",
+      "sourceUrl": "https://www.itsnicethat.com/articles/tbf-day-job-graphic-design-project-211026",
+      "featured": true,
+      "priority": 125,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-dazed-udmfm2",
+      "contentHash": "sha1:efe0d1daf86a6924d7ebaa9493635822d33fd343",
+      "title": "VCUarts Qatar 在威尼斯展示机器人与阿拉伯字体实验",
+      "source": "Dazed",
+      "sourceUrl": "https://www.dazeddigital.com/art-photography/article/70710/1/robots-geeks-arabic-type-outside-box-projects-vcuarts-qatar-venice-aghrab-idrak?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=robots-geeks-and-arabic-type-6-outside-the-box-projects-at-vcuarts-qatar",
+      "featured": true,
+      "priority": 125,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-24",
+      "itemId": "visual-dazed-1doc99m",
+      "contentHash": "sha1:7bf17d2d4cea1d51dc0d68b107ac7d3fc23925e5",
+      "title": "卧室摄影：私密空间作为肖像与情绪剧场",
+      "source": "Dazed",
+      "sourceUrl": "https://www.dazeddigital.com/art-photography/article/70694/1/bedrooms-photography-teenagers-portraits-nudes-photographers?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=5-photo-projects-exploring-the-intimate-world-of-bedrooms",
+      "featured": true,
+      "priority": 125,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-24",
+      "itemId": "visual-dazed-1l3yz66",
+      "contentHash": "sha1:906a58ed08afe8c85c69fca3548a645031d6c331",
+      "title": "WHOLE Festival 的野性社群造型现场",
+      "source": "Dazed",
+      "sourceUrl": "https://www.dazeddigital.com/fashion/article/70689/1/whole-festival-2026-berlin-photos-feral-fashion-uhaul-dyke-rescue-street-style?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=photos-of-the-feral-fashion-at-whole-festival-s-uhaul-dyke-bar",
+      "featured": true,
+      "priority": 125,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-24",
+      "itemId": "visual-its-nice-that-1jla1ga",
+      "contentHash": "sha1:ded7aa6deb3375fd8c956d1ba06ef215deb09e74",
+      "title": "Horniman 博物馆以馆藏与花园“采集”字体",
+      "source": "It's Nice That",
+      "sourceUrl": "https://www.itsnicethat.com/articles/anatomy-horniman-museum-graphic-design-project-230726",
+      "featured": true,
+      "priority": 125,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-24",
+      "itemId": "visual-its-nice-that-jp4ejt",
+      "contentHash": "sha1:9d9e30a8525436f43c25e1220615630608437c21",
+      "title": "Joanna Blémont 为 Loewe 把水彩延展成漫画与 2,000 帧电影",
+      "source": "It's Nice That",
+      "sourceUrl": "https://www.itsnicethat.com/articles/joanna-blemont-illustration-discover-230726",
+      "featured": true,
+      "priority": 125,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-another-magazine-1cz2wf0",
+      "contentHash": "sha1:14a3e1a36b9b4a7030d220cedb6b48f2ff13a376",
+      "title": "塔可夫斯基 4K 修复重启幽灵般的电影视觉",
+      "source": "AnOther",
+      "sourceUrl": "https://www.anothermag.com/design-living/17334/andrei-tarkovsky-films-nostalghia-the-sacrifice-4k-restorations?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=a-guide-to-the-spectral-films-of-andrei-tarkovsky",
+      "featured": true,
+      "priority": 125,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-dazed-1qnqz2u",
+      "contentHash": "sha1:919fe824bf5356890f877c97dcc830eb82b0f041",
+      "title": "巴黎酷儿地下卡巴莱：作为“活档案”的夜间舞台",
+      "source": "Dazed",
+      "sourceUrl": "https://www.dazeddigital.com/life-culture/article/70687/1/inside-paris-queer-lgbtq-carabet-scene-club-nights-la-bouche-venus-noir?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=we-are-a-living-archive-inside-paris-queer-underground-cabaret-scene",
+      "featured": true,
+      "priority": 125,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-its-nice-that-1ubhmm9",
+      "contentHash": "sha1:daf892c2bacc94723ba0870d83350e548de65da3",
+      "title": "Hannah Motzel Brown 以铅笔画连接皮肤、织物与阴影",
+      "source": "It's Nice That",
+      "sourceUrl": "https://www.itsnicethat.com/articles/hannah-motzel-brown-art-discover-220726",
+      "featured": true,
+      "priority": 125,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-its-nice-that-tt7yhc",
+      "contentHash": "sha1:c6c663673a1555c266750a4d57d21d216cbda7df",
+      "title": "Kurt Bauer 用静物碎片替代风景明信片",
+      "source": "It's Nice That",
+      "sourceUrl": "https://www.itsnicethat.com/articles/kurt-bauer-photography-discover-220726",
+      "featured": true,
+      "priority": 125,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-dazed-19c4hgk",
+      "contentHash": "sha1:abc2178244a1e5241f71c5e9194b056ee32b39c7",
+      "title": "Lucia Jost 镜头里的柏林泳池：友谊、身体与城市夏天",
+      "source": "Dazed",
+      "sourceUrl": "https://www.dazeddigital.com/art-photography/article/70679/1/lucia-jost-prinzessinnenbad-princess-pool-sommerbad-kreuzberg-berlin-summer?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=in-pictures-wet-hot-summers-at-berlin-s-iconic-inner-city-pool",
+      "featured": true,
+      "priority": 125,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-dazed-r0bonc",
+      "contentHash": "sha1:007314f97b7ee5178fb0e3a842416d784d6f9bc7",
+      "title": "Pure Sex England 重启：80 年代 goth 夜生活正在回到品牌现场",
+      "source": "Dazed",
+      "sourceUrl": "https://www.dazeddigital.com/fashion/article/70676/1/pure-sex-england-photos-relaunch-cult-80s-goth-brand-batcave-boy-london?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=pure-sex-photos-from-the-relaunch-of-the-cult-80s-goth-brand",
+      "featured": true,
+      "priority": 125,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-its-nice-that-1orqujn",
+      "contentHash": "sha1:c1438325979661bb57505c473e768c20c67056dc",
+      "title": "Supersystème 把字体当作图像来建立完整视觉世界",
+      "source": "It's Nice That",
+      "sourceUrl": "https://www.itsnicethat.com/articles/supersyteme-graphic-design-discover-210726",
+      "featured": true,
+      "priority": 125,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-23",
+      "itemId": "visual-dazed-a5u93u",
+      "contentHash": "sha1:2147c27ba326b3058a87e461899dff0ff506295f",
+      "title": "Cabinet Couture：用 Instagram 揭露印尼政治精英",
+      "source": "Dazed",
+      "sourceUrl": "https://www.dazeddigital.com/fashion/article/71217/1/cabinet-couture-instagram-young-indonesians-fashion-expose-corrupt-government?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=cabinet-couture-the-instagram-account-exposing-indonesia-s-political-elite",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-23",
+      "itemId": "visual-id-magazine-1h4jhe8",
+      "contentHash": "sha1:c696f2d083ccaf032d2858753a8d3d0beedaeed8",
+      "title": "ZAIIE：献给巴勒斯坦美的品牌情书",
+      "source": "i-D",
+      "sourceUrl": "https://i-d.co/article/zaiie-palestinian-beauty-brand-interview/",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-23",
+      "itemId": "visual-its-nice-that-leb13s",
+      "contentHash": "sha1:8841cbf8a06219579eeb09655cc0a605ea853d38",
+      "title": "Foto Foto 让实体相册重新回到设计视野",
+      "source": "It's Nice That",
+      "sourceUrl": "https://www.itsnicethat.com/articles/foto-foto-photography-publication-sponsored-content-221026",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-23",
+      "itemId": "visual-vogue-japan-xxzklg",
+      "contentHash": "sha1:773c64de43a46d37baa7d7e60eb2179417345b50",
+      "title": "京都展览把珠宝雕刻与纺织创作并置",
+      "source": "Vogue Japan",
+      "sourceUrl": "https://www.vogue.co.jp/article/2026-10-23-sharanpoi",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-23",
+      "itemId": "visual-wallpaper-17ng13q",
+      "contentHash": "sha1:9a103461f08572a1a406d5eee216c8fb4face86f",
+      "title": "OKA Mori：由机器人与 AI 塑造性格的家居伙伴",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/tech/oka-mori-companion-robot",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-23",
+      "itemId": "visual-wallpaper-1gyvp92",
+      "contentHash": "sha1:1c28ebbb3032c118e2174ba9434b52957d92ce32",
+      "title": "Prune Nourry 的石膏人物进入巴黎小皇宫",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/art/exhibitions-shows/prune-nourry-visionaries-petit-palace-paris-review",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-21",
+      "itemId": "visual-mplus-187hfwh",
+      "contentHash": "sha1:de4abba19039774b1463993b0be640c1138ed7e8",
+      "title": "M+ 启动“先锋愿景”计划塑造明日",
+      "source": "M+",
+      "sourceUrl": "https://www.mplus.org.hk/en/magazine/introducing-pioneering-visions",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-21",
+      "itemId": "visual-vogue-runway-1d6wnwk",
+      "contentHash": "sha1:e044dcebb3a04383cf56d0215ecc45f516d451ba",
+      "title": "Mikio Sakabe 2027 春夏东京系列",
+      "source": "Vogue Runway",
+      "sourceUrl": "https://www.vogue.com/fashion-shows/tokyo-spring-2027/mikio-sakabe",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-21",
+      "itemId": "visual-vogue-runway-moqjko",
+      "contentHash": "sha1:00778514f06f234d2d7ec9b094ee1b53e95b8d7a",
+      "title": "Francisco Cancino 2027 春夏墨西哥系列",
+      "source": "Vogue Runway",
+      "sourceUrl": "https://www.vogue.com/fashion-shows/mexico-spring-2027/francisco-cancino",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-21",
+      "itemId": "visual-wallpaper-1oogo2w",
+      "contentHash": "sha1:4b5e55506683d50fb8e95845754a1cd53f4cce1e",
+      "title": "Alice Diop 为 Miu Miu 在巴黎巴塞尔策划黑人女性创造力",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/art/exhibitions-shows/alice-diop-miu-miu-art-basel-paris-2026-interview",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-08-06",
+      "itemId": "visual-momu-4wk4kk",
+      "contentHash": "sha1:f412dbbca1b87ddb933b7264c9f426f11f51144f",
+      "title": "MoMu 以收藏者之眼回看 Azzedine Alaïa",
+      "source": "MoMu Antwerp",
+      "sourceUrl": "https://www.momu.be/en/exhibitions/azzedine-alaia",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-08-06",
+      "itemId": "visual-vogue-runway-18l3r57",
+      "contentHash": "sha1:c8b050360470beda49c05b967a4d03c38081ebd3",
+      "title": "Baum und Pferdgarten 2027 春夏哥本哈根秀场",
+      "source": "Vogue Runway",
+      "sourceUrl": "https://www.vogue.com/fashion-shows/copenhagen-spring-2027/baum-und-pferdgarten",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-08-06",
+      "itemId": "visual-vogue-runway-1t3kpuq",
+      "contentHash": "sha1:d352e6f6fe052298fd4702659bdabc3dd316c739",
+      "title": "Institution by Galib Gassanoff 2027 春夏系列",
+      "source": "Vogue Runway",
+      "sourceUrl": "https://www.vogue.com/fashion-shows/copenhagen-spring-2027/institution-by-galib-gassanoff",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-08-06",
+      "itemId": "visual-w-magazine-1trzkv9",
+      "contentHash": "sha1:07b9b6bce1ae90a487786ba6eb8a12b060571100",
+      "title": "哥本哈根时装周 20 周年秀场的关键造型",
+      "source": "W Magazine",
+      "sourceUrl": "https://www.wmagazine.com/fashion/copenhagen-fashion-week-spring-summer-2027-best-looks-runway-photos",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-08-06",
+      "itemId": "visual-wallpaper-1ib7s19",
+      "contentHash": "sha1:65c9e400cb90f482006b53bd066ff55dbfbc796a",
+      "title": "Atelier Ko 修复贝宁 Afro-Brazilian 住宅",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/architecture/architects-directory/atelier-ko-benin",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-08-06",
+      "itemId": "visual-wallpaper-1jd81o0",
+      "contentHash": "sha1:31491e2e39e9f730f18d453192c25915080fea3c",
+      "title": "Norton 与 Foster + Partners 共同打造摩托展示",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/transportation/norton-motorcycles-team-up-with-foster-partners-to-showcase-their-new-products",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-fashionsnap-1iqemn6",
+      "contentHash": "sha1:9239ad885a6b6d03299fde873a786f38c25fc83f",
+      "title": "Burberry 在 V&A 以档案重述风衣 170 年",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/2026-07-31/v-and-a-burberry/",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-vogue-runway-1f0sz3o",
+      "contentHash": "sha1:a6a06e24d92e5d5dbf59a934a2bf479dc9a42332",
+      "title": "16Arlington 2026 秋冬成衣系列发布",
+      "source": "Vogue Runway",
+      "sourceUrl": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/16arlington",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-wallpaper-zzvw46",
+      "contentHash": "sha1:b4d65be8d6132f91c6ecf4cb86d8997d99c0971b",
+      "title": "Ralph Lauren 与 Gee’s Bend 拼布艺术家合作",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/fashion-beauty/ralph-lauren-gees-bend-quilt-collaboration",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-24",
+      "itemId": "visual-vogue-runway-zjstt4",
+      "contentHash": "sha1:fa93a2bbf462b0fc7873255a34be953cbecc2584",
+      "title": "Attachment 2027 春夏东京秀场发布",
+      "source": "Vogue Runway",
+      "sourceUrl": "https://www.vogue.com/fashion-shows/tokyo-spring-2027/attachment",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-24",
+      "itemId": "visual-wallpaper-1cpwby6",
+      "contentHash": "sha1:f08b9bf629766e578ff10738801d8ae0134b5cde",
+      "title": "圣家堂终章雕塑以“不可见”技术点亮",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/design-interiors/sagrada-familia-agnus-dei-lamb-sculpture-andrea-mastrovito-moritz-waldemeyer",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-24",
+      "itemId": "visual-wallpaper-1h9rghs",
+      "contentHash": "sha1:145a90913710f9ccf10e82099a20e5a44231d6b0",
+      "title": "在约翰·劳特纳建筑中拍摄的电影感早秋时装",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/fashion-beauty/pre-fall-2026-fashion-john-lautner-los-angeles",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-fashionsnap-79c3g9",
+      "contentHash": "sha1:29f036e031eb208df8e71d49b7ff1880b1df860b",
+      "title": "UNIQLO 合并内衣与家居服，重塑日常层次",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/2026-07-22/uniqlo-lounge-inner-26aw/",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-wallpaper-lggb2z",
+      "contentHash": "sha1:b4e450404225e69c215b9f3756700f45c10164a2",
+      "title": "“Empire”展览用快餐品牌重组千禧怀旧",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/art/exhibitions-shows/empire-by-benjamin-slinger-london-exhibition",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-w-magazine-te5zd",
+      "contentHash": "sha1:82834d70b8a56ca149dc8099c37a37fa8f8cdcfe",
+      "title": "Barry Jenkins 执导 Prada 广告，秋冬 campaign 继续电影化",
+      "source": "W Magazine",
+      "sourceUrl": "https://www.wmagazine.com/fashion/best-fall-winter-2026-campaigns",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-wallpaper-1on134g",
+      "contentHash": "sha1:9653b99ba615df378e0a264a1a26f4fe8440b1c6",
+      "title": "Snøhetta 为世界最北 fine dining 餐厅引入极地昼夜对比",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/travel/restaurants/huset-longyearbyen-svalbard-snohetta",
+      "featured": true,
+      "priority": 120,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-aputure-9aw6ku",
+      "contentHash": "sha1:109ff98bb966d398ad27eb6735e650a31b3b199b",
+      "title": "Sidus Link Pro 2.2 用 Layout View 把灯光控制变成视觉网格",
+      "source": "Aputure Blog",
+      "sourceUrl": "https://aputure.com/en-US/articles/whats-new-in-sidus-link-pro-2-2",
+      "featured": true,
+      "priority": 115,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-runway-1endmth",
+      "contentHash": "sha1:7ec4d92155232767d071bd879b1709173e6a2326",
+      "title": "Runway 提出 General World Models：AI 影像从生成画面转向理解世界",
+      "source": "Runway Research",
+      "sourceUrl": "https://runwayml.com/research/introducing-general-world-models",
+      "featured": true,
+      "priority": 115,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-aputure-1cfq4gu",
+      "contentHash": "sha1:afb142f7fab66e997decc112b447b0ca8d2a528a",
+      "title": "四位摄影指导如何保持同一部剧的视觉一致：把灯具变成共同语言",
+      "source": "Aputure Blog",
+      "sourceUrl": "https://aputure.com/en-US/articles/lighting-mobland",
+      "featured": true,
+      "priority": 115,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-23",
+      "itemId": "visual-its-nice-that-1uvjuae",
+      "contentHash": "sha1:161030c0925799e2481437cb15dd5dffb49fae86",
+      "title": "Mona Chalabi：如何让不可量化之物变得可理解",
+      "source": "It's Nice That",
+      "sourceUrl": "https://www.itsnicethat.com/articles/nicer-tuesdays-new-york-september-mona-chalabi-221026",
+      "featured": true,
+      "priority": 105,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-21",
+      "itemId": "visual-its-nice-that-1unzu0k",
+      "contentHash": "sha1:3da88b7c0ae244e055b8c148ff8a63425bef76af",
+      "title": "小说预告片时代：把出版像电影一样推广",
+      "source": "It's Nice That",
+      "sourceUrl": "https://www.itsnicethat.com/articles/somesuch-editions-book-trailers-film-publication-project-201026",
+      "featured": true,
+      "priority": 105,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-08-06",
+      "itemId": "visual-dazed-19b0oow",
+      "contentHash": "sha1:9a063ed56e2b7198138e3b56c6408b5caa6d622b",
+      "title": "Justin Miller 把 Facebook Marketplace 变成线下策展现场",
+      "source": "Dazed",
+      "sourceUrl": "https://www.dazeddigital.com/life-culture/article/70756/1/inside-justin-miller-s-facebook-marketplace-sanctuary?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=inside-justin-miller-s-facebook-marketplace-sanctuary",
+      "featured": true,
+      "priority": 105,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-08-06",
+      "itemId": "visual-dazed-1pwz99i",
+      "contentHash": "sha1:e66053495fc44a079db336925d07e2828fdc7bdc",
+      "title": "Lenni Bubi 的低音炮裙：让服装真正产生震动",
+      "source": "Dazed",
+      "sourceUrl": "https://www.dazeddigital.com/fashion/article/70755/1/lenni-bubi-subwoofer-skirt-berlin-fashion-student-emerging-designer?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=lenni-bubi-s-subwoofer-skirt-will-give-you-good-vibrations",
+      "featured": true,
+      "priority": 105,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-08-06",
+      "itemId": "visual-its-nice-that-tde774",
+      "contentHash": "sha1:b8afbbddc0949bcbcbdbd6649f72ccd122831fe6",
+      "title": "Polaroid 用“不完美”与反 AI 策略守住模拟影像",
+      "source": "It's Nice That",
+      "sourceUrl": "https://www.itsnicethat.com/features/in-house-polaroid-patricia-varella-creative-industry-050826",
+      "featured": true,
+      "priority": 105,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-another-magazine-171f42r",
+      "contentHash": "sha1:88d3cdf97eda3376d148a94999abc1852e18e745",
+      "title": "Institution 以服装守护高加索濒危工艺",
+      "source": "AnOther",
+      "sourceUrl": "https://www.anothermag.com/fashion-beauty/17346/institution-fashion-interview-galib-gassonoff?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=institution-the-fashion-project-preserving-the-crafts-of-the-caucasus",
+      "featured": true,
+      "priority": 105,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-dazed-1ld6n1y",
+      "contentHash": "sha1:da77c18a26fc13ff613f720be1d5e44a58345ebc",
+      "title": "Barry Jenkins 为 Prada 拍摄更深层的时装叙事",
+      "source": "Dazed",
+      "sourceUrl": "https://www.dazeddigital.com/fashion/article/70683/1/barry-jenkins-prada-aw26-fw26-campaign-director-hunter-schafer-troye-sivan?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=barry-jenkins-on-directing-prada-we-wanted-something-a-little-bit-deeper",
+      "featured": true,
+      "priority": 105,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-its-nice-that-j4ws0g",
+      "contentHash": "sha1:557b0606092739d8ee3ce8c41bff34bfb42c5879",
+      "title": "Pablo Rochat 把亚特兰大郊区变成 Phoebe Bridgers MV 的中世纪幻想",
+      "source": "It's Nice That",
+      "sourceUrl": "https://www.itsnicethat.com/articles/pablo-rochat-lost-boys-film-animation-project-210726",
+      "featured": true,
+      "priority": 105,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-another-magazine-1se8xe7",
+      "contentHash": "sha1:e0290c4014eed8d693d9dce51bee0e485ada7d6f",
+      "title": "Sofia Coppola 重访 Joseph Szabo：青少年摄影如何保留不被表演的亲密感",
+      "source": "AnOther",
+      "sourceUrl": "https://www.anothermag.com/art-photography/17327/joseph-szabo-american-teen-sofia-coppola-important-flowers-mack-interview?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=a-first-look-at-sofia-coppola-s-new-joseph-szabo-book",
+      "featured": true,
+      "priority": 105,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-another-magazine-edswlz",
+      "contentHash": "sha1:c2bc1b53f5fee19fa59faad53d0f79822a1998b6",
+      "title": "Richard Malone 用纺织雕塑重写爱尔兰的创意根系",
+      "source": "AnOther",
+      "sourceUrl": "https://www.anothermag.com/art-photography/17324/richard-malone-interview-european-union-memory-and-monument?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=richard-malone-is-reimagining-ireland-s-creative-roots",
+      "featured": true,
+      "priority": 105,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-its-nice-that-xmj4d9",
+      "contentHash": "sha1:d33d62d33fa6e141da18daac8df716c9efad19d3",
+      "title": "《Astro Black》：用出版设计补回18位黑人太空先驱的视觉历史",
+      "source": "It's Nice That",
+      "sourceUrl": "https://www.itsnicethat.com/articles/parallel-press-astro-black-publication-graphic-design-project-160726",
+      "featured": true,
+      "priority": 105,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-23",
+      "itemId": "visual-interview-magazine-w828gn",
+      "contentHash": "sha1:5e37e121e742c59e63725cecb7505dcc0c04865e",
+      "title": "古根海姆馆长解读 Taryn Simon 的《American Epic》",
+      "source": "Interview",
+      "sourceUrl": "https://www.interviewmagazine.com/art/guggenheim-melissa-chiu-taryn-simon-bottega-veneta",
+      "featured": true,
+      "priority": 100,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-21",
+      "itemId": "visual-fashionsnap-1biyfne",
+      "contentHash": "sha1:d819a826fbe4cab1deaf87a7e69284edc7627473",
+      "title": "A-POC ABLE Issey Miyake 与 JAXA 以南极为灵感协作",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/2026-10-21/a-poc-able-issey-miyake-jaxa/",
+      "featured": true,
+      "priority": 100,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-08-06",
+      "itemId": "visual-nowness-1488rg6",
+      "contentHash": "sha1:cfece9088072914f5dab4c82e88eb02b06204e93",
+      "title": "《Liminal》：在阿克拉未完成粗野建筑中起舞",
+      "source": "NOWNESS",
+      "sourceUrl": "https://www.nowness.com/series/dancing-about-architecture/liminal-naafia-naahemaa",
+      "featured": true,
+      "priority": 100,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-vogue-korea-51r0nd",
+      "contentHash": "sha1:2af4e3cdc8c3d2d9ffdc78bc6ea0d31b4bca011e",
+      "title": "伦敦爱马仕新空间：克制与城市活力的平衡",
+      "source": "Vogue Korea",
+      "sourceUrl": "https://www.vogue.co.kr/2026/07/31/%eb%9f%b0%eb%8d%98-%ec%86%8d-%ec%97%90%eb%a5%b4%eb%a9%94%ec%8a%a4-%ea%b7%b8-%ec%a0%88%ec%a0%9c%ec%99%80-%ed%99%9c%ea%b8%b0%ec%9d%98-%ea%b7%a0%ed%98%95%ea%b0%90%ec%97%90-%eb%8c%80%ed%95%98%ec%97%ac/",
+      "featured": true,
+      "priority": 100,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-wallpaper-1i7pfxc",
+      "contentHash": "sha1:d7fd487d7673f9587aeb59cf8819e26cfbba39fa",
+      "title": "“Nue Black Aesthetic”绘制塑造当代设计的离散声音",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/design-interiors/design-events/the-nue-black-aesthetic-maps-the-diasporic-voices-shaping-design-today",
+      "featured": true,
+      "priority": 100,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-24",
+      "itemId": "visual-bjp-1854-1870d77",
+      "contentHash": "sha1:d24ed5484dbdbd63137308bbc0f648460c9ba948",
+      "title": "Aman Alam 用摄影触及记忆、疾病与照护",
+      "source": "British Journal of Photography",
+      "sourceUrl": "https://www.1854.photography/2026/07/aman-alam/",
+      "featured": true,
+      "priority": 100,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-24",
+      "itemId": "visual-vogue-singapore-1ph2kb2",
+      "contentHash": "sha1:f96cb7ba76231dda8b761fdb0aac60377868c442",
+      "title": "Gabbriette 的非传统婚礼造型：高定式反叛",
+      "source": "Vogue Singapore",
+      "sourceUrl": "https://vogue.sg/gabbriette-bridal-matieres-fecales-gown/",
+      "featured": true,
+      "priority": 100,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-interview-magazine-185f1yv",
+      "contentHash": "sha1:93a4b2be08b4d781c0f9de1345879096e0093c17",
+      "title": "Duran Lantink 的首个高定系列与反讨好姿态",
+      "source": "Interview",
+      "sourceUrl": "https://www.interviewmagazine.com/fashion/duran-lantink-jean-paul-gaultier-couture-spring-summer-runway-collection-debut",
+      "featured": true,
+      "priority": 100,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-nowness-788eah",
+      "contentHash": "sha1:f3867fc94683b58811f49380d0bd9c3447395043",
+      "title": "《Baikonur》在前苏联航天遗址拍摄失真的未来",
+      "source": "NOWNESS",
+      "sourceUrl": "https://www.nowness.com/series/video-art-visions/romain-gavras-surkin-baikonur-gener8ion",
+      "featured": true,
+      "priority": 100,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-wallpaper-mdwhww",
+      "contentHash": "sha1:b2bc60f129ef1b1d73ddefa3455aca161f0cbee1",
+      "title": "Vy Voi 以文化碎片建立新纽约设计语言",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/design-interiors/vy-voi-steffany-tran-designer-profile",
+      "featured": true,
+      "priority": 100,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-british-vogue-1hx832q",
+      "contentHash": "sha1:f3bb989ba0751ad27ebe76e64dbf2ad43e4845a4",
+      "title": "Gabbriette 的 Matières Fécales 婚纱试装拒绝传统新娘图像",
+      "source": "British Vogue",
+      "sourceUrl": "https://www.vogue.co.uk/article/gabbriette-wedding-dresses-matty-healy",
+      "featured": true,
+      "priority": 100,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-id-magazine-avrjw8",
+      "contentHash": "sha1:f531805f3a3a810cc896887458797878a73a1311",
+      "title": "Pull&Bear 创办时尚摄影奖，为 AI 时代的新摄影师打开入口",
+      "source": "i-D",
+      "sourceUrl": "https://i-d.co/article/pullbear-announces-a-new-fashion-photography-prize-to-uplift-a-new-generation/",
+      "featured": true,
+      "priority": 100,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-w-korea-1dn2h91",
+      "contentHash": "sha1:3df60e00c4db57f1e74a5514ec09d09866ab74d2",
+      "title": "Kohei Nawa 与 Damien Jalet 的黑暗舞台把雕塑和舞蹈融成宇宙景观",
+      "source": "W Korea",
+      "sourceUrl": "https://www.wkorea.com/2026/07/21/%ec%84%b1%ec%8b%a4%ed%95%9c-%eb%b0%a9%eb%9e%91%ec%9e%90%ec%97%90-%eb%8c%80%ed%95%9c-%ed%83%90%ea%b5%ac-%ec%bd%94%ed%97%a4%ec%9d%b4-%eb%82%98%ec%99%80%eb%8b%a4%eb%af%b8%ec%95%b5-%ec%9e%98/",
+      "featured": true,
+      "priority": 100,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-wallpaper-17o1fhx",
+      "contentHash": "sha1:e10651f04262678c1d6866905c64ceba8009b8c4",
+      "title": "Dominik Tarabański 把花卉摄影推到合成与有机之间",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/design-interiors/dominik-tarabanski-photographer-profile",
+      "featured": true,
+      "priority": 100,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-wallpaper-xk3qme",
+      "contentHash": "sha1:85f02b0aee66e3cae73863d5f265859170bd7009",
+      "title": "Conserving Black Modernism 保护黑人建筑师设计遗产",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/architecture/consrving-black-modernism-grant-2026",
+      "featured": true,
+      "priority": 100,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-nowness-14zugbj",
+      "contentHash": "sha1:de1c45bd05e92d357d4d0488a3644757bb1d4fbf",
+      "title": "NOWNESS 用郊狼视角批判洛杉矶的建筑商品化",
+      "source": "NOWNESS",
+      "sourceUrl": "https://www.nowness.com/series/constructed-views/coyote-urbanism-los-angeles-sukanya-mukherjee-arnar-skarphedinsson",
+      "featured": true,
+      "priority": 100,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-vogue-korea-18flwq5",
+      "contentHash": "sha1:ecae2e4f84c0d3f4706b34fe38663342f0501b39",
+      "title": "Julian Opie 个展把城市人群压缩成图标化视觉语言",
+      "source": "Vogue Korea",
+      "sourceUrl": "https://www.vogue.co.kr/2026/07/17/%ec%9d%b5%eb%aa%85%ec%9d%98-%ea%b5%b0%ec%a4%91%ec%9c%bc%eb%a1%9c-%ec%82%b4%ec%95%84%ea%b0%80%ea%b8%b0-%ec%a4%84%eb%a6%ac%ec%95%88-%ec%98%a4%ed%94%bc-%ea%b0%9c%ec%9d%b8%ec%a0%84/",
+      "featured": true,
+      "priority": 100,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-fashionsnap-xeetlg",
+      "contentHash": "sha1:9d22dd4f1293c476bdea3b06394867c0e2c888d3",
+      "title": "2027春夏男包趋势：旅行感、柔软结构与更自然的性别流动",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/menstrend-26aw-bag/",
+      "featured": true,
+      "priority": 100,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-vogue-korea-123lwps",
+      "contentHash": "sha1:e11173b712c3082ce04b86fb67d76e925cde919b",
+      "title": "波点重新占领夏季：五种摆脱复古套公式的搭配方法",
+      "source": "Vogue Korea",
+      "sourceUrl": "https://www.vogue.co.kr/2026/07/16/%ec%a7%80%ea%b8%88-%eb%ac%bc%eb%b0%a9%ec%9a%b8%eb%ac%b4%eb%8a%ac%eb%a5%bc-%ec%9e%85%eb%8a%94-%ea%b0%80%ec%9e%a5-%eb%a9%8b%ec%8a%a4%eb%9f%ac%ec%9a%b4-%eb%b0%a9%eb%b2%95-5/",
+      "featured": true,
+      "priority": 100,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-wallpaper-43p045",
+      "contentHash": "sha1:8b0d0a7e615515ed2ce3242df2f27f064db27e4e",
+      "title": "朋克不只是穿衣风格：ARoS 展览把身体重新定义为反抗工具",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/art/exhibitions-shows/unruly-the-body-in-punk-aros-aarhus-review",
+      "featured": true,
+      "priority": 100,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "本期精选"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-blackmagic-resolve-9aycvr",
+      "contentHash": "sha1:37653d16a6ded622f721945c6686ebc964c06bc0",
+      "title": "DaVinci Resolve 更新继续整合剪辑、调色与后期工作流",
+      "source": "DaVinci Resolve What's New",
+      "sourceUrl": "https://www.blackmagicdesign.com/products/davinciresolve/whatsnew",
+      "featured": false,
+      "priority": 40,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-23",
+      "itemId": "visual-vam-fashion-1h2rfar",
+      "contentHash": "sha1:ac866e9f5e98fe734ad9aad418476b394f49c367",
+      "title": "V&A 对谈《I Am Roland Mouret》：设计师自述与品牌叙事",
+      "source": "V&A Fashion",
+      "sourceUrl": "https://www.vam.ac.uk/event/31zbqN2WnD/i-am-roland-mouret",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-21",
+      "itemId": "visual-profoto-g67l",
+      "contentHash": "sha1:d03843a81870a98f1000d837723a5ab44aa0eb31",
+      "title": "Tina Eisen 的六组创意肖像布光",
+      "source": "Profoto Stories",
+      "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/tina-eisen-six-setups-creative-portraits/",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-08-06",
+      "itemId": "visual-vam-fashion-qmjx8v",
+      "contentHash": "sha1:334db2ac72dc0025e7e023e10a9f0d3ec9bb131a",
+      "title": "V&A 聚焦摄影出版物《Sun Artists》",
+      "source": "V&A Fashion",
+      "sourceUrl": "https://www.vam.ac.uk/event/KmjLWoZjEa/sun-artists-a-serial-of-artistic-photography",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-vam-fashion-1ikux2k",
+      "contentHash": "sha1:97964f2aca82f21c43620f06763e60109700fc84",
+      "title": "Laura Wilson 为 V&A East 呈现《Heads! Look To The Workers》",
+      "source": "V&A Fashion",
+      "sourceUrl": "https://www.vam.ac.uk/event/ZdNm7okqb2/heads-look-to-the-workers-laura-wilson",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-vam-fashion-qrz7n0",
+      "contentHash": "sha1:d990a4b691ebe33aeeef2d601919ffb6c7f5da68",
+      "title": "Shahed Saleem 在 V&A East 追问“我在这里出生”",
+      "source": "V&A Fashion",
+      "sourceUrl": "https://www.vam.ac.uk/event/jW9w0wBZbwN/i-was-born-here-shahed-saleem",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-vam-fashion-te75a8",
+      "contentHash": "sha1:d7acbef48f26a7f5d54dd72d7ca61bd2be7f2cf7",
+      "title": "在加速内容环境中重估慢新闻插画",
+      "source": "V&A Fashion",
+      "sourceUrl": "https://www.vam.ac.uk/event/WMwyzgZe6K/slow-journalism-in-an-accelerated-age-july-2026",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-profoto-76p3cr",
+      "contentHash": "sha1:ac31fddc2758cb7dd3d2814783681c5951823e90",
+      "title": "十条婚礼摄影布光建议：商业摄影的稳定性优先",
+      "source": "Profoto Stories",
+      "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/10-tips-for-wedding-photographers/",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-profoto-9ht5z",
+      "contentHash": "sha1:8ead353a4035509c030b86d3916229080dede9e8",
+      "title": "Michael Anthony 用 A 系列灯具制造电影感婚礼肖像",
+      "source": "Profoto Stories",
+      "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/michael-anthony-clic-a-series-wedding/",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-profoto-tce93q",
+      "contentHash": "sha1:be83615c84c9f6c5755a88d5d451b5d452b73750",
+      "title": "Profoto 用六个婚礼场景拆解闪光灯的实战方法",
+      "source": "Profoto Stories",
+      "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/how-to-use-flash-on-a-wedding-6-situations/",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-profoto-tfog75",
+      "contentHash": "sha1:e75388191e3a019a342eae4404541e09a98d7af0",
+      "title": "Profoto A2 案例强调便携灯光也能讲故事",
+      "source": "Profoto Stories",
+      "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/ben-chrisman-a2-wedding/",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-profoto-theg11",
+      "contentHash": "sha1:b603bbf0c141eed7df5c59dab2b9ea7d8b9a4ca6",
+      "title": "Emily Dahl 用 Profoto B10 将视频灯光转向轻量化叙事",
+      "source": "Profoto Stories",
+      "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/profoto-b10-lighting-for-video-with-emily-dahl/",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-profoto-vf1p3i",
+      "contentHash": "sha1:9eb936bb902c421318de09fdd68875d5e439c493",
+      "title": "Andrea Belluso 案例展示专业灯光如何塑造高精度肖像",
+      "source": "Profoto Stories",
+      "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/andrea-belluso-pro-lighting-techniques/",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-profoto-y2ouev",
+      "contentHash": "sha1:9d0b6071674dae2d279f01a8e400727689bb0436",
+      "title": "Evan Naka 与 Profoto B20/B30：外景灯光的机动性案例",
+      "source": "Profoto Stories",
+      "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/on-location-lighting-evan-naka-b20-b30/",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-vam-fashion-1dkunpp",
+      "contentHash": "sha1:b2298ca98cd97506bcbd0c48fbe9b7ebf43c8b52",
+      "title": "V&A Illustration Awards 线上策展谈：插画奖项如何定义视觉新锐",
+      "source": "V&A Fashion",
+      "sourceUrl": "https://www.vam.ac.uk/event/QKKG2Q13P2/members-online-curator-talk-illustration-awards",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-vam-fashion-1rn3kyv",
+      "contentHash": "sha1:aa52676c84e2aa2bb9d7a25e4b3b5ad2a9db0071",
+      "title": "V&A 天然染色课程把传统色彩工艺重新放回当代设计",
+      "source": "V&A Fashion",
+      "sourceUrl": "https://www.vam.ac.uk/event/bb4LdAGpWw/p26026-natural-dyeing-a-heritage-of-colour",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-aputure-1km90m5",
+      "contentHash": "sha1:1a84be343bcb00f86e18e0b326ff039ef1b8f2f0",
+      "title": "《Nine Perfect Strangers》第二季灯光案例展示不可见氛围的塑造",
+      "source": "Aputure Blog",
+      "sourceUrl": "https://aputure.com/en-US/articles/lighting-the-unseen",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-aputure-38wjo0",
+      "contentHash": "sha1:2b19cdad502bb97122cdb32a004ab7b829562d84",
+      "title": "灯光编程员从“按按钮”转向数据管理",
+      "source": "Aputure Blog",
+      "sourceUrl": "https://aputure.com/en-US/articles/early-concepts-for-an-aspiring-programmer",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-palais-galliera-19s48u9",
+      "contentHash": "sha1:edf1d301dd53986b99d6b5f7fe64c6cc4f3fc757",
+      "title": "18 世纪时装遗产如何被幻想和再造",
+      "source": "Palais Galliera",
+      "sourceUrl": "https://www.palaisgalliera.paris.fr/en/exhibitions/fashion-18th-century-fantasized-legacy",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-palais-galliera-1pi10sy",
+      "contentHash": "sha1:884242b85d188abe314e29316bfb03ad2e916266",
+      "title": "Stephen Jones 帽饰回顾：把头部造型变成时装雕塑",
+      "source": "Palais Galliera",
+      "sourceUrl": "https://www.palaisgalliera.paris.fr/en/exhibitions/stephen-jones-chapeaux-dartiste",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-palais-galliera-c68ljp",
+      "contentHash": "sha1:76c6f99e7e4d74737c7f33df693ded98d52671af",
+      "title": "Worth 展览回到高级定制的发明现场",
+      "source": "Palais Galliera",
+      "sourceUrl": "https://www.palaisgalliera.paris.fr/en/exhibitions/worth-inventing-haute-couture",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-profoto-1g2bnfi",
+      "contentHash": "sha1:291224c08c62a9a7a81576aaebd871b434fb7069",
+      "title": "John Geven 的摄影实践把身体限制转化为创作意志",
+      "source": "Profoto Stories",
+      "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/john-geven/",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-profoto-1o97isc",
+      "contentHash": "sha1:e7fdc2806f883b2704d9d4a53f12af6083d4b18f",
+      "title": "Meg Loeks 用便携闪光灯在任何地点塑造可控光线",
+      "source": "Profoto Stories",
+      "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/creates-the-right-light-anywhere-anytime/",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-profoto-1y5cgq2",
+      "contentHash": "sha1:135cc671b2808db8fa20032deab0321332f59d54",
+      "title": "Mara Saiz 在瓦伦西亚拍摄姐妹肖像的温暖光线",
+      "source": "Profoto Stories",
+      "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/mara-saiz-sisters-in-valencia/",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-profoto-bp8uzn",
+      "contentHash": "sha1:7c31273fb9e321c72b458dec007a35fcae7e7d0d",
+      "title": "Drew Forsyth 用柔光处理挑战环境中的女性肖像",
+      "source": "Profoto Stories",
+      "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/share-the-light-spotlight-drew-forsyth-changing-perspectives/",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-profoto-djwnob",
+      "contentHash": "sha1:d7c123f8399fa52a552b8f388ac1f7e75a296bc4",
+      "title": "Ana Brandt 用柔光保存孕期与新生儿肖像记忆",
+      "source": "Profoto Stories",
+      "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/ana-brandt-preserving-memories-in-a-new-light/",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-profoto-g9744d",
+      "contentHash": "sha1:2eb1731143dab948815e33a1114db03604b5c8fc",
+      "title": "Paula Watts 秋季时装拍摄展示柔箱与便携灯组合",
+      "source": "Profoto Stories",
+      "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/share-the-light-spotlight-paula-watts-chases-light/",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-profoto-l611o7",
+      "contentHash": "sha1:0da4d85ab819fec30c42cb0f2c65102f704ccebe",
+      "title": "David Bicho 用 Profoto 讲解基础布光原则",
+      "source": "Profoto Stories",
+      "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/david-bicho-fundamentals-of-lighting/",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-tokyo-photo-museum-mwdks4",
+      "contentHash": "sha1:0e168dae1e7492b0195cfd0796d6378b6210a239",
+      "title": "东京都写真美术馆以“明日餐桌”重看日常图像",
+      "source": "Tokyo Photographic Art Museum",
+      "sourceUrl": "https://topmuseum.jp/exhibition/5419",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-tokyo-photo-museum-mwdksr",
+      "contentHash": "sha1:7700cc9b1f2b41d471bf61f6aae1fee6194859fd",
+      "title": "东京写真美术馆预告“亚洲当代”摄影展",
+      "source": "Tokyo Photographic Art Museum",
+      "sourceUrl": "https://topmuseum.jp/exhibition/5421",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-tokyo-photo-museum-mwdkx5",
+      "contentHash": "sha1:e88b0ee378142f536f32b12fc4e5b67142d11d58",
+      "title": "Sony World Photography Awards 2026 登陆东京写真美术馆",
+      "source": "Tokyo Photographic Art Museum",
+      "sourceUrl": "https://topmuseum.jp/exhibition/5474",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-tokyo-photo-museum-mwdkx7",
+      "contentHash": "sha1:80613abc9095d84890ac8debbb3ffa52140b2527",
+      "title": "显微影像展把科学图像推向摄影观看",
+      "source": "Tokyo Photographic Art Museum",
+      "sourceUrl": "https://topmuseum.jp/exhibition/5476",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-topaz-labs-1727hsf",
+      "contentHash": "sha1:dfb115752b6fbfad50ba6014425643fae318395a",
+      "title": "Topaz 扩展版本继续把视频增强模型产品化",
+      "source": "Topaz Labs Learn",
+      "sourceUrl": "https://www.topazlabs.com/news/the-expansion-release",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-topaz-labs-17dv6oi",
+      "contentHash": "sha1:63bf5d2ebef47dbc29ce5c812b112922f493979a",
+      "title": "Topaz Mac 速度更新强化本地影像处理效率",
+      "source": "Topaz Labs Learn",
+      "sourceUrl": "https://www.topazlabs.com/news/the-mac-is-faster-update---june-2026",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-topaz-labs-1dzoc2c",
+      "contentHash": "sha1:72c8e072c6b5640ca718152baa446a61ebfee2bd",
+      "title": "Topaz 速度更新把 NeuroStream 作为核心卖点",
+      "source": "Topaz Labs Learn",
+      "sourceUrl": "https://www.topazlabs.com/news/the-speed-update-neurostream-2-face-recovery-3-noise-aware-sharpen-more",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-topaz-labs-buala0",
+      "contentHash": "sha1:acd80f02fb2d467ead0bd14b547a497bc82a057a",
+      "title": "Topaz Labs 将在 SIGGRAPH 展示影像增强工具",
+      "source": "Topaz Labs Learn",
+      "sourceUrl": "https://www.topazlabs.com/news/visit-topaz-labs-at-siggraph-in-los-angeles",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-topaz-labs-wq5v8c",
+      "contentHash": "sha1:0001be225663635c5518170eea6e40738ab044b4",
+      "title": "Topaz Next-Gen Release 指向下一代影像增强模型",
+      "source": "Topaz Labs Learn",
+      "sourceUrl": "https://www.topazlabs.com/news/the-next-gen-release---april-2026",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-vam-fashion-1h81bsb",
+      "contentHash": "sha1:72bf49e9d62d669670b06e17cab2d98b2eac8511",
+      "title": "东伦敦城市变迁被放进 V&A East 的图像档案",
+      "source": "V&A Fashion",
+      "sourceUrl": "https://www.vam.ac.uk/event/0v0GJw8DOR/dispersal-picturing-change-in-east-london",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-vam-fashion-1xj64he",
+      "contentHash": "sha1:7fc28f70b66573b923a5bdd6c2e4f7815fcc80da",
+      "title": "Julieta Gil 在 V&A 展示“空间碎片”的新观看方式",
+      "source": "V&A Fashion",
+      "sourceUrl": "https://www.vam.ac.uk/event/xZ7yYJ8A02/pieces-of-space-2026",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-vam-fashion-1y82t2v",
+      "contentHash": "sha1:3abedc4cebbaef713d74691155c5f7f3e8634a98",
+      "title": "如何读懂一幅画：V&A 把观看方法做成公共课程",
+      "source": "V&A Fashion",
+      "sourceUrl": "https://www.vam.ac.uk/event/RJr6L8MyYn/l26002-how-to-read-a-painting-on-demand",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-vam-fashion-nkxvzs",
+      "contentHash": "sha1:ee3d6f4cc1e8d80c3bf750e0e639f359c38b2d01",
+      "title": "当代金属工艺如何进入视觉文化现场",
+      "source": "V&A Fashion",
+      "sourceUrl": "https://www.vam.ac.uk/event/4YRzJDmbavr/metalworking-now-2026-27",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-vam-fashion-zgtmcz",
+      "contentHash": "sha1:e954c4f27f63f2ff8a03d5b760a3c9232471867f",
+      "title": "从贝叶挂毯到莫里斯：刺绣作为千年视觉叙事",
+      "source": "V&A Fashion",
+      "sourceUrl": "https://www.vam.ac.uk/event/OZDZpOZeeY/l26001-english-embroidery-on-demand",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-aputure-1pbkrp0",
+      "contentHash": "sha1:0b6dcf5e2ccbb8b01ba36a4b363595d601f33983",
+      "title": "小团队外景布光指南：先拥有能对抗太阳的大灯，再用小灯制造层次",
+      "source": "Aputure Blog",
+      "sourceUrl": "https://aputure.com/en-US/articles/a-guide-to-videography-lighting-with-tom-shaw",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-palais-galliera-18peipw",
+      "contentHash": "sha1:1c7b45e12eeb4b43445a2602f807047e4a7ec228",
+      "title": "巴黎时尚工艺展：从织造、刺绣到花饰，重新看见衣服背后的手",
+      "source": "Palais Galliera",
+      "sourceUrl": "https://www.palaisgalliera.paris.fr/en/exhibitions/weaving-embroidering-embellishing-crafts-and-trades-fashion",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-profoto-y39th8",
+      "contentHash": "sha1:2169bbd9459e79c27e03690c950b0240d3305b97",
+      "title": "Evely Duis 的概念时尚摄影：先建立情绪，再决定闪光灯放在哪里",
+      "source": "Profoto Stories",
+      "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/share-the-light-spotlight-evely-duis/",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-tokyo-photo-museum-mwdkst",
+      "contentHash": "sha1:b6e005100030f8bc6932ce52914f88bf22a036fa",
+      "title": "日本新进摄影 vol.23：当真实记忆被 AI 与数字技术重新组装",
+      "source": "Tokyo Photographic Art Museum",
+      "sourceUrl": "https://topmuseum.jp/exhibition/5423",
+      "featured": false,
+      "priority": 35,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-08-06",
+      "itemId": "visual-its-nice-that-8k146r",
+      "contentHash": "sha1:39752fb7702bca9964af6b9c8d7cce653d8ea9a7",
+      "title": "Daniel Greenfeld 用纸屑拼成建筑马赛克",
+      "source": "It's Nice That",
+      "sourceUrl": "https://www.itsnicethat.com/articles/daniel-greenfeld-illustration-art-discover-050826",
+      "featured": false,
+      "priority": 25,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-another-magazine-1e92gk0",
+      "contentHash": "sha1:ff89757a65c7718aad824857b53da562e60f9c00",
+      "title": "五组摄影项目捕捉盛夏的漫长欲望",
+      "source": "AnOther",
+      "sourceUrl": "https://www.anothermag.com/art-photography/17345/summer-round-up-photography-photo-series-sam-youkilis-holidays?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=five-photo-projects-filled-with-summer-longing",
+      "featured": false,
+      "priority": 25,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-dazed-153f4km",
+      "contentHash": "sha1:7f60f99aaae742405bf1f4c7dccfe65899529163",
+      "title": "Dazed Beauty Sessions 把香氛、影像与身份带入影院",
+      "source": "Dazed",
+      "sourceUrl": "https://www.dazeddigital.com/beauty/article/70699/1/dazed-beauty-sessions-wwd?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=inside-our-dazed-beauty-sessions-with-escentric-molecules",
+      "featured": false,
+      "priority": 25,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-dazed-ilu8ez",
+      "contentHash": "sha1:0cd98eab2d9af757b4a145b437f0edd29374443c",
+      "title": "曼谷时装档案商 Nick Varnier 的 GLAM Archive",
+      "source": "Dazed",
+      "sourceUrl": "https://www.dazeddigital.com/fashion/article/70733/1/glam-archive-rare-fashion-dealer-bangkok-best-dressed-2010s-fashion?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=this-rare-fashion-dealer-is-bangkok-s-best-dressed-archivist",
+      "featured": false,
+      "priority": 25,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-24",
+      "itemId": "visual-w-korea-1la43kc",
+      "contentHash": "sha1:cca49ef8eda8ef5584a7b5a33b7c7734d5c2fa81",
+      "title": "2026 秋冬高定的优雅步行叙事",
+      "source": "W Korea",
+      "sourceUrl": "https://www.wkorea.com/2026/07/23/2026-f-w-%ec%bf%a0%ed%8a%80%eb%a5%b4%ec%9d%98-%ea%b0%80%ec%9e%a5-%ec%9a%b0%ec%95%84%ed%95%9c-%ec%82%b0%ec%b1%85/",
+      "featured": false,
+      "priority": 25,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-another-magazine-1qgmt3i",
+      "contentHash": "sha1:7fb8d0c1a86eb872bbed2695a39814ced356db1d",
+      "title": "Fara Homidi 用档案杂志重构“生活过”的妆容",
+      "source": "AnOther",
+      "sourceUrl": "https://www.anothermag.com/fashion-beauty/17331/fara-homidi-makeup-artist-bronzer-blush-blonzer-new-interview?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=fara-homidi-the-make-up-artist-elevating-the-everyday",
+      "featured": false,
+      "priority": 25,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-another-magazine-k9ko3x",
+      "contentHash": "sha1:e219001e417ecf18a47d855b6e54f092c08a398a",
+      "title": "Willem Dafoe 让 2003 年杂志肖像变成换装表演",
+      "source": "AnOther",
+      "sourceUrl": "https://www.anothermag.com/design-living/15768/willem-dafoe-2003-another-magazine-marcelo-krasilcic?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=when-willem-dafoe-turned-a-photo-shoot-for-another-magazine-on-its-head",
+      "featured": false,
+      "priority": 25,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-dazed-17w0qx8",
+      "contentHash": "sha1:e1826007aaf883904b0a4a7ed65cd98b621e1fc5",
+      "title": "冰岛日食音乐节把天文奇观变成跨媒介现场",
+      "source": "Dazed",
+      "sourceUrl": "https://www.dazeddigital.com/life-culture/article/70678/1/this-festival-is-guided-by-the-wonder-of-the-2026-iceland-eclipse-imxp?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=this-festival-is-guided-by-the-wonder-of-the-2026-iceland-eclipse",
+      "featured": false,
+      "priority": 25,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-dazed-1g70g0w",
+      "contentHash": "sha1:c8467cd9faaa364707c9bb9577cdb36f570efca5",
+      "title": "Charli xcx《Camera》再次证明流行音乐正在借电影建构自我神话",
+      "source": "Dazed",
+      "sourceUrl": "https://www.dazeddigital.com/music/article/70526/1/camera-5-more-times-charli-xcx-projects-referenced-cinema-camera?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=on-camera-unpacking-charli-s-long-love-affair-with-film",
+      "featured": false,
+      "priority": 25,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-dazed-pttf6l",
+      "contentHash": "sha1:4b012f91036787c8ae502dd42cf3fb070d898287",
+      "title": "Plestia Alaqad 的文化清单把阅读与观看转化为抵抗性记忆",
+      "source": "Dazed",
+      "sourceUrl": "https://www.dazeddigital.com/life-culture/article/70677/1/plestia-alaqad-dazed-syllabus-palestine?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=plestia-alaqad-selects-what-to-read-listen-to-and-watch",
+      "featured": false,
+      "priority": 25,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-dazed-zp9q4z",
+      "contentHash": "sha1:3739bb86158d1c4fa085e7f80048d7cd318220d6",
+      "title": "Substack 为 Eddie Huang 新片做 table read，出版平台转向电影现场",
+      "source": "Dazed",
+      "sourceUrl": "https://www.dazeddigital.com/film-tv/article/70662/1/everything-we-learned-substack-tuna-melt-table-read-eddie-huang?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=substack-staged-a-wild-table-read-for-eddie-huang-s-new-film",
+      "featured": false,
+      "priority": 25,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-another-magazine-x4epu7",
+      "contentHash": "sha1:3e095ee95435d248d2c10201a0bd49cbfb67af4e",
+      "title": "从身体到土地：重新理解 Ana Mendieta 的五个入口",
+      "source": "AnOther",
+      "sourceUrl": "https://www.anothermag.com/art-photography/17325/ana-mendieta-tate-modern-guide?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=a-five-point-guide-to-the-art-of-ana-mendieta",
+      "featured": false,
+      "priority": 25,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-dazed-dkily4",
+      "contentHash": "sha1:e803eedd23afb191a030c6a8bb044683284b6d11",
+      "title": "欧洲被遗忘的自由派对一代：一本摄影书里的游牧锐舞史",
+      "source": "Dazed",
+      "sourceUrl": "https://www.dazeddigital.com/music/article/70634/1/europe-forgotten-free-party-generation-never-alone-photography-raves?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=photos-of-europe-s-forgotten-free-party-generation",
+      "featured": false,
+      "priority": 25,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-its-nice-that-1dspwk1",
+      "contentHash": "sha1:34ea9c43f254657bcf2c9e3fb0f8b2db06c30ae4",
+      "title": "把扫描仪变成“纪念品吸尘器”：扭曲人像的新方法",
+      "source": "It's Nice That",
+      "sourceUrl": "https://www.itsnicethat.com/articles/armand-croisonnier-photography-discover-150726",
+      "featured": false,
+      "priority": 25,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-its-nice-that-9ex2fl",
+      "contentHash": "sha1:4eef034ee9c5469170a43ac2c49aab6b7dceeabd",
+      "title": "编辑插画如何不过度解释：Ana Miminoshvili 用低幻想提炼故事核心",
+      "source": "It's Nice That",
+      "sourceUrl": "https://www.itsnicethat.com/articles/ana-miminoshvili-illustration-discover-160726",
+      "featured": false,
+      "priority": 25,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-23",
+      "itemId": "visual-dazed-7blpz7",
+      "contentHash": "sha1:a27d8db287e03f5fbc29d2fb33ee9af1a39d21d2",
+      "title": "MUBI FEST 走进《绝代艳后》的制作幕后",
+      "source": "Dazed",
+      "sourceUrl": "https://www.dazeddigital.com/film-tv/article/71220/1/mubi-fest-london-screening-making-of-marie-antoinette-dazed-club?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=mubi-fest-london-presents-a-bts-glimpse-at-the-making-of-marie-antoinette",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-23",
+      "itemId": "visual-fashionsnap-r58ked",
+      "contentHash": "sha1:9ce7ae1cc3902b64ab8af4ae20f53f4e8e774f37",
+      "title": "Lacoste × 哥斯拉：电影导演图形进入服装联名",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/2026-10-23/lacoste-godzilla-collaboration/",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-23",
+      "itemId": "visual-fashionsnap-ykvzxr",
+      "contentHash": "sha1:1904fada64ab8b8eb36ecfbd12a66e869b5ce8e9",
+      "title": "Almostblack 在虎之门开设档案与古着限定店",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/2026-10-23/almostblack-limited-store/",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-23",
+      "itemId": "visual-fashionsnap-yxe7ku",
+      "contentHash": "sha1:35c86814199a80b02f0bc4788a2e949a123feb11",
+      "title": "T.T 在京都御所南建立新据点",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/2026-10-23/tt-gosyominami/",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-23",
+      "itemId": "visual-wallpaper-is9n3t",
+      "contentHash": "sha1:9984cc1e40d28eef4aa2235a524f95763da07e80",
+      "title": "德国住宅以缓慢演化回应居住者需求",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/architecture/residential/-german-house-in-process-somaa",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-21",
+      "itemId": "visual-fashionsnap-rnm1gt",
+      "contentHash": "sha1:c8304640801221294b9b1d8ec9ff43575f1dc85c",
+      "title": "Max Mara 以 75 周年展回顾品牌叙事",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/2026-10-21/max-mara-75th-anniversary/",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-21",
+      "itemId": "visual-vogue-japan-13q64l8",
+      "contentHash": "sha1:42be9f3621e96bce0f2e35c7a93e6c0c6ef35573",
+      "title": "Dover Street Market Ginza 举办 Open House",
+      "source": "Vogue Japan",
+      "sourceUrl": "https://www.vogue.co.jp/article/2026-10-21-dover-street-market",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-21",
+      "itemId": "visual-wallpaper-1c7e0hx",
+      "contentHash": "sha1:ad954ba34f84fd829df278456ad938c81e9d0f98",
+      "title": "Leica 与 Formula 1 联名推出 Q3 45 特别版",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/tech/leica-q3-45-formula-1-edition-digital-camera",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-21",
+      "itemId": "visual-wallpaper-f80j7e",
+      "contentHash": "sha1:31d9dceccc6fafcb19a3e1e195e99c81e56110ce",
+      "title": "巴西滨水住宅以木质外壳隐藏戏剧性空间",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/architecture/residential/a-simple-timber-envelope-conceals-the-scale-and-drama-of-this-waterfront-house-in-brazil",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-08-06",
+      "itemId": "visual-wallpaper-1fpn408",
+      "contentHash": "sha1:e13aa7b737e7ae9db28f232696b8626076a7793b",
+      "title": "柏林 ICC：沉睡的未来主义巨构即将苏醒",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/architecture/icc-berlin-germany",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-vogue-japan-1g59j3m",
+      "contentHash": "sha1:e0870c0917aeae79000758887c4c5bd05929dbdb",
+      "title": "科技公司为何开始把 T 恤当作生活方式媒介",
+      "source": "Vogue Japan",
+      "sourceUrl": "https://www.vogue.co.jp/article/openai-tech-corporate-merch-swag",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-w-magazine-4dkgqs",
+      "contentHash": "sha1:ac2372380fdcaf0e87e3b98e8f5dc63f476bf5c8",
+      "title": "Zendaya 以定制礼服致敬 Willi Smith 的漫画草图",
+      "source": "W Magazine",
+      "sourceUrl": "https://www.wmagazine.com/fashion/zendaya-spider-man-laquan-smith-willi-smith",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-wallpaper-18oopa2",
+      "contentHash": "sha1:03ae539a37c00494689dc1cb306914c7ddcd6f52",
+      "title": "Willo Perron 为 Knoll 设计柔软如云的床",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/design-interiors/furniture/knoll-willo-perron-pillo-bed",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-wallpaper-1rfd4ah",
+      "contentHash": "sha1:c8db2a40a22a3c0f82559ec97c398db4e673694d",
+      "title": "TAG Heuer 以日本赛车记忆重构 Carrera 计时表",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/watches-jewellery/tag-heuer-carrera-chronograph-x-team-ikuzawa",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-wallpaper-ghwjks",
+      "contentHash": "sha1:3b9d1737ca12de1ed3084b735d80f8e6fe616c4a",
+      "title": "Cubitts 曼彻斯特门店以“有灵魂的精确”回应城市",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/design-interiors/cubitts-manchester-store-opening-youth-studio",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-wallpaper-sgiifc",
+      "contentHash": "sha1:28904b904a81ad399b92436badcc7cae7d334edd",
+      "title": "七月住宅建筑观察：从花园工作室到赖特遗作",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/architecture/residential/best-residential-architecture-july-2026",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-24",
+      "itemId": "visual-fashionsnap-1j9o2mo",
+      "contentHash": "sha1:e1f22cdb9e2148b56b24aa4f009dcce3852bd476",
+      "title": "ROI ORDERSON：从 MURRAL 出发的新日常服装品牌",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/2026-07-23/roi-orderson/",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-24",
+      "itemId": "visual-vogue-korea-ju3mw3",
+      "contentHash": "sha1:5ba260fd8638b71e40df021ac35e8cc4af02d4e6",
+      "title": "《Vogue Korea》30 周年：时尚媒体的跨区域创意网络",
+      "source": "Vogue Korea",
+      "sourceUrl": "https://www.vogue.co.kr/2026/07/24/%eb%b3%b4%ea%b7%b8-%ec%bd%94%eb%a6%ac%ec%95%84-30%ec%a3%bc%eb%85%84-%ec%a0%84-%ec%84%b8%ea%b3%84-%ed%8c%a8%ec%85%98-%eb%94%94%ec%9e%90%ec%9d%b4%eb%84%88%ec%99%80-%eb%b7%b0%ed%8b%b0-%eb%a6%ac/",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-24",
+      "itemId": "visual-w-magazine-n6yv51",
+      "contentHash": "sha1:fdf10403c96768772c0804867be5e643effadd9d",
+      "title": "2026 年值得关注的国际艺术展览图谱",
+      "source": "W Magazine",
+      "sourceUrl": "https://www.wmagazine.com/culture/art-shows-exhibits-museums-galleries-2026",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-24",
+      "itemId": "visual-wallpaper-19zs22l",
+      "contentHash": "sha1:e46107e33da5a0e8cc66f20f92012f474772b6c6",
+      "title": "1.65 毫米机械表：极薄工艺的玩味表达",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/watches-jewellery/konstantin-chaykin-thinking-mystery-ultra-thin-watch",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-24",
+      "itemId": "visual-wallpaper-1ewu4pg",
+      "contentHash": "sha1:ee3a2b31dcc0bfc5f55c3bab5e31046bf79cbf32",
+      "title": "红杉木包裹的 1970 年代有机现代主义住宅",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/architecture/residential/kendrick-bangs-kellogg-property-for-sale-chapman-residence",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-24",
+      "itemId": "visual-wallpaper-1uyxfgi",
+      "contentHash": "sha1:21dc0d84cf8b123e01be4a289f6b7a10cb91d732",
+      "title": "Ellen Gallagher 加入伦敦地铁公共艺术计划",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/art/ellen-gallagher-art-on-the-underground",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-british-vogue-1p7ha34",
+      "contentHash": "sha1:132cefb0bc90be367a97fdc34f4ef973b1b97c27",
+      "title": "Tiara Skye：Soho 街头采访的酷儿形象生产",
+      "source": "British Vogue",
+      "sourceUrl": "https://www.vogue.co.uk/article/tiara-skye-interview",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-british-vogue-fkzvm9",
+      "contentHash": "sha1:571989cdf70aeefe219ea46fe2fea13ab8971fe7",
+      "title": "1980 年代反极简鞋履重新进入夏季街头",
+      "source": "British Vogue",
+      "sourceUrl": "https://www.vogue.co.uk/article/retro-80s-summer-shoes",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-fashionsnap-48ftv3",
+      "contentHash": "sha1:ba29e8bbf651c07a4f062af8000a3f8f2886c9fa",
+      "title": "Messika 发布 20.46 克拉“奥卡万戈蓝”钻石",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/2026-07-22/messika-okavango-blue/",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-fashionsnap-xdmufo",
+      "contentHash": "sha1:6ff6e58b5c8114f7c14e376b5e0116639924a6a2",
+      "title": "JULIUS 2027 春夏系列释出",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/collection/julius/2027ss/",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-id-magazine-i5o43g",
+      "contentHash": "sha1:3aaee5788fad493e533fc063f0580b094450f72e",
+      "title": "Tyrell Hampton 的派对肖像摄影书回看",
+      "source": "i-D",
+      "sourceUrl": "https://i-d.co/article/tyrell-hampton-last-call-frank-ocean-interview/",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-vogue-runway-1gl10vp",
+      "contentHash": "sha1:dbfd19a349d1116255cacc4b618cb7aa8be5ec1d",
+      "title": "Keisukeyoshida 2027 春夏东京秀场更新",
+      "source": "Vogue Runway",
+      "sourceUrl": "https://www.vogue.com/fashion-shows/tokyo-spring-2027/keisukeyoshida",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-w-magazine-1w7gc51",
+      "contentHash": "sha1:ffe289b6c46c2ac2da22e867da01eceb9bbc01da",
+      "title": "Zendaya 用 1940 年代蜘蛛礼服激活复古造型",
+      "source": "W Magazine",
+      "sourceUrl": "https://www.wmagazine.com/fashion/zendaya-dress-1940s-spider-man-brand-new-day",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-british-vogue-1ztvaa",
+      "contentHash": "sha1:8e61fcea70f41c654f2c8e93066dfe6089583e56",
+      "title": "Tyla 的 Y2K pop star style 继续强化新一代流行偶像衣橱",
+      "source": "British Vogue",
+      "sourceUrl": "https://www.vogue.co.uk/gallery/tyla-off-duty-pop-star-style",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-fashionsnap-hvretg",
+      "contentHash": "sha1:0687373b44fd4f6d01b530ab0e38bec62c62dc35",
+      "title": "KEEN 京都快闪用夜行配色连接户外鞋与旧工厂空间",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/2026-07-22/keen-nocturnal-pack/",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-id-magazine-10owni3",
+      "contentHash": "sha1:2fb846e8766657bd2a2ebfc6c51cd282c87bd892",
+      "title": "Sotce 夏校把互联网人格带进爱沙尼亚寄宿学校现场",
+      "source": "i-D",
+      "sourceUrl": "https://i-d.co/article/sotce-summer-school-interview/",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-interview-magazine-st7fod",
+      "contentHash": "sha1:32e52c61941729eac6dfa61648546d5c8ab8fa93",
+      "title": "Sofia Testino 把制服从乏味工作服改造成时尚命题",
+      "source": "Interview",
+      "sourceUrl": "https://www.interviewmagazine.com/fashion/sofia-testino-uniforms-fashion-design",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-vogue-japan-104il4s",
+      "contentHash": "sha1:35e472ece8a329b09bfb546bb19e8970b2bcebcc",
+      "title": "水果美甲把夏季图案趋势压缩到指尖尺度",
+      "source": "Vogue Japan",
+      "sourceUrl": "https://www.vogue.co.jp/article/summer-fruit-nails",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-vogue-japan-18u4mrr",
+      "contentHash": "sha1:71a1ed3a5ea4b7ed536728666edbd41ce56657bc",
+      "title": "Damiani Margherita Bloom 用多彩宝石重画花卉珠宝",
+      "source": "Vogue Japan",
+      "sourceUrl": "https://www.vogue.co.jp/article/2026-07-22-damiani",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-vogue-japan-1lw7uc4",
+      "contentHash": "sha1:fd69378ca250936522da60664c4c9cc1aec9645f",
+      "title": "YSL “café color” 用浓缩咖啡色更新秋妆情绪",
+      "source": "Vogue Japan",
+      "sourceUrl": "https://www.vogue.co.jp/article/2026-07-22-yslb-news",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-vogue-japan-lvmqlo",
+      "contentHash": "sha1:e66cdcf7413f7b8d6a4c7a25bbd8c6fb4d37905d",
+      "title": "进化系 mute makeup 把低饱和妆容带入秋冬秀场语法",
+      "source": "Vogue Japan",
+      "sourceUrl": "https://www.vogue.co.jp/article/aw26-new-product-trend-mute-makeup-eyecolor-lipitem-facecolor",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-vogue-korea-1mzzpka",
+      "contentHash": "sha1:6156eba7517e3f0323d939629b2fab9ccc933a20",
+      "title": "MEOVV Gawon 的发型幻想强调偶像视觉身份",
+      "source": "Vogue Korea",
+      "sourceUrl": "https://www.vogue.co.kr/2026/07/22/%eb%af%b8%ec%95%bc%ec%98%a4-%ea%b0%80%ec%9b%90%ec%9d%98-%ed%97%a4%ec%96%b4-%ed%8c%90%ed%83%80%ec%a7%80/",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-w-magazine-11hqaoa",
+      "contentHash": "sha1:a0359ad9bddfd128483b0230aa3375d0db386798",
+      "title": "Charli xcx《Camera》视频把音乐、时装与电影压力放进同一画面",
+      "source": "W Magazine",
+      "sourceUrl": "https://www.wmagazine.com/fashion/charli-xcx-camera-video-fashion",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-w-magazine-14hbxlo",
+      "contentHash": "sha1:aa950811b211e5bfc005d81f9d713055b94e15c3",
+      "title": "Kaia Gerber 把 babydoll 连衣裙推向夜间硬边造型",
+      "source": "W Magazine",
+      "sourceUrl": "https://www.wmagazine.com/fashion/kaia-gerber-babydoll-dress-trend",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-w-magazine-169s247",
+      "contentHash": "sha1:3d8d561ec877eabfb2539586b3620cf2cfb82958",
+      "title": "Zendaya 用 Ashi Studio 黑色蕾丝婚纱制造哀悼新娘形象",
+      "source": "W Magazine",
+      "sourceUrl": "https://www.wmagazine.com/fashion/zendaya-gothic-lace-dress-ashi-studio-spider-man",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-w-magazine-1wx2u73",
+      "contentHash": "sha1:e1043aebf5011348fa7fff160678cb5705373182",
+      "title": "Teyana Taylor 用金色领带改写 power suit 的配饰重心",
+      "source": "W Magazine",
+      "sourceUrl": "https://www.wmagazine.com/fashion/teyana-taylor-gold-necktie-suit",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-w-magazine-1yfe48",
+      "contentHash": "sha1:bec02593c045982924536f7d79051574472a4a79",
+      "title": "Zendaya 与 Tom Holland 的 press tour 造型成为情侣高定叙事",
+      "source": "W Magazine",
+      "sourceUrl": "https://www.wmagazine.com/fashion/zendaya-tom-holland-spider-man-brand-new-day-press-tour-photos",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-wallpaper-12v59m1",
+      "contentHash": "sha1:8b898a531d4a248862a1a9c90715e0aa4d4709ac",
+      "title": "Light Phone Flip 用翻盖形态继续反社交媒体饱和",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/tech/light-phone-flip-review",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-wallpaper-171lg3p",
+      "contentHash": "sha1:56bf0c09bad5cdf1521cd393f3993ba9451c6d51",
+      "title": "Design Within Reach 新地毯用断裂几何把传统压到地面中心",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/design-interiors/design-within-reach-rugs-semita-little-wing-lee",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-wallpaper-ky15jw",
+      "contentHash": "sha1:fd0e476b0930c1a9a7af2b7ca059fc01d74dbbad",
+      "title": "爵士舞鞋与芭蕾鞋成为夏季最轻快的足部轮廓",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/fashion-beauty/jazz-dance-and-ballet-inspired-shoes",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-wallpaper-o28nqh",
+      "contentHash": "sha1:00fdf089694ba9db51054fdb17cd0fcd1acb519e",
+      "title": "Orior 把桌上足球台改造成可收藏家具对象",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/design-interiors/furniture/orior-foosball-table",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-british-vogue-164hjk9",
+      "contentHash": "sha1:30b6b3241473fe1122ec9c01fe37d3255577ee0c",
+      "title": "当代包袋品牌清单映射 2026 新一轮 it-bag 生态",
+      "source": "British Vogue",
+      "sourceUrl": "https://www.vogue.co.uk/article/contemporary-bag-brands",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-british-vogue-166fkqs",
+      "contentHash": "sha1:5cbcce684c4160cbedf98ab3e59884632edc7c96",
+      "title": "2026 秋冬鞋履趋势从拖鞋到 kitten heel 重回低高度装饰",
+      "source": "British Vogue",
+      "sourceUrl": "https://www.vogue.co.uk/article/autumn-winter-2026-shoe-trends",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-british-vogue-tj08ib",
+      "contentHash": "sha1:03ce5e3cb0d5ba912bcf7f350e3aea6e6c8545f0",
+      "title": "设计师新娘用祖母婚纱和自制伴娘裙重写婚礼造型",
+      "source": "British Vogue",
+      "sourceUrl": "https://www.vogue.co.uk/gallery/lucy-charters-wedding",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-british-vogue-xq2ex1",
+      "contentHash": "sha1:318300911e57cb83b9633e0637617717ee37489a",
+      "title": "豹纹高跟鞋成为 2026 对“奶奶凉鞋”的反向选择",
+      "source": "British Vogue",
+      "sourceUrl": "https://www.vogue.co.uk/article/leopard-print-heels-trend",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-fashionsnap-1p3jgy",
+      "contentHash": "sha1:20438b9ae41014e37750935d02dd0359448db5ed",
+      "title": "OUAT 015 系列延续日系独立品牌的实验衣橱",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/collection/ouat/2026aw/",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-fashionsnap-6g95u2",
+      "contentHash": "sha1:a5ef5144bbd9953cf99614f85f32ac258bab8661",
+      "title": "TUDOR 大阪快闪用相扑视觉重塑腕表场景",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/2026-07-17/tudor-sumo-popup-osaka/",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-fashionsnap-cxcmqx",
+      "contentHash": "sha1:f5e2e08f9c23b0efbd16610344d62ba2573352be",
+      "title": "EDWIN 503 以“日本之青”重启经典丹宁",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/2026-07-17/edwin-japan-blue/",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-fashionsnap-jbhiy5",
+      "contentHash": "sha1:aa963d13fa81d8ca626e1655901d66640d0eab64",
+      "title": "KAPTAIN SUNSHINE 2027 春夏用剪裁和联名包刷新男装日常",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/2026-07-17/kaptainsunshine-2027ss-exhibition/",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-mplus-yuv26f",
+      "contentHash": "sha1:60d4636dcab01cac38e2b33ad4422f952f01363e",
+      "title": "李禹焕对谈把宇宙想象带回艺术实践的长期尺度",
+      "source": "M+",
+      "sourceUrl": "https://www.mplus.org.hk/en/magazine/lee-ufan-in-conversation",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-vogue-japan-1sdhe7w",
+      "contentHash": "sha1:b7376d1a5e8c44604f68bcf9ee39ae300aa2a825",
+      "title": "Paulina Porizkova 的大人婚礼强调年龄、自我与仪式造型",
+      "source": "Vogue Japan",
+      "sourceUrl": "https://www.vogue.co.jp/gallery/paulina-porizkova-and-jeff-greenstein-wedding",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-vogue-japan-1ue6yzg",
+      "contentHash": "sha1:09296ed0c8d54f649f23beae509ead0818b0a513",
+      "title": "Fendi 秋冬发布活动用日本明星 SNAP 展示新季真实穿法",
+      "source": "Vogue Japan",
+      "sourceUrl": "https://www.vogue.co.jp/article/fendi-2026-aw-launch-event-snap",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-vogue-japan-94ntlh",
+      "contentHash": "sha1:3588281b86e7d11eac31635c4ed7ba2a1ddedd12",
+      "title": "Alysa Liu 首次展示腰部纹身，把身体标记变成红毯叙事",
+      "source": "Vogue Japan",
+      "sourceUrl": "https://www.vogue.co.jp/article/alysa-liu-lower-back-tattoo-2026-espys-see-photos",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-vogue-japan-s2ruq1",
+      "contentHash": "sha1:28e6129d27658fbba33d598daff2df37c7aa6006",
+      "title": "Gucci 高级珠宝与腕表预览用 T.O.P 扩大亚洲传播声量",
+      "source": "Vogue Japan",
+      "sourceUrl": "https://www.vogue.co.jp/article/2026-07-17-gucci-high-jewelry-watch",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-wallpaper-q99xix",
+      "contentHash": "sha1:0f5334f212322f37d28f97cc61775cdc9fe83241",
+      "title": "澳大利亚砖亭住宅用双转角地块重写郊区居住",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/architecture/residential/brick-pavilion-house-australia",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-fashionsnap-hbrsov",
+      "contentHash": "sha1:d27c206b68d62ad6a36d7653605f0513787b398d",
+      "title": "UTGY 2027 春夏：在“余热”中延续未完成的轮廓",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/collection/utgy/2027ss/",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-fashionsnap-znpf5q",
+      "contentHash": "sha1:045758ca7a707ab2f698860cf6fad4720aafea35",
+      "title": "去 Fuji Rock 穿什么：22 岁造型师的真实音乐节搭配",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/fujirock-kamimuramao/",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-wallpaper-vmlegr",
+      "contentHash": "sha1:8395c21dd18877437b9f0aa7aaca3d1481d83778",
+      "title": "Margaret Howell 以最小改动重塑 Dr. Martens 1461",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/fashion-beauty/dr-martens-margaret-howell-mhl-collaboration",
+      "featured": false,
+      "priority": 20,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "采集摘要较短"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-23",
+      "itemId": "visual-aputure-1liiqwi",
+      "contentHash": "sha1:f3dae27d3f559f74440fb4d2ed04cd2643d7be21",
+      "title": "Pinkbox Studios 以 NOVA II 升级环幕影棚",
+      "source": "Aputure Blog",
+      "sourceUrl": "https://aputure.com/en-US/articles/how-pinkbox-studios-upgraded-their-prelit-cyc-with-nova-ii-1x1s-and-saved-usd10000",
+      "featured": false,
+      "priority": 15,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-23",
+      "itemId": "visual-aputure-1oy0tth",
+      "contentHash": "sha1:ad9f4956bd48c479aee1b29dd9d4a1bb36b58dd9",
+      "title": "Sidus Link Pro 2.4.2 强化像素级灯光工具",
+      "source": "Aputure Blog",
+      "sourceUrl": "https://aputure.com/en-US/articles/whats-new-in-sidus-link-pro-2-4-2",
+      "featured": false,
+      "priority": 15,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-vam-fashion-1e6ylys",
+      "contentHash": "sha1:f5c050dbd56bf862fed3e7ffb50edeb63caf0184",
+      "title": "V&A 以阿尔西娅·麦克尼什重读时尚与黑人创造力",
+      "source": "V&A Fashion",
+      "sourceUrl": "https://www.vam.ac.uk/event/vBQVXaqGk4/p26052-black-joy-day-althea-mcnish-schiaparelli",
+      "featured": false,
+      "priority": 15,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-aputure-1qqxao4",
+      "contentHash": "sha1:5885494d4c38733c872ed1a290dc272f686729bd",
+      "title": "为什么 STORM 主动缩窄光束：亮度、柔光附件与人像肤质之间的取舍",
+      "source": "Aputure Blog",
+      "sourceUrl": "https://aputure.com/en-US/articles/why-aputure-chose-to-narrow-the-beam-on-the-storm",
+      "featured": false,
+      "priority": 15,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-aputure-9aw6kv",
+      "contentHash": "sha1:aa6500d71dbc98f0e9c0e611cd6fd8b7b4ddea61",
+      "title": "在开拍前完成虚拟布光：Sidus Link Pro 的3D灯光预演工具",
+      "source": "Aputure Blog",
+      "sourceUrl": "https://aputure.com/en-US/articles/whats-new-in-sidus-link-pro-2-3",
+      "featured": false,
+      "priority": 15,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-aputure-9aw6kw",
+      "contentHash": "sha1:7a6cafeb9e3e10cc20e9c7502384a5d420c1babf",
+      "title": "Sidus Link Pro 2.4：把复杂灯光提示变成现场可直接执行的按钮",
+      "source": "Aputure Blog",
+      "sourceUrl": "https://aputure.com/en-US/articles/whats-new-in-sidus-link-pro-2-4",
+      "featured": false,
+      "priority": 15,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "日期缺失或异常"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-its-nice-that-t36ask",
+      "contentHash": "sha1:9a84d6fee8d4b26d3d63c8ed99f0594c935e57f1",
+      "title": "Present & Correct：把文具店经营成平面设计档案",
+      "source": "It's Nice That",
+      "sourceUrl": "https://www.itsnicethat.com/features/present-and-correct-graphic-design-spotlight-300726",
+      "featured": false,
+      "priority": 5,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-dazed-19da9l1",
+      "contentHash": "sha1:6d6083a467a87073790cbb3598d4c3c9bb6c1355",
+      "title": "Under Armour 世界杯 campaign 用球员假期制造运动时装叙事",
+      "source": "Dazed",
+      "sourceUrl": "https://www.dazeddigital.com/fashion/article/70673/1/under-armour-ferran-torres-ollie-watkins-fermin-lopez?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=spain-s-ferran-torres-trades-world-cup-glory-for-a-break-with-under-armour",
+      "featured": false,
+      "priority": 5,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-dazed-1eiuzvn",
+      "contentHash": "sha1:1980122e53b3e9672217f0307c9f9d23d88ff3a7",
+      "title": "《Rosebush Pruning》把富人讽刺推进更失控的影像叙事",
+      "source": "Dazed",
+      "sourceUrl": "https://www.dazeddigital.com/film-tv/article/70654/1/rosebush-pruning-karim-ainouz-interview-eat-the-rich-film-new-2026?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=rosebush-pruning-an-eat-the-rich-satire-that-makes-saltburn-look-tame",
+      "featured": false,
+      "priority": 5,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-its-nice-that-117gdww",
+      "contentHash": "sha1:824fa9d4542258c72825b7968710eb9c51e79d4c",
+      "title": "Lava La Rue 的周末灵感把朋克、恐怖片和多重身份混在一起",
+      "source": "It's Nice That",
+      "sourceUrl": "https://www.itsnicethat.com/features/the-weekend-with-lava-la-rue-170726",
+      "featured": false,
+      "priority": 5,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-its-nice-that-s31vm8",
+      "contentHash": "sha1:342d80ed7382552fab5443e47e0acf8e22cf1186",
+      "title": "《New New Typography》：一本反稳定的字体设计手册",
+      "source": "It's Nice That",
+      "sourceUrl": "https://www.itsnicethat.com/articles/matter-of-new-new-typography-graphic-design-publication-project-150726",
+      "featured": false,
+      "priority": 5,
+      "reasons": [
+        "历史摘要未通过正文证据核验",
+        "缺少配图"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-23",
+      "itemId": "visual-vogue-korea-1m97l5h",
+      "contentHash": "sha1:97396ebae76e11a89ad166c7243a0dc45d9c2f5b",
+      "title": "上海如何成为与纽约并肩的创意城市",
+      "source": "Vogue Korea",
+      "sourceUrl": "https://www.vogue.co.kr/2026/10/23/%ec%83%81%ed%95%98%ec%9d%b4%eb%8a%94-%ec%96%b4%eb%96%bb%ea%b2%8c-%eb%89%b4%ec%9a%95%ea%b3%bc-%ec%96%b4%ea%b9%a8%eb%a5%bc-%eb%82%98%eb%9e%80%ed%9e%88-%ed%95%98%ea%b2%8c-%eb%90%90%ec%9d%84%ea%b9%8c/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-23",
+      "itemId": "visual-vogue-korea-a37197",
+      "contentHash": "sha1:66880c54bf885cce76a00b55325e6b2994debaee",
+      "title": "Stella McCartney 短片以 Kylie Jenner 作为视觉主角",
+      "source": "Vogue Korea",
+      "sourceUrl": "https://www.vogue.co.kr/2026/10/23/%ec%8a%a4%ed%85%94%eb%9d%bc-%eb%a7%a5%ec%b9%b4%ed%8a%b8%eb%8b%88-%ec%87%bc%ed%8a%b8-%ed%95%84%eb%a6%84%ec%9d%98-%ec%a3%bc%ec%9d%b8%ea%b3%b5-%ec%b9%b4%ec%9d%bc%eb%a6%ac-%ec%a0%9c%eb%84%88/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-23",
+      "itemId": "visual-vogue-singapore-1nu9ms0",
+      "contentHash": "sha1:a8de7d1809c323f1b0ed87db20172532871b7e07",
+      "title": "Dolce & Gabbana 开启西西里魅力的新视觉世界",
+      "source": "Vogue Singapore",
+      "sourceUrl": "https://vogue.sg/dolce-gabbana-spring-summer-2027-2/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-23",
+      "itemId": "visual-wallpaper-x1lejz",
+      "contentHash": "sha1:51979b9e6af54d75fb2ac1608f4536749ee3d0e4",
+      "title": "Lego 与 Daft Punk 展开长期创意合作",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/art/lego-daft-punk-partnership-interview",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-10-21",
+      "itemId": "visual-vogue-korea-l7mm7v",
+      "contentHash": "sha1:ef4e649e9b4e7250095ad2aa57ff9e273463e1f2",
+      "title": "静奢退场，克制的极繁主义接棒",
+      "source": "Vogue Korea",
+      "sourceUrl": "https://www.vogue.co.kr/2026/10/21/%ec%a1%b0%ec%9a%a9%ed%95%9c-%eb%9f%ad%ec%85%94%eb%a6%ac%eb%8a%94-%eb%81%9d-%ec%9d%b4%ec%a0%9c%eb%8a%94-%ec%a0%88%ec%a0%9c%eb%90%9c-%eb%a7%a5%ec%8b%9c%eb%a9%80%eb%a6%ac%ec%a6%98/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-08-06",
+      "itemId": "visual-fashionsnap-4uxwp5",
+      "contentHash": "sha1:a61175c0f0ab890e423706cdfe0b648fd1738c81",
+      "title": "岛田顺子回望巴黎与高田贤三、三宅一生的友谊",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/junko-shimada-fukubito04/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-08-06",
+      "itemId": "visual-vogue-singapore-1rh9mxu",
+      "contentHash": "sha1:1d229db71a2b3eca9f00ad78a93b0509b8a7f8ba",
+      "title": "东南亚品牌以大胆造型建立区域时尚声量",
+      "source": "Vogue Singapore",
+      "sourceUrl": "https://vogue.sg/editors-picks-audacious-southeast-asian-brands/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-08-06",
+      "itemId": "visual-w-korea-11bg7de",
+      "contentHash": "sha1:70ec67cd1422dc3996f7027ecdac828bc47f2efb",
+      "title": "马丁·帕：半世纪收集而来的世界场景",
+      "source": "W Korea",
+      "sourceUrl": "https://www.wkorea.com/2026/08/06/to-%eb%a7%88%ed%8b%b4-%ed%8c%8c/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-bjp-1854-jqg8hl",
+      "contentHash": "sha1:9d8644dd149a639bcc8d7cce15a6dfa0045a040e",
+      "title": "New Irish Works 第五届回归：摄影师也是文化塑造者",
+      "source": "British Journal of Photography",
+      "sourceUrl": "https://www.1854.photography/2026/07/new-irish-works-returns-for-its-fifth-edition/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-bjp-1854-nttp9g",
+      "contentHash": "sha1:59f3eecab1c828592ff3ff8e14302255b69c48ce",
+      "title": "阿尔勒摄影节：主展与边缘事件的现实张力",
+      "source": "British Journal of Photography",
+      "sourceUrl": "https://www.1854.photography/2026/07/arles-review/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-fashionsnap-1h81u2a",
+      "contentHash": "sha1:c8e2b5c06b5acf5ea338278afff86e7a8b41cd71",
+      "title": "日本时尚联盟上线衣物回收、修复与转售地图",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/2026-07-31/japan-sustainable-fashion-alliance-6th/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-31",
+      "itemId": "visual-fashionsnap-lj5u3e",
+      "contentHash": "sha1:92811df912af1a3ffb370f6eda6542345d445ee6",
+      "title": "ASICS 新宿旗舰店将预约服务与服装定制纳入体验",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/2026-07-30/asics-flagship-shinjuku-2026-07-30/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-24",
+      "itemId": "visual-fashionsnap-1l1idz0",
+      "contentHash": "sha1:3c040fde7cb899e667699835a0bcdb28527dc48c",
+      "title": "五趾鞋从功能跑步装备转为街头造型符号",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/vibram-fivefingers/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-24",
+      "itemId": "visual-fashionsnap-se5j3i",
+      "contentHash": "sha1:8f409e1b3fe2af04734b69b18803008032a8d256",
+      "title": "图像识别 AI 进入零售货架的实时视野",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/2026-07-24/ai/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-24",
+      "itemId": "visual-interview-magazine-1splqc3",
+      "contentHash": "sha1:c8d152424984dc30a87c227bf87cc92087f88275",
+      "title": "《By Hook or By Crook》重访酷儿电影的粗粝表达",
+      "source": "Interview",
+      "sourceUrl": "https://www.interviewmagazine.com/film/silas-howard-harry-dodge-by-hook-or-by-crook-lilly-wachowski-bound-anniversary-restoration",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-24",
+      "itemId": "visual-interview-magazine-vb68b9",
+      "contentHash": "sha1:ef0796e8352bb74e7600358b6ae2a728d1e2f94f",
+      "title": "Dafydd Jones 镜头下的剑桥舞会与阶层狂欢",
+      "source": "Interview",
+      "sourceUrl": "https://www.interviewmagazine.com/art/dafydd-jones-cambridge-balls-photography",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-24",
+      "itemId": "visual-vogue-singapore-it6v9p",
+      "contentHash": "sha1:fe673d2291cc44ea6024d8a3bb376cda51399f84",
+      "title": "Fred 90 周年：珠宝品牌的光感叙事",
+      "source": "Vogue Singapore",
+      "sourceUrl": "https://vogue.sg/fred-paris-90-anniversary/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-24",
+      "itemId": "visual-wallpaper-19n7jn8",
+      "contentHash": "sha1:05910f60c06e21ae010c2d81ed892419a0223405",
+      "title": "保时捷收藏车库：把展柜尺度放大成建筑",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/architecture/alessandro-isola-studio-porsche-collectors-garage",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-24",
+      "itemId": "visual-wallpaper-1ubjq31",
+      "contentHash": "sha1:c94fe4d1908b397317dcce14200d11f307ed729d",
+      "title": "Minjae Kim：把传统转译为当代设计语言",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/design-interiors/minjae-kim-design-studio-profile",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-bjp-1854-1a3vmvo",
+      "contentHash": "sha1:cb92703b9b5c125646d1cff7b46fc66cc04c6ffe",
+      "title": "Sam Hutchinson 在纪实与虚构之间制造不稳定现实",
+      "source": "British Journal of Photography",
+      "sourceUrl": "https://www.1854.photography/2026/07/sam-hutchinson-explores-unstable-realities-with-his-latest-project/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-lensculture-bzphst",
+      "contentHash": "sha1:db97148f40bee58ea5859c2c428cf6557beaa5a9",
+      "title": "全球 70+ 摄影书市集地图，连接出版与社群",
+      "source": "LensCulture",
+      "sourceUrl": "https://www.lensculture.com/articles/lensculture-editors-the-global-guide-to-photobook-fairs-70-events-around-the-world",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-vogue-korea-1vax9in",
+      "contentHash": "sha1:7215c74b7fb03f14016c323a04666ea6fb8cfa59",
+      "title": "神秘设计师克里斯托夫·德卡尔南回归讨论",
+      "source": "Vogue Korea",
+      "sourceUrl": "https://www.vogue.co.kr/2026/07/23/%ea%b0%80%ec%9e%a5-%eb%af%b8%ec%8a%a4%ed%84%b0%eb%a6%ac%ed%95%9c-%eb%94%94%ec%9e%90%ec%9d%b4%eb%84%88-%ed%81%ac%eb%a6%ac%ec%8a%a4%ed%86%a0%ed%94%84-%eb%8d%b0%ec%b9%b4%eb%a5%b4%eb%84%b9%ec%9d%b4/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-vogue-singapore-vih6wb",
+      "contentHash": "sha1:ad83d31a688ce0d3c936bc4b4bef0648f3242b4b",
+      "title": "酒店拖鞋走上街头：舒适符号的奢侈化转译",
+      "source": "Vogue Singapore",
+      "sourceUrl": "https://vogue.sg/hotel-slippers-streetwear/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-23",
+      "itemId": "visual-wallpaper-1f2cc3p",
+      "contentHash": "sha1:f37b3e1e2d018dfdc262a03a3a695503e6e12187",
+      "title": "水晶宫公园恐龙雕塑修复：公共空间的史前想象",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/architecture/public-buildings/crystal-palace-park-dinosaur-sculptures",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-british-vogue-10ag0d9",
+      "contentHash": "sha1:1c5af9792570f9ce5604557b7f2579aad2c2d1f2",
+      "title": "Katie Boulter 婚纱把家族布料缝进当代 lace gown",
+      "source": "British Vogue",
+      "sourceUrl": "https://www.vogue.co.uk/gallery/katie-boulter-alex-de-minaur-wedding",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-british-vogue-1bmlet7",
+      "contentHash": "sha1:489cdbf2c79d60a38d32d6dfb7aa76a212374dff",
+      "title": "sarong skirt 让千禧海滩记忆进入城市夏季穿搭",
+      "source": "British Vogue",
+      "sourceUrl": "https://www.vogue.co.uk/article/how-to-style-a-sarong-skirt-summer",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-fashionsnap-1gb29vb",
+      "contentHash": "sha1:3aab48c9f9016d140e4885db354ddc0150643c8d",
+      "title": "优衣库借 Andy Warhol 在新宿艺术周激活城市限定图像消费",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/2026-07-22/uniqlo-shinjuku-andy-warhol/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-fashionsnap-9j65j5",
+      "contentHash": "sha1:4aee27b44f7b1ca8ce568d8a9ec0f6cb7f8faf45",
+      "title": "音乐节空调服成为舞台造型与功能服装的新交集",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/air-circulation-wear-2026/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-fashionsnap-xlg8q5",
+      "contentHash": "sha1:3f05c3dea19cb297ab87c3eabebb94dbc0373823",
+      "title": "YSL 以巴黎咖啡文化包装秋季限定彩妆",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/2026-07-22/ysl-love-cafe/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-vogue-korea-14tahjs",
+      "contentHash": "sha1:cfb8217dc5ae263eba05660a66159546a224700e",
+      "title": "Dakota Johnson 的牛仔裤与芭蕾平底鞋组合成为周末模板",
+      "source": "Vogue Korea",
+      "sourceUrl": "https://www.vogue.co.kr/2026/07/22/%ec%b2%ad%eb%b0%94%ec%a7%80%ec%97%90-%eb%b0%9c%eb%a0%88-%ed%94%8c%eb%9e%ab-%ec%9d%b4%eb%b2%88-%ec%a3%bc-%ed%86%a0%ec%9a%94%ec%9d%bc-%eb%94%b0%eb%9d%bc-%ec%9e%85%ea%b3%a0-%ec%8b%b6%ec%9d%80-%eb%8b%a4/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-vogue-korea-1oc7u4d",
+      "contentHash": "sha1:4dd453d600704543967c7e77f638b1b81f8aa718",
+      "title": "“时髦奶奶”造型把东庙街头穿搭变成反年龄灵感",
+      "source": "Vogue Korea",
+      "sourceUrl": "https://www.vogue.co.kr/2026/07/22/%ec%98%ac%ec%97%ac%eb%a6%84-%eb%a9%8b%ec%9f%81%ec%9d%b4-%ed%95%a0%eb%a8%b8%eb%8b%88%ec%b2%98%eb%9f%bc-%ec%9e%85%ea%b3%a0-%ec%8b%b6%eb%8b%a4%eb%a9%b4/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-vogue-korea-1pmkaw1",
+      "contentHash": "sha1:a97c14e6ea0dc6bf49cafced568f993a707a645d",
+      "title": "BTS 世界杯中场秀造型拆解：blokecore、raver 与摩托夹克共场",
+      "source": "Vogue Korea",
+      "sourceUrl": "https://www.vogue.co.kr/2026/07/21/%eb%b0%a9%ed%83%84%ec%86%8c%eb%85%84%eb%8b%a8%ec%9d%b4-%ec%9b%94%eb%93%9c%ec%bb%b5-%ed%95%98%ed%94%84%ed%83%80%ec%9e%84-%ec%87%bc%ec%97%90%ec%84%9c-%ec%9e%85%ec%9d%80-%ec%98%b7-%ec%a0%84%eb%b6%80/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-vogue-korea-bai0pa",
+      "contentHash": "sha1:6681094f54402edd9ef8a78b753497a0d7d6c09b",
+      "title": "Vogue Korea 选出 2026 秋季值得关注的九位新模特",
+      "source": "Vogue Korea",
+      "sourceUrl": "https://www.vogue.co.kr/2026/07/21/2026%eb%85%84-%ea%b0%80%ec%9d%84%ec%9d%84-%ec%9d%b4%eb%81%8c%ec%96%b4%ea%b0%88-%ec%9c%a0%eb%a7%9d-%eb%aa%a8%eb%8d%b8-9%eb%aa%85/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-vogue-singapore-13207b4",
+      "contentHash": "sha1:a5a20742db9cd6730550be7799159c2c78db5bee",
+      "title": "BTS 世界巡演造型把韩式定制与大牌时装放到同一舞台",
+      "source": "Vogue Singapore",
+      "sourceUrl": "https://vogue.sg/bts-arirang-world-tour-looks/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-vogue-singapore-1jlg6si",
+      "contentHash": "sha1:a77459bdee4eec7914714f756d52f8b9c133f56c",
+      "title": "Vogue Voices 用 Xiang Yun 的职业时间线讲述明星韧性",
+      "source": "Vogue Singapore",
+      "sourceUrl": "https://vogue.sg/vogue-voices-xiang-yun/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-vogue-singapore-kq94yj",
+      "contentHash": "sha1:8870c35ab2d809d173e73ee30410a7d0f418a0ef",
+      "title": "《Dracula》芭蕾把哥特怪物故事转化为舞台身体",
+      "source": "Vogue Singapore",
+      "sourceUrl": "https://vogue.sg/dracula-ballet-singapore/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-vogue-singapore-y0g2m2",
+      "contentHash": "sha1:95c723ed6af20e393d43adf3f7528ab3c5b620be",
+      "title": "京都与 Hibiki 的工艺叙事把液体、城市和品牌神话编织在一起",
+      "source": "Vogue Singapore",
+      "sourceUrl": "https://vogue.sg/hibiki-japanese-harmony/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-w-korea-157i9d7",
+      "contentHash": "sha1:9394a81910d6223c3f59ff0f0e9b4f515841b533",
+      "title": "halter neck 成为夏季无袖造型的比例更新",
+      "source": "W Korea",
+      "sourceUrl": "https://www.wkorea.com/2026/07/22/%ec%a7%80%ea%b2%a8%ec%9a%b4-%ec%97%ac%eb%a6%84-%ec%8a%a4%ed%83%80%ec%9d%bc%eb%a7%81%ec%9d%84-%eb%b0%94%ea%bf%94%ec%a4%84-%eb%8b%a8-%ed%95%98%eb%82%98%ec%9d%98-%ec%83%81%ec%9d%98/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-w-korea-1m7qw2l",
+      "contentHash": "sha1:7fdf59e74b94001adc5287d48668a7f96e32a99f",
+      "title": "NCT 在 Prada 语境后的明星肖像继续升温",
+      "source": "W Korea",
+      "sourceUrl": "https://www.wkorea.com/2026/07/22/nct-%ec%9e%ac%ed%98%84%ec%9d%98-%ec%98%a8%eb%8f%84/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-w-korea-coix6g",
+      "contentHash": "sha1:a94ed55808e454cc2072e4df1af8aecad8b02b11",
+      "title": "彩色芭蕾鞋为夏季轻装提供鲜明足部色块",
+      "source": "W Korea",
+      "sourceUrl": "https://www.wkorea.com/2026/07/21/%ec%95%88-%ec%8b%a0%ea%b3%a0%eb%8a%94-%eb%aa%bb-%eb%b0%b0%ea%b8%b8-%eb%b0%9c%eb%a0%88-%ec%8a%88%ec%a6%88-%ec%9d%b4%ec%a0%9c%eb%8a%94-%ec%bb%ac%eb%9f%ac%eb%a1%9c-%ec%8b%a0%ec%9c%bc%ec%84%b8%ec%9a%94/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-22",
+      "itemId": "visual-wallpaper-1o5bj4m",
+      "contentHash": "sha1:5d05ba05e9631772835fe0d6d31d151ecc69d527",
+      "title": "爱尔兰 Drumhalla House 用门廊与扩建重写乡村场地关系",
+      "source": "Wallpaper*",
+      "sourceUrl": "https://www.wallpaper.com/architecture/portico-and-extension-drumhalla-house-ireland",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-british-vogue-lde86l",
+      "contentHash": "sha1:3ef4be130991e60ceaa6003a2b4e842f0ad0a41d",
+      "title": "Hailey Bieber 与 Gap 用个人牛仔裤重塑大众品牌怀旧感",
+      "source": "British Vogue",
+      "sourceUrl": "https://www.vogue.co.uk/article/hailey-bieber-gap-denim-collaboration",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-fashionsnap-1nznr26",
+      "contentHash": "sha1:088014f43a4e108264c515d91ffc6cecc3b8324d",
+      "title": "adidas 用 Stan Smith 城市展把球鞋档案变成东京限定体验",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/2026-07-17/adidas-stan-smith-gallery/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-fashionsnap-1oqhlr3",
+      "contentHash": "sha1:ca5ed2eb3bddfdc12b5e12054117e63f6ca22ff0",
+      "title": "进化型发梳把头皮护理、按摩和设计感揉进日常美容工具",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/hairbrush-2026/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-fashionsnap-5i3rhs",
+      "contentHash": "sha1:6894e139dcfac98cce5ac3624823b9ed560f77ea",
+      "title": "Adobe 解释生成 AI 安全使用，创作者比例已进入主流阶段",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/2026-07-17/ai-adobe/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-vogue-korea-14pmcnh",
+      "contentHash": "sha1:101403ff0d57ea43613cdde343ca6c0cd3b5f4d4",
+      "title": "Brochu Walker 首尔旗舰店把 LA 松弛感和韩国工艺做成五层空间",
+      "source": "Vogue Korea",
+      "sourceUrl": "https://www.vogue.co.kr/2026/07/17/%eb%b8%8c%eb%a1%9c%ec%8a%88-%ec%9b%8c%ec%bb%a4-%ec%84%9c%ec%9a%b8%ec%97%90%ec%b2%ab%ea%b8%80%eb%a1%9c%eb%b2%8c%ed%94%8c%eb%9e%98%ea%b7%b8%ec%8b%ad-%eb%a9%94%ec%a2%85%ec%84%9c%ec%9a%b8/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-vogue-korea-1nm9pld",
+      "contentHash": "sha1:c1f1f2002fb28709db2b03284e2ef3ba6037bb7b",
+      "title": "编辑们寻找能穿一整天的高跟鞋，说明舒适性继续重塑鞋履审美",
+      "source": "Vogue Korea",
+      "sourceUrl": "https://www.vogue.co.kr/2026/07/17/%ec%98%81%ea%b5%ad-%eb%b3%b4%ea%b7%b8-%ec%97%90%eb%94%94%ed%84%b0%eb%93%a4%ec%9d%b4-%ea%bc%bd%ec%9d%80-%ec%a2%85%ec%9d%bc-%ec%8b%a0%ec%96%b4%eb%8f%84-%eb%b0%9c%ec%9d%b4-%eb%a9%80%ec%a9%a1%ed%95%9c/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-vogue-korea-1p82sgr",
+      "contentHash": "sha1:d65c634055c7f6305354971293161f54d51a235c",
+      "title": "模型们用衣橱旧单品完成 vacation look，反消费式度假造型",
+      "source": "Vogue Korea",
+      "sourceUrl": "https://www.vogue.co.kr/2026/07/17/%ec%98%b7-%ec%9e%98-%ec%9e%85%eb%8a%94-%eb%aa%a8%eb%8d%b8%eb%93%a4%ec%9d%b4-%ec%98%b7%ec%9e%a5-%ec%86%8d-%ec%95%84%ec%9d%b4%ed%85%9c%ec%9c%bc%eb%a1%9c-%ec%99%84%ec%84%b1/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-vogue-korea-4ovoq5",
+      "contentHash": "sha1:7ebfc1e21341e486164e8883489df9bc46664976",
+      "title": "长袖白 T 成为 2026 夏季从办公室到假日的反背心选择",
+      "source": "Vogue Korea",
+      "sourceUrl": "https://www.vogue.co.kr/2026/07/17/%ed%83%b1%ed%81%ac-%ed%86%b1%ec%9d%80-%ec%9d%b4%ec%a0%9c-%ec%95%88%eb%85%95-2026%eb%85%84-%ec%97%ac%eb%a6%84%ec%9d%80-%ea%b8%b4%ed%8c%94-%ed%8b%b0%ec%85%94%ec%b8%a0%ec%9d%98-%ec%8b%9c%eb%8c%80/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-vogue-korea-ls3obx",
+      "contentHash": "sha1:024bc93e0c2379982c53bdd16846885e125990fa",
+      "title": "Jennifer Lawrence 的 milk brown 发色提示夏季黑发转暖趋势",
+      "source": "Vogue Korea",
+      "sourceUrl": "https://www.vogue.co.kr/2026/07/17/%ea%b2%80%ec%9d%80-%eb%a8%b8%eb%a6%ac-%ec%a7%88%eb%a0%b8%eb%8b%a4%eb%a9%b4-%ec%a0%9c%eb%8b%88%ed%8d%bc-%eb%a1%9c%eb%a0%8c%ec%8a%a4%ec%b2%98%eb%9f%bc-%ec%97%ac%eb%a6%84-%eb%b8%8c%eb%9d%bc%ec%9a%b4/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-vogue-singapore-14tlbza",
+      "contentHash": "sha1:5abd7cbc133778d748b7dd5a632b46a3f263d83d",
+      "title": "Kareen Kaur 的赛车故事代表女性进入高强度视觉运动舞台",
+      "source": "Vogue Singapore",
+      "sourceUrl": "https://vogue.sg/kareen-kaur-racing/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-vogue-singapore-1u1wcol",
+      "contentHash": "sha1:48ff3cf88697644b8e2733b2b0a80f1c097fb106",
+      "title": "Tiffany Blue Box Cafe 在新加坡用东南亚视角重塑品牌体验",
+      "source": "Vogue Singapore",
+      "sourceUrl": "https://vogue.sg/tiffany-co-blue-box-cafe-singapore/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-w-korea-18ik7fd",
+      "contentHash": "sha1:2a14b3a104c35342b7852c7c5df4cbea5f5a8f1e",
+      "title": "Zendaya 的无眼妆夏日妆容强调皮肤光泽和造型整体性",
+      "source": "W Korea",
+      "sourceUrl": "https://www.wkorea.com/2026/07/17/%ec%97%ac%eb%a6%84%ec%97%94-%ec%84%b1%ea%b0%80%ec%8b%9c%eb%8b%88%ea%b9%8c-%eb%88%88-%ed%99%94%ec%9e%a5%ec%9d%80-%ea%b3%bc%ea%b0%90%ed%9e%88-%ed%8c%a8%ec%8a%a4%ed%95%a0%ea%b2%8c%ec%9a%94/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-w-korea-18vi6kv",
+      "contentHash": "sha1:0547db3b9376d78392c4576d63c367a6d237cf62",
+      "title": "酷暑也穿牛仔：用颜色和搭配降低丹宁的视觉重量",
+      "source": "W Korea",
+      "sourceUrl": "https://www.wkorea.com/2026/07/17/%eb%ac%b4%eb%8d%94%ec%9c%84-%ec%86%8d%ec%97%90%eb%8f%84-%ec%b2%ad%eb%b0%94%ec%a7%80%eb%a5%bc-%ed%8f%ac%ea%b8%b0%ed%95%a0-%ec%88%98-%ec%97%86%eb%8b%a4%eb%a9%b4-%ec%9d%b4%eb%a0%87%ea%b2%8c-%ec%9e%85/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-w-korea-1wz98uv",
+      "contentHash": "sha1:bab5402a89abf3a4b16864b251204450f65a3815",
+      "title": "2026 泳装趋势服务于“人生照片”的度假视觉需求",
+      "source": "W Korea",
+      "sourceUrl": "https://www.wkorea.com/2026/07/17/%ec%97%ac%eb%a6%84-%ed%9c%b4%ea%b0%80%ec%a7%80%ec%97%90%ec%84%9c-%ec%9d%b8%ec%83%9d-%ec%82%ac%ec%a7%84%ec%9d%84-%eb%82%a8%ea%b2%a8%ec%a4%84-%ec%88%98%ec%98%81%eb%b3%b5-%ea%b3%a0%eb%a5%b4%eb%8a%94/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-w-korea-6ciqpu",
+      "contentHash": "sha1:e70bbcf4ff825e78331caf212821fbf58d3e10c9",
+      "title": "Rihanna 用 plus-size 造型证明身体变化不必退出时尚表达",
+      "source": "W Korea",
+      "sourceUrl": "https://www.wkorea.com/2026/07/17/%ec%98%ac%ec%97%ac%eb%a6%84-%eb%8b%a4%ec%9d%b4%ec%96%b4%ed%8a%b8%ec%97%90-%ec%8b%a4%ed%8c%a8%ed%96%88%eb%8b%a4%eb%a9%b4-%eb%a6%ac%ed%95%9c%eb%82%98%ec%9d%98-%eb%a3%a9%ec%9d%84-%ec%b0%b8%ea%b3%a0/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-17",
+      "itemId": "visual-w-korea-7qji10",
+      "contentHash": "sha1:620acba8882ee3474bfd6db0fda240ee69f16f8b",
+      "title": "90 年代粗手镯回潮，用配饰重新放大夏日造型",
+      "source": "W Korea",
+      "sourceUrl": "https://www.wkorea.com/2026/07/17/90%eb%85%84%eb%8c%80-%ec%9d%b4-%ed%8c%94%ec%b0%8c-%eb%8b%a4%ec%8b%9c-%eb%8f%8c%ec%95%84%ec%98%ac-%ec%a4%84%ec%9d%b4%ec%95%bc/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-fashionsnap-1d33j23",
+      "contentHash": "sha1:8c764773e61115a6822208efd14ef3c72a234495",
+      "title": "生成式 AI 正在怎样改变影像制作：从 NAB 展会到洛杉矶工作室的一线观察",
+      "source": "FASHIONSNAP",
+      "sourceUrl": "https://www.fashionsnap.com/article/2026-07-16/la-adobe-report/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-nowness-lms14m",
+      "contentHash": "sha1:a7db405fefbd0245cf611d8a9bea8786cfb39e39",
+      "title": "Doug Aitken《Lightscape》：当身体与自动化机器同步",
+      "source": "NOWNESS",
+      "sourceUrl": "https://www.nowness.com/series/in-motion/doug-aitken-lightscape-factory",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-vogue-korea-5bib74",
+      "contentHash": "sha1:72c421aedb39b0959c0e7959611067f228b8ef3d",
+      "title": "陶艺家李京焕：从泥土、花园气味与每日重复中建立创作节奏",
+      "source": "Vogue Korea",
+      "sourceUrl": "https://www.vogue.co.kr/2026/07/16/%ec%a0%95%ec%9b%90%ec%9d%98-%ed%96%a5%ec%9d%84-%eb%a7%a1%ea%b3%a0-%ed%9d%99%ec%9d%98-%ec%a4%91%ec%8b%ac%ec%9d%84-%ec%9e%a1%eb%8a%94-%eb%8f%84%ec%98%88%ea%b0%80-%ec%9d%b4%ea%b2%bd%ed%99%98/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-vogue-singapore-1i48g9f",
+      "contentHash": "sha1:5309220f3501c94c56fc1e2adf5167784b391f50",
+      "title": "Stéphane Rolland 2026 秋冬高定：用纯白与体积塑造女性力量",
+      "source": "Vogue Singapore",
+      "sourceUrl": "https://vogue.sg/stephane-rolland-interview-haute-couture-fall-winter-2026/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    },
+    {
+      "issueId": "2026-07-16",
+      "itemId": "visual-w-korea-1z04k31",
+      "contentHash": "sha1:ddb4e16ca9e8a2494986ff6f15475c5866887be4",
+      "title": "Zendaya 的高密度造型切换：红毯形象如何被当作连续叙事管理",
+      "source": "W Korea",
+      "sourceUrl": "https://www.wkorea.com/2026/07/16/%ec%a0%a0%eb%8d%b0%ec%9d%b4%ec%95%84%ec%9d%98-%ec%8a%a4%ec%bc%80%ec%a4%84-%eb%b9%84%ed%8f%ac-%ec%95%a4-%ec%95%a0%ed%94%84%ed%84%b0/",
+      "featured": false,
+      "priority": 0,
+      "reasons": [
+        "历史摘要未通过正文证据核验"
+      ],
+      "status": "pending"
+    }
+  ]
+}

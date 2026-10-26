@@ -33,12 +33,15 @@ import {
 } from "./visualRadarWorkflow";
 import {
   getWeComStatus,
-  sendVisualRadarIssueToWeCom,
 } from "./weComPublisher";
 import { createSendVisualRadarIssueHandler } from "./weComRoute";
 import { buildVisualRadarArchive } from "./visualRadarArchive";
 import { prepareCandidateEvidence } from "./visualRadarEvidence";
 import { recordSourceHealth } from "./visualRadarSourceHealth";
+import { publishWithRecord } from "./visualRadarPublishingService";
+import { checkpoint, stableHash, readRun } from "./visualRadarRunStore";
+import { readDelivery } from "./visualRadarDelivery";
+import { singaporeIssueDate } from "../shared/visualRadarQuality";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(__dirname, "..");
@@ -108,8 +111,11 @@ app.post("/api/visual-radar/agent/prepare", requireCronSecret, async (_req, res)
     });
     batch.candidates = await prepareCandidateEvidence(batch.candidates, files.evidence);
     const enriched = new Map(batch.candidates.map((item) => [item.id, item]));
-    writeVisualRadarArtifact(files.items, { ...itemsArtifact, items: itemsArtifact.items.map((item) => enriched.get(item.id) || item) });
+    const enrichedArtifact = { ...itemsArtifact, items: itemsArtifact.items.map((item) => enriched.get(item.id) || item) };
+    writeVisualRadarArtifact(files.items, enrichedArtifact);
+    checkpoint(files.runs, singaporeIssueDate(batch.generatedAt), "collected", stableHash(enrichedArtifact));
     writeVisualRadarAgentBatch(files.agentBatch, batch);
+    checkpoint(files.runs, singaporeIssueDate(batch.generatedAt), "prepared", stableHash(batch));
     res.json(batch);
   } catch (error) {
     res.status(500).json({ error: "Agent 任务生成失败", detail: readError(error) });
@@ -145,10 +151,16 @@ app.get("/api/visual-radar/wecom/status", (_req, res) => {
   res.json(getWeComStatus());
 });
 
+app.get("/api/visual-radar/issues/:issueId/run-status", requireCronSecret, (req, res) => {
+  try { res.json({ run: readRun(files.runs, String(req.params.issueId)), delivery: readDelivery(files.delivery, String(req.params.issueId)) }); }
+  catch { res.status(409).json({ error: "运行记录无法读取，请人工检查" }); }
+});
+
 app.post(
   "/api/visual-radar/issues/:issueId/send-wecom",
   requireCronSecret,
   createSendVisualRadarIssueHandler({
+    deliverIssue: (issue, options) => publishWithRecord(projectRoot, issue, options.dryRun),
     getIssue: (issueId) =>
       createVisualRadarIssueStore(files.issues).getIssue(issueId),
   })
@@ -169,7 +181,7 @@ app.post("/api/automation/daily", requireCronSecret, async (req, res) => {
       publish: async () => {
         const issue = createVisualRadarIssueStore(files.issues).getIssue(generatedIssueId);
         if (!issue) throw new Error("自动化生成的日报不存在");
-        return sendVisualRadarIssueToWeCom(issue);
+        return publishWithRecord(projectRoot, issue, false);
       },
     });
     res.json(result);
@@ -193,6 +205,7 @@ async function collectAndStore() {
   const artifact = await collectVisualRadarItems();
   writeVisualRadarArtifact(files.items, artifact);
   const health = recordSourceHealth(files.sourceHealth, artifact);
+  checkpoint(files.runs, singaporeIssueDate(artifact.generatedAt), "collected", stableHash(artifact));
   return { ...artifact, health: health.summary };
 }
 
@@ -207,11 +220,13 @@ async function analyzeAndStore() {
 }
 
 function generateAndStore() {
-  return generateVisualRadarIssueFromArtifacts({
+  const issue = generateVisualRadarIssueFromArtifacts({
     analysisArtifact: readVisualRadarAnalysisArtifact(files.analysis),
     issueStore: createVisualRadarIssueStore(files.issues),
     itemsArtifact: readVisualRadarArtifact(files.items),
   });
+  checkpoint(files.runs, issue.id, "generated", stableHash(issue));
+  return issue;
 }
 
 function readError(error: unknown) {

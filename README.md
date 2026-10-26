@@ -38,7 +38,11 @@ pnpm dev
 
 `pnpm quality:report` 检查最近采集的核心来源覆盖、连续失败和筛选分布；`GET /api/visual-radar/source-health` 为带管理鉴权的来源健康接口。恢复采集后健康记录会更新，历史回放不会重复增加失败次数。
 
-微信预览已改为前三条展开摘要、其余简列，所有精选保留原文链接。发送成功必须收到数字 `errcode: 0`；持久化防重发送及部署恢复状态机尚未在这一批实现，仍须遵循现有发布前校验顺序。
+微信预览已改为前三条展开摘要、其余简列，所有精选保留原文链接。发送成功必须收到数字 `errcode: 0`。`data/delivery/` 会在首次发送前持久化“发送中”意图，成功后记录 `sent`；超时、进程中断或明确拒绝都会锁定自动重试，必须人工确认群消息后使用 `pnpm delivery:resolve`。同一期内容哈希变化也禁止复用成功记录。`pnpm pipeline:resume <日期>` 只查看缺失检查点，带 `--execute` 才执行本机采集、准备和生成，永不自动发送。
+
+`pnpm publish:verify <日期>` 在发送前重新运行测试、类型检查和 Pages 构建，核对对应提交的 GitHub Actions 成功、公网索引、issue JSON 和详情页，并写入验证检查点。正式发送要求本期所有故事均为 evidence-v1 verified、工作树干净且验证指纹一致。
+
+`pnpm review:queue` 生成 `data/visual_radar_review_queue.json`，按本期精选、短摘要、日期异常和缺图排序历史待核验内容。勘误必须使用 `pnpm issue:correct prepare/apply`，不会自动重写或删除历史日报。
 
 1. 本地启动 Visual Radar，在管理区点击“采集最新”，检查采集结果。
 2. 点击“Agent 解读”，生成 `data/visual_radar_agent_batch.json`。

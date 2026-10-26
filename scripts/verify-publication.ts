@@ -1,0 +1,25 @@
+import path from "node:path";
+import { execFileSync } from "node:child_process";
+import { loadProjectEnv } from "../server/env";
+import { resolveProjectPaths } from "../server/paths";
+import { createVisualRadarIssueStore } from "../server/visualRadarIssue";
+import { checkedIssueId, checkpoint } from "../server/visualRadarRunStore";
+import { assertCleanProject, currentCommit, validationFingerprint } from "../server/visualRadarPublishingService";
+import { verifyPagesIssue } from "../server/visualRadarPublication";
+
+const root = path.resolve(import.meta.dirname, ".."); loadProjectEnv(root);
+const files = resolveProjectPaths(root);
+const id = checkedIssueId(process.argv[2] || "");
+const issue = createVisualRadarIssueStore(files.issues).getIssue(id);
+if (!issue) throw new Error("日报不存在");
+assertCleanProject(root);
+const commit = currentCommit(root);
+const fingerprint = validationFingerprint(issue, commit);
+for (const task of ["test", "check", "build:pages"]) execFileSync("pnpm", ["run", task], { cwd: root, stdio: "inherit" });
+assertCleanProject(root);
+const current = createVisualRadarIssueStore(files.issues).getIssue(id);
+if (!current || currentCommit(root) !== commit || validationFingerprint(current, commit) !== fingerprint) throw new Error("验证期间内容或提交变化，请重新运行");
+checkpoint(files.runs, id, "validated", fingerprint);
+const deployment = await verifyPagesIssue(current, process.env.VISUAL_RADAR_PUBLIC_URL || "", commit);
+checkpoint(files.runs, id, "deployed", fingerprint);
+console.log(JSON.stringify({ issueId: id, checksPassed: true, deployment, sent: false }, null, 2));

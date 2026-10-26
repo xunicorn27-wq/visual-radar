@@ -14,5 +14,7 @@ export function resolveProjectPaths(projectRoot: string) {
     items: path.join(dataDir, "visual_radar_items.json"),
     evidence: path.join(dataDir, "evidence"),
     sourceHealth: path.join(dataDir, "visual_radar_source_health.json"),
+    runs: path.join(dataDir, "runs"),
+    delivery: path.join(dataDir, "delivery"),
   };
 }

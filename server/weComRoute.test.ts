@@ -6,6 +6,13 @@ import { deliverVisualRadarIssue } from "./weComPublisher";
 import { createSendVisualRadarIssueHandler } from "./weComRoute";
 
 describe("createSendVisualRadarIssueHandler", () => {
+  it("refuses formal delivery without the persistent publishing service", async () => {
+    const response = mockResponse();
+    const handler = createSendVisualRadarIssueHandler({ getIssue: () => issue() });
+    await handler(mockRequest({}), response.value, vi.fn());
+    expect(response.status).toHaveBeenCalledWith(409);
+    expect(response.json).toHaveBeenCalledWith(expect.objectContaining({ detail: expect.stringContaining("发送记录服务未配置") }));
+  });
   it("maps dryRun=1 to the delivery gate without calling the sender", async () => {
     const sendImpl = vi.fn().mockResolvedValue({ markdown: "sent", sent: true });
     const deliverIssue = vi.fn((issueToDeliver, options) =>

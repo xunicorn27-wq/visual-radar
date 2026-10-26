@@ -1,5 +1,6 @@
 import type { VisualRadarIssue } from "./visualRadarIssue";
 import { classifyFreshness } from "../shared/visualRadarQuality";
+import { WeComRejected } from "./visualRadarDelivery";
 
 export interface WeComStatus {
   configured: boolean;
@@ -84,14 +85,17 @@ export async function sendVisualRadarIssueToWeCom(
   const markdown = buildWeComMarkdownContent(issue, publicUrl);
   const response = await (options.fetchImpl || fetch)(webhook, {
     method: "POST",
+    signal: AbortSignal.timeout(20000),
+    redirect: "error",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ msgtype: "markdown", markdown: { content: markdown } }),
   });
   if (!response.ok) {
-    throw new Error(`企业微信发送失败：HTTP ${response.status} ${await response.text().catch(() => "")}`.trim());
+    throw new Error(`企业微信发送失败：HTTP ${response.status}`);
   }
   const payload = await response.json().catch(() => null) as { errcode?: number; errmsg?: string } | null;
-  if (payload?.errcode !== 0) throw new Error(`企业微信未明确确认成功：${typeof payload?.errcode === "number" ? payload.errcode : "响应缺少 errcode:0"}`);
+  if (typeof payload?.errcode === "number" && payload.errcode !== 0) throw new WeComRejected(`企业微信未明确确认成功：${payload.errcode}`);
+  if (payload?.errcode !== 0) throw new Error("企业微信未明确确认成功：响应缺少 errcode:0");
   return { markdown, sent: true };
 }
 

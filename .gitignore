@@ -18,6 +18,8 @@ data/*.lock
 data/visual_radar_agent_output.json
 data/evidence/
 data/corrections-staging/
+data/runs/
+data/delivery/
 .pages-public/
 Visual-Radar-Standalone-*.zip
 *-visual-radar-standalone.md

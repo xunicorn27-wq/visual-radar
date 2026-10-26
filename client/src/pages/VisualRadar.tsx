@@ -174,7 +174,7 @@ export default function VisualRadar() {
       if (action === "publish") {
         if (!issueDetail) throw new Error("请先生成日报");
         const result = await sendVisualRadarIssue(issueDetail.issue.id, adminSecret);
-        setStatus(result.sent ? "企业微信推送成功。" : "已生成企业微信预览。 ");
+        setStatus(result.alreadySent ? "这期已有成功发送记录，本次未重复发送。" : result.sent ? "企业微信推送成功，已保存发送记录。" : "已生成企业微信预览。 ");
         return;
       }
 
