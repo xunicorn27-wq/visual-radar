@@ -25,17 +25,23 @@ export function finalizePagesBuild({
   const issuesDir = resolveWithin(resolvedDistDir, "issues");
   fs.rmSync(issuesDir, { force: true, recursive: true });
   fs.mkdirSync(issuesDir, { recursive: true });
-  fs.writeFileSync(resolveWithin(issuesDir, "index.html"), html, "utf-8");
+  fs.writeFileSync(resolveWithin(issuesDir, "index.html"), withPageMeta(html, "往期日报", "按主题、月份和关键词探索 Visual Radar 往期摄影推送。"), "utf-8");
   const savedDir = resolveWithin(resolvedDistDir, "saved");
   fs.rmSync(savedDir, { force: true, recursive: true });
   fs.mkdirSync(savedDir, { recursive: true });
-  fs.writeFileSync(resolveWithin(savedDir, "index.html"), html, "utf-8");
+  fs.writeFileSync(resolveWithin(savedDir, "index.html"), withPageMeta(html, "我的收藏", "保存在本机的 Visual Radar 收藏与个人备注。"), "utf-8");
 
   for (const issueId of issueIds) {
     const routeDir = resolveWithin(issuesDir, issueId);
     fs.mkdirSync(routeDir, { recursive: true });
-    fs.writeFileSync(resolveWithin(routeDir, "index.html"), html, "utf-8");
+    fs.writeFileSync(resolveWithin(routeDir, "index.html"), withPageMeta(html, `${issueId} 摄影推送`, `${issueId} 的摄影、造型与创作观察，阅读本期精选与完整报道。`), "utf-8");
   }
+}
+
+function withPageMeta(html: string, title: string, description: string) {
+  const escape = (text: string) => text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  return html.replace(/<title>[^<]*<\/title>/, `<title>${escape(title)} · Visual Radar</title>`)
+    .replace(/<meta name="description" content="[^"]*"\s*\/?>/, `<meta name="description" content="${escape(description)}" />`);
 }
 
 function isCalendarDateId(issueId: string) {

@@ -6,6 +6,18 @@ import { describe, expect, it } from "vitest";
 import { finalizePagesBuild } from "./finalize-pages";
 
 describe("finalizePagesBuild", () => {
+  it("sets route-specific titles and descriptions before JavaScript loads", () => {
+    const distDir = tempDir("visual-radar-meta-");
+    const html = '<html><head><title>Visual Radar</title><meta name="description" content="default" /></head><body></body></html>';
+    fs.writeFileSync(path.join(distDir, "index.html"), html);
+    finalizePagesBuild({ distDir, issueIds: ["2026-10-23"] });
+    expect(read(path.join(distDir, "issues/index.html"))).toContain("<title>往期日报 · Visual Radar</title>");
+    expect(read(path.join(distDir, "saved/index.html"))).toContain("<title>我的收藏 · Visual Radar</title>");
+    const issue = read(path.join(distDir, "issues/2026-10-23/index.html"));
+    expect(issue).toContain("<title>2026-10-23 摄影推送 · Visual Radar</title>");
+    expect(issue).toContain("2026-10-23 的摄影、造型与创作观察");
+    expect(read(path.join(distDir, "index.html"))).toBe(html);
+  });
   it("copies the root entry to archive and issue routes without removing assets", () => {
     const distDir = tempDir("visual-radar-pages-");
     const html = '<!doctype html><div id="root"></div>';

@@ -2,6 +2,7 @@ import { Bookmark, Check, PencilLine, X } from "lucide-react";
 import { useId, useRef, useState } from "react";
 import type { VisualRadarArchiveStory } from "../../lib/api";
 import { libraryStore, libraryStoryKey, NOTE_LIMIT, useVisualRadarLibrary } from "../../lib/visualRadarLibrary";
+import { ShareLink } from "./ShareLink";
 
 export function StoryActions({ story }: { story: VisualRadarArchiveStory }) {
   const library = useVisualRadarLibrary();
@@ -36,6 +37,7 @@ export function StoryActions({ story }: { story: VisualRadarArchiveStory }) {
           setMessage(ok ? (entry?.saved ? "已取消收藏，备注保留。" : "已收藏到本机。") : libraryStore.getSnapshot().error || "保存失败");
         }}><Bookmark aria-hidden="true" />{entry?.saved ? "已收藏" : "收藏"}</button>
       <button type="button" onClick={openNote} aria-label={`编辑备注：${story.title}`}><PencilLine aria-hidden="true" />{entry?.note ? "编辑备注" : "写备注"}</button>
+      <ShareLink issueId={story.issueId} storyId={story.id} />
     </div>
     {message && <p className="vr-action-feedback" role="status">{message}</p>}
     <dialog ref={dialog} className="vr-note-dialog" aria-labelledby={labelId}

@@ -5,6 +5,7 @@ import { normalizeRouterBase } from "./lib/routerBase";
 import VisualRadar from "./pages/VisualRadar";
 import VisualRadarArchive, { VisualRadarSaved } from "./pages/VisualRadarArchive";
 import VisualRadarIssue from "./pages/VisualRadarIssue";
+import VisualRadarNotFound from "./pages/VisualRadarNotFound";
 import "./visual-radar.css";
 
 const routerBase = normalizeRouterBase(import.meta.env.BASE_URL);
@@ -17,9 +18,7 @@ createRoot(document.getElementById("root")!).render(
       <Route path="/saved" component={VisualRadarSaved} />
       <Route path="/issues/:issueId" component={VisualRadarIssue} />
       <Route path="*">
-        <main>
-          <h1>404</h1>
-        </main>
+        <VisualRadarNotFound />
       </Route>
     </Switch>
   </Router>

@@ -23,6 +23,7 @@ import {
   visualRadarStaticMode,
 } from "../lib/api";
 import { VisualRadarIssueContent } from "./VisualRadarIssue";
+import { usePageMeta } from "../lib/usePageMeta";
 
 interface VisualRadarPageLoaders {
   getAnalysis: () => Promise<VisualRadarAnalysisArtifact>;
@@ -112,11 +113,14 @@ export default function VisualRadar() {
   const [loading, setLoading] = useState(true);
   const [registry, setRegistry] = useState<IntelSourceRegistrySnapshot | null>(null);
   const [status, setStatus] = useState<string | null>(null);
+  const [retry, setRetry] = useState(0);
+  usePageMeta(issueDetail ? `${issueDetail.issue.issueDate} 摄影推送` : "摄影推送", "Visual Radar 摄影、造型与创作的每日观察。");
 
   useEffect(() => {
     let active = true;
     setLoading(true);
     setError(null);
+    setIssueDetail(null);
     void loadVisualRadarPageData(
       visualRadarStaticMode,
       visualRadarPageLoaders,
@@ -135,7 +139,7 @@ export default function VisualRadar() {
     return () => {
       active = false;
     };
-  }, []);
+  }, [retry]);
 
   async function runAction(action: "agent" | "analyze" | "collect" | "generate" | "publish") {
     setBusyAction(action);
@@ -219,10 +223,10 @@ export default function VisualRadar() {
       ) : null}
 
       {loading ? (
-        <div className="vr-message"><Loader2 className="vr-spin" /> 正在加载 Visual Radar</div>
+        <div className="vr-message" role="status"><Loader2 className="vr-spin" aria-hidden="true" /> 正在加载 Visual Radar</div>
       ) : null}
       {!loading && visualRadarStaticMode && error ? (
-        <div className="vr-message">{error}</div>
+        <div className="vr-load-error" role="alert"><h2>日报暂时没有打开</h2><p>{error}</p><button type="button" onClick={() => setRetry((value) => value + 1)}>重新加载</button></div>
       ) : null}
       {!loading && issueDetail ? (
         <VisualRadarIssueContent issue={issueDetail.issue} />

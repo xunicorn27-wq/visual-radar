@@ -1,6 +1,7 @@
 import { Link, useRoute } from "wouter";
+import { useHistoryState } from "wouter/use-browser-location";
 import { ArrowLeft, ArrowRight, Loader2 } from "lucide-react";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import { VisualRadarMasthead } from "../components/visual-radar/VisualRadarMasthead";
 import { VisualStory, visualStoryAnchor } from "../components/visual-radar/VisualStory";
@@ -11,36 +12,46 @@ import {
   visualRadarStaticMode,
 } from "../lib/api";
 import { buildVisualRadarIssueLayout } from "../lib/visualRadarIssueLayout";
+import { readReaderReturn } from "../lib/readerNavigation";
+import { usePageMeta } from "../lib/usePageMeta";
+import { ShareLink } from "../components/visual-radar/ShareLink";
+import { ReaderTools } from "../components/visual-radar/ReaderTools";
 
 export default function VisualRadarIssue() {
   const [, params] = useRoute("/issues/:issueId");
   const [detail, setDetail] = useState<VisualRadarIssueDetail | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [retry, setRetry] = useState(0);
+  const historyState = useHistoryState();
+  const returnTo = readReaderReturn(historyState?.visualRadarReturn);
+  usePageMeta(params?.issueId ? `${params.issueId} 摄影推送` : "摄影推送", detail ? `本期 ${detail.issue.stats.storyCount} 篇摄影、造型与创作观察。` : "Visual Radar 摄影推送，阅读本期精选与完整报道。");
 
   useEffect(() => {
     if (!params?.issueId) return;
+    let active = true;
     setDetail(null);
     setError(null);
     void getVisualRadarIssue(params.issueId)
-      .then(setDetail)
-      .catch((loadError) =>
-        setError(loadError instanceof Error ? loadError.message : "日报加载失败")
-      );
-  }, [params?.issueId]);
+      .then((result) => { if (active) setDetail(result); })
+      .catch((loadError) => { if (active) setError(loadError instanceof Error ? loadError.message : "日报加载失败"); });
+    return () => { active = false; };
+  }, [params?.issueId, retry]);
 
   if (error) {
     return (
       <main className="vr-root">
         <VisualRadarMasthead showSources={!visualRadarStaticMode} />
-        <div className="vr-message">{error}</div>
+        <div className="vr-load-error" role="alert"><h1>这期暂时没有打开</h1><p>{error}</p>
+          <div><button type="button" onClick={() => setRetry((value) => value + 1)}>重新加载</button><Link href="/issues">浏览往期日报</Link></div>
+        </div>
       </main>
     );
   }
-  if (!detail) {
+  if (!detail || detail.issue.id !== params?.issueId) {
     return (
       <main className="vr-root">
         <VisualRadarMasthead showSources={!visualRadarStaticMode} />
-        <div className="vr-message"><Loader2 className="vr-spin" /> 正在加载日报</div>
+        <div className="vr-message" role="status"><Loader2 className="vr-spin" aria-hidden="true" /> 正在加载日报</div>
       </main>
     );
   }
@@ -51,6 +62,9 @@ export default function VisualRadarIssue() {
         issueLabel={`VOL.${detail.issue.id}`}
         showSources={!visualRadarStaticMode}
       />
+      <div className="vr-reader-return"><Link href={returnTo?.href || "/issues"} state={returnTo ? { visualRadarRestore: returnTo } : undefined}>
+        <ArrowLeft aria-hidden="true" />{returnTo?.label || "往期日报"}
+      </Link></div>
       <VisualRadarIssueContent issue={detail.issue} />
       <IssueNavigation detail={detail} />
     </main>
@@ -59,14 +73,15 @@ export default function VisualRadarIssue() {
 
 export function VisualRadarIssueContent({ issue }: { issue: VisualRadarIssueData }) {
   const layout = useMemo(() => buildVisualRadarIssueLayout(issue), [issue]);
+  const content = useRef<HTMLDivElement>(null);
   useEffect(() => {
     // Deep links from archive search arrive before the async issue has rendered.
     const frame = requestAnimationFrame(() => {
       const hash = window.location.hash.slice(1);
-      if (!hash) return;
+      if (!hash) { window.scrollTo({ top: 0 }); return; }
       let id: string;
       try { id = decodeURIComponent(hash); } catch { return; }
-      const target = document.getElementById(id);
+      const target = document.getElementById(hash) || document.getElementById(id);
       if (target) {
         target.scrollIntoView({ block: "start" });
         if (target.matches("article")) target.focus({ preventScroll: true });
@@ -80,15 +95,16 @@ export function VisualRadarIssueContent({ issue }: { issue: VisualRadarIssueData
   const featuredIds = new Set(layout.featuredStories.map((story) => story.item.id));
 
   return (
-    <div className="vr-issue-shell">
+    <div className="vr-issue-shell" ref={content}>
+      <ReaderTools content={content} issueId={issue.id} />
       <section className="vr-issue-intro">
         <div>
           <p className="vr-date">{formatChineseDate(issue.issueDate)}</p>
-          <h1>摄影推送</h1>
+          <h1 tabIndex={-1}>摄影推送</h1>
         </div>
-        <p className="vr-edition-note">摄影、造型与创作的每日观察。<br />
+        <div className="vr-edition-actions"><p className="vr-edition-note">摄影、造型与创作的每日观察。<br />
           <span>{issue.stats.storyCount} 篇报道 · 约 {layout.readingMinutes} 分钟</span>
-        </p>
+        </p><ShareLink issueId={issue.id} /></div>
       </section>
 
       <section className="vr-cover" aria-label="本期重点">

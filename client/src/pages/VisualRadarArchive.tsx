@@ -1,6 +1,7 @@
 import { ArrowUpRight, Download, Loader2, Search, X } from "lucide-react";
 import { Link, useSearchParams } from "wouter";
-import { useEffect, useMemo, useState } from "react";
+import { useHistoryState } from "wouter/use-browser-location";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import { VisualRadarMasthead } from "../components/visual-radar/VisualRadarMasthead";
 import {
@@ -12,6 +13,8 @@ import { ARCHIVE_TOPICS, filterArchiveStories, normalizeArchiveTopic, normalizeA
 import { visualStoryAnchor } from "../components/visual-radar/VisualStory";
 import { StoryActions } from "../components/visual-radar/StoryActions";
 import { libraryMarkdown, libraryStoryKey, libraryStore, useVisualRadarLibrary } from "../lib/visualRadarLibrary";
+import { archiveCardAnchor, readReaderReturn, type ReaderReturn } from "../lib/readerNavigation";
+import { usePageMeta } from "../lib/usePageMeta";
 
 const PAGE_SIZE = 24;
 
@@ -23,6 +26,10 @@ function ArchiveBrowser({ savedOnly = false }: { savedOnly?: boolean }) {
   const [error, setError] = useState<string | null>(null);
   const [retry, setRetry] = useState(0);
   const [params, setParams] = useSearchParams();
+  const historyState = useHistoryState();
+  const restoredPosition = useRef("");
+  const restored = useMemo(() => readReaderReturn(historyState?.visualRadarRestore), [historyState]);
+  const browserHref = `${savedOnly ? "/saved" : "/issues"}${params.size ? `?${params.toString()}` : ""}`;
   const query = params.get("q") || "";
   const topic = normalizeArchiveTopic(params.get("topic"));
   const month = normalizeArchiveMonth(params.get("month"));
@@ -34,7 +41,8 @@ function ArchiveBrowser({ savedOnly = false }: { savedOnly?: boolean }) {
   const savedEntries = useMemo(() => library.entries.filter((entry) => entry.saved), [library.entries]);
   const entryByKey = useMemo(() => new Map(library.entries.map((entry) => [libraryStoryKey(entry.story), entry])), [library.entries]);
   const sourceStories = useMemo(() => savedOnly ? savedEntries.map((entry) => entry.story) : archive?.stories || [], [savedOnly, savedEntries, archive]);
-  const [shown, setShown] = useState(PAGE_SIZE);
+  const [shown, setShown] = useState(() => restored?.href === browserHref ? restored.shown : PAGE_SIZE);
+  usePageMeta(savedOnly ? "我的收藏" : "往期日报", savedOnly ? "保存在本机的 Visual Radar 收藏与个人备注。" : "按主题、月份和关键词探索 Visual Radar 往期摄影推送。");
   const months = useMemo(() => [...new Set(sourceStories.map((story) => story.issueDate.slice(0, 7)))].sort().reverse(), [sourceStories]);
   const matches = useMemo(() => sortArchiveStories(
     filterArchiveStories(sourceStories, query, topic, (story) => savedOnly ? entryByKey.get(libraryStoryKey(story))?.note || "" : "")
@@ -58,7 +66,25 @@ function ArchiveBrowser({ savedOnly = false }: { savedOnly?: boolean }) {
     return () => { active = false; };
   }, [retry, savedOnly]);
 
-  useEffect(() => { setShown(PAGE_SIZE); }, [query, topic, month, sort, savedOnly]);
+  useEffect(() => { setShown(restored?.href === browserHref ? restored.shown : PAGE_SIZE); }, [browserHref, restored]);
+  useEffect(() => {
+    if (!savedOnly && !archive) return;
+    const restoreKey = restored ? `${restored.href}#${restored.anchor}` : "";
+    if (restoreKey && restoredPosition.current === restoreKey) return;
+    const frame = requestAnimationFrame(() => {
+      const target = restored?.href === browserHref ? document.getElementById(restored.anchor) : null;
+      if (target) { target.scrollIntoView({ block: "start" }); target.focus({ preventScroll: true }); restoredPosition.current = restoreKey; }
+    });
+    return () => cancelAnimationFrame(frame);
+  }, [archive, savedOnly, restored, browserHref, shown]);
+
+  function returnContext(anchor: string): ReaderReturn {
+    return { href: browserHref, label: savedOnly ? "返回我的收藏" : "返回浏览结果", anchor, shown };
+  }
+  function rememberPosition(anchor: string) {
+    // Kept in this tab's history, never in the shared article URL.
+    window.history.replaceState({ ...window.history.state, visualRadarRestore: returnContext(anchor) }, "");
+  }
 
   function updateSearch(nextQuery: string, nextTopic: string) {
     updateParams({ q: nextQuery, topic: nextTopic === "all" ? "" : nextTopic });
@@ -145,8 +171,10 @@ function ArchiveBrowser({ savedOnly = false }: { savedOnly?: boolean }) {
             matches.length > 0 ? <>
               <div className="vr-archive-grid">
                 {matches.slice(0, shown).map((story) => (
-                  <article className="vr-archive-card" key={`${story.issueId}-${story.id}`}>
-                    <Link href={`/issues/${story.issueId}#${visualStoryAnchor(story.id)}`} className="vr-archive-card-link">
+                  <article className="vr-archive-card" key={`${story.issueId}-${story.id}`} tabIndex={-1} id={archiveCardAnchor(story.issueId, story.id)}>
+                    <Link href={`/issues/${story.issueId}#${visualStoryAnchor(story.id)}`} className="vr-archive-card-link"
+                      state={{ visualRadarReturn: returnContext(archiveCardAnchor(story.issueId, story.id)) }}
+                      onClick={() => rememberPosition(archiveCardAnchor(story.issueId, story.id))}>
                       <ArchiveImage src={story.thumbnailUrl} label={ARCHIVE_TOPICS[story.topic]} />
                       <div className="vr-archive-card-meta"><span>{story.issueDate}</span><span>{ARCHIVE_TOPICS[story.topic]}</span></div>
                       <h2>{story.title}</h2>
@@ -167,8 +195,10 @@ function ArchiveBrowser({ savedOnly = false }: { savedOnly?: boolean }) {
           ) : editions.length > 0 ? (
             <div className="vr-archive-grid">
               {editions.map((issue) => (
-                <article className="vr-archive-card" key={issue.id}>
-                  <Link href={`/issues/${issue.id}`} className="vr-archive-card-link" aria-label={`打开 ${issue.issueDate} 摄影推送`}>
+                <article className="vr-archive-card" key={issue.id} tabIndex={-1} id={archiveCardAnchor(issue.id)}>
+                  <Link href={`/issues/${issue.id}`} className="vr-archive-card-link" aria-label={`打开 ${issue.issueDate} 摄影推送`}
+                    state={{ visualRadarReturn: returnContext(archiveCardAnchor(issue.id)) }}
+                    onClick={() => rememberPosition(archiveCardAnchor(issue.id))}>
                     <ArchiveImage src={issue.coverImage} label="摄影推送" />
                     <div className="vr-archive-card-meta"><span>{issue.issueDate}</span><span>{issue.id === archive?.issues[0]?.id ? "最新一期" : `NO. ${String((archive?.issues.length || 0) - (archive?.issues.findIndex((item) => item.id === issue.id) || 0)).padStart(2, "0")}`}</span></div>
                     <h2>{issue.coverTitle}</h2>
