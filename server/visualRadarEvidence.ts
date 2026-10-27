@@ -3,7 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import type { IntelItem } from "./intelItem";
 import type { EditorialEvidence, SourceEvidence } from "../shared/visualRadarQuality";
-import { QUALITY_VERSION, VISUAL_METHODS } from "../shared/visualRadarQuality";
+import { QUALITY_VERSION, VISUAL_METHODS, CONTENT_KINDS, type EditorialAssessment, type EditorialEvent } from "../shared/visualRadarQuality";
 import { parseVisualArticleMetadata } from "./visualRadarCollector";
 
 export interface EvidenceSnapshot { url: string; itemId: string; contentHash: string; text: string; fetchedAt: string; hash: string; retrievedFrom?: string }
@@ -210,6 +210,34 @@ export function validateEditorial(value: unknown, candidate: { id: string; conte
     const quotes = e.facts.map((f) => f.quote).join(" ");
     if (quotes.split(/\s+/).length > 25 || quotes.length > 350 || (quotes.match(/[\u3040-\u9fff]/g)?.length || 0) > 100) throw new Error("原文摘录过长，请保留最短证据");
   }
+  const assessment = validateAssessment(e.assessment);
+  const event = validateEvent(e.event, e.facts.length);
+  if (e.status === "insufficient" && (assessment || event)) throw new Error("正文不足不能附带推荐判断或事件归并");
   // Explicit projection keeps unrecognized fields and full source text out of public artifacts.
-  return { version: QUALITY_VERSION, status: e.status, sourceUrl: e.sourceUrl, snapshotHash: e.snapshotHash, facts: e.facts.map((f) => ({ statement: f.statement.trim(), quote: f.quote.trim() })), visualMethod: e.visualMethod.trim(), application: e.application.trim(), visualTags: [...new Set(e.visualTags)], limitation: e.limitation.trim() };
+  return { version: QUALITY_VERSION, status: e.status, sourceUrl: e.sourceUrl, snapshotHash: e.snapshotHash, facts: e.facts.map((f) => ({ statement: f.statement.trim(), quote: f.quote.trim() })), visualMethod: e.visualMethod.trim(), application: e.application.trim(), visualTags: [...new Set(e.visualTags)], limitation: e.limitation.trim(), ...(assessment ? { assessment } : {}), ...(event ? { event } : {}) };
+}
+
+export function validateAssessment(value: unknown): EditorialAssessment | undefined {
+  if (value === undefined) return undefined;
+  const a = value as EditorialAssessment;
+  if (!a || !CONTENT_KINDS.includes(a.contentKind) || !["specific", "general", "none"].includes(a.methodEvidence)
+    || typeof a.rationale !== "string" || a.rationale.trim().length < 8 || a.rationale.length > 1000) throw new Error("推荐判断必须说明内容类型、具体方法证据及理由");
+  return { contentKind: a.contentKind, methodEvidence: a.methodEvidence, rationale: a.rationale.trim() };
+}
+
+export function validateEvent(value: unknown, factCount: number): EditorialEvent | undefined {
+  if (value === undefined) return undefined;
+  const e = value as EditorialEvent;
+  if (!e || typeof e.key !== "string" || !/^[a-z0-9][a-z0-9-]{7,119}$/.test(e.key)
+    || typeof e.label !== "string" || !e.label.trim() || e.label.length > 160) throw new Error("事件需要稳定的英文编号与简短名称");
+  const result: EditorialEvent = { key: e.key, label: e.label.trim() };
+  if (e.development !== undefined) {
+    const d = e.development;
+    if (!d || typeof d.summary !== "string" || d.summary.trim().length < 8 || d.summary.length > 1000
+      || !Array.isArray(d.factIndexes) || d.factIndexes.length < 1 || d.factIndexes.length > 3
+      || d.factIndexes.some((i) => !Number.isInteger(i) || i < 0 || i >= factCount)
+      || new Set(d.factIndexes).size !== d.factIndexes.length) throw new Error("新增进展必须说明变化并引用本条已核验事实序号");
+    result.development = { summary: d.summary.trim(), factIndexes: [...d.factIndexes] };
+  }
+  return result;
 }

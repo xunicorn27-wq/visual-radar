@@ -201,7 +201,7 @@ describe("generateVisualRadarIssueFromArtifacts", () => {
         }
       )
     );
-    for (const analysis of analyses) analysis.editorial = testEditorial;
+    for (const analysis of analyses) analysis.editorial = { ...testEditorial, sourceUrl: [olderItem, newerItem].find(i => i.id === analysis.itemId)!.sourceUrl, event: { key: `test-event-${analysis.itemId}`, label: analysis.itemId } };
     const analysisArtifact = { ...emptyAnalysisArtifact, analyses };
 
     generateVisualRadarIssueFromArtifacts({
@@ -252,7 +252,7 @@ function buildItem(id: string, postedAt: string) {
   });
 }
 
-const testEditorial = { version: "evidence-v1" as const, status: "verified" as const, sourceUrl: "https://example.com/story", snapshotHash: "test", facts: [{ statement: "测试事实", quote: "test evidence" }], visualMethod: "方法", application: "建议", visualTags: ["布光" as const], limitation: "测试" };
+const testEditorial = { version: "evidence-v1" as const, status: "verified" as const, sourceUrl: "https://example.com/story", snapshotHash: "test", facts: [{ statement: "测试事实", quote: "test evidence" }], visualMethod: "方法", application: "建议", visualTags: ["布光" as const], limitation: "测试", assessment: { contentKind: "production_case" as const, methodEvidence: "specific" as const, rationale: "原文明确记录制作方法" }, event: { key: "test-event-visual1", label: "测试" } };
 
 function tempFile() {
   return path.join(

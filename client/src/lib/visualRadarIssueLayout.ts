@@ -64,12 +64,14 @@ export function buildVisualRadarIssueLayout(issue: VisualRadarIssue | null) {
     .map((id) => storyById.get(id))
     .filter((story): story is VisualRadarSelectedStory => Boolean(story));
   for (const story of ranked) {
+    if (issue.metadata.selectionPolicy === "editorial-v2") break;
     if (featuredStories.length >= 10) break;
     if (!featuredStories.some((featured) => featured.item.id === story.item.id)) {
       featuredStories.push(story);
     }
   }
   const lead = featuredStories.find((story) => story.analysis.editorial?.status === "verified" && story.item.thumbnailUrl)
+    || (issue.metadata.selectionPolicy === "editorial-v2" ? featuredStories[0] : undefined)
     || ranked.find((story) => story.analysis.editorial?.status === "verified" && story.item.thumbnailUrl)
     || ranked.find((story) => Boolean(story.item.thumbnailUrl)) || ranked[0];
   const supporting = ranked.filter((story) => story.item.id !== lead.item.id);

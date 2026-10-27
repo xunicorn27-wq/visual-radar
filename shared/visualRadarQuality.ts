@@ -1,6 +1,18 @@
 export const QUALITY_VERSION = "evidence-v1" as const;
 export const VISUAL_METHODS = ["布光", "构图", "材质", "色彩", "空间", "动态影像", "字体", "工艺", "叙事"] as const;
 export type VisualMethod = typeof VISUAL_METHODS[number];
+export const SELECTION_POLICY = "editorial-v2" as const;
+export const CONTENT_KINDS = ["production_case", "artwork", "announcement", "product_roundup", "trend_roundup", "vendor_case"] as const;
+export interface EditorialAssessment {
+  contentKind: typeof CONTENT_KINDS[number];
+  methodEvidence: "specific" | "general" | "none";
+  rationale: string;
+}
+export interface EditorialEvent {
+  key: string;
+  label: string;
+  development?: { summary: string; factIndexes: number[] };
+}
 export interface SourceEvidence {
   status: "ready" | "unavailable";
   url: string;
@@ -10,6 +22,8 @@ export interface SourceEvidence {
   reason?: string;
 }
 export interface EditorialEvidence {
+  assessment?: EditorialAssessment;
+  event?: EditorialEvent;
   version: typeof QUALITY_VERSION;
   status: "verified" | "insufficient";
   sourceUrl: string;

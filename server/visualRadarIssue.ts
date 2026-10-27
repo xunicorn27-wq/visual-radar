@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { singaporeIssueDate } from "../shared/visualRadarQuality";
+import type { EventGroup } from "./visualRadarEventDedup";
 
 import type { VisualCultureTopic } from "./visualCultureSources";
 import type {
@@ -9,11 +10,13 @@ import type {
 } from "./visualRadarDailySelector";
 
 export interface VisualRadarIssue {
+  eventGroups?: EventGroup[];
   featuredStoryIds: string[];
   generatedAt: string;
   id: string;
   issueDate: string;
   metadata: {
+    selectionPolicy?: "editorial-v2";
     models: string[];
     promptVersion: string;
   };
@@ -144,7 +147,7 @@ function normalizeArchive(archive: VisualRadarIssueArchive): VisualRadarIssueArc
 
 function normalizeIssue(issue: VisualRadarIssue): VisualRadarIssue {
   const stories = dedupeStories(issue.stories || []);
-  const featuredStoryIds = resolveFeaturedStoryIds(
+  const featuredStoryIds = issue.metadata.selectionPolicy === "editorial-v2" ? issue.featuredStoryIds.filter((id, index, all) => stories.some(s => s.item.id === id) && all.indexOf(id) === index) : resolveFeaturedStoryIds(
     stories,
     Array.isArray(issue.featuredStoryIds) ? issue.featuredStoryIds : []
   );
@@ -166,7 +169,7 @@ function rebuildIssue(
   }
   return {
     ...structuredClone(issue),
-    featuredStoryIds: resolveFeaturedStoryIds(stories, featuredStoryIds),
+    featuredStoryIds: issue.metadata.selectionPolicy === "editorial-v2" ? featuredStoryIds.filter(id => stories.some(s => s.item.id === id)) : resolveFeaturedStoryIds(stories, featuredStoryIds),
     id: issue.issueDate,
     stats: { bySource, byTopic, storyCount: stories.length },
     stories: structuredClone(stories),

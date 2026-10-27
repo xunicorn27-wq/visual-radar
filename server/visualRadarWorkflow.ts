@@ -9,6 +9,9 @@ import { mergeVisualRadarAnalysisArtifact } from "./visualRadarAnalysisStore";
 import type { VisualRadarArtifact } from "./visualRadarCollector";
 import { isCandidateInWindow, singaporeIssueDate } from "../shared/visualRadarQuality";
 import { selectVisualRadarDailyStories } from "./visualRadarDailySelector";
+import { buildVisualRadarQualityChecklist, assertPublishableQuality } from "./visualRadarQualityChecklist";
+import { SELECTION_POLICY } from "../shared/visualRadarQuality";
+import { updateSourceHealth } from "./visualRadarSourceHealth";
 import {
   createVisualRadarIssue,
   getAdjacentVisualRadarIssueIds,
@@ -138,6 +141,7 @@ export function generateVisualRadarIssueFromArtifacts({
     items: Array.from(currentItems.values()),
     now,
     previouslySelectedItemIds,
+    history: existingIssues.filter(i => i.issueDate < issueDate).flatMap(i => i.stories.map(story => ({ issueId: i.id, story }))),
   });
   if (selection.selected.length === 0) {
     throw new Error("No analyzed Visual Radar stories are eligible for an issue");
@@ -151,6 +155,9 @@ export function generateVisualRadarIssueFromArtifacts({
     existingIds: existingIssues.map((existing) => existing.id),
     now,
   });
+  issue.metadata.selectionPolicy = SELECTION_POLICY;
+  issue.eventGroups = selection.eventGroups;
+  assertPublishableQuality(buildVisualRadarQualityChecklist({ issue, history: existingIssues, health: updateSourceHealth(null, itemsArtifact), now }));
   return issueStore.saveIssue(issue);
 }
 

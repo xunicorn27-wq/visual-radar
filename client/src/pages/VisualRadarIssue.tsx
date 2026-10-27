@@ -14,6 +14,7 @@ import {
 import { buildVisualRadarIssueLayout } from "../lib/visualRadarIssueLayout";
 import { readReaderReturn } from "../lib/readerNavigation";
 import { usePageMeta } from "../lib/usePageMeta";
+import { EventSources } from "../components/visual-radar/EventSources";
 import { ShareLink } from "../components/visual-radar/ShareLink";
 import { ReaderTools } from "../components/visual-radar/ReaderTools";
 
@@ -163,6 +164,7 @@ export function VisualRadarIssueContent({ issue }: { issue: VisualRadarIssueData
         </section>
       ))}
 
+      {issue.eventGroups?.some(g => g.disposition === "previous") && <details className="vr-evidence-details vr-event-digest"><summary>本次未重复推荐的已刊事件</summary>{issue.eventGroups.filter(g => g.disposition === "previous").map(g => <section key={g.key}><h3>{g.label}</h3><p>未提供可核对的新进展，原文链接保留供查阅。</p><EventSources sources={[g.representative, ...g.related]} /></section>)}</details>}
       <footer className="vr-issue-footer">
         <span>{issue.stats.storyCount} STORIES</span>
         <span>{Object.keys(issue.stats.bySource).length} SOURCES</span>

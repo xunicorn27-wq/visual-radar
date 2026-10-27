@@ -7,6 +7,7 @@ import { describe, expect, it } from "vitest";
 import type { VisualRadarIssue } from "../lib/api";
 import { visualStoryAnchor, VisualStory } from "../components/visual-radar/VisualStory";
 import { VisualRadarIssueContent } from "./VisualRadarIssue";
+import { buildVisualRadarIssueLayout } from "../lib/visualRadarIssueLayout";
 
 const issues = JSON.parse(fs.readFileSync(
   new URL("../../../data/visual_radar_issues.json", import.meta.url), "utf8"
@@ -15,6 +16,18 @@ const issues = JSON.parse(fs.readFileSync(
 const render = (element: ReactNode) => renderToStaticMarkup(createElement(Router, { ssrPath: "/", children: element }));
 
 describe("editorial issue navigation", () => {
+  it("does not backfill new-policy featured slots or replace a text-only feature with a reference", () => {
+    const issue = structuredClone(issues[0]);
+    issue.metadata.selectionPolicy = "editorial-v2";
+    issue.featuredStoryIds = [issue.stories[0].item.id];
+    issue.stories[0].item.thumbnailUrl = null;
+    const layout = buildVisualRadarIssueLayout(issue);
+    expect(layout.featuredStories).toHaveLength(1);
+    expect(layout.lead?.item.id).toBe(issue.featuredStoryIds[0]);
+    const html = render(createElement(VisualRadarIssueContent, { issue }));
+    expect([...html.matchAll(/class="vr-featured-label"/g)]).toHaveLength(1);
+    expect([...html.matchAll(/<article id=/g)]).toHaveLength(issue.stories.length);
+  });
   it.each(issues.map((issue) => [issue.id, issue] as const))(
     "preserves every story and resolves every contents link in %s", (_id, issue) => {
       const html = render(createElement(VisualRadarIssueContent, { issue }));

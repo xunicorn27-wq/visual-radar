@@ -5,6 +5,33 @@ import type { VisualRadarAnalysis } from "./visualRadarAnalysis";
 import { selectVisualRadarDailyStories } from "./visualRadarDailySelector";
 
 describe("selectVisualRadarDailyStories", () => {
+  it("keeps announcements as references without filling unused featured slots", () => {
+    const strong = buildPair("strong");
+    const reference = buildPair("announcement", {}, { score: 99 });
+    reference.analysis.editorial!.assessment!.contentKind = "announcement";
+    const input = [reference, strong]; const before = JSON.stringify(input);
+    const result = selectVisualRadarDailyStories({ items: input.map(p => p.item), analyses: input.map(p => p.analysis), now: "2026-07-16T12:00:00Z", previouslySelectedItemIds: new Set() });
+    expect(result.eligible).toHaveLength(2);
+    expect(result.selected.map(s => s.item.id)).toEqual(["strong"]);
+    expect(result.skipped).toContainEqual({ itemId: "announcement", reason: "reference_only" });
+    expect(JSON.stringify(input)).toBe(before);
+  });
+  it("merges cross-source event links and withholds previous events without new evidence", () => {
+    const a = buildPair("prada-a"), b = buildPair("prada-b");
+    b.analysis.editorial!.event = a.analysis.editorial!.event;
+    const opts = { items: [a.item, b.item], analyses: [a.analysis, b.analysis], now: "2026-07-16T12:00:00Z", previouslySelectedItemIds: new Set<string>() };
+    const result = selectVisualRadarDailyStories(opts);
+    expect(result.selected).toHaveLength(1); expect(result.eligible).toHaveLength(1);
+    expect(result.selected[0].relatedSources?.[0].sourceUrl).toBe(b.item.sourceUrl);
+    const next = selectVisualRadarDailyStories({ ...opts, items: [b.item], analyses: [b.analysis], history: [{ issueId: "2026-07-15", story: result.selected[0] }] });
+    expect(next.selected).toEqual([]); expect(next.eventGroups[0].disposition).toBe("previous");
+    expect(next.eventGroups[0].related[0].sourceUrl).toBe(b.item.sourceUrl);
+  });
+  it("does not promote verified legacy analyses until their recommendation assessment is supplied", () => {
+    const p = buildPair("legacy"); delete p.analysis.editorial!.assessment;
+    const result = selectVisualRadarDailyStories({ items: [p.item], analyses: [p.analysis], now: "2026-07-16T12:00:00Z", previouslySelectedItemIds: new Set() });
+    expect(result.selected).toHaveLength(0); expect(result.eligible).toHaveLength(1);
+  });
   it("prefers the last 24 hours and uses the 72-hour window only as fallback", () => {
     const recent = Array.from({ length: 8 }, (_, index) =>
       buildPair(`recent-${index}`, {
@@ -143,7 +170,7 @@ function buildPair(
     ...itemOverrides,
   });
   const analysis: VisualRadarAnalysis = {
-    editorial: { version: "evidence-v1", status: "verified", sourceUrl: item.sourceUrl, snapshotHash: "test", facts: [{ statement: "测试事实", quote: "test evidence" }], visualMethod: "测试方法", application: "测试建议", visualTags: ["布光"], limitation: "测试" },
+    editorial: { version: "evidence-v1", status: "verified", sourceUrl: item.sourceUrl, snapshotHash: "test", facts: [{ statement: "测试事实", quote: "test evidence" }, { statement: "第二事实", quote: "second fact" }], visualMethod: "测试方法", application: "测试建议", visualTags: ["布光"], limitation: "测试", assessment: { contentKind: "production_case", methodEvidence: "specific", rationale: "原文明确记录了制作方法" }, event: { key: `test-event-${id}`, label: id } },
     analyzedAt: "2026-07-16T11:00:00.000Z",
     chineseSummary: `摘要 ${id}`,
     chineseTitle: `标题 ${id}`,

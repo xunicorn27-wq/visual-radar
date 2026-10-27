@@ -4,6 +4,15 @@ import { createIntelItem, emptyIntelMetrics } from "./intelItem";
 import { prepareVisualRadarAgentBatch } from "./visualRadarAgentBatch";
 
 describe("prepareVisualRadarAgentBatch", () => {
+  it("requeues old evidence-only analyses instead of assuming they satisfy the new policy", () => {
+    const cached = buildItem("old-policy", "2026-07-16T09:00:00Z");
+    const batch = prepareVisualRadarAgentBatch({
+      analysisArtifact: { analyses: [{ contentHash: cached.contentHash, editorial: { version: "evidence-v1", status: "verified" } } as never], failures: [], generatedAt: "2026-07-16T10:00:00Z", promptVersion: "visual-daily-v1" },
+      itemsArtifact: { items: [cached], failures: [], generatedAt: "2026-07-16T10:00:00Z", schemaVersion: "1" }, now: "2026-07-16T12:00:00Z",
+    });
+    expect(batch.selectionPolicy).toBe("editorial-v2");
+    expect(batch.summary.cached).toBe(0); expect(batch.candidates[0].id).toBe(cached.id);
+  });
   it("prepares only recent live items that still need value screening", () => {
     const recent = buildItem("recent", "2026-07-16T10:00:00.000Z");
     const cached = buildItem("cached", "2026-07-16T09:00:00.000Z");
@@ -12,7 +21,7 @@ describe("prepareVisualRadarAgentBatch", () => {
 
     const batch = prepareVisualRadarAgentBatch({
       analysisArtifact: {
-        analyses: [{ contentHash: cached.contentHash, editorial: { version: "evidence-v1", status: "verified" } } as never],
+        analyses: [{ contentHash: cached.contentHash, editorial: { version: "evidence-v1", status: "verified", assessment: { contentKind: "artwork", methodEvidence: "specific", rationale: "有明确方法" }, event: { key: "test-event", label: "测试" } } } as never],
         failures: [],
         generatedAt: "2026-07-16T11:00:00.000Z",
         promptVersion: "visual-daily-v1",

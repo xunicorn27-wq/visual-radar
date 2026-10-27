@@ -1,6 +1,9 @@
 import type { VisualRadarArchive } from "../../../server/visualRadarArchive";
 import type { EditorialEvidence } from "../../../shared/visualRadarQuality";
 import type { HealthArtifact } from "../../../server/visualRadarSourceHealth";
+import type { EventGroup, EventSource } from "../../../server/visualRadarEventDedup";
+import type { buildVisualRadarQualityChecklist } from "../../../server/visualRadarQualityChecklist";
+export type IssueQualityReport = ReturnType<typeof buildVisualRadarQualityChecklist>;
 export type { HealthArtifact, SourceHealth } from "../../../server/visualRadarSourceHealth";
 export type { VisualRadarArchive, VisualRadarArchiveStory, VisualRadarArchiveEdition } from "../../../server/visualRadarArchive";
 
@@ -70,17 +73,19 @@ export interface VisualRadarAnalysisArtifact {
 }
 
 export interface VisualRadarSelectedStory {
+  relatedSources?: EventSource[];
   analysis: VisualRadarAnalysis;
   item: IntelItem;
   window: "24h" | "72h" | "upcoming" | "reference" | "unknown";
 }
 
 export interface VisualRadarIssue {
+  eventGroups?: EventGroup[];
   featuredStoryIds: string[];
   generatedAt: string;
   id: string;
   issueDate: string;
-  metadata: { models: string[]; promptVersion: string };
+  metadata: { models: string[]; promptVersion: string; selectionPolicy?: "editorial-v2" };
   skipped: Array<{ itemId: string; reason: string }>;
   stats: {
     bySource: Record<string, number>;
@@ -180,6 +185,8 @@ export const getVisualRadarIssues = () =>
   );
 export const getVisualRadarArchive = () =>
   req<VisualRadarArchive>(buildVisualRadarReadUrl("archive", visualRadarReadOptions), { cache: "no-cache" });
+export const getIssueQuality = (id: string, secret: string, signal?: AbortSignal) =>
+  req<IssueQualityReport>(`/api/visual-radar/issues/${encodeURIComponent(id)}/quality`, { signal }, secret);
 export const getVisualRadarIssue = (id: string) =>
   req<VisualRadarIssueDetail>(
     buildVisualRadarReadUrl("issue", {

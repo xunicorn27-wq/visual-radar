@@ -4,12 +4,12 @@ import { loadProjectEnv } from "../server/env";
 import { prepareVisualRadarAgentBatch } from "../server/visualRadarAgentBatch";
 import { readVisualRadarAnalysisArtifact } from "../server/visualRadarAnalysisStore";
 import { readVisualRadarArtifact } from "../server/visualRadarStore";
-import { recordSourceHealth } from "../server/visualRadarSourceHealth";
+import { updateSourceHealth } from "../server/visualRadarSourceHealth";
 
 const root = path.resolve(import.meta.dirname, ".."); loadProjectEnv(root);
 const files = resolveProjectPaths(root);
 const items = readVisualRadarArtifact(files.items);
-const health = recordSourceHealth(files.sourceHealth, items);
+const health = updateSourceHealth(null, items);
 const analyses = readVisualRadarAnalysisArtifact(files.analysis);
 const batch = prepareVisualRadarAgentBatch({ itemsArtifact: items, analysisArtifact: analyses, now: items.generatedAt });
 console.log(JSON.stringify({ collectionAt: items.generatedAt, health: health.summary, screening: batch.screening, summary: batch.summary,

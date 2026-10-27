@@ -6,6 +6,8 @@ import { readRun, stableHash, checkpoint } from "./visualRadarRunStore";
 import { resolveProjectPaths } from "./paths";
 import type { VisualRadarIssue } from "./visualRadarIssue";
 import { createVisualRadarIssueStore } from "./visualRadarIssue";
+import { inspectIssueQuality } from "./visualRadarQualityService";
+import { assertPublishableQuality, assertCurrentEditorialPolicy } from "./visualRadarQualityChecklist";
 
 export function currentCommit(root: string) { return execFileSync("git", ["rev-parse", "HEAD"], { cwd: root, encoding: "utf8" }).trim(); }
 export function validationFingerprint(issue: VisualRadarIssue, commit: string) { return stableHash({ issueHash: stableHash(issue), commit }); }
@@ -14,11 +16,13 @@ export function assertCleanProject(root: string) {
   if (changes.trim()) throw new DeliveryBlocked("工作树有未发布改动，请完成提交和验证后再发送");
 }
 export async function publishWithRecord(root: string, issue: VisualRadarIssue, dryRun: boolean) {
-  if (dryRun) return { markdown: buildWeComMarkdownContent(issue), sent: false };
+  if (dryRun) return { markdown: buildWeComMarkdownContent(issue), sent: false, quality: inspectIssueQuality(root, issue) };
   const files = resolveProjectPaths(root);
   return sendIssueOnce({
     directory: files.delivery, issue,
     verify: async () => {
+      assertCurrentEditorialPolicy(issue);
+      assertPublishableQuality(inspectIssueQuality(root, issue));
       if (!issue.featuredStoryIds.length || issue.stories.some((story) => story.analysis.editorial?.status !== "verified")) throw new DeliveryBlocked("本期仍有未核验解读，不能正式发送");
       assertCleanProject(root);
       const commit = currentCommit(root);

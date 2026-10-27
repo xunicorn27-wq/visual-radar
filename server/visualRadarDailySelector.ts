@@ -1,10 +1,13 @@
 import type { IntelItem } from "./intelItem";
 import type { VisualRadarAnalysis } from "./visualRadarAnalysis";
 import { classifyFreshness, isCandidateInWindow, QUALITY_VERSION } from "../shared/visualRadarQuality";
+import { groupVisualRadarEvents, type PastEventStory, type EventSource } from "./visualRadarEventDedup";
+import { calibrateVisualRadarRecommendation } from "./visualRadarRecommendation";
 
 export type VisualRadarSelectionWindow = "24h" | "72h" | "upcoming" | "reference" | "unknown";
 
 export interface VisualRadarSelectedStory {
+  relatedSources?: EventSource[];
   analysis: VisualRadarAnalysis;
   item: IntelItem;
   window: VisualRadarSelectionWindow;
@@ -15,6 +18,9 @@ export interface VisualRadarSkippedStory {
   reason:
     | "daily_limit"
     | "duplicate_content"
+    | "same_event"
+    | "previous_event"
+    | "reference_only"
     | "missing_analysis"
     | "missing_evidence"
     | "reference_limit"
@@ -32,12 +38,14 @@ export function selectVisualRadarDailyStories({
   limit = 10,
   now = new Date().toISOString(),
   previouslySelectedItemIds,
+  history = [],
 }: {
   analyses: readonly VisualRadarAnalysis[];
   items: readonly IntelItem[];
   limit?: number;
   now?: string;
   previouslySelectedItemIds: ReadonlySet<string>;
+  history?: readonly PastEventStory[];
 }) {
   const skipped: VisualRadarSkippedStory[] = [];
   const itemsById = new Map(items.map((item) => [item.id, item]));
@@ -48,14 +56,13 @@ export function selectVisualRadarDailyStories({
     return [analysis.itemId, { ...analysis, score: analysis.score - analysis.scoreBreakdown.timeliness + timeliness,
       scoreBreakdown: { ...analysis.scoreBreakdown, timeliness } }];
   }));
-  const seenContentHashes = new Set<string>();
   const nowTime = new Date(now).getTime();
 
   const candidates = items
     .toSorted((left, right) => {
       const scoreDifference =
-        (analysisByItemId.get(right.id)?.score || 0) -
-        (analysisByItemId.get(left.id)?.score || 0);
+        (analysisByItemId.has(right.id) ? calibrateVisualRadarRecommendation(analysisByItemId.get(right.id)!).score : 0) -
+        (analysisByItemId.has(left.id) ? calibrateVisualRadarRecommendation(analysisByItemId.get(left.id)!).score : 0);
       if (scoreDifference !== 0) return scoreDifference;
       const dateDifference = getItemTime(right) - getItemTime(left);
       return dateDifference !== 0 ? dateDifference : left.id.localeCompare(right.id);
@@ -74,16 +81,12 @@ export function selectVisualRadarDailyStories({
         skipped.push({ itemId: item.id, reason: "source_not_live" });
         return [];
       }
-      if (previouslySelectedItemIds.has(item.id)) {
+      if (previouslySelectedItemIds.has(item.id) && !history.some(p => p.story.item.id === item.id)) {
         skipped.push({ itemId: item.id, reason: "previous_issue" });
         return [];
       }
-      if (analysis.score < 60) {
+      if (calibrateVisualRadarRecommendation(analysis).score < 60) {
         skipped.push({ itemId: item.id, reason: "score_below_60" });
-        return [];
-      }
-      if (seenContentHashes.has(item.contentHash)) {
-        skipped.push({ itemId: item.id, reason: "duplicate_content" });
         return [];
       }
 
@@ -94,7 +97,6 @@ export function selectVisualRadarDailyStories({
         return [];
       }
 
-      seenContentHashes.add(item.contentHash);
       return [
         {
           analysis,
@@ -104,8 +106,19 @@ export function selectVisualRadarDailyStories({
       ];
     });
 
-  const recentCandidates = candidates.filter((entry) => entry.window === "24h");
-  const selectionPool = [...recentCandidates, ...candidates.filter((entry) => entry.window !== "24h")];
+  const events = groupVisualRadarEvents(candidates, history);
+  skipped.push(...events.skipped);
+  const featureCandidates = events.eligible.filter(entry => {
+    if (calibrateVisualRadarRecommendation(entry.analysis).featuredEligible) return true;
+    skipped.push({ itemId: entry.item.id, reason: "reference_only" });
+    return false;
+  });
+  for (const entry of events.eligible) {
+    const group = events.groups.find(g => g.representative.itemId === entry.item.id && !g.representative.issueId);
+    if (group) entry.relatedSources = group.related;
+  }
+  const recentCandidates = featureCandidates.filter((entry) => entry.window === "24h");
+  const selectionPool = [...recentCandidates, ...featureCandidates.filter((entry) => entry.window !== "24h")];
   const selected: VisualRadarSelectedStory[] = [];
   const selectedIds = new Set<string>();
   const sourceCounts = new Map<string, number>();
@@ -139,7 +152,7 @@ export function selectVisualRadarDailyStories({
     });
   }
 
-  return { eligible: candidates, selected, skipped };
+  return { eligible: events.eligible, selected, skipped, eventGroups: events.groups };
 }
 
 function trySelect(

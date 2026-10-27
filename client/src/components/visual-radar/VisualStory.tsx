@@ -6,6 +6,7 @@ import { Link } from "wouter";
 import { archiveStoryFromSelection, creativeHint } from "../../lib/visualRadarArchive";
 import { StoryActions } from "./StoryActions";
 import { classifyFreshness } from "../../../../shared/visualRadarQuality";
+import { EventSources } from "./EventSources";
 
 export function visualStoryAnchor(id: string) {
   return `story-${encodeURIComponent(id)}`;
@@ -96,6 +97,7 @@ export function VisualStory({
           </p>
         ) : null}
         {issueId && <StoryActions story={archiveStoryFromSelection(story, issueId, featured)} />}
+        {story.relatedSources && story.relatedSources.length > 0 && <details className="vr-evidence-details"><summary>同一事件的其他原文（{story.relatedSources.length}）</summary><EventSources sources={story.relatedSources} /></details>}
       </div>
       {hasImage && <dialog ref={dialog} className="vr-image-dialog" aria-label={`完整图片：${title}`}
         onClick={(event) => { if (event.target === event.currentTarget) dialog.current?.close(); }}>

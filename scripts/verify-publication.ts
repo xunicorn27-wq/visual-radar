@@ -6,12 +6,18 @@ import { createVisualRadarIssueStore } from "../server/visualRadarIssue";
 import { checkedIssueId, checkpoint } from "../server/visualRadarRunStore";
 import { assertCleanProject, currentCommit, validationFingerprint } from "../server/visualRadarPublishingService";
 import { verifyPagesIssue } from "../server/visualRadarPublication";
+import { inspectIssueQuality } from "../server/visualRadarQualityService";
+import { assertPublishableQuality, assertCurrentEditorialPolicy } from "../server/visualRadarQualityChecklist";
 
 const root = path.resolve(import.meta.dirname, ".."); loadProjectEnv(root);
 const files = resolveProjectPaths(root);
 const id = checkedIssueId(process.argv[2] || "");
 const issue = createVisualRadarIssueStore(files.issues).getIssue(id);
 if (!issue) throw new Error("日报不存在");
+const quality = inspectIssueQuality(root, issue);
+console.log(JSON.stringify({ quality }, null, 2));
+assertCurrentEditorialPolicy(issue);
+assertPublishableQuality(quality);
 assertCleanProject(root);
 const commit = currentCommit(root);
 const fingerprint = validationFingerprint(issue, commit);

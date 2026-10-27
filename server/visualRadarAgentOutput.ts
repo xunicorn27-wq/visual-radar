@@ -8,7 +8,7 @@ import {
 } from "./visualRadarAnalysis";
 import { mergeVisualRadarAnalysisArtifact } from "./visualRadarAnalysisStore";
 import { validateEditorial, type EvidenceSnapshot } from "./visualRadarEvidence";
-import { classifyFreshness, QUALITY_VERSION, type SourceEvidence } from "../shared/visualRadarQuality";
+import { classifyFreshness, QUALITY_VERSION, SELECTION_POLICY, type SourceEvidence } from "../shared/visualRadarQuality";
 
 const VISUAL_TOPICS = new Set([
   "creator",
@@ -74,6 +74,8 @@ export function importVisualRadarAgentOutput({
     });
     if (parsedBatch.qualityPolicy === QUALITY_VERSION) {
       normalized.editorial = validateEditorial(raw.editorial, item, loadSnapshot);
+      if (parsedBatch.selectionPolicy === SELECTION_POLICY && normalized.editorial.status === "verified"
+        && (!normalized.editorial.assessment || !normalized.editorial.event)) throw new Error("新批次必须提供推荐判断 assessment 和事件 event");
       normalized.scoreBreakdown.timeliness = classifyFreshness({ ...item, capturedAt: item.capturedAt || parsedOutput.generatedAt }, parsedOutput.generatedAt).timeliness;
       if (normalized.editorial.status === "insufficient") {
         normalized.scoreBreakdown = { informationSpecificity: 5, novelty: 5, professionalRelevance: 5, sourceQuality: 5, timeliness: 0, visualInspiration: 5 };
@@ -219,7 +221,8 @@ function parseAgentBatch(value: unknown) {
   });
 
   if (value.qualityPolicy !== undefined && value.qualityPolicy !== QUALITY_VERSION) throw new Error("未知质量契约");
-  return { candidates, qualityPolicy: value.qualityPolicy };
+  if (value.selectionPolicy !== undefined && value.selectionPolicy !== SELECTION_POLICY) throw new Error("未知筛选契约");
+  return { candidates, qualityPolicy: value.qualityPolicy, selectionPolicy: value.selectionPolicy };
 }
 
 function isRecord(value: unknown): value is Record<string, unknown> {

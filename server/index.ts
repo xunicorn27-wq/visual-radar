@@ -42,6 +42,7 @@ import { publishWithRecord } from "./visualRadarPublishingService";
 import { checkpoint, stableHash, readRun } from "./visualRadarRunStore";
 import { readDelivery } from "./visualRadarDelivery";
 import { singaporeIssueDate } from "../shared/visualRadarQuality";
+import { inspectIssueQuality } from "./visualRadarQualityService";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(__dirname, "..");
@@ -108,6 +109,7 @@ app.post("/api/visual-radar/agent/prepare", requireCronSecret, async (_req, res)
     const batch = prepareVisualRadarAgentBatch({
       analysisArtifact: readVisualRadarAnalysisArtifact(files.analysis),
       itemsArtifact,
+      previousIssues: createVisualRadarIssueStore(files.issues).listIssues(),
     });
     batch.candidates = await prepareCandidateEvidence(batch.candidates, files.evidence);
     const enriched = new Map(batch.candidates.map((item) => [item.id, item]));
@@ -154,6 +156,12 @@ app.get("/api/visual-radar/wecom/status", (_req, res) => {
 app.get("/api/visual-radar/issues/:issueId/run-status", requireCronSecret, (req, res) => {
   try { res.json({ run: readRun(files.runs, String(req.params.issueId)), delivery: readDelivery(files.delivery, String(req.params.issueId)) }); }
   catch { res.status(409).json({ error: "运行记录无法读取，请人工检查" }); }
+});
+
+app.get("/api/visual-radar/issues/:issueId/quality", requireCronSecret, (req, res) => {
+  const issue = createVisualRadarIssueStore(files.issues).getIssue(String(req.params.issueId));
+  if (!issue) return res.status(404).json({ error: "日报不存在" });
+  res.json(inspectIssueQuality(projectRoot, issue));
 });
 
 app.post(

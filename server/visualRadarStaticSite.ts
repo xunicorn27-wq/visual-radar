@@ -1,6 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import { buildVisualRadarArchive } from "./visualRadarArchive";
+import { buildVisualRadarQualityChecklist, assertPublishableQuality } from "./visualRadarQualityChecklist";
+import { SELECTION_POLICY } from "../shared/visualRadarQuality";
 
 import {
   summarizeVisualRadarIssue,
@@ -42,6 +44,9 @@ export function writeVisualRadarStaticSite(options: {
     (left, right) => right.generatedAt.localeCompare(left.generatedAt)
   );
   validateIssueIds(issues);
+  for (const issue of issues) if (issue.metadata.selectionPolicy === SELECTION_POLICY) {
+    assertPublishableQuality(buildVisualRadarQualityChecklist({ issue, history: issues, now: options.now }));
+  }
 
   const temporaryDir = fileSystem.mkdtempSync(
     path.join(parentDir, temporaryPrefix)

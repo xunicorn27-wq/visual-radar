@@ -12,6 +12,7 @@
     "agent:import": "tsx scripts/import-agent-output.ts",
     "issue:correct": "tsx scripts/correct-visual-issue.ts",
     "quality:report": "tsx scripts/quality-report.ts",
+    "issue:quality": "tsx scripts/issue-quality.ts",
     "sources:probe": "tsx scripts/probe-sources.ts",
     "publish:verify": "tsx scripts/verify-publication.ts",
     "pipeline:resume": "tsx scripts/resume-daily.ts",

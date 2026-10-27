@@ -17,6 +17,16 @@ import {
 } from "./visualRadarStaticSite";
 
 describe("writeVisualRadarStaticSite", () => {
+  it("blocks new-policy invalid issues before replacing an existing public snapshot", () => {
+    const root = tempDir("visual-radar-quality-static-");
+    const outputDir = path.join(root, "public-data"); fs.mkdirSync(outputDir);
+    fs.writeFileSync(path.join(outputDir, "preserve.txt"), "previous snapshot");
+    const issue = buildIssue("new-policy", "2026-07-16T08:00:00Z");
+    issue.metadata.selectionPolicy = "editorial-v2";
+    expect(() => writeVisualRadarStaticSite({ issueStore: { listIssues: () => [issue] }, outputDir })).toThrow("质量检查");
+    expect(fs.readFileSync(path.join(outputDir, "preserve.txt"), "utf8")).toBe("previous snapshot");
+    expect(fs.readdirSync(outputDir)).toEqual(["preserve.txt"]);
+  });
   it("writes one consistent snapshot after listing issues exactly once", () => {
     const root = tempDir("visual-radar-static-");
     const archivePath = path.join(root, "issues-source.json");

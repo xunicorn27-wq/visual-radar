@@ -201,6 +201,7 @@ export default function VisualRadar() {
       />
       {!visualRadarStaticMode && adminOpen ? (
         <VisualRadarAdmin
+          issueId={issueDetail?.issue.id}
           collectionVersion={items?.generatedAt}
           adminSecret={adminSecret}
           busyAction={busyAction}
