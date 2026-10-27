@@ -7016,6 +7016,404 @@
           "correctedAt": "2026-10-27T01:04:17.000Z"
         }
       ]
+    },
+    {
+      "issueId": "2026-07-17",
+      "changes": [
+        {
+          "itemId": "visual-topaz-labs-113q1wr",
+          "previous": {
+            "analyzedAt": "2026-07-17T10:16:38.988Z",
+            "chineseSummary": "Sarofsky 的案例把传统设计工作室、生成式 AI 和 Topaz 后期增强放在同一条制作链上，显示专业 motion/影像团队如何实际落地 AI，而不是只停留在概念演示。",
+            "chineseTitle": "Sarofsky 案例展示传统工艺、生成 AI 与 Topaz 的混合流程",
+            "contentHash": "sha1:f83c5f1a8d10d7b0a246bf9ff553729baeb41cd5",
+            "itemId": "visual-topaz-labs-113q1wr",
+            "model": "codex-agent",
+            "primaryTopic": "tool",
+            "promptVersion": "visual-daily-v1",
+            "score": 91,
+            "scoreBreakdown": {
+              "informationSpecificity": 13,
+              "novelty": 18,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "真实工作室案例有高参考价值，能解释 AI 后期如何进入商业创作。",
+            "status": "success",
+            "trendKeywords": [
+              "生成AI工作流",
+              "Topaz",
+              "设计工作室"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T02:00:42.628Z",
+            "chineseSummary": "Topaz发布的Sarofsky案例介绍三个不同用途：生成工具用于提案与预演；《Citadel》片头通过移除部分帧、再插帧调整运动；博物馆装置则先在较低分辨率制作，再放大到超过9K的交付尺寸。可参考的是按制作环节选择工具，而非把AI视为替代全流程的捷径。",
+            "chineseTitle": "Sarofsky的混合制作流程：把概念探索、补帧与大幅面输出分开处理",
+            "contentHash": "sha1:f83c5f1a8d10d7b0a246bf9ff553729baeb41cd5",
+            "itemId": "visual-topaz-labs-113q1wr",
+            "model": "codex-agent",
+            "primaryTopic": "tool",
+            "promptVersion": "visual-daily-v1",
+            "score": 77,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 13,
+              "professionalRelevance": 19,
+              "sourceQuality": 6,
+              "timeliness": 0,
+              "visualInspiration": 25
+            },
+            "selectionRationale": "正文明确区分概念阶段、运动修整与高分辨率交付，具备方法参考；来自厂商案例，需降低对效果宣称的信任强度。",
+            "status": "success",
+            "trendKeywords": [
+              "混合制作",
+              "补帧",
+              "大幅面交付"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.topazlabs.com/news/design-studio-sarofsky-blends-traditional-craft-generative-ai-and-topaz",
+              "snapshotHash": "d40d55e469181273c1bba003074b24b38d490e35214fb210efb63dab7c830122",
+              "facts": [
+                {
+                  "statement": "《Citadel》片头通过移除中间帧并生成新帧重建运动。",
+                  "quote": "eliminated selected in-between frames and generated new ones"
+                },
+                {
+                  "statement": "博物馆装置要求超过9K分辨率的交付。",
+                  "quote": "required final delivery at resolutions exceeding 9K"
+                }
+              ],
+              "visualMethod": "编辑分析：先识别具体瓶颈，再将生成、补帧或放大安排到对应环节；不要因为同属AI工具就混淆它们对原始画面的不同影响。",
+              "application": "创作建议：用自有短片分别测试原尺寸渲染、低分辨率后放大、局部补帧三条路径；逐帧比对细节、边缘与运动，并记录总耗时及人工修整量。",
+              "visualTags": [
+                "动态影像",
+                "材质",
+                "工艺"
+              ],
+              "limitation": "依据Topaz厂商案例与工作室引语，未下载模型、逐帧评测或核验时间成本；“保留细节”“可靠”等效果不作为独立结论。现存网页可能更新，不能证明所有版本和功能在历史日报当日已可用。",
+              "assessment": {
+                "contentKind": "vendor_case",
+                "methodEvidence": "specific",
+                "rationale": "正文明确区分概念阶段、运动修整与高分辨率交付，具备方法参考；来自厂商案例，需降低对效果宣称的信任强度。"
+              },
+              "event": {
+                "key": "sarofsky-topaz-production-workflows-2026",
+                "label": "Sarofsky的混合制作流程：把概念探索、补帧与大幅面输出分开处理"
+              }
+            }
+          },
+          "correctedAt": "2026-10-27T02:00:42.628Z"
+        },
+        {
+          "itemId": "visual-topaz-labs-113q1wr",
+          "field": "postedAt",
+          "previous": null,
+          "corrected": "2026-07-16T16:00:00.000Z",
+          "correctedAt": "2026-10-27T02:00:42.628Z"
+        }
+      ]
+    },
+    {
+      "issueId": "2026-07-16",
+      "changes": [
+        {
+          "itemId": "visual-topaz-labs-utw1gy",
+          "previous": {
+            "analyzedAt": "2026-07-16T11:04:35.299Z",
+            "chineseSummary": "动画与电影创作者 Iaroslav Kononov 用 ChatGPT、图像和视频生成工具、DaVinci Resolve、Ableton Live、Topaz 等完成82分钟惊悚片《Dark Paradise》。项目最难的并非生成单个漂亮镜头，而是让数百个镜头在人物、环境、风格和时间连续性上属于同一世界。他为此建立角色参考、视觉规则、风格锁定、镜头表、剪辑逻辑和质量控制，再用 Starlight Precise 2.5 修复闪烁、变形与画质波动，完成统一的4K交付。",
+            "chineseTitle": "一个人如何完成82分钟 AI 电影：从生成镜头到稳定的4K成片",
+            "contentHash": "sha1:dfb4315a71bd733aeec120c932425b51a2092682",
+            "itemId": "visual-topaz-labs-utw1gy",
+            "model": "codex-agent-manual",
+            "primaryTopic": "tool",
+            "promptVersion": "visual-daily-v1",
+            "score": 96,
+            "scoreBreakdown": {
+              "informationSpecificity": 15,
+              "novelty": 20,
+              "professionalRelevance": 20,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 27
+            },
+            "selectionRationale": "提供了可执行的长片级生成影像流程，价值远高于单个模型演示。",
+            "status": "success",
+            "trendKeywords": [
+              "AI电影",
+              "视觉一致性",
+              "4K修复",
+              "单人制作",
+              "后期流程"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T02:00:42.628Z",
+            "chineseSummary": "Topaz案例将Iaroslav Kononov的《Dark Paradise》介绍为一部82分钟AI惊悚片和单人创作概念验证。作者强调角色参考、视觉规则、镜头清单、剪辑逻辑与质量控制，并说明使用Topaz进行增强及4K交付。这里能借鉴的是一致性管理流程，片长、人员投入和成片质量仍是案例方的说法。",
+            "chineseTitle": "《Dark Paradise》案例：以参考库和后期流程维持AI长片的一致性",
+            "contentHash": "sha1:dfb4315a71bd733aeec120c932425b51a2092682",
+            "itemId": "visual-topaz-labs-utw1gy",
+            "model": "codex-agent",
+            "primaryTopic": "tool",
+            "promptVersion": "visual-daily-v1",
+            "score": 71,
+            "scoreBreakdown": {
+              "informationSpecificity": 13,
+              "novelty": 11,
+              "professionalRelevance": 18,
+              "sourceQuality": 6,
+              "timeliness": 0,
+              "visualInspiration": 23
+            },
+            "selectionRationale": "说明了长片生成中的系统性问题，但没有独立制作记录或效果评测，应作为带限制的厂商案例。",
+            "status": "success",
+            "trendKeywords": [
+              "AI长片",
+              "视觉一致性",
+              "后期质检"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.topazlabs.com/news/from-ai-experiment-to-feature-length-film-dark-paradise-by-iaroslav-kononov",
+              "snapshotHash": "25d9044672cb06b2703c3e1500f50aad2964faf0b8ebf58220a9ad22b415caa9",
+              "facts": [
+                {
+                  "statement": "厂商文章将作品介绍为82分钟AI生成惊悚片。",
+                  "quote": "an 82-minute AI-generated thriller"
+                },
+                {
+                  "statement": "作者提出角色参考、视觉规则和镜头清单等制作要求。",
+                  "quote": "character references, visual rules, style locks, shot lists"
+                }
+              ],
+              "visualMethod": "编辑分析：把角色与风格参考写成可重复使用的规则，再按镜头逐项质检；长片一致性需要跨镜头管理，不是只生成一张漂亮画面。",
+              "application": "创作建议：先做一个三镜头测试段，固定角色、场景和色彩参考；把形体漂移、运动跳变与后期新增细节逐项登记，保留原始版本，达标后再扩大镜头数量。",
+              "visualTags": [
+                "动态影像",
+                "色彩",
+                "叙事"
+              ],
+              "limitation": "依据厂商案例及创作者自述，未观看完整影片、核验全部参与人员、成本或4K细节真实性。“单人完成”与“达到专业标准”不能当作已独立证实的结论；网页现存工具版本不保证与历史刊发日一致。",
+              "assessment": {
+                "contentKind": "vendor_case",
+                "methodEvidence": "specific",
+                "rationale": "说明了长片生成中的系统性问题，但没有独立制作记录或效果评测，应作为带限制的厂商案例。"
+              },
+              "event": {
+                "key": "dark-paradise-kononov-ai-feature-2026",
+                "label": "《Dark Paradise》案例：以参考库和后期流程维持AI长片的一致性"
+              }
+            }
+          },
+          "correctedAt": "2026-10-27T02:00:42.628Z"
+        },
+        {
+          "itemId": "visual-topaz-labs-utw1gy",
+          "field": "postedAt",
+          "previous": null,
+          "corrected": "2026-06-24T16:00:00.000Z",
+          "correctedAt": "2026-10-27T02:00:42.628Z"
+        },
+        {
+          "itemId": "visual-another-magazine-1se8xe7",
+          "previous": {
+            "analyzedAt": "2026-07-16T11:04:35.299Z",
+            "chineseSummary": "Sofia Coppola 旗下 Important Flowers 与 MACK 推出《American Teen》，重新编辑 Joseph Szabo 长期拍摄的美国青少年影像，并加入 Coppola 与 Kim Gordon 的文字。Szabo 的照片不把青春处理成造型符号，而是在学校、海滩、派对和日常停顿中捕捉介于自我意识与毫无防备之间的瞬间。新书把这些私人感很强的照片放回当代视觉文化，提醒摄影者：可信的青春叙事来自长期靠近和等待，而非快速复制青年亚文化表面。",
+            "chineseTitle": "Sofia Coppola 重访 Joseph Szabo：青少年摄影如何保留不被表演的亲密感",
+            "contentHash": "sha1:e0290c4014eed8d693d9dce51bee0e485ada7d6f",
+            "itemId": "visual-another-magazine-1se8xe7",
+            "model": "codex-agent-manual",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 95,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 19,
+              "professionalRelevance": 20,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "对青年人物、校园和亚文化摄影具有方法价值，也提供成熟的摄影书编辑参照。",
+            "status": "success",
+            "trendKeywords": [
+              "青年摄影",
+              "Joseph Szabo",
+              "摄影书",
+              "亲密肖像",
+              "Sofia Coppola"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T02:00:42.628Z",
+            "chineseSummary": "AnOther介绍Important Flowers与MACK出版的240页《American Teen》，汇集Joseph Szabo在20世纪七八十年代拍摄的长岛学生照片，并加入Sofia Coppola与Kim Gordon的新文字。采访回顾他作为教师建立摄影俱乐部、暗房和长期关系的过程；新书属于档案再编辑，不是最近才拍摄的青春影像。",
+            "chineseTitle": "Joseph Szabo《American Teen》：从长期校园摄影到跨年代图像档案",
+            "contentHash": "sha1:e0290c4014eed8d693d9dce51bee0e485ada7d6f",
+            "itemId": "visual-another-magazine-1se8xe7",
+            "model": "codex-agent",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 79,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 12,
+              "professionalRelevance": 20,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 25
+            },
+            "selectionRationale": "长期拍摄关系、参与式摄影教学与档案再出版都有具体说明，适合研究人物项目如何持续积累和重编。",
+            "status": "success",
+            "trendKeywords": [
+              "长期人物摄影",
+              "摄影出版",
+              "青春档案"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.anothermag.com/art-photography/17327/joseph-szabo-american-teen-sofia-coppola-important-flowers-mack-interview?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=a-first-look-at-sofia-coppola-s-new-joseph-szabo-book",
+              "snapshotHash": "f97978e64f9e3448f6a7ecd1125bc8bb3a7472ad6419dba0664802a6e83780dd",
+              "facts": [
+                {
+                  "statement": "《American Teen》是一部240页图书。",
+                  "quote": "a 240-page book"
+                },
+                {
+                  "statement": "Szabo建立摄影俱乐部和暗房，让学生制作并冲印自己的作品。",
+                  "quote": "photography club and darkroom, teaching students to make and print their own work"
+                }
+              ],
+              "visualMethod": "编辑分析：长期关系让相机成为日常的一部分，再通过新文字与编辑顺序重读旧照片；拍摄者的熟悉程度不替代授权与伦理审查。",
+              "application": "创作建议：对获授权的人物档案建立拍摄年份、人物、场景和同意范围索引，试排三组跨年代照片；请参与者核对说明，未成年人项目另行取得必要授权，不以熟悉关系推定许可。",
+              "visualTags": [
+                "构图",
+                "叙事",
+                "工艺"
+              ],
+              "limitation": "依据媒体采访与新书介绍，未逐页阅读图书或核对每张照片的授权。文章注明由2023年6月采访更新而来，本次核验的是现存网页，不代表全部叙述都发生在2026年或能还原历史页面。",
+              "assessment": {
+                "contentKind": "production_case",
+                "methodEvidence": "specific",
+                "rationale": "长期拍摄关系、参与式摄影教学与档案再出版都有具体说明，适合研究人物项目如何持续积累和重编。"
+              },
+              "event": {
+                "key": "joseph-szabo-american-teen-book-2026",
+                "label": "Joseph Szabo《American Teen》：从长期校园摄影到跨年代图像档案"
+              }
+            }
+          },
+          "correctedAt": "2026-10-27T02:00:42.628Z"
+        },
+        {
+          "itemId": "visual-another-magazine-1se8xe7",
+          "imageAdded": "https://images-prod.anothermag.com/1200/0-0-1570-1047/azure/another-prod/470/6/476007.jpg",
+          "correctedAt": "2026-10-27T02:00:42.628Z"
+        },
+        {
+          "itemId": "visual-topaz-labs-1n09alp",
+          "previous": {
+            "analyzedAt": "2026-07-16T11:04:35.299Z",
+            "chineseSummary": "导演 Robert Stone 为20年前的纪录片《Guerrilla》重建4K母版。原片混合16毫米胶片、标清录像、档案照片和嵌入字幕，无法依靠单一增强模型统一处理。他逐镜选择 Topaz Iris、Artemis LQ 与 MQ，必要时输出多个4K版本并在 Premiere 中混合，以保留真实纹理；旧字幕则通过重新扫描磁带、手工重建和转描处理。案例强调 AI 修复的核心不是制造不存在的细节，而是在真实性与现代播放标准之间保持克制。",
+            "chineseTitle": "把标清纪录片修复成4K：AI增强不是造假，而是一门克制的后期工艺",
+            "contentHash": "sha1:25f5252d180d51f2c02456bc7b8dad5788619a5c",
+            "itemId": "visual-topaz-labs-1n09alp",
+            "model": "codex-agent-manual",
+            "primaryTopic": "tool",
+            "promptVersion": "visual-daily-v1",
+            "score": 94,
+            "scoreBreakdown": {
+              "informationSpecificity": 15,
+              "novelty": 18,
+              "professionalRelevance": 20,
+              "sourceQuality": 9,
+              "timeliness": 4,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "对档案、旧素材和混合格式项目非常实用，也清楚划定了修复与伪造之间的伦理边界。",
+            "status": "success",
+            "trendKeywords": [
+              "影像修复",
+              "纪录片档案",
+              "AI增强",
+              "4K母版",
+              "真实性"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T02:00:42.628Z",
+            "chineseSummary": "Topaz案例介绍Robert Stone对《Guerrilla: The Taking of Patty Hearst》的修复：影片包含16毫米胶片、广播视频、静态照片和采访，无法用单一模型统一处理。团队按镜头选择模型，有时将多次4K输出叠加混合；嵌入旧母版的字幕图形则需要回查磁带、重建或手工处理。",
+            "chineseTitle": "《Guerrilla》修复案例：逐镜头处理混合素材，单独重建字幕图形",
+            "contentHash": "sha1:25f5252d180d51f2c02456bc7b8dad5788619a5c",
+            "itemId": "visual-topaz-labs-1n09alp",
+            "model": "codex-agent",
+            "primaryTopic": "tool",
+            "promptVersion": "visual-daily-v1",
+            "score": 75,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 12,
+              "professionalRelevance": 19,
+              "sourceQuality": 6,
+              "timeliness": 0,
+              "visualInspiration": 24
+            },
+            "selectionRationale": "提供混合档案素材、字幕与逐镜头流程的具体问题，可用于制定修复质检表，但不是技术效果或伦理正确性的独立认证。",
+            "status": "success",
+            "trendKeywords": [
+              "档案修复",
+              "逐镜头质检",
+              "字幕重建"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.topazlabs.com/news/restoring-guerrilla-bringing-a-landmark-documentary-into-the-4k-era",
+              "snapshotHash": "462d1cd660f10b55bb2d31fdc1b75307fd48e7a7d792bbcaa4eede0926ca9cf6",
+              "facts": [
+                {
+                  "statement": "影片混合16毫米胶片、广播视频、静态摄影和原始采访。",
+                  "quote": "Guerrilla blends 16mm film, broadcast video, still photography, and original interviews"
+                },
+                {
+                  "statement": "部分下三分之一字幕被重建或手工逐帧处理。",
+                  "quote": "lower thirds were rebuilt or rotoscoped by hand"
+                }
+              ],
+              "visualMethod": "编辑分析：按素材来源和损伤类型拆分修复路径，将图形文字与影像细节分开处理，并用逐镜头对比控制连续性。",
+              "application": "创作建议：为获授权档案建立“原始格式—损伤—处理—复核”表，先测试十个代表镜头；保留原片与处理日志，专门检查人脸、文字、历史证据细节及可能新生成的内容。",
+              "visualTags": [
+                "动态影像",
+                "工艺",
+                "叙事"
+              ],
+              "limitation": "依据厂商报道及导演观点，未比对原片和修复片。增强也可能改变或生成细节，不能从作者“保存而非操纵”的立场推导出AI增强天然真实；公开使用时应说明处理方式并核对档案来源。",
+              "assessment": {
+                "contentKind": "vendor_case",
+                "methodEvidence": "specific",
+                "rationale": "提供混合档案素材、字幕与逐镜头流程的具体问题，可用于制定修复质检表，但不是技术效果或伦理正确性的独立认证。"
+              },
+              "event": {
+                "key": "guerrilla-robert-stone-restoration-topaz",
+                "label": "《Guerrilla》修复案例：逐镜头处理混合素材，单独重建字幕图形"
+              }
+            }
+          },
+          "correctedAt": "2026-10-27T02:00:42.628Z"
+        },
+        {
+          "itemId": "visual-topaz-labs-1n09alp",
+          "field": "postedAt",
+          "previous": null,
+          "corrected": "2026-05-19T16:00:00.000Z",
+          "correctedAt": "2026-10-27T02:00:42.628Z"
+        }
+      ]
     }
   ]
 }

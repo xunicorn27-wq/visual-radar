@@ -32,7 +32,33 @@ function divContents(html: string, className: string) {
   }
   return "";
 }
-export function extractArticleText(html: string) {
+function articleParagraphs(region: string) {
+  return normalizeEvidenceText([...region.matchAll(/<(p|h[1-4]|li|blockquote)\b[^>]*>([\s\S]*?)<\/\1>/gi)]
+    .map(m => clean(m[2])).filter(t => t.length > 8).join(" ")).slice(0, 60000);
+}
+
+export function extractArticleText(html: string, sourceUrl?: string) {
+  const stripped = html.replace(/<!--[\s\S]*?-->/g, " ")
+    .replace(/<(script|style|nav|footer|header|aside)\b[^>]*>[\s\S]*?<\/\1>/gi, " ");
+  // Confirmed first-party body containers. Restrict adapters to article routes,
+  // not arbitrary rich text found in product navigation or newsletter templates.
+  if (sourceUrl) {
+    const url = new URL(sourceUrl);
+    const host = url.hostname.replace(/^www\./, "");
+    if (url.protocol === "https:" && !url.port && !url.username && !url.password) {
+      if (host === "topazlabs.com" && /^\/news\/[^/]+\/?$/.test(url.pathname)) {
+        const main = divContents(stripped, "v26-news-main-content");
+        if (main) return articleParagraphs(divContents(main, "v26-rich-text-ondark"));
+      }
+      if (host === "anothermag.com" && /^\/(?:art-photography|fashion-beauty|design-living)\/\d+\//.test(url.pathname)) {
+        const main = divContents(stripped, "article-main-content");
+        const body = divContents(main, "article-body");
+        // Some longreads have only a short editor's note in JSON-LD articleBody.
+        // Prefer the scoped visible body; never concatenate it with JSON-LD.
+        if (body) return articleParagraphs(body);
+      }
+    }
+  }
   const bodies: string[] = [];
   function visit(value: unknown) {
     if (Array.isArray(value)) { value.forEach(visit); return; }
@@ -46,7 +72,6 @@ export function extractArticleText(html: string) {
     try { visit(JSON.parse(match[1])); } catch { /* Not article data. */ }
   }
   if (bodies.length) return bodies.sort((a, b) => b.length - a.length)[0].slice(0, 60000);
-  const stripped = html.replace(/<(script|style|nav|footer|header|aside)\b[^>]*>[\s\S]*?<\/\1>/gi, " ");
   // V&A events use nested divs, not paragraphs. Restrict to the event description,
   // excluding ticket details, related promos, membership and shop copy.
   const eventDescription = divContents(stripped, "introblock__description-container");
@@ -148,7 +173,7 @@ export async function prepareCandidateEvidence(candidates: readonly IntelItem[],
       const item = result[next++];
       try {
         const html = await fetchHtml(item.sourceUrl);
-        let text = extractArticleText(html);
+        let text = extractArticleText(html, item.sourceUrl);
         let retrievedFrom: string | undefined;
         if (text.length < 160) {
           const endpoint = mplusArticleEndpoint(item.sourceUrl, html);

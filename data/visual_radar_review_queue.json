@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-27T01:08:10.821Z",
+  "generatedAt": "2026-10-27T02:03:30.832Z",
   "summary": {
     "published": 288,
-    "pending": 208,
-    "verified": 80,
-    "featuredPending": 10
+    "pending": 204,
+    "verified": 84,
+    "featuredPending": 6
   },
   "instruction": "清单不等于已核验。按 issue:correct prepare/apply 流程逐条读取正文；无法获取时保留待核验，不删除历史。",
   "entries": [
@@ -40,73 +40,6 @@
         "本期精选",
         "采集摘要较短",
         "日期缺失或异常",
-        "缺少配图"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-17",
-      "itemId": "visual-topaz-labs-113q1wr",
-      "contentHash": "sha1:f83c5f1a8d10d7b0a246bf9ff553729baeb41cd5",
-      "title": "Sarofsky 案例展示传统工艺、生成 AI 与 Topaz 的混合流程",
-      "source": "Topaz Labs Learn",
-      "sourceUrl": "https://www.topazlabs.com/news/design-studio-sarofsky-blends-traditional-craft-generative-ai-and-topaz",
-      "featured": true,
-      "priority": 135,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短",
-        "日期缺失或异常"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-16",
-      "itemId": "visual-topaz-labs-1n09alp",
-      "contentHash": "sha1:25f5252d180d51f2c02456bc7b8dad5788619a5c",
-      "title": "把标清纪录片修复成4K：AI增强不是造假，而是一门克制的后期工艺",
-      "source": "Topaz Labs Learn",
-      "sourceUrl": "https://www.topazlabs.com/news/restoring-guerrilla-bringing-a-landmark-documentary-into-the-4k-era",
-      "featured": true,
-      "priority": 135,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短",
-        "日期缺失或异常"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-16",
-      "itemId": "visual-topaz-labs-utw1gy",
-      "contentHash": "sha1:dfb4315a71bd733aeec120c932425b51a2092682",
-      "title": "一个人如何完成82分钟 AI 电影：从生成镜头到稳定的4K成片",
-      "source": "Topaz Labs Learn",
-      "sourceUrl": "https://www.topazlabs.com/news/from-ai-experiment-to-feature-length-film-dark-paradise-by-iaroslav-kononov",
-      "featured": true,
-      "priority": 135,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短",
-        "日期缺失或异常"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-16",
-      "itemId": "visual-another-magazine-1se8xe7",
-      "contentHash": "sha1:e0290c4014eed8d693d9dce51bee0e485ada7d6f",
-      "title": "Sofia Coppola 重访 Joseph Szabo：青少年摄影如何保留不被表演的亲密感",
-      "source": "AnOther",
-      "sourceUrl": "https://www.anothermag.com/art-photography/17327/joseph-szabo-american-teen-sofia-coppola-important-flowers-mack-interview?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=a-first-look-at-sofia-coppola-s-new-joseph-szabo-book",
-      "featured": true,
-      "priority": 105,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
         "缺少配图"
       ],
       "status": "pending"
