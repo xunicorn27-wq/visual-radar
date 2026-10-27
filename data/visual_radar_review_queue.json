@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-26T14:35:41.456Z",
+  "generatedAt": "2026-10-27T01:08:10.821Z",
   "summary": {
     "published": 288,
-    "pending": 229,
-    "verified": 59,
-    "featuredPending": 31
+    "pending": 208,
+    "verified": 80,
+    "featuredPending": 10
   },
   "instruction": "清单不等于已核验。按 issue:correct prepare/apply 流程逐条读取正文；无法获取时保留待核验，不删除历史。",
   "entries": [
@@ -16,12 +16,13 @@
       "source": "Palais Galliera",
       "sourceUrl": "https://www.palaisgalliera.paris.fr/en/exhibitions/martin-margiela-1989-2009-womens-collections",
       "featured": true,
-      "priority": 135,
+      "priority": 140,
       "reasons": [
         "历史摘要未通过正文证据核验",
         "本期精选",
         "采集摘要较短",
-        "日期缺失或异常"
+        "日期缺失或异常",
+        "缺少配图"
       ],
       "status": "pending"
     },
@@ -33,12 +34,13 @@
       "source": "Palais Galliera",
       "sourceUrl": "https://www.palaisgalliera.paris.fr/en/exhibitions/paolo-roversi",
       "featured": true,
-      "priority": 135,
+      "priority": 140,
       "reasons": [
         "历史摘要未通过正文证据核验",
         "本期精选",
         "采集摘要较短",
-        "日期缺失或异常"
+        "日期缺失或异常",
+        "缺少配图"
       ],
       "status": "pending"
     },
@@ -49,23 +51,6 @@
       "title": "Sarofsky 案例展示传统工艺、生成 AI 与 Topaz 的混合流程",
       "source": "Topaz Labs Learn",
       "sourceUrl": "https://www.topazlabs.com/news/design-studio-sarofsky-blends-traditional-craft-generative-ai-and-topaz",
-      "featured": true,
-      "priority": 135,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短",
-        "日期缺失或异常"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-16",
-      "itemId": "visual-tokyo-photo-museum-mwdks2",
-      "contentHash": "sha1:516cc1e187bb3b0375b6f68c0c23db09fe948d15",
-      "title": "出光真子大型回顾展：用录像拆解家庭、女性角色与媒介权力",
-      "source": "Tokyo Photographic Art Museum",
-      "sourceUrl": "https://topmuseum.jp/exhibition/5417",
       "featured": true,
       "priority": 135,
       "reasons": [
@@ -111,191 +96,12 @@
       "status": "pending"
     },
     {
-      "issueId": "2026-07-22",
-      "itemId": "visual-dazed-19c4hgk",
-      "contentHash": "sha1:abc2178244a1e5241f71c5e9194b056ee32b39c7",
-      "title": "Lucia Jost 镜头里的柏林泳池：友谊、身体与城市夏天",
-      "source": "Dazed",
-      "sourceUrl": "https://www.dazeddigital.com/art-photography/article/70679/1/lucia-jost-prinzessinnenbad-princess-pool-sommerbad-kreuzberg-berlin-summer?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=in-pictures-wet-hot-summers-at-berlin-s-iconic-inner-city-pool",
-      "featured": true,
-      "priority": 125,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短",
-        "缺少配图"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-22",
-      "itemId": "visual-dazed-r0bonc",
-      "contentHash": "sha1:007314f97b7ee5178fb0e3a842416d784d6f9bc7",
-      "title": "Pure Sex England 重启：80 年代 goth 夜生活正在回到品牌现场",
-      "source": "Dazed",
-      "sourceUrl": "https://www.dazeddigital.com/fashion/article/70676/1/pure-sex-england-photos-relaunch-cult-80s-goth-brand-batcave-boy-london?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=pure-sex-photos-from-the-relaunch-of-the-cult-80s-goth-brand",
-      "featured": true,
-      "priority": 125,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短",
-        "缺少配图"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-22",
-      "itemId": "visual-its-nice-that-1orqujn",
-      "contentHash": "sha1:c1438325979661bb57505c473e768c20c67056dc",
-      "title": "Supersystème 把字体当作图像来建立完整视觉世界",
-      "source": "It's Nice That",
-      "sourceUrl": "https://www.itsnicethat.com/articles/supersyteme-graphic-design-discover-210726",
-      "featured": true,
-      "priority": 125,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短",
-        "缺少配图"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-22",
-      "itemId": "visual-w-magazine-te5zd",
-      "contentHash": "sha1:82834d70b8a56ca149dc8099c37a37fa8f8cdcfe",
-      "title": "Barry Jenkins 执导 Prada 广告，秋冬 campaign 继续电影化",
-      "source": "W Magazine",
-      "sourceUrl": "https://www.wmagazine.com/fashion/best-fall-winter-2026-campaigns",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-17",
-      "itemId": "visual-wallpaper-1on134g",
-      "contentHash": "sha1:9653b99ba615df378e0a264a1a26f4fe8440b1c6",
-      "title": "Snøhetta 为世界最北 fine dining 餐厅引入极地昼夜对比",
-      "source": "Wallpaper*",
-      "sourceUrl": "https://www.wallpaper.com/travel/restaurants/huset-longyearbyen-svalbard-snohetta",
-      "featured": true,
-      "priority": 120,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "采集摘要较短"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-17",
-      "itemId": "visual-aputure-9aw6ku",
-      "contentHash": "sha1:109ff98bb966d398ad27eb6735e650a31b3b199b",
-      "title": "Sidus Link Pro 2.2 用 Layout View 把灯光控制变成视觉网格",
-      "source": "Aputure Blog",
-      "sourceUrl": "https://aputure.com/en-US/articles/whats-new-in-sidus-link-pro-2-2",
-      "featured": true,
-      "priority": 115,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "日期缺失或异常"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-17",
-      "itemId": "visual-runway-1endmth",
-      "contentHash": "sha1:7ec4d92155232767d071bd879b1709173e6a2326",
-      "title": "Runway 提出 General World Models：AI 影像从生成画面转向理解世界",
-      "source": "Runway Research",
-      "sourceUrl": "https://runwayml.com/research/introducing-general-world-models",
-      "featured": true,
-      "priority": 115,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "日期缺失或异常"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-16",
-      "itemId": "visual-aputure-1cfq4gu",
-      "contentHash": "sha1:afb142f7fab66e997decc112b447b0ca8d2a528a",
-      "title": "四位摄影指导如何保持同一部剧的视觉一致：把灯具变成共同语言",
-      "source": "Aputure Blog",
-      "sourceUrl": "https://aputure.com/en-US/articles/lighting-mobland",
-      "featured": true,
-      "priority": 115,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "日期缺失或异常"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-22",
-      "itemId": "visual-its-nice-that-j4ws0g",
-      "contentHash": "sha1:557b0606092739d8ee3ce8c41bff34bfb42c5879",
-      "title": "Pablo Rochat 把亚特兰大郊区变成 Phoebe Bridgers MV 的中世纪幻想",
-      "source": "It's Nice That",
-      "sourceUrl": "https://www.itsnicethat.com/articles/pablo-rochat-lost-boys-film-animation-project-210726",
-      "featured": true,
-      "priority": 105,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "缺少配图"
-      ],
-      "status": "pending"
-    },
-    {
       "issueId": "2026-07-16",
       "itemId": "visual-another-magazine-1se8xe7",
       "contentHash": "sha1:e0290c4014eed8d693d9dce51bee0e485ada7d6f",
       "title": "Sofia Coppola 重访 Joseph Szabo：青少年摄影如何保留不被表演的亲密感",
       "source": "AnOther",
       "sourceUrl": "https://www.anothermag.com/art-photography/17327/joseph-szabo-american-teen-sofia-coppola-important-flowers-mack-interview?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=a-first-look-at-sofia-coppola-s-new-joseph-szabo-book",
-      "featured": true,
-      "priority": 105,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "缺少配图"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-16",
-      "itemId": "visual-another-magazine-edswlz",
-      "contentHash": "sha1:c2bc1b53f5fee19fa59faad53d0f79822a1998b6",
-      "title": "Richard Malone 用纺织雕塑重写爱尔兰的创意根系",
-      "source": "AnOther",
-      "sourceUrl": "https://www.anothermag.com/art-photography/17324/richard-malone-interview-european-union-memory-and-monument?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=richard-malone-is-reimagining-ireland-s-creative-roots",
-      "featured": true,
-      "priority": 105,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选",
-        "缺少配图"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-16",
-      "itemId": "visual-its-nice-that-xmj4d9",
-      "contentHash": "sha1:d33d62d33fa6e141da18daac8df716c9efad19d3",
-      "title": "《Astro Black》：用出版设计补回18位黑人太空先驱的视觉历史",
-      "source": "It's Nice That",
-      "sourceUrl": "https://www.itsnicethat.com/articles/parallel-press-astro-black-publication-graphic-design-project-160726",
       "featured": true,
       "priority": 105,
       "reasons": [
@@ -351,147 +157,12 @@
       "status": "pending"
     },
     {
-      "issueId": "2026-07-22",
-      "itemId": "visual-british-vogue-1hx832q",
-      "contentHash": "sha1:f3bb989ba0751ad27ebe76e64dbf2ad43e4845a4",
-      "title": "Gabbriette 的 Matières Fécales 婚纱试装拒绝传统新娘图像",
-      "source": "British Vogue",
-      "sourceUrl": "https://www.vogue.co.uk/article/gabbriette-wedding-dresses-matty-healy",
-      "featured": true,
-      "priority": 100,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-22",
-      "itemId": "visual-id-magazine-avrjw8",
-      "contentHash": "sha1:f531805f3a3a810cc896887458797878a73a1311",
-      "title": "Pull&Bear 创办时尚摄影奖，为 AI 时代的新摄影师打开入口",
-      "source": "i-D",
-      "sourceUrl": "https://i-d.co/article/pullbear-announces-a-new-fashion-photography-prize-to-uplift-a-new-generation/",
-      "featured": true,
-      "priority": 100,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-22",
-      "itemId": "visual-w-korea-1dn2h91",
-      "contentHash": "sha1:3df60e00c4db57f1e74a5514ec09d09866ab74d2",
-      "title": "Kohei Nawa 与 Damien Jalet 的黑暗舞台把雕塑和舞蹈融成宇宙景观",
-      "source": "W Korea",
-      "sourceUrl": "https://www.wkorea.com/2026/07/21/%ec%84%b1%ec%8b%a4%ed%95%9c-%eb%b0%a9%eb%9e%91%ec%9e%90%ec%97%90-%eb%8c%80%ed%95%9c-%ed%83%90%ea%b5%ac-%ec%bd%94%ed%97%a4%ec%9d%b4-%eb%82%98%ec%99%80%eb%8b%a4%eb%af%b8%ec%95%b5-%ec%9e%98/",
-      "featured": true,
-      "priority": 100,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-22",
-      "itemId": "visual-wallpaper-17o1fhx",
-      "contentHash": "sha1:e10651f04262678c1d6866905c64ceba8009b8c4",
-      "title": "Dominik Tarabański 把花卉摄影推到合成与有机之间",
-      "source": "Wallpaper*",
-      "sourceUrl": "https://www.wallpaper.com/design-interiors/dominik-tarabanski-photographer-profile",
-      "featured": true,
-      "priority": 100,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-22",
-      "itemId": "visual-wallpaper-xk3qme",
-      "contentHash": "sha1:85f02b0aee66e3cae73863d5f265859170bd7009",
-      "title": "Conserving Black Modernism 保护黑人建筑师设计遗产",
-      "source": "Wallpaper*",
-      "sourceUrl": "https://www.wallpaper.com/architecture/consrving-black-modernism-grant-2026",
-      "featured": true,
-      "priority": 100,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选"
-      ],
-      "status": "pending"
-    },
-    {
       "issueId": "2026-07-17",
       "itemId": "visual-nowness-14zugbj",
       "contentHash": "sha1:de1c45bd05e92d357d4d0488a3644757bb1d4fbf",
       "title": "NOWNESS 用郊狼视角批判洛杉矶的建筑商品化",
       "source": "NOWNESS",
       "sourceUrl": "https://www.nowness.com/series/constructed-views/coyote-urbanism-los-angeles-sukanya-mukherjee-arnar-skarphedinsson",
-      "featured": true,
-      "priority": 100,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-17",
-      "itemId": "visual-vogue-korea-18flwq5",
-      "contentHash": "sha1:ecae2e4f84c0d3f4706b34fe38663342f0501b39",
-      "title": "Julian Opie 个展把城市人群压缩成图标化视觉语言",
-      "source": "Vogue Korea",
-      "sourceUrl": "https://www.vogue.co.kr/2026/07/17/%ec%9d%b5%eb%aa%85%ec%9d%98-%ea%b5%b0%ec%a4%91%ec%9c%bc%eb%a1%9c-%ec%82%b4%ec%95%84%ea%b0%80%ea%b8%b0-%ec%a4%84%eb%a6%ac%ec%95%88-%ec%98%a4%ed%94%bc-%ea%b0%9c%ec%9d%b8%ec%a0%84/",
-      "featured": true,
-      "priority": 100,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-16",
-      "itemId": "visual-fashionsnap-xeetlg",
-      "contentHash": "sha1:9d22dd4f1293c476bdea3b06394867c0e2c888d3",
-      "title": "2027春夏男包趋势：旅行感、柔软结构与更自然的性别流动",
-      "source": "FASHIONSNAP",
-      "sourceUrl": "https://www.fashionsnap.com/article/menstrend-26aw-bag/",
-      "featured": true,
-      "priority": 100,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-16",
-      "itemId": "visual-vogue-korea-123lwps",
-      "contentHash": "sha1:e11173b712c3082ce04b86fb67d76e925cde919b",
-      "title": "波点重新占领夏季：五种摆脱复古套公式的搭配方法",
-      "source": "Vogue Korea",
-      "sourceUrl": "https://www.vogue.co.kr/2026/07/16/%ec%a7%80%ea%b8%88-%eb%ac%bc%eb%b0%a9%ec%9a%b8%eb%ac%b4%eb%8a%ac%eb%a5%bc-%ec%9e%85%eb%8a%94-%ea%b0%80%ec%9e%a5-%eb%a9%8b%ec%8a%a4%eb%9f%ac%ec%9a%b4-%eb%b0%a9%eb%b2%95-5/",
-      "featured": true,
-      "priority": 100,
-      "reasons": [
-        "历史摘要未通过正文证据核验",
-        "本期精选"
-      ],
-      "status": "pending"
-    },
-    {
-      "issueId": "2026-07-16",
-      "itemId": "visual-wallpaper-43p045",
-      "contentHash": "sha1:8b0d0a7e615515ed2ce3242df2f27f064db27e4e",
-      "title": "朋克不只是穿衣风格：ARoS 展览把身体重新定义为反抗工具",
-      "source": "Wallpaper*",
-      "sourceUrl": "https://www.wallpaper.com/art/exhibitions-shows/unruly-the-body-in-punk-aros-aarhus-review",
       "featured": true,
       "priority": 100,
       "reasons": [

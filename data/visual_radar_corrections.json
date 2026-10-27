@@ -5242,6 +5242,1780 @@
           "correctedAt": "2026-10-26T14:30:01.011Z"
         }
       ]
+    },
+    {
+      "issueId": "2026-07-22",
+      "changes": [
+        {
+          "itemId": "visual-dazed-19c4hgk",
+          "previous": {
+            "analyzedAt": "2026-07-22T04:33:37.298Z",
+            "chineseSummary": "Dazed 展示 Lucia Jost 的 Prinzessinnenbad 系列，记录 Sommerbad Kreuzberg 的朋友群体，是今天最有社会肌理的摄影项目。",
+            "chineseTitle": "Lucia Jost 镜头里的柏林泳池：友谊、身体与城市夏天",
+            "contentHash": "sha1:abc2178244a1e5241f71c5e9194b056ee32b39c7",
+            "itemId": "visual-dazed-19c4hgk",
+            "model": "codex-agent",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 94,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 19,
+              "professionalRelevance": 19,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "视觉方法、文化议题和专业参考价值都很明确，适合作为今日重点。",
+            "status": "success",
+            "trendKeywords": [
+              "柏林泳池",
+              "社会摄影",
+              "夏日身体"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T01:04:17.000Z",
+            "chineseSummary": "Lucia Jost以中画幅胶片在柏林Prinzenbad拍摄长期往来的女性朋友，把泳池作为成长记忆、友谊和城市变化的共同场所。照片并不只记录泳客，也记录一个无需消费即可聚集的公共空间。",
+            "chineseTitle": "柏林Prinzenbad：用中画幅记录泳池里的女性友谊与城市记忆",
+            "contentHash": "sha1:abc2178244a1e5241f71c5e9194b056ee32b39c7",
+            "itemId": "visual-dazed-19c4hgk",
+            "model": "codex-agent",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 81,
+            "scoreBreakdown": {
+              "informationSpecificity": 13,
+              "novelty": 14,
+              "professionalRelevance": 20,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 26
+            },
+            "selectionRationale": "个人经验、媒介选择与公共空间观察都很明确，适合参考环境肖像的长期叙事。",
+            "status": "success",
+            "trendKeywords": [
+              "环境肖像",
+              "公共空间",
+              "中画幅"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.dazeddigital.com/art-photography/article/70679/1/lucia-jost-prinzessinnenbad-princess-pool-sommerbad-kreuzberg-berlin-summer?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=in-pictures-wet-hot-summers-at-berlin-s-iconic-inner-city-pool",
+              "snapshotHash": "d21640bd040834d35f3f81e555246ce2e32baa3290fe73ea134a326d90807853",
+              "facts": [
+                {
+                  "statement": "系列使用中画幅模拟相机拍摄。",
+                  "quote": "Shot on a medium-format analogue camera"
+                },
+                {
+                  "statement": "作者把系列称为写给这个地方的“情书”。",
+                  "quote": "a personal love letter"
+                }
+              ],
+              "visualMethod": "编辑分析：将长期关系和场所记忆放进环境肖像，让人物、建筑与城市变迁共同承担叙事。",
+              "application": "创作建议：选择一个持续进入的公共地点，连续拍摄同一组人的局部、互动和空场；先征得同意，再用固定的画幅和色调比较时间变化。",
+              "visualTags": [
+                "构图",
+                "叙事",
+                "空间"
+              ],
+              "limitation": "依据采访和系列说明，未逐张核验完整图集；“城市正在消失”等是作者的记忆表达，不作为客观城市结论。"
+            }
+          },
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-dazed-19c4hgk",
+          "imageAdded": "https://images-prod.dazeddigital.com/1200/0-548-3000-2000/azure/dazed-prod/1450/0/1450028.jpeg",
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-wallpaper-17o1fhx",
+          "previous": {
+            "analyzedAt": "2026-07-22T04:33:37.298Z",
+            "chineseSummary": "Wallpaper* 介绍摄影师 Dominik Tarabański 的静物图像，其作品像荷兰花卉绘画，又带有合成感，是今天最强的纯摄影参考之一。",
+            "chineseTitle": "Dominik Tarabański 把花卉摄影推到合成与有机之间",
+            "contentHash": "sha1:e10651f04262678c1d6866905c64ceba8009b8c4",
+            "itemId": "visual-wallpaper-17o1fhx",
+            "model": "codex-agent",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 93,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 19,
+              "professionalRelevance": 19,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 27
+            },
+            "selectionRationale": "视觉方法、文化议题和专业参考价值都很明确，适合作为今日重点。",
+            "status": "success",
+            "trendKeywords": [
+              "花卉摄影",
+              "合成有机",
+              "静物图像"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T01:04:17.000Z",
+            "chineseSummary": "Dominik Tarabański从旅行中带回花材并重新编排，拍摄即将失去稳定形态的静物。作品把橡皮筋、干燥枝条等普通材料做成近似荷兰花卉画的巨大照片，强调材料的脆弱和被人为控制的瞬间。",
+            "chineseTitle": "Dominik Tarabański：让花卉静物停在“合成与有机”的临界点",
+            "contentHash": "sha1:e10651f04262678c1d6866905c64ceba8009b8c4",
+            "itemId": "visual-wallpaper-17o1fhx",
+            "model": "codex-agent",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 83,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 15,
+              "professionalRelevance": 20,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 26
+            },
+            "selectionRationale": "材料变形、时间性和大尺度输出有具体描述，适合静物与装置摄影研究。",
+            "status": "success",
+            "trendKeywords": [
+              "静物摄影",
+              "有机材料",
+              "大尺幅"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.wallpaper.com/design-interiors/dominik-tarabanski-photographer-profile",
+              "snapshotHash": "5c6f3de5852364d34e2cdefd282d6944cb9709788a285ef2ca1af83fcfd754fb",
+              "facts": [
+                {
+                  "statement": "他的实践建立在“合成与有机”的交叉处。",
+                  "quote": "this intersection of synthetic and organic"
+                },
+                {
+                  "statement": "成品照片超过两米高。",
+                  "quote": "The finished prints are large, over 2m tall"
+                }
+              ],
+              "visualMethod": "编辑分析：先控制有机材料的形态，再在失稳前按下快门，使静物同时呈现构造和衰败。",
+              "application": "创作建议：用可合法取得的花材做三种即将失稳的结构，固定机位记录变化；比较小图和大幅输出中材料细节的叙事差异。",
+              "visualTags": [
+                "材质",
+                "构图",
+                "色彩"
+              ],
+              "limitation": "未独立核验材料处理、保存方式和展览现场效果；展览期限属于历史信息，不等于当前仍可观看。"
+            }
+          },
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-id-magazine-avrjw8",
+          "previous": {
+            "analyzedAt": "2026-07-22T04:33:37.298Z",
+            "chineseSummary": "i-D 报道的摄影奖直面 AI 影响下的时尚摄影机会收缩，强调资金、曝光和新一代影像创作者支持，是今日高相关信号。",
+            "chineseTitle": "Pull&Bear 创办时尚摄影奖，为 AI 时代的新摄影师打开入口",
+            "contentHash": "sha1:f531805f3a3a810cc896887458797878a73a1311",
+            "itemId": "visual-id-magazine-avrjw8",
+            "model": "codex-agent",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 92,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 18,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "视觉方法、文化议题和专业参考价值都很明确，适合作为今日重点。",
+            "status": "success",
+            "trendKeywords": [
+              "时尚摄影奖",
+              "AI时代摄影",
+              "新锐扶持"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T01:04:17.000Z",
+            "chineseSummary": "报道介绍Pull&Bear与Hyères国际节合作的新摄影奖：10位国际摄影师竞争奖金、品牌委托项目和Villa Noailles个展。正文重点是奖项机制与晚宴场景，不能据此证明最终入选作品或品牌支持的长期效果。",
+            "chineseTitle": "Pull&Bear摄影奖：品牌资助、节展展览与新人机制",
+            "contentHash": "sha1:f531805f3a3a810cc896887458797878a73a1311",
+            "itemId": "visual-id-magazine-avrjw8",
+            "model": "codex-agent",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 55,
+            "scoreBreakdown": {
+              "informationSpecificity": 12,
+              "novelty": 9,
+              "professionalRelevance": 12,
+              "sourceQuality": 7,
+              "timeliness": 0,
+              "visualInspiration": 15
+            },
+            "selectionRationale": "正文对机制交代清楚，但创作方法与作品证据有限，适合作为行业机会信息而非高强度视觉案例。",
+            "status": "success",
+            "trendKeywords": [
+              "摄影奖项",
+              "品牌委托",
+              "新人支持"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://i-d.co/article/pullbear-announces-a-new-fashion-photography-prize-to-uplift-a-new-generation/",
+              "snapshotHash": "27cd0d74b34e4dbe04c9f8744352f3b85b369ceff028cc42b5de4c27f6bca615",
+              "facts": [
+                {
+                  "statement": "奖项将由10位国际摄影师竞争。",
+                  "quote": "10 international photographers compete for €20,000"
+                },
+                {
+                  "statement": "奖项包含两万欧元奖金和委托项目。",
+                  "quote": "a commissioned photography project for Pull&Bear"
+                }
+              ],
+              "visualMethod": "编辑分析：品牌把资助、委托、展览和节展曝光串成一条新人扶持路径，但不等于对作品风格的指导。",
+              "application": "创作建议：参加类似机会时先整理个人项目陈述、预算和授权边界；将品牌委托目标与自己的长期作品分开记录。",
+              "visualTags": [
+                "叙事",
+                "空间"
+              ],
+              "limitation": "主要是品牌与活动预告，未核验评审结果、委托作品或实际资助效果；不把晚宴布景当成摄影方法。"
+            }
+          },
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-w-korea-1dn2h91",
+          "previous": {
+            "analyzedAt": "2026-07-22T04:33:37.298Z",
+            "chineseSummary": "W Korea 的评论描述完全黑场、流星尘与身体运动，展现雕塑和舞蹈边界消融的强视觉现场。",
+            "chineseTitle": "Kohei Nawa 与 Damien Jalet 的黑暗舞台把雕塑和舞蹈融成宇宙景观",
+            "contentHash": "sha1:3df60e00c4db57f1e74a5514ec09d09866ab74d2",
+            "itemId": "visual-w-korea-1dn2h91",
+            "model": "codex-agent",
+            "primaryTopic": "exhibition",
+            "promptVersion": "visual-daily-v1",
+            "score": 91,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 18,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 27
+            },
+            "selectionRationale": "视觉方法、文化议题和专业参考价值都很明确，适合作为今日重点。",
+            "status": "success",
+            "trendKeywords": [
+              "雕塑舞蹈",
+              "黑暗舞台",
+              "宇宙景观"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T01:04:17.000Z",
+            "chineseSummary": "W Korea介绍Kohei Nawa与Damien Jalet的舞台作品《Planet》：全黑空间、黑色颗粒、雾与白色液体构成不断变化的环境，8位舞者在其中移动、失衡并重新站起。雕塑材料与身体动作被作为同一空间语言处理。",
+            "chineseTitle": "《Planet》：让黑暗、颗粒和群体运动构成一颗可感知的行星",
+            "contentHash": "sha1:3df60e00c4db57f1e74a5514ec09d09866ab74d2",
+            "itemId": "visual-w-korea-1dn2h91",
+            "model": "codex-agent",
+            "primaryTopic": "creator",
+            "promptVersion": "visual-daily-v1",
+            "score": 85,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 17,
+              "professionalRelevance": 19,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 27
+            },
+            "selectionRationale": "舞台材料、照明和群体动作都有明确描述，适合参考沉浸式影像和空间叙事。",
+            "status": "success",
+            "trendKeywords": [
+              "舞台空间",
+              "黑暗布光",
+              "群体动作"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.wkorea.com/2026/07/21/%ec%84%b1%ec%8b%a4%ed%95%9c-%eb%b0%a9%eb%9e%91%ec%9e%90%ec%97%90-%eb%8c%80%ed%95%9c-%ed%83%90%ea%b5%ac-%ec%bd%94%ed%97%a4%ec%9d%b4-%eb%82%98%ec%99%80%eb%8b%a4%eb%af%b8%ec%95%b5-%ec%9e%98/",
+              "snapshotHash": "bfc8df374a1553f047792831fc02da4990dde98f0b51ec736c72e3e7b5ed0ae1",
+              "facts": [
+                {
+                  "statement": "作品从完全黑暗中的三次冲击声开始。",
+                  "quote": "완벽한 암흑에 잠긴 공연장"
+                },
+                {
+                  "statement": "舞台上有8名舞者。",
+                  "quote": "유성진처럼 반짝이는 검은 모래가 깔린 무대에서"
+                }
+              ],
+              "visualMethod": "编辑分析：先限制视觉信息，再用颗粒、雾、液体和群体运动逐层建立环境，让身体成为空间尺度的测量工具。",
+              "application": "创作建议：在安全场地用低照度、可控雾效和黑色地面做三段动作测试；固定摄影曝光，分别记录聚集、分散和跌倒后的空间关系。",
+              "visualTags": [
+                "空间",
+                "布光",
+                "动态影像"
+              ],
+              "limitation": "依据韩文媒体文章，未实地观看演出或核验材料安全；神话与生命演化是编辑语境，不是科学说明。"
+            }
+          },
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-its-nice-that-j4ws0g",
+          "previous": {
+            "analyzedAt": "2026-07-22T04:33:37.298Z",
+            "chineseSummary": "Its Nice That 解析导演如何用真实 jousters、加油站和游戏怀旧制造音乐视频世界观，是强影像制作案例。",
+            "chineseTitle": "Pablo Rochat 把亚特兰大郊区变成 Phoebe Bridgers MV 的中世纪幻想",
+            "contentHash": "sha1:557b0606092739d8ee3ce8c41bff34bfb42c5879",
+            "itemId": "visual-its-nice-that-j4ws0g",
+            "model": "codex-agent",
+            "primaryTopic": "creator",
+            "promptVersion": "visual-daily-v1",
+            "score": 90,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 18,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 26
+            },
+            "selectionRationale": "视觉方法、文化议题和专业参考价值都很明确，适合作为今日重点。",
+            "status": "success",
+            "trendKeywords": [
+              "音乐视频",
+              "中世纪幻想",
+              "世界观搭建"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T01:04:17.000Z",
+            "chineseSummary": "Pablo Rochat与Lance Oppenheim为Phoebe Bridgers制作音乐视频，把加油站、废车场和烤肉场景与骑士、精灵女王和文艺复兴集市表演者并置。影片让幻想角色在日常郊区环境中按真实规则行动，而不是把场景完全搬入虚构世界。",
+            "chineseTitle": "Pablo Rochat：把亚特兰大郊区拍成真实发生的中世纪幻想",
+            "contentHash": "sha1:557b0606092739d8ee3ce8c41bff34bfb42c5879",
+            "itemId": "visual-its-nice-that-j4ws0g",
+            "model": "codex-agent",
+            "primaryTopic": "creator",
+            "promptVersion": "visual-daily-v1",
+            "score": 82,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 15,
+              "professionalRelevance": 19,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 26
+            },
+            "selectionRationale": "具体场景、真人表演者和类型混搭清晰，适合研究低成本场景如何承载奇幻叙事。",
+            "status": "success",
+            "trendKeywords": [
+              "类型混搭",
+              "郊区幻想",
+              "音乐视频"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.itsnicethat.com/articles/pablo-rochat-lost-boys-film-animation-project-210726",
+              "snapshotHash": "049acf0d6513f580cac4bbd9c8d9d763be7aa6e46103be227c8ff40b1cb7c773",
+              "facts": [
+                {
+                  "statement": "影片使用了真实的文艺复兴表演者。",
+                  "quote": "real Renaissance performers"
+                },
+                {
+                  "statement": "影片把亚特兰大郊区变成中世纪幻想。",
+                  "quote": "turning suburban Atlanta into a medieval fantasy"
+                }
+              ],
+              "visualMethod": "编辑分析：保留普通场所的真实纹理，再用角色、服装和字体把观众带入另一个类型世界，反差本身成为叙事动力。",
+              "application": "创作建议：选一个日常地点，只加入三件可控的类型道具和一套角色动作；先拍现实版，再拍幻想版，对比哪些元素真正改变了观看。",
+              "visualTags": [
+                "空间",
+                "动态影像",
+                "叙事"
+              ],
+              "limitation": "依据项目采访，未逐镜核验成片和版权授权；不能把文艺复兴表演者参与理解为整个社区的共同创作。"
+            }
+          },
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-its-nice-that-j4ws0g",
+          "imageAdded": "https://m.itsnicethat.com/original_images/_I3A3146_final_sRGB.jpeg?class=w1440",
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-its-nice-that-1orqujn",
+          "previous": {
+            "analyzedAt": "2026-07-22T04:33:37.298Z",
+            "chineseSummary": "蒙特利尔设计工作室将 lettering、版式、身份和海报整合，说明文字本身也可以成为图像系统。",
+            "chineseTitle": "Supersystème 把字体当作图像来建立完整视觉世界",
+            "contentHash": "sha1:c1438325979661bb57505c473e768c20c67056dc",
+            "itemId": "visual-its-nice-that-1orqujn",
+            "model": "codex-agent",
+            "primaryTopic": "creator",
+            "promptVersion": "visual-daily-v1",
+            "score": 89,
+            "scoreBreakdown": {
+              "informationSpecificity": 13,
+              "novelty": 18,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 4,
+              "visualInspiration": 27
+            },
+            "selectionRationale": "视觉方法、文化议题和专业参考价值都很明确，适合作为今日重点。",
+            "status": "success",
+            "trendKeywords": [
+              "字体即图像",
+              "视觉身份",
+              "版式系统"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T01:04:17.000Z",
+            "chineseSummary": "蒙特利尔工作室Supersystème把字母放大、转向、拆分并嵌入海报网格，使字体不再只是文字载体。工作室关注排版干预如何把视觉概念、图像和语境连接起来，并在资源有限的文化项目中建立可调整的系统。",
+            "chineseTitle": "Supersystème：让字体同时作为语言、图像和语境连接器",
+            "contentHash": "sha1:c1438325979661bb57505c473e768c20c67056dc",
+            "itemId": "visual-its-nice-that-1orqujn",
+            "model": "codex-agent",
+            "primaryTopic": "creator",
+            "promptVersion": "visual-daily-v1",
+            "score": 84,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 16,
+              "professionalRelevance": 20,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 26
+            },
+            "selectionRationale": "字体方法和设计限制都有正文依据，适合直接转化为版式实验。",
+            "status": "success",
+            "trendKeywords": [
+              "字体图像化",
+              "版式系统",
+              "文化设计"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.itsnicethat.com/articles/supersyteme-graphic-design-discover-210726",
+              "snapshotHash": "36fbb914622939294789b4fbfa1b93e57b83ba861ee4d132c23ef1282bd97bee",
+              "facts": [
+                {
+                  "statement": "工作室追问字体如何同时作为语言和图像。",
+                  "quote": "how can typography operate simultaneously as language and image?"
+                },
+                {
+                  "statement": "他们让字体连接视觉概念、图像和语境。",
+                  "quote": "typographic interventions connect visual concepts, images and context"
+                }
+              ],
+              "visualMethod": "编辑分析：把文字的形状、方向和阅读顺序作为内容的一部分，让排版产生单靠文字或图像都无法提供的新读法。",
+              "application": "创作建议：选一段短标题做三版：可读优先、图像优先、两者平衡；记录每版牺牲和获得的信息，不用复杂效果掩盖字义。",
+              "visualTags": [
+                "字体",
+                "构图",
+                "叙事"
+              ],
+              "limitation": "依据工作室采访，未核验具体项目的完整制作文件或传播效果；“资源有限”是设计语境，不代表所有文化机构都有相同条件。"
+            }
+          },
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-its-nice-that-1orqujn",
+          "imageAdded": "https://m.itsnicethat.com/original_images/5-Supersysteme-Offta-2025.jpg?class=w1440",
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-wallpaper-xk3qme",
+          "previous": {
+            "analyzedAt": "2026-07-22T04:33:37.298Z",
+            "chineseSummary": "Getty Foundation 与 National Trust 项目为五处黑人现代主义相关建筑提供保护资金，兼具建筑、历史和视觉档案价值。",
+            "chineseTitle": "Conserving Black Modernism 保护黑人建筑师设计遗产",
+            "contentHash": "sha1:85f02b0aee66e3cae73863d5f265859170bd7009",
+            "itemId": "visual-wallpaper-xk3qme",
+            "model": "codex-agent",
+            "primaryTopic": "exhibition",
+            "promptVersion": "visual-daily-v1",
+            "score": 88,
+            "scoreBreakdown": {
+              "informationSpecificity": 13,
+              "novelty": 18,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 4,
+              "visualInspiration": 26
+            },
+            "selectionRationale": "视觉方法、文化议题和专业参考价值都很明确，适合作为今日重点。",
+            "status": "success",
+            "trendKeywords": [
+              "黑人现代主义",
+              "建筑保护",
+              "设计遗产"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T01:04:17.000Z",
+            "chineseSummary": "Wallpaper介绍Getty基金会与National Trust合作的Conserving Black Modernism项目，为5处由黑人建筑师或设计师参与的历史地点提供保护资助。Central City Plaza等场所的价值既包括建筑形式，也包括黑人商业、社群和公共生活的历史。",
+            "chineseTitle": "Conserving Black Modernism：用资助机制保护被忽视的现代建筑",
+            "contentHash": "sha1:85f02b0aee66e3cae73863d5f265859170bd7009",
+            "itemId": "visual-wallpaper-xk3qme",
+            "model": "codex-agent",
+            "primaryTopic": "exhibition",
+            "promptVersion": "visual-daily-v1",
+            "score": 75,
+            "scoreBreakdown": {
+              "informationSpecificity": 13,
+              "novelty": 14,
+              "professionalRelevance": 18,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 22
+            },
+            "selectionRationale": "项目对象、资助机制和历史语境具体，但属于保护新闻而非可直接模仿的视觉作品。",
+            "status": "success",
+            "trendKeywords": [
+              "建筑保护",
+              "现代主义",
+              "文化档案"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.wallpaper.com/architecture/consrving-black-modernism-grant-2026",
+              "snapshotHash": "8abd1b7025eb884b3429ba1234478f261e39e2a39b23750e8ca516d0fa820377",
+              "facts": [
+                {
+                  "statement": "本轮资助对象包括5处具有历史意义的地点。",
+                  "quote": "four other historically-significant sites designed by Black architects and designers"
+                },
+                {
+                  "statement": "项目自启动以来已分配超过485万美元。",
+                  "quote": "more than $4.85 million in funding"
+                }
+              ],
+              "visualMethod": "编辑分析：把建筑维护、社区记忆和档案叙事放在同一项目框架中，提醒视觉文化项目先确认地点的历史主体。",
+              "application": "创作建议：做场地视觉研究时同时建立建筑细节、使用者历史和现存风险三栏档案；先核对社区与版权，再决定拍摄和展示方式。",
+              "visualTags": [
+                "空间",
+                "叙事",
+                "材质"
+              ],
+              "limitation": "报道以基金会和保护组织信息为主，未核验每处地点的修复进度或长期效果；资助金额不等于项目已经完成。"
+            }
+          },
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-w-magazine-te5zd",
+          "previous": {
+            "analyzedAt": "2026-07-22T04:33:37.298Z",
+            "chineseSummary": "Prada 让 Barry Jenkins 拍 Hunter Schafer 与 Troye Sivan，说明时装广告正在更明确借导演作者性提升叙事密度。",
+            "chineseTitle": "Barry Jenkins 执导 Prada 广告，秋冬 campaign 继续电影化",
+            "contentHash": "sha1:82834d70b8a56ca149dc8099c37a37fa8f8cdcfe",
+            "itemId": "visual-w-magazine-te5zd",
+            "model": "codex-agent",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 87,
+            "scoreBreakdown": {
+              "informationSpecificity": 13,
+              "novelty": 17,
+              "professionalRelevance": 17,
+              "sourceQuality": 9,
+              "timeliness": 4,
+              "visualInspiration": 27
+            },
+            "selectionRationale": "视觉方法、文化议题和专业参考价值都很明确，适合作为今日重点。",
+            "status": "success",
+            "trendKeywords": [
+              "Prada广告",
+              "导演作者性",
+              "时装影像"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T01:04:17.000Z",
+            "chineseSummary": "W Magazine汇总多组秋冬广告，包括Burberry在四座城市拍摄170位人物、Maison Margiela以遮脸面具讨论身份，以及Chanel用聚会场景呈现系列。它更像广告案例索引，适合比较品牌如何用人物和地点组织系列叙事。",
+            "chineseTitle": "2026秋冬广告：用城市肖像与角色化场景重述品牌经典",
+            "contentHash": "sha1:82834d70b8a56ca149dc8099c37a37fa8f8cdcfe",
+            "itemId": "visual-w-magazine-te5zd",
+            "model": "codex-agent",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 60,
+            "scoreBreakdown": {
+              "informationSpecificity": 12,
+              "novelty": 8,
+              "professionalRelevance": 15,
+              "sourceQuality": 7,
+              "timeliness": 0,
+              "visualInspiration": 18
+            },
+            "selectionRationale": "正文覆盖多个广告案例，但缺少单个项目的完整制作细节，推荐强度应低于深度采访。",
+            "status": "success",
+            "trendKeywords": [
+              "广告叙事",
+              "城市肖像",
+              "角色化场景"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.wmagazine.com/fashion/best-fall-winter-2026-campaigns",
+              "snapshotHash": "fcaa57d01fde1b88b852db4ccbc6acaabf02bcf0301845f8e92f506fcfb3b81f",
+              "facts": [
+                {
+                  "statement": "Burberry在伦敦、纽约、首尔和上海拍摄170人。",
+                  "quote": "170 individuals across London, New York, Seoul, and Shanghai"
+                },
+                {
+                  "statement": "报道把这些人物放在各自生活的城市街道上拍摄。",
+                  "quote": "each individual shot on the city street they call home"
+                }
+              ],
+              "visualMethod": "编辑分析：用人物多样性和城市地点把经典产品从静态档案转成群像叙事，但不同广告的视觉方法不能混为一谈。",
+              "application": "创作建议：选一个产品做三种城市人物肖像，统一构图与信息层级，再分别改变地点和人物动作；注明哪些是品牌事实、哪些是你的二次创作。",
+              "visualTags": [
+                "构图",
+                "空间",
+                "叙事"
+              ],
+              "limitation": "这是多品牌广告汇编，不是单一项目的制作复盘；未核验所有广告的完整图片、预算或效果，不据此判断趋势已成立。"
+            }
+          },
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-w-magazine-te5zd",
+          "field": "postedAt",
+          "previous": "2026-07-21T14:29:29.000Z",
+          "corrected": "2026-10-15T17:27:34.052Z",
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-british-vogue-1hx832q",
+          "previous": {
+            "analyzedAt": "2026-07-22T04:33:37.298Z",
+            "chineseSummary": "British Vogue 进入最终试装现场，婚纱与 Matières Fécales 的怪诞美学结合，展示新娘形象如何从浪漫转向亚文化身体。",
+            "chineseTitle": "Gabbriette 的 Matières Fécales 婚纱试装拒绝传统新娘图像",
+            "contentHash": "sha1:f3bb989ba0751ad27ebe76e64dbf2ad43e4845a4",
+            "itemId": "visual-british-vogue-1hx832q",
+            "model": "codex-agent",
+            "primaryTopic": "fashion_culture",
+            "promptVersion": "visual-daily-v1",
+            "score": 86,
+            "scoreBreakdown": {
+              "informationSpecificity": 13,
+              "novelty": 17,
+              "professionalRelevance": 17,
+              "sourceQuality": 9,
+              "timeliness": 4,
+              "visualInspiration": 26
+            },
+            "selectionRationale": "视觉方法、文化议题和专业参考价值都很明确，适合作为今日重点。",
+            "status": "success",
+            "trendKeywords": [
+              "非传统婚纱",
+              "亚文化新娘",
+              "试装影像"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T01:04:17.000Z",
+            "chineseSummary": "British Vogue记录Gabbriette在巴黎试穿Matières Fecales的三套婚礼造型：一套以她已有的黑色Martin Margiela连衣裙为基础，一套为皮革两件套，主婚纱使用手工褶裥白色丝质塔夫绸。重点是旧衣、私人审美和定制工艺的结合，而非传统白色婚纱规范。",
+            "chineseTitle": "Gabbriette婚礼造型：用旧Margiela、薄纱与手工褶裥保留个人叙事",
+            "contentHash": "sha1:f3bb989ba0751ad27ebe76e64dbf2ad43e4845a4",
+            "itemId": "visual-british-vogue-1hx832q",
+            "model": "codex-agent",
+            "primaryTopic": "styling",
+            "promptVersion": "visual-daily-v1",
+            "score": 77,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 13,
+              "professionalRelevance": 18,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 24
+            },
+            "selectionRationale": "工艺和旧衣再设计有明确正文依据，适合作为造型方法案例。",
+            "status": "success",
+            "trendKeywords": [
+              "旧衣再设计",
+              "婚礼造型",
+              "手工褶裥"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.vogue.co.uk/article/gabbriette-wedding-dresses-matty-healy",
+              "snapshotHash": "9d682830b81f52bb12a2ea9d5548a41df34ca3518afced88043632d1458a35e7",
+              "facts": [
+                {
+                  "statement": "第一套造型使用了她原有的黑色Martin Margiela古着裙。",
+                  "quote": "vintage black Martin Margiela dress"
+                },
+                {
+                  "statement": "主婚纱使用手工打褶的白色丝质塔夫绸。",
+                  "quote": "white silk taffeta that has been hand pleated"
+                }
+              ],
+              "visualMethod": "编辑分析：保留个人衣橱中的旧物作为叙事核心，再用薄纱、皮革和褶裥改变仪式感与轮廓。",
+              "application": "创作建议：从一件旧衣出发做可拆卸薄纱或褶裥样片，拍改造前后和细节；先确认版权、旧衣所有权与穿着安全。",
+              "visualTags": [
+                "材质",
+                "工艺",
+                "叙事"
+              ],
+              "limitation": "依据试装报道，未核验实际成衣工时、舒适性或最终婚礼现场；名人定制不能直接代表整体婚礼趋势。"
+            }
+          },
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-british-vogue-1hx832q",
+          "field": "postedAt",
+          "previous": "2026-07-21T17:23:26.000Z",
+          "corrected": "2026-07-21T17:23:26.910Z",
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-dazed-r0bonc",
+          "previous": {
+            "analyzedAt": "2026-07-22T04:33:37.298Z",
+            "chineseSummary": "Dazed 以照片和访谈记录 cult goth 品牌与 Batcave 的重启，亚文化、夜店和服装图像都很清晰。",
+            "chineseTitle": "Pure Sex England 重启：80 年代 goth 夜生活正在回到品牌现场",
+            "contentHash": "sha1:007314f97b7ee5178fb0e3a842416d784d6f9bc7",
+            "itemId": "visual-dazed-r0bonc",
+            "model": "codex-agent",
+            "primaryTopic": "fashion_culture",
+            "promptVersion": "visual-daily-v1",
+            "score": 86,
+            "scoreBreakdown": {
+              "informationSpecificity": 13,
+              "novelty": 17,
+              "professionalRelevance": 17,
+              "sourceQuality": 9,
+              "timeliness": 4,
+              "visualInspiration": 26
+            },
+            "selectionRationale": "视觉方法、文化议题和专业参考价值都很明确，适合作为今日重点。",
+            "status": "success",
+            "trendKeywords": [
+              "goth复兴",
+              "夜店文化",
+              "亚文化品牌"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T01:04:17.000Z",
+            "chineseSummary": "Dazed回顾Batcave俱乐部与Pure Sex England复兴，强调当年的DIY聚会、传单和非正式社群如何形成风格。重新发布不是复刻过去，而是从历史意识中取材、为当代参与者重新组织服装和空间。",
+            "chineseTitle": "Pure Sex与Batcave：把反叛档案取回当下，而不是复制80年代",
+            "contentHash": "sha1:007314f97b7ee5178fb0e3a842416d784d6f9bc7",
+            "itemId": "visual-dazed-r0bonc",
+            "model": "codex-agent",
+            "primaryTopic": "fashion_culture",
+            "promptVersion": "visual-daily-v1",
+            "score": 72,
+            "scoreBreakdown": {
+              "informationSpecificity": 13,
+              "novelty": 13,
+              "professionalRelevance": 16,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 22
+            },
+            "selectionRationale": "正文把历史档案、空间与当代复兴连在一起，适合观察亚文化如何避免博物馆化。",
+            "status": "success",
+            "trendKeywords": [
+              "亚文化档案",
+              "DIY空间",
+              "复兴设计"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.dazeddigital.com/fashion/article/70676/1/pure-sex-england-photos-relaunch-cult-80s-goth-brand-batcave-boy-london?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=pure-sex-photos-from-the-relaunch-of-the-cult-80s-goth-brand",
+              "snapshotHash": "1fb9913c7c9bc3d12e681254409a77b6b2e074902fb87d3ed166c6a6f2b18f2b",
+              "facts": [
+                {
+                  "statement": "Batcave最初是给乐队Specimen演出的DIY聚会。",
+                  "quote": "he wanted a DIY hangout for his band Specimen to play"
+                },
+                {
+                  "statement": "Pure Sex创办人说要取用过去的部分意识形态用于当下。",
+                  "quote": "take parts of it and use the ideology for the present"
+                }
+              ],
+              "visualMethod": "编辑分析：不是复制旧标志，而是把聚会、低门槛和参与者自定义样式作为可延续的组织逻辑。",
+              "application": "创作建议：做一个小型社群拍摄或展览时，先让参与者共同定义规则和图像边界；用档案材料说明来源，不把亚文化符号变成无语境装饰。",
+              "visualTags": [
+                "空间",
+                "叙事",
+                "材质"
+              ],
+              "limitation": "依据采访和活动报道，未现场核验复兴活动的参与结构或商业影响；历史人物观点不代表全部当代参与者。"
+            }
+          },
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-dazed-r0bonc",
+          "imageAdded": "https://images-prod.dazeddigital.com/1200/0-615-2000-1333/azure/dazed-prod/1450/0/1450052.jpg",
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        }
+      ]
+    },
+    {
+      "issueId": "2026-07-17",
+      "changes": [
+        {
+          "itemId": "visual-aputure-9aw6ku",
+          "previous": {
+            "analyzedAt": "2026-07-17T10:16:38.988Z",
+            "chineseSummary": "Aputure 的 Sidus Link Pro 2.2 引入 Layout View，让灯具布局贴近真实片场位置并提供实时预览。它把灯光控制从参数列表转为可视化空间界面，对拍摄现场效率很有价值。",
+            "chineseTitle": "Sidus Link Pro 2.2 用 Layout View 把灯光控制变成视觉网格",
+            "contentHash": "sha1:109ff98bb966d398ad27eb6735e650a31b3b199b",
+            "itemId": "visual-aputure-9aw6ku",
+            "model": "codex-agent",
+            "primaryTopic": "tool",
+            "promptVersion": "visual-daily-v1",
+            "score": 91,
+            "scoreBreakdown": {
+              "informationSpecificity": 13,
+              "novelty": 18,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "具体功能明确，直接影响摄影/影视灯光工作流，专业价值高。",
+            "status": "success",
+            "trendKeywords": [
+              "灯光控制",
+              "Sidus Link",
+              "片场可视化"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T01:04:17.000Z",
+            "chineseSummary": "Aputure介绍Sidus Link Pro 2.2新增Layout View：用户把灯具按现场位置放进网格，通过空间关系控制设备；Pro和MAX还支持回放时的实时预览和布局内像素控制。它解决的是现场控制的可视化与选择效率，不等于画面质量自动提升。",
+            "chineseTitle": "Sidus Link Pro 2.2：用灯具布局视图减少现场控制错误",
+            "contentHash": "sha1:109ff98bb966d398ad27eb6735e650a31b3b199b",
+            "itemId": "visual-aputure-9aw6ku",
+            "model": "codex-agent",
+            "primaryTopic": "tool",
+            "promptVersion": "visual-daily-v1",
+            "score": 70,
+            "scoreBreakdown": {
+              "informationSpecificity": 13,
+              "novelty": 12,
+              "professionalRelevance": 17,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 20
+            },
+            "selectionRationale": "功能描述具体，适合有多灯具现场的团队评估，但属于厂商产品介绍。",
+            "status": "success",
+            "trendKeywords": [
+              "灯光控制",
+              "空间布局",
+              "实时预览"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://aputure.com/en-US/articles/whats-new-in-sidus-link-pro-2-2",
+              "snapshotHash": "5747685537b5b6070eeb2fc51849eedadc5dd5820da7bb229b9051dbe9d21955",
+              "facts": [
+                {
+                  "statement": "Layout View让用户按灯具在现场的位置排列设备。",
+                  "quote": "arrange their fixtures in a grid matching their physical set"
+                },
+                {
+                  "statement": "Pro和MAX支持回放时的实时视觉预览。",
+                  "quote": "realtime visual preview during cue playback"
+                }
+              ],
+              "visualMethod": "编辑分析：把设备列表转成现场平面关系，降低控制界面与实际布光空间之间的认知切换。",
+              "application": "创作建议：先用纸面或软件画出灯位网格，再比较列表控制与空间控制各自的误选次数；涉及像素和电气操作时按设备说明与现场安全规范执行。",
+              "visualTags": [
+                "空间",
+                "布光"
+              ],
+              "limitation": "信息来自厂商产品页，未独立测试兼容设备、预览延迟或控制稳定性；不能把功能说明当作性能认证。"
+            }
+          },
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-palais-galliera-nsswhw",
+          "genericImageRemoved": "https://www.palaisgalliera.paris.fr/sites/default/files/styles/metatag/public/images/2025-09/2025%20Martin%20Margiela%20exh%20Oo%CC%84Eli_Poster.jpg?h=d94088b7&itok=N_2I4-PN",
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-palais-galliera-wulbnw",
+          "genericImageRemoved": "https://www.palaisgalliera.paris.fr/sites/default/files/styles/metatag/public/images/2024-09/roversi-molly-1-659e7050226c0672071781-1.jpg?h=6b9bf2e9&itok=IB5ZYDtS",
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-runway-1endmth",
+          "previous": {
+            "analyzedAt": "2026-07-17T10:16:38.988Z",
+            "chineseSummary": "Runway 的长期研究方向把重点放在“理解视觉世界及其动态”，意味着 AI 影像工具不只是生成镜头，而是走向可预测、可模拟的世界模型。这对视频创作、预演和视觉叙事工具链影响很大。",
+            "chineseTitle": "Runway 提出 General World Models：AI 影像从生成画面转向理解世界",
+            "contentHash": "sha1:7ec4d92155232767d071bd879b1709173e6a2326",
+            "itemId": "visual-runway-1endmth",
+            "model": "codex-agent",
+            "primaryTopic": "tool",
+            "promptVersion": "visual-daily-v1",
+            "score": 91,
+            "scoreBreakdown": {
+              "informationSpecificity": 13,
+              "novelty": 18,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "AI 影像研究方向明确且前沿，对视觉创作工具和电影工作流高度相关。",
+            "status": "success",
+            "trendKeywords": [
+              "世界模型",
+              "AI视频",
+              "Runway Research"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T01:04:17.000Z",
+            "chineseSummary": "Runway文章把general world model解释为能在环境中建立内部表示、模拟未来事件的AI系统，并指出需要解决环境地图、导航交互和人类行为建模等问题。它是研究方向说明，不是已发布的可用产品。",
+            "chineseTitle": "Runway General World Models：从短视频生成走向环境与行为模拟",
+            "contentHash": "sha1:7ec4d92155232767d071bd879b1709173e6a2326",
+            "itemId": "visual-runway-1endmth",
+            "model": "codex-agent",
+            "primaryTopic": "tool",
+            "promptVersion": "visual-daily-v1",
+            "score": 72,
+            "scoreBreakdown": {
+              "informationSpecificity": 12,
+              "novelty": 15,
+              "professionalRelevance": 18,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 19
+            },
+            "selectionRationale": "研究问题表述清楚，可帮助团队区分世界模型概念与现有短视频生成工具。",
+            "status": "success",
+            "trendKeywords": [
+              "世界模型",
+              "环境模拟",
+              "AI影像研究"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://runwayml.com/research/introducing-general-world-models",
+              "snapshotHash": "ba688a3eda58e589350bc570d6953f83192614606542cc25ec3dd46361cec7de",
+              "facts": [
+                {
+                  "statement": "目标是模拟广泛的现实情境与互动。",
+                  "quote": "represent and simulate a wide range of situations and interactions"
+                },
+                {
+                  "statement": "研究需要生成一致的环境地图。",
+                  "quote": "generate consistent maps of the environment"
+                }
+              ],
+              "visualMethod": "编辑分析：核心转变不是单帧画面更逼真，而是让环境、对象和行为在连续状态中保持关系。",
+              "application": "创作建议：在概念阶段先画出场景状态、对象变化和摄像机路径，再决定是否需要生成式工具；把研究愿景和已验证能力分开标注。",
+              "visualTags": [
+                "动态影像",
+                "空间",
+                "叙事"
+              ],
+              "limitation": "依据Runway研究说明，未独立测试模型或获得产品体验；文章明确列出挑战，不能写成已解决的技术能力。"
+            }
+          },
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-vogue-korea-18flwq5",
+          "previous": {
+            "analyzedAt": "2026-07-17T10:16:38.988Z",
+            "chineseSummary": "Vogue Korea 介绍 Julian Opie 在蔚山的个展，强调他把人和城市景观还原为线条、色块和类似 pictogram 的图像系统。它对平面视觉、公共图像和身份匿名化很有参考价值。",
+            "chineseTitle": "Julian Opie 个展把城市人群压缩成图标化视觉语言",
+            "contentHash": "sha1:ecae2e4f84c0d3f4706b34fe38663342f0501b39",
+            "itemId": "visual-vogue-korea-18flwq5",
+            "model": "codex-agent",
+            "primaryTopic": "exhibition",
+            "promptVersion": "visual-daily-v1",
+            "score": 91,
+            "scoreBreakdown": {
+              "informationSpecificity": 13,
+              "novelty": 18,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "艺术家视觉语言清晰，和图像系统、城市观看直接相关。",
+            "status": "success",
+            "trendKeywords": [
+              "Julian Opie",
+              "图标化人物",
+              "城市视觉语言"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T01:04:17.000Z",
+            "chineseSummary": "Vogue Korea介绍Julian Opie在울산市立美术馆的个展：户外LED塔和水平屏幕重复呈现人物动作，VR作品把观众带入重新想象的威尼斯空间。文章强调简单线条如何让观众把自身经验投射到匿名人物上。",
+            "chineseTitle": "Julian Opie在울산：用简化人物、LED屏幕与VR扩展城市观看",
+            "contentHash": "sha1:ecae2e4f84c0d3f4706b34fe38663342f0501b39",
+            "itemId": "visual-vogue-korea-18flwq5",
+            "model": "codex-agent",
+            "primaryTopic": "exhibition",
+            "promptVersion": "visual-daily-v1",
+            "score": 74,
+            "scoreBreakdown": {
+              "informationSpecificity": 13,
+              "novelty": 13,
+              "professionalRelevance": 17,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 23
+            },
+            "selectionRationale": "展览的屏幕、VR与简化图形方法具体，但部分解释来自评论者，不应写成艺术家自述。",
+            "status": "success",
+            "trendKeywords": [
+              "LED装置",
+              "虚拟现实",
+              "人物简化"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.vogue.co.kr/2026/07/17/%ec%9d%b5%eb%aa%85%ec%9d%98-%ea%b5%b0%ec%a4%91%ec%9c%bc%eb%a1%9c-%ec%82%b4%ec%95%84%ea%b0%80%ea%b8%b0-%ec%a4%84%eb%a6%ac%ec%95%88-%ec%98%a4%ed%94%bc-%ea%b0%9c%ec%9d%b8%ec%a0%84/",
+              "snapshotHash": "3153256b8d23027a22bd8aa1d3c8b31717e509aa76c1d84c5ae2f9692b9ca218",
+              "facts": [
+                {
+                  "statement": "户外作品由垂直LED塔和水平媒体屏幕构成。",
+                  "quote": "수직으로 솟은 LED 타워와 수평으로 펼쳐진 미디어 스크린"
+                },
+                {
+                  "statement": "展览包含把观众带入威尼斯的VR装置。",
+                  "quote": "오피.VR/베니스@울산"
+                }
+              ],
+              "visualMethod": "编辑分析：用重复的简化人物和屏幕方向制造节奏，再通过VR把平面图形转为可行走的城市空间。",
+              "application": "创作建议：用两种屏幕方向重复同一组动作，先在平面上测试节奏，再做一个小型可行走空间；记录观众是否能区分人物、背景和投射。",
+              "visualTags": [
+                "空间",
+                "动态影像",
+                "构图"
+              ],
+              "limitation": "依据韩文报道，未实地测试VR或屏幕内容；文章的心理解读是编辑和作者观点，不等同于观众普遍体验。"
+            }
+          },
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-wallpaper-1on134g",
+          "previous": {
+            "analyzedAt": "2026-07-17T10:16:38.988Z",
+            "chineseSummary": "Wallpaper* 报道 Snøhetta 重新设计 Svalbard 的 Huset，用红色 linoleum、染色橡木和织物屏风回应极夜与午夜太阳。空间材料与环境叙事都很清晰。",
+            "chineseTitle": "Snøhetta 为世界最北 fine dining 餐厅引入极地昼夜对比",
+            "contentHash": "sha1:9653b99ba615df378e0a264a1a26f4fe8440b1c6",
+            "itemId": "visual-wallpaper-1on134g",
+            "model": "codex-agent",
+            "primaryTopic": "exhibition",
+            "promptVersion": "visual-daily-v1",
+            "score": 91,
+            "scoreBreakdown": {
+              "informationSpecificity": 13,
+              "novelty": 18,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "顶级建筑事务所、极地语境和材料细节完整，视觉启发强。",
+            "status": "success",
+            "trendKeywords": [
+              "Snøhetta",
+              "极地空间",
+              "餐厅设计"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T01:04:17.000Z",
+            "chineseSummary": "Snøhetta在斯瓦尔巴Longyearbyen的Huset改造中保留1951年建筑的历史层，使用染色橡木、石材、不锈钢和三层透明织物。织物形成moiré效果，随极地光线变化过滤窗外景观；项目通过已有材料与空间习惯建立新的餐厅体验。",
+            "chineseTitle": "Snøhetta改造Huset：用旧建筑、透明织物与极地光线组织餐厅体验",
+            "contentHash": "sha1:9653b99ba615df378e0a264a1a26f4fe8440b1c6",
+            "itemId": "visual-wallpaper-1on134g",
+            "model": "codex-agent",
+            "primaryTopic": "exhibition",
+            "promptVersion": "visual-daily-v1",
+            "score": 79,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 14,
+              "professionalRelevance": 19,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 24
+            },
+            "selectionRationale": "材料、光线和旧建筑再利用都有具体描述，适合空间叙事与室内拍摄参考。",
+            "status": "success",
+            "trendKeywords": [
+              "空间改造",
+              "透明织物",
+              "极地光线"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.wallpaper.com/travel/restaurants/huset-longyearbyen-svalbard-snohetta",
+              "snapshotHash": "4900fe15a12e9833f5b33364ed0dda84d7daa6919c331ae3953317eaa1a07aa3",
+              "facts": [
+                {
+                  "statement": "墙面使用三层透明织物制造moiré效果。",
+                  "quote": "three layers of transparent fabric"
+                },
+                {
+                  "statement": "Huset位于一座1951年建成的建筑中。",
+                  "quote": "building completed in 1951"
+                }
+              ],
+              "visualMethod": "编辑分析：不把旧建筑清空重做，而是让材料、历史痕迹和极端光照共同决定空间层次。",
+              "application": "创作建议：在已有空间里用两层或三层半透明材料测试视线和纹理变化；记录一天中光线变化，避免遮挡消防、通行和采光要求。",
+              "visualTags": [
+                "空间",
+                "材质",
+                "布光"
+              ],
+              "limitation": "依据媒体空间报道，未实地测量光照、声学或材料耐久性；餐厅体验和可持续效果未独立评估。"
+            }
+          },
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        }
+      ]
+    },
+    {
+      "issueId": "2026-07-16",
+      "changes": [
+        {
+          "itemId": "visual-wallpaper-43p045",
+          "previous": {
+            "analyzedAt": "2026-07-16T11:04:35.299Z",
+            "chineseSummary": "丹麦 ARoS 的《Unruly：The Body in Punk》以130多件摄影、电影、拼贴、装置和时尚档案，讨论1970至80年代伦敦、柏林、哥本哈根与奥胡斯的朋克身体。渔网、乳胶、PVC、束缚元素、姿态和表演并非装饰，而是对性别规范、审美秩序和政治控制的拒绝。展陈也避免消费化的“朋克风”，采用再利用材料、裸露螺丝和工业结构，把 DIY 精神落实到空间本身。",
+            "chineseTitle": "朋克不只是穿衣风格：ARoS 展览把身体重新定义为反抗工具",
+            "contentHash": "sha1:8b0d0a7e615515ed2ce3242df2f27f064db27e4e",
+            "itemId": "visual-wallpaper-43p045",
+            "model": "codex-agent-manual",
+            "primaryTopic": "fashion_culture",
+            "promptVersion": "visual-daily-v1",
+            "score": 97,
+            "scoreBreakdown": {
+              "informationSpecificity": 15,
+              "novelty": 20,
+              "professionalRelevance": 20,
+              "sourceQuality": 10,
+              "timeliness": 5,
+              "visualInspiration": 27
+            },
+            "selectionRationale": "可从服装、身体姿态、亚文化档案和展陈方法多层转化，是本批最完整的视觉文化信号之一。",
+            "status": "success",
+            "trendKeywords": [
+              "朋克身体",
+              "亚文化",
+              "DIY展陈",
+              "性别表演",
+              "时尚档案"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T01:04:17.000Z",
+            "chineseSummary": "ARoS的《Unruly – The Body in Punk》以超过130件作品讨论朋克如何通过服装、手势和表演把身体变成拒绝与自我发明的场所。展览不按时间线排布，而按DIY、地下场景、性别与身体等主题组织，并使用可再利用的橡胶帘、镜子和开放式金属架。",
+            "chineseTitle": "ARoS《Unruly》：把朋克理解为身体的抗议语言",
+            "contentHash": "sha1:8b0d0a7e615515ed2ce3242df2f27f064db27e4e",
+            "itemId": "visual-wallpaper-43p045",
+            "model": "codex-agent",
+            "primaryTopic": "exhibition",
+            "promptVersion": "visual-daily-v1",
+            "score": 81,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 15,
+              "professionalRelevance": 19,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 25
+            },
+            "selectionRationale": "策展结构与展陈材料都写得具体，可参考如何避免把亚文化做成光滑的风格展。",
+            "status": "success",
+            "trendKeywords": [
+              "朋克展览",
+              "身体政治",
+              "DIY展陈"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.wallpaper.com/art/exhibitions-shows/unruly-the-body-in-punk-aros-aarhus-review",
+              "snapshotHash": "511909ba83c31410ed6e297b3013cc604415753c89de07ac8d92e45a3792388f",
+              "facts": [
+                {
+                  "statement": "展览汇集超过130件作品。",
+                  "quote": "Bringing together more than 130 works"
+                },
+                {
+                  "statement": "策展团队希望避开陈词滥调的朋克美学。",
+                  "quote": "clich&eacute;d punk aesthetic"
+                }
+              ],
+              "visualMethod": "编辑分析：用身体作为主题线索，把服装、摄影、电影和展陈方式放进同一套抗议语言，而不是只复制钉子和黑色皮衣。",
+              "application": "创作建议：策划小型视觉档案时按问题而非年代分组，并使用可重复材料做展台；让每件作品的社会语境与视觉形式同时出现。",
+              "visualTags": [
+                "空间",
+                "叙事",
+                "材质"
+              ],
+              "limitation": "依据媒体评论与策展人引语，未实地观看展览；“朋克相关性”是评论判断，不代表所有观众共识。"
+            }
+          },
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-its-nice-that-xmj4d9",
+          "previous": {
+            "analyzedAt": "2026-07-16T11:04:35.299Z",
+            "chineseSummary": "Parallel Press 的《Astro Black》系统记录18位黑人宇航员、飞行员、科学家和工程师，通过访谈、照片、文章与数据，把黑人参与人类航天的历史从零散档案重新组织为可见的文化叙事。项目同时回应太空竞赛时期的种族张力，以及黑人社群对宇宙、未来主义和科技想象的长期兴趣。它不仅是人物名录，也展示出版设计如何承担保存、校正和传播被忽略历史的责任。",
+            "chineseTitle": "《Astro Black》：用出版设计补回18位黑人太空先驱的视觉历史",
+            "contentHash": "sha1:d33d62d33fa6e141da18daac8df716c9efad19d3",
+            "itemId": "visual-its-nice-that-xmj4d9",
+            "model": "codex-agent-manual",
+            "primaryTopic": "fashion_culture",
+            "promptVersion": "visual-daily-v1",
+            "score": 96,
+            "scoreBreakdown": {
+              "informationSpecificity": 15,
+              "novelty": 20,
+              "professionalRelevance": 20,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 27
+            },
+            "selectionRationale": "兼具档案、平面设计与文化价值，是非常完整的研究型出版案例。",
+            "status": "success",
+            "trendKeywords": [
+              "黑人太空史",
+              "档案设计",
+              "研究型出版",
+              "未来主义",
+              "视觉历史"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T01:04:17.000Z",
+            "chineseSummary": "Parallel Press的《Astro Black》以18位黑人宇航员为主题，使用公共领域太空图像、金属质感和黑色哑光封面组织出版物。分隔页把星座做成单色拼贴，页码和索引保留触感与阅读路径，强调“书不能被删除”的档案意识。",
+            "chineseTitle": "Parallel Press《Astro Black》：用黑色纸面、金属质感与索引保存黑人航天史",
+            "contentHash": "sha1:d33d62d33fa6e141da18daac8df716c9efad19d3",
+            "itemId": "visual-its-nice-that-xmj4d9",
+            "model": "codex-agent",
+            "primaryTopic": "magazine",
+            "promptVersion": "visual-daily-v1",
+            "score": 83,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 16,
+              "professionalRelevance": 20,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 25
+            },
+            "selectionRationale": "出版结构、图像来源和档案目标具体，适合研究摄影书的材质与信息设计。",
+            "status": "success",
+            "trendKeywords": [
+              "摄影出版",
+              "档案设计",
+              "黑色材质"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.itsnicethat.com/articles/parallel-press-astro-black-publication-graphic-design-project-160726",
+              "snapshotHash": "93e5a4b20079cb4c3b5970e1499ee728507662606a8e55fe97f5a757c36d0e89",
+              "facts": [
+                {
+                  "statement": "项目以18位黑人宇航员的成就为核心。",
+                  "quote": "these 18 Black astronauts"
+                },
+                {
+                  "statement": "团队采用公共领域的太空图像。",
+                  "quote": "public domain imagery of space"
+                }
+              ],
+              "visualMethod": "编辑分析：把档案内容、纸面触感和翻页节奏结合，让索引与分隔页本身成为空间旅行式的阅读装置。",
+              "application": "创作建议：为一个公共档案主题做小型册子，先列图像授权和人物索引，再用两种纸面、一个分隔系统测试阅读节奏。",
+              "visualTags": [
+                "材质",
+                "字体",
+                "叙事"
+              ],
+              "limitation": "依据出版项目介绍，未核验所有图片版权链、印刷工艺和销量；引用文化音乐与诗歌参考时需另行核对授权和语境。"
+            }
+          },
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-its-nice-that-xmj4d9",
+          "imageAdded": "https://m.itsnicethat.com/original_images/parallel-press-astro-black-graphic-design-itsnicethat-7.png?class=w1440",
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-tokyo-photo-museum-mwdks2",
+          "previous": {
+            "analyzedAt": "2026-07-16T11:04:35.299Z",
+            "chineseSummary": "东京都写真美术馆以展览与放映完整回顾日本实验电影、录像艺术先驱出光真子的创作。她从自身作为妻子与母亲的经验出发，借用电视和肥皂剧的语言，讨论母女关系、婚姻结构、家庭劳动以及女性作为创作者遭遇的社会摩擦。展览覆盖1970年代以来的重要录像作品、混合媒介与馆藏，并把早期女性主义影像放回今天关于身体、性别和媒介权力的讨论中。",
+            "chineseTitle": "出光真子大型回顾展：用录像拆解家庭、女性角色与媒介权力",
+            "contentHash": "sha1:516cc1e187bb3b0375b6f68c0c23db09fe948d15",
+            "itemId": "visual-tokyo-photo-museum-mwdks2",
+            "model": "codex-agent-manual",
+            "primaryTopic": "exhibition",
+            "promptVersion": "visual-daily-v1",
+            "score": 95,
+            "scoreBreakdown": {
+              "informationSpecificity": 15,
+              "novelty": 20,
+              "professionalRelevance": 20,
+              "sourceQuality": 10,
+              "timeliness": 5,
+              "visualInspiration": 25
+            },
+            "selectionRationale": "主题、媒介和历史厚度都很强，可为女性叙事、家庭空间和低技术录像语言提供直接参考。",
+            "status": "success",
+            "trendKeywords": [
+              "女性主义影像",
+              "录像艺术",
+              "家庭叙事",
+              "实验电影",
+              "出光真子"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T01:04:17.000Z",
+            "chineseSummary": "东京写真美术馆回顾出光真子的实验电影与视频作品，涵盖家庭、女性社会角色与媒体关系，并以展览和放映完整介绍馆藏作品。页面明确这是全影像展，并提供文字记录支持观众观看。",
+            "chineseTitle": "出光真子回顾展：用家庭、女性角色与影像媒介重新观看日常",
+            "contentHash": "sha1:516cc1e187bb3b0375b6f68c0c23db09fe948d15",
+            "itemId": "visual-tokyo-photo-museum-mwdks2",
+            "model": "codex-agent",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 79,
+            "scoreBreakdown": {
+              "informationSpecificity": 13,
+              "novelty": 14,
+              "professionalRelevance": 19,
+              "sourceQuality": 10,
+              "timeliness": 0,
+              "visualInspiration": 23
+            },
+            "selectionRationale": "官方正文对主题、媒介和展览形式交代清楚，适合作为女性影像史的研究入口。",
+            "status": "success",
+            "trendKeywords": [
+              "实验影像",
+              "女性叙事",
+              "影像档案"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://topmuseum.jp/exhibition/5417",
+              "snapshotHash": "31172276d61f5eb2e5b659e5af4c68ae248dffb96d8a7c3309099014af30a354",
+              "facts": [
+                {
+                  "statement": "本展以电影和视频作品为核心。",
+                  "quote": "本展覧会はすべて映像作品による展示です"
+                },
+                {
+                  "statement": "展览将馆藏全部作品通过展览和放映介绍。",
+                  "quote": "当館で収蔵する全作品を、展覧会と上映により網羅的に紹介します"
+                }
+              ],
+              "visualMethod": "编辑分析：把家庭经验和社会角色放进影像媒介史中，通过展览与放映并置让观众看到作品的时间性。",
+              "application": "创作建议：做家庭影像研究时先记录拍摄者、被摄者和播放场景，再决定用单屏、循环或放映单元呈现；尊重家庭成员的隐私和授权。",
+              "visualTags": [
+                "动态影像",
+                "叙事",
+                "空间"
+              ],
+              "limitation": "官方正文简短，未核验每件作品的放映版本、字幕和现场设备；展期属于历史参考，不当作当前开放信息。"
+            }
+          },
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-tokyo-photo-museum-mwdks2",
+          "field": "eventStartsAt",
+          "previous": null,
+          "corrected": "2026-06-18",
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-tokyo-photo-museum-mwdks2",
+          "field": "eventEndsAt",
+          "previous": null,
+          "corrected": "2026-09-21",
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-another-magazine-edswlz",
+          "previous": {
+            "analyzedAt": "2026-07-16T06:22:03.252Z",
+            "chineseSummary": "Richard Malone 策划的“Memory and Monument”把传统纺织、当代摄影与大型雕塑放进同一展览，重新讨论爱尔兰的劳动史、阶级和酷儿经验。展览关注编织、绗缝等长期被归入家庭劳动、甚至没有署名的手艺，并把这些制作方法转化为具有公共尺度的视觉语言。Malone 还与社会企业及本地工艺者合作，让制作过程本身成为作品的一部分。对视觉创作而言，这提供了一个很好的方向：材质不只是背景装饰，它能够携带人物身份、迁徙历史和社会关系，并通过近景纹理与空间全景形成叙事层次。",
+            "chineseTitle": "Richard Malone 用纺织雕塑重写爱尔兰的创意根系",
+            "contentHash": "sha1:c2bc1b53f5fee19fa59faad53d0f79822a1998b6",
+            "itemId": "visual-another-magazine-edswlz",
+            "model": "codex-editorial",
+            "primaryTopic": "exhibition",
+            "promptVersion": "visual-daily-v1",
+            "score": 95,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 19,
+              "professionalRelevance": 20,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "它示范了如何从一项具体手工艺出发，建立兼具材质冲击力、人物故事和社会背景的完整视觉项目。",
+            "status": "success",
+            "trendKeywords": [
+              "纺织雕塑",
+              "爱尔兰工艺",
+              "酷儿视角",
+              "劳动史",
+              "策展"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T01:04:17.000Z",
+            "chineseSummary": "Richard Malone为爱尔兰2026年欧盟理事会轮值主席国文化项目策划展览，将爱尔兰工艺、女性与酷儿历史、移民和阶级劳动放进布鲁塞尔多处空间。访谈提到长时间采样、社区合作和把未署名的缝纫劳动重新视为有价值的雕塑材料。",
+            "chineseTitle": "Richard Malone：以缝纫、被忽略的劳动与爱尔兰历史重新组织公共项目",
+            "contentHash": "sha1:c2bc1b53f5fee19fa59faad53d0f79822a1998b6",
+            "itemId": "visual-another-magazine-edswlz",
+            "model": "codex-agent",
+            "primaryTopic": "creator",
+            "promptVersion": "visual-daily-v1",
+            "score": 81,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 15,
+              "professionalRelevance": 19,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 25
+            },
+            "selectionRationale": "材料、历史叙事和协作方法都有正文支撑，适合研究工艺如何进入公共文化项目。",
+            "status": "success",
+            "trendKeywords": [
+              "工艺劳动",
+              "公共项目",
+              "社区协作"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.anothermag.com/art-photography/17324/richard-malone-interview-european-union-memory-and-monument?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=richard-malone-is-reimagining-ireland-s-creative-roots",
+              "snapshotHash": "3d9b0ce7ac4dd771cdc162a5180a1deabfbd2cc9513bc7e1340b41086710dcf3",
+              "facts": [
+                {
+                  "statement": "项目围绕共享历史组织艺术交流。",
+                  "quote": "a programme of artistic exchange built around shared histories"
+                },
+                {
+                  "statement": "团队经历了较长的样品测试期。",
+                  "quote": "We had a long sampling period"
+                }
+              ],
+              "visualMethod": "编辑分析：先从被忽略的劳动和材料史出发，再用样品测试和公共空间把个人工艺转成集体叙事。",
+              "application": "创作建议：与工艺制作者共同做小样，记录劳动、署名和材料来源，再决定如何进入展览；不要把未署名的传统劳动重新包装成个人原创。",
+              "visualTags": [
+                "材质",
+                "工艺",
+                "叙事"
+              ],
+              "limitation": "依据访谈和项目预告，未核验展览开幕后实际呈现、合作报酬或社会影响；政治历史判断保留为受访者观点。"
+            }
+          },
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-another-magazine-edswlz",
+          "imageAdded": "https://images-prod.anothermag.com/1200/0-928-1794-1196/azure/another-prod/470/5/475996.jpg",
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-aputure-1cfq4gu",
+          "previous": {
+            "analyzedAt": "2026-07-16T11:04:35.299Z",
+            "chineseSummary": "《Mobland》由四位摄影指导参与，灯光师 Harlon Haveland 通过统一使用 INFINIMAT 保持全剧视觉连续。充气柔光设备可在狭窄酒吧、咖啡馆和多地点拍摄中迅速部署，体积约为传统 book light 的一小部分，并能带着转场。不同摄影指导保留各自判断，但使用相同器材、预设和无线控制逻辑，灯光师则成为贯穿剧集的稳定接口，使柔和主光、方向性和现场效率保持一致。",
+            "chineseTitle": "四位摄影指导如何保持同一部剧的视觉一致：把灯具变成共同语言",
+            "contentHash": "sha1:afb142f7fab66e997decc112b447b0ca8d2a528a",
+            "itemId": "visual-aputure-1cfq4gu",
+            "model": "codex-agent-manual",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 94,
+            "scoreBreakdown": {
+              "informationSpecificity": 15,
+              "novelty": 18,
+              "professionalRelevance": 20,
+              "sourceQuality": 9,
+              "timeliness": 4,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "核心不是某款灯，而是多人、多场景项目如何建立可复制的视觉标准。",
+            "status": "success",
+            "trendKeywords": [
+              "剧集灯光",
+              "视觉一致性",
+              "充气柔光",
+              "多摄影指导",
+              "快速转场"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T01:04:17.000Z",
+            "chineseSummary": "Aputure采访Harlon Haveland介绍《MobLand》多地点拍摄中的INFINIMAT软光。它可快速替代book light、在小空间移动，并与Sidus Link Pro预设联动；统一工具帮助不同摄影指导维持系列的视觉连续性。",
+            "chineseTitle": "《MobLand》布光：用同一软光工具维持多位摄影指导的连续性",
+            "contentHash": "sha1:afb142f7fab66e997decc112b447b0ca8d2a528a",
+            "itemId": "visual-aputure-1cfq4gu",
+            "model": "codex-agent",
+            "primaryTopic": "tool",
+            "promptVersion": "visual-daily-v1",
+            "score": 69,
+            "scoreBreakdown": {
+              "informationSpecificity": 13,
+              "novelty": 11,
+              "professionalRelevance": 18,
+              "sourceQuality": 6,
+              "timeliness": 0,
+              "visualInspiration": 21
+            },
+            "selectionRationale": "灯具使用场景和连续性问题具体，但来源为厂商案例，应作为工具参考而非独立性能结论。",
+            "status": "success",
+            "trendKeywords": [
+              "软光",
+              "连续性布光",
+              "多地点拍摄"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://aputure.com/en-US/articles/lighting-mobland",
+              "snapshotHash": "77c51a3e5f8e6ac8d3f5f732de760f4a497438304cc24543919a50d4348a331d",
+              "facts": [
+                {
+                  "statement": "INFINIMAT几分钟内可形成柔和主光。",
+                  "quote": "Within minutes you’ve got a beautiful, soft key light"
+                },
+                {
+                  "statement": "它只占传统book light约10%的空间。",
+                  "quote": "It takes up about 10% of the space of a standard book light"
+                }
+              ],
+              "visualMethod": "编辑分析：把器材选择、移动效率和跨摄影指导的统一视觉基线放在同一工作流中，而不只比较灯具参数。",
+              "application": "创作建议：在三个小场地用相同光源记录主光位置、扩散方式和撤场时间；先验证团队工作流，再比较画面差异。",
+              "visualTags": [
+                "布光",
+                "空间"
+              ],
+              "limitation": "品牌案例未独立测试输出、色温、耐久性和无线控制；引用的效率数据是受访者说法。"
+            }
+          },
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-vogue-korea-123lwps",
+          "previous": {
+            "analyzedAt": "2026-07-16T11:04:35.299Z",
+            "chineseSummary": "Vogue Korea 观察到波点从去年秋季开始回升，并在今年夏天进入街头与名人造型。新的重点不是复制经典茶歇裙，而是通过比例和意外组合削弱图案的怀旧感：放大圆点、加入气球裙摆和不对称体积，用运动鞋或硬朗外套打断甜美，或把不同密度的点状图案叠穿。波点的视觉优势在于远距离即可识别，拍摄时可利用重复节奏、黑白反差和动作造成的图案变形。",
+            "chineseTitle": "波点重新占领夏季：五种摆脱复古套公式的搭配方法",
+            "contentHash": "sha1:e11173b712c3082ce04b86fb67d76e925cde919b",
+            "itemId": "visual-vogue-korea-123lwps",
+            "model": "codex-agent-manual",
+            "primaryTopic": "styling",
+            "promptVersion": "visual-daily-v1",
+            "score": 94,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 18,
+              "professionalRelevance": 20,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "属于可直接转化为选品、搭配与画面构成的明确趋势信号。",
+            "status": "success",
+            "trendKeywords": [
+              "波点",
+              "夏季造型",
+              "图案混搭",
+              "复古更新",
+              "视觉节奏"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T01:04:17.000Z",
+            "chineseSummary": "Vogue Korea列出五种波点造型：波点裙配简洁凉鞋、短裤配宽松衬衫、中长裙配短袖衬衫、波点上衣配工装裤，以及彩色波点裙配条纹衬衫。它更像造型清单，适合比较图案与材质、比例和风格反差的组合。",
+            "chineseTitle": "波点穿法：用材质、比例和反差把图案带入不同场景",
+            "contentHash": "sha1:e11173b712c3082ce04b86fb67d76e925cde919b",
+            "itemId": "visual-vogue-korea-123lwps",
+            "model": "codex-agent",
+            "primaryTopic": "styling",
+            "promptVersion": "visual-daily-v1",
+            "score": 53,
+            "scoreBreakdown": {
+              "informationSpecificity": 11,
+              "novelty": 6,
+              "professionalRelevance": 12,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 16
+            },
+            "selectionRationale": "正文为清单型造型建议，方法可用但新颖度和证据强度有限。",
+            "status": "success",
+            "trendKeywords": [
+              "波点图案",
+              "图案混搭",
+              "日常造型"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.vogue.co.kr/2026/07/16/%ec%a7%80%ea%b8%88-%eb%ac%bc%eb%b0%a9%ec%9a%b8%eb%ac%b4%eb%8a%ac%eb%a5%bc-%ec%9e%85%eb%8a%94-%ea%b0%80%ec%9e%a5-%eb%a9%8b%ec%8a%a4%eb%9f%ac%ec%9a%b4-%eb%b0%a9%eb%b2%95-5/",
+              "snapshotHash": "6ebced667ebbd40f209bb656a79e0e6fc961401c5fe8b3db99aa0ae33d2b8432",
+              "facts": [
+                {
+                  "statement": "文章介绍五种波点图案造型。",
+                  "quote": "폴카 도트 패턴 아이템을 활용한 스타일링 다섯 가지"
+                },
+                {
+                  "statement": "其中一种组合是短裤配宽松衬衫。",
+                  "quote": "쇼츠 + 오버사이즈 셔츠"
+                }
+              ],
+              "visualMethod": "编辑分析：让图案承担主视觉，再用鞋、版型和条纹等反差调整正式度与场景，而不是堆叠更多装饰。",
+              "application": "创作建议：用同一件波点单品拍五种搭配，只改变外层比例和鞋子；固定机位观察图案密度如何改变人物比例。",
+              "visualTags": [
+                "构图",
+                "色彩",
+                "材质"
+              ],
+              "limitation": "正文主要是商品和搭配建议，未独立验证流行度、舒适性或商业效果；不把清单写成广泛趋势证明。"
+            }
+          },
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        },
+        {
+          "itemId": "visual-fashionsnap-xeetlg",
+          "previous": {
+            "analyzedAt": "2026-07-16T11:04:35.299Z",
+            "chineseSummary": "FASHIONSNAP 从2027春夏男装周提炼出包袋方向：旅行与度假情绪推动轻量、柔软和可携带的结构，设计在功能性与松弛感之间寻找平衡。性别流动不再只靠夸张符号表达，而是进入日常配件比例，顶部手柄包、柔软皮革和介于手提与肩背之间的用法明显增加。造型上，包袋成为打破传统男装轮廓的节点，可与宽松套装、裸露肌肤或度假层叠形成对比。",
+            "chineseTitle": "2027春夏男包趋势：旅行感、柔软结构与更自然的性别流动",
+            "contentHash": "sha1:9d22dd4f1293c476bdea3b06394867c0e2c888d3",
+            "itemId": "visual-fashionsnap-xeetlg",
+            "model": "codex-agent-manual",
+            "primaryTopic": "outfit",
+            "promptVersion": "visual-daily-v1",
+            "score": 94,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 19,
+              "professionalRelevance": 20,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 27
+            },
+            "selectionRationale": "趋势明确、可用于选品和造型策划，也能延伸到包袋与身体关系的拍摄主题。",
+            "status": "success",
+            "trendKeywords": [
+              "男包趋势",
+              "2027春夏",
+              "度假风格",
+              "性别流动",
+              "顶部手柄包"
+            ]
+          },
+          "corrected": {
+            "analyzedAt": "2026-10-27T01:04:17.000Z",
+            "chineseSummary": "FASHIONSNAP总结2027春夏男装秀场的包袋方向：大容量波士顿包、柔软包袋、性别流动的手提包，以及把包袋放在腰部形成视觉重点。文章是秀场趋势总结，适合用作造型观察，而非独立的销售或消费者研究。",
+            "chineseTitle": "2027春夏男装包袋：旅行、柔软材质与腰部视线的三种方向",
+            "contentHash": "sha1:9d22dd4f1293c476bdea3b06394867c0e2c888d3",
+            "itemId": "visual-fashionsnap-xeetlg",
+            "model": "codex-agent",
+            "primaryTopic": "styling",
+            "promptVersion": "visual-daily-v1",
+            "score": 62,
+            "scoreBreakdown": {
+              "informationSpecificity": 12,
+              "novelty": 9,
+              "professionalRelevance": 15,
+              "sourceQuality": 8,
+              "timeliness": 0,
+              "visualInspiration": 18
+            },
+            "selectionRationale": "有清晰的品类与造型观察，但属于趋势汇总，创作方法和新颖度有限。",
+            "status": "success",
+            "trendKeywords": [
+              "包袋造型",
+              "柔软材质",
+              "腰部强调"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.fashionsnap.com/article/menstrend-26aw-bag/",
+              "snapshotHash": "27b6cdb53004220ef4e9bb286fb2aa5f0345c99de1c635638c0ba764160e99d4",
+              "facts": [
+                {
+                  "statement": "旅行与度假情绪推动了本季包袋方向。",
+                  "quote": "「旅」や「リゾート」のムード"
+                },
+                {
+                  "statement": "男装系列中出现更多不分性别的手提包。",
+                  "quote": "トップハンドルバッグの提案が増えている"
+                }
+              ],
+              "visualMethod": "编辑分析：包袋不只是储物，而通过柔软度、体积和佩戴位置改变身体轮廓与视线动线。",
+              "application": "创作建议：同一套服装分别测试肩背、手提和腰部佩戴，记录包袋体积对身体比例的影响；用自有或获授权产品，不把秀场趋势直接当作市场结论。",
+              "visualTags": [
+                "材质",
+                "构图",
+                "叙事"
+              ],
+              "limitation": "依据媒体趋势总结，未核验完整秀场样本、销售数据或消费者偏好；日期和品类归属不代表确定的未来趋势。"
+            }
+          },
+          "correctedAt": "2026-10-27T01:04:17.000Z"
+        }
+      ]
     }
   ]
 }
