@@ -611,32 +611,62 @@
       ]
     },
     {
-      "analyzedAt": "2026-07-16T11:04:35.299Z",
-      "chineseSummary": "Aputure 解释 STORM X 系列为何采用约57至58度的原生泛光角：过宽光束虽然看似覆盖更大，却会把能量浪费在附件和场景之外；适度收窄能够提升反光罩与投射附件的效率，同时在经过柔光材料后保持足够均匀的面光。设计目标不是制造生硬聚光，而是在输出、附件兼容和人像肤质之间取得平衡，让同一灯具既能投射，也能转化为稳定柔和的主光。",
-      "chineseTitle": "为什么 STORM 主动缩窄光束：亮度、柔光附件与人像肤质之间的取舍",
+      "analyzedAt": "2026-11-06T09:28:00.000Z",
+      "chineseSummary": "Aputure 说明 STORM X 以较收束的原生泛光角减少杂散光，并用人物脸部测光和阴影裁切比较不同灯具与修饰器组合。",
+      "chineseTitle": "用 57–58° 原生泛光角测试修饰器效率",
       "contentHash": "sha1:5885494d4c38733c872ed1a290dc272f686729bd",
       "itemId": "visual-aputure-1qqxao4",
-      "model": "codex-agent-manual",
+      "model": "codex-agent",
       "primaryTopic": "tool",
       "promptVersion": "visual-daily-v1",
-      "score": 88,
+      "score": 80,
       "scoreBreakdown": {
-        "informationSpecificity": 14,
-        "novelty": 17,
-        "professionalRelevance": 19,
-        "sourceQuality": 9,
-        "timeliness": 4,
+        "informationSpecificity": 15,
+        "novelty": 15,
+        "professionalRelevance": 18,
+        "sourceQuality": 7,
+        "timeliness": 0,
         "visualInspiration": 25
       },
-      "selectionRationale": "帮助摄影团队理解灯具参数背后的光学逻辑，避免只按瓦数和宣传亮度选择设备。",
+      "selectionRationale": "原文公开了可理解的比较维度：光束角、脸部入射测光以及面部和背景阴影。",
       "status": "success",
       "trendKeywords": [
         "光束角",
-        "人像布光",
-        "灯具效率",
-        "柔光附件",
-        "STORM"
-      ]
+        "修饰器测试",
+        "肖像测光"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://aputure.com/en-US/articles/why-aputure-chose-to-narrow-the-beam-on-the-storm",
+        "snapshotHash": "917068e25c81ab5395eb71d4b1bc4cbd3968af5c808d785d064d8df468dceb1a",
+        "facts": [
+          {
+            "statement": "STORM COB 输出被设定为 57–58 度原生泛光角。",
+            "quote": "by focusing the STORM COB output to a native flood angle of 57°-58°"
+          },
+          {
+            "statement": "测试以被摄者面部位置的入射光作为输出比较基准。",
+            "quote": "metered the incident light at the subject’s face"
+          }
+        ],
+        "visualMethod": "将灯具输出和人物皮肤上的阴影、背景投影放在同一测试框架中，避免只用亮度数字判断肖像光质。",
+        "application": "可为同一人物建立固定机位、面部测光点与阴影裁切图，再替换修饰器比较轮廓、鼻影和背景阴影的变化。",
+        "visualTags": [
+          "布光",
+          "构图"
+        ],
+        "limitation": "测试由制造商发布，比较结论应与独立实拍复核。",
+        "assessment": {
+          "contentKind": "vendor_case",
+          "methodEvidence": "specific",
+          "rationale": "正文交代了原生光束角、测光位置和阴影比较方法。"
+        },
+        "event": {
+          "key": "aputure-storm-native-flood-test",
+          "label": "Aputure STORM native flood test"
+        }
+      }
     },
     {
       "analyzedAt": "2026-10-27T01:04:17.000Z",
@@ -9370,30 +9400,63 @@
       }
     },
     {
-      "analyzedAt": "2026-10-21T09:49:07.318Z",
-      "chineseSummary": "摄影师 Tina Eisen 分享六种创意肖像设置，为人物摄影提供可复用的光线、道具与构图参考。",
-      "chineseTitle": "Tina Eisen 的六组创意肖像布光",
+      "analyzedAt": "2026-11-06T09:28:00.000Z",
+      "chineseSummary": "Tina Eisen 以两支 A1 在室内外快速切换：主灯经伞面反射，带 CTO 的第二盏灯穿过磨砂窗或充当轮廓光，以维持低饱和花卉肖像的结构。",
+      "chineseTitle": "双灯在阴天与黄昏中重塑人像的层次",
       "contentHash": "sha1:d03843a81870a98f1000d837723a5ab44aa0eb31",
       "itemId": "visual-profoto-g67l",
       "model": "codex-agent",
       "primaryTopic": "photography",
       "promptVersion": "visual-daily-v1",
-      "score": 90,
+      "score": 79,
       "scoreBreakdown": {
         "informationSpecificity": 15,
-        "novelty": 16,
-        "professionalRelevance": 19,
-        "sourceQuality": 8,
-        "timeliness": 5,
-        "visualInspiration": 27
+        "novelty": 14,
+        "professionalRelevance": 18,
+        "sourceQuality": 7,
+        "timeliness": 0,
+        "visualInspiration": 25
       },
-      "selectionRationale": "明确可执行的摄影技法案例，专业实用性高。",
+      "selectionRationale": "原文逐场景说明了双灯位置、修饰器和色片的作用，适合移动人像拍摄参考。",
       "status": "success",
       "trendKeywords": [
-        "肖像摄影",
-        "创意布光",
-        "摄影技法"
-      ]
+        "双灯人像",
+        "CTO 色片",
+        "阴天补光"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/tina-eisen-six-setups-creative-portraits/",
+        "snapshotHash": "820a5e11b0f73934813c6d8d7720236340c370f6ddc2b34958e494b5634b32a5",
+        "facts": [
+          {
+            "statement": "一盏 A1 被放在模特右上方。",
+            "quote": "one A1 positioned high to the right of the model"
+          },
+          {
+            "statement": "第二盏 A1 加半 CTO 色片提供暖色。",
+            "quote": "with a half CTO gel for a touch of warmth"
+          }
+        ],
+        "visualMethod": "以主光塑形、暖色轮廓光分离人物与环境，在阴天或灰墙前保持肤色和服装层次。",
+        "application": "外拍时可先固定一盏柔化主光，再以低功率暖色边光控制发丝和背景分离；光线变化时只调整边光比例。",
+        "visualTags": [
+          "布光",
+          "色彩",
+          "构图"
+        ],
+        "limitation": "该内容由器材品牌发布，参数适用于文中器材而非所有闪光系统。",
+        "assessment": {
+          "contentKind": "vendor_case",
+          "methodEvidence": "specific",
+          "rationale": "正文明确记录两盏灯的位置、伞面反射和 CTO 色片用途。"
+        },
+        "event": {
+          "key": "tina-eisen-two-light-portraits",
+          "label": "Tina Eisen two-light portraits"
+        }
+      }
     },
     {
       "analyzedAt": "2026-10-21T09:49:07.318Z",
@@ -16754,9 +16817,186 @@
           "label": "Formafantasma 首部同名专著"
         }
       }
+    },
+    {
+      "analyzedAt": "2026-11-06T09:28:00.000Z",
+      "chineseSummary": "L.L. 在宫岛旅宿内分期展示三组以柿渋、蓝染和竹为核心的包袋，把手工染色、材料生命周期与旅行场景连接为同一套叙事。",
+      "chineseTitle": "宫岛旅宿把柿渋、蓝染与竹编变成可读的制包工艺",
+      "contentHash": "sha1:e517cb346324a26ebeede44a09395e8b8605ea0e",
+      "itemId": "visual-fashionsnap-cj060e",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 91,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 17,
+        "professionalRelevance": 19,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "原文给出可复核的染色流程、材料选择和展陈场景，兼具工艺与空间叙事价值。",
+      "status": "success",
+      "trendKeywords": [
+        "柿渋染",
+        "天然材料",
+        "旅宿展陈"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.fashionsnap.com/article/ll-exhibition-miyajima/",
+        "snapshotHash": "a35ff636f3bafcc407bdeedde627ab0bd25466ee1470119a331a62bf0efa59bc",
+        "facts": [
+          {
+            "statement": "OLDNEW 以染匠反复浸染与日晒的方式显色。",
+            "quote": "昔ながらの製法で染色職人がひとつひとつ柿渋につけ、天日干しする作業を繰り返す"
+          },
+          {
+            "statement": "TRUE BLUE 使用可自然降解的天然材料。",
+            "quote": "土に埋めると全てが自然に還る生分解性の天然素材だけで仕上げた"
+          }
+        ],
+        "visualMethod": "将色泽会随使用变化的天然染色，和旅宿中的慢观看结合，令材料时间性成为展陈的视觉主线。",
+        "application": "可尝试为材料样本设置浸染、晾晒、氧化三个并置阶段，并以低密度陈列让观众看到色与触感的变化。",
+        "visualTags": [
+          "材质",
+          "工艺",
+          "空间",
+          "叙事"
+        ],
+        "limitation": "报道描述工艺和展览，未独立核验材料的完整环境影响。",
+        "assessment": {
+          "contentKind": "production_case",
+          "methodEvidence": "specific",
+          "rationale": "正文明确记录柿渋浸染、日晒和天然材料的制作方式。"
+        },
+        "event": {
+          "key": "ll-miyajima-material-exhibition-2026",
+          "label": "L.L. Miyajima material exhibition"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-06T09:28:00.000Z",
+      "chineseSummary": "Dover Street Market Singapore 展出 Solange Azagury-Partridge 的 Frankenstone 系列：从整块水晶雕刻，到把不同切工拼合成新的石材形态。",
+      "chineseTitle": "Solange 以切开与重组重写宝石切面",
+      "contentHash": "sha1:c33dbf43818affb4afc09121d752b649e0349db4",
+      "itemId": "visual-vogue-singapore-uqomet",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 90,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 18,
+        "professionalRelevance": 17,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "正文说明了具体的切割、剖分与重构手法，适合作为材质和形态研究参考。",
+      "status": "success",
+      "trendKeywords": [
+        "宝石重构",
+        "切面",
+        "材料错位"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://vogue.sg/solange-dover-street-market-singapore/",
+        "snapshotHash": "6034703614f6eba5865933ba206576fc2b6f74a2f39d3ee279fe5446fa6318fa",
+        "facts": [
+          {
+            "statement": "50:50 与 Split 设计把宝石做成如被切开的形态。",
+            "quote": "50:50 and Split designs"
+          },
+          {
+            "statement": "一颗绿色碧玺以金属框出其被切开的边缘。",
+            "quote": "A green tourmaline framed in gold"
+          }
+        ],
+        "visualMethod": "通过暴露切面、拼接异质切工和保留断裂感，将珠宝从完整物件转化为有内部结构的微型雕塑。",
+        "application": "在静物或配饰拍摄中，可用透明材质、错位剖面和相邻的粗糙/抛光面制造“重组中”的张力。",
+        "visualTags": [
+          "材质",
+          "构图",
+          "工艺"
+        ],
+        "limitation": "报道为展览与设计师访谈，未提供每件作品的完整制作参数。",
+        "assessment": {
+          "contentKind": "artwork",
+          "methodEvidence": "specific",
+          "rationale": "正文具体说明了水晶雕刻、宝石剖分与不同切工的拼接。"
+        },
+        "event": {
+          "key": "solange-frankenstone-singapore-2026",
+          "label": "Solange Frankenstone Singapore exhibition"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-06T09:28:00.000Z",
+      "chineseSummary": "Alexvi 为 GQ 中国封面测试俯拍群像，以顶灯、柔光与在反光板上开出的镜头孔同时解决脸部照明、背光氛围和折页构图。",
+      "chineseTitle": "俯拍群像：把摄影师和反光板做成“夹层”",
+      "contentHash": "sha1:496868fb3ed8b43264cae771150a8ab246e42bc4",
+      "itemId": "visual-profoto-bfsgzp",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 83,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 16,
+        "professionalRelevance": 19,
+        "sourceQuality": 7,
+        "timeliness": 0,
+        "visualInspiration": 26
+      },
+      "selectionRationale": "原文提供可复现的群像构图、光源组合和现场测试逻辑。",
+      "status": "success",
+      "trendKeywords": [
+        "俯拍群像",
+        "柔光",
+        "反光板构图"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/alexvi-reveals-how-he-created-a-cover-for-gq-magazine/",
+        "snapshotHash": "49f6a14e3820693d46311148157336c4e9c9d4ef950fd99a74dc3066187950ea",
+        "facts": [
+          {
+            "statement": "现场使用顶置 Pro-8a、日光柔光布和八角柔光箱。",
+            "quote": "one Pro-8a from right above, one 3x3 m sun scrim"
+          },
+          {
+            "statement": "团队在摄影师上方的白色反光板开孔供镜头取景。",
+            "quote": "put a white board reflector on Alexvi and cut a 10 cm square"
+          }
+        ],
+        "visualMethod": "用俯拍视角把人物围合成环，并以反光板兼顾脸部补光和镜头通道，形成近距离而戏剧化的群像透视。",
+        "application": "拍摄多人俯视画面时，先用替身预演重叠关系，再将柔光反射面与机位联动，预留镜头孔避免破坏面部光线。",
+        "visualTags": [
+          "布光",
+          "构图"
+        ],
+        "limitation": "该案例来自器材品牌内容，布光效果未有第三方独立测试。",
+        "assessment": {
+          "contentKind": "vendor_case",
+          "methodEvidence": "specific",
+          "rationale": "正文明确列出机位、柔光材料、反光板开孔和测试流程。"
+        },
+        "event": {
+          "key": "alexvi-gq-china-cover-lighting",
+          "label": "Alexvi GQ China cover lighting"
+        }
+      }
     }
   ],
   "failures": [],
-  "generatedAt": "2026-11-06T06:45:57.000Z",
+  "generatedAt": "2026-11-06T09:28:00.000Z",
   "promptVersion": "visual-daily-v1"
 }

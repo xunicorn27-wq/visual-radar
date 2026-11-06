@@ -4,15 +4,16 @@
       "featuredStoryIds": [
         "visual-fashionsnap-3w5b10",
         "visual-wallpaper-10qkzma",
-        "visual-wallpaper-1cy764h",
+        "visual-vogue-singapore-uqomet",
         "visual-w-magazine-1p05oz5",
         "visual-dazed-4sxyyi",
+        "visual-fashionsnap-cj060e",
         "visual-vogue-runway-1gibv7n",
         "visual-dazed-lbdpj6",
-        "visual-vogue-runway-1ikref",
-        "visual-photovogue-1fojfjd"
+        "visual-wallpaper-1cy764h",
+        "visual-vogue-runway-1ikref"
       ],
-      "generatedAt": "2026-11-06T06:53:44.899Z",
+      "generatedAt": "2026-11-06T09:29:24.517Z",
       "id": "2026-11-06",
       "issueDate": "2026-11-06",
       "metadata": {
@@ -76,6 +77,10 @@
           "reason": "missing_evidence"
         },
         {
+          "itemId": "visual-british-vogue-166fkqs",
+          "reason": "missing_analysis"
+        },
+        {
           "itemId": "visual-momu-d1krhr",
           "reason": "missing_evidence"
         },
@@ -124,10 +129,6 @@
           "reason": "missing_evidence"
         },
         {
-          "itemId": "visual-aputure-1qqxao4",
-          "reason": "missing_evidence"
-        },
-        {
           "itemId": "visual-aputure-9aw6kv",
           "reason": "missing_evidence"
         },
@@ -157,10 +158,6 @@
         },
         {
           "itemId": "visual-profoto-djwnob",
-          "reason": "missing_evidence"
-        },
-        {
-          "itemId": "visual-profoto-g67l",
           "reason": "missing_evidence"
         },
         {
@@ -204,7 +201,103 @@
           "reason": "missing_analysis"
         },
         {
-          "itemId": "visual-fashionsnap-lgxj7h",
+          "itemId": "visual-vogue-korea-1cbpsrm",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-w-korea-1om6cqc",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-korea-8v3tto",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-japan-1042kmb",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-fashionsnap-1h8atw3",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-japan-14auyed",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-japan-yechbx",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-fashionsnap-l05ydf",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-fashionsnap-vwkku4",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-wallpaper-oz142f",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-korea-cvco16",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-korea-u0llpy",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-w-korea-1w2bpmg",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-fashionsnap-nfd6e4",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-fashionsnap-ahuc67",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-japan-35wg6h",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-fashionsnap-cyt6al",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-japan-1732jcm",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-british-vogue-j9i1bk",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-british-vogue-8smwnl",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-british-vogue-fp6sc8",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-british-vogue-v21rjq",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-w-korea-ck22mt",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-fashionsnap-lc9smi",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-korea-1vbruuo",
           "reason": "missing_analysis"
         },
         {
@@ -212,23 +305,7 @@
           "reason": "missing_analysis"
         },
         {
-          "itemId": "visual-fashionsnap-1ribknh",
-          "reason": "missing_analysis"
-        },
-        {
-          "itemId": "visual-fashionsnap-b4q52p",
-          "reason": "missing_analysis"
-        },
-        {
-          "itemId": "visual-fashionsnap-hsfxts",
-          "reason": "missing_analysis"
-        },
-        {
           "itemId": "visual-w-korea-dh97sj",
-          "reason": "missing_analysis"
-        },
-        {
-          "itemId": "visual-fashionsnap-ilx5qw",
           "reason": "missing_analysis"
         },
         {
@@ -236,15 +313,7 @@
           "reason": "missing_analysis"
         },
         {
-          "itemId": "visual-fashionsnap-127x0h2",
-          "reason": "missing_analysis"
-        },
-        {
           "itemId": "visual-vogue-korea-u6sf8a",
-          "reason": "missing_analysis"
-        },
-        {
-          "itemId": "visual-fashionsnap-a7ynx6",
           "reason": "missing_analysis"
         },
         {
@@ -252,15 +321,7 @@
           "reason": "missing_analysis"
         },
         {
-          "itemId": "visual-vogue-korea-1uq4lfc",
-          "reason": "missing_analysis"
-        },
-        {
           "itemId": "visual-vogue-singapore-18fef5q",
-          "reason": "missing_analysis"
-        },
-        {
-          "itemId": "visual-vogue-korea-tuuct8",
           "reason": "missing_analysis"
         },
         {
@@ -272,15 +333,7 @@
           "reason": "missing_analysis"
         },
         {
-          "itemId": "visual-vogue-korea-afwvxt",
-          "reason": "missing_analysis"
-        },
-        {
           "itemId": "visual-vogue-japan-13vwc5h",
-          "reason": "missing_analysis"
-        },
-        {
-          "itemId": "visual-vogue-korea-1w89b41",
           "reason": "missing_analysis"
         },
         {
@@ -292,27 +345,11 @@
           "reason": "missing_analysis"
         },
         {
-          "itemId": "visual-vogue-korea-npsoh8",
-          "reason": "missing_analysis"
-        },
-        {
           "itemId": "visual-vogue-japan-mq2d0f",
           "reason": "missing_analysis"
         },
         {
           "itemId": "visual-w-korea-1ptx5e4",
-          "reason": "missing_analysis"
-        },
-        {
-          "itemId": "visual-vogue-japan-6mxvu8",
-          "reason": "missing_analysis"
-        },
-        {
-          "itemId": "visual-w-korea-9j2pa8",
-          "reason": "missing_analysis"
-        },
-        {
-          "itemId": "visual-vogue-japan-1y9l1g2",
           "reason": "missing_analysis"
         },
         {
@@ -356,47 +393,11 @@
           "reason": "missing_analysis"
         },
         {
-          "itemId": "visual-british-vogue-1cv18of",
-          "reason": "missing_analysis"
-        },
-        {
           "itemId": "visual-w-magazine-vlr2ca",
           "reason": "missing_analysis"
         },
         {
-          "itemId": "visual-british-vogue-7n8iau",
-          "reason": "missing_analysis"
-        },
-        {
-          "itemId": "visual-british-vogue-3yym2a",
-          "reason": "missing_analysis"
-        },
-        {
-          "itemId": "visual-british-vogue-p6yzb2",
-          "reason": "missing_analysis"
-        },
-        {
           "itemId": "visual-wallpaper-167td8b",
-          "reason": "missing_analysis"
-        },
-        {
-          "itemId": "visual-british-vogue-130hhom",
-          "reason": "missing_analysis"
-        },
-        {
-          "itemId": "visual-vogue-japan-1l26fs",
-          "reason": "missing_analysis"
-        },
-        {
-          "itemId": "visual-british-vogue-14mzajq",
-          "reason": "missing_analysis"
-        },
-        {
-          "itemId": "visual-dazed-1tgeu7c",
-          "reason": "missing_analysis"
-        },
-        {
-          "itemId": "visual-british-vogue-1f9zahy",
           "reason": "missing_analysis"
         },
         {
@@ -412,14 +413,6 @@
           "reason": "missing_analysis"
         },
         {
-          "itemId": "visual-dazed-8vbyq7",
-          "reason": "missing_analysis"
-        },
-        {
-          "itemId": "visual-british-vogue-1oqoq5j",
-          "reason": "missing_analysis"
-        },
-        {
           "itemId": "visual-another-magazine-yc4e38",
           "reason": "missing_analysis"
         },
@@ -432,39 +425,11 @@
           "reason": "missing_analysis"
         },
         {
-          "itemId": "visual-vogue-japan-1vgu046",
-          "reason": "missing_analysis"
-        },
-        {
-          "itemId": "visual-vogue-japan-ugc2q6",
-          "reason": "missing_analysis"
-        },
-        {
-          "itemId": "visual-dazed-19zjnbb",
-          "reason": "missing_analysis"
-        },
-        {
-          "itemId": "visual-dazed-18q8hwc",
-          "reason": "missing_analysis"
-        },
-        {
           "itemId": "visual-wallpaper-optfa5",
           "reason": "missing_analysis"
         },
         {
-          "itemId": "visual-wallpaper-1pgup5a",
-          "reason": "missing_analysis"
-        },
-        {
           "itemId": "visual-another-magazine-dyd5i7",
-          "reason": "missing_analysis"
-        },
-        {
-          "itemId": "visual-w-korea-1794aoj",
-          "reason": "missing_analysis"
-        },
-        {
-          "itemId": "visual-w-korea-14eqmat",
           "reason": "missing_analysis"
         },
         {
@@ -500,15 +465,7 @@
           "reason": "missing_analysis"
         },
         {
-          "itemId": "visual-dazed-q76upg",
-          "reason": "missing_analysis"
-        },
-        {
           "itemId": "visual-interview-magazine-83flkm",
-          "reason": "missing_analysis"
-        },
-        {
-          "itemId": "visual-vogue-singapore-nr4a5m",
           "reason": "missing_analysis"
         },
         {
@@ -664,6 +621,10 @@
           "reason": "missing_analysis"
         },
         {
+          "itemId": "visual-british-vogue-1cv18of",
+          "reason": "missing_analysis"
+        },
+        {
           "itemId": "visual-ginza-13emccb",
           "reason": "missing_analysis"
         },
@@ -677,6 +638,14 @@
         },
         {
           "itemId": "visual-momu-c4r8yx",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-british-vogue-uan8d3",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-british-vogue-ze5wj",
           "reason": "missing_analysis"
         },
         {
@@ -720,10 +689,6 @@
           "reason": "missing_analysis"
         },
         {
-          "itemId": "visual-profoto-bfsgzp",
-          "reason": "missing_analysis"
-        },
-        {
           "itemId": "visual-tokyo-photo-museum-1yjg1tz",
           "reason": "missing_analysis"
         },
@@ -764,6 +729,10 @@
           "reason": "previous_event"
         },
         {
+          "itemId": "visual-aputure-1qqxao4",
+          "reason": "previous_event"
+        },
+        {
           "itemId": "visual-vogue-runway-tqqg1p",
           "reason": "previous_event"
         },
@@ -781,6 +750,10 @@
         },
         {
           "itemId": "visual-mplus-hcej3c",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-profoto-g67l",
           "reason": "previous_event"
         },
         {
@@ -830,26 +803,36 @@
         {
           "itemId": "visual-wallpaper-1tyo0xc",
           "reason": "source_limit"
+        },
+        {
+          "itemId": "visual-photovogue-1fojfjd",
+          "reason": "daily_limit"
+        },
+        {
+          "itemId": "visual-profoto-bfsgzp",
+          "reason": "daily_limit"
         }
       ],
       "stats": {
         "bySource": {
-          "FASHIONSNAP": 1,
+          "FASHIONSNAP": 2,
           "Dazed": 3,
           "Wallpaper*": 4,
           "Vogue Runway": 2,
+          "Vogue Singapore": 1,
           "W Magazine": 1,
-          "PhotoVogue": 1
+          "PhotoVogue": 1,
+          "Profoto Stories": 1
         },
         "byTopic": {
-          "styling": 3,
+          "styling": 4,
           "creator": 2,
-          "exhibition": 2,
-          "photography": 3,
+          "exhibition": 3,
+          "photography": 4,
           "fashion_culture": 1,
           "magazine": 1
         },
-        "storyCount": 12
+        "storyCount": 15
       },
       "stories": [
         {
@@ -1160,7 +1143,7 @@
             }
           },
           "item": {
-            "capturedAt": "2026-11-06T06:43:03.193Z",
+            "capturedAt": "2026-11-06T09:23:51.535Z",
             "hashtags": [],
             "id": "visual-wallpaper-10qkzma",
             "keywords": [
@@ -1190,7 +1173,7 @@
               "authenticity": "live",
               "collector": "visual-radar-rss",
               "evidenceUrl": "https://www.wallpaper.com/rss",
-              "fetchedAt": "2026-11-06T06:43:03.193Z",
+              "fetchedAt": "2026-11-06T09:23:51.535Z",
               "label": "真实采集",
               "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
               "snapshotId": null,
@@ -1209,13 +1192,127 @@
             "interpretation": null,
             "schemaVersion": "1",
             "tier": null,
+            "viviaScore": null
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-11-06T09:28:00.000Z",
+            "chineseSummary": "L.L. 在宫岛旅宿内分期展示三组以柿渋、蓝染和竹为核心的包袋，把手工染色、材料生命周期与旅行场景连接为同一套叙事。",
+            "chineseTitle": "宫岛旅宿把柿渋、蓝染与竹编变成可读的制包工艺",
+            "contentHash": "sha1:e517cb346324a26ebeede44a09395e8b8605ea0e",
+            "itemId": "visual-fashionsnap-cj060e",
+            "model": "codex-agent",
+            "primaryTopic": "styling",
+            "promptVersion": "visual-daily-v1",
+            "score": 91,
+            "scoreBreakdown": {
+              "informationSpecificity": 15,
+              "novelty": 17,
+              "professionalRelevance": 19,
+              "sourceQuality": 8,
+              "timeliness": 5,
+              "visualInspiration": 27
+            },
+            "selectionRationale": "原文给出可复核的染色流程、材料选择和展陈场景，兼具工艺与空间叙事价值。",
+            "status": "success",
+            "trendKeywords": [
+              "柿渋染",
+              "天然材料",
+              "旅宿展陈"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.fashionsnap.com/article/ll-exhibition-miyajima/",
+              "snapshotHash": "a35ff636f3bafcc407bdeedde627ab0bd25466ee1470119a331a62bf0efa59bc",
+              "facts": [
+                {
+                  "statement": "OLDNEW 以染匠反复浸染与日晒的方式显色。",
+                  "quote": "昔ながらの製法で染色職人がひとつひとつ柿渋につけ、天日干しする作業を繰り返す"
+                },
+                {
+                  "statement": "TRUE BLUE 使用可自然降解的天然材料。",
+                  "quote": "土に埋めると全てが自然に還る生分解性の天然素材だけで仕上げた"
+                }
+              ],
+              "visualMethod": "将色泽会随使用变化的天然染色，和旅宿中的慢观看结合，令材料时间性成为展陈的视觉主线。",
+              "application": "可尝试为材料样本设置浸染、晾晒、氧化三个并置阶段，并以低密度陈列让观众看到色与触感的变化。",
+              "visualTags": [
+                "材质",
+                "工艺",
+                "空间",
+                "叙事"
+              ],
+              "limitation": "报道描述工艺和展览，未独立核验材料的完整环境影响。",
+              "assessment": {
+                "contentKind": "production_case",
+                "methodEvidence": "specific",
+                "rationale": "正文明确记录柿渋浸染、日晒和天然材料的制作方式。"
+              },
+              "event": {
+                "key": "ll-miyajima-material-exhibition-2026",
+                "label": "L.L. Miyajima material exhibition"
+              }
+            }
+          },
+          "item": {
+            "capturedAt": "2026-11-06T09:23:51.535Z",
+            "hashtags": [],
+            "id": "visual-fashionsnap-cj060e",
+            "keywords": [
+              "outfit",
+              "styling"
+            ],
+            "lang": "ja",
+            "market": "JP",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-11-06T07:00:31.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.fashionsnap.com/rss.xml",
+              "fetchedAt": "2026-11-06T09:23:51.535Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.fashionsnap.com/article/ll-exhibition-miyajima/"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "FASHIONSNAP",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.fashionsnap.com/article/ll-exhibition-miyajima/",
+            "text": "吉田カバンの「ラゲッジレーベル（LUGGAGE LABEL、以下L.L.）」が、広島県廿日市市に位置する「HOTEL FORK & KNIFE Miyajima」内のギャラリー「ref. Miyajima」で、L.L.の3シリーズを展示販売する期間限定イベント「安芸の宮島、宿と鞄 L.L. Exhibition — 柿渋・藍・竹、三つの素材をめぐる展示」を開催している。10月末まで柿渋染めのナイロンバッグ「OLDNEW」を展示し、11月25日まで全て“土に還る”天然素材で仕上げた藍染めバッグ「TRUE BLUE」を、11月27日から12月27日までは竹とバッグを融合した「FILAMENT」をフィーチャー。期間ごとに展示替えを行う（各商品の販売はそれぞれの展示期間中のみ）。 温故知新をキーワードに2023年にリブランディングを実施したL.L.は、日本の職人による伝統的なものづくりを重視したバッグを提案。手仕事がふんだんに取り入れられていることから生産数が限られており、中でも太陽光の下に晒して色を出す柿渋染めの技法を採用したOLDNEWは、夏場の日照時間の長い時期にしか生産ができず、デリバリーは年に1度だけ。在庫が入るたび即完売し、1年以上入荷を待ち望むファンも多い同コレクションを、なぜ表参道店での再入荷に先駆けて、広島宮島口のホテルで先行販売したのか。 L.L.のブランドディレクターである吉田カバンの松原賢一郎取締役開発本部長と、広島発のセレクトショップ「ref.」とref. Miyajimaを手掛ける中本健吾がイベントに登壇し、松原はリブランディング後初めて、その背景と変化についてメディアに向けて語った。 このコンテンツは FASHIONSNAP が配信しています。",
+            "thumbnailUrl": "https://fashionsnap-assets.com/asset/format=auto,fit=crop,width=300,height=300/article/images/2026/11/b21f480e-b094-4320-8ba1-f721860830d0.jpg",
+            "title": "吉田カバンはなぜ、1年以上入荷待ちの人気商品を広島・宮島で売るのか",
+            "contentHash": "sha1:e517cb346324a26ebeede44a09395e8b8605ea0e",
+            "dedupKey": "www.fashionsnap.com/article/ll-exhibition-miyajima",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
             "viviaScore": null,
             "sourceEvidence": {
               "status": "ready",
-              "url": "https://www.wallpaper.com/design-interiors/interior-accessories/christopher-john-rogers-the-rug-company",
-              "fetchedAt": "2026-11-06T06:43:31.597Z",
-              "snapshotHash": "0bd96f8d5af5678a8f1b2ac7a0694d5def3bf2aea8df484d1e8eb182e7f341ae",
-              "characters": 3949
+              "url": "https://www.fashionsnap.com/article/ll-exhibition-miyajima/",
+              "fetchedAt": "2026-11-06T09:24:31.017Z",
+              "snapshotHash": "a35ff636f3bafcc407bdeedde627ab0bd25466ee1470119a331a62bf0efa59bc",
+              "characters": 6632
             }
           },
           "window": "24h"
@@ -1282,7 +1379,7 @@
             }
           },
           "item": {
-            "capturedAt": "2026-11-06T06:43:03.193Z",
+            "capturedAt": "2026-11-06T09:23:51.535Z",
             "hashtags": [],
             "id": "visual-vogue-runway-1gibv7n",
             "keywords": [
@@ -1311,7 +1408,7 @@
               "authenticity": "live",
               "collector": "visual-radar-html",
               "evidenceUrl": "https://www.vogue.com/fashion-shows/latest-shows",
-              "fetchedAt": "2026-11-06T06:43:03.193Z",
+              "fetchedAt": "2026-11-06T09:23:51.535Z",
               "label": "真实采集",
               "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
               "snapshotId": null,
@@ -1330,14 +1427,7 @@
             "interpretation": null,
             "schemaVersion": "1",
             "tier": null,
-            "viviaScore": null,
-            "sourceEvidence": {
-              "status": "ready",
-              "url": "https://www.vogue.com/fashion-shows/lagos-spring-2027/kilentar",
-              "fetchedAt": "2026-11-06T06:43:31.597Z",
-              "snapshotHash": "dc31487f3042ee84b70de8910abd9171613c1ed3e3b4f1baf26cb29c8eb0d456",
-              "characters": 1670
-            }
+            "viviaScore": null
           },
           "window": "24h"
         },
@@ -1465,6 +1555,127 @@
         },
         {
           "analysis": {
+            "analyzedAt": "2026-11-06T09:28:00.000Z",
+            "chineseSummary": "Dover Street Market Singapore 展出 Solange Azagury-Partridge 的 Frankenstone 系列：从整块水晶雕刻，到把不同切工拼合成新的石材形态。",
+            "chineseTitle": "Solange 以切开与重组重写宝石切面",
+            "contentHash": "sha1:c33dbf43818affb4afc09121d752b649e0349db4",
+            "itemId": "visual-vogue-singapore-uqomet",
+            "model": "codex-agent",
+            "primaryTopic": "exhibition",
+            "promptVersion": "visual-daily-v1",
+            "score": 90,
+            "scoreBreakdown": {
+              "informationSpecificity": 14,
+              "novelty": 18,
+              "professionalRelevance": 17,
+              "sourceQuality": 8,
+              "timeliness": 5,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "正文说明了具体的切割、剖分与重构手法，适合作为材质和形态研究参考。",
+            "status": "success",
+            "trendKeywords": [
+              "宝石重构",
+              "切面",
+              "材料错位"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://vogue.sg/solange-dover-street-market-singapore/",
+              "snapshotHash": "6034703614f6eba5865933ba206576fc2b6f74a2f39d3ee279fe5446fa6318fa",
+              "facts": [
+                {
+                  "statement": "50:50 与 Split 设计把宝石做成如被切开的形态。",
+                  "quote": "50:50 and Split designs"
+                },
+                {
+                  "statement": "一颗绿色碧玺以金属框出其被切开的边缘。",
+                  "quote": "A green tourmaline framed in gold"
+                }
+              ],
+              "visualMethod": "通过暴露切面、拼接异质切工和保留断裂感，将珠宝从完整物件转化为有内部结构的微型雕塑。",
+              "application": "在静物或配饰拍摄中，可用透明材质、错位剖面和相邻的粗糙/抛光面制造“重组中”的张力。",
+              "visualTags": [
+                "材质",
+                "构图",
+                "工艺"
+              ],
+              "limitation": "报道为展览与设计师访谈，未提供每件作品的完整制作参数。",
+              "assessment": {
+                "contentKind": "artwork",
+                "methodEvidence": "specific",
+                "rationale": "正文具体说明了水晶雕刻、宝石剖分与不同切工的拼接。"
+              },
+              "event": {
+                "key": "solange-frankenstone-singapore-2026",
+                "label": "Solange Frankenstone Singapore exhibition"
+              }
+            }
+          },
+          "item": {
+            "capturedAt": "2026-11-06T09:23:51.535Z",
+            "hashtags": [],
+            "id": "visual-vogue-singapore-uqomet",
+            "keywords": [
+              "styling",
+              "photography",
+              "fashion_culture"
+            ],
+            "lang": "en",
+            "market": "SG",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-11-06T07:38:42.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://vogue.sg/feed/",
+              "fetchedAt": "2026-11-06T09:23:51.535Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://vogue.sg/solange-dover-street-market-singapore/"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "Vogue Singapore",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://vogue.sg/solange-dover-street-market-singapore/",
+            "text": "For 10 days only, Dover Street Market Singapore is hosting an exhibition of jewellery by Solange Azagury-Partridge The post British designer Solange Azagury-Partridge’s remarkable jewels are in Singapore appeared first on Vogue Singapore .",
+            "thumbnailUrl": "https://voguesg.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2026/11/06001850/FEATURED-THP-MOBILE-DSMS-Solange-Jewellery-Close-Up-1.jpg",
+            "title": "British designer Solange Azagury-Partridge’s remarkable jewels are in Singapore",
+            "contentHash": "sha1:c33dbf43818affb4afc09121d752b649e0349db4",
+            "dedupKey": "vogue.sg/solange-dover-street-market-singapore",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null,
+            "sourceEvidence": {
+              "status": "ready",
+              "url": "https://vogue.sg/solange-dover-street-market-singapore/",
+              "fetchedAt": "2026-11-06T09:24:31.017Z",
+              "snapshotHash": "6034703614f6eba5865933ba206576fc2b6f74a2f39d3ee279fe5446fa6318fa",
+              "characters": 5013
+            }
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
             "analyzedAt": "2026-11-06T06:45:57.000Z",
             "chineseSummary": "伦敦博物馆改造保留维多利亚时代基础设施，同时把入口、首层公共区和流线设计为能吸收多种活动的开放系统，让历史建筑持续承接城市生活。",
             "chineseTitle": "把博物馆做成“城市海绵”：Asif Khan 的可变公共空间",
@@ -1523,7 +1734,7 @@
             }
           },
           "item": {
-            "capturedAt": "2026-11-06T06:43:03.193Z",
+            "capturedAt": "2026-11-06T09:23:51.535Z",
             "hashtags": [],
             "id": "visual-wallpaper-1cy764h",
             "keywords": [
@@ -1553,7 +1764,7 @@
               "authenticity": "live",
               "collector": "visual-radar-rss",
               "evidenceUrl": "https://www.wallpaper.com/rss",
-              "fetchedAt": "2026-11-06T06:43:03.193Z",
+              "fetchedAt": "2026-11-06T09:23:51.535Z",
               "label": "真实采集",
               "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
               "snapshotId": null,
@@ -1572,14 +1783,7 @@
             "interpretation": null,
             "schemaVersion": "1",
             "tier": null,
-            "viviaScore": null,
-            "sourceEvidence": {
-              "status": "ready",
-              "url": "https://www.wallpaper.com/architecture/asif-khan-profile-london-museum-uk",
-              "fetchedAt": "2026-11-06T06:43:31.597Z",
-              "snapshotHash": "976dc42bc86768dcfb941006aaa5f68d14bc5a97fdb71e0fc21d3cef88b15575",
-              "characters": 7329
-            }
+            "viviaScore": null
           },
           "window": "24h"
         },
@@ -1645,7 +1849,7 @@
             }
           },
           "item": {
-            "capturedAt": "2026-11-06T06:43:03.193Z",
+            "capturedAt": "2026-11-06T09:23:51.535Z",
             "hashtags": [],
             "id": "visual-wallpaper-1unv77c",
             "keywords": [
@@ -1675,7 +1879,7 @@
               "authenticity": "live",
               "collector": "visual-radar-rss",
               "evidenceUrl": "https://www.wallpaper.com/rss",
-              "fetchedAt": "2026-11-06T06:43:03.193Z",
+              "fetchedAt": "2026-11-06T09:23:51.535Z",
               "label": "真实采集",
               "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
               "snapshotId": null,
@@ -1694,14 +1898,7 @@
             "interpretation": null,
             "schemaVersion": "1",
             "tier": null,
-            "viviaScore": null,
-            "sourceEvidence": {
-              "status": "ready",
-              "url": "https://www.wallpaper.com/transportation/supersonic-50-years-of-concorde-ink-exhibition",
-              "fetchedAt": "2026-11-06T06:43:31.597Z",
-              "snapshotHash": "88fd6fb9f32eb3cfeb329cb5fb68e06e8aabaaa8d4dab09b57fffcea81b7eed0",
-              "characters": 4692
-            }
+            "viviaScore": null
           },
           "window": "24h"
         },
@@ -1765,7 +1962,7 @@
             }
           },
           "item": {
-            "capturedAt": "2026-11-06T06:43:03.193Z",
+            "capturedAt": "2026-11-06T09:23:51.535Z",
             "hashtags": [],
             "id": "visual-w-magazine-1p05oz5",
             "keywords": [
@@ -1790,12 +1987,12 @@
               "searchIndex": null,
               "shares": null
             },
-            "postedAt": "2026-11-05T19:51:48.089Z",
+            "postedAt": "2026-11-05T19:51:48.000Z",
             "provenance": {
               "authenticity": "live",
               "collector": "visual-radar-rss",
               "evidenceUrl": "https://www.wmagazine.com/rss",
-              "fetchedAt": "2026-11-06T06:43:03.193Z",
+              "fetchedAt": "2026-11-06T09:23:51.535Z",
               "label": "真实采集",
               "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
               "snapshotId": null,
@@ -1814,14 +2011,7 @@
             "interpretation": null,
             "schemaVersion": "1",
             "tier": null,
-            "viviaScore": null,
-            "sourceEvidence": {
-              "status": "ready",
-              "url": "https://www.wmagazine.com/culture/sung-jin-park-photographer-kid-echo-book",
-              "fetchedAt": "2026-11-06T06:43:31.597Z",
-              "snapshotHash": "58266ad31121b1d58a4c08a0e364c730331c8a3a6c5f34f3f885b743ddc0ea49",
-              "characters": 3207
-            }
+            "viviaScore": null
           },
           "window": "24h"
         },
@@ -1886,7 +2076,7 @@
             }
           },
           "item": {
-            "capturedAt": "2026-11-06T06:43:03.193Z",
+            "capturedAt": "2026-11-06T09:23:51.535Z",
             "hashtags": [],
             "id": "visual-vogue-runway-1ikref",
             "keywords": [
@@ -1915,7 +2105,7 @@
               "authenticity": "live",
               "collector": "visual-radar-html",
               "evidenceUrl": "https://www.vogue.com/fashion-shows/latest-shows",
-              "fetchedAt": "2026-11-06T06:43:03.193Z",
+              "fetchedAt": "2026-11-06T09:23:51.535Z",
               "label": "真实采集",
               "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
               "snapshotId": null,
@@ -1934,14 +2124,7 @@
             "interpretation": null,
             "schemaVersion": "1",
             "tier": null,
-            "viviaScore": null,
-            "sourceEvidence": {
-              "status": "ready",
-              "url": "https://www.vogue.com/fashion-shows/lagos-spring-2027/christie-brown",
-              "fetchedAt": "2026-11-06T06:43:31.597Z",
-              "snapshotHash": "3bb03f2e7c5f4926162a8c25d7758aac6c101973e9e0a28f5d85d27378b2b698",
-              "characters": 1613
-            }
+            "viviaScore": null
           },
           "window": "24h"
         },
@@ -2126,7 +2309,7 @@
             }
           },
           "item": {
-            "capturedAt": "2026-11-06T06:43:03.193Z",
+            "capturedAt": "2026-11-06T09:23:51.535Z",
             "hashtags": [],
             "id": "visual-wallpaper-1tyo0xc",
             "keywords": [
@@ -2156,7 +2339,7 @@
               "authenticity": "live",
               "collector": "visual-radar-rss",
               "evidenceUrl": "https://www.wallpaper.com/rss",
-              "fetchedAt": "2026-11-06T06:43:03.193Z",
+              "fetchedAt": "2026-11-06T09:23:51.535Z",
               "label": "真实采集",
               "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
               "snapshotId": null,
@@ -2175,14 +2358,7 @@
             "interpretation": null,
             "schemaVersion": "1",
             "tier": null,
-            "viviaScore": null,
-            "sourceEvidence": {
-              "status": "ready",
-              "url": "https://www.wallpaper.com/design-interiors/formafantasma-monograph-phaidon-simone-farresin-interview",
-              "fetchedAt": "2026-11-06T06:43:31.597Z",
-              "snapshotHash": "b6e3cb2de893cb3f67e38eff48c76b1f51a545b93420681f88e8f7d5fd7ecfe5",
-              "characters": 3346
-            }
+            "viviaScore": null
           },
           "window": "24h"
         },
@@ -2246,7 +2422,7 @@
             }
           },
           "item": {
-            "capturedAt": "2026-11-06T06:43:03.193Z",
+            "capturedAt": "2026-11-06T09:23:51.535Z",
             "hashtags": [],
             "id": "visual-photovogue-1fojfjd",
             "keywords": [
@@ -2275,7 +2451,7 @@
               "authenticity": "live",
               "collector": "visual-radar-html",
               "evidenceUrl": "https://www.vogue.com/contributor/photovogue",
-              "fetchedAt": "2026-11-06T06:43:03.193Z",
+              "fetchedAt": "2026-11-06T09:23:51.535Z",
               "label": "真实采集",
               "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
               "snapshotId": null,
@@ -2294,16 +2470,128 @@
             "interpretation": null,
             "schemaVersion": "1",
             "tier": null,
+            "viviaScore": null
+          },
+          "window": "72h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-11-06T09:28:00.000Z",
+            "chineseSummary": "Alexvi 为 GQ 中国封面测试俯拍群像，以顶灯、柔光与在反光板上开出的镜头孔同时解决脸部照明、背光氛围和折页构图。",
+            "chineseTitle": "俯拍群像：把摄影师和反光板做成“夹层”",
+            "contentHash": "sha1:496868fb3ed8b43264cae771150a8ab246e42bc4",
+            "itemId": "visual-profoto-bfsgzp",
+            "model": "codex-agent",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 83,
+            "scoreBreakdown": {
+              "informationSpecificity": 15,
+              "novelty": 16,
+              "professionalRelevance": 19,
+              "sourceQuality": 7,
+              "timeliness": 0,
+              "visualInspiration": 26
+            },
+            "selectionRationale": "原文提供可复现的群像构图、光源组合和现场测试逻辑。",
+            "status": "success",
+            "trendKeywords": [
+              "俯拍群像",
+              "柔光",
+              "反光板构图"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/alexvi-reveals-how-he-created-a-cover-for-gq-magazine/",
+              "snapshotHash": "49f6a14e3820693d46311148157336c4e9c9d4ef950fd99a74dc3066187950ea",
+              "facts": [
+                {
+                  "statement": "现场使用顶置 Pro-8a、日光柔光布和八角柔光箱。",
+                  "quote": "one Pro-8a from right above, one 3x3 m sun scrim"
+                },
+                {
+                  "statement": "团队在摄影师上方的白色反光板开孔供镜头取景。",
+                  "quote": "put a white board reflector on Alexvi and cut a 10 cm square"
+                }
+              ],
+              "visualMethod": "用俯拍视角把人物围合成环，并以反光板兼顾脸部补光和镜头通道，形成近距离而戏剧化的群像透视。",
+              "application": "拍摄多人俯视画面时，先用替身预演重叠关系，再将柔光反射面与机位联动，预留镜头孔避免破坏面部光线。",
+              "visualTags": [
+                "布光",
+                "构图"
+              ],
+              "limitation": "该案例来自器材品牌内容，布光效果未有第三方独立测试。",
+              "assessment": {
+                "contentKind": "vendor_case",
+                "methodEvidence": "specific",
+                "rationale": "正文明确列出机位、柔光材料、反光板开孔和测试流程。"
+              },
+              "event": {
+                "key": "alexvi-gq-china-cover-lighting",
+                "label": "Alexvi GQ China cover lighting"
+              }
+            }
+          },
+          "item": {
+            "capturedAt": "2026-11-06T09:23:51.535Z",
+            "hashtags": [],
+            "id": "visual-profoto-bfsgzp",
+            "keywords": [
+              "tool",
+              "photography"
+            ],
+            "lang": "en",
+            "market": "EU",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": null,
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-sitemap",
+              "evidenceUrl": "https://www.profoto.com/gb/sitemap.xml",
+              "fetchedAt": "2026-11-06T09:23:51.535Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.profoto.com/gb/en/still-photography/profoto-stories/alexvi-reveals-how-he-created-a-cover-for-gq-magazine/"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "Profoto Stories",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/alexvi-reveals-how-he-created-a-cover-for-gq-magazine/",
+            "text": "Go behind the scenes as Alexvi shares how he used the Profoto B10 to create a stunning GQ magazine cover with expert lighting techniques.",
+            "thumbnailUrl": "https://www.profoto.com/globalassets/profoto-stories/alexvi/alexvi-gq-magazine-final-og.jpg?width=1200&height=630&rmode=Pad&bgcolor=white",
+            "title": "Alexvi’s GQ cover shoot with Profoto B10",
+            "contentHash": "sha1:496868fb3ed8b43264cae771150a8ab246e42bc4",
+            "dedupKey": "www.profoto.com/gb/en/still-photography/profoto-stories/alexvi-reveals-how-he-created-a-cover-for-gq-magazine",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
             "viviaScore": null,
             "sourceEvidence": {
               "status": "ready",
-              "url": "https://www.vogue.com/article/inside-francesca-allens-new-publication-hair",
-              "fetchedAt": "2026-11-06T06:43:31.597Z",
-              "snapshotHash": "d9674249606f95d9e280a498e469fa25ecaf82300dc429037b6efd58ee90d35c",
-              "characters": 1395
+              "url": "https://www.profoto.com/gb/en/still-photography/profoto-stories/alexvi-reveals-how-he-created-a-cover-for-gq-magazine/",
+              "fetchedAt": "2026-11-06T09:24:31.017Z",
+              "snapshotHash": "49f6a14e3820693d46311148157336c4e9c9d4ef950fd99a74dc3066187950ea",
+              "characters": 5714
             }
           },
-          "window": "72h"
+          "window": "unknown"
         }
       ],
       "title": "Visual Radar Daily — 2026.11.06",
@@ -2324,6 +2612,26 @@
               "sourceUrl": "https://www.momu.be/en/exhibitions/chintz-craftsmanship-controversy",
               "title": "MoMu的Chintz研究：把馆藏纹样与当代手工制作并置",
               "source": "MoMu Antwerp"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "aputure.com/en-US/articles/why-aputure-chose-to-narrow-the-beam-on-the-storm",
+          "label": "为什么 STORM 主动缩窄光束：亮度、柔光附件与人像肤质之间的取舍",
+          "representative": {
+            "itemId": "visual-aputure-1qqxao4",
+            "sourceUrl": "https://aputure.com/en-US/articles/why-aputure-chose-to-narrow-the-beam-on-the-storm",
+            "title": "为什么 STORM 主动缩窄光束：亮度、柔光附件与人像肤质之间的取舍",
+            "source": "Aputure Blog",
+            "issueId": "2026-07-16"
+          },
+          "related": [
+            {
+              "itemId": "visual-aputure-1qqxao4",
+              "sourceUrl": "https://aputure.com/en-US/articles/why-aputure-chose-to-narrow-the-beam-on-the-storm",
+              "title": "用 57–58° 原生泛光角测试修饰器效率",
+              "source": "Aputure Blog"
             }
           ],
           "disposition": "previous"
@@ -2424,6 +2732,26 @@
               "sourceUrl": "https://www.mplus.org.hk/en/magazine/cross-cuts",
               "title": "用短片把馆藏重新剪成多条叙事：M+《Cross-Cuts》",
               "source": "M+"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "www.profoto.com/gb/en/still-photography/profoto-stories/tina-eisen-six-setups-creative-portraits",
+          "label": "Tina Eisen 的六组创意肖像布光",
+          "representative": {
+            "itemId": "visual-profoto-g67l",
+            "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/tina-eisen-six-setups-creative-portraits/",
+            "title": "Tina Eisen 的六组创意肖像布光",
+            "source": "Profoto Stories",
+            "issueId": "2026-10-21"
+          },
+          "related": [
+            {
+              "itemId": "visual-profoto-g67l",
+              "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/tina-eisen-six-setups-creative-portraits/",
+              "title": "双灯在阴天与黄昏中重塑人像的层次",
+              "source": "Profoto Stories"
             }
           ],
           "disposition": "previous"

@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-11-06T06:43:03.193Z",
+  "generatedAt": "2026-11-06T09:23:51.535Z",
   "sources": [
     {
       "sourceId": "dazed",
       "label": "Dazed",
       "core": false,
-      "status": "ok",
-      "itemCount": 8,
-      "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
+      "status": "failed",
+      "itemCount": 0,
+      "consecutiveFailures": 1,
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
       "lastSuccessAt": "2026-11-06T06:43:03.193Z",
-      "error": null
+      "error": "The operation was aborted due to timeout"
     },
     {
       "sourceId": "wallpaper",
@@ -19,8 +19,8 @@
       "status": "ok",
       "itemCount": 8,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -29,8 +29,8 @@
       "core": true,
       "status": "failed",
       "itemCount": 0,
-      "consecutiveFailures": 8,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
+      "consecutiveFailures": 9,
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
       "lastSuccessAt": null,
       "error": "HTTP 403 Forbidden"
     },
@@ -41,8 +41,8 @@
       "status": "ok",
       "itemCount": 8,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -52,8 +52,8 @@
       "status": "ok",
       "itemCount": 8,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -63,8 +63,8 @@
       "status": "ok",
       "itemCount": 8,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -74,8 +74,8 @@
       "status": "ok",
       "itemCount": 8,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -85,8 +85,8 @@
       "status": "ok",
       "itemCount": 8,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -96,8 +96,8 @@
       "status": "ok",
       "itemCount": 8,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -107,8 +107,8 @@
       "status": "ok",
       "itemCount": 8,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -117,8 +117,8 @@
       "core": true,
       "status": "failed",
       "itemCount": 0,
-      "consecutiveFailures": 8,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
+      "consecutiveFailures": 9,
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
       "lastSuccessAt": null,
       "error": "HTTP 403 Forbidden"
     },
@@ -129,8 +129,8 @@
       "status": "ok",
       "itemCount": 8,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -140,8 +140,8 @@
       "status": "ok",
       "itemCount": 8,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -151,8 +151,8 @@
       "status": "ok",
       "itemCount": 8,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -162,8 +162,8 @@
       "status": "ok",
       "itemCount": 8,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -173,8 +173,8 @@
       "status": "ok",
       "itemCount": 8,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -184,8 +184,8 @@
       "status": "ok",
       "itemCount": 8,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -195,8 +195,8 @@
       "status": "ok",
       "itemCount": 8,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -206,8 +206,8 @@
       "status": "ok",
       "itemCount": 8,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -217,8 +217,8 @@
       "status": "ok",
       "itemCount": 8,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -228,8 +228,8 @@
       "status": "ok",
       "itemCount": 8,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -239,8 +239,8 @@
       "status": "ok",
       "itemCount": 3,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -250,8 +250,8 @@
       "status": "ok",
       "itemCount": 8,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -261,8 +261,8 @@
       "status": "ok",
       "itemCount": 8,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -271,8 +271,8 @@
       "core": true,
       "status": "failed",
       "itemCount": 0,
-      "consecutiveFailures": 8,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
+      "consecutiveFailures": 9,
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
       "lastSuccessAt": null,
       "error": "HTTP 503 Service Unavailable"
     },
@@ -283,8 +283,8 @@
       "status": "ok",
       "itemCount": 5,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -294,8 +294,8 @@
       "status": "ok",
       "itemCount": 8,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -305,8 +305,8 @@
       "status": "ok",
       "itemCount": 1,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -316,8 +316,8 @@
       "status": "ok",
       "itemCount": 8,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -327,8 +327,8 @@
       "status": "ok",
       "itemCount": 1,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -338,8 +338,8 @@
       "status": "ok",
       "itemCount": 1,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -348,8 +348,8 @@
       "core": false,
       "status": "empty",
       "itemCount": 0,
-      "consecutiveFailures": 4,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
+      "consecutiveFailures": 5,
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
       "lastSuccessAt": null,
       "error": "未取得有效条目"
     },
@@ -360,8 +360,8 @@
       "status": "ok",
       "itemCount": 8,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     },
     {
@@ -371,23 +371,23 @@
       "status": "ok",
       "itemCount": 8,
       "consecutiveFailures": 0,
-      "lastCheckedAt": "2026-11-06T06:43:03.193Z",
-      "lastSuccessAt": "2026-11-06T06:43:03.193Z",
+      "lastCheckedAt": "2026-11-06T09:23:51.535Z",
+      "lastSuccessAt": "2026-11-06T09:23:51.535Z",
       "error": null
     }
   ],
   "summary": {
     "attempted": 34,
-    "healthy": 30,
-    "failed": 3,
+    "healthy": 29,
+    "failed": 4,
     "empty": 1,
     "coreHealthy": 8,
     "coreTotal": 11,
     "alerts": [
-      "British Journal of Photography：HTTP 403 Forbidden，连续 8 次",
-      "LensCulture：HTTP 403 Forbidden，连续 8 次",
-      "Palais Galliera：HTTP 503 Service Unavailable，连续 8 次",
-      "Topaz Labs Learn：未取得有效条目，连续 4 次"
+      "British Journal of Photography：HTTP 403 Forbidden，连续 9 次",
+      "LensCulture：HTTP 403 Forbidden，连续 9 次",
+      "Palais Galliera：HTTP 503 Service Unavailable，连续 9 次",
+      "Topaz Labs Learn：未取得有效条目，连续 5 次"
     ]
   }
 }
