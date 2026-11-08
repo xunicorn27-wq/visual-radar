@@ -583,32 +583,63 @@
       ]
     },
     {
-      "analyzedAt": "2026-07-16T11:04:35.299Z",
-      "chineseSummary": "Sidus Link Pro 2.3 的 3D Visualizer 让团队在进入现场前搭建虚拟空间，放置灯具、人物和道具，设定 DMX 参数并预览灯光 cues。预演结果可以继续带入实际制作，减少现场试错和反复移动器材。它特别适合灯具数量较多、机位复杂或搭建时间受限的项目，使灯光设计从文字表格和想象，变成导演、摄影和灯光部门都能共同查看的空间方案。",
-      "chineseTitle": "在开拍前完成虚拟布光：Sidus Link Pro 的3D灯光预演工具",
+      "analyzedAt": "2026-11-08T09:23:30.000Z",
+      "chineseSummary": "Sidus Link Pro 2.3 的 3D Visualizer 允许在开拍前创建空间、放置灯具并设计画面，使预演、调整和控制处于同一工作流。",
+      "chineseTitle": "把灯光预演接入三维空间规划",
       "contentHash": "sha1:aa6500d71dbc98f0e9c0e611cd6fd8b7b4ddea61",
       "itemId": "visual-aputure-9aw6kv",
-      "model": "codex-agent-manual",
+      "model": "codex-agent",
       "primaryTopic": "tool",
       "promptVersion": "visual-daily-v1",
-      "score": 90,
+      "score": 80,
       "scoreBreakdown": {
         "informationSpecificity": 13,
-        "novelty": 18,
-        "professionalRelevance": 18,
-        "sourceQuality": 9,
-        "timeliness": 5,
-        "visualInspiration": 27
+        "novelty": 16,
+        "professionalRelevance": 19,
+        "sourceQuality": 7,
+        "timeliness": 0,
+        "visualInspiration": 25
       },
-      "selectionRationale": "把前期沟通可视化，适合复杂棚拍、活动和需要客户提前确认的灯光方案。",
+      "selectionRationale": "工具说明清楚界定了预演环境与工作流衔接方式，对影像制作中的空间化灯光规划有直接参考价值。",
       "status": "success",
       "trendKeywords": [
-        "3D预演",
-        "虚拟布光",
-        "DMX",
-        "拍摄前期",
-        "灯光设计"
-      ]
+        "灯光预演",
+        "三维场景",
+        "制作工作流"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://aputure.com/en-US/articles/whats-new-in-sidus-link-pro-2-3",
+        "snapshotHash": "19bfd9fa6de7b21830b27b5ea3945e203ba9615e01797f21bb7d26872516c39f",
+        "facts": [
+          {
+            "statement": "3D Visualizer 可创建空间、放置灯具并设计画面。",
+            "quote": "create spaces, place lights, and design looks"
+          },
+          {
+            "statement": "它把三维可视化直接接入控制工作流。",
+            "quote": "built directly into the control workflow"
+          }
+        ],
+        "visualMethod": "先用空间模型验证光位和观看角度，再把确定布局移交现场控制，让视觉决策前置。",
+        "application": "复杂拍摄可先标注机位、主光、轮廓光和遮光区，再以现场测光修正。",
+        "visualTags": [
+          "布光",
+          "空间",
+          "动态影像"
+        ],
+        "limitation": "信息来自厂商发布，未独立验证软件在不同项目规模下的准确性。",
+        "assessment": {
+          "contentKind": "announcement",
+          "methodEvidence": "specific",
+          "rationale": "正文明确列出空间、灯位、画面设计与控制工作流的功能。"
+        },
+        "event": {
+          "key": "sidus-link-pro-23-3d-visualizer",
+          "label": "Sidus Link Pro 2.3 3D Visualizer"
+        }
+      }
     },
     {
       "analyzedAt": "2026-11-06T09:28:00.000Z",
@@ -16994,9 +17025,542 @@
           "label": "Alexvi GQ China cover lighting"
         }
       }
+    },
+    {
+      "analyzedAt": "2026-11-08T09:23:30.000Z",
+      "chineseSummary": "White Arkitekter 以斯德哥尔摩 Wood City 为例，将木材从单体建筑扩展到高层与整座城区；项目已进入现场施工第三年。",
+      "chineseTitle": "把木构城市当作可见的尺度系统",
+      "contentHash": "sha1:af4ed33f566f32928ce2c55d59ce4bd280444337",
+      "itemId": "visual-wallpaper-1pxrkru",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 88,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 17,
+        "professionalRelevance": 18,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 26
+      },
+      "selectionRationale": "报道提供材料尺度、项目进度和空间类型的具体证据，适合观察材料叙事如何进入城市视觉。",
+      "status": "success",
+      "trendKeywords": [
+        "木构城市",
+        "材料叙事",
+        "可持续空间"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.wallpaper.com/architecture/wood-city-stockholm-oskar-norelius-white-arkitekter-interview",
+        "snapshotHash": "5640123114403a693939474d1ae8853f8c0302568c01601cf4ed3be66b0939f2",
+        "facts": [
+          {
+            "statement": "Wood City 是斯德哥尔摩南部的持续项目。",
+            "quote": "an ongoing scheme in south Stockholm"
+          },
+          {
+            "statement": "事务所把木构技术应用到高层、大体量建筑乃至整座城市。",
+            "quote": "high-rises, large-scale buildings, and even an entire city"
+          }
+        ],
+        "visualMethod": "把结构尺度与连续的木材肌理并置，使材料成为城市识别的视觉秩序。",
+        "application": "在空间提案中以构件比例、连接节点和重复网格建立材料尺度图。",
+        "visualTags": [
+          "材质",
+          "空间",
+          "叙事"
+        ],
+        "limitation": "报道为事务所访谈，未独立核验项目的完整环境绩效。",
+        "assessment": {
+          "contentKind": "production_case",
+          "methodEvidence": "specific",
+          "rationale": "正文具体说明项目地点、施工阶段及木构应用尺度。"
+        },
+        "event": {
+          "key": "white-arkitekter-wood-city-stockholm",
+          "label": "White Arkitekter Wood City Stockholm"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-08T09:23:30.000Z",
+      "chineseSummary": "Tissa 将南亚纺织、手工珠饰和纱丽的流动感，转译为当代两件式礼服；首个系列以小批量方式制作。",
+      "chineseTitle": "Tissa 用珠饰与垂坠重译纱丽轮廓",
+      "contentHash": "sha1:1fc5d67ebf946f633c9b9d57daa1927beb737e68",
+      "itemId": "visual-vogue-singapore-1p60522",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 87,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 17,
+        "professionalRelevance": 18,
+        "sourceQuality": 8,
+        "timeliness": 3,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "正文给出明确的廓形来源与表面工艺，可作为文化参考转译而非直接复刻的案例。",
+      "status": "success",
+      "trendKeywords": [
+        "垂坠廓形",
+        "手工珠饰",
+        "文化转译"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://vogue.sg/fashion-brand-tissa/",
+        "snapshotHash": "b50ca46098fe27ec6d5d0f1012d6f9dad44201d83baacba9b1ddfd7888fcc996",
+        "facts": [
+          {
+            "statement": "品牌希望致敬文化影响，而不是复制传统服装。",
+            "quote": "honour cultural influence without replicating traditional dress"
+          },
+          {
+            "statement": "首个 Spot Set 以纱丽为灵感，使用手工珠饰与流动垂坠。",
+            "quote": "featured intricate hand-applied beadwork and fluid draping"
+          }
+        ],
+        "visualMethod": "用可辨识的垂坠逻辑保留文化线索，再以当代分体结构和局部珠饰重新分配视觉重量。",
+        "application": "造型测试可先保留一种原始衣物的运动规律，再以现代裁片承接它。",
+        "visualTags": [
+          "材质",
+          "构图",
+          "工艺"
+        ],
+        "limitation": "报道基于品牌访谈，未提供每件服装的完整供应链资料。",
+        "assessment": {
+          "contentKind": "production_case",
+          "methodEvidence": "specific",
+          "rationale": "正文明确描述纱丽来源、手工珠饰、垂坠和限量制作。"
+        },
+        "event": {
+          "key": "tissa-saree-contemporary-draping",
+          "label": "Tissa contemporary saree draping"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-08T09:23:30.000Z",
+      "chineseSummary": "Alicia Nieto 的《See You Sometime, Somewhere》以欧洲迁徙生活为线索，拍摄车程、霓虹、地下音乐现场与朋友间的临时亲密。",
+      "chineseTitle": "把短暂相遇拍成流动中的私人档案",
+      "contentHash": "sha1:439e33cf1081b82c7c4d30dafa6233449b05f2e6",
+      "itemId": "visual-dazed-fir4u1",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 88,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 17,
+        "professionalRelevance": 18,
+        "sourceQuality": 8,
+        "timeliness": 3,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "摄影师清楚说明项目的拍摄关系、场景和情绪取向，具有可复用的纪实叙事方法。",
+      "status": "success",
+      "trendKeywords": [
+        "私人档案",
+        "青年亚文化",
+        "霓虹纪实"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.dazeddigital.com/art-photography/article/71301/1/alicia-nieto-see-you-sometime-photography-europe-portraits-youth-subcultures?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=these-intimate-photos-capture-chance-encounters-across-europe",
+        "snapshotHash": "55ac2e52728b1aae64e702e8624dcb6cecbc064b2fd7c26d1121092a6cd2b51d",
+        "facts": [
+          {
+            "statement": "系列从摄影师18岁离开墨西哥北部小镇赴欧求学的经历发展而来。",
+            "quote": "left a small town in northern Mexico to study in Europe at 18"
+          },
+          {
+            "statement": "画面包含霓虹照亮的面孔。",
+            "quote": "faces washed in neon streetlight"
+          }
+        ],
+        "visualMethod": "以朋友与偶遇对象混合入镜，让移动、告别和低照度场景维持未完成的亲密感。",
+        "application": "围绕一次真实移动路线拍摄人物、过渡空间和夜间光源，并保留到达与离开的连续性。",
+        "visualTags": [
+          "构图",
+          "色彩",
+          "叙事"
+        ],
+        "limitation": "报道主要呈现作者自述，未涵盖整个系列的完整编辑与制作流程。",
+        "assessment": {
+          "contentKind": "artwork",
+          "methodEvidence": "specific",
+          "rationale": "正文说明项目起点、人物关系和反复出现的拍摄场景。"
+        },
+        "event": {
+          "key": "alicia-nieto-see-you-sometime-somewhere",
+          "label": "Alicia Nieto See You Sometime Somewhere"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-08T09:23:30.000Z",
+      "chineseSummary": "摄影师 Takashi Kamei 在时装棚拍中通过 Soft Zoom Reflector 的距离、柔光片与蜂巢，控制服装的立体感和场景的光线硬度。",
+      "chineseTitle": "用一支可变焦反光罩切换硬光与柔光",
+      "contentHash": "sha1:2f7d5335007b11d808474f9f9423c36d7eefae62",
+      "itemId": "visual-profoto-335cwr",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 82,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 15,
+        "professionalRelevance": 19,
+        "sourceQuality": 7,
+        "timeliness": 0,
+        "visualInspiration": 26
+      },
+      "selectionRationale": "器材内容公开了明确的调整变量与造型目标，适合转为可测试的时装布光方法。",
+      "status": "success",
+      "trendKeywords": [
+        "时装布光",
+        "反光罩",
+        "硬柔光转换"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/takashi-kamei-x-soft-zoom-reflector/",
+        "snapshotHash": "d48a40235b0e42e7300ede9a8af853762b9a22c6604fa919609c105061440853",
+        "facts": [
+          {
+            "statement": "Kamei 以灯体与反射面间的距离改变服装的立体效果。",
+            "quote": "distance between the light emitting part and the reflective surface"
+          },
+          {
+            "statement": "他用柔光片或蜂巢改变扩散度和硬光。",
+            "quote": "adding a diffuser or grid"
+          }
+        ],
+        "visualMethod": "将同一主灯拆成距离、扩散和方向三个独立变量，先塑造服装体积，再决定背景硬度。",
+        "application": "固定机位与曝光，依次记录近距硬光、加柔光片和加蜂巢三组测试。",
+        "visualTags": [
+          "布光",
+          "材质",
+          "构图"
+        ],
+        "limitation": "案例来自器材品牌，效果描述未经过独立技术测试。",
+        "assessment": {
+          "contentKind": "vendor_case",
+          "methodEvidence": "specific",
+          "rationale": "正文明确描述距离、柔光片、蜂巢和其对光线的作用。"
+        },
+        "event": {
+          "key": "takashi-kamei-soft-zoom-reflector",
+          "label": "Takashi Kamei Soft Zoom Reflector lighting"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-08T09:23:30.000Z",
+      "chineseSummary": "东京写真美术馆将展出冈田敦拍摄 Yururi Island 的约80件摄影作品、2件影像与资料，围绕受限岛屿上的马群与记忆展开。",
+      "chineseTitle": "用十五年摄影记录一座逐渐消失的马岛",
+      "contentHash": "sha1:e5ba13a4e118b7d2772f1a4db6e5c3354ad3a620",
+      "itemId": "visual-tokyo-photo-museum-1yjg1tz",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 87,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 16,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 2,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "机构页面给出展览对象、长期拍摄跨度、作品数量和开幕信息，是具备清晰视觉叙事的近期展览。",
+      "status": "success",
+      "trendKeywords": [
+        "长期摄影",
+        "岛屿档案",
+        "生态叙事"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://topmuseum.jp/exhibition/12698",
+        "snapshotHash": "f32f9821d7a94863ba2f91754b7c1dbfd97fb49a8330d5b125863818f1c3f10e",
+        "facts": [
+          {
+            "statement": "冈田敦自2011年起持续拍摄 Yururi Island 的马。",
+            "quote": "2011 年からユルリ島の馬を撮り続けた"
+          },
+          {
+            "statement": "展览将呈现约80件摄影、2件影像和相关资料。",
+            "quote": "写真作品約80点、映像作品2点、関連資料"
+          }
+        ],
+        "visualMethod": "以长期重复回访建立时间厚度，同时把受限地景、动物肖像和消退的记忆并置。",
+        "application": "固定若干回访点位与观看距离，并把当下照片和过程资料一起编辑。",
+        "visualTags": [
+          "叙事",
+          "构图",
+          "空间"
+        ],
+        "limitation": "页面为展览预告，实际展陈与开放安排可能调整。",
+        "assessment": {
+          "contentKind": "announcement",
+          "methodEvidence": "specific",
+          "rationale": "机构页面明确列出拍摄年限、作品数量与展览内容。"
+        },
+        "event": {
+          "key": "okada-atsushi-yururi-island-2026",
+          "label": "Atsushi Okada Yururi Island exhibition"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-08T09:23:30.000Z",
+      "chineseSummary": "Dollie Kyarn 以手工切割玻璃板与湿版工艺拍摄阿巴拉契亚社区及创意圈人物，把亲密肖像与手工显影环境紧密相连。",
+      "chineseTitle": "湿版玻璃与乡野肖像的低速图像语言",
+      "contentHash": "sha1:f13b2ab3fa19f9a6a5299fdeff3ca6e860d02837",
+      "itemId": "visual-id-magazine-12rvjsd",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 88,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 18,
+        "professionalRelevance": 17,
+        "sourceQuality": 8,
+        "timeliness": 3,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "报道描述媒介、拍摄对象与制作空间的关系，展示了材料工艺如何塑造肖像的亲密尺度。",
+      "status": "success",
+      "trendKeywords": [
+        "湿版摄影",
+        "玻璃底片",
+        "亲密肖像"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://i-d.co/article/dollie-kyarn-photographer-interview/",
+        "snapshotHash": "56d6e775ad82feb51ab2b4a0ed8b1d552bb4f10d3ad394746d247fa683ff1cf1",
+        "facts": [
+          {
+            "statement": "其工作室使用手工切割的玻璃摄影板与显影液。",
+            "quote": "hand-cut glass photo plates"
+          },
+          {
+            "statement": "Kyarn 在17岁引入湿版工艺。",
+            "quote": "incorporated wet plate work into her photography practice at 17"
+          }
+        ],
+        "visualMethod": "让笨重、缓慢的湿版制作成为人物关系的一部分，使肖像的颗粒、边缘与停顿具有物理来源。",
+        "application": "可用限制拍摄张数、手工介质和固定拍摄地点，为肖像建立更慢的互动节奏。",
+        "visualTags": [
+          "工艺",
+          "材质",
+          "叙事"
+        ],
+        "limitation": "文章聚焦作者经历，未提供完整湿版化学流程与作品系列目录。",
+        "assessment": {
+          "contentKind": "artwork",
+          "methodEvidence": "specific",
+          "rationale": "正文明确说明玻璃板、显影空间及湿版实践的时间线。"
+        },
+        "event": {
+          "key": "dollie-kyarn-analog-photography",
+          "label": "Dollie Kyarn analog photography practice"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-08T09:23:30.000Z",
+      "chineseSummary": "Vessels 以自有3D打印机缩短从想法到物件的距离，并将试错、可替换部件和高饱和怀旧造型发展为工作室方法。",
+      "chineseTitle": "把3D打印的失误变成模块化玩具感",
+      "contentHash": "sha1:42c020342d87e350f9b92e5a0dc46581d2b56ae3",
+      "itemId": "visual-vogue-singapore-vibro2",
+      "model": "codex-agent",
+      "primaryTopic": "tool",
+      "promptVersion": "visual-daily-v1",
+      "score": 91,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 8,
+        "timeliness": 3,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "文章同时呈现制作链路、模块化结构与视觉语气，是独立工作室将技术限制转化为设计特征的具体案例。",
+      "status": "success",
+      "trendKeywords": [
+        "3D打印",
+        "模块化",
+        "玩具感设计"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://vogue.sg/vessels-profile/",
+        "snapshotHash": "1fa014cb06ee18f59841dc4d69a54b9dd9bc0914bfbd6092415617077de489ca",
+        "facts": [
+          {
+            "statement": "工作室认为3D打印让早晨出现的想法可在当日下午变成物件。",
+            "quote": "Ideas sparked in the morning could come to fruition by the afternoon"
+          },
+          {
+            "statement": "Hold Onto This 灯具系列可替换、定制并重新解释各组件。",
+            "quote": "each component can be swapped, customised and reinterpreted"
+          }
+        ],
+        "visualMethod": "把快速原型和可见的不完美保留在成品语气里，再以模块互换延长物件叙事。",
+        "application": "为小物建立统一接口和可替换组件，先测试结构稳定性，再把颜色与怪趣作为变量。",
+        "visualTags": [
+          "工艺",
+          "材质",
+          "色彩"
+        ],
+        "limitation": "报道为工作室访谈，未给出材料耐久性或生产规模数据。",
+        "assessment": {
+          "contentKind": "production_case",
+          "methodEvidence": "specific",
+          "rationale": "正文具体说明快速制作、试错过程与模块化产品结构。"
+        },
+        "event": {
+          "key": "vessels-3d-printing-state-of-play",
+          "label": "Vessels 3D printing State of Play"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-08T09:23:30.000Z",
+      "chineseSummary": "Loewe 与《圣诞夜惊魂》合作，以皮革镶嵌、刺绣、印花与珐琅重构角色和微缩场景的手工质地。",
+      "chineseTitle": "Loewe 将定格动画档案译为皮革细工",
+      "contentHash": "sha1:3fbac6908278c51399d3b0ba93b0adc9de9d468e",
+      "itemId": "visual-w-magazine-ohvavg",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 91,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 8,
+        "timeliness": 3,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "报道明确说明源材料、档案访问和多种工艺翻译路径，适合研究影视世界观如何转化为服装与配饰。",
+      "status": "success",
+      "trendKeywords": [
+        "定格动画",
+        "皮革镶嵌",
+        "影视转译"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.wmagazine.com/fashion/best-fashion-collaborations-launches-capsules-2026",
+        "snapshotHash": "0cd0ede91fb03cd8bf7ebf41bd246d36ea047952d1ad51b1f28066ccb9457fbe",
+        "facts": [
+          {
+            "statement": "影片以定格动画、手工可动木偶和手工微缩布景制作。",
+            "quote": "stop-motion, handmade articulated puppets, and hand-crafted miniature sets"
+          },
+          {
+            "statement": "品牌用皮革镶嵌、刺绣、印花和珐琅重构视觉语言。",
+            "quote": "leather marquetry, embroidery, print, enamel"
+          }
+        ],
+        "visualMethod": "先提取动画世界的比例失真、接缝和手工痕迹，再以材料工艺重新实现，而非直接复制角色图像。",
+        "application": "跨媒介联名时，可把原作拆为轮廓、材质、机械感三层，各以一种工艺对应。",
+        "visualTags": [
+          "工艺",
+          "材质",
+          "叙事",
+          "色彩"
+        ],
+        "limitation": "报道为产品资讯，未展示所有工艺的制作过程或供应链信息。",
+        "assessment": {
+          "contentKind": "production_case",
+          "methodEvidence": "specific",
+          "rationale": "正文列出原作制作方法及具体材料工艺。"
+        },
+        "event": {
+          "key": "loewe-nightmare-before-christmas-2026",
+          "label": "Loewe Nightmare Before Christmas collaboration"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-08T09:23:30.000Z",
+      "chineseSummary": "Freetown Memorial 更新项目以结构玻璃棱柱补充1931年纪念碑，用四片发光玻璃翼片与向上光柱重新组织公共记忆。",
+      "chineseTitle": "用玻璃棱柱与上射光扩展纪念碑的观看半径",
+      "contentHash": "sha1:f36f04733f31bb6c3fbad4c4324b2bd80c86f22e",
+      "itemId": "visual-wallpaper-ni329k",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 92,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "报道提供尺寸、材料、灯光效果和纪念对象等具体信息，展示光如何成为公共空间的叙事介质。",
+      "status": "success",
+      "trendKeywords": [
+        "纪念性空间",
+        "结构玻璃",
+        "光线叙事"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.wallpaper.com/architecture/freetown-memorial-oshinowo-studio-sierra-leone",
+        "snapshotHash": "b8196221a52f9a60f4cc4cf5baadbe686b716c13087129188059bf5512ba15ec",
+        "facts": [
+          {
+            "statement": "扩建部分是以结构玻璃制成的棱柱形体。",
+            "quote": "a prism in structural glass"
+          },
+          {
+            "statement": "顶部光柱在5公里范围可见。",
+            "quote": "visible from a 5km radius across Freetown"
+          }
+        ],
+        "visualMethod": "以透明体的边缘发光和垂直光束超出受限场地，将纪念性延展为夜间城市信号。",
+        "application": "公共装置可先定义远距识别的光线轮廓，再在近景以材料刻字和细部信息承载观看。",
+        "visualTags": [
+          "空间",
+          "布光",
+          "材质",
+          "叙事"
+        ],
+        "limitation": "报道未提供完整照明能耗、维护与长期使用评估。",
+        "assessment": {
+          "contentKind": "production_case",
+          "methodEvidence": "specific",
+          "rationale": "正文明确给出玻璃形式、可见范围及纪念内容。"
+        },
+        "event": {
+          "key": "oshinowo-freetown-memorial-refresh",
+          "label": "Oshinowo Freetown Memorial refresh"
+        }
+      }
     }
   ],
   "failures": [],
-  "generatedAt": "2026-11-06T09:28:00.000Z",
+  "generatedAt": "2026-11-08T09:23:30.000Z",
   "promptVersion": "visual-daily-v1"
 }
