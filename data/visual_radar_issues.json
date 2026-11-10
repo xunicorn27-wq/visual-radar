@@ -2,6 +2,2409 @@
   "issues": [
     {
       "featuredStoryIds": [
+        "visual-vogue-singapore-g14lfg",
+        "visual-wallpaper-xpvodt",
+        "visual-dazed-1iu2vxk",
+        "visual-wallpaper-qjwr29",
+        "visual-w-magazine-1fkjear",
+        "visual-its-nice-that-14pi8j5"
+      ],
+      "generatedAt": "2026-11-10T09:23:54.872Z",
+      "id": "2026-11-10",
+      "issueDate": "2026-11-10",
+      "metadata": {
+        "models": [
+          "codex-agent"
+        ],
+        "promptVersion": "visual-daily-v1",
+        "selectionPolicy": "editorial-v2"
+      },
+      "skipped": [
+        {
+          "itemId": "visual-nowness-an5gar",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-aperture-1vdqtl8",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-nowness-1bse54y",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-aperture-z5lxf4",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-nowness-1t539mu",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-capture-one-11stwq",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-capture-one-zqwgul",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-capture-one-cy4011",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-momu-d1krhr",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-capture-one-j55qdy",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-capture-one-x58e4c",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-capture-one-1gfmz5y",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-capture-one-1xzcfz8",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-momu-10o5wcu",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-momu-2zdio0",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-momu-9v72fo",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-momu-1kzwca3",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-aputure-1liiqwi",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-aputure-1oy0tth",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-aputure-1pbkrp0",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-aputure-9aw6kw",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-blackmagic-resolve-9aycvr",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-palais-galliera-18peipw",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-palais-galliera-19s48u9",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-palais-galliera-1pi10sy",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-palais-galliera-c68ljp",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-palais-galliera-nsswhw",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-palais-galliera-wulbnw",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-profoto-tfog75",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-profoto-vf1p3i",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-profoto-y2ouev",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-tokyo-photo-museum-mwdksr",
+          "reason": "missing_evidence"
+        },
+        {
+          "itemId": "visual-dazed-18ice61",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-fashionsnap-tv6oqx",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-korea-xm5w77",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-singapore-1a8ik6o",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-fashionsnap-1dplb4h",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-korea-lwn5wl",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-fashionsnap-1uioyli",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-fashionsnap-1uioxxe",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-fashionsnap-1ui9krc",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-fashionsnap-1ui9laa",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-fashionsnap-1ui9lb5",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-korea-iyzjp5",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-japan-gtomew",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-w-korea-1dxcukk",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-fashionsnap-1uib0g7",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-korea-im6tzd",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-singapore-jvb27",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-japan-190e9jr",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-korea-7pydcb",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-w-korea-agcu0g",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-korea-1csrztf",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-singapore-1fjxl4g",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-korea-1p1sa87",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-w-korea-16d60zx",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-japan-7gpf9y",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-w-korea-1mlfk8d",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-japan-1ltmvwk",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-japan-5see31",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-w-korea-1ezimk0",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-korea-1hp2yhy",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-singapore-19su1iv",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-w-korea-1hmrgt0",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-wallpaper-1iki2md",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-japan-dftceu",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-w-korea-z6100l",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-japan-13m07ku",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-japan-7gntnq",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-w-magazine-xkavwq",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-w-magazine-1j4mhv6",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-w-magazine-2fsb9b",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-british-vogue-1guft5g",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-w-magazine-tvunrh",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-british-vogue-rcw5ek",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-british-vogue-1xzbvc2",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-wallpaper-3kerqj",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-british-vogue-wyxsgy",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-dazed-quvvc5",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-british-vogue-rrfmm",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-w-magazine-1bc3s8i",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-british-vogue-1ij1kmd",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-w-magazine-1wiushx",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-id-magazine-1v3k076",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-dazed-5vlaq",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-interview-magazine-15q22u3",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-dazed-1f04diw",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-interview-magazine-t1v9zv",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-another-magazine-1ncq66o",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-wallpaper-3ekxf0",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-interview-magazine-105xs9",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-wallpaper-10cgm4d",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-dazed-k10bro",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-dazed-18tj059",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-w-magazine-967nf4",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-another-magazine-130gn8k",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-nowness-xm5np7",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-w-korea-12c9qb",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-dazed-ef8lfu",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-singapore-3qkfn9",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-its-nice-that-1jw74sc",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-its-nice-that-ekpq19",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-its-nice-that-zjq4t1",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-its-nice-that-1nw29wr",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-its-nice-that-2yjc4d",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-its-nice-that-hzjrl1",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-its-nice-that-idb914",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-singapore-a3vc73",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-singapore-xq5ibq",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-id-magazine-d5iby3",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-aperture-xj7kuz",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-aperture-1udcorg",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-id-magazine-79kegy",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-runway-1eyzmi7",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-runway-2lilah",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-interview-magazine-ev8k7t",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-interview-magazine-130v6a9",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-interview-magazine-d59ozx",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-interview-magazine-160usvt",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-id-magazine-jon2h3",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-another-magazine-cwwr4c",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-interview-magazine-1cmbmuq",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-another-magazine-1e5ovx4",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-nowness-1p3lxxg",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-runway-1ry5k6b",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-id-magazine-35px8r",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-another-magazine-1htrrtu",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-another-magazine-yc4e38",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-another-magazine-2rdkir",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-another-magazine-dyd5i7",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-runway-1vobb5g",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-id-magazine-oq5a7e",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-id-magazine-w1p159",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-nowness-111b846",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-nowness-tb6nl8",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-mplus-33v3bx",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-aperture-e7zvzb",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-aperture-13adag5",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-nowness-nr7942",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-aperture-dink7k",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-aperture-s230y0",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-photovogue-71vjam",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-mplus-1r34e97",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-ginza-13emcew",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-ginza-slqjzy",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-mplus-1lf6hki",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-mplus-1vxs5q0",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-mplus-d3ups4",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-photovogue-j10rz4",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-photovogue-1lvd6tk",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-ginza-13emce1",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-ginza-slqjz3",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-photovogue-soqqu4",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-photovogue-78ub1c",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-photovogue-xyoxyn",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-ginza-13emcd6",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-ginza-slqjy8",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-photovogue-1arvwbh",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-ginza-13emccb",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-ginza-slqjxd",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-capture-one-sm0w2l",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-british-vogue-1sjo3ef",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-british-vogue-s7mk2r",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-momu-c4r8yx",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-adobe-news-1u5mqx1",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-aputure-1nkrvc3",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-met-costume-institute-1bkyq9g",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-met-costume-institute-1bkyqa6",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-met-costume-institute-1bkyqa7",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-met-costume-institute-1bkyqac",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-met-costume-institute-1bkyqad",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-met-costume-institute-1bkyqae",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-met-costume-institute-1bkyqb0",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-met-costume-institute-1bkyqb3",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-palais-galliera-f6j6fx",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-palais-galliera-yo6w40",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vam-fashion-192lz8p",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vam-fashion-1akeuwn",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vam-fashion-1bx7qmg",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vam-fashion-1f8o8n7",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vam-fashion-1irkudl",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vam-fashion-1p0gwot",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vam-fashion-1w57fim",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vam-fashion-mlpy7m",
+          "reason": "missing_analysis"
+        },
+        {
+          "itemId": "visual-vogue-runway-1gibv7n",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-id-magazine-12rvjsd",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-profoto-335cwr",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-vogue-runway-1ikref",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-momu-9ejkja",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-photovogue-1fojfjd",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-aputure-1qqxao4",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-vogue-runway-tqqg1p",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-vogue-runway-1oxyf4j",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-mplus-10hig2x",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-mplus-hcej3c",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-tokyo-photo-museum-mwdkst",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-tokyo-photo-museum-mwdkx9",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-momu-4wk4kk",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-profoto-3asckw",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-profoto-76p3cr",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-profoto-9ht5z",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-profoto-y39th8",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-aputure-9aw6kv",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-runway-hrfmq9",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-tokyo-photo-museum-1yjg1tz",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-icp-18un0bc",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-icp-w21kp2",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-aputure-9aw6ku",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-icp-16hyhui",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-mplus-187hfwh",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-tokyo-photo-museum-mwdksv",
+          "reason": "previous_event"
+        },
+        {
+          "itemId": "visual-wallpaper-1qq8s3",
+          "reason": "source_limit"
+        },
+        {
+          "itemId": "visual-wallpaper-1gmnhw3",
+          "reason": "source_limit"
+        }
+      ],
+      "stats": {
+        "bySource": {
+          "Vogue Singapore": 1,
+          "Wallpaper*": 4,
+          "W Magazine": 1,
+          "Dazed": 1,
+          "It's Nice That": 1
+        },
+        "byTopic": {
+          "styling": 1,
+          "exhibition": 4,
+          "photography": 2,
+          "tool": 1
+        },
+        "storyCount": 8
+      },
+      "stories": [
+        {
+          "analysis": {
+            "analyzedAt": "2026-11-10T09:18:56.000Z",
+            "chineseSummary": "Jacqueline West 用现代与中世纪的混合世界观，并以橡胶质感涂层莱卡和模制硬片的连续连接，重做更贴身的蒸馏服。",
+            "chineseTitle": "《沙丘3》把软硬材质熔成贴身未来盔甲",
+            "contentHash": "sha1:bce5ba3ef1b5def759855191fe32695c0b56ed44",
+            "itemId": "visual-vogue-singapore-g14lfg",
+            "model": "codex-agent",
+            "primaryTopic": "styling",
+            "promptVersion": "visual-daily-v1",
+            "score": 91,
+            "scoreBreakdown": {
+              "informationSpecificity": 12,
+              "novelty": 17,
+              "professionalRelevance": 19,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 29
+            },
+            "selectionRationale": "正文给出世界观来源、材料选择和软硬件连接方式，是可追溯的服装制作案例。",
+            "status": "success",
+            "trendKeywords": [
+              "软硬一体",
+              "未来盔甲",
+              "材质叙事"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://vogue.sg/dune-part-three-costumes/",
+              "snapshotHash": "290eb0633636b7caabbcae09fa5cea8116ad50bc923c4737331b3cfd8c194443",
+              "facts": [
+                {
+                  "statement": "West 将该系列的视觉原则概括为现代与中世纪的结合。",
+                  "quote": "a marriage of modern and medieval"
+                },
+                {
+                  "statement": "新版蒸馏服把模制硬片与柔软面料做成连续的贴身结构。",
+                  "quote": "one continuous sheath of moulded hard pieces and soft pieces for mobility"
+                }
+              ],
+              "visualMethod": "以贴身软基底承接模制硬件，让轮廓、活动度与材质反差在同一表面完成。",
+              "application": "可用弹性底层加局部热塑或3D模制片，先测试关节处的硬软过渡，再确定主体轮廓。",
+              "visualTags": [
+                "材质",
+                "工艺",
+                "构图"
+              ],
+              "limitation": "报道为设计师访谈，未公开完整打版和工厂参数。",
+              "assessment": {
+                "contentKind": "production_case",
+                "methodEvidence": "specific",
+                "rationale": "正文明确交代了研究来源、涂层莱卡与硬软部件的结合方法。"
+              },
+              "event": {
+                "key": "dune-part-three-costume-design",
+                "label": "Dune Part Three costume design"
+              }
+            }
+          },
+          "item": {
+            "capturedAt": "2026-11-10T09:16:40.709Z",
+            "hashtags": [],
+            "id": "visual-vogue-singapore-g14lfg",
+            "keywords": [
+              "styling",
+              "photography",
+              "fashion_culture"
+            ],
+            "lang": "en",
+            "market": "SG",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-11-10T08:59:46.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://vogue.sg/feed/",
+              "fetchedAt": "2026-11-10T09:16:40.709Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://vogue.sg/dune-part-three-costumes/"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "Vogue Singapore",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://vogue.sg/dune-part-three-costumes/",
+            "text": "As Dune: Part Three ventures into darker territory, costume designer Jacqueline West draws on centuries of art, history and fashion to shape the film's evolving visual language The post Balenciaga, blue whale fur, and medieval popes: The making of Dune: Part Three’ s costumes appeared first on Vogue Singapore .",
+            "thumbnailUrl": "https://voguesg.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2026/11/10140705/feature-dune.jpg",
+            "title": "Balenciaga, blue whale fur, and medieval popes: The making of Dune: Part Three’s costumes",
+            "contentHash": "sha1:bce5ba3ef1b5def759855191fe32695c0b56ed44",
+            "dedupKey": "vogue.sg/dune-part-three-costumes",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null,
+            "sourceEvidence": {
+              "status": "ready",
+              "url": "https://vogue.sg/dune-part-three-costumes/",
+              "fetchedAt": "2026-11-10T09:17:21.459Z",
+              "snapshotHash": "290eb0633636b7caabbcae09fa5cea8116ad50bc923c4737331b3cfd8c194443",
+              "characters": 11129
+            }
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-11-10T09:18:56.000Z",
+            "chineseSummary": "Su Wu 在《Mesoamerican Modern》中梳理16个墨西哥住宅项目，强调院落、地形朝向、手工痕迹与古老几何如何被当代居住空间重新激活。",
+            "chineseTitle": "从院落、朝向到手作：中美洲现代主义的住宅语法",
+            "contentHash": "sha1:e30cad5a28e219615d29287a6d34103cb504d87e",
+            "itemId": "visual-wallpaper-xpvodt",
+            "model": "codex-agent",
+            "primaryTopic": "exhibition",
+            "promptVersion": "visual-daily-v1",
+            "score": 89,
+            "scoreBreakdown": {
+              "informationSpecificity": 13,
+              "novelty": 17,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 27
+            },
+            "selectionRationale": "正文通过多个住宅案例指出具体的空间原则，避免把历史图案停留在表面装饰。",
+            "status": "success",
+            "trendKeywords": [
+              "中美洲现代主义",
+              "院落",
+              "地形朝向"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.wallpaper.com/architecture/residential/mesoamerican-modern",
+              "snapshotHash": "3891f643ee195733f9b7fa6359c2096a315c772f6ea89d9bd6e651b94f1cd067",
+              "facts": [
+                {
+                  "statement": "Casa 720 把院落或开放空间置于住宅核心。",
+                  "quote": "the patio, or open space, as a central feature"
+                },
+                {
+                  "statement": "Casa Bernal 的视线、窗向和屋顶坡度都由与山体的关系决定。",
+                  "quote": "every view, window orientation and roof slant was determined by its relationship to the mountain"
+                }
+              ],
+              "visualMethod": "把历史参考转译为院落、光影、朝向与体量关系，而不是复制符号化纹样。",
+              "application": "做居住空间板时，可先绘制地形、风向和视线的关系图，再由图生成开口与屋顶角度。",
+              "visualTags": [
+                "空间",
+                "构图",
+                "材质"
+              ],
+              "limitation": "报道为书籍与案例导览，未独立核验每个住宅的技术性能。",
+              "assessment": {
+                "contentKind": "artwork",
+                "methodEvidence": "specific",
+                "rationale": "正文以多座住宅说明院落、朝向、材料与手工表达的具体空间原则。"
+              },
+              "event": {
+                "key": "mesoamerican-modern-suwu-book-2026",
+                "label": "Su Wu Mesoamerican Modern book"
+              }
+            }
+          },
+          "item": {
+            "capturedAt": "2026-11-10T09:16:40.709Z",
+            "hashtags": [],
+            "id": "visual-wallpaper-xpvodt",
+            "keywords": [
+              "styling",
+              "exhibition",
+              "fashion_culture"
+            ],
+            "lang": "en",
+            "market": "EU",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-11-09T22:23:08.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.wallpaper.com/rss",
+              "fetchedAt": "2026-11-10T09:16:40.709Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.wallpaper.com/architecture/residential/mesoamerican-modern"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "Wallpaper*",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.wallpaper.com/architecture/residential/mesoamerican-modern",
+            "text": "With a new book, curator Su Wu demonstrates how Mexico’s contemporary architects are referencing ancient, local architectural principles to create striking private residences. Here, she explains the importance of five key examples",
+            "thumbnailUrl": "https://cdn.mos.cms.futurecdn.net/3wCbSqadiCQaEiiNgt45FT-1920-80.jpg",
+            "title": "What is 'Mesoamerican Modern?' Get to know the emerging Latin American design movement where ancient meets new",
+            "contentHash": "sha1:e30cad5a28e219615d29287a6d34103cb504d87e",
+            "dedupKey": "www.wallpaper.com/architecture/residential/mesoamerican-modern",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null,
+            "sourceEvidence": {
+              "status": "ready",
+              "url": "https://www.wallpaper.com/architecture/residential/mesoamerican-modern",
+              "fetchedAt": "2026-11-10T09:17:21.459Z",
+              "snapshotHash": "3891f643ee195733f9b7fa6359c2096a315c772f6ea89d9bd6e651b94f1cd067",
+              "characters": 6281
+            }
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-11-10T09:18:56.000Z",
+            "chineseSummary": "MoMA PS1 回顾1980至1984年的 New York Fashion 系列，以档案、摄影、绘画、装置和表演重建设计师进入艺术机构现场的方式。",
+            "chineseTitle": "MoMA PS1 重看时尚作为正在发生的艺术实践",
+            "contentHash": "sha1:ad5d3d8d9445ae1d16b161b20cb01643b8154202",
+            "itemId": "visual-w-magazine-1fkjear",
+            "model": "codex-agent",
+            "primaryTopic": "exhibition",
+            "promptVersion": "visual-daily-v1",
+            "score": 89,
+            "scoreBreakdown": {
+              "informationSpecificity": 12,
+              "novelty": 17,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "展览把时尚从静态陈列转为多媒介、在场的创作实践，正文说明了档案和展陈结构。",
+            "status": "success",
+            "trendKeywords": [
+              "时尚展览",
+              "机构档案",
+              "跨媒介现场"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.wmagazine.com/culture/moma-ps1-fashion-exhibition-new-york-1980-1984-photos",
+              "snapshotHash": "7f1a811081e1ba683d240f437fa0a328bbadec7a3a706f9ae893a432d60f393e",
+              "facts": [
+                {
+                  "statement": "原始项目主张把在世设计师视作艺术家，而非玻璃柜中的物件。",
+                  "quote": "living designers treated as artists rather than displayed behind glass"
+                },
+                {
+                  "statement": "展览覆盖摄影、绘画、装置和表演等媒介。",
+                  "quote": "photography and drawing to installation and performance"
+                }
+              ],
+              "visualMethod": "以档案为骨架，同时用图像、空间和行为媒介恢复设计在当时的现场关系。",
+              "application": "做品牌或设计史展览时，可把服装、过程稿、影像和一次小型现场行动并置，避免只用静态橱窗叙事。",
+              "visualTags": [
+                "空间",
+                "叙事",
+                "动态影像"
+              ],
+              "limitation": "文章为展览评论，未包含完整展签或全部档案清单。",
+              "assessment": {
+                "contentKind": "artwork",
+                "methodEvidence": "specific",
+                "rationale": "正文说明历史项目、档案基础及摄影、装置、表演并置的展陈方法。"
+              },
+              "event": {
+                "key": "moma-ps1-new-york-fashion-1980-1984",
+                "label": "MoMA PS1 New York Fashion 1980-1984"
+              }
+            }
+          },
+          "item": {
+            "capturedAt": "2026-11-10T09:16:40.709Z",
+            "hashtags": [],
+            "id": "visual-w-magazine-1fkjear",
+            "keywords": [
+              "styling",
+              "photography",
+              "magazine"
+            ],
+            "lang": "en",
+            "market": "US",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-11-09T18:51:50.232Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.wmagazine.com/rss",
+              "fetchedAt": "2026-11-10T09:16:40.709Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.wmagazine.com/culture/moma-ps1-fashion-exhibition-new-york-1980-1984-photos"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "W Magazine",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.wmagazine.com/culture/moma-ps1-fashion-exhibition-new-york-1980-1984-photos",
+            "text": "‘New York Fashion at PS1’ features super-rare ephemera from Betsey Johnson, Willi Smith, Homer Layne, and more designers.",
+            "thumbnailUrl": "https://imgix.bustle.com/uploads/image/2026/11/9/70431df0/inps1_310_1_cc-full-size-jpeg.jpg?w=1200&fit=max",
+            "title": "MoMA PS1’s New Fashion Exhibition Is Nothing Like a Retrospective",
+            "contentHash": "sha1:ad5d3d8d9445ae1d16b161b20cb01643b8154202",
+            "dedupKey": "www.wmagazine.com/culture/moma-ps1-fashion-exhibition-new-york-1980-1984-photos",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null,
+            "sourceEvidence": {
+              "status": "ready",
+              "url": "https://www.wmagazine.com/culture/moma-ps1-fashion-exhibition-new-york-1980-1984-photos",
+              "fetchedAt": "2026-11-10T09:17:21.459Z",
+              "snapshotHash": "7f1a811081e1ba683d240f437fa0a328bbadec7a3a706f9ae893a432d60f393e",
+              "characters": 3242
+            }
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-11-10T09:18:56.000Z",
+            "chineseSummary": "Elmgreen & Dragset 在 Pace Gallery 将椭圆形办公室的门窗尺度抽成耐候钢体量，再以镜面阳台图像让观众进入被留空的权力位置。",
+            "chineseTitle": "用耐候钢把权力空间还原为可穿行的体量",
+            "contentHash": "sha1:8087d294ce3c823e3d4a15dc62efc030805458a5",
+            "itemId": "visual-wallpaper-1qq8s3",
+            "model": "codex-agent",
+            "primaryTopic": "exhibition",
+            "promptVersion": "visual-daily-v1",
+            "score": 89,
+            "scoreBreakdown": {
+              "informationSpecificity": 12,
+              "novelty": 17,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 28
+            },
+            "selectionRationale": "报道说明实物尺度、材料、开口布置与观众动线，适合作为空间叙事的具体参考。",
+            "status": "success",
+            "trendKeywords": [
+              "耐候钢",
+              "权力空间",
+              "可穿行雕塑"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.wallpaper.com/art/exhibitions-shows/elmgreen-dragset-transition-new-york",
+              "snapshotHash": "88069c7bf64e762db0fa8297cf6acb1af0c535bd347f4166fe15a0a60845f0bd",
+              "facts": [
+                {
+                  "statement": "艺术家将椭圆形办公室转化为雕塑对象。",
+                  "quote": "turn that entity into a sculpture"
+                },
+                {
+                  "statement": "海运与自然暴露令耐候钢表面形成持续变化的绘画感。",
+                  "quote": "a surface of constant transformation"
+                }
+              ],
+              "visualMethod": "抽离室内的装饰与符号，只保留体量、开口和行走尺度；再让耐候材质承担时间性。",
+              "application": "展陈模型可先以一个熟悉房间的门窗比例建空壳，再通过锈蚀金属或反射面测试权力感如何被去除。",
+              "visualTags": [
+                "空间",
+                "材质",
+                "叙事"
+              ],
+              "limitation": "报道侧重艺术家与策展现场描述，未提供完整工程图。",
+              "assessment": {
+                "contentKind": "artwork",
+                "methodEvidence": "specific",
+                "rationale": "正文具体说明耐候钢、近似原尺寸、门窗位置和可穿行的空间策略。"
+              },
+              "event": {
+                "key": "elmgreen-dragset-transition-pace-2026",
+                "label": "Elmgreen Dragset TRANSITION at Pace"
+              }
+            }
+          },
+          "item": {
+            "capturedAt": "2026-11-10T09:16:40.709Z",
+            "hashtags": [],
+            "id": "visual-wallpaper-1qq8s3",
+            "keywords": [
+              "styling",
+              "exhibition",
+              "fashion_culture"
+            ],
+            "lang": "en",
+            "market": "EU",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-11-09T10:10:43.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.wallpaper.com/rss",
+              "fetchedAt": "2026-11-10T09:16:40.709Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.wallpaper.com/art/exhibitions-shows/elmgreen-dragset-transition-new-york"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "Wallpaper*",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.wallpaper.com/art/exhibitions-shows/elmgreen-dragset-transition-new-york",
+            "text": "At Pace Gallery, the artist duo dismantle the visual language of presidential power with a monumental Cor-Ten steel recreation of the Oval Office and a series of mirrored portraits of absent leaders",
+            "thumbnailUrl": "https://cdn.mos.cms.futurecdn.net/jjC8X4qZeigjhoKcEqF2M3-1920-80.jpg",
+            "title": "In New York, Elmgreen & Dragset recreate the Oval Office in weathered steel",
+            "contentHash": "sha1:8087d294ce3c823e3d4a15dc62efc030805458a5",
+            "dedupKey": "www.wallpaper.com/art/exhibitions-shows/elmgreen-dragset-transition-new-york",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null,
+            "sourceEvidence": {
+              "status": "ready",
+              "url": "https://www.wallpaper.com/art/exhibitions-shows/elmgreen-dragset-transition-new-york",
+              "fetchedAt": "2026-11-10T09:17:21.459Z",
+              "snapshotHash": "88069c7bf64e762db0fa8297cf6acb1af0c535bd347f4166fe15a0a60845f0bd",
+              "characters": 5960
+            }
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-11-10T09:18:56.000Z",
+            "chineseSummary": "拉各斯的 Casa Mouda 将画廊、社区中心与户外介入结合，并以沙覆墙面、声景及本地木材家具，让当代非洲设计在可购买、可停留的场景中被理解。",
+            "chineseTitle": "Casa Mouda 用场景化陈列连接拉各斯的设计社群",
+            "contentHash": "sha1:47d3564ca9d1cf7eb4ae3fed5789e3a21c5200d5",
+            "itemId": "visual-wallpaper-1gmnhw3",
+            "model": "codex-agent",
+            "primaryTopic": "exhibition",
+            "promptVersion": "visual-daily-v1",
+            "score": 87,
+            "scoreBreakdown": {
+              "informationSpecificity": 12,
+              "novelty": 16,
+              "professionalRelevance": 18,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 27
+            },
+            "selectionRationale": "正文给出空间分工、环境材料、声音和本地生产的明确线索，具备社区型设计空间的可借鉴性。",
+            "status": "success",
+            "trendKeywords": [
+              "社区设计",
+              "场景化陈列",
+              "本地材料"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.wallpaper.com/design-interiors/casa-mouda-lagos",
+              "snapshotHash": "98d653fe14b003c608ee73f5db8b2b95496f73d390ace4da494ef765981526c4",
+              "facts": [
+                {
+                  "statement": "空间以覆砂墙面呼应海岸位置。",
+                  "quote": "The walls are covered in sand"
+                },
+                {
+                  "statement": "项目与声音艺术家 Malloy James 合作制作声景。",
+                  "quote": "a soundscape created in collaboration with sound artist and composer Malloy James"
+                }
+              ],
+              "visualMethod": "让家具、材质、声音和停留功能共同构成一组可进入的生活场景，而非孤立展品。",
+              "application": "策划小型陈列时，可先用一个在地触感材料与一层环境声音建立场所，再配置可被使用的作品。",
+              "visualTags": [
+                "空间",
+                "材质",
+                "叙事"
+              ],
+              "limitation": "报道为开幕介绍，尚不足以评估该空间长期的社群参与成效。",
+              "assessment": {
+                "contentKind": "artwork",
+                "methodEvidence": "specific",
+                "rationale": "正文明确描述双场地功能、沙覆墙面、声景和本地生产合作。"
+              },
+              "event": {
+                "key": "casa-mouda-lagos-design-institute",
+                "label": "Casa Mouda The Design Institute"
+              }
+            }
+          },
+          "item": {
+            "capturedAt": "2026-11-10T09:16:40.709Z",
+            "hashtags": [],
+            "id": "visual-wallpaper-1gmnhw3",
+            "keywords": [
+              "styling",
+              "exhibition",
+              "fashion_culture"
+            ],
+            "lang": "en",
+            "market": "EU",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-11-09T19:35:00.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.wallpaper.com/rss",
+              "fetchedAt": "2026-11-10T09:16:40.709Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.wallpaper.com/design-interiors/casa-mouda-lagos"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "Wallpaper*",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.wallpaper.com/design-interiors/casa-mouda-lagos",
+            "text": "Themes of custodianship, representation and craft converge at Casa Mouda, Lagos' latest cultural opening, a creative space with a bold mandate. Wallpaper* speaks to founder Caline Chagoury-Moudaber",
+            "thumbnailUrl": "https://cdn.mos.cms.futurecdn.net/n78THuvqYT55P68LsgBM3H-1920-80.jpg",
+            "title": "Casa Mouda is the new Lagos space amplifying contemporary African design",
+            "contentHash": "sha1:47d3564ca9d1cf7eb4ae3fed5789e3a21c5200d5",
+            "dedupKey": "www.wallpaper.com/design-interiors/casa-mouda-lagos",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null,
+            "sourceEvidence": {
+              "status": "ready",
+              "url": "https://www.wallpaper.com/design-interiors/casa-mouda-lagos",
+              "fetchedAt": "2026-11-10T09:17:21.459Z",
+              "snapshotHash": "98d653fe14b003c608ee73f5db8b2b95496f73d390ace4da494ef765981526c4",
+              "characters": 6297
+            }
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-11-10T09:18:56.000Z",
+            "chineseSummary": "摄影师 George Hutton 在 Whitby Goth Weekend 里不只拍戏服本身，而是把装扮者与海滩、炸鱼薯条店和遛狗者并置，记录节庆如何嵌进普通城镇。",
+            "chineseTitle": "让哥特装扮在海滨日常中显得更真实",
+            "contentHash": "sha1:d91bd2b18bfefabc2a35450e10fef44b612dd648",
+            "itemId": "visual-dazed-1iu2vxk",
+            "model": "codex-agent",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 85,
+            "scoreBreakdown": {
+              "informationSpecificity": 12,
+              "novelty": 16,
+              "professionalRelevance": 17,
+              "sourceQuality": 8,
+              "timeliness": 5,
+              "visualInspiration": 27
+            },
+            "selectionRationale": "报道直接说明摄影师的取景规则和场景关系，为活动纪实提供了明确、克制的叙事策略。",
+            "status": "success",
+            "trendKeywords": [
+              "节庆纪实",
+              "日常反差",
+              "环境肖像"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.dazeddigital.com/art-photography/article/71320/1/whitby-goth-weekend-festival-george-hutton-yorkshire-anime-cosplay?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=spooky-scenes-from-whitby-goth-weekend-2026",
+              "snapshotHash": "84b80b5c64dd81de4ebf55fc97fddf404568f7b9212844a647cf0529e6d64f46",
+              "facts": [
+                {
+                  "statement": "Hutton 会在画面中加入能说明海滨小镇日常的元素。",
+                  "quote": "something else in the frame that grounds them to just being in a seaside town"
+                },
+                {
+                  "statement": "他有意识地追求日常与装扮之间的意外并置。",
+                  "quote": "He revels in surprising juxtapositions"
+                }
+              ],
+              "visualMethod": "不把角色从环境中抠出，而是保留普通店铺、行人和天气，让奇异造型与日常基底相互定义。",
+              "application": "拍摄亚文化活动时，每张主肖像都保留一个不可替代的地方线索，如招牌、食物或路人。",
+              "visualTags": [
+                "构图",
+                "叙事",
+                "色彩"
+              ],
+              "limitation": "报道以摄影师的精选图像和自述为主，未涵盖节庆全部参与者。",
+              "assessment": {
+                "contentKind": "production_case",
+                "methodEvidence": "specific",
+                "rationale": "正文明确记录摄影师用环境细节和反差并置构成纪实画面的取景方法。"
+              },
+              "event": {
+                "key": "whitby-goth-weekend-george-hutton-2026",
+                "label": "George Hutton Whitby Goth Weekend 2026"
+              }
+            }
+          },
+          "item": {
+            "capturedAt": "2026-11-10T09:16:40.709Z",
+            "hashtags": [],
+            "id": "visual-dazed-1iu2vxk",
+            "keywords": [
+              "styling",
+              "fashion_culture",
+              "creator"
+            ],
+            "lang": "en",
+            "market": "EU",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-11-10T08:00:00.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.dazeddigital.com/rss",
+              "fetchedAt": "2026-11-10T09:16:40.709Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.dazeddigital.com/art-photography/article/71320/1/whitby-goth-weekend-festival-george-hutton-yorkshire-anime-cosplay?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=spooky-scenes-from-whitby-goth-weekend-2026"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "Dazed",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.dazeddigital.com/art-photography/article/71320/1/whitby-goth-weekend-festival-george-hutton-yorkshire-anime-cosplay?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=spooky-scenes-from-whitby-goth-weekend-2026",
+            "text": "Photographer George Hutton captured the surreal sights and most outlandish costumes at the UK’s foremost gothic gathering",
+            "thumbnailUrl": "https://images-prod.dazeddigital.com/1200/0-246-3000-2000/azure/dazed-prod/1450/8/1458996.jpeg",
+            "title": "Spooky scenes from Whitby Goth Weekend 2026",
+            "contentHash": "sha1:d91bd2b18bfefabc2a35450e10fef44b612dd648",
+            "dedupKey": "www.dazeddigital.com/art-photography/article/71320/1/whitby-goth-weekend-festival-george-hutton-yorkshire-anime-cosplay",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null,
+            "sourceEvidence": {
+              "status": "ready",
+              "url": "https://www.dazeddigital.com/art-photography/article/71320/1/whitby-goth-weekend-festival-george-hutton-yorkshire-anime-cosplay?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=spooky-scenes-from-whitby-goth-weekend-2026",
+              "fetchedAt": "2026-11-10T09:17:21.459Z",
+              "snapshotHash": "84b80b5c64dd81de4ebf55fc97fddf404568f7b9212844a647cf0529e6d64f46",
+              "characters": 3718
+            }
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-11-10T09:18:56.000Z",
+            "chineseSummary": "Formula 2030 概念车以驾驶员屏幕、按需升起的中控屏和可自定义的实体按键并置，提出数字界面与触觉控制同时存在的车内体验。",
+            "chineseTitle": "Polestar 用实体控制把驾驶界面拉回空间中心",
+            "contentHash": "sha1:3e3ee1f9b15074b871d870e87e0db9b613500649",
+            "itemId": "visual-wallpaper-qjwr29",
+            "model": "codex-agent",
+            "primaryTopic": "tool",
+            "promptVersion": "visual-daily-v1",
+            "score": 85,
+            "scoreBreakdown": {
+              "informationSpecificity": 12,
+              "novelty": 16,
+              "professionalRelevance": 17,
+              "sourceQuality": 9,
+              "timeliness": 5,
+              "visualInspiration": 26
+            },
+            "selectionRationale": "报道有设计负责人对界面、物理按键和材料策略的具体说明，适合观察移动空间的交互视觉。",
+            "status": "success",
+            "trendKeywords": [
+              "实体交互",
+              "驾驶舱界面",
+              "交通设计"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.wallpaper.com/transportation/a-stylish-low-slung-concept-sports-car-the-polestar-formula-2030-is-a-mobile-manifesto",
+              "snapshotHash": "82e7fc77625201afefa29dba05562138ac4c28e66bd99453b7ad7b2c76cb23c8",
+              "facts": [
+                {
+                  "statement": "设计团队主张让数字与模拟控制无缝结合。",
+                  "quote": "a seamless blend of digital and analogue"
+                },
+                {
+                  "statement": "设计负责人认为实体按键更适合快速调用功能。",
+                  "quote": "buttons do the job best"
+                }
+              ],
+              "visualMethod": "把高频操作压缩到可辨识的实体控件，同时把屏幕留给状态、导航与按需展开的信息层。",
+              "application": "设计复杂控制台时，可先按使用频率区分触觉控制和屏幕控制，再用一组固定网格建立视线与手部路径。",
+              "visualTags": [
+                "空间",
+                "构图",
+                "材质"
+              ],
+              "limitation": "这是概念车而非量产规格，部分交互和材料尚未经过真实用户验证。",
+              "assessment": {
+                "contentKind": "production_case",
+                "methodEvidence": "specific",
+                "rationale": "正文具体描述驾驶员屏幕、中控屏、可配置按键与数字模拟混合的交互策略。"
+              },
+              "event": {
+                "key": "polestar-formula-2030-concept",
+                "label": "Polestar Formula 2030 concept"
+              }
+            }
+          },
+          "item": {
+            "capturedAt": "2026-11-10T09:16:40.709Z",
+            "hashtags": [],
+            "id": "visual-wallpaper-qjwr29",
+            "keywords": [
+              "styling",
+              "exhibition",
+              "fashion_culture"
+            ],
+            "lang": "en",
+            "market": "EU",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-11-10T08:00:00.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://www.wallpaper.com/rss",
+              "fetchedAt": "2026-11-10T09:16:40.709Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.wallpaper.com/transportation/a-stylish-low-slung-concept-sports-car-the-polestar-formula-2030-is-a-mobile-manifesto"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "Wallpaper*",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.wallpaper.com/transportation/a-stylish-low-slung-concept-sports-car-the-polestar-formula-2030-is-a-mobile-manifesto",
+            "text": "The first concept under new Head of Design Philipp Römers, the Polestar Formula 2030 gives us some idea of what to expect from the brand in the next few years",
+            "thumbnailUrl": "https://cdn.mos.cms.futurecdn.net/gpAW2VPattDrWpmqNNEaJT-1920-80.jpg",
+            "title": "A stylish, low-slung concept sports car, the Polestar Formula 2030 is a mobile manifesto",
+            "contentHash": "sha1:3e3ee1f9b15074b871d870e87e0db9b613500649",
+            "dedupKey": "www.wallpaper.com/transportation/a-stylish-low-slung-concept-sports-car-the-polestar-formula-2030-is-a-mobile-manifesto",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null,
+            "sourceEvidence": {
+              "status": "ready",
+              "url": "https://www.wallpaper.com/transportation/a-stylish-low-slung-concept-sports-car-the-polestar-formula-2030-is-a-mobile-manifesto",
+              "fetchedAt": "2026-11-10T09:17:21.459Z",
+              "snapshotHash": "82e7fc77625201afefa29dba05562138ac4c28e66bd99453b7ad7b2c76cb23c8",
+              "characters": 6001
+            }
+          },
+          "window": "24h"
+        },
+        {
+          "analysis": {
+            "analyzedAt": "2026-11-10T09:18:56.000Z",
+            "chineseSummary": "James Barnett 与 Poppy French 在短片系列中分担影像与摄影工作，围绕英国小众社群寻找未经包装的对话与日常细节。",
+            "chineseTitle": "用长期搭档关系拍出不被修饰的地方人物",
+            "contentHash": "sha1:08d184cc62ff3380a596290b828698653a679f7e",
+            "itemId": "visual-its-nice-that-14pi8j5",
+            "model": "codex-agent",
+            "primaryTopic": "photography",
+            "promptVersion": "visual-daily-v1",
+            "score": 82,
+            "scoreBreakdown": {
+              "informationSpecificity": 12,
+              "novelty": 15,
+              "professionalRelevance": 17,
+              "sourceQuality": 8,
+              "timeliness": 5,
+              "visualInspiration": 25
+            },
+            "selectionRationale": "访谈直接说明二人的分工、选角判断与记录取向，具有可执行的纪实影像方法价值。",
+            "status": "success",
+            "trendKeywords": [
+              "纪实肖像",
+              "地方社群",
+              "长期协作"
+            ],
+            "editorial": {
+              "version": "evidence-v1",
+              "status": "verified",
+              "sourceUrl": "https://www.itsnicethat.com/features/james-barnett-poppy-french-when-james-and-poppy-met-documentary-photography-101126",
+              "snapshotHash": "a2676a5641589c76a36fc301a9b951815310cb648501b387afb69be4103c9a6d",
+              "facts": [
+                {
+                  "statement": "French 把记录视作收集故事和照片的方式。",
+                  "quote": "documentation as a way to collect"
+                },
+                {
+                  "statement": "他们偏向寻找不加修饰、愿意表达的人物。",
+                  "quote": "Someone unguarded, not polished, says how they feel"
+                }
+              ],
+              "visualMethod": "由长期协作的一人负责现场关系与动态节奏，另一人专注静态肖像，用未修饰的日常物件把人物放回社区。",
+              "application": "策划人物短片时，先以一段非采访式同行时间建立信任，再分别补拍环境静物和近距离肖像。",
+              "visualTags": [
+                "叙事",
+                "构图",
+                "动态影像"
+              ],
+              "limitation": "报道基于创作者自述，未展示该系列的完整拍摄流程。",
+              "assessment": {
+                "contentKind": "production_case",
+                "methodEvidence": "specific",
+                "rationale": "正文明确说明搭档分工、人物选择标准和以记录作为收集的方法。"
+              },
+              "event": {
+                "key": "james-barnett-poppy-french-when-met",
+                "label": "James Barnett and Poppy French When They Met"
+              }
+            }
+          },
+          "item": {
+            "capturedAt": "2026-11-10T09:16:40.709Z",
+            "hashtags": [],
+            "id": "visual-its-nice-that-14pi8j5",
+            "keywords": [
+              "creator",
+              "photography",
+              "fashion_culture"
+            ],
+            "lang": "en",
+            "market": "EU",
+            "mediaUrls": [],
+            "metrics": {
+              "comments": null,
+              "growthPct": null,
+              "inStock": null,
+              "isNew": null,
+              "likes": null,
+              "postCount": null,
+              "previousPrice": null,
+              "price": null,
+              "rankChange": null,
+              "saves": null,
+              "searchIndex": null,
+              "shares": null
+            },
+            "postedAt": "2026-11-10T09:00:00.000Z",
+            "provenance": {
+              "authenticity": "live",
+              "collector": "visual-radar-rss",
+              "evidenceUrl": "https://feeds2.feedburner.com/itsnicethat/SlXC",
+              "fetchedAt": "2026-11-10T09:16:40.709Z",
+              "label": "真实采集",
+              "notes": "来自 Visual Radar 官方 Feed 或公开栏目页采集器。",
+              "snapshotId": null,
+              "sourceRecordId": "https://www.itsnicethat.com/features/james-barnett-poppy-french-when-james-and-poppy-met-documentary-photography-101126"
+            },
+            "signalType": "inspiration_signal",
+            "source": "website",
+            "sourceAccount": "It's Nice That",
+            "sourceType": "inspiration",
+            "sourceUrl": "https://www.itsnicethat.com/features/james-barnett-poppy-french-when-james-and-poppy-met-documentary-photography-101126",
+            "text": "For a new documentary series on It’s Nice That, the creative duo set about finding niche subcultures and communities around the UK and the characters at the heart of them. We chat to the content creator and photographer about their approach and discoveries.",
+            "thumbnailUrl": "https://m.itsnicethat.com/original_images/poppy-french-photography-itsnicethat-2.jpg?class=w1440",
+            "title": "James Barnett and Poppy French document the eccentricities of Britain with warmth and humour",
+            "contentHash": "sha1:08d184cc62ff3380a596290b828698653a679f7e",
+            "dedupKey": "www.itsnicethat.com/features/james-barnett-poppy-french-when-james-and-poppy-met-documentary-photography-101126",
+            "interpretation": null,
+            "schemaVersion": "1",
+            "tier": null,
+            "viviaScore": null,
+            "sourceEvidence": {
+              "status": "ready",
+              "url": "https://www.itsnicethat.com/features/james-barnett-poppy-french-when-james-and-poppy-met-documentary-photography-101126",
+              "fetchedAt": "2026-11-10T09:17:21.459Z",
+              "snapshotHash": "a2676a5641589c76a36fc301a9b951815310cb648501b387afb69be4103c9a6d",
+              "characters": 11016
+            }
+          },
+          "window": "24h"
+        }
+      ],
+      "title": "Visual Radar Daily — 2026.11.10",
+      "eventGroups": [
+        {
+          "key": "kilentar-lagos-spring-2027",
+          "label": "Kílèńtàr Lagos 2027 春季系列",
+          "representative": {
+            "itemId": "visual-vogue-runway-1gibv7n",
+            "sourceUrl": "https://www.vogue.com/fashion-shows/lagos-spring-2027/kilentar",
+            "title": "Kílèńtàr：把视觉重点藏到背面，再让材质自己发声",
+            "source": "Vogue Runway",
+            "issueId": "2026-11-06"
+          },
+          "related": [
+            {
+              "itemId": "visual-vogue-runway-1gibv7n",
+              "sourceUrl": "https://www.vogue.com/fashion-shows/lagos-spring-2027/kilentar",
+              "title": "Kílèńtàr：把视觉重点藏到背面，再让材质自己发声",
+              "source": "Vogue Runway"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "dollie-kyarn-analog-photography",
+          "label": "Dollie Kyarn analog photography practice",
+          "representative": {
+            "itemId": "visual-id-magazine-12rvjsd",
+            "sourceUrl": "https://i-d.co/article/dollie-kyarn-photographer-interview/",
+            "title": "湿版玻璃与乡野肖像的低速图像语言",
+            "source": "i-D",
+            "issueId": "2026-11-08"
+          },
+          "related": [
+            {
+              "itemId": "visual-id-magazine-12rvjsd",
+              "sourceUrl": "https://i-d.co/article/dollie-kyarn-photographer-interview/",
+              "title": "湿版玻璃与乡野肖像的低速图像语言",
+              "source": "i-D"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "takashi-kamei-soft-zoom-reflector",
+          "label": "Takashi Kamei Soft Zoom Reflector lighting",
+          "representative": {
+            "itemId": "visual-profoto-335cwr",
+            "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/takashi-kamei-x-soft-zoom-reflector/",
+            "title": "用一支可变焦反光罩切换硬光与柔光",
+            "source": "Profoto Stories",
+            "issueId": "2026-11-08"
+          },
+          "related": [
+            {
+              "itemId": "visual-profoto-335cwr",
+              "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/takashi-kamei-x-soft-zoom-reflector/",
+              "title": "用一支可变焦反光罩切换硬光与柔光",
+              "source": "Profoto Stories"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "christie-brown-lagos-spring-2027",
+          "label": "Christie Brown Lagos 2027 春季系列",
+          "representative": {
+            "itemId": "visual-vogue-runway-1ikref",
+            "sourceUrl": "https://www.vogue.com/fashion-shows/lagos-spring-2027/christie-brown",
+            "title": "Christie Brown：把桥梁几何和 Ewe Kente 压进低饱和廓形",
+            "source": "Vogue Runway",
+            "issueId": "2026-11-06"
+          },
+          "related": [
+            {
+              "itemId": "visual-vogue-runway-1ikref",
+              "sourceUrl": "https://www.vogue.com/fashion-shows/lagos-spring-2027/christie-brown",
+              "title": "Christie Brown：把桥梁几何和 Ewe Kente 压进低饱和廓形",
+              "source": "Vogue Runway"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "momu-chintz-craftsmanship-controversy-2026",
+          "label": "MoMu的Chintz研究：把馆藏纹样与当代手工制作并置",
+          "representative": {
+            "itemId": "visual-momu-9ejkja",
+            "sourceUrl": "https://www.momu.be/en/exhibitions/chintz-craftsmanship-controversy",
+            "title": "MoMu的Chintz研究：把馆藏纹样与当代手工制作并置",
+            "source": "MoMu Antwerp",
+            "issueId": "2026-10-27"
+          },
+          "related": [
+            {
+              "itemId": "visual-momu-9ejkja",
+              "sourceUrl": "https://www.momu.be/en/exhibitions/chintz-craftsmanship-controversy",
+              "title": "MoMu的Chintz研究：把馆藏纹样与当代手工制作并置",
+              "source": "MoMu Antwerp"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "francesca-allen-hair-publication-2026",
+          "label": "Francesca Allen《Hair》摄影出版",
+          "representative": {
+            "itemId": "visual-photovogue-1fojfjd",
+            "sourceUrl": "https://www.vogue.com/article/inside-francesca-allens-new-publication-hair",
+            "title": "从酒店房间到测发舞台：Francesca Allen 把长发竞赛编辑成摄影出版",
+            "source": "PhotoVogue",
+            "issueId": "2026-11-06"
+          },
+          "related": [
+            {
+              "itemId": "visual-photovogue-1fojfjd",
+              "sourceUrl": "https://www.vogue.com/article/inside-francesca-allens-new-publication-hair",
+              "title": "从酒店房间到测发舞台：Francesca Allen 把长发竞赛编辑成摄影出版",
+              "source": "PhotoVogue"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "aputure.com/en-US/articles/why-aputure-chose-to-narrow-the-beam-on-the-storm",
+          "label": "为什么 STORM 主动缩窄光束：亮度、柔光附件与人像肤质之间的取舍",
+          "representative": {
+            "itemId": "visual-aputure-1qqxao4",
+            "sourceUrl": "https://aputure.com/en-US/articles/why-aputure-chose-to-narrow-the-beam-on-the-storm",
+            "title": "为什么 STORM 主动缩窄光束：亮度、柔光附件与人像肤质之间的取舍",
+            "source": "Aputure Blog",
+            "issueId": "2026-07-16"
+          },
+          "related": [
+            {
+              "itemId": "visual-aputure-1qqxao4",
+              "sourceUrl": "https://aputure.com/en-US/articles/why-aputure-chose-to-narrow-the-beam-on-the-storm",
+              "title": "用 57–58° 原生泛光角测试修饰器效率",
+              "source": "Aputure Blog"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "event-vogue-runway-tqqg1p",
+          "label": "Sinead O'Dwyer Spring 2027",
+          "representative": {
+            "itemId": "visual-vogue-runway-tqqg1p",
+            "sourceUrl": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/sinead-odwyer",
+            "title": "Sinéad O’Dwyer：让结构、身体与包裹感共同成形",
+            "source": "Vogue Runway",
+            "issueId": "2026-11-03"
+          },
+          "related": [
+            {
+              "itemId": "visual-vogue-runway-tqqg1p",
+              "sourceUrl": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/sinead-odwyer",
+              "title": "Sinéad O’Dwyer：让结构、身体与包裹感共同成形",
+              "source": "Vogue Runway"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "event-vogue-runway-1oxyf4j",
+          "label": "Lisa Folawiyo Lagos Spring 2027",
+          "representative": {
+            "itemId": "visual-vogue-runway-1oxyf4j",
+            "sourceUrl": "https://www.vogue.com/fashion-shows/lagos-spring-2027/lisa-folawiyo",
+            "title": "Lisa Folawiyo：把拉菲草编织成季节之外的动物纹理",
+            "source": "Vogue Runway",
+            "issueId": "2026-11-03"
+          },
+          "related": [
+            {
+              "itemId": "visual-vogue-runway-1oxyf4j",
+              "sourceUrl": "https://www.vogue.com/fashion-shows/lagos-spring-2027/lisa-folawiyo",
+              "title": "Lisa Folawiyo：把拉菲草编织成季节之外的动物纹理",
+              "source": "Vogue Runway"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "mplus-restored-li-cheuk-to-restoration-interview-2026",
+          "label": "M+ Restored：在版权、底片状态与策展目标之间选择修复对象",
+          "representative": {
+            "itemId": "visual-mplus-10hig2x",
+            "sourceUrl": "https://www.mplus.org.hk/en/magazine/li-cheuk-to-interview-on-mplus-restored",
+            "title": "M+ Restored：在版权、底片状态与策展目标之间选择修复对象",
+            "source": "M+",
+            "issueId": "2026-10-27"
+          },
+          "related": [
+            {
+              "itemId": "visual-mplus-10hig2x",
+              "sourceUrl": "https://www.mplus.org.hk/en/magazine/li-cheuk-to-interview-on-mplus-restored",
+              "title": "M+ Restored：在版权、底片状态与策展目标之间选择修复对象",
+              "source": "M+"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "event-mplus-hcej3c",
+          "label": "M+ Cross-Cuts video essays",
+          "representative": {
+            "itemId": "visual-mplus-hcej3c",
+            "sourceUrl": "https://www.mplus.org.hk/en/magazine/cross-cuts",
+            "title": "用短片把馆藏重新剪成多条叙事：M+《Cross-Cuts》",
+            "source": "M+",
+            "issueId": "2026-11-03"
+          },
+          "related": [
+            {
+              "itemId": "visual-mplus-hcej3c",
+              "sourceUrl": "https://www.mplus.org.hk/en/magazine/cross-cuts",
+              "title": "用短片把馆藏重新剪成多条叙事：M+《Cross-Cuts》",
+              "source": "M+"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "topmuseum.jp/exhibition/5423",
+          "label": "日本新进摄影 vol.23：当真实记忆被 AI 与数字技术重新组装",
+          "representative": {
+            "itemId": "visual-tokyo-photo-museum-mwdkst",
+            "sourceUrl": "https://topmuseum.jp/exhibition/5423",
+            "title": "日本新进摄影 vol.23：当真实记忆被 AI 与数字技术重新组装",
+            "source": "Tokyo Photographic Art Museum",
+            "issueId": "2026-07-16"
+          },
+          "related": [
+            {
+              "itemId": "visual-tokyo-photo-museum-mwdkst",
+              "sourceUrl": "https://topmuseum.jp/exhibition/5423",
+              "title": "把记忆、误认与生成图像重新组装：日本新进作家展",
+              "source": "Tokyo Photographic Art Museum"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "topmuseum.jp/exhibition/5478",
+          "label": "木村伊兵卫摄影奖第 50 回纪念展：从创作起点回看摄影表达",
+          "representative": {
+            "itemId": "visual-tokyo-photo-museum-mwdkx9",
+            "sourceUrl": "https://topmuseum.jp/exhibition/5478",
+            "title": "木村伊兵卫摄影奖第 50 回纪念展：从创作起点回看摄影表达",
+            "source": "Tokyo Photographic Art Museum",
+            "issueId": "2026-10-21"
+          },
+          "related": [
+            {
+              "itemId": "visual-tokyo-photo-museum-mwdkx9",
+              "sourceUrl": "https://topmuseum.jp/exhibition/5478",
+              "title": "用跨代摄影史重看当代实践：木村伊兵卫奖 50 周年展",
+              "source": "Tokyo Photographic Art Museum"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "www.momu.be/en/exhibitions/azzedine-alaia",
+          "label": "MoMu 从纸样、剪裁与收藏重访 Azzedine Alaïa",
+          "representative": {
+            "itemId": "visual-momu-4wk4kk",
+            "sourceUrl": "https://www.momu.be/en/exhibitions/azzedine-alaia",
+            "title": "MoMu 从纸样、剪裁与收藏重访 Azzedine Alaïa",
+            "source": "MoMu Antwerp",
+            "issueId": "2026-08-06"
+          },
+          "related": [
+            {
+              "itemId": "visual-momu-4wk4kk",
+              "sourceUrl": "https://www.momu.be/en/exhibitions/azzedine-alaia",
+              "title": "MoMu重访Alaïa收藏：已刊内容，本次未见可核对的新进展",
+              "source": "MoMu Antwerp"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "profoto-abdm-soft-zoom-rebirth-case",
+          "label": "AB+DM的造型灯光：切换主辅光角色，分段表现“新生”主题",
+          "representative": {
+            "itemId": "visual-profoto-3asckw",
+            "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/ab-dm-soft-zoom-reflector/",
+            "title": "AB+DM的造型灯光：切换主辅光角色，分段表现“新生”主题",
+            "source": "Profoto Stories",
+            "issueId": "2026-10-27"
+          },
+          "related": [
+            {
+              "itemId": "visual-profoto-3asckw",
+              "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/ab-dm-soft-zoom-reflector/",
+              "title": "AB+DM的造型灯光：切换主辅光角色，分段表现“新生”主题",
+              "source": "Profoto Stories"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "www.profoto.com/gb/en/still-photography/profoto-stories/10-tips-for-wedding-photographers",
+          "label": "十条婚礼摄影布光建议：商业摄影的稳定性优先",
+          "representative": {
+            "itemId": "visual-profoto-76p3cr",
+            "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/10-tips-for-wedding-photographers/",
+            "title": "十条婚礼摄影布光建议：商业摄影的稳定性优先",
+            "source": "Profoto Stories",
+            "issueId": "2026-07-22"
+          },
+          "related": [
+            {
+              "itemId": "visual-profoto-76p3cr",
+              "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/10-tips-for-wedding-photographers/",
+              "title": "婚礼现场的六种闪光组织方式：Profoto 实拍指南",
+              "source": "Profoto Stories"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "www.profoto.com/gb/en/still-photography/profoto-stories/michael-anthony-clic-a-series-wedding",
+          "label": "Michael Anthony 用 A 系列灯具制造电影感婚礼肖像",
+          "representative": {
+            "itemId": "visual-profoto-9ht5z",
+            "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/michael-anthony-clic-a-series-wedding/",
+            "title": "Michael Anthony 用 A 系列灯具制造电影感婚礼肖像",
+            "source": "Profoto Stories",
+            "issueId": "2026-07-22"
+          },
+          "related": [
+            {
+              "itemId": "visual-profoto-9ht5z",
+              "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/michael-anthony-clic-a-series-wedding/",
+              "title": "把婚礼肖像拍出电影感：Michael Anthony 的便携布光",
+              "source": "Profoto Stories"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "www.profoto.com/gb/en/still-photography/profoto-stories/share-the-light-spotlight-evely-duis",
+          "label": "Evely Duis 的概念时尚摄影：先建立情绪，再决定闪光灯放在哪里",
+          "representative": {
+            "itemId": "visual-profoto-y39th8",
+            "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/share-the-light-spotlight-evely-duis/",
+            "title": "Evely Duis 的概念时尚摄影：先建立情绪，再决定闪光灯放在哪里",
+            "source": "Profoto Stories",
+            "issueId": "2026-07-16"
+          },
+          "related": [
+            {
+              "itemId": "visual-profoto-y39th8",
+              "sourceUrl": "https://www.profoto.com/gb/en/still-photography/profoto-stories/share-the-light-spotlight-evely-duis/",
+              "title": "用光线建立情绪：Evely Duis 的时装人像",
+              "source": "Profoto Stories"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "aputure.com/en-US/articles/whats-new-in-sidus-link-pro-2-3",
+          "label": "在开拍前完成虚拟布光：Sidus Link Pro 的3D灯光预演工具",
+          "representative": {
+            "itemId": "visual-aputure-9aw6kv",
+            "sourceUrl": "https://aputure.com/en-US/articles/whats-new-in-sidus-link-pro-2-3",
+            "title": "在开拍前完成虚拟布光：Sidus Link Pro 的3D灯光预演工具",
+            "source": "Aputure Blog",
+            "issueId": "2026-07-16"
+          },
+          "related": [
+            {
+              "itemId": "visual-aputure-9aw6kv",
+              "sourceUrl": "https://aputure.com/en-US/articles/whats-new-in-sidus-link-pro-2-3",
+              "title": "把灯光预演接入三维空间规划",
+              "source": "Aputure Blog"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "runwayml.com/research/introducing-gwm-worlds-2",
+          "label": "Runway GWM Worlds 2：以持续状态与事件提示控制交互影像",
+          "representative": {
+            "itemId": "visual-runway-hrfmq9",
+            "sourceUrl": "https://runwayml.com/research/introducing-gwm-worlds-2",
+            "title": "Runway GWM Worlds 2：以持续状态与事件提示控制交互影像",
+            "source": "Runway Research",
+            "issueId": "2026-10-21"
+          },
+          "related": [
+            {
+              "itemId": "visual-runway-hrfmq9",
+              "sourceUrl": "https://runwayml.com/research/introducing-gwm-worlds-2",
+              "title": "Runway GWM Worlds 2：以持续状态与事件提示控制交互影像",
+              "source": "Runway Research"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "okada-atsushi-yururi-island-2026",
+          "label": "Atsushi Okada Yururi Island exhibition",
+          "representative": {
+            "itemId": "visual-tokyo-photo-museum-1yjg1tz",
+            "sourceUrl": "https://topmuseum.jp/exhibition/12698",
+            "title": "用十五年摄影记录一座逐渐消失的马岛",
+            "source": "Tokyo Photographic Art Museum",
+            "issueId": "2026-11-08"
+          },
+          "related": [
+            {
+              "itemId": "visual-tokyo-photo-museum-1yjg1tz",
+              "sourceUrl": "https://topmuseum.jp/exhibition/12698",
+              "title": "用十五年摄影记录一座逐渐消失的马岛",
+              "source": "Tokyo Photographic Art Museum"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "icp-japanese-women-photographers-happy-here",
+          "label": "日本女性摄影群展：以跨代作品和摄影书扩展历史视野",
+          "representative": {
+            "itemId": "visual-icp-18un0bc",
+            "sourceUrl": "https://www.icp.org/exhibitions/im-so-happy-you-are-here-japanese-women-photographers-1950s-now",
+            "title": "日本女性摄影群展：以跨代作品和摄影书扩展历史视野",
+            "source": "International Center of Photography",
+            "issueId": "2026-10-30"
+          },
+          "related": [
+            {
+              "itemId": "visual-icp-18un0bc",
+              "sourceUrl": "https://www.icp.org/exhibitions/im-so-happy-you-are-here-japanese-women-photographers-1950s-now",
+              "title": "日本女性摄影群展：以跨代作品和摄影书扩展历史视野",
+              "source": "International Center of Photography"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "icp-laia-abril-institutional-failure",
+          "label": "ICP展览以图像、证词与档案讨论针对女性的暴力",
+          "representative": {
+            "itemId": "visual-icp-w21kp2",
+            "sourceUrl": "https://www.icp.org/exhibitions/laia-abril-rape-and-institutional-failure",
+            "title": "ICP展览以图像、证词与档案讨论针对女性的暴力",
+            "source": "International Center of Photography",
+            "issueId": "2026-10-30"
+          },
+          "related": [
+            {
+              "itemId": "visual-icp-w21kp2",
+              "sourceUrl": "https://www.icp.org/exhibitions/laia-abril-rape-and-institutional-failure",
+              "title": "ICP展览以图像、证词与档案讨论针对女性的暴力",
+              "source": "International Center of Photography"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "aputure.com/en-US/articles/whats-new-in-sidus-link-pro-2-2",
+          "label": "Sidus Link Pro 2.2：用灯具布局视图减少现场控制错误",
+          "representative": {
+            "itemId": "visual-aputure-9aw6ku",
+            "sourceUrl": "https://aputure.com/en-US/articles/whats-new-in-sidus-link-pro-2-2",
+            "title": "Sidus Link Pro 2.2：用灯具布局视图减少现场控制错误",
+            "source": "Aputure Blog",
+            "issueId": "2026-07-17"
+          },
+          "related": [
+            {
+              "itemId": "visual-aputure-9aw6ku",
+              "sourceUrl": "https://aputure.com/en-US/articles/whats-new-in-sidus-link-pro-2-2",
+              "title": "Sidus Link Pro 2.2：用灯具布局视图减少现场控制错误",
+              "source": "Aputure Blog"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "icp-melissa-ann-pinney-schools-incubator",
+          "label": "ICP的长期校园肖像：Melissa Ann Pinney与成长中的学生",
+          "representative": {
+            "itemId": "visual-icp-16hyhui",
+            "sourceUrl": "https://www.icp.org/exhibitions/icp-incubator-space-melissa-ann-pinney-what%E2%80%99s-ms-pinney-doing-here",
+            "title": "ICP的长期校园肖像：Melissa Ann Pinney与成长中的学生",
+            "source": "International Center of Photography",
+            "issueId": "2026-10-27"
+          },
+          "related": [
+            {
+              "itemId": "visual-icp-16hyhui",
+              "sourceUrl": "https://www.icp.org/exhibitions/icp-incubator-space-melissa-ann-pinney-what%E2%80%99s-ms-pinney-doing-here",
+              "title": "ICP的长期校园肖像：Melissa Ann Pinney与成长中的学生",
+              "source": "International Center of Photography"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "www.mplus.org.hk/en/magazine/introducing-pioneering-visions",
+          "label": "M+ Pioneering Visions：连接展览、影像与研究的跨媒介计划",
+          "representative": {
+            "itemId": "visual-mplus-187hfwh",
+            "sourceUrl": "https://www.mplus.org.hk/en/magazine/introducing-pioneering-visions",
+            "title": "M+ Pioneering Visions：连接展览、影像与研究的跨媒介计划",
+            "source": "M+",
+            "issueId": "2026-10-21"
+          },
+          "related": [
+            {
+              "itemId": "visual-mplus-187hfwh",
+              "sourceUrl": "https://www.mplus.org.hk/en/magazine/introducing-pioneering-visions",
+              "title": "M+ Pioneering Visions：连接展览、影像与研究的跨媒介计划",
+              "source": "M+"
+            }
+          ],
+          "disposition": "previous"
+        },
+        {
+          "key": "topmuseum.jp/exhibition/5425",
+          "label": "惠比寿映像祭 2027 预告：展览、放映与现场活动并置",
+          "representative": {
+            "itemId": "visual-tokyo-photo-museum-mwdksv",
+            "sourceUrl": "https://topmuseum.jp/exhibition/5425",
+            "title": "惠比寿映像祭 2027 预告：展览、放映与现场活动并置",
+            "source": "Tokyo Photographic Art Museum",
+            "issueId": "2026-10-21"
+          },
+          "related": [
+            {
+              "itemId": "visual-tokyo-photo-museum-mwdksv",
+              "sourceUrl": "https://topmuseum.jp/exhibition/5425",
+              "title": "惠比寿映像祭 2027 预告：展览、放映与现场活动并置",
+              "source": "Tokyo Photographic Art Museum"
+            }
+          ],
+          "disposition": "previous"
+        }
+      ]
+    },
+    {
+      "featuredStoryIds": [
         "visual-wallpaper-ni329k",
         "visual-w-magazine-ohvavg",
         "visual-vogue-singapore-vibro2",

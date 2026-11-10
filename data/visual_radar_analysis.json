@@ -17558,9 +17558,481 @@
           "label": "Oshinowo Freetown Memorial refresh"
         }
       }
+    },
+    {
+      "analyzedAt": "2026-11-10T09:18:56.000Z",
+      "chineseSummary": "Jacqueline West 用现代与中世纪的混合世界观，并以橡胶质感涂层莱卡和模制硬片的连续连接，重做更贴身的蒸馏服。",
+      "chineseTitle": "《沙丘3》把软硬材质熔成贴身未来盔甲",
+      "contentHash": "sha1:bce5ba3ef1b5def759855191fe32695c0b56ed44",
+      "itemId": "visual-vogue-singapore-g14lfg",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 91,
+      "scoreBreakdown": {
+        "informationSpecificity": 12,
+        "novelty": 17,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "正文给出世界观来源、材料选择和软硬件连接方式，是可追溯的服装制作案例。",
+      "status": "success",
+      "trendKeywords": [
+        "软硬一体",
+        "未来盔甲",
+        "材质叙事"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://vogue.sg/dune-part-three-costumes/",
+        "snapshotHash": "290eb0633636b7caabbcae09fa5cea8116ad50bc923c4737331b3cfd8c194443",
+        "facts": [
+          {
+            "statement": "West 将该系列的视觉原则概括为现代与中世纪的结合。",
+            "quote": "a marriage of modern and medieval"
+          },
+          {
+            "statement": "新版蒸馏服把模制硬片与柔软面料做成连续的贴身结构。",
+            "quote": "one continuous sheath of moulded hard pieces and soft pieces for mobility"
+          }
+        ],
+        "visualMethod": "以贴身软基底承接模制硬件，让轮廓、活动度与材质反差在同一表面完成。",
+        "application": "可用弹性底层加局部热塑或3D模制片，先测试关节处的硬软过渡，再确定主体轮廓。",
+        "visualTags": [
+          "材质",
+          "工艺",
+          "构图"
+        ],
+        "limitation": "报道为设计师访谈，未公开完整打版和工厂参数。",
+        "assessment": {
+          "contentKind": "production_case",
+          "methodEvidence": "specific",
+          "rationale": "正文明确交代了研究来源、涂层莱卡与硬软部件的结合方法。"
+        },
+        "event": {
+          "key": "dune-part-three-costume-design",
+          "label": "Dune Part Three costume design"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-10T09:18:56.000Z",
+      "chineseSummary": "Elmgreen & Dragset 在 Pace Gallery 将椭圆形办公室的门窗尺度抽成耐候钢体量，再以镜面阳台图像让观众进入被留空的权力位置。",
+      "chineseTitle": "用耐候钢把权力空间还原为可穿行的体量",
+      "contentHash": "sha1:8087d294ce3c823e3d4a15dc62efc030805458a5",
+      "itemId": "visual-wallpaper-1qq8s3",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 89,
+      "scoreBreakdown": {
+        "informationSpecificity": 12,
+        "novelty": 17,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "报道说明实物尺度、材料、开口布置与观众动线，适合作为空间叙事的具体参考。",
+      "status": "success",
+      "trendKeywords": [
+        "耐候钢",
+        "权力空间",
+        "可穿行雕塑"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.wallpaper.com/art/exhibitions-shows/elmgreen-dragset-transition-new-york",
+        "snapshotHash": "88069c7bf64e762db0fa8297cf6acb1af0c535bd347f4166fe15a0a60845f0bd",
+        "facts": [
+          {
+            "statement": "艺术家将椭圆形办公室转化为雕塑对象。",
+            "quote": "turn that entity into a sculpture"
+          },
+          {
+            "statement": "海运与自然暴露令耐候钢表面形成持续变化的绘画感。",
+            "quote": "a surface of constant transformation"
+          }
+        ],
+        "visualMethod": "抽离室内的装饰与符号，只保留体量、开口和行走尺度；再让耐候材质承担时间性。",
+        "application": "展陈模型可先以一个熟悉房间的门窗比例建空壳，再通过锈蚀金属或反射面测试权力感如何被去除。",
+        "visualTags": [
+          "空间",
+          "材质",
+          "叙事"
+        ],
+        "limitation": "报道侧重艺术家与策展现场描述，未提供完整工程图。",
+        "assessment": {
+          "contentKind": "artwork",
+          "methodEvidence": "specific",
+          "rationale": "正文具体说明耐候钢、近似原尺寸、门窗位置和可穿行的空间策略。"
+        },
+        "event": {
+          "key": "elmgreen-dragset-transition-pace-2026",
+          "label": "Elmgreen Dragset TRANSITION at Pace"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-10T09:18:56.000Z",
+      "chineseSummary": "拉各斯的 Casa Mouda 将画廊、社区中心与户外介入结合，并以沙覆墙面、声景及本地木材家具，让当代非洲设计在可购买、可停留的场景中被理解。",
+      "chineseTitle": "Casa Mouda 用场景化陈列连接拉各斯的设计社群",
+      "contentHash": "sha1:47d3564ca9d1cf7eb4ae3fed5789e3a21c5200d5",
+      "itemId": "visual-wallpaper-1gmnhw3",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 87,
+      "scoreBreakdown": {
+        "informationSpecificity": 12,
+        "novelty": 16,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "正文给出空间分工、环境材料、声音和本地生产的明确线索，具备社区型设计空间的可借鉴性。",
+      "status": "success",
+      "trendKeywords": [
+        "社区设计",
+        "场景化陈列",
+        "本地材料"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.wallpaper.com/design-interiors/casa-mouda-lagos",
+        "snapshotHash": "98d653fe14b003c608ee73f5db8b2b95496f73d390ace4da494ef765981526c4",
+        "facts": [
+          {
+            "statement": "空间以覆砂墙面呼应海岸位置。",
+            "quote": "The walls are covered in sand"
+          },
+          {
+            "statement": "项目与声音艺术家 Malloy James 合作制作声景。",
+            "quote": "a soundscape created in collaboration with sound artist and composer Malloy James"
+          }
+        ],
+        "visualMethod": "让家具、材质、声音和停留功能共同构成一组可进入的生活场景，而非孤立展品。",
+        "application": "策划小型陈列时，可先用一个在地触感材料与一层环境声音建立场所，再配置可被使用的作品。",
+        "visualTags": [
+          "空间",
+          "材质",
+          "叙事"
+        ],
+        "limitation": "报道为开幕介绍，尚不足以评估该空间长期的社群参与成效。",
+        "assessment": {
+          "contentKind": "artwork",
+          "methodEvidence": "specific",
+          "rationale": "正文明确描述双场地功能、沙覆墙面、声景和本地生产合作。"
+        },
+        "event": {
+          "key": "casa-mouda-lagos-design-institute",
+          "label": "Casa Mouda The Design Institute"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-10T09:18:56.000Z",
+      "chineseSummary": "Su Wu 在《Mesoamerican Modern》中梳理16个墨西哥住宅项目，强调院落、地形朝向、手工痕迹与古老几何如何被当代居住空间重新激活。",
+      "chineseTitle": "从院落、朝向到手作：中美洲现代主义的住宅语法",
+      "contentHash": "sha1:e30cad5a28e219615d29287a6d34103cb504d87e",
+      "itemId": "visual-wallpaper-xpvodt",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 89,
+      "scoreBreakdown": {
+        "informationSpecificity": 13,
+        "novelty": 17,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "正文通过多个住宅案例指出具体的空间原则，避免把历史图案停留在表面装饰。",
+      "status": "success",
+      "trendKeywords": [
+        "中美洲现代主义",
+        "院落",
+        "地形朝向"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.wallpaper.com/architecture/residential/mesoamerican-modern",
+        "snapshotHash": "3891f643ee195733f9b7fa6359c2096a315c772f6ea89d9bd6e651b94f1cd067",
+        "facts": [
+          {
+            "statement": "Casa 720 把院落或开放空间置于住宅核心。",
+            "quote": "the patio, or open space, as a central feature"
+          },
+          {
+            "statement": "Casa Bernal 的视线、窗向和屋顶坡度都由与山体的关系决定。",
+            "quote": "every view, window orientation and roof slant was determined by its relationship to the mountain"
+          }
+        ],
+        "visualMethod": "把历史参考转译为院落、光影、朝向与体量关系，而不是复制符号化纹样。",
+        "application": "做居住空间板时，可先绘制地形、风向和视线的关系图，再由图生成开口与屋顶角度。",
+        "visualTags": [
+          "空间",
+          "构图",
+          "材质"
+        ],
+        "limitation": "报道为书籍与案例导览，未独立核验每个住宅的技术性能。",
+        "assessment": {
+          "contentKind": "artwork",
+          "methodEvidence": "specific",
+          "rationale": "正文以多座住宅说明院落、朝向、材料与手工表达的具体空间原则。"
+        },
+        "event": {
+          "key": "mesoamerican-modern-suwu-book-2026",
+          "label": "Su Wu Mesoamerican Modern book"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-10T09:18:56.000Z",
+      "chineseSummary": "MoMA PS1 回顾1980至1984年的 New York Fashion 系列，以档案、摄影、绘画、装置和表演重建设计师进入艺术机构现场的方式。",
+      "chineseTitle": "MoMA PS1 重看时尚作为正在发生的艺术实践",
+      "contentHash": "sha1:ad5d3d8d9445ae1d16b161b20cb01643b8154202",
+      "itemId": "visual-w-magazine-1fkjear",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 89,
+      "scoreBreakdown": {
+        "informationSpecificity": 12,
+        "novelty": 17,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "展览把时尚从静态陈列转为多媒介、在场的创作实践，正文说明了档案和展陈结构。",
+      "status": "success",
+      "trendKeywords": [
+        "时尚展览",
+        "机构档案",
+        "跨媒介现场"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.wmagazine.com/culture/moma-ps1-fashion-exhibition-new-york-1980-1984-photos",
+        "snapshotHash": "7f1a811081e1ba683d240f437fa0a328bbadec7a3a706f9ae893a432d60f393e",
+        "facts": [
+          {
+            "statement": "原始项目主张把在世设计师视作艺术家，而非玻璃柜中的物件。",
+            "quote": "living designers treated as artists rather than displayed behind glass"
+          },
+          {
+            "statement": "展览覆盖摄影、绘画、装置和表演等媒介。",
+            "quote": "photography and drawing to installation and performance"
+          }
+        ],
+        "visualMethod": "以档案为骨架，同时用图像、空间和行为媒介恢复设计在当时的现场关系。",
+        "application": "做品牌或设计史展览时，可把服装、过程稿、影像和一次小型现场行动并置，避免只用静态橱窗叙事。",
+        "visualTags": [
+          "空间",
+          "叙事",
+          "动态影像"
+        ],
+        "limitation": "文章为展览评论，未包含完整展签或全部档案清单。",
+        "assessment": {
+          "contentKind": "artwork",
+          "methodEvidence": "specific",
+          "rationale": "正文说明历史项目、档案基础及摄影、装置、表演并置的展陈方法。"
+        },
+        "event": {
+          "key": "moma-ps1-new-york-fashion-1980-1984",
+          "label": "MoMA PS1 New York Fashion 1980-1984"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-10T09:18:56.000Z",
+      "chineseSummary": "James Barnett 与 Poppy French 在短片系列中分担影像与摄影工作，围绕英国小众社群寻找未经包装的对话与日常细节。",
+      "chineseTitle": "用长期搭档关系拍出不被修饰的地方人物",
+      "contentHash": "sha1:08d184cc62ff3380a596290b828698653a679f7e",
+      "itemId": "visual-its-nice-that-14pi8j5",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 82,
+      "scoreBreakdown": {
+        "informationSpecificity": 12,
+        "novelty": 15,
+        "professionalRelevance": 17,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 25
+      },
+      "selectionRationale": "访谈直接说明二人的分工、选角判断与记录取向，具有可执行的纪实影像方法价值。",
+      "status": "success",
+      "trendKeywords": [
+        "纪实肖像",
+        "地方社群",
+        "长期协作"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.itsnicethat.com/features/james-barnett-poppy-french-when-james-and-poppy-met-documentary-photography-101126",
+        "snapshotHash": "a2676a5641589c76a36fc301a9b951815310cb648501b387afb69be4103c9a6d",
+        "facts": [
+          {
+            "statement": "French 把记录视作收集故事和照片的方式。",
+            "quote": "documentation as a way to collect"
+          },
+          {
+            "statement": "他们偏向寻找不加修饰、愿意表达的人物。",
+            "quote": "Someone unguarded, not polished, says how they feel"
+          }
+        ],
+        "visualMethod": "由长期协作的一人负责现场关系与动态节奏，另一人专注静态肖像，用未修饰的日常物件把人物放回社区。",
+        "application": "策划人物短片时，先以一段非采访式同行时间建立信任，再分别补拍环境静物和近距离肖像。",
+        "visualTags": [
+          "叙事",
+          "构图",
+          "动态影像"
+        ],
+        "limitation": "报道基于创作者自述，未展示该系列的完整拍摄流程。",
+        "assessment": {
+          "contentKind": "production_case",
+          "methodEvidence": "specific",
+          "rationale": "正文明确说明搭档分工、人物选择标准和以记录作为收集的方法。"
+        },
+        "event": {
+          "key": "james-barnett-poppy-french-when-met",
+          "label": "James Barnett and Poppy French When They Met"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-10T09:18:56.000Z",
+      "chineseSummary": "摄影师 George Hutton 在 Whitby Goth Weekend 里不只拍戏服本身，而是把装扮者与海滩、炸鱼薯条店和遛狗者并置，记录节庆如何嵌进普通城镇。",
+      "chineseTitle": "让哥特装扮在海滨日常中显得更真实",
+      "contentHash": "sha1:d91bd2b18bfefabc2a35450e10fef44b612dd648",
+      "itemId": "visual-dazed-1iu2vxk",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 85,
+      "scoreBreakdown": {
+        "informationSpecificity": 12,
+        "novelty": 16,
+        "professionalRelevance": 17,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "报道直接说明摄影师的取景规则和场景关系，为活动纪实提供了明确、克制的叙事策略。",
+      "status": "success",
+      "trendKeywords": [
+        "节庆纪实",
+        "日常反差",
+        "环境肖像"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.dazeddigital.com/art-photography/article/71320/1/whitby-goth-weekend-festival-george-hutton-yorkshire-anime-cosplay?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=spooky-scenes-from-whitby-goth-weekend-2026",
+        "snapshotHash": "84b80b5c64dd81de4ebf55fc97fddf404568f7b9212844a647cf0529e6d64f46",
+        "facts": [
+          {
+            "statement": "Hutton 会在画面中加入能说明海滨小镇日常的元素。",
+            "quote": "something else in the frame that grounds them to just being in a seaside town"
+          },
+          {
+            "statement": "他有意识地追求日常与装扮之间的意外并置。",
+            "quote": "He revels in surprising juxtapositions"
+          }
+        ],
+        "visualMethod": "不把角色从环境中抠出，而是保留普通店铺、行人和天气，让奇异造型与日常基底相互定义。",
+        "application": "拍摄亚文化活动时，每张主肖像都保留一个不可替代的地方线索，如招牌、食物或路人。",
+        "visualTags": [
+          "构图",
+          "叙事",
+          "色彩"
+        ],
+        "limitation": "报道以摄影师的精选图像和自述为主，未涵盖节庆全部参与者。",
+        "assessment": {
+          "contentKind": "production_case",
+          "methodEvidence": "specific",
+          "rationale": "正文明确记录摄影师用环境细节和反差并置构成纪实画面的取景方法。"
+        },
+        "event": {
+          "key": "whitby-goth-weekend-george-hutton-2026",
+          "label": "George Hutton Whitby Goth Weekend 2026"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-10T09:18:56.000Z",
+      "chineseSummary": "Formula 2030 概念车以驾驶员屏幕、按需升起的中控屏和可自定义的实体按键并置，提出数字界面与触觉控制同时存在的车内体验。",
+      "chineseTitle": "Polestar 用实体控制把驾驶界面拉回空间中心",
+      "contentHash": "sha1:3e3ee1f9b15074b871d870e87e0db9b613500649",
+      "itemId": "visual-wallpaper-qjwr29",
+      "model": "codex-agent",
+      "primaryTopic": "tool",
+      "promptVersion": "visual-daily-v1",
+      "score": 85,
+      "scoreBreakdown": {
+        "informationSpecificity": 12,
+        "novelty": 16,
+        "professionalRelevance": 17,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 26
+      },
+      "selectionRationale": "报道有设计负责人对界面、物理按键和材料策略的具体说明，适合观察移动空间的交互视觉。",
+      "status": "success",
+      "trendKeywords": [
+        "实体交互",
+        "驾驶舱界面",
+        "交通设计"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.wallpaper.com/transportation/a-stylish-low-slung-concept-sports-car-the-polestar-formula-2030-is-a-mobile-manifesto",
+        "snapshotHash": "82e7fc77625201afefa29dba05562138ac4c28e66bd99453b7ad7b2c76cb23c8",
+        "facts": [
+          {
+            "statement": "设计团队主张让数字与模拟控制无缝结合。",
+            "quote": "a seamless blend of digital and analogue"
+          },
+          {
+            "statement": "设计负责人认为实体按键更适合快速调用功能。",
+            "quote": "buttons do the job best"
+          }
+        ],
+        "visualMethod": "把高频操作压缩到可辨识的实体控件，同时把屏幕留给状态、导航与按需展开的信息层。",
+        "application": "设计复杂控制台时，可先按使用频率区分触觉控制和屏幕控制，再用一组固定网格建立视线与手部路径。",
+        "visualTags": [
+          "空间",
+          "构图",
+          "材质"
+        ],
+        "limitation": "这是概念车而非量产规格，部分交互和材料尚未经过真实用户验证。",
+        "assessment": {
+          "contentKind": "production_case",
+          "methodEvidence": "specific",
+          "rationale": "正文具体描述驾驶员屏幕、中控屏、可配置按键与数字模拟混合的交互策略。"
+        },
+        "event": {
+          "key": "polestar-formula-2030-concept",
+          "label": "Polestar Formula 2030 concept"
+        }
+      }
     }
   ],
   "failures": [],
-  "generatedAt": "2026-11-08T09:23:30.000Z",
+  "generatedAt": "2026-11-10T09:18:56.000Z",
   "promptVersion": "visual-daily-v1"
 }
