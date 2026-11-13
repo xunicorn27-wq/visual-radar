@@ -18030,9 +18030,422 @@
           "label": "Polestar Formula 2030 concept"
         }
       }
+    },
+    {
+      "analyzedAt": "2026-11-13T09:31:16.000Z",
+      "chineseSummary": "Liaigre 以简洁形态、细腻比例和木材、皮革、青铜的原生质感建立空间语言，并把模块化与工艺细节放在同一套生活场景中。",
+      "chineseTitle": "Liaigre 用克制比例把家具变成空间的长期背景",
+      "contentHash": "sha1:4310250ef7c0f8afc0d8b0a8d5eb1c3a68ba20b6",
+      "itemId": "visual-w-korea-1nk0k1y",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 81,
+      "scoreBreakdown": {
+        "informationSpecificity": 13,
+        "novelty": 14,
+        "professionalRelevance": 17,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 24
+      },
+      "selectionRationale": "正文给出品牌的比例、材质、模块化家具与具体产品线索，可作为空间造型的材料与尺度参考。",
+      "status": "success",
+      "trendKeywords": [
+        "克制空间",
+        "青铜木材",
+        "模块化家具"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.wkorea.com/2026/11/13/%eb%a6%ac%ec%97%90%ea%b1%b0%ea%b0%80-%ec%9d%b4%ec%95%bc%ea%b8%b0%ed%95%98%eb%8a%94-%ea%b3%b5%ea%b0%84%ec%9d%98-%eb%af%b8%ed%95%99/",
+        "snapshotHash": "f39e80d41a91e064c67f24150797b053033862be2043967912f67f984bb7d480",
+        "facts": [
+          {
+            "statement": "报道将 Liaigre 的设计原则概括为减少装饰、强调比例与材料质感。",
+            "quote": "균형과 절제를 중시하는 리에거의 미학"
+          },
+          {
+            "statement": "文章列举木材、皮革和青铜作为其家具呈现材质特性的基础。",
+            "quote": "목재와 가죽, 청동"
+          }
+        ],
+        "visualMethod": "用少量体量清晰的家具组织留白，并让木、皮与带时间感的金属表面承担视觉密度。",
+        "application": "制作室内情绪板时，可先限定三种触感材料与两种主比例，再以一件雕塑感座椅作为视线锚点。",
+        "visualTags": [
+          "空间",
+          "材质",
+          "构图"
+        ],
+        "limitation": "报道为品牌与产品介绍，未提供完整材料规格和实际施工信息。",
+        "assessment": {
+          "contentKind": "vendor_case",
+          "methodEvidence": "specific",
+          "rationale": "正文具体描述了比例、材料选择、模块化使用和产品细节。"
+        },
+        "event": {
+          "key": "liaigre-spatial-aesthetics-2026",
+          "label": "Liaigre spatial aesthetics 2026"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-13T09:31:16.000Z",
+      "chineseSummary": "这家蒙特雷工作室把当地工业、钢铁与酿造历史转成品牌、定制字体和艺术指导，并以拼贴、动态木纹标识等形式保留项目的开放性。",
+      "chineseTitle": "Dum Dum Studio 在功能与玩心之间搭建品牌识别",
+      "contentHash": "sha1:c47bef4c083940a455a2184b6406efc87b427ab6",
+      "itemId": "visual-its-nice-that-hlk9y0",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 86,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 16,
+        "professionalRelevance": 18,
+        "sourceQuality": 8,
+        "timeliness": 3,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "文章清楚说明工作室的在地参考、跨媒介实践与功能和自发性之间的工作方式。",
+      "status": "success",
+      "trendKeywords": [
+        "在地品牌",
+        "实验字体",
+        "动态标识"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.itsnicethat.com/articles/dum-dum-studio-graphic-design-discover-121126",
+        "snapshotHash": "38b0dc68e068770f82974a792fe81108872274538f54bede906fb4f2309fc365",
+        "facts": [
+          {
+            "statement": "工作室的项目覆盖品牌识别、定制字体和艺术指导。",
+            "quote": "design, typography and art direction"
+          },
+          {
+            "statement": "其设计观强调在功能与感受、规划与自发性之间取得平衡。",
+            "quote": "a balance between function and feeling, planning and spontaneity"
+          }
+        ],
+        "visualMethod": "以地方工业图形与网格为结构，再用拼贴、纹理或动态标识释放不规则的情绪层。",
+        "application": "做餐饮或文化项目识别时，可先提取城市的一种产业材料和一种排版秩序，再为其中一个触点加入可变动画。",
+        "visualTags": [
+          "字体",
+          "材质",
+          "动态影像"
+        ],
+        "limitation": "报道聚焦工作室自述与成品展示，未披露具体项目的完整测试过程。",
+        "assessment": {
+          "contentKind": "production_case",
+          "methodEvidence": "specific",
+          "rationale": "正文明确给出实践范围、城市视觉来源以及功能和自发性的设计原则。"
+        },
+        "event": {
+          "key": "dum-dum-studio-monterrey-design-practice",
+          "label": "Dum Dum Studio Monterrey design practice"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-13T09:31:16.000Z",
+      "chineseSummary": "Powell 为东京个展拍摄美国沙漠、廉价旅馆和偶遇人物，以循环意象、过时室内纹样与孤独行程构成既迷人又不安的美国性图像。",
+      "chineseTitle": "Adam Powell 把公路边缘感压缩成沙漠发烧梦",
+      "contentHash": "sha1:ba2cd51eb39ca0c3abae62ead8ede6cbf2284a20",
+      "itemId": "visual-dazed-17lrm50",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 95,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 18,
+        "professionalRelevance": 19,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "正文提供了展览时间、长期拍摄路径、取景限制和对旅馆图案与荒废物件的具体视觉处理。",
+      "status": "success",
+      "trendKeywords": [
+        "公路摄影",
+        "失真美国性",
+        "旅馆纹样"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.dazeddigital.com/art-photography/article/71350/1/these-photos-show-the-american-desert-as-a-fever-dream-adam-powell?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=these-photos-capture-the-american-desert-as-a-fever-dream",
+        "snapshotHash": "214c49e2761911017fcea8aab4932561061d48e2d42dd3068713cb285e4d63b5",
+        "facts": [
+          {
+            "statement": "该系列把无尽公路、空旷地景与短暂的汽车旅馆室内放进同一段扭曲时间。",
+            "quote": "infinite stretch of highways, empty landscapes and fleeting motel rooms"
+          },
+          {
+            "statement": "摄影师把低星级住宿视作维持高强度拍摄状态的规则。",
+            "quote": "if it has over three stars, he doesn’t stay there"
+          }
+        ],
+        "visualMethod": "用重复的圆形、旧旅馆的冲突纹样和偶遇人物连接地点，让纪实路线带着梦游般的不稳定感。",
+        "application": "拍摄城市边缘或旅行叙事时，可先设定一条住宿或交通限制，再反复拍摄同一构图母题以组织系列节奏。",
+        "visualTags": [
+          "叙事",
+          "构图",
+          "色彩"
+        ],
+        "limitation": "报道以摄影师自述为主，未呈现展览全部图像和制作参数。",
+        "assessment": {
+          "contentKind": "production_case",
+          "methodEvidence": "specific",
+          "rationale": "正文具体交代拍摄路线、取景对象、重复母题和旅行规则。"
+        },
+        "event": {
+          "key": "adam-powell-desert-is-a-circle-2026",
+          "label": "Adam Powell The DESERT is a CIRCLE 2026"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-13T09:31:16.000Z",
+      "chineseSummary": "Leslie-Lohman Museum 将细江英公拍摄三岛由纪夫的黑白作品，与 Jason Wee 的绳索、剑和摄影机装置并置，重新观看身体、欲望、民族主义与室内道具之间的张力。",
+      "chineseTitle": "细江英公的身体摄影如何让矛盾成为布景",
+      "contentHash": "sha1:4d324b1919c8fe9460a0265faa8e801c4071559e",
+      "itemId": "visual-another-magazine-xyghad",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 92,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 17,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "展览、作品构成和视觉矛盾均有明确正文依据，适合作为肖像与展陈叙事的历史参照。",
+      "status": "success",
+      "trendKeywords": [
+        "黑白肖像",
+        "身体叙事",
+        "摄影展陈"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.anothermag.com/art-photography/17637/eikoh-hosoe-yukio-mishima-leslie-lohman-museum?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=eikoh-hosoe-s-nude-photographs-of-literary-rebel-yukio-mishima",
+        "snapshotHash": "f9711d40156d586572bcd388fa4ffc366c0db04127587948709f49b192e323bf",
+        "facts": [
+          {
+            "statement": "新展以约二十幅 Barakei 系列黑白照片和一组混合媒介装置共同呈现。",
+            "quote": "around 20 of Hosoe’s black and white photographs"
+          },
+          {
+            "statement": "三岛在家中裸体持镜子、蜡烛、木槌和花园水管入镜。",
+            "quote": "mirrors, candles, a mallet, and a garden hose"
+          }
+        ],
+        "visualMethod": "让人物身体、私密道具与高反差暗调彼此冲突，而不把被摄者压缩成单一身份或单一姿态。",
+        "application": "拍摄人物专题时，可先收集能带出矛盾身份的私人物件，再用一处低照度空间和一组反射面组织肖像。",
+        "visualTags": [
+          "布光",
+          "叙事",
+          "构图"
+        ],
+        "limitation": "报道为展览导览和策展观点，未提供全部原作的接触印相或完整编年。",
+        "assessment": {
+          "contentKind": "artwork",
+          "methodEvidence": "specific",
+          "rationale": "正文明确描述作品数量、照片道具、混合媒介装置和策展所讨论的视觉张力。"
+        },
+        "event": {
+          "key": "props-from-barakei-leslie-lohman-2026",
+          "label": "Props from Barakei at Leslie-Lohman 2026"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-13T09:31:16.000Z",
+      "chineseSummary": "Technogym 与 Crosby Studios 在巴黎的装置把黑色训练器械、天鹅绒沙发、储物和茶水区并置，以 Transformism 讨论创作、训练与居住不再分区的空间。",
+      "chineseTitle": "Crosby Reset 把健身房倒置成创作生活场",
+      "contentHash": "sha1:c4da22d2e34dbc352b8af1ddaedd43c227b10e12",
+      "itemId": "visual-wallpaper-1hiqcro",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 88,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 17,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 25
+      },
+      "selectionRationale": "文章明确交代空间位置、设计方、物件配置与反向植入居住元素的策略。",
+      "status": "success",
+      "trendKeywords": [
+        "混合空间",
+        "黑色单色调",
+        "创意健康"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.wallpaper.com/design-interiors/crosby-studios-technogym-collaboration",
+        "snapshotHash": "f4b1adfd961392e6446ee4fbc81c365af2d63ed1c5ab0e8c07c5ec0c61a98479",
+        "facts": [
+          {
+            "statement": "装置没有把训练限定在一个区域，而是将其放进日常生活环境。",
+            "quote": "doesn't confine wellness to one designated area"
+          },
+          {
+            "statement": "设计不是把器械放进住宅，而是把居住元素放进训练空间。",
+            "quote": "placed living elements within the workout space"
+          }
+        ],
+        "visualMethod": "以器械的单色工业质感为底，再插入柔软沙发、储物与声音装置，制造功能错位带来的舞台感。",
+        "application": "规划小型工作室时，可先列出两种本不相邻的日常行为，并为它们共用的停留区配置同一套材质和照明。",
+        "visualTags": [
+          "空间",
+          "材质",
+          "叙事"
+        ],
+        "limitation": "这是短期品牌合作装置，报道未验证其在长期居住中的使用表现。",
+        "assessment": {
+          "contentKind": "vendor_case",
+          "methodEvidence": "specific",
+          "rationale": "正文具体说明器械、居住元素、材料氛围和功能倒置的空间策略。"
+        },
+        "event": {
+          "key": "crosby-reset-technogym-paris-2026",
+          "label": "Crosby Reset Technogym Paris 2026"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-13T09:31:16.000Z",
+      "chineseSummary": "VUWFINE 的首季把古着、工装和军装元素置入当代廓形，以双色表面、自然水洗、做旧金属和可调金属丝领口，让穿着者通过光线与动作改变服装的观看方式。",
+      "chineseTitle": "VUWFINE 以隐蔽结构把日常衣物变成可变画面",
+      "contentHash": "sha1:e401a2d024504004602539eee8dc155c3a099446",
+      "itemId": "visual-w-korea-xirlrz",
+      "model": "codex-agent",
+      "primaryTopic": "styling",
+      "promptVersion": "visual-daily-v1",
+      "score": 84,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 15,
+        "professionalRelevance": 18,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 24
+      },
+      "selectionRationale": "正文提供具体系列、材料表面、可调结构和配色细节，而不是泛泛的潮流清单。",
+      "status": "success",
+      "trendKeywords": [
+        "可变廓形",
+        "工装重组",
+        "双色质感"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.wkorea.com/2026/11/13/%eb%b7%b0%ed%8c%8c%ec%9d%b8%ec%9d%b4-%ea%b1%b4%eb%84%a4%eb%8a%94-%ec%b2%ab-%eb%b2%88%ec%a7%b8-%ed%94%84%eb%a0%88%ec%9e%84/",
+        "snapshotHash": "0c653181005f8026938396453e9eb321a80d96edd28fcd851a81f7487bceee41",
+        "facts": [
+          {
+            "statement": "该系列将古着、工装和军装元素与当代廓形和材料并置。",
+            "quote": "빈티지와 워크웨어, 밀리터리"
+          },
+          {
+            "statement": "衣物的领口内置金属丝，可由穿着者调整形状。",
+            "quote": "와이어가 들어간 칼라는 원하는 모양으로 바꿀 수 있고"
+          }
+        ],
+        "visualMethod": "让经典工装的基础轮廓保持可识别，再把可调整部件、内侧配色和做旧五金布置在第二观看层。",
+        "application": "造型测试可先选择一件稳定基础款，再叠加一个可折、可卷或可变形的局部结构，并拍摄正背面两种状态。",
+        "visualTags": [
+          "材质",
+          "构图",
+          "工艺"
+        ],
+        "limitation": "报道为品牌首季介绍，未提供面料成分、版型尺寸及生产信息。",
+        "assessment": {
+          "contentKind": "vendor_case",
+          "methodEvidence": "specific",
+          "rationale": "正文给出了来源元素、表面效果、五金与可变领口等具体方法。"
+        },
+        "event": {
+          "key": "vuwfine-first-frame-26fw",
+          "label": "VUWFINE First Frame 26FW"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-13T09:31:16.000Z",
+      "chineseSummary": "Gardera 与 Pastre 翻新比亚里茨一套 1970 年代公寓，保留其冲浪文化与加州旅馆气质，同时用开放布局、定制木作和滑动隔断把海景、生活与收纳压缩进有限面积。",
+      "chineseTitle": "57 平米海岸公寓以日落和旧建筑重写冲浪感",
+      "contentHash": "sha1:a8dee48a3f26d9b04ec176a357377fb4a1b0e343",
+      "itemId": "visual-wallpaper-gq1ttw",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 89,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 16,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 26
+      },
+      "selectionRationale": "正文明确说明原始格局的限制、33 平米公共空间的改造、定制家具和对既有建筑气质的保留。",
+      "status": "success",
+      "trendKeywords": [
+        "海岸改造",
+        "小户型空间",
+        "日落色温"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.wallpaper.com/architecture/residential/1970s-biarritz-apartment-renovation",
+        "snapshotHash": "c40704e8baad721f1385d909a2ecca6aa7a2cfee6993a1010a3e4cfb47e9dc90",
+        "facts": [
+          {
+            "statement": "设计团队希望保留原建筑的性格，而不是以无个性的翻新抹去它。",
+            "quote": "preserve that character rather than erase it"
+          },
+          {
+            "statement": "他们把格局打开，形成一处面向露台的 33 平米客餐厨空间。",
+            "quote": "a generous, 33 sq m living and kitchen space facing the terraces"
+          }
+        ],
+        "visualMethod": "从既有建筑的一段地方记忆提取色温与氛围，再用开放视线、圆角木作和滑动界面重排有限面积。",
+        "application": "改造小型空间时，可先确定一个不可替代的景观方向，并把封闭隔间换成可开合界面，让公共区域优先获得视线与光。",
+        "visualTags": [
+          "空间",
+          "构图",
+          "材质"
+        ],
+        "limitation": "报道未提供平面图、预算和施工节点，不能据此推断项目的技术性能。",
+        "assessment": {
+          "contentKind": "production_case",
+          "methodEvidence": "specific",
+          "rationale": "正文提供原始格局、面积、开放策略、定制家具和保存建筑性格的具体信息。"
+        },
+        "event": {
+          "key": "sunset-biarritz-apartment-renovation-2026",
+          "label": "Sunset Biarritz apartment renovation 2026"
+        }
+      }
     }
   ],
   "failures": [],
-  "generatedAt": "2026-11-10T09:18:56.000Z",
+  "generatedAt": "2026-11-13T09:31:16.000Z",
   "promptVersion": "visual-daily-v1"
 }
