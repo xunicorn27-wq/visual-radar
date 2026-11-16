@@ -18865,9 +18865,363 @@
           "label": "Stephen Bliss GTA 网格视觉访谈"
         }
       }
+    },
+    {
+      "analyzedAt": "2026-11-16T09:25:00.000Z",
+      "chineseSummary": "那不勒斯 Fontanelle 墓园在修缮后以新照明方案重新开放：线性灯清晰标出坡道入口，投光与重点照明则在洞穴般的骨灰堂中控制方向、象征性与氛围。这个项目把安全导视和情绪塑造拆为不同光层，为历史空间的夜间叙事提供了可借鉴的布光结构。",
+      "chineseTitle": "用层次照明重写那不勒斯墓园的步行叙事",
+      "contentHash": "sha1:1678ce8aba43f56c0c8f2cc1237483cb57e58045",
+      "itemId": "visual-wallpaper-1pdu07k",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 90,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 17,
+        "professionalRelevance": 18,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "正文交代了历史场地、修缮背景、具体灯具用途与动线位置，兼具空间方法和文化语境。",
+      "status": "success",
+      "trendKeywords": [
+        "空间照明",
+        "历史更新",
+        "夜间动线"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.wallpaper.com/architecture/in-cimitero-delle-fontanelle-naples-pagan-traditions-italy",
+        "snapshotHash": "e401b6cb7e63f61dbcc399eb07ff6a532e087718ae67d621099ecdab505f9eef",
+        "facts": [
+          {
+            "statement": "墓园修缮后以 iGuzzini 的新照明概念重新开放。",
+            "quote": "a new lighting concept by iGuzzini"
+          },
+          {
+            "statement": "新坡道采用 Underscore 线性照明，以保证入口清楚且安全。",
+            "quote": "Underscore linear lighting"
+          }
+        ],
+        "visualMethod": "这是编辑分析：先用连续低位光定义可达动线，再以局部投光为历史细节和节点建立停顿，能让安全性与仪式感并存。",
+        "application": "为展览或旧建筑夜场先画出入口、过渡、驻留三段动线；只在入口连续布光，其他区域以可调角度的重点光保留暗部。",
+        "visualTags": [
+          "布光",
+          "空间",
+          "叙事"
+        ],
+        "limitation": "报道未给出照度、色温、维护方案或完整平面图。",
+        "assessment": {
+          "contentKind": "artwork",
+          "methodEvidence": "specific",
+          "rationale": "原文明确列出修缮背景、照明品牌、线性灯与重点灯的空间用途。"
+        },
+        "event": {
+          "key": "fontanelle-cemetery-lighting-reopening-2026",
+          "label": "Fontanelle 墓园照明更新开放"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-16T09:25:00.000Z",
+      "chineseSummary": "Paris Photo 2026 在 Grand Palais 集结 38 个国家的 246 家参展方，报道从 Merry Alpern 的窥视性拼贴、Summer Wagner 的屏幕幽光，到 Fukase 的高反差黑白与 Sassen 的时尚—艺术混合摄影，提供了一组关于私密性、技术媒介和身体经验的并置观看框架。",
+      "chineseTitle": "巴黎摄影展用并置视角拉开摄影的媒介光谱",
+      "contentHash": "sha1:5d6c1791c81b2716e72cda2d7f240afd69990bf8",
+      "itemId": "visual-dazed-c2lwpk",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 89,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 18,
+        "professionalRelevance": 17,
+        "sourceQuality": 8,
+        "timeliness": 3,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "正文确认展会规模，也列出多位摄影师的具体系列、画面方法与展位语境，适合摄影和编辑策展参考。",
+      "status": "success",
+      "trendKeywords": [
+        "摄影展会",
+        "私密影像",
+        "数字幽光"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.dazeddigital.com/art-photography/article/71342/1/paris-photo-art-fair-photography-2026-highlights-guide-grand-palais?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=the-standout-pictures-from-paris-photo-2026",
+        "snapshotHash": "6ccb50b3c0b8633522b06d28072e75c225c1db2be539ba4d255456d6442c655b",
+        "facts": [
+          {
+            "statement": "本届 Paris Photo 在 Grand Palais 汇集 38 个国家的 246 家参展方。",
+            "quote": "246 exhibitors from 38 countries"
+          },
+          {
+            "statement": "Summer Wagner 的作品在 Paris Photo 的数字单元展出。",
+            "quote": "Paris Photo’s Digital Sector"
+          }
+        ],
+        "visualMethod": "这是编辑分析：将档案黑白、私密纪实和屏幕光数字图像放在同一编辑序列，可用媒介差异而非题材相同来建立节奏。",
+        "application": "制作摄影选集时可按观看距离组织：远观放置高反差或大构图图像，近观加入屏幕光和私密细节，最后以文字留出解释缓冲。",
+        "visualTags": [
+          "构图",
+          "动态影像",
+          "叙事"
+        ],
+        "limitation": "报道为精选预览，未提供全部展位清单、作品尺寸或成交信息。",
+        "assessment": {
+          "contentKind": "artwork",
+          "methodEvidence": "specific",
+          "rationale": "正文确认展会规模并逐项描述多位艺术家的系列和视觉特征。"
+        },
+        "event": {
+          "key": "paris-photo-2026-grand-palais",
+          "label": "Paris Photo 2026"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-16T09:25:00.000Z",
+      "chineseSummary": "RHAD Architects 为新斯科舍海岸设计的 Bridge House 从船屋和小屋提取体量与木材语言，并将住宅后移、以木桥连接停车场与首层。桥既是功能连接，也是从景观进入室内的仪式阈值；双层公共厅再把海湾视线纳入日常社交。",
+      "chineseTitle": "把海岸民居原型转成抵达仪式的雪松住宅",
+      "contentHash": "sha1:f11fcf838f2e1a9b666bd2fd63b506514d0279de",
+      "itemId": "visual-wallpaper-li6z03",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 86,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 16,
+        "professionalRelevance": 17,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 26
+      },
+      "selectionRationale": "项目给出地域原型、材料、动线和空间组织，能转译为建筑、零售或展览空间的抵达叙事。",
+      "status": "success",
+      "trendKeywords": [
+        "海岸建筑",
+        "雪松立面",
+        "抵达仪式"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.wallpaper.com/architecture/residential/bridge-house-rhad-architects-canada",
+        "snapshotHash": "eb103cd3ad22250dd38b195a21ea698d6659d7c0feedb27a2a3d605fa26656d6",
+        "facts": [
+          {
+            "statement": "建筑师以船屋和当地小屋为形式研究的核心参照。",
+            "quote": "Boathouses and local cabins"
+          },
+          {
+            "statement": "木桥被定义为连接景观与建筑的仪式性阈值。",
+            "quote": "a ceremonial threshold"
+          }
+        ],
+        "visualMethod": "这是编辑分析：把地域材料与一个被拉长的进场动作绑定，使外部环境在进入主空间前先被身体感知。",
+        "application": "在入口空间中用一条材质连续的窄路径连接外部与主场，并将第一处开窗或采光留到路径末端，强化抵达感。",
+        "visualTags": [
+          "空间",
+          "材质",
+          "叙事"
+        ],
+        "limitation": "报道未提供平面尺寸、结构节点或完工摄影以外的使用反馈。",
+        "assessment": {
+          "contentKind": "artwork",
+          "methodEvidence": "specific",
+          "rationale": "原文说明地域原型、木材、桥梁动线与公共空间的具体组织。"
+        },
+        "event": {
+          "key": "rhad-bridge-house-nova-scotia-2026",
+          "label": "RHAD Bridge House 海岸住宅"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-16T09:25:00.000Z",
+      "chineseSummary": "Balenciaga Le City 在 25 周年节点回到其最初的“反 It Bag”逻辑：柔软 Arena 羊皮、弧形金属扣与手柄鞭缝让包体贴近身体，时间留下的褶皱也成为识别。2026 年项目再将 Damien Hirst 的圆点、曼陀罗与旋转绘画转译为蝶形图案和刺绣贴布，使配饰成为承载图形叙事的柔性表面。",
+      "chineseTitle": "Le City 25 周年以柔软皮革承接艺术家图案",
+      "contentHash": "sha1:ee4cc89e3e65d8609d5d6dd668c5d6c3fc5cdd73",
+      "itemId": "visual-vogue-korea-pnewsx",
+      "model": "codex-agent",
+      "primaryTopic": "fashion_culture",
+      "promptVersion": "visual-daily-v1",
+      "score": 89,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 18,
+        "professionalRelevance": 17,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "报道清楚呈现 Le City 的材料与构造线索，以及周年合作如何把当代艺术图案落到配饰表面。",
+      "status": "success",
+      "trendKeywords": [
+        "软皮革",
+        "艺术家联名",
+        "配饰叙事"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.vogue.co.kr/2026/11/16/the-new-chapter-of-le-city/",
+        "snapshotHash": "76ed8ef1704f5f7413338160ada101bc59828b4cde8b4b1f91e4d185eb9f9b05",
+        "facts": [
+          {
+            "statement": "Le City 的包身使用柔软的 Arena 羊皮。",
+            "quote": "부드러운 아레나 램스킨 소재 보디"
+          },
+          {
+            "statement": "Damien Hirst 的彩色圆点被组织为蝴蝶形图案。",
+            "quote": "다채로운 컬러의 둥근 도트가 나비 형태"
+          }
+        ],
+        "visualMethod": "这是编辑分析：保留一个可被触摸、会自然起褶的基础表面，再将合作图案局部嵌入，可避免图形压过物件本身的使用感。",
+        "application": "为配饰联名先定义一个不印图也能成立的材质和五金语言，只在可替换的小面积上测试刺绣、贴布或重复图案。",
+        "visualTags": [
+          "材质",
+          "工艺",
+          "叙事"
+        ],
+        "limitation": "文章为品牌内容，未提供联名系列的完整发售渠道、工艺样本或销量信息。",
+        "assessment": {
+          "contentKind": "vendor_case",
+          "methodEvidence": "specific",
+          "rationale": "正文给出皮革、五金、缝线与艺术家图案的具体描述。"
+        },
+        "event": {
+          "key": "balenciaga-le-city-25th-damien-hirst-2026",
+          "label": "Balenciaga Le City 25 周年项目"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-16T09:25:00.000Z",
+      "chineseSummary": "Gustaf Westman 的 35 件 Disney 家居系列没有把角色图案直接贴到既有物件上，而是把耳朵、蝴蝶结、帽子、颜色和轮廓拆成镜子、杯子、桌几与灯具的结构。设计师把角色当作“形状、色彩和剪影”的库，以极少信息保留可辨识度，形成轻快但能进入当代室内的物件语言。",
+      "chineseTitle": "Gustaf Westman 把迪士尼角色拆成可用的形状语法",
+      "contentHash": "sha1:f31d52fdeaa97a53193d9f045a1f3addc6424475",
+      "itemId": "visual-wallpaper-11fneiz",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 94,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 9,
+        "timeliness": 5,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "访谈披露了合作规模、对象转译方式、草图过程与设计原则，是角色 IP 转换成产品语言的具体案例。",
+      "status": "success",
+      "trendKeywords": [
+        "角色解构",
+        "家居设计",
+        "形状语法"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.wallpaper.com/design-interiors/gustaf-westman-disney-collection-interview",
+        "snapshotHash": "364090b1655f3c4f0cb977cd92e09e9a792e1d81b200951a2ee23d960f8ea703",
+        "facts": [
+          {
+            "statement": "该家居系列包含 35 件产品。",
+            "quote": "35-piece homeware collection"
+          },
+          {
+            "statement": "Westman 从角色的形状、色彩和剪影开始研究。",
+            "quote": "shapes, colours and silhouettes"
+          }
+        ],
+        "visualMethod": "这是编辑分析：先抽取角色最小的识别单元，再将它们转为功能结构，能避免 IP 图案化而保留一眼可认的记忆点。",
+        "application": "面对已有 IP 时先列出三种不可替代的轮廓或色彩线索；每次只选一种映射到把手、边缘、支脚或开口，而非覆盖整个表面。",
+        "visualTags": [
+          "构图",
+          "色彩",
+          "叙事"
+        ],
+        "limitation": "报道未给出全部产品的材料、生产数量和耐用性测试。",
+        "assessment": {
+          "contentKind": "vendor_case",
+          "methodEvidence": "specific",
+          "rationale": "设计师直接解释了角色元素、草图过程和产品转译原则。"
+        },
+        "event": {
+          "key": "gustaf-westman-disney-homeware-2026",
+          "label": "Gustaf Westman × Disney 家居系列"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-16T09:25:00.000Z",
+      "chineseSummary": "为纪念日意建交 160 周年，Ferragamo 在东京艺术周期间于银座本店公开精选档案。展览从曾属 Andy Warhol、仍留有颜料滴痕的 1960 年代牛皮牛津鞋，到草间弥生绘图启发刺绣的 2008 春夏 Marisa 包，把创作痕迹、鞋履工艺和日本艺术关系放进同一条观看线索。",
+      "chineseTitle": "Ferragamo 银座档案展以创作痕迹串接鞋履与艺术",
+      "contentHash": "sha1:e55808a23d1c8c3d54e488c19e4ac4101165ea3f",
+      "itemId": "visual-vogue-japan-1nr2vim",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 89,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 17,
+        "professionalRelevance": 17,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "正文提供展期、地点与多件具体档案作品，清晰说明品牌如何以物件细节组织跨文化艺术叙事。",
+      "status": "success",
+      "trendKeywords": [
+        "品牌档案",
+        "鞋履工艺",
+        "艺术展陈"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.vogue.co.jp/article/2026-11-16-ferragamo",
+        "snapshotHash": "509e782c549136da5291bebd0d68c163bcdb9d69261a74c40fed16a6d2507610",
+        "facts": [
+          {
+            "statement": "展览于 11 月 9 日至 12 月 22 日在 Ferragamo 银座本店对公众开放。",
+            "quote": "11月9日(月)〜12月22日(火)まで"
+          },
+          {
+            "statement": "一双 1960 年代牛皮牛津鞋曾为 Andy Warhol 所有，鞋尖留有颜料滴痕。",
+            "quote": "絵の具のしずくが残されており"
+          }
+        ],
+        "visualMethod": "这是编辑分析：将使用或创作留下的微小痕迹与正式档案并置，能让品牌史从年代陈列转成可近看的物证叙事。",
+        "application": "策划品牌档案墙时，每件物品只选一个可放大的物理细节，配一条短说明和一张全貌图，让观看在微观与整体间来回。",
+        "visualTags": [
+          "工艺",
+          "材质",
+          "叙事"
+        ],
+        "limitation": "报道未提供全部展品清单、布展设计或展览现场图。",
+        "assessment": {
+          "contentKind": "artwork",
+          "methodEvidence": "specific",
+          "rationale": "正文提供展期地点和多件档案物的年代、材料与关联背景。"
+        },
+        "event": {
+          "key": "ferragamo-ginza-archive-exhibition-2026",
+          "label": "Ferragamo 银座档案特展"
+        }
+      }
     }
   ],
   "failures": [],
-  "generatedAt": "2026-11-14T09:24:30.000Z",
+  "generatedAt": "2026-11-16T09:25:00.000Z",
   "promptVersion": "visual-daily-v1"
 }
