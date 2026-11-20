@@ -19547,9 +19547,304 @@
           "label": "Dan Flavin《Some Light》古根海姆毕尔巴鄂展"
         }
       }
+    },
+    {
+      "analyzedAt": "2026-11-20T01:26:40.000Z",
+      "chineseSummary": "巴西艺术家 Ode 与摄影师 Maltoni 的《CARRANCA》从用于辟邪的拟人、拟兽雕塑出发，将 Exu 的象征、古埃及与约鲁巴视觉参照编进 Urias 同名专辑的图像叙事。系列以黑、红、靛蓝、白色建立克制而高辨识的调色板，并让每张照片对应一首曲目。它提示创作者：先用明确的文化谱系和色彩规则建立世界观，再把服装、身体和场景安排为可连续阅读的章节。",
+      "chineseTitle": "以 Afro-surrealism 重组祖先图像与流行音乐",
+      "contentHash": "sha1:8a5de31eb5ff68f701668485bc834af5d3248ad9",
+      "itemId": "visual-photovogue-1khvmva",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 93,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 18,
+        "professionalRelevance": 18,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "正文明确交代文化参照、固定色谱、每张照片与曲目的对应关系及完整制作分工，能作为概念时尚影像从研究到系列编排的具体参考。",
+      "status": "success",
+      "trendKeywords": [
+        "Afro-surrealism",
+        "音乐叙事",
+        "色彩系统"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.vogue.com/article/carranca",
+        "snapshotHash": "0329ff7f178655749360a28e2fbd547f8cbb2a427a0f26bf71f9542dd9d337ad",
+        "facts": [
+          {
+            "statement": "该系列以黑、红、靛蓝、白色作为指向巴西 Exu 表征的调色板。",
+            "quote": "black, red, indigo, and white"
+          },
+          {
+            "statement": "系列让每张摄影作品对应 Urias 同名专辑中的一首曲目。",
+            "quote": "each photograph corresponding to a track"
+          }
+        ],
+        "visualMethod": "这是编辑分析：以有限色谱锁定文化语境，再把一组图像逐一绑定声音或章节，可让造型、身体和布景在系列中既独立又连续。",
+        "application": "为一组音乐或时装影像先写出四种固定颜色与五个章节标题；每次拍摄只服务一个章节，并在选片时检查图像能否按章节顺序形成节奏。",
+        "visualTags": [
+          "色彩",
+          "叙事",
+          "构图"
+        ],
+        "limitation": "报道未提供每张照片的具体布光、镜头或后期参数。",
+        "assessment": {
+          "contentKind": "artwork",
+          "methodEvidence": "specific",
+          "rationale": "原文直接说明系列的色谱、概念框架、图像与曲目的对应关系及制作角色。"
+        },
+        "event": {
+          "key": "carranca-ode-maltoni-urias-2025",
+          "label": "Ode 与 Maltoni《CARRANCA》摄影系列"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-20T01:26:40.000Z",
+      "chineseSummary": "Alice Diop 为 Miu Miu 与巴黎巴塞尔艺术展公共项目策划《Geste de Consolation》时，从自己的电影《Fragments for Venus》延展到 Palais d’Iéna 的多媒介展陈。她将不同艺术家、声音和图像组织为一个而非多个“手势”，并以电影的蒙太奇逻辑安排观众在房间、图像、声音和情绪之间的过渡。此案的启发不在装饰，而在把叙事节奏落实为观众可行走的空间序列。",
+      "chineseTitle": "把电影蒙太奇翻译成展览中的身体动线",
+      "contentHash": "sha1:f3324fe5ab7d55f7ff468c640d6bd6c90d830823",
+      "itemId": "visual-vogue-korea-155ii3l",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 91,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 17,
+        "professionalRelevance": 18,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "访谈具体说明电影如何扩展为三维展示、动线如何采用蒙太奇思维，以及影像、声音和雕塑的观看次序，适合作为空间叙事的实例。",
+      "status": "success",
+      "trendKeywords": [
+        "空间蒙太奇",
+        "女性叙事",
+        "多媒介展陈"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.vogue.co.kr/2026/11/20/%eb%af%b8%ec%9a%b0%eb%af%b8%ec%9a%b0%ec%99%80-%ec%95%a8%eb%a6%ac%ec%8a%a4-%eb%94%94%ec%98%b5%ec%9d%b4-%ed%8c%8c%eb%a6%ac%ec%97%90%ec%84%9c-%eb%a7%8c%eb%93%a0-%ed%95%98%eb%82%98%ec%9d%98-%ec%a0%9c/",
+        "snapshotHash": "f3341537e52afe677ce571ceb23567edc482968769c778a87dbf80d4664e2c21",
+        "facts": [
+          {
+            "statement": "Diop 以蒙太奇的方式构想观众在展览中的行走动线。",
+            "quote": "관람객의 동선을 몽타주 형식으로 구상하기 시작했다"
+          },
+          {
+            "statement": "她把观众从一个空间引向下一个空间、从图像引向图像。",
+            "quote": "한 공간에서 다음 공간으로, 한 이미지에서 다음 이미지로"
+          }
+        ],
+        "visualMethod": "这是编辑分析：把展厅当作剪辑时间线，为每一次转场规定视觉媒介和情绪变化，比把单件作品平均铺开更容易形成可记住的叙事弧线。",
+        "application": "策划小型展览时先画出入口、停顿、转场、终点四个镜头位；每个转场只改变一个变量——尺度、光线、声音或材质——再以步行测试调整次序。",
+        "visualTags": [
+          "空间",
+          "叙事",
+          "动态影像"
+        ],
+        "limitation": "报道未提供完整平面图、每件作品的精确位置或现场灯光参数。",
+        "assessment": {
+          "contentKind": "production_case",
+          "methodEvidence": "specific",
+          "rationale": "受访者明确描述以电影蒙太奇安排空间、图像、声音和观众移动的工作方法。"
+        },
+        "event": {
+          "key": "geste-de-consolation-alice-diop-miumiu-2026",
+          "label": "Alice Diop《Geste de Consolation》展览"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-20T01:26:40.000Z",
+      "chineseSummary": "第比利斯艺术总监 Nika Belskaya 以 Vivid Cereal 为名，在字体、海报、插画和摄影之间工作。她将档案与公版图像、当代实验性参照和个人介入混合，再把格鲁吉亚身份、童年玩具、真菌学等兴趣持续回收为可扩展的符号库。与其为每个委托从零开始，她的做法是让作品逐步汇入一个多宇宙。对品牌与独立创作者而言，这是一种用重复母题保持系统弹性的方法。",
+      "chineseTitle": "Vivid Cereal：让档案拼贴长成一个视觉宇宙",
+      "contentHash": "sha1:ecbc29e125e4b8421fcd1d7956e9ba6353375636",
+      "itemId": "visual-its-nice-that-15gwp0f",
+      "model": "codex-agent",
+      "primaryTopic": "creator",
+      "promptVersion": "visual-daily-v1",
+      "score": 88,
+      "scoreBreakdown": {
+        "informationSpecificity": 14,
+        "novelty": 17,
+        "professionalRelevance": 17,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 27
+      },
+      "selectionRationale": "原文给出跨媒介工作范围、档案和公版图像的拼贴方式，以及持续累积的兴趣母题，能够转化为独立视觉身份的构建策略。",
+      "status": "success",
+      "trendKeywords": [
+        "档案拼贴",
+        "图形叙事",
+        "创作者宇宙"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.itsnicethat.com/articles/nika-belskaya-vivid-cereal-graphic-design-discover-191126",
+        "snapshotHash": "42113927dc2fb38a52aa8764a29c372ff18f971b82754f766b93df6981abe29a",
+        "facts": [
+          {
+            "statement": "她横跨字体、海报、插画与摄影等媒介工作。",
+            "quote": "typography, poster design, illustration and photography"
+          },
+          {
+            "statement": "她把档案、公版和当代实验参照拼合后再加入个人处理。",
+            "quote": "a mash-up of archival and public-domain images"
+          }
+        ],
+        "visualMethod": "这是编辑分析：将素材来源、媒介和反复出现的个人兴趣整理为可调用的母题库，能让跨项目产出保持识别度，同时允许新图像不断进入系统。",
+        "application": "建立一个只收录已获授权或公版素材的图像库，按字体、纹理、角色和地点标注；每个新项目至少复用一个既有母题，再加入一个新的实验性媒介。",
+        "visualTags": [
+          "字体",
+          "叙事",
+          "工艺"
+        ],
+        "limitation": "报道未说明各项目的版权清理流程、具体字体制作方法或商业合作边界。",
+        "assessment": {
+          "contentKind": "production_case",
+          "methodEvidence": "specific",
+          "rationale": "原文明确列出跨媒介实践、档案与公版图像的拼贴策略及持续的个人参照来源。"
+        },
+        "event": {
+          "key": "vivid-cereal-nika-belskaya-profile-2026",
+          "label": "Nika Belskaya 的 Vivid Cereal 创作实践"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-20T01:26:40.000Z",
+      "chineseSummary": "Alexandre de Betak 在纽约 Salon 94 的《TRUSS LIGHT SCULPTURES 01》把三十年秀场制作经验转向十二件光雕塑：铝制桁架与舞台灯不再退到幕后，而成为作品本体。他为作品重做并隐藏发光系统，将通常需要卡车、设备和多人协作的舞台语言压缩为个人可控制的小型单元。这一转换说明，创作上可以保留工业舞台语汇，却重新分配它的尺度、可见性和控制权。",
+      "chineseTitle": "把秀场桁架与舞台灯压缩为可控的光雕塑",
+      "contentHash": "sha1:3f7fc7d6b99164b0bea695d451bd42c80934ed9e",
+      "itemId": "visual-interview-magazine-vk8r8",
+      "model": "codex-agent",
+      "primaryTopic": "exhibition",
+      "promptVersion": "visual-daily-v1",
+      "score": 92,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 18,
+        "professionalRelevance": 19,
+        "sourceQuality": 8,
+        "timeliness": 3,
+        "visualInspiration": 29
+      },
+      "selectionRationale": "原文具体交代作品数量、桁架与舞台灯的材料来源、隐藏定制光源以及把大型秀场设备缩小为个人控制单元的转译方法。",
+      "status": "success",
+      "trendKeywords": [
+        "光雕塑",
+        "舞台结构",
+        "工业极简"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.interviewmagazine.com/culture/alexandre-de-betak-mel-ottenberg-truss-light-sculptures-exhibition",
+        "snapshotHash": "8e34a8b63c832aa8277b0fce7f89100d1b78fb64d4c7dedd27dc8a87b0931c7a",
+        "facts": [
+          {
+            "statement": "展览包含十二件以桁架和舞台灯为基础的雕塑。",
+            "quote": "twelve sculptures based on the trusses and stage lights"
+          },
+          {
+            "statement": "作品的发光系统为定制且被隐藏起来。",
+            "quote": "custom-designed and concealed"
+          }
+        ],
+        "visualMethod": "这是编辑分析：把通常承担辅助功能的舞台构件前置为主角，再隐藏光源本身，可让结构、反射和阴影成为观看对象，而不被灯泡分散注意。",
+        "application": "做展陈或拍摄装置时选一种后台构件作为主材料；先做一个低尺寸原型，把控制器和光源藏入结构，再从侧面与行走视角检查反射与阴影。",
+        "visualTags": [
+          "布光",
+          "材质",
+          "空间"
+        ],
+        "limitation": "报道未公开灯具功率、控制协议、完整尺寸或安装安全方案。",
+        "assessment": {
+          "contentKind": "artwork",
+          "methodEvidence": "specific",
+          "rationale": "报道清楚说明工业材料的来源、定制隐藏光系统与尺度压缩的制作逻辑。"
+        },
+        "event": {
+          "key": "truss-light-sculptures-alexandre-de-betak-2026",
+          "label": "Alexandre de Betak《TRUSS LIGHT SCULPTURES 01》"
+        }
+      }
+    },
+    {
+      "analyzedAt": "2026-11-20T01:26:40.000Z",
+      "chineseSummary": "摄影师 Finnegan Travers 与 Fergus Riley 创办 Pig Iron Works，并以首本出版物《Handover》将伦敦和曼彻斯特 27 位摄影师的个人、被忽略图像放进同一物理空间。编辑没有要求参与者生产新作，而是邀请他们回到旧印相盒和硬盘；三个章节则从两个月一次、附带诗歌的命题发展而来。这个案例把摄影出版理解为社群之间的对话机制：先建立共同的回望动作，再让编排为分散图像赋予节奏与语境。",
+      "chineseTitle": "《Handover》：让散落的照片重回实体出版",
+      "contentHash": "sha1:dee841c055049347c537f2e6a1845467ba3534cc",
+      "itemId": "visual-dazed-1fdv39w",
+      "model": "codex-agent",
+      "primaryTopic": "photography",
+      "promptVersion": "visual-daily-v1",
+      "score": 92,
+      "scoreBreakdown": {
+        "informationSpecificity": 15,
+        "novelty": 17,
+        "professionalRelevance": 19,
+        "sourceQuality": 8,
+        "timeliness": 5,
+        "visualInspiration": 28
+      },
+      "selectionRationale": "报道提供参与人数、跨城市社群、旧档案再利用、三章结构和诗歌命题等具体编辑方法，是摄影出版与社群策展的高质量参考。",
+      "status": "success",
+      "trendKeywords": [
+        "摄影出版",
+        "社区档案",
+        "编辑编排"
+      ],
+      "editorial": {
+        "version": "evidence-v1",
+        "status": "verified",
+        "sourceUrl": "https://www.dazeddigital.com/art-photography/article/71386/1/handover-photo-book-jesse-glazzard-photography-manchester?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=this-book-unearths-long-lost-images-from-27-photographers",
+        "snapshotHash": "0c19b629c5850b598263d38fc5bc640ad502a1967fefad71a03b810a534161df",
+        "facts": [
+          {
+            "statement": "该书让伦敦与曼彻斯特的 27 位摄影师共同进入一本实体出版物。",
+            "quote": "Bringing 27 photographers into conversation across London and Manchester"
+          },
+          {
+            "statement": "编辑没有要求新作，而是请参与者回看自己的档案。",
+            "quote": "rather than ask contributors to make something new"
+          }
+        ],
+        "visualMethod": "这是编辑分析：以共同的档案回看替代统一的新拍摄任务，再用章节和命题建立跨作者的关联，能保留个体差异而让出版物形成整体节奏。",
+        "application": "为一本小型摄影出版先征集每人一张未公开旧图，围绕三条简短命题做初选；编排时让每个章节以环境、身体或空白页作为视觉换气点。",
+        "visualTags": [
+          "叙事",
+          "构图",
+          "工艺"
+        ],
+        "limitation": "报道未披露完整页序、印刷规格、发行量或所有入选图像。",
+        "assessment": {
+          "contentKind": "production_case",
+          "methodEvidence": "specific",
+          "rationale": "原文说明了跨城市参与结构、档案征集方式、章节形成过程和设计协作。"
+        },
+        "event": {
+          "key": "handover-pig-iron-works-photobook-2026",
+          "label": "Pig Iron Works《Handover》摄影出版计划"
+        }
+      }
     }
   ],
   "failures": [],
-  "generatedAt": "2026-11-18T01:28:00.000Z",
+  "generatedAt": "2026-11-20T01:26:40.000Z",
   "promptVersion": "visual-daily-v1"
 }
